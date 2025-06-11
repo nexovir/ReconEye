@@ -1,0 +1,42 @@
+from django.db import models
+from django.contrib.auth.models import User
+from core.models import BaseModel
+
+
+
+
+
+class Profile(BaseModel):
+    # General
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="profile")
+    display_name = models.CharField(max_length=50)
+    avatar = models.ImageField(upload_to="users/avatars/", blank=True, null=True)
+    banner = models.ImageField(upload_to="users/banners/", blank=True, null=True)
+    bio = models.TextField(max_length=500, blank=True)
+    is_available_for_collab = models.BooleanField(default=False)
+
+    # Skills and Focus
+    skills = models.JSONField(default=list)  # e.g. ['xss', 'rce', 'recon']
+    experience_level = models.CharField(
+        max_length=30,
+        choices=[
+            ("newbie", "Newbie"),                  # کاملاً تازه‌کار
+            ("junior", "Junior Hacker"),           # تازه‌کار ولی با کمی تجربه
+            ("intermediate", "Intermediate"),      # سطح متوسط
+            ("advanced", "Advanced"),              # مسلط و حرفه‌ای
+            ("pro", "Pro Hacker"),                 # در حد متخصص واقعی
+            ("elite", "Elite"),                    # برتر و باتجربه زیاد
+            ("legend", "Legendary"),               # افسانه‌ای، سطح خیلی بالا
+            ("ghost", "Ghost (Stealth Expert)"),   # مخفی‌کار و پیشرفته
+        ],
+        default="newbie"
+    )
+
+    # Links
+    website = models.URLField(blank=True, null=True)
+    social_links = models.JSONField(default=list)
+    resume = models.FileField(upload_to="users/resumes/", blank=True, null=True)
+
+
+    def __str__(self):
+        return f"{self.display_name}'s profile"
