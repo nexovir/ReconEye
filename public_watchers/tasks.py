@@ -19,7 +19,7 @@ def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", lo
     if telegram:
         escaped_message = message.replace(' ', '+')
         command = (
-            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
+            f'proxychains curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
             f'-d "chat_id=5028701156&text={escaped_message}"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -28,7 +28,7 @@ def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", lo
 
 
 def request(url: str, name:str ,  retries: int = 20, delay: int = 5) -> dict:
-    sendmessage (f"[info] Getting {name} data ..." )
+    sendmessage (f"[info] Getting {name} data ..."  )
     attempts = 0
     while attempts < retries:
         try:
@@ -384,7 +384,7 @@ def get_yeswehack_programs (data, watcherprogram):
 
 @shared_task
 def check_programs():
-
+    
     watcherprograms = ProgramWatcher.objects.filter(is_active = True)
     ProgramWatcher.objects.filter(is_active = True ).update(status='pending')
 
