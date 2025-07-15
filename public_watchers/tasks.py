@@ -417,3 +417,5 @@ def check_programs():
             program.save()
             
             sendmessage(f'Error : {e}' , colour='RED')
+
+            s
