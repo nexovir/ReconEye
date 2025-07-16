@@ -4,7 +4,7 @@ import colorama, json, requests, time, subprocess, pydig, os , tempfile
 from requests.exceptions import RequestException
 from .models import *
 from datetime import datetime
-
+from .telegram_bot import *
 
 OUTPUT_PATH = 'private_watchers/outputs'
 WORDLISTS_PATH = 'private_watchers/wordlists'
@@ -87,7 +87,6 @@ def run_wabackurls(domain, retries=3):
         except Exception as e:
             sendmessage(f"[ERROR] Waybackurls error on attempt {attempt} for {domain}: {e}", colour='RED')
 
-    # اگر هیچ تلاش موفق نبود
     sendmessage(f"  [ERROR] Failed to get subdomains from Waybackurls for {domain} after {retries} attempts.", colour='RED')
     return []
 
@@ -120,7 +119,6 @@ def run_httpx(watcher_wildcard, input_file_path):
             '-timeout', '10',
         ]
 
-        # خروجی stdout را مستقیماً در فایل بنویس
         with open(output_file_path, 'w') as outfile, open(os.devnull, 'w') as devnull:
             subprocess.run(command, check=True, stdout=outfile, stderr=devnull)
 
@@ -181,11 +179,9 @@ def save_httpx_results(results):
             for field, new_value in new_data.items():
                 old_value = getattr(existing, field)
                 if old_value != new_value:
-                    # ذخیره تغییرات به شکل old_value -> new_value
                     change_data[f"{field}_change"] = f"{old_value} -> {new_value}"
 
             if change_data:
-                # فقط اگر تغییر وجود داشت، بروزرسانی کن و تغییرات را ثبت کن
                 obj, created = SubdomainHttpx.objects.update_or_create(
                     discovered_subdomain=discovered,
                     defaults={**new_data}
@@ -201,11 +197,9 @@ def save_httpx_results(results):
                 )
 
             else:
-                # اگر تغییری نبود، فیلدها رو همون قبلی‌ها بذار
                 if existing:
-                    obj = existing  # قبلی رو نگه دار
+                    obj = existing
                 else:
-                    # اگر رکوردی نبود، بسازش با داده‌های فعلی
                     obj, created = SubdomainHttpx.objects.update_or_create(
                         discovered_subdomain=discovered,
                         defaults={**new_data}
@@ -647,12 +641,10 @@ def check_assets():
         process_crtsh(crtsh_domains)
         process_wabackurls(wabackurls_domains)
         proccess_user_subdomains(assets)
-
         process_dns_bruteforce(assets)
-
         process_httpx(assets)
+        process_cidrs_scanning(watcher_cidrs)
 
-        # process_cidrs_scanning(watcher_cidrs)
     except Exception as e:
         sendmessage(f"[ERROR] Subdomain discovery failed: {e}", colour='RED')
 
