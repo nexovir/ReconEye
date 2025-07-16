@@ -259,6 +259,7 @@ def process_subfinder(domains):
                         wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
                     )
                     if created:
+                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
                         obj.label = "new"
                         obj.save()
                 wildcard.status = 'completed'
@@ -281,7 +282,9 @@ def process_crtsh(domains):
                     obj, created = DiscoverSubdomain.objects.get_or_create(
                         wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
                     )
+                    
                     if created:
+                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
                         obj.label = "new"
                         obj.save()
                 wildcard.status = 'completed'
@@ -304,6 +307,7 @@ def process_wabackurls(domains):
                     obj, created = DiscoverSubdomain.objects.get_or_create(
                         wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
                     )
+                    asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
                     if created:
                         obj.label = "new"
                         obj.save()
@@ -341,6 +345,7 @@ def proccess_user_subdomains(assets):
                         wildcard=watched_wildcard, subdomain=sub, defaults={'tool': tool}
                     )
                     if created:
+                        
                         obj.label = "new"
                         obj.save()
                 watched_wildcard.status = 'completed'
@@ -429,7 +434,7 @@ def process_dns_bruteforce(watcher_assets):
             discoverd_static = f"{root_path}/{domain}.statics"
             final_dns_wordlist = f"{root_path}/{domain}.final"
 
-            sendmessage(f"[INFO] Starting DNSB ruteforce for {domain}", telegram=True)
+            sendmessage(f"[INFO] Starting DNS Bruteforce for {domain}", telegram=True)
 
             if not wildcard.tools.filter(tool_name='dns_bruteforce').exists():
                 continue
@@ -479,7 +484,10 @@ def process_dns_bruteforce(watcher_assets):
                 obj, created = DiscoverSubdomain.objects.get_or_create(
                     wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
                 )
+                
                 if created:
+                    asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                    
                     obj.label = "new"
                     obj.save()
                 wildcard.status = 'completed'

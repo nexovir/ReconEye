@@ -84411,3 +84411,93 @@ another command is already in progress -> 16/07/2025, 02:51:37
 [INFO] Starting Insert user's subdomains -> 16/07/2025, 21:13:30
   [INFO] No own subdomains found for oppo.com -> 16/07/2025, 21:13:30
 [INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 21:13:30
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 21:45:57
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 21:46:19
+  [+] 182 subs found for oppo.com -> 16/07/2025, 21:47:24
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 21:47:25
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 21:47:25
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 21:47:25
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 21:48:34
+  [+] 144 subs found for oppo.com -> 16/07/2025, 21:49:41
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 21:49:42
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 21:49:42
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 21:49:42
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 21:50:53
+  [+] 182 subs found for oppo.com -> 16/07/2025, 21:51:58
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 21:51:59
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 21:51:59
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 21:51:59
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 22:12:58
+  [+] 182 subs found for oppo.com -> 16/07/2025, 22:14:04
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:14:05
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:14:05
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:14:05
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 22:14:31
+  [+] 182 subs found for oppo.com -> 16/07/2025, 22:15:36
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:15:37
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:15:37
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:15:37
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 22:29:30
+  [+] 177 subs found for oppo.com -> 16/07/2025, 22:30:35
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:30:36
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:30:36
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:30:36
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 22:31:29
+  [+] 177 subs found for oppo.com -> 16/07/2025, 22:32:35
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 22:35:18
+  [+] 182 subs found for oppo.com -> 16/07/2025, 22:36:24
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 22:39:01
+  [+] 182 subs found for oppo.com -> 16/07/2025, 22:40:08
+[INFO] Attempt 1: Starting Crt.sh for on socks 127.0.0.1:1080 'oppo.com'... -> 16/07/2025, 22:41:24
+  [WAR] No subdomains found for oppo.com in Crt.sh (Attempt 1) -> 16/07/2025, 22:41:28
+[INFO] Attempt 2: Starting Crt.sh for on socks 127.0.0.1:1080 'oppo.com'... -> 16/07/2025, 22:41:28
+  [+] 11 subs found for oppo.com -> 16/07/2025, 22:41:40
+[INFO] Attempt 1: Starting Waybackurls for 'oppo.com'... -> 16/07/2025, 22:42:53
+  [WAR] No subdomains found in attempt 1 for oppo.com -> 16/07/2025, 22:42:56
+[INFO] Attempt 2: Starting Waybackurls for 'oppo.com'... -> 16/07/2025, 22:42:56
+  [WAR] No subdomains found in attempt 2 for oppo.com -> 16/07/2025, 22:42:59
+[INFO] Attempt 3: Starting Waybackurls for 'oppo.com'... -> 16/07/2025, 22:42:59
+  [WAR] No subdomains found in attempt 3 for oppo.com -> 16/07/2025, 22:43:03
+  [ERROR] Failed to get subdomains from Waybackurls for oppo.com after 3 attempts. -> 16/07/2025, 22:43:03
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:43:03
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:43:03
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:43:03
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:47:41
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:47:41
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:47:41
+  [*] A record check passed for oppo.com -> 16/07/2025, 22:47:42
+  [+] 181 subdomains collected for DNS bruteforce -> 16/07/2025, 22:47:42
+  [INFO] Merged and sorted DNS wordlists into private_watchers/outputs/nexovir/oppo.com/oppo.com.final -> 16/07/2025, 22:47:49
+[INFO] No subdomains resolved for oppo.com -> 16/07/2025, 22:47:52
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:50:04
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:50:04
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:50:04
+  [*] A record check passed for oppo.com -> 16/07/2025, 22:50:04
+  [+] 181 subdomains collected for DNS bruteforce -> 16/07/2025, 22:50:04
+  [INFO] Merged and sorted DNS wordlists into private_watchers/outputs/nexovir/oppo.com/oppo.com.final -> 16/07/2025, 22:50:05
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:56:32
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:56:32
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:56:32
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:56:34
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:56:34
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 22:56:34
+  [ERROR] DNS A record check error: Command '['dig', 'nonexistent1234.oppo.com', 'A', '+short']' returned non-zero exit status 9. -> 16/07/2025, 22:56:57
+  [ERROR] DNS A record check error: Command '['dig', 'nonexistent1234.oppo.com', 'A', '+short']' returned non-zero exit status 9. -> 16/07/2025, 22:57:00
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:57:05
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:57:05
+[INFO] Starting DNS Bruteforce for oppo.com -> 16/07/2025, 22:57:05
+  [ERROR] DNS A record check error: Command '['dig', 'nonexistent1234.oppo.com', 'A', '+short']' returned non-zero exit status 9. -> 16/07/2025, 22:57:30
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 22:59:55
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 22:59:55
+[INFO] Starting DNS Bruteforce for oppo.com -> 16/07/2025, 22:59:55
+  [*] A record check passed for oppo.com -> 16/07/2025, 22:59:56
+  [+] 181 subdomains collected for DNS bruteforce -> 16/07/2025, 22:59:56
+  [INFO] Merged and sorted DNS wordlists into private_watchers/outputs/nexovir/oppo.com/oppo.com.final -> 16/07/2025, 22:59:57
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 23:01:11
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 23:01:11
+[INFO] Starting DNS Bruteforce for oppo.com -> 16/07/2025, 23:01:11
+  [*] A record check passed for oppo.com -> 16/07/2025, 23:01:12
+  [+] 181 subdomains collected for DNS bruteforce -> 16/07/2025, 23:01:12
+  [INFO] Merged and sorted DNS wordlists into private_watchers/outputs/nexovir/oppo.com/oppo.com.final -> 16/07/2025, 23:01:13
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 23:15:13
+  [+] 179 subs found for oppo.com -> 16/07/2025, 23:16:19
