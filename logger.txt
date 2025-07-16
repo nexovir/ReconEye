@@ -84366,3 +84366,48 @@ another command is already in progress -> 16/07/2025, 02:51:37
        [+] Federacy Data Inserting Successfully -> 16/07/2025, 11:54:52
 [info] Getting Hackerone data ... -> 16/07/2025, 11:54:52
       [info] Connection OK -> 16/07/2025, 11:54:53
+       [+] Hackerone Data Inserting Successfully -> 16/07/2025, 12:00:44
+[info] Getting Bugcrowd data ... -> 16/07/2025, 12:00:44
+      [info] Connection OK -> 16/07/2025, 12:00:59
+       [+] Bugcrowd Data Inserting Successfully -> 16/07/2025, 12:01:18
+[info] Getting Yeswehack data ... -> 16/07/2025, 19:59:33
+      [info] Connection OK -> 16/07/2025, 19:59:34
+       [+] Yeswehack Data Inserting Successfully -> 16/07/2025, 19:59:54
+[info] Getting Intigriti data ... -> 16/07/2025, 19:59:54
+      [info] Connection OK -> 16/07/2025, 19:59:55
+       [+] Intigriti Data Inserting Successfully -> 16/07/2025, 20:00:01
+[info] Getting Federacy data ... -> 16/07/2025, 20:00:01
+      [info] Connection OK -> 16/07/2025, 20:00:02
+       [+] Federacy Data Inserting Successfully -> 16/07/2025, 20:00:03
+[info] Getting Hackerone data ... -> 16/07/2025, 20:00:03
+      [info] Connection OK -> 16/07/2025, 20:00:05
+       [+] Hackerone Data Inserting Successfully -> 16/07/2025, 20:06:03
+[info] Getting Bugcrowd data ... -> 16/07/2025, 20:06:03
+      [info] Connection OK -> 16/07/2025, 20:06:04
+       [+] Bugcrowd Data Inserting Successfully -> 16/07/2025, 20:06:27
+[info] Getting Federacy data ... -> 16/07/2025, 21:02:16
+      [info] Connection OK -> 16/07/2025, 21:02:17
+       [+] Federacy Data Inserting Successfully -> 16/07/2025, 21:02:18
+[info] Getting Hackerone data ... -> 16/07/2025, 21:02:18
+[info] Getting Hackerone data ... -> 16/07/2025, 21:02:23
+      [info] Connection OK -> 16/07/2025, 21:02:25
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 16/07/2025, 21:03:27
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 16/07/2025, 21:04:00
+  [+] 2 subs found for memoryleaks.ir -> 16/07/2025, 21:04:32
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 21:04:32
+  [INFO] No own subdomains found for memoryleaks.ir -> 16/07/2025, 21:04:32
+[INFO] Starting DNSB ruteforce for memoryleaks.ir -> 16/07/2025, 21:04:32
+  [+] 2 subs found for memoryleaks.ir -> 16/07/2025, 21:05:05
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 21:05:05
+  [INFO] No own subdomains found for memoryleaks.ir -> 16/07/2025, 21:05:05
+[INFO] Starting DNSB ruteforce for memoryleaks.ir -> 16/07/2025, 21:05:05
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 16/07/2025, 21:05:43
+  [+] 2 subs found for memoryleaks.ir -> 16/07/2025, 21:06:47
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 21:06:47
+  [INFO] No own subdomains found for memoryleaks.ir -> 16/07/2025, 21:06:47
+[INFO] Starting DNSB ruteforce for memoryleaks.ir -> 16/07/2025, 21:06:47
+[INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 21:12:23
+  [+] 164 subs found for oppo.com -> 16/07/2025, 21:13:29
+[INFO] Starting Insert user's subdomains -> 16/07/2025, 21:13:30
+  [INFO] No own subdomains found for oppo.com -> 16/07/2025, 21:13:30
+[INFO] Starting DNSB ruteforce for oppo.com -> 16/07/2025, 21:13:30
