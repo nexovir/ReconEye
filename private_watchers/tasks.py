@@ -226,7 +226,7 @@ def save_httpx_results(results):
                         change_data.get("title_change", ""),
                         change_data.get("header_hash_change", ""),
                         change_data.get("body_hash_change", ""),
-                        changes_obj.updated_at
+                        changes_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S")
                     ))
                 changes_obj.label = 'new'
                 changes_obj.save()
@@ -537,7 +537,8 @@ def process_cidrs_scanning(watcher_cidrs):
                     port=port,
                 )
                 if created:
-                    
+                    if watcher_cidr.watcher.notify :
+                        asyncio.run(send_new_cidr('ip' , ip , f":{port}" , obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S") , ''))
                     obj.label = "new"
                     obj.save()
         
@@ -547,7 +548,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
 
     def run_httpx(watcher_cidr):
-        sendmessage(f"[INFO] Starting HTTPx on {watcher_cidr.cidr} Assets")
+        sendmessage(f"  [INFO] Starting HTTPx on {watcher_cidr.cidr} Assets")
 
         services = watcher_cidr.discoverd_services.all()
         if not services.exists():
@@ -561,7 +562,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
         try:
             result = subprocess.run(
-                ['httpx', '-l', f.name, '-sc', '-no-color', '-silent'],
+                ['httpx', '-l', f.name, '-sc', '-threads', '10', '-timeout','7', '-no-color', '-silent'],
                 capture_output=True, text=True, check=True
             )
         except subprocess.CalledProcessError as e:
@@ -587,6 +588,8 @@ def process_cidrs_scanning(watcher_cidrs):
                 )
 
                 if not created:
+                    if watcher_cidr.watcher.notify : 
+                        asyncio.run(send_new_cidr('ip httpx' , service_url , '' , obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S") , status_code))
                     if obj.status_code != status_code:
                         obj.status_code = status_code
                         obj.label = "new"
@@ -603,7 +606,7 @@ def process_cidrs_scanning(watcher_cidrs):
         try : 
             sendmessage(f"[INFO] Scanning CIDR: {watcher_cidr.cidr}")
             run_naabu(watcher_cidr)
-            # run_httpx(watcher_cidr)
+            run_httpx(watcher_cidr)
 
         except Exception as e : 
             sendmessage(f"[ERROR] process cidr scanning failed {e}" , colour="RED")

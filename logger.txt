@@ -1614,3 +1614,42 @@ e29df48012ee21852971ec3ced024fa8 != d5bb8ee611e1ee51125040493fa84200 -> 17/07/20
 [ERROR] process cidr scanning failed 'DiscoverdServices' object has no attribute 'service' -> 17/07/2025, 20:48:28
 [INFO] Starting Insert user's subdomains -> 17/07/2025, 20:50:23
 [INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 20:50:23
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 20:53:21
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 20:53:21
+[INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 17/07/2025, 20:53:41
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 20:59:36
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 20:59:36
+[ERROR] process cidr scanning failed null value in column "has_change" of relation "private_watchers_discoverdservices" violates not-null constraint
+DETAIL:  Failing row contains (1654, 2025-07-17 17:29:50.82285+00, 2025-07-17 17:29:50.822891+00, t, 104.21.92.124, 8080, available, 1, null). -> 17/07/2025, 20:59:50
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:00:25
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:00:25
+[ERROR] process cidr scanning failed null value in column "has_change" of relation "private_watchers_discoverdservices" violates not-null constraint
+DETAIL:  Failing row contains (1655, 2025-07-17 17:30:39.834579+00, 2025-07-17 17:30:39.834607+00, t, 104.21.92.240, 2096, available, 1, null). -> 17/07/2025, 21:00:39
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:01:02
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:01:02
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:09:24
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:09:24
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:09:27
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:09:27
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:09:30
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:09:30
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:09:33
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:09:33
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:10:17
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:10:17
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:15:47
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:15:47
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:18:29
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:18:29
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:19:35
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:19:35
+[INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 17/07/2025, 21:19:55
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:20:44
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:20:44
+[INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 17/07/2025, 21:21:05
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:22:18
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:22:18
+[INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 17/07/2025, 21:22:33
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 21:26:15
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:26:15
+[INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 17/07/2025, 21:26:35

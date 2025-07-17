@@ -106,6 +106,39 @@ Date : <i>{time_date}</i>
 
 
 
+async def send_new_cidr(message_title ,ip , port , time_date , status_code):
+    try:
+        await bot.send_message(
+            chat_id=GROUP_ID,
+            message_thread_id=1818,
+            text=f'''🔺 <b>NEW {message_title.upper()} RESULT</b> 🔻
+
+ip : <pre>{ip}{port}</pre>  
+
+status_code : <b>{status_code}</b>
+
+Date : <i>{time_date}</i>
+
+
+<i>Tags :</i> 
+#new_asset #zerosec #bugbounty #{message_title.replace(" " , "_").lower()}
+
+──────────────
+📡 Follow :
+👉 @zerosec_team
+''',
+            parse_mode="HTML",
+        )
+
+        await asyncio.sleep(5)
+
+    except Exception as e:
+        print(colorama.Fore.RED + f"[!] Error sending message: {e}" + colorama.Style.RESET_ALL)
+
+
+
+
+
 async def startbot(domain, subdomain, tool, time_date):
     async with sem:
         await send_new_assets(domain, subdomain, tool, time_date)

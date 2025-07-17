@@ -361,9 +361,6 @@ class DiscoverdServices(BaseModel):
     def __str__ (self): 
         return f"{self.ip}:{self.port} -> {self.watcher} - "
     
-    def save(self, *args, **kwargs):
-
-        super().save(*args, **kwargs)
 
     class Meta:
         verbose_name = 'Discoverd Service'
@@ -379,7 +376,8 @@ class DiscoverdServicesAlive(BaseModel):
 
     def __str__(self):
         return f"{self.service} - {self.status_code}"
-    
+
+
     class Meta:
         db_table = ''
         managed = True
