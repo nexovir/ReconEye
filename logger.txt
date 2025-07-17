@@ -84501,3 +84501,302 @@ another command is already in progress -> 16/07/2025, 02:51:37
   [INFO] Merged and sorted DNS wordlists into private_watchers/outputs/nexovir/oppo.com/oppo.com.final -> 16/07/2025, 23:01:13
 [INFO] Starting Subfinder for 'oppo.com'... -> 16/07/2025, 23:15:13
   [+] 179 subs found for oppo.com -> 16/07/2025, 23:16:19
+[info] Getting Bugcrowd data ... -> 17/07/2025, 09:58:46
+      [info] Connection OK -> 17/07/2025, 09:58:47
+       [+] Bugcrowd Data Inserting Successfully -> 17/07/2025, 09:59:04
+[info] Getting Yeswehack data ... -> 17/07/2025, 09:59:04
+      [info] Connection OK -> 17/07/2025, 09:59:05
+       [+] Yeswehack Data Inserting Successfully -> 17/07/2025, 09:59:10
+[info] Getting Intigriti data ... -> 17/07/2025, 09:59:10
+      [info] Connection OK -> 17/07/2025, 09:59:11
+       [+] Intigriti Data Inserting Successfully -> 17/07/2025, 09:59:17
+[info] Getting Federacy data ... -> 17/07/2025, 09:59:17
+      [info] Connection OK -> 17/07/2025, 09:59:18
+       [+] Federacy Data Inserting Successfully -> 17/07/2025, 09:59:19
+[info] Getting Hackerone data ... -> 17/07/2025, 09:59:19
+      [info] Connection OK -> 17/07/2025, 09:59:21
+       [+] Hackerone Data Inserting Successfully -> 17/07/2025, 10:29:06
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 10:52:45
+  [INFO] No own subdomains found for oppo.com -> 17/07/2025, 10:52:45
+[INFO] Starting DNS Bruteforce for oppo.com -> 17/07/2025, 10:52:45
+  [INFO] Starting HTTPx on 'oppo.com - nexovir'... -> 17/07/2025, 10:52:45
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 10:53:00
+  [INFO] No own subdomains found for oppo.com -> 17/07/2025, 10:53:00
+[INFO] Starting DNS Bruteforce for oppo.com -> 17/07/2025, 10:53:00
+  [INFO] Starting HTTPx on 'oppo.com - nexovir'... -> 17/07/2025, 10:53:00
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 12:26:53
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 12:26:58
+  [INFO] No own subdomains found for oppo.com -> 17/07/2025, 12:26:58
+  [INFO] Starting HTTPx on 'oppo.com - nexovir'... -> 17/07/2025, 12:26:58
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 12:28:31
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 12:35:13
+  [INFO] No own subdomains found for oppo.com -> 17/07/2025, 12:35:13
+  [INFO] Starting HTTPx on 'oppo.com - nexovir'... -> 17/07/2025, 12:35:13
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 12:48:08
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 12:48:53
+  [+] 1253 subs found for walmart.com -> 17/07/2025, 12:50:48
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 13:00:00
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 13:01:05
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 13:02:06
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 13:03:10
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 13:03:10
+  [+] 862 subs found for walmart.com -> 17/07/2025, 13:04:40
+[INFO] Attempt 1: Starting Crt.sh for on socks 127.0.0.1:1080 'memoryleaks.ir'... -> 17/07/2025, 13:04:46
+  [+] 3 subs found for memoryleaks.ir -> 17/07/2025, 13:05:08
+[INFO] Attempt 1: Starting Waybackurls for 'memoryleaks.ir'... -> 17/07/2025, 13:05:08
+  [WAR] No subdomains found in attempt 1 for memoryleaks.ir -> 17/07/2025, 13:05:11
+[INFO] Attempt 2: Starting Waybackurls for 'memoryleaks.ir'... -> 17/07/2025, 13:05:11
+  [WAR] No subdomains found in attempt 2 for memoryleaks.ir -> 17/07/2025, 13:05:15
+[INFO] Attempt 3: Starting Waybackurls for 'memoryleaks.ir'... -> 17/07/2025, 13:05:15
+  [WAR] No subdomains found in attempt 3 for memoryleaks.ir -> 17/07/2025, 13:05:18
+  [ERROR] Failed to get subdomains from Waybackurls for memoryleaks.ir after 3 attempts. -> 17/07/2025, 13:05:18
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 13:05:18
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 13:05:18
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 13:05:18
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 13:05:18
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 13:37:58
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 13:37:58
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 13:38:36
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 13:39:41
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 13:39:41
+  [+] 1263 subs found for walmart.com -> 17/07/2025, 13:41:23
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 13:41:29
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 13:41:29
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 13:41:29
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 13:41:29
+  [*] Starting Parsing Data ... -> 17/07/2025, 13:41:37
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 13:41:37
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 13:41:37
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 13:58:59
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 13:59:06
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 14:00:11
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:00:11
+  [+] 1210 subs found for walmart.com -> 17/07/2025, 14:02:15
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 14:02:19
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 14:02:19
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 14:02:19
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 14:02:19
+  [*] Starting Parsing Data ... -> 17/07/2025, 14:02:26
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 14:02:26
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 14:02:26
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 14:13:00
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:13:08
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 14:14:13
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:14:13
+  [+] 1261 subs found for walmart.com -> 17/07/2025, 14:15:41
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 14:15:45
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 14:15:45
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 14:15:45
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 14:15:45
+  [*] Starting Parsing Data ... -> 17/07/2025, 14:15:52
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 14:15:52
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 14:15:52
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '3', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 14:17:04
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:17:30
+  [+] 961 subs found for walmart.com -> 17/07/2025, 14:18:53
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:19:01
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:19:31
+  [+] 1263 subs found for walmart.com -> 17/07/2025, 14:20:59
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:21:04
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 14:22:10
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 14:22:10
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 14:22:10
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 14:22:10
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 14:22:10
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '25', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 14:37:04
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 14:37:04
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:37:19
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 14:38:24
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:38:24
+  [+] 1258 subs found for walmart.com -> 17/07/2025, 14:40:07
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 14:40:11
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 14:40:11
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 14:40:11
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 14:40:11
+  [*] Starting Parsing Data ... -> 17/07/2025, 14:40:20
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 14:40:20
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 14:40:20
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '5', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 14:43:19
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:44:20
+  [+] 988 subs found for walmart.com -> 17/07/2025, 14:45:43
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:45:46
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 14:46:51
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 14:46:51
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 14:46:51
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 14:46:51
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 14:46:51
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '5', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 14:49:00
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 14:49:00
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:49:06
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 14:50:12
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:50:12
+  [+] 1299 subs found for walmart.com -> 17/07/2025, 14:51:43
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 14:51:48
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 14:51:48
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 14:51:48
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 14:51:48
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-proxy', 'http://127.0.0.1:1080-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 14:51:53
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 14:51:53
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-proxy', 'http://127.0.0.1:1080-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 14:51:59
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:52:21
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 14:53:28
+[INFO] Starting Subfinder for 'walmart.com'... -> 17/07/2025, 14:53:28
+  [+] 1237 subs found for walmart.com -> 17/07/2025, 14:55:37
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 14:55:41
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 14:55:41
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 14:55:41
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 14:55:41
+  [*] Starting Parsing Data ... -> 17/07/2025, 14:55:46
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 14:55:46
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 14:55:46
+  [*] Starting Parsing Data ... -> 17/07/2025, 14:56:08
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 14:56:08
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 14:58:47
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 15:01:51
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 15:02:57
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 15:02:57
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 15:02:57
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 15:02:57
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 15:02:57
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 15:25:05
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 15:25:05
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 15:32:46
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 15:33:54
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 15:33:54
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 15:33:54
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 15:33:54
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 15:33:54
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '10']' returned non-zero exit status 1. -> 17/07/2025, 15:33:59
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 15:33:59
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 15:45:19
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 15:46:21
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 15:46:21
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 15:46:21
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 15:46:21
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 15:46:21
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-tls-probe', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '3']' returned non-zero exit status 1. -> 17/07/2025, 15:48:27
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 15:48:27
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 15:48:31
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 15:49:37
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 15:49:37
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 15:49:37
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 15:49:37
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 15:49:37
+  [*] Starting Parsing Data ... -> 17/07/2025, 15:49:45
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 15:49:45
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 15:49:45
+  [*] Starting Parsing Data ... -> 17/07/2025, 15:50:30
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 15:50:30
+[ERROR] Subdomain discovery failed: ['“” value must be either True or False.'] -> 17/07/2025, 15:50:30
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 15:51:47
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 15:52:54
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 15:52:54
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 15:52:54
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 15:52:54
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 15:52:54
+  [*] Starting Parsing Data ... -> 17/07/2025, 15:53:38
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 15:53:38
+[ERROR] Subdomain discovery failed: invalid input syntax for type boolean: ""
+LINE 1: ...87.86', '80', '', '', '[''50.7.87.86'']', '', '', '', 'new')...
+                                                             ^ -> 17/07/2025, 15:53:38
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 15:54:05
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 15:55:06
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 15:55:06
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 15:55:06
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 15:55:06
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 15:55:06
+  [*] Starting Parsing Data ... -> 17/07/2025, 15:55:46
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 15:55:46
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 15:55:47
+  [*] Starting Parsing Data ... -> 17/07/2025, 15:55:49
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 15:55:49
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 17/07/2025, 15:58:04
+  [+] 2 subs found for memoryleaks.ir -> 17/07/2025, 15:59:05
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 15:59:05
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 15:59:05
+  [INFO] No own subdomains found for memoryleaks.ir -> 17/07/2025, 15:59:05
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 15:59:05
+  [*] Starting Parsing Data ... -> 17/07/2025, 15:59:46
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 15:59:46
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 17/07/2025, 15:59:47
+  [*] Starting Parsing Data ... -> 17/07/2025, 15:59:50
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 15:59:50
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:13:41
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:13:41
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:13:41
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '3']' returned non-zero exit status 1. -> 17/07/2025, 16:14:02
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:14:22
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:14:22
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:14:22
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:15:05
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:15:05
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:19:46
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:19:46
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:19:46
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:20:32
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:20:32
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:20:32
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '3']' returned non-zero exit status 1. -> 17/07/2025, 16:20:34
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:20:49
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:20:49
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:20:49
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:21:38
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:21:38
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:22:10
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:22:10
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:22:10
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '20', '-timeout', '3']' returned non-zero exit status 1. -> 17/07/2025, 16:22:28
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:22:31
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:22:31
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:22:31
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:23:25
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:23:25
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:25:14
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:25:14
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:25:14
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:25:56
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:25:56
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:26:31
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:26:31
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:26:31
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:27:16
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:27:16
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:27:59
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:27:59
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:27:59
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:28:39
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:28:39
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:30:13
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:30:13
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:30:13
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:30:58
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:30:58
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:37:16
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:37:16
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:37:16
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:38:01
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:38:01
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:38:40
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:38:40
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:38:40
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:39:21
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:39:21
+[ERROR] Subdomain discovery failed: 'bool' object has no attribute 'updated_at' -> 17/07/2025, 16:39:21
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:39:42
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:39:42
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:39:42
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:40:24
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:40:24
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:43:45
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:43:45
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:43:45
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:44:31
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:44:31
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:45:28
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:45:28
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:45:28
+  [*] Starting Parsing Data ... -> 17/07/2025, 16:46:06
+     [+] Starting Save Httpx Results and Detect Changes -> 17/07/2025, 16:46:06
+[INFO] Starting Insert user's subdomains -> 17/07/2025, 16:51:58
+  [INFO] No own subdomains found for walmart.com -> 17/07/2025, 16:51:58
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 17/07/2025, 16:51:58

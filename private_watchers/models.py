@@ -202,7 +202,7 @@ class SubdomainHttpx(BaseModel):
 
     body_hash = models.CharField(blank=True , null=True , max_length=200)
     header_hash = models.CharField(blank=True , null=True , max_length=200)
-    has_cdn = models.BooleanField(default=False)
+    has_cdn = models.CharField(default='False')
 
     label = models.CharField(choices=LABELS , default='new')
 

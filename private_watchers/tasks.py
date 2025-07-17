@@ -95,7 +95,7 @@ def run_wabackurls(domain, retries=3):
 def run_httpx(watcher_wildcard, input_file_path):
     try:
         sendmessage(f"  [INFO] Starting HTTPx on '{watcher_wildcard}'...", telegram=False)
-
+            
         output_file_path = f"{input_file_path}_output.jsonl"
 
         command = [
@@ -111,17 +111,16 @@ def run_httpx(watcher_wildcard, input_file_path):
             '-cdn',
             '-cname',
             '-content-type',
-            '-tls-probe',
             '-no-color',
             '-json',
             '-silent',
             '-threads', '20',
-            '-timeout', '10',
+            '-timeout', '3',
         ]
 
         with open(output_file_path, 'w') as outfile, open(os.devnull, 'w') as devnull:
             subprocess.run(command, check=True, stdout=outfile, stderr=devnull)
-
+            
         return output_file_path
 
     except subprocess.CalledProcessError as e:
@@ -142,7 +141,6 @@ def parse_httpx_jsonl(file_path):
     return results
 
 
-
 def save_httpx_results(results):
     sendmessage(f"     [+] Starting Save Httpx Results and Detect Changes", colour='GREEN')
 
@@ -152,6 +150,8 @@ def save_httpx_results(results):
             discovered = DiscoverSubdomain.objects.get(subdomain=domain)
         except DiscoverSubdomain.DoesNotExist:
             continue
+
+        hash_info = item.get("hash", {})
 
         new_data = {
             "httpx_result": item.get("url") or "",
@@ -167,46 +167,21 @@ def save_httpx_results(results):
             "line_count": item.get("lines") or "",
             "a_records": item.get("a") or "",
 
-            "body_hash": item.get("body_md5") or "",
-            "header_hash": item.get("header_md5") or "",
+            "body_hash": hash_info.get("body_md5", ""),
+            "header_hash": hash_info.get("header_md5", ""),
+
             "has_cdn": item.get("cdn") or ""
         }
 
+        change_data = {}
+
         try:
             existing = SubdomainHttpx.objects.get(discovered_subdomain=discovered)
-            change_data = {}
 
             for field, new_value in new_data.items():
                 old_value = getattr(existing, field)
                 if old_value != new_value:
                     change_data[f"{field}_change"] = f"{old_value} -> {new_value}"
-
-            if change_data:
-                obj, created = SubdomainHttpx.objects.update_or_create(
-                    discovered_subdomain=discovered,
-                    defaults={**new_data}
-                )
-
-                if created:
-                    obj.label = 'new'
-                    obj.save()
-
-                SubdomainHttpxChanges.objects.update_or_create(
-                    discovered_subdomain=discovered,
-                    defaults={**change_data, "label": "changed"}
-                )
-
-            else:
-                if existing:
-                    obj = existing
-                else:
-                    obj, created = SubdomainHttpx.objects.update_or_create(
-                        discovered_subdomain=discovered,
-                        defaults={**new_data}
-                    )
-                    if created:
-                        obj.label = 'new'
-                        obj.save()
 
         except SubdomainHttpx.DoesNotExist:
             existing = None
@@ -217,8 +192,27 @@ def save_httpx_results(results):
         )
 
         if created:
+            asyncio.run(send_new_httpx('httpx',item.get("url"), item.get("status_code"), item.get("webserver"), item.get("tech"), f"{item.get('host')}:{item.get('port')}", item.get("cdn"), obj.updated_at))
             obj.label = 'new'
             obj.save()
+
+        if change_data:
+            changes_obj, changes_created = SubdomainHttpxChanges.objects.update_or_create(
+                discovered_subdomain=discovered,
+                defaults={**change_data, "label": "changed"}
+            )
+            if changes_created:
+                print(change_data)
+                # asyncio.run(send_new_httpx(
+                #     'httpx changes',
+                #     item.get("url"),
+                #     item.get("status_code"),
+                #     item.get("webserver"),
+                #     item.get("tech"),
+                #     f"{item.get('host')}:{item.get('port')}",
+                #     item.get("cdn"),
+                #     changes_obj.updated_at
+                # ))
 
 
 
@@ -259,7 +253,8 @@ def process_subfinder(domains):
                         wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
                     )
                     if created:
-                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                        if wildcard.watcher.notify :
+                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
                         obj.label = "new"
                         obj.save()
                 wildcard.status = 'completed'
@@ -284,7 +279,8 @@ def process_crtsh(domains):
                     )
                     
                     if created:
-                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                        if wildcard.watcher.notify :
+                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
                         obj.label = "new"
                         obj.save()
                 wildcard.status = 'completed'
@@ -307,7 +303,8 @@ def process_wabackurls(domains):
                     obj, created = DiscoverSubdomain.objects.get_or_create(
                         wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
                     )
-                    asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                    if wildcard.watcher.notify :
+                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
                     if created:
                         obj.label = "new"
                         obj.save()
@@ -329,8 +326,8 @@ def proccess_user_subdomains(assets):
         return []
 
     try :
-        tool = Tool.objects.get(tool_name='owned')
         sendmessage("[INFO] Starting Insert user's subdomains")
+        tool = Tool.objects.get(tool_name='owned')
         for asset in assets :
             watched_wildcards = WatchedWildcard.objects.filter(watcher=asset)
             for watched_wildcard in watched_wildcards :
@@ -434,7 +431,6 @@ def process_dns_bruteforce(watcher_assets):
             discoverd_static = f"{root_path}/{domain}.statics"
             final_dns_wordlist = f"{root_path}/{domain}.final"
 
-            sendmessage(f"[INFO] Starting DNS Bruteforce for {domain}", telegram=True)
 
             if not wildcard.tools.filter(tool_name='dns_bruteforce').exists():
                 continue
@@ -446,6 +442,7 @@ def process_dns_bruteforce(watcher_assets):
 
             
             generate_dns_wordlist(asset, wildcard , discoverd_subs , discoverd_dynamic , discoverd_static , final_dns_wordlist)
+            sendmessage(f"[INFO] Starting DNS Bruteforce for {domain}", telegram=True)
 
             with open(f'{root_path}/{domain}.resolved', 'w') as outfile:
                 puredns = subprocess.Popen(
@@ -486,8 +483,8 @@ def process_dns_bruteforce(watcher_assets):
                 )
                 
                 if created:
-                    asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
-                    
+                    if wildcard.watcher.notify :
+                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
                     obj.label = "new"
                     obj.save()
                 wildcard.status = 'completed'
@@ -532,7 +529,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
 
     def run_httpx(watcher_cidr):
-        sendmessage(f"[INFO] Starting HTTPx on {watcher_cidr.cidr}")
+        sendmessage(f"[INFO] Starting HTTPx on {watcher_cidr.cidr} Assets")
 
         services = watcher_cidr.discoverd_services.all()
         if not services.exists():

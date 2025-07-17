@@ -23,7 +23,7 @@ def httpx(sub):
     return sub_httpx
 
 
-async def send_message_to_channel(domain, subdomain, tool, time_date):
+async def send_new_assets(domain, subdomain, tool, time_date):
     try:
         keyboard = [
             [InlineKeyboardButton(f"⚡️ Visit {subdomain}⚡️", url=httpx(subdomain))],
@@ -59,9 +59,56 @@ Date : <i>{time_date}</i>
     except Exception as e:
         print(colorama.Fore.RED + f"[!] Error sending message: {e}" + colorama.Style.RESET_ALL)
 
+
+
+async def send_new_httpx(message_title ,httpx_result , status_code , server , technologies , ip_port , has_cdn , time_date):
+    try:
+        keyboard = [
+            [InlineKeyboardButton(f"⚡️ Visit Subdomain⚡️", url=httpx_result)],
+        ]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+
+        await bot.send_message(
+            chat_id=GROUP_ID,
+            message_thread_id=1818,
+            text=f'''🔺 <b>NEW {message_title.upper()} RESULT</b> 🔻
+
+httpx_result : <pre>{httpx_result}</pre>  
+
+status_code : <b>{status_code}</b>
+
+server : <i>{server}</i>     
+
+technologies : <i>{technologies}</i>
+
+ip_port : <b>{ip_port}</b>
+
+has_cdn : <b>{has_cdn}</b>
+
+Date : <i>{time_date}</i>
+
+
+<i>Tags :</i> 
+#new_asset #zerosec #bugbounty #{status_code} #{server}
+
+──────────────
+📡 Follow :
+👉 @zerosec_team
+''',
+            reply_markup=reply_markup,
+            parse_mode="HTML",
+        )
+
+        await asyncio.sleep(1)
+
+    except Exception as e:
+        print(colorama.Fore.RED + f"[!] Error sending message: {e}" + colorama.Style.RESET_ALL)
+
+
+
 async def startbot(domain, subdomain, tool, time_date):
     async with sem:
-        await send_message_to_channel(domain, subdomain, tool, time_date)
+        await send_new_assets(domain, subdomain, tool, time_date)
         await asyncio.sleep(5)
 
 
