@@ -202,7 +202,7 @@ class SubdomainHttpx(BaseModel):
 
     body_hash = models.CharField(blank=True , null=True , max_length=200)
     header_hash = models.CharField(blank=True , null=True , max_length=200)
-    has_cdn = models.CharField(default='False')
+    has_cdn = models.CharField(default='False' , null=True , blank=True , max_length=10)
 
     label = models.CharField(choices=LABELS , default='new')
 
@@ -362,10 +362,6 @@ class DiscoverdServices(BaseModel):
         return f"{self.ip}:{self.port} -> {self.watcher} - "
     
     def save(self, *args, **kwargs):
-        if self.service:
-            self.has_service = True
-        else :
-            self.has_service = False
 
         super().save(*args, **kwargs)
 

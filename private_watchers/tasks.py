@@ -114,8 +114,8 @@ def run_httpx(watcher_wildcard, input_file_path):
             '-no-color',
             '-json',
             '-silent',
-            '-threads', '20',
-            '-timeout', '3',
+            '-threads', '10',
+            '-timeout', '7',
         ]
 
         with open(output_file_path, 'w') as outfile, open(os.devnull, 'w') as devnull:
@@ -174,14 +174,23 @@ def save_httpx_results(results):
         }
 
         change_data = {}
-
+        actual_changes = {}
         try:
             existing = SubdomainHttpx.objects.get(discovered_subdomain=discovered)
 
+
             for field, new_value in new_data.items():
                 old_value = getattr(existing, field)
-                if old_value != new_value:
+                
+                if str(old_value) != str(new_value):
                     change_data[f"{field}_change"] = f"{old_value} -> {new_value}"
+                    
+                    if field not in ['ip_address', 'a_records']:
+                        actual_changes[f"{field}_change"] = f"{old_value} -> {new_value}"
+                else:
+                    change_data[f"{field}_change"] = str(new_value)
+
+                    
 
         except SubdomainHttpx.DoesNotExist:
             existing = None
@@ -192,27 +201,35 @@ def save_httpx_results(results):
         )
 
         if created:
-            asyncio.run(send_new_httpx('httpx',item.get("url"), item.get("status_code"), item.get("webserver"), item.get("tech"), f"{item.get('host')}:{item.get('port')}", item.get("cdn"), obj.updated_at))
+            if discovered.wildcard.watcher.notify :
+                asyncio.run(send_new_httpx('httpx',item.get("url"), item.get("status_code"), item.get("webserver"), item.get("tech"), f"{item.get('host')}:{item.get('port')}", item.get("cdn"), item.get("title") , item.get("header_md5") , item.get ("body_md5"), obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
             obj.label = 'new'
             obj.save()
 
-        if change_data:
+
+        if actual_changes: 
             changes_obj, changes_created = SubdomainHttpxChanges.objects.update_or_create(
                 discovered_subdomain=discovered,
-                defaults={**change_data, "label": "changed"}
+                defaults={**change_data, "label": "new"}
             )
             if changes_created:
-                print(change_data)
-                # asyncio.run(send_new_httpx(
-                #     'httpx changes',
-                #     item.get("url"),
-                #     item.get("status_code"),
-                #     item.get("webserver"),
-                #     item.get("tech"),
-                #     f"{item.get('host')}:{item.get('port')}",
-                #     item.get("cdn"),
-                #     changes_obj.updated_at
-                # ))
+                if discovered.wildcard.watcher.notify :
+                    print(changes_created)
+                    asyncio.run(send_new_httpx(
+                        'httpx changes',
+                        change_data.get("httpx_result_change", ""),
+                        change_data.get("status_code_change", ""),
+                        change_data.get("server_change", ""),
+                        change_data.get("technologies_change", ""),
+                        change_data.get("ip_address_change", ""),
+                        change_data.get("has_cdn_change", ""),
+                        change_data.get("title_change", ""),
+                        change_data.get("header_hash_change", ""),
+                        change_data.get("body_hash_change", ""),
+                        changes_obj.updated_at
+                    ))
+                changes_obj.label = 'new'
+                changes_obj.save()
 
 
 
@@ -254,7 +271,7 @@ def process_subfinder(domains):
                     )
                     if created:
                         if wildcard.watcher.notify :
-                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
                         obj.label = "new"
                         obj.save()
                 wildcard.status = 'completed'
@@ -280,7 +297,7 @@ def process_crtsh(domains):
                     
                     if created:
                         if wildcard.watcher.notify :
-                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
                         obj.label = "new"
                         obj.save()
                 wildcard.status = 'completed'
@@ -304,7 +321,7 @@ def process_wabackurls(domains):
                         wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
                     )
                     if wildcard.watcher.notify :
-                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
                     if created:
                         obj.label = "new"
                         obj.save()
@@ -484,7 +501,7 @@ def process_dns_bruteforce(watcher_assets):
                 
                 if created:
                     if wildcard.watcher.notify :
-                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at))
+                        asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
                     obj.label = "new"
                     obj.save()
                 wildcard.status = 'completed'
@@ -498,7 +515,6 @@ def process_cidrs_scanning(watcher_cidrs):
         cidr = watcher_cidr.cidr
         ports_query = watcher_cidr.ports.values_list('port', flat=True)
         ports = ",".join(port for port in ports_query if port)
-
         if not ports:
             return []
 
@@ -514,12 +530,14 @@ def process_cidrs_scanning(watcher_cidrs):
         for line in result.stdout.strip().split('\n'):
             if ':' in line:
                 ip, port = line.strip().split(':')
+                
                 obj, created = DiscoverdServices.objects.get_or_create(
                     watcher=watcher_cidr,
                     ip=ip,
                     port=port,
                 )
                 if created:
+                    
                     obj.label = "new"
                     obj.save()
         
@@ -584,11 +602,11 @@ def process_cidrs_scanning(watcher_cidrs):
     for watcher_cidr in watcher_cidrs :
         try : 
             sendmessage(f"[INFO] Scanning CIDR: {watcher_cidr.cidr}")
-            # run_naabu(watcher_cidr)
-            run_httpx(watcher_cidr)
+            run_naabu(watcher_cidr)
+            # run_httpx(watcher_cidr)
 
         except Exception as e : 
-            sendmessage("[ERROR] process cidr scanning failed")
+            sendmessage(f"[ERROR] process cidr scanning failed {e}" , colour="RED")
 
 
 
