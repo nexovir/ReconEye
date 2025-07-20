@@ -89,6 +89,37 @@ class AssetWatcher(BaseModel):
     notify = models.BooleanField(default=False)
     status = models.CharField(max_length=150, choices=STATUSES, default='pending')
 
+    def import_wildcards_from_file(self, file_path):
+        tool_names = ['subfinder', 'httpx', 'crt.sh', 'wabackurls']
+        tools = Tool.objects.filter(tool_name__in=tool_names)
+        tools_dict = {tool.tool_name: tool for tool in tools}
+
+        missing_tools = set(tool_names) - set(tools_dict.keys())
+        if missing_tools:
+            print(f"These tools do not exist in DB: {', '.join(missing_tools)}")
+            return
+
+        with open(file_path, 'r') as f:
+            lines = f.readlines()
+
+        for line in lines:
+            wildcard = line.strip()
+            if wildcard:
+                wildcard_obj, created = WatchedWildcard.objects.get_or_create(
+                    watcher=self,
+                    wildcard=wildcard,
+                )
+
+                for tool_name in tool_names:
+                    tool = tools_dict[tool_name]
+                    if not wildcard_obj.tools.filter(pk=tool.pk).exists():
+                        wildcard_obj.tools.add(tool)
+                        print(f"Added {tool_name} tool to wildcard: {wildcard}")
+                    else:
+                        print(f"{tool_name} tool already exists for wildcard: {wildcard}")
+
+
+
     dns_bruteforce_static_wordlist = models.FileField(
         upload_to=user_static_wordlist_upload_path,
         validators=[validate_wordlist_file],
@@ -142,10 +173,9 @@ class Tool(models.Model):
 
 
 
-
 class WatchedWildcard(BaseModel):
     watcher = models.ForeignKey(AssetWatcher , on_delete=models.CASCADE , related_name= 'wildcards')
-    wildcard = models.CharField(max_length=300 , blank=True , null=True)
+    wildcard = models.CharField(max_length=300 , blank=True , null=True , unique=True)
     tools = models.ManyToManyField(Tool)
     own_subdomains = models.FileField(
         upload_to=user_subdomains_upload_path,
@@ -337,12 +367,27 @@ class Ports (models.Model):
 
 class WatcherCIDR(BaseModel):
     watcher = models.ForeignKey(AssetWatcher, on_delete=models.CASCADE, related_name='cidrs' , null=True , blank=True)
-    cidr = models.CharField(max_length=50, blank=True, null=True)
+    cidr = models.CharField(max_length=50, blank=True, null=True , unique=True)
     status = models.CharField(choices=STATUSES, max_length=50, default='new')
     ports = models.ManyToManyField(Ports)
     
     def __str__(self):
         return f"{self.watcher.user.username} - {self.cidr}"
+
+    def import_cidrs_from_file(self, file_path):
+        all_ports = Ports.objects.all()
+        with open(file_path, 'r') as f:
+            lines = f.readlines()
+
+        for line in lines:
+            cidr_line = line.strip()
+            if cidr_line:
+                cidr_obj, created = WatcherCIDR.objects.get_or_create(
+                    watcher=self.watcher,
+                    cidr=cidr_line
+                )
+                cidr_obj.ports.set(all_ports) 
+                cidr_obj.save()
 
     class Meta:
         verbose_name = 'Watcher CIDR'

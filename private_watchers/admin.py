@@ -148,3 +148,15 @@ class DiscoverdServicesAliveAdmin(admin.ModelAdmin):
     search_fields = ['service' , 'status_code']
     ordering = ['-label']
     list_filter = ['status_code' , 'label']
+
+
+
+@admin.register(WatcherCIDR)
+class WatcherCIDRAdmin(admin.ModelAdmin):
+    list_display = ('id', 'watcher', 'cidr', 'status')
+    search_fields = ('cidr',)
+    list_filter = ('status',)
+    readonly_fields = ('created_at', 'updated_at')
+    
+    def get_queryset(self, request):
+        return super().get_queryset(request).select_related('watcher')

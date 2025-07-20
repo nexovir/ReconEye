@@ -1653,3 +1653,622 @@ DETAIL:  Failing row contains (1655, 2025-07-17 17:30:39.834579+00, 2025-07-17 1
 [INFO] Starting Insert user's subdomains -> 17/07/2025, 21:26:15
 [INFO] Scanning CIDR: 104.21.92.0/24 -> 17/07/2025, 21:26:15
 [INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 17/07/2025, 21:26:35
+[INFO] Starting Insert user's subdomains -> 18/07/2025, 21:17:33
+[INFO] Starting Insert user's subdomains -> 18/07/2025, 21:17:33
+[INFO] Starting Insert user's subdomains -> 18/07/2025, 21:17:33
+[INFO] Starting Insert user's subdomains -> 18/07/2025, 21:17:33
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 18/07/2025, 21:17:33
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 18/07/2025, 21:17:33
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 18/07/2025, 21:17:33
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 18/07/2025, 21:17:33
+  [INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 18/07/2025, 21:17:46
+  [INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 18/07/2025, 21:17:48
+  [INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 18/07/2025, 21:17:48
+  [INFO] Starting HTTPx on 104.21.92.0/24 Assets -> 18/07/2025, 21:17:49
+[ERROR] Error running httpx: Command '['httpx', '-l', '/tmp/tmp2bzxq8pu.txt', '-sc', '-threads', '10', '-timeout', '7', '-no-color', '-silent']' returned non-zero exit status 1. -> 18/07/2025, 21:17:56
+[ERROR] Error running httpx: Command '['httpx', '-l', '/tmp/tmp2d4wts0e.txt', '-sc', '-threads', '10', '-timeout', '7', '-no-color', '-silent']' returned non-zero exit status 1. -> 18/07/2025, 21:17:56
+[ERROR] Error running httpx: Command '['httpx', '-l', '/tmp/tmpdfzss2vf.txt', '-sc', '-threads', '10', '-timeout', '7', '-no-color', '-silent']' returned non-zero exit status 1. -> 18/07/2025, 21:17:56
+[ERROR] Error running httpx: Command '['httpx', '-l', '/tmp/tmp38l6j27b.txt', '-sc', '-threads', '10', '-timeout', '7', '-no-color', '-silent']' returned non-zero exit status 1. -> 18/07/2025, 21:17:56
+[info] Getting Bugcrowd data ... -> 18/07/2025, 21:18:41
+      [info] Connection OK -> 18/07/2025, 21:18:41
+       [+] Bugcrowd Data Inserting Successfully -> 18/07/2025, 21:20:52
+[info] Getting Yeswehack data ... -> 18/07/2025, 21:20:52
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 18/07/2025, 21:20:55
+      [info] Connection OK -> 18/07/2025, 21:21:01
+       [+] Yeswehack Data Inserting Successfully -> 18/07/2025, 21:21:08
+[info] Getting Intigriti data ... -> 18/07/2025, 21:21:08
+      [info] Connection OK -> 18/07/2025, 21:21:08
+       [+] Intigriti Data Inserting Successfully -> 18/07/2025, 21:21:22
+[info] Getting Federacy data ... -> 18/07/2025, 21:21:22
+      [info] Connection OK -> 18/07/2025, 21:21:23
+       [+] Federacy Data Inserting Successfully -> 18/07/2025, 21:21:24
+[info] Getting Hackerone data ... -> 18/07/2025, 21:21:24
+      [info] Connection OK -> 18/07/2025, 21:21:27
+[info] Getting Bugcrowd data ... -> 18/07/2025, 21:26:45
+      [info] Connection OK -> 18/07/2025, 21:26:46
+       [+] Bugcrowd Data Inserting Successfully -> 18/07/2025, 21:27:04
+[info] Getting Yeswehack data ... -> 18/07/2025, 21:27:04
+      [info] Connection OK -> 18/07/2025, 21:27:05
+       [+] Yeswehack Data Inserting Successfully -> 18/07/2025, 21:27:11
+[info] Getting Intigriti data ... -> 18/07/2025, 21:27:11
+      [info] Connection OK -> 18/07/2025, 21:27:12
+       [+] Intigriti Data Inserting Successfully -> 18/07/2025, 21:27:19
+[info] Getting Federacy data ... -> 18/07/2025, 21:27:19
+      [info] Connection OK -> 18/07/2025, 21:27:20
+       [+] Federacy Data Inserting Successfully -> 18/07/2025, 21:27:21
+[info] Getting Hackerone data ... -> 18/07/2025, 21:27:21
+      [info] Connection OK -> 18/07/2025, 21:27:23
+       [+] Hackerone Data Inserting Successfully -> 18/07/2025, 21:34:44
+[INFO] Starting Insert user's subdomains -> 19/07/2025, 10:52:04
+[INFO] Starting Insert user's subdomains -> 19/07/2025, 10:52:04
+[INFO] Starting Insert user's subdomains -> 19/07/2025, 10:52:04
+[INFO] Starting Insert user's subdomains -> 19/07/2025, 10:52:04
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 19/07/2025, 10:52:04
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 19/07/2025, 10:52:04
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 19/07/2025, 10:52:04
+[INFO] Scanning CIDR: 104.21.92.0/24 -> 19/07/2025, 10:52:04
+[info] Getting Bugcrowd data ... -> 19/07/2025, 10:52:37
+      [info] Connection OK -> 19/07/2025, 10:52:39
+       [+] Bugcrowd Data Inserting Successfully -> 19/07/2025, 10:52:56
+[info] Getting Yeswehack data ... -> 19/07/2025, 10:52:56
+      [info] Connection OK -> 19/07/2025, 10:52:57
+       [+] Yeswehack Data Inserting Successfully -> 19/07/2025, 10:53:03
+[info] Getting Intigriti data ... -> 19/07/2025, 10:53:03
+      [info] Connection OK -> 19/07/2025, 10:53:04
+       [+] Intigriti Data Inserting Successfully -> 19/07/2025, 10:54:09
+[info] Getting Federacy data ... -> 19/07/2025, 10:54:09
+      [info] Connection OK -> 19/07/2025, 10:54:12
+       [+] Federacy Data Inserting Successfully -> 19/07/2025, 10:54:13
+[info] Getting Hackerone data ... -> 19/07/2025, 10:54:13
+      [info] Connection OK -> 19/07/2025, 10:54:15
+       [+] Hackerone Data Inserting Successfully -> 19/07/2025, 11:01:18
+[info] Getting Bugcrowd data ... -> 19/07/2025, 14:10:28
+      [info] Connection OK -> 19/07/2025, 14:10:30
+       [+] Bugcrowd Data Inserting Successfully -> 19/07/2025, 14:10:49
+[info] Getting Yeswehack data ... -> 19/07/2025, 14:10:49
+      [info] Connection OK -> 19/07/2025, 14:10:50
+       [+] Yeswehack Data Inserting Successfully -> 19/07/2025, 14:10:56
+[info] Getting Intigriti data ... -> 19/07/2025, 14:10:56
+      [info] Connection OK -> 19/07/2025, 14:10:57
+       [+] Intigriti Data Inserting Successfully -> 19/07/2025, 14:11:04
+[info] Getting Federacy data ... -> 19/07/2025, 14:11:04
+      [info] Connection OK -> 19/07/2025, 14:11:04
+       [+] Federacy Data Inserting Successfully -> 19/07/2025, 14:11:06
+[info] Getting Hackerone data ... -> 19/07/2025, 14:11:06
+      [info] Connection OK -> 19/07/2025, 14:11:09
+[info] Getting Bugcrowd data ... -> 19/07/2025, 14:12:13
+[INFO] Starting Subfinder for 'bankwithunited.com'... -> 19/07/2025, 14:12:13
+      [info] Connection OK -> 19/07/2025, 14:12:14
+       [+] Bugcrowd Data Inserting Successfully -> 19/07/2025, 14:12:23
+[info] Getting Yeswehack data ... -> 19/07/2025, 14:12:23
+      [info] Connection OK -> 19/07/2025, 14:12:24
+       [+] Yeswehack Data Inserting Successfully -> 19/07/2025, 14:12:27
+[info] Getting Intigriti data ... -> 19/07/2025, 14:12:27
+      [info] Connection OK -> 19/07/2025, 14:12:28
+       [+] Intigriti Data Inserting Successfully -> 19/07/2025, 14:12:31
+[info] Getting Federacy data ... -> 19/07/2025, 14:12:31
+      [info] Connection OK -> 19/07/2025, 14:12:33
+       [+] Federacy Data Inserting Successfully -> 19/07/2025, 14:12:33
+[info] Getting Hackerone data ... -> 19/07/2025, 14:12:33
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 19/07/2025, 14:12:37
+      [info] Connection OK -> 19/07/2025, 14:12:45
+  [+] 39 subs found for bankwithunited.com -> 19/07/2025, 14:13:21
+[INFO] Starting Subfinder for 'cu24.com'... -> 19/07/2025, 14:13:21
+  [+] 6 subs found for cu24.com -> 19/07/2025, 14:14:30
+[INFO] Starting Subfinder for 'culiance.com'... -> 19/07/2025, 14:14:30
+       [+] Hackerone Data Inserting Successfully -> 19/07/2025, 14:15:31
+  [+] 3 subs found for culiance.com -> 19/07/2025, 14:15:36
+[INFO] Starting Subfinder for 'arvest.com'... -> 19/07/2025, 14:15:36
+  [+] 195 subs found for arvest.com -> 19/07/2025, 14:16:49
+[INFO] Starting Subfinder for 'chooseyourowngift.com'... -> 19/07/2025, 14:16:51
+  [+] 1 subs found for chooseyourowngift.com -> 19/07/2025, 14:17:56
+[INFO] Starting Subfinder for 'cscu.net'... -> 19/07/2025, 14:17:56
+  [+] 2 subs found for cscu.net -> 19/07/2025, 14:19:04
+[INFO] Starting Subfinder for 'bankofluxemburg.com'... -> 19/07/2025, 14:19:04
+  [+] 6 subs found for bankofluxemburg.com -> 19/07/2025, 14:20:11
+[INFO] Starting Subfinder for 'compromisemanager.com'... -> 19/07/2025, 14:20:11
+  [+] 1 subs found for compromisemanager.com -> 19/07/2025, 14:21:16
+[INFO] Starting Subfinder for 'consumermobileaccess.com'... -> 19/07/2025, 14:21:16
+  [+] 5 subs found for consumermobileaccess.com -> 19/07/2025, 14:22:22
+[INFO] Starting Subfinder for 'bylinebank.com'... -> 19/07/2025, 14:22:22
+  [+] 24 subs found for bylinebank.com -> 19/07/2025, 14:23:30
+[INFO] Starting Subfinder for 'brass.com'... -> 19/07/2025, 14:23:30
+  [+] 105 subs found for brass.com -> 19/07/2025, 14:24:37
+[INFO] Starting Subfinder for 'commercebank.com'... -> 19/07/2025, 14:24:38
+  [+] 86 subs found for commercebank.com -> 19/07/2025, 14:25:47
+[INFO] Starting Subfinder for 'afsimage.com'... -> 19/07/2025, 14:25:47
+  [+] 5 subs found for afsimage.com -> 19/07/2025, 14:26:52
+[INFO] Starting Subfinder for 'bankofwalkercounty.bank'... -> 19/07/2025, 14:26:52
+  [+] 1 subs found for bankofwalkercounty.bank -> 19/07/2025, 14:27:58
+[INFO] Starting Subfinder for 'collinsstatebank.com'... -> 19/07/2025, 14:27:58
+  [+] 5 subs found for collinsstatebank.com -> 19/07/2025, 14:29:00
+[INFO] Starting Subfinder for 'consumercardaccess.com'... -> 19/07/2025, 14:29:00
+  [+] 11 subs found for consumercardaccess.com -> 19/07/2025, 14:30:06
+[INFO] Starting Subfinder for 'askcertegy.com'... -> 19/07/2025, 14:30:06
+  [+] 5 subs found for askcertegy.com -> 19/07/2025, 14:31:12
+[INFO] Starting Subfinder for 'bighorn1card.com'... -> 19/07/2025, 14:31:12
+  [+] 0 subs found for bighorn1card.com -> 19/07/2025, 14:32:17
+[INFO] Starting Subfinder for 'chexinc.com'... -> 19/07/2025, 14:32:17
+  [+] 0 subs found for chexinc.com -> 19/07/2025, 14:33:22
+[INFO] Starting Subfinder for 'cvcc1card.com'... -> 19/07/2025, 14:33:22
+  [+] 0 subs found for cvcc1card.com -> 19/07/2025, 14:34:27
+[INFO] Starting Subfinder for 'atelio.com'... -> 19/07/2025, 14:34:27
+  [+] 31 subs found for atelio.com -> 19/07/2025, 14:35:34
+[INFO] Starting Subfinder for 'affnselect.org'... -> 19/07/2025, 14:35:34
+  [+] 1 subs found for affnselect.org -> 19/07/2025, 14:36:39
+[INFO] Starting Subfinder for 'bankmobilevibeup.com'... -> 19/07/2025, 14:36:39
+  [+] 0 subs found for bankmobilevibeup.com -> 19/07/2025, 14:37:44
+[INFO] Starting Subfinder for 'aaa.com'... -> 19/07/2025, 14:37:44
+  [+] 1673 subs found for aaa.com -> 19/07/2025, 14:39:05
+[INFO] Starting Subfinder for 'crowder1card.com'... -> 19/07/2025, 14:39:18
+  [+] 0 subs found for crowder1card.com -> 19/07/2025, 14:40:23
+[INFO] Starting Subfinder for 'blazer1card.com'... -> 19/07/2025, 14:40:23
+  [+] 0 subs found for blazer1card.com -> 19/07/2025, 14:41:29
+[INFO] Starting Subfinder for 'bearkat1.com'... -> 19/07/2025, 14:41:29
+  [+] 0 subs found for bearkat1.com -> 19/07/2025, 14:42:35
+[INFO] Starting Subfinder for 'chexhelp.info'... -> 19/07/2025, 14:42:35
+  [+] 0 subs found for chexhelp.info -> 19/07/2025, 14:43:40
+[INFO] Starting Subfinder for 'alabasteraccount.com'... -> 19/07/2025, 14:43:40
+  [+] 0 subs found for alabasteraccount.com -> 19/07/2025, 14:44:45
+[INFO] Starting Subfinder for 'andy.top'... -> 19/07/2025, 14:44:45
+  [+] 0 subs found for andy.top -> 19/07/2025, 14:45:50
+[INFO] Attempt 1: Starting Crt.sh for on socks 127.0.0.1:1080 'bankwithunited.com'... -> 19/07/2025, 14:45:50
+[info] Getting Intigriti data ... -> 20/07/2025, 01:55:00
+      [info] Connection OK -> 20/07/2025, 01:55:01
+       [+] Intigriti Data Inserting Successfully -> 20/07/2025, 01:55:05
+[info] Getting Federacy data ... -> 20/07/2025, 01:55:05
+      [info] Connection OK -> 20/07/2025, 01:55:08
+       [+] Federacy Data Inserting Successfully -> 20/07/2025, 01:55:09
+[info] Getting Hackerone data ... -> 20/07/2025, 01:55:09
+      [info] Connection OK -> 20/07/2025, 01:55:13
+[info] Getting Bugcrowd data ... -> 20/07/2025, 02:00:00
+[INFO] Starting Subfinder for 'collinsstatebank.com'... -> 20/07/2025, 02:00:00
+      [info] Connection OK -> 20/07/2025, 02:00:00
+       [+] Bugcrowd Data Inserting Successfully -> 20/07/2025, 02:00:09
+[info] Getting Yeswehack data ... -> 20/07/2025, 02:00:09
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 02:00:13
+      [info] Connection OK -> 20/07/2025, 02:00:20
+       [+] Yeswehack Data Inserting Successfully -> 20/07/2025, 02:00:22
+[info] Getting Intigriti data ... -> 20/07/2025, 02:00:22
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 02:00:25
+      [info] Connection OK -> 20/07/2025, 02:00:31
+       [+] Intigriti Data Inserting Successfully -> 20/07/2025, 02:00:34
+[info] Getting Federacy data ... -> 20/07/2025, 02:00:34
+      [info] Connection OK -> 20/07/2025, 02:00:35
+       [+] Federacy Data Inserting Successfully -> 20/07/2025, 02:00:35
+[info] Getting Hackerone data ... -> 20/07/2025, 02:00:35
+      [info] Connection OK -> 20/07/2025, 02:00:38
+       [+] Hackerone Data Inserting Successfully -> 20/07/2025, 02:00:41
+[info] Getting Bugcrowd data ... -> 20/07/2025, 02:00:41
+      [info] Connection OK -> 20/07/2025, 02:00:42
+       [+] Bugcrowd Data Inserting Successfully -> 20/07/2025, 02:00:49
+[info] Getting Yeswehack data ... -> 20/07/2025, 02:00:49
+      [info] Connection OK -> 20/07/2025, 02:00:50
+       [+] Yeswehack Data Inserting Successfully -> 20/07/2025, 02:00:52
+[info] Getting Yeswehack data ... -> 20/07/2025, 02:01:00
+      [info] Connection OK -> 20/07/2025, 02:01:01
+[INFO] Starting Subfinder for 'collinsstatebank.com'... -> 20/07/2025, 02:01:03
+       [+] Yeswehack Data Inserting Successfully -> 20/07/2025, 02:01:03
+[info] Getting Intigriti data ... -> 20/07/2025, 02:01:03
+      [info] Connection OK -> 20/07/2025, 02:01:05
+       [+] Intigriti Data Inserting Successfully -> 20/07/2025, 02:01:07
+[info] Getting Federacy data ... -> 20/07/2025, 02:01:07
+  [+] 5 subs found for collinsstatebank.com -> 20/07/2025, 02:01:08
+[INFO] Starting Subfinder for 'npcrm.net'... -> 20/07/2025, 02:01:08
+  [+] 5 subs found for collinsstatebank.com -> 20/07/2025, 02:02:08
+[INFO] Starting Subfinder for 'npcrm.net'... -> 20/07/2025, 02:02:08
+  [+] 4 subs found for npcrm.net -> 20/07/2025, 02:02:12
+[INFO] Starting Subfinder for 'schwabbank.com'... -> 20/07/2025, 02:02:12
+       [+] Hackerone Data Inserting Successfully -> 20/07/2025, 02:02:56
+[INFO] Starting Subfinder for 'collinsstatebank.com'... -> 20/07/2025, 02:03:07
+  [+] 6 subs found for npcrm.net -> 20/07/2025, 02:03:12
+[INFO] Starting Subfinder for 'schwabbank.com'... -> 20/07/2025, 02:03:12
+  [+] 4 subs found for schwabbank.com -> 20/07/2025, 02:03:17
+[INFO] Starting Subfinder for 'xpidverify.com'... -> 20/07/2025, 02:03:17
+  [+] 6 subs found for collinsstatebank.com -> 20/07/2025, 02:04:11
+[INFO] Starting Subfinder for 'npcrm.net'... -> 20/07/2025, 02:04:12
+  [+] 4 subs found for schwabbank.com -> 20/07/2025, 02:04:16
+[INFO] Starting Subfinder for 'xpidverify.com'... -> 20/07/2025, 02:04:16
+  [+] 0 subs found for xpidverify.com -> 20/07/2025, 02:04:21
+[INFO] Starting Subfinder for 'securepaypage-litle.com'... -> 20/07/2025, 02:04:21
+  [+] 6 subs found for npcrm.net -> 20/07/2025, 02:05:15
+[INFO] Starting Subfinder for 'schwabbank.com'... -> 20/07/2025, 02:05:15
+  [+] 0 subs found for xpidverify.com -> 20/07/2025, 02:05:20
+[INFO] Starting Subfinder for 'securepaypage-litle.com'... -> 20/07/2025, 02:05:20
+  [+] 4 subs found for securepaypage-litle.com -> 20/07/2025, 02:05:25
+[INFO] Starting Subfinder for 'vantiv.com'... -> 20/07/2025, 02:05:26
+  [+] 4 subs found for schwabbank.com -> 20/07/2025, 02:06:21
+[INFO] Starting Subfinder for 'xpidverify.com'... -> 20/07/2025, 02:06:21
+  [+] 3 subs found for securepaypage-litle.com -> 20/07/2025, 02:06:24
+[INFO] Starting Subfinder for 'vantiv.com'... -> 20/07/2025, 02:06:24
+  [+] 198 subs found for vantiv.com -> 20/07/2025, 02:06:33
+[INFO] Starting Subfinder for 'arvest.com'... -> 20/07/2025, 02:06:34
+  [+] 0 subs found for xpidverify.com -> 20/07/2025, 02:07:25
+[INFO] Starting Subfinder for 'securepaypage-litle.com'... -> 20/07/2025, 02:07:25
+  [+] 210 subs found for vantiv.com -> 20/07/2025, 02:07:32
+[INFO] Starting Subfinder for 'arvest.com'... -> 20/07/2025, 02:07:32
+  [+] 134 subs found for arvest.com -> 20/07/2025, 02:07:42
+[INFO] Starting Subfinder for 'manubank.com'... -> 20/07/2025, 02:07:43
+[info] Getting Federacy data ... -> 20/07/2025, 02:08:10
+[info] Getting Federacy data ... -> 20/07/2025, 02:08:10
+[INFO] Starting Subfinder for 'virtualterminal.com'... -> 20/07/2025, 02:08:10
+[INFO] Starting Subfinder for 'virtualterminal.com'... -> 20/07/2025, 02:08:10
+      [info] Connection OK -> 20/07/2025, 02:08:11
+      [info] Connection OK -> 20/07/2025, 02:08:11
+       [+] Federacy Data Inserting Successfully -> 20/07/2025, 02:08:11
+[info] Getting Bugcrowd data ... -> 20/07/2025, 02:08:11
+       [+] Federacy Data Inserting Successfully -> 20/07/2025, 02:08:11
+[info] Getting Bugcrowd data ... -> 20/07/2025, 02:08:11
+[info] Getting Bugcrowd data ... -> 20/07/2025, 02:08:15
+[info] Getting Bugcrowd data ... -> 20/07/2025, 02:08:15
+[INFO] Starting Subfinder for 'sconlinemanager.net'... -> 20/07/2025, 02:08:15
+[INFO] Starting Subfinder for 'sconlinemanager.net'... -> 20/07/2025, 02:08:15
+      [info] Connection OK -> 20/07/2025, 02:08:17
+[info] Getting Bugcrowd data ... -> 20/07/2025, 02:08:21
+[INFO] Starting Subfinder for 'crowder1card.com'... -> 20/07/2025, 02:08:21
+[INFO] Starting Subfinder for 'crowder1card.com'... -> 20/07/2025, 02:08:21
+[INFO] Starting Subfinder for 'icbc-uscards.com'... -> 20/07/2025, 02:10:00
+  [+] 2 subs found for icbc-uscards.com -> 20/07/2025, 02:11:05
+[INFO] Starting Subfinder for 'bhiusa.com'... -> 20/07/2025, 02:11:05
+  [+] 7 subs found for bhiusa.com -> 20/07/2025, 02:12:12
+[INFO] Starting Subfinder for 'mprimeportal.com'... -> 20/07/2025, 02:12:13
+  [+] 7 subs found for mprimeportal.com -> 20/07/2025, 02:13:18
+[INFO] Starting Subfinder for 'sconlinemanager.net'... -> 20/07/2025, 02:13:19
+  [+] 0 subs found for sconlinemanager.net -> 20/07/2025, 02:14:22
+[INFO] Starting Subfinder for 'cscu.net'... -> 20/07/2025, 02:14:22
+  [+] 2 subs found for cscu.net -> 20/07/2025, 02:15:26
+[INFO] Starting Subfinder for 'picsfisglobal.com'... -> 20/07/2025, 02:15:26
+  [+] 0 subs found for picsfisglobal.com -> 20/07/2025, 02:16:30
+[INFO] Starting Subfinder for 'tristar.bank'... -> 20/07/2025, 02:16:30
+  [+] 5 subs found for tristar.bank -> 20/07/2025, 02:17:36
+[INFO] Starting Subfinder for 'sendpointimage.com'... -> 20/07/2025, 02:17:37
+  [+] 9 subs found for sendpointimage.com -> 20/07/2025, 02:18:42
+[INFO] Starting Subfinder for 'highlandscommunitybank.com'... -> 20/07/2025, 02:18:42
+  [+] 3 subs found for highlandscommunitybank.com -> 20/07/2025, 02:19:47
+[INFO] Starting Subfinder for 'acbsfo.com'... -> 20/07/2025, 02:19:47
+  [+] 103 subs found for acbsfo.com -> 20/07/2025, 02:20:54
+[INFO] Starting Subfinder for 'certegy.com'... -> 20/07/2025, 02:20:55
+  [+] 99 subs found for certegy.com -> 20/07/2025, 02:21:59
+[INFO] Starting Subfinder for 'scorecardpreview.com'... -> 20/07/2025, 02:22:00
+  [+] 0 subs found for scorecardpreview.com -> 20/07/2025, 02:23:05
+[INFO] Starting Subfinder for 'unbelgin.com'... -> 20/07/2025, 02:23:05
+  [+] 9 subs found for unbelgin.com -> 20/07/2025, 02:24:11
+[INFO] Starting Subfinder for 'aaa.com'... -> 20/07/2025, 02:24:11
+  [+] 2049 subs found for aaa.com -> 20/07/2025, 02:26:19
+[INFO] Starting Subfinder for 'copperstatecu.org'... -> 20/07/2025, 02:26:34
+  [+] 10 subs found for copperstatecu.org -> 20/07/2025, 02:27:39
+[INFO] Starting Subfinder for 'consumermobileaccess.com'... -> 20/07/2025, 02:27:39
+  [+] 5 subs found for consumermobileaccess.com -> 20/07/2025, 02:28:45
+[INFO] Starting Subfinder for 'culiance.com'... -> 20/07/2025, 02:28:45
+  [+] 5 subs found for culiance.com -> 20/07/2025, 02:29:49
+[INFO] Starting Subfinder for 'crowder1card.com'... -> 20/07/2025, 02:29:49
+  [+] 0 subs found for crowder1card.com -> 20/07/2025, 02:30:53
+[INFO] Starting Subfinder for 'ca.gov'... -> 20/07/2025, 02:30:53
+  [+] 3244 subs found for ca.gov -> 20/07/2025, 02:33:07
+[INFO] Starting Subfinder for 'Erfan sheikhi'... -> 20/07/2025, 02:33:33
+  [+] 0 subs found for Erfan sheikhi -> 20/07/2025, 02:33:58
+[INFO] Starting Subfinder for 'ptaconnect.com'... -> 20/07/2025, 02:33:58
+  [+] 465 subs found for ptaconnect.com -> 20/07/2025, 02:35:04
+[INFO] Starting Subfinder for 'paycardsolutions.com'... -> 20/07/2025, 02:35:07
+  [+] 7 subs found for paycardsolutions.com -> 20/07/2025, 02:36:12
+[INFO] Starting Subfinder for 'askcertegy.com'... -> 20/07/2025, 02:36:12
+  [+] 5 subs found for askcertegy.com -> 20/07/2025, 02:37:17
+[INFO] Starting Subfinder for 'mimerchantservices.com'... -> 20/07/2025, 02:37:17
+  [+] 1 subs found for mimerchantservices.com -> 20/07/2025, 02:38:20
+[INFO] Starting Subfinder for 'bearkat1.com'... -> 20/07/2025, 02:38:20
+  [+] 0 subs found for bearkat1.com -> 20/07/2025, 02:39:24
+[INFO] Starting Subfinder for 'orientalbank.com'... -> 20/07/2025, 02:39:24
+  [+] 124 subs found for orientalbank.com -> 20/07/2025, 02:40:30
+[INFO] Starting Subfinder for 'mobilecca.com'... -> 20/07/2025, 02:40:31
+  [+] 1 subs found for mobilecca.com -> 20/07/2025, 02:41:35
+[INFO] Starting Subfinder for 'relius.net'... -> 20/07/2025, 02:41:35
+  [+] 49 subs found for relius.net -> 20/07/2025, 02:42:38
+[INFO] Starting Subfinder for 'prophet-web.com'... -> 20/07/2025, 02:42:39
+  [+] 1 subs found for prophet-web.com -> 20/07/2025, 02:43:42
+[INFO] Starting Subfinder for 'efunds.com'... -> 20/07/2025, 02:43:42
+  [+] 233 subs found for efunds.com -> 20/07/2025, 02:44:47
+[INFO] Starting Subfinder for 'lirrticket.com'... -> 20/07/2025, 02:44:48
+  [+] 3 subs found for lirrticket.com -> 20/07/2025, 02:45:55
+[INFO] Starting Subfinder for 'fis-development-clone.zoominsoftware.io'... -> 20/07/2025, 02:45:55
+  [+] 0 subs found for fis-development-clone.zoominsoftware.io -> 20/07/2025, 02:46:58
+[INFO] Starting Subfinder for 'mercurypay.com'... -> 20/07/2025, 02:46:58
+  [+] 56 subs found for mercurypay.com -> 20/07/2025, 02:48:03
+[INFO] Starting Subfinder for 'paymentpost.com'... -> 20/07/2025, 02:48:03
+  [+] 1 subs found for paymentpost.com -> 20/07/2025, 02:49:08
+[INFO] Starting Subfinder for 'fismitlab.com'... -> 20/07/2025, 02:49:08
+  [+] 4 subs found for fismitlab.com -> 20/07/2025, 02:50:13
+[INFO] Starting Subfinder for 'uatfisprepaid.com'... -> 20/07/2025, 02:50:13
+  [+] 55 subs found for uatfisprepaid.com -> 20/07/2025, 02:51:19
+[INFO] Starting Subfinder for 'scannerfulfillment.com'... -> 20/07/2025, 02:51:19
+  [+] 1 subs found for scannerfulfillment.com -> 20/07/2025, 02:52:23
+[INFO] Starting Subfinder for 'ebtedge.com'... -> 20/07/2025, 02:52:23
+  [+] 15 subs found for ebtedge.com -> 20/07/2025, 02:53:27
+[INFO] Starting Subfinder for 'mall-giftcard.com'... -> 20/07/2025, 02:53:27
+  [+] 0 subs found for mall-giftcard.com -> 20/07/2025, 02:54:31
+[INFO] Starting Subfinder for 'gilbraltarbanknj.net'... -> 20/07/2025, 02:54:31
+  [+] 0 subs found for gilbraltarbanknj.net -> 20/07/2025, 02:55:34
+[INFO] Starting Subfinder for 'fnis.com'... -> 20/07/2025, 02:55:34
+  [+] 412 subs found for fnis.com -> 20/07/2025, 02:56:43
+[INFO] Starting Subfinder for 'abbrd.com'... -> 20/07/2025, 02:56:46
+  [+] 1 subs found for abbrd.com -> 20/07/2025, 02:57:49
+[INFO] Starting Subfinder for 'virtualterminal.com'... -> 20/07/2025, 02:57:49
+  [+] 25 subs found for virtualterminal.com -> 20/07/2025, 02:58:53
+[INFO] Starting Subfinder for 'steelbuilder.net'... -> 20/07/2025, 02:58:53
+  [+] 0 subs found for steelbuilder.net -> 20/07/2025, 02:59:56
+[INFO] Starting Subfinder for 'prelimsite1.com'... -> 20/07/2025, 02:59:56
+  [+] 4 subs found for prelimsite1.com -> 20/07/2025, 03:01:00
+[INFO] Starting Subfinder for 'summitfgi.com'... -> 20/07/2025, 03:01:00
+  [+] 77 subs found for summitfgi.com -> 20/07/2025, 03:02:06
+[INFO] Starting Subfinder for 'paymetric.com'... -> 20/07/2025, 03:02:06
+  [+] 142 subs found for paymetric.com -> 20/07/2025, 03:03:12
+[INFO] Starting Subfinder for 'consumercardaccess.com'... -> 20/07/2025, 03:03:13
+  [+] 11 subs found for consumercardaccess.com -> 20/07/2025, 03:04:17
+[INFO] Starting Subfinder for 'sungard.com'... -> 20/07/2025, 03:04:17
+  [+] 492 subs found for sungard.com -> 20/07/2025, 03:05:28
+[INFO] Starting Subfinder for 'personalsavings.com'... -> 20/07/2025, 03:05:29
+  [+] 1 subs found for personalsavings.com -> 20/07/2025, 03:06:33
+[INFO] Starting Subfinder for 'infotecnet.com'... -> 20/07/2025, 03:06:33
+  [+] 22 subs found for infotecnet.com -> 20/07/2025, 03:07:39
+[INFO] Starting Subfinder for 'onlinepaycard.com'... -> 20/07/2025, 03:07:39
+  [+] 2 subs found for onlinepaycard.com -> 20/07/2025, 03:08:43
+[INFO] Starting Subfinder for 'visionfinancialmarkets.com'... -> 20/07/2025, 03:08:43
+  [+] 12 subs found for visionfinancialmarkets.com -> 20/07/2025, 03:09:48
+[INFO] Starting Subfinder for 'manubank.com'... -> 20/07/2025, 03:09:48
+  [+] 12 subs found for manubank.com -> 20/07/2025, 03:10:52
+[INFO] Starting Subfinder for 'brass.com'... -> 20/07/2025, 03:10:52
+  [+] 106 subs found for brass.com -> 20/07/2025, 03:11:59
+[INFO] Starting Subfinder for 'td.com'... -> 20/07/2025, 03:11:59
+  [+] 1198 subs found for td.com -> 20/07/2025, 03:13:37
+[INFO] Starting Subfinder for 'lucardinal1.com'... -> 20/07/2025, 03:13:46
+  [+] 0 subs found for lucardinal1.com -> 20/07/2025, 03:14:49
+[INFO] Starting Subfinder for 'fnbgranbury.com'... -> 20/07/2025, 03:14:49
+  [+] 15 subs found for fnbgranbury.com -> 20/07/2025, 03:15:53
+[INFO] Starting Subfinder for 'nyceinfomanagerdr.com'... -> 20/07/2025, 03:15:53
+  [+] 1 subs found for nyceinfomanagerdr.com -> 20/07/2025, 03:16:58
+[INFO] Starting Subfinder for 'onlinecardadmin.com'... -> 20/07/2025, 03:16:58
+  [+] 3 subs found for onlinecardadmin.com -> 20/07/2025, 03:18:02
+[INFO] Starting Subfinder for 'valuteccardsolutions.com'... -> 20/07/2025, 03:18:02
+  [+] 5 subs found for valuteccardsolutions.com -> 20/07/2025, 03:19:06
+[INFO] Starting Subfinder for 'hatborofed.com'... -> 20/07/2025, 03:19:06
+  [+] 6 subs found for hatborofed.com -> 20/07/2025, 03:20:11
+[INFO] Starting Subfinder for 'citizensbank.com'... -> 20/07/2025, 03:20:11
+  [+] 271 subs found for citizensbank.com -> 20/07/2025, 03:21:26
+[INFO] Starting Subfinder for 'justpayitcardservices.com'... -> 20/07/2025, 03:21:28
+  [+] 0 subs found for justpayitcardservices.com -> 20/07/2025, 03:22:31
+[INFO] Starting Subfinder for 'agileprepaid.com'... -> 20/07/2025, 03:22:31
+  [+] 9 subs found for agileprepaid.com -> 20/07/2025, 03:23:35
+[INFO] Starting Subfinder for 'mieforms.com'... -> 20/07/2025, 03:23:35
+  [+] 2 subs found for mieforms.com -> 20/07/2025, 03:24:40
+[INFO] Starting Subfinder for 'bankwithunited.com'... -> 20/07/2025, 03:24:40
+  [+] 40 subs found for bankwithunited.com -> 20/07/2025, 03:25:45
+[INFO] Starting Subfinder for 'fnfis.com'... -> 20/07/2025, 03:25:45
+  [+] 1783 subs found for fnfis.com -> 20/07/2025, 03:27:17
+[INFO] Starting Subfinder for 'mycardstatement.com'... -> 20/07/2025, 03:27:28
+  [+] 3 subs found for mycardstatement.com -> 20/07/2025, 03:28:32
+[INFO] Starting Subfinder for 'emueagle1.com'... -> 20/07/2025, 03:28:32
+  [+] 0 subs found for emueagle1.com -> 20/07/2025, 03:29:35
+[INFO] Starting Subfinder for 'cvcc1card.com'... -> 20/07/2025, 03:29:35
+  [+] 0 subs found for cvcc1card.com -> 20/07/2025, 03:30:39
+[INFO] Starting Subfinder for 'riverwindbank.com'... -> 20/07/2025, 03:30:39
+  [+] 21 subs found for riverwindbank.com -> 20/07/2025, 03:31:43
+[INFO] Starting Subfinder for 'efdelivery.com'... -> 20/07/2025, 03:31:43
+  [+] 6 subs found for efdelivery.com -> 20/07/2025, 03:32:47
+[INFO] Starting Subfinder for 'valutec.net'... -> 20/07/2025, 03:32:47
+  [+] 30 subs found for valutec.net -> 20/07/2025, 03:33:52
+[INFO] Starting Subfinder for 'ezcardinfo.com'... -> 20/07/2025, 03:33:53
+  [+] 5 subs found for ezcardinfo.com -> 20/07/2025, 03:34:56
+[INFO] Starting Subfinder for 'haslerinc.com'... -> 20/07/2025, 03:34:56
+  [+] 6 subs found for haslerinc.com -> 20/07/2025, 03:36:00
+[INFO] Starting Subfinder for 'centralbancompany.com'... -> 20/07/2025, 03:36:00
+  [+] 39 subs found for centralbancompany.com -> 20/07/2025, 03:37:06
+[INFO] Starting Subfinder for 'sum-atm.com'... -> 20/07/2025, 03:37:06
+  [+] 2 subs found for sum-atm.com -> 20/07/2025, 03:38:12
+[INFO] Starting Subfinder for 'bankofluxemburg.com'... -> 20/07/2025, 03:38:12
+  [+] 5 subs found for bankofluxemburg.com -> 20/07/2025, 03:39:16
+[INFO] Starting Subfinder for 'mbanking-services.com'... -> 20/07/2025, 03:39:16
+  [+] 10 subs found for mbanking-services.com -> 20/07/2025, 03:40:20
+[INFO] Starting Subfinder for 'alabasteraccount.com'... -> 20/07/2025, 03:40:20
+  [+] 0 subs found for alabasteraccount.com -> 20/07/2025, 03:41:23
+[INFO] Starting Subfinder for 'olmpremiumuat.com'... -> 20/07/2025, 03:41:23
+  [+] 0 subs found for olmpremiumuat.com -> 20/07/2025, 03:42:26
+[INFO] Starting Subfinder for 'bbtcreditcardconnection.com'... -> 20/07/2025, 03:42:26
+  [+] 1 subs found for bbtcreditcardconnection.com -> 20/07/2025, 03:43:30
+[INFO] Starting Subfinder for 'hmorderserve.com'... -> 20/07/2025, 03:43:30
+  [+] 1 subs found for hmorderserve.com -> 20/07/2025, 03:44:34
+[INFO] Starting Subfinder for 'sedgwick.vn'... -> 20/07/2025, 03:44:34
+  [+] 0 subs found for sedgwick.vn -> 20/07/2025, 03:45:37
+[INFO] Starting Subfinder for 'nwscc1.com'... -> 20/07/2025, 03:45:37
+  [+] 0 subs found for nwscc1.com -> 20/07/2025, 03:46:41
+[INFO] Starting Subfinder for 'bokfinancial.com'... -> 20/07/2025, 03:46:41
+  [+] 58 subs found for bokfinancial.com -> 20/07/2025, 03:47:48
+[INFO] Starting Subfinder for 'coremanagementsystem.com'... -> 20/07/2025, 03:47:48
+  [+] 50 subs found for coremanagementsystem.com -> 20/07/2025, 03:48:54
+[INFO] Starting Subfinder for 'mercurydelivers.com'... -> 20/07/2025, 03:48:55
+  [+] 1 subs found for mercurydelivers.com -> 20/07/2025, 03:49:58
+[INFO] Starting Subfinder for 'bylinebank.com'... -> 20/07/2025, 03:49:58
+  [+] 26 subs found for bylinebank.com -> 20/07/2025, 03:51:04
+[INFO] Starting Subfinder for 'vtmerchantportal.com'... -> 20/07/2025, 03:51:04
+  [+] 4 subs found for vtmerchantportal.com -> 20/07/2025, 03:52:09
+[INFO] Starting Subfinder for 'chooseyourowngift.com'... -> 20/07/2025, 03:52:09
+  [+] 1 subs found for chooseyourowngift.com -> 20/07/2025, 03:53:13
+[INFO] Starting Subfinder for 'bankreports.net'... -> 20/07/2025, 03:53:13
+  [+] 27 subs found for bankreports.net -> 20/07/2025, 03:54:24
+[INFO] Starting Subfinder for 'myperdiemaccount.com'... -> 20/07/2025, 03:54:24
+  [+] 1 subs found for myperdiemaccount.com -> 20/07/2025, 03:55:29
+[INFO] Starting Subfinder for 'valdiems.net'... -> 20/07/2025, 03:55:29
+  [+] 6 subs found for valdiems.net -> 20/07/2025, 03:56:33
+[INFO] Starting Subfinder for 'myvaluescrow.com'... -> 20/07/2025, 03:56:33
+  [+] 1 subs found for myvaluescrow.com -> 20/07/2025, 03:57:37
+[INFO] Starting Subfinder for 'startwithchange.com'... -> 20/07/2025, 03:57:37
+  [+] 1 subs found for startwithchange.com -> 20/07/2025, 03:58:41
+[INFO] Starting Subfinder for 'vantiv.com'... -> 20/07/2025, 03:58:41
+  [+] 205 subs found for vantiv.com -> 20/07/2025, 03:59:48
+[INFO] Starting Subfinder for 'npcrm.net'... -> 20/07/2025, 03:59:48
+  [+] 6 subs found for npcrm.net -> 20/07/2025, 04:00:52
+[INFO] Starting Subfinder for 'solutions-corporate.com'... -> 20/07/2025, 04:00:52
+  [+] 28 subs found for solutions-corporate.com -> 20/07/2025, 04:01:57
+[INFO] Starting Subfinder for '1stsource.com'... -> 20/07/2025, 04:01:57
+  [+] 47 subs found for 1stsource.com -> 20/07/2025, 04:03:03
+[INFO] Starting Subfinder for 'bmoprivatebankinginvestments.com'... -> 20/07/2025, 04:03:04
+  [+] 4 subs found for bmoprivatebankinginvestments.com -> 20/07/2025, 04:04:08
+[INFO] Starting Subfinder for 'platformsecurities.co.uk'... -> 20/07/2025, 04:04:08
+  [+] 21 subs found for platformsecurities.co.uk -> 20/07/2025, 04:05:14
+[INFO] Starting Subfinder for 'prod.fisa.us-west-2.owdigital.io'... -> 20/07/2025, 04:05:14
+  [+] 0 subs found for prod.fisa.us-west-2.owdigital.io -> 20/07/2025, 04:06:17
+[INFO] Starting Subfinder for 'pattersonstatebank.com'... -> 20/07/2025, 04:06:17
+  [+] 6 subs found for pattersonstatebank.com -> 20/07/2025, 04:07:22
+[INFO] Starting Subfinder for 'nwcfinancialservices.ca'... -> 20/07/2025, 04:07:22
+  [+] 1 subs found for nwcfinancialservices.ca -> 20/07/2025, 04:08:25
+[INFO] Starting Subfinder for 'chexinc.com'... -> 20/07/2025, 04:08:25
+  [+] 0 subs found for chexinc.com -> 20/07/2025, 04:09:30
+[INFO] Starting Subfinder for 'skippers1card.com'... -> 20/07/2025, 04:09:30
+  [+] 0 subs found for skippers1card.com -> 20/07/2025, 04:10:35
+[INFO] Starting Subfinder for 'bankmobilevibeup.com'... -> 20/07/2025, 04:10:35
+  [+] 0 subs found for bankmobilevibeup.com -> 20/07/2025, 04:11:39
+[INFO] Starting Subfinder for 'hickorypointbank.com'... -> 20/07/2025, 04:11:39
+  [+] 8 subs found for hickorypointbank.com -> 20/07/2025, 04:12:43
+[INFO] Starting Subfinder for 'atelio.com'... -> 20/07/2025, 04:12:43
+  [+] 31 subs found for atelio.com -> 20/07/2025, 04:13:47
+[INFO] Starting Subfinder for 'shortinsights.com'... -> 20/07/2025, 04:13:47
+  [+] 1 subs found for shortinsights.com -> 20/07/2025, 04:14:52
+[INFO] Starting Subfinder for 'peoplesunitedbankappraisal.com'... -> 20/07/2025, 04:14:52
+  [+] 1 subs found for peoplesunitedbankappraisal.com -> 20/07/2025, 04:15:56
+[INFO] Starting Subfinder for 'online-banking-services.com'... -> 20/07/2025, 04:15:56
+  [+] 644 subs found for online-banking-services.com -> 20/07/2025, 04:17:01
+[INFO] Starting Subfinder for 'bankofwalkercounty.bank'... -> 20/07/2025, 04:17:06
+  [+] 2 subs found for bankofwalkercounty.bank -> 20/07/2025, 04:18:10
+[INFO] Starting Subfinder for 'dmacc1card.com'... -> 20/07/2025, 04:18:10
+  [+] 0 subs found for dmacc1card.com -> 20/07/2025, 04:19:13
+[INFO] Starting Subfinder for 'macombdebitcard.com'... -> 20/07/2025, 04:19:13
+  [+] 0 subs found for macombdebitcard.com -> 20/07/2025, 04:20:17
+[INFO] Starting Subfinder for 'payelectronic.net'... -> 20/07/2025, 04:20:17
+  [+] 0 subs found for payelectronic.net -> 20/07/2025, 04:21:20
+[INFO] Starting Subfinder for 'andy.top'... -> 20/07/2025, 04:21:20
+  [+] 0 subs found for andy.top -> 20/07/2025, 04:22:23
+[INFO] Starting Subfinder for 'wittenberg1.com'... -> 20/07/2025, 04:22:23
+  [+] 0 subs found for wittenberg1.com -> 20/07/2025, 04:23:27
+[INFO] Starting Subfinder for 'fiscloudservices.com'... -> 20/07/2025, 04:23:27
+  [+] 8338 subs found for fiscloudservices.com -> 20/07/2025, 04:26:27
+[INFO] Starting Subfinder for 'loansoft.net'... -> 20/07/2025, 04:27:51
+  [+] 1 subs found for loansoft.net -> 20/07/2025, 04:28:55
+[INFO] Starting Subfinder for 'www.sungarddx.com'... -> 20/07/2025, 04:28:55
+  [+] 0 subs found for www.sungarddx.com -> 20/07/2025, 04:29:58
+[INFO] Starting Subfinder for 'avantgardportal.com'... -> 20/07/2025, 04:29:58
+  [+] 586 subs found for avantgardportal.com -> 20/07/2025, 04:31:04
+[INFO] Starting Subfinder for 'rbcbank.com'... -> 20/07/2025, 04:31:08
+  [+] 26 subs found for rbcbank.com -> 20/07/2025, 04:32:14
+[INFO] Starting Subfinder for 'usbank.com'... -> 20/07/2025, 04:32:14
+  [+] 793 subs found for usbank.com -> 20/07/2025, 04:33:25
+[INFO] Starting Subfinder for 'primeassociates.com'... -> 20/07/2025, 04:33:30
+  [+] 1 subs found for primeassociates.com -> 20/07/2025, 04:34:33
+[INFO] Starting Subfinder for 'compromisemanager.com'... -> 20/07/2025, 04:34:33
+  [+] 1 subs found for compromisemanager.com -> 20/07/2025, 04:35:36
+[INFO] Starting Subfinder for 'wpfisdownloads.com'... -> 20/07/2025, 04:35:36
+  [+] 1 subs found for wpfisdownloads.com -> 20/07/2025, 04:36:40
+[INFO] Starting Subfinder for 'bighorn1card.com'... -> 20/07/2025, 04:36:40
+  [+] 0 subs found for bighorn1card.com -> 20/07/2025, 04:37:45
+[INFO] Starting Subfinder for 'securepaypage-litle.com'... -> 20/07/2025, 04:37:45
+  [+] 3 subs found for securepaypage-litle.com -> 20/07/2025, 04:38:49
+[INFO] Starting Subfinder for 'plusintbank.com'... -> 20/07/2025, 04:38:49
+  [+] 8 subs found for plusintbank.com -> 20/07/2025, 04:39:53
+[INFO] Starting Subfinder for 'afsimage.com'... -> 20/07/2025, 04:39:53
+  [+] 5 subs found for afsimage.com -> 20/07/2025, 04:40:57
+[INFO] Starting Subfinder for 'relyccx.com'... -> 20/07/2025, 04:40:57
+  [+] 1 subs found for relyccx.com -> 20/07/2025, 04:42:00
+[INFO] Starting Subfinder for 'efdtandem.com'... -> 20/07/2025, 04:42:00
+  [+] 2 subs found for efdtandem.com -> 20/07/2025, 04:43:06
+[INFO] Starting Subfinder for 'affnselect.org'... -> 20/07/2025, 04:43:06
+  [+] 1 subs found for affnselect.org -> 20/07/2025, 04:44:10
+[INFO] Starting Subfinder for 'cu24.com'... -> 20/07/2025, 04:44:10
+  [+] 8 subs found for cu24.com -> 20/07/2025, 04:45:15
+[INFO] Starting Subfinder for 'dragonflyft.com'... -> 20/07/2025, 04:45:15
+  [+] 92 subs found for dragonflyft.com -> 20/07/2025, 04:46:21
+[INFO] Starting Subfinder for 'eaglebankcorp.com'... -> 20/07/2025, 04:46:21
+  [+] 81 subs found for eaglebankcorp.com -> 20/07/2025, 04:47:28
+[INFO] Starting Subfinder for 'gatewayloan.com'... -> 20/07/2025, 04:47:28
+  [+] 12 subs found for gatewayloan.com -> 20/07/2025, 04:48:33
+[INFO] Starting Subfinder for 'fmberlin.com'... -> 20/07/2025, 04:48:33
+  [+] 6 subs found for fmberlin.com -> 20/07/2025, 04:49:37
+[INFO] Starting Subfinder for 'panther1card.com'... -> 20/07/2025, 04:49:37
+  [+] 0 subs found for panther1card.com -> 20/07/2025, 04:50:41
+[INFO] Starting Subfinder for 'metavanteriskandcompliance.com'... -> 20/07/2025, 04:50:41
+  [+] 1 subs found for metavanteriskandcompliance.com -> 20/07/2025, 04:51:44
+[INFO] Starting Subfinder for 'uscenturyonline.com'... -> 20/07/2025, 04:51:44
+  [+] 1 subs found for uscenturyonline.com -> 20/07/2025, 04:52:50
+[INFO] Starting Subfinder for 'backuppay.com'... -> 20/07/2025, 04:52:50
+  [+] 13 subs found for backuppay.com -> 20/07/2025, 04:53:54
+[INFO] Starting Subfinder for 'ordergiftcards.com'... -> 20/07/2025, 04:53:54
+[info] Getting Bugcrowd data ... -> 20/07/2025, 05:03:21
+[INFO] Starting Subfinder for 'delltechnologies.com'... -> 20/07/2025, 05:03:21
+      [info] Connection OK -> 20/07/2025, 05:03:22
+       [+] Bugcrowd Data Inserting Successfully -> 20/07/2025, 05:03:31
+[info] Getting Yeswehack data ... -> 20/07/2025, 05:03:31
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 05:03:34
+      [info] Connection OK -> 20/07/2025, 05:03:40
+       [+] Yeswehack Data Inserting Successfully -> 20/07/2025, 05:03:42
+[info] Getting Intigriti data ... -> 20/07/2025, 05:03:42
+      [info] Connection OK -> 20/07/2025, 05:03:43
+       [+] Intigriti Data Inserting Successfully -> 20/07/2025, 05:03:46
+[info] Getting Hackerone data ... -> 20/07/2025, 05:03:46
+      [info] Connection OK -> 20/07/2025, 05:03:48
+[INFO] Starting Subfinder for 'delltechnologies.com'... -> 20/07/2025, 05:04:40
+  [+] 102 subs found for delltechnologies.com -> 20/07/2025, 05:05:44
+[INFO] Starting Subfinder for 'dell.com'... -> 20/07/2025, 05:05:45
+  [+] 9547 subs found for dell.com -> 20/07/2025, 05:08:17
+[INFO] Attempt 1: Starting Crt.sh for on socks 127.0.0.1:1080 'delltechnologies.com'... -> 20/07/2025, 05:09:51
+  [WAR] No subdomains found for delltechnologies.com in Crt.sh (Attempt 1) -> 20/07/2025, 05:10:08
+[INFO] Attempt 2: Starting Crt.sh for on socks 127.0.0.1:1080 'delltechnologies.com'... -> 20/07/2025, 05:10:08
+  [WAR] No subdomains found for delltechnologies.com in Crt.sh (Attempt 2) -> 20/07/2025, 05:10:24
+[INFO] Attempt 3: Starting Crt.sh for on socks 127.0.0.1:1080 'delltechnologies.com'... -> 20/07/2025, 05:10:24
+  [WAR] No subdomains found for delltechnologies.com in Crt.sh (Attempt 3) -> 20/07/2025, 05:10:38
+  [ERROR] Failed to get subdomains from Crt.sh for delltechnologies.com after 3 attempts. -> 20/07/2025, 05:10:38
+[INFO] Attempt 1: Starting Crt.sh for on socks 127.0.0.1:1080 'dell.com'... -> 20/07/2025, 05:10:38
+  [+] 664 subs found for dell.com -> 20/07/2025, 05:11:23
+[INFO] Attempt 1: Starting Waybackurls for 'delltechnologies.com'... -> 20/07/2025, 05:11:28
+  [WAR] No subdomains found in attempt 1 for delltechnologies.com -> 20/07/2025, 05:11:31
+[INFO] Attempt 2: Starting Waybackurls for 'delltechnologies.com'... -> 20/07/2025, 05:11:31
+  [+] 5 subs found for delltechnologies.com -> 20/07/2025, 05:11:37
+[INFO] Attempt 1: Starting Waybackurls for 'dell.com'... -> 20/07/2025, 05:11:37
+  [WAR] No subdomains found in attempt 1 for dell.com -> 20/07/2025, 05:11:40
+[INFO] Attempt 2: Starting Waybackurls for 'dell.com'... -> 20/07/2025, 05:11:40
+  [WAR] No subdomains found in attempt 2 for dell.com -> 20/07/2025, 05:11:43
+[INFO] Attempt 3: Starting Waybackurls for 'dell.com'... -> 20/07/2025, 05:11:43
+  [WAR] No subdomains found in attempt 3 for dell.com -> 20/07/2025, 05:11:46
+  [ERROR] Failed to get subdomains from Waybackurls for dell.com after 3 attempts. -> 20/07/2025, 05:11:46
+[INFO] Starting Insert user's subdomains -> 20/07/2025, 05:11:46
+  [INFO] No own subdomains found for delltechnologies.com -> 20/07/2025, 05:11:46
+  [INFO] No own subdomains found for dell.com -> 20/07/2025, 05:11:46
+  [ERROR] A record verification failed for delltechnologies.com -> 20/07/2025, 05:11:46
+  [+] 103 subdomains collected for DNS bruteforce -> 20/07/2025, 05:11:46
+  [INFO] Merged and sorted DNS wordlists into private_watchers/outputs/nexovir/delltechnologies.com/delltechnologies.com.final -> 20/07/2025, 05:11:55
+[INFO] Starting DNS Bruteforce for delltechnologies.com -> 20/07/2025, 05:11:55
+[info] Getting Federacy data ... -> 20/07/2025, 20:36:31
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 20:45:33
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 20:45:42
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 20:54:51
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 20:54:59
+      [info] Connection OK -> 20/07/2025, 20:55:05
+       [+] Federacy Data Inserting Successfully -> 20/07/2025, 20:55:06
+[info] Getting Bugcrowd data ... -> 20/07/2025, 20:55:06
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 21:04:08
+      [info] Connection OK -> 20/07/2025, 21:04:14
+       [+] Bugcrowd Data Inserting Successfully -> 20/07/2025, 21:04:34
+[info] Getting Yeswehack data ... -> 20/07/2025, 21:04:34
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 21:04:37
+[info] Getting Yeswehack data ... -> 20/07/2025, 21:05:36
+      [info] Connection OK -> 20/07/2025, 21:05:37
+       [+] Yeswehack Data Inserting Successfully -> 20/07/2025, 21:05:42
+[info] Getting Intigriti data ... -> 20/07/2025, 21:05:42
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 21:05:45
+      [info] Connection OK -> 20/07/2025, 21:05:51
+       [+] Intigriti Data Inserting Successfully -> 20/07/2025, 21:05:59
+[info] Getting Hackerone data ... -> 20/07/2025, 21:05:59
+      [info] Connection OK -> 20/07/2025, 21:06:02
+       [+] Hackerone Data Inserting Successfully -> 20/07/2025, 21:12:17
+[info] Getting Federacy data ... -> 20/07/2025, 21:12:17
+      [info] Connection OK -> 20/07/2025, 21:12:18
+       [+] Federacy Data Inserting Successfully -> 20/07/2025, 21:12:19
+[info] Getting Bugcrowd data ... -> 20/07/2025, 21:12:19
+  [error] Failed to retrieve data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). Retrying in 5 seconds... -> 20/07/2025, 21:12:23
+      [info] Connection OK -> 20/07/2025, 21:12:29
+       [+] Bugcrowd Data Inserting Successfully -> 20/07/2025, 21:12:48
