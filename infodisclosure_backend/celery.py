@@ -6,5 +6,11 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'infodisclosure_backend.settings
 
 app = Celery('infodisclosure_backend')
 app.config_from_object('django.conf:settings', namespace='CELERY')
-app.autodiscover_tasks(['public_watchers' , 'private_watchers'])
+app.autodiscover_tasks(['public_watchers', 'private_watchers'])
 
+app.conf.update(
+    task_time_limit=86400,
+    task_soft_time_limit=86000,
+    task_acks_late=True,
+    worker_prefetch_multiplier=1
+)

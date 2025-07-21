@@ -50,25 +50,40 @@ def run_subfinder(domain):
         return []
 
 
-def run_crtsh(domain, retries=3):
+def run_crtsh(domain, retries=4, timeout=15):  # timeout به ثانیه
     for attempt in range(1, retries + 1):
         try:
-            sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh for on socks 127.0.0.1:1080 '{domain}'...", telegram=False)
-            output = os.popen(f"curl --socks5 127.0.0.1:1080 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | dnsx -silent").read()
-            subdomains = [line.strip() for line in output.splitlines() if line.strip()]
+            sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh on SOCKS 127.0.0.1:1080 for '{domain}'...", telegram=False)
+
+            command = f"proxychains curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | dnsx -silent"
+
+            # اجرای دستور با timeout
+            output = subprocess.run(
+                command,
+                shell=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                timeout=timeout,
+                text=True
+            )
+
+            subdomains = [line.strip() for line in output.stdout.splitlines() if line.strip()]
             
             if subdomains:
                 sendmessage(f"  [+] {len(subdomains)} subs found for {domain}", colour='GREEN')
                 return subdomains
             else:
                 sendmessage(f"  [WAR] No subdomains found for {domain} in Crt.sh (Attempt {attempt})", colour='YELLOW')
+
+        except subprocess.TimeoutExpired:
+            sendmessage(f"  [TIMEOUT] Crt.sh took longer than {timeout}s for {domain} (Attempt {attempt})", colour='YELLOW')
+
         except Exception as e:
             sendmessage(f"  [ERROR] Crt.sh error on attempt {attempt} for {domain}: {e}", colour='RED')
 
-    # If we reach here, all attempts failed
     sendmessage(f"  [ERROR] Failed to get subdomains from Crt.sh for {domain} after {retries} attempts.", colour='RED')
     return []
-    
+
 
 def run_wabackurls(domain, retries=3):
     for attempt in range(1, retries + 1):
