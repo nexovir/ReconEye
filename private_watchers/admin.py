@@ -94,7 +94,12 @@ class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
                     'header_hash_change' , 
                     'has_cdn_change']
     list_filter = ['label']
-    search_fields = ['discovered_subdomain__subdomain' , 'ip_address_change']
+    search_fields = ['discovered_subdomain__subdomain' , 'ip_address_change','status_code_change' , 'title_change' , 'server_change'  , 'technologies_change' , 'ip_address_change' , 'port_change' , 'content_type_change',
+                    'line_count_change', 
+                    'a_records_change',
+                    'body_hash_change', 
+                    'header_hash_change' , 
+                    'has_cdn_change']
     ordering = ['created_at' , 'updated_at' , 'label']
 
 
