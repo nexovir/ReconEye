@@ -87,7 +87,12 @@ class SubdomainHttpxAdmin(admin.ModelAdmin):
 
 @admin.register(SubdomainHttpxChanges)
 class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
-    list_display = ['id' , 'discovered_subdomain' , 'label' , 'status_code_change' , 'title_change' , 'server_change'  , 'ip_address_change' , 'port_change']
+    list_display = ['id' , 'discovered_subdomain' , 'label' , 'status_code_change' , 'title_change' , 'server_change'  , 'technologies_change' , 'ip_address_change' , 'port_change' , 'content_type_change',
+                    'line_count_change', 
+                    'a_records_change',
+                    'body_hash_change', 
+                    'header_hash_change' , 
+                    'has_cdn_change']
     list_filter = ['label']
     search_fields = ['discovered_subdomain__subdomain' , 'ip_address_change']
     ordering = ['created_at' , 'updated_at' , 'label']
