@@ -681,10 +681,10 @@ def check_assets():
         process_subfinder(subfinder_domains)
         process_crtsh(crtsh_domains)
         process_wabackurls(wabackurls_domains)
-        # proccess_user_subdomains(assets)
-        # process_dns_bruteforce(assets)
-        # process_httpx(assets)
-        # process_cidrs_scanning(watcher_cidrs)
+        proccess_user_subdomains(assets)
+        process_dns_bruteforce(assets)
+        process_httpx(assets)
+        process_cidrs_scanning(watcher_cidrs)
 
     except Exception as e:
         sendmessage(f"[ERROR] Subdomain discovery failed: {e}", colour='RED')

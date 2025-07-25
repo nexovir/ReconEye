@@ -74,7 +74,7 @@ async def send_summary_to_channel(platform_counter):
         for plat, count in platform_counter.items():
             summary_lines.append(f"🔹 <b>{plat.upper()}</b>: {count} new item{'s' if count > 1 else ''}")
 
-        summary_lines.append('\n🔗 Details: <a href="https://t.me/zerosec_group/16">Click here</a>')
+        summary_lines.append('\n🔗 Details: <a href="https://t.me/zerosec_watcher/">Click here</a>')
         summary_lines.append('\n#zerosec #bugbounty #watcher #summary_report')
         summary_lines.append("\n──────────────")
         summary_lines.append("📡 Follow :\n👉 @zerosec_team")
@@ -82,7 +82,7 @@ async def send_summary_to_channel(platform_counter):
         summary_text = "\n".join(summary_lines)
 
         keyboard = [
-            [InlineKeyboardButton("🚀 Visit Details on ZeroSec", url="https://t.me/zerosec_group/16")]
+            [InlineKeyboardButton("🚀 Visit Details on ZeroSec", url="https://t.me/zerosec_watcher/")]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
