@@ -47,8 +47,7 @@ Date : <i>{time_date}</i>
 #new_asset #zerosec #bugbounty #{domain} #asset
 
 ──────────────
-📡 Follow :
-👉 @zerosec_team
+📡 Follow : 👉 @zerosec_team
 ''',
             reply_markup=reply_markup,
             parse_mode="HTML",
@@ -93,8 +92,7 @@ Date : <i>{time_date}</i>
 #new_asset #zerosec #bugbounty #{message_title.replace(" " , "_").lower()}
 
 ──────────────
-📡 Follow :
-👉 @zerosec_team
+📡 Follow : 👉 @zerosec_team
 ''',
             parse_mode="HTML",
         )
@@ -124,8 +122,7 @@ Date : <i>{time_date}</i>
 #new_asset #zerosec #bugbounty #{message_title.replace(" " , "_").lower()}
 
 ──────────────
-📡 Follow :
-👉 @zerosec_team
+📡 Follow : 👉 @zerosec_team
 ''',
             parse_mode="HTML",
         )

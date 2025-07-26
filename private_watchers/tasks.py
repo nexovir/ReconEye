@@ -9,6 +9,8 @@ from .telegram_bot import *
 OUTPUT_PATH = 'private_watchers/outputs'
 WORDLISTS_PATH = 'private_watchers/wordlists'
 
+PROXY = 'socks5://127.0.0.1:2080'
+HTTP_PROXY = 'http://127.0.0.1:2080'
 
 def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", logger: bool = True):
     color = getattr(colorama.Fore, colour.upper(), colorama.Fore.YELLOW)
@@ -55,7 +57,7 @@ def run_crtsh(domain, retries=4, timeout=15):  # timeout به ثانیه
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh on SOCKS 127.0.0.1:1080 for '{domain}'...", telegram=False)
 
-            command = f"proxychains curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | dnsx -silent"
+            command = f"curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | dnsx -silent"
 
             # اجرای دستور با timeout
             output = subprocess.run(
@@ -108,6 +110,7 @@ def run_wabackurls(domain, retries=3):
 
 
 def run_httpx(watcher_wildcard, input_file_path):
+    
     try:
         sendmessage(f"  [INFO] Starting HTTPx on '{watcher_wildcard}'...", telegram=False)
             
@@ -682,7 +685,7 @@ def check_assets():
         process_crtsh(crtsh_domains)
         process_wabackurls(wabackurls_domains)
         proccess_user_subdomains(assets)
-        process_dns_bruteforce(assets)
+        # process_dns_bruteforce(assets)
         process_httpx(assets)
         process_cidrs_scanning(watcher_cidrs)
 

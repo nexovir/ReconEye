@@ -50,3 +50,8 @@
 [info] Getting Bugcrowd data ... -> 26/07/2025, 01:01:46
       [info] Connection OK -> 26/07/2025, 01:01:47
        [+] Bugcrowd Data Inserting Successfully -> 26/07/2025, 01:02:06
+[info] Getting Intigriti data ... -> 26/07/2025, 22:30:16
+      [info] Connection OK -> 26/07/2025, 22:30:18
+       [+] Intigriti Data Inserting Successfully -> 26/07/2025, 22:30:25
+[info] Getting Hackerone data ... -> 26/07/2025, 22:30:25
+      [info] Connection OK -> 26/07/2025, 22:30:26
