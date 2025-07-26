@@ -70,7 +70,7 @@ class WatchedWildcardAdmin(admin.ModelAdmin):
 
 @admin.register(DiscoverSubdomain)
 class DiscoverSubdomainAdmin(admin.ModelAdmin):
-    list_display = ('id', 'wildcard', 'subdomain', 'tool' , 'label' , 'created_at' , 'updated_at')
+    list_display = ('id', 'subdomain', 'label', 'wildcard', 'tool' , 'created_at' , 'updated_at')
     search_fields = ('subdomain',)
     ordering = ('updated_at',)
     list_filter = ('tool','wildcard__watcher__user__username' , 'label')
@@ -79,7 +79,7 @@ class DiscoverSubdomainAdmin(admin.ModelAdmin):
 
 @admin.register(SubdomainHttpx)
 class SubdomainHttpxAdmin(admin.ModelAdmin):
-    list_display = ('id', 'discovered_subdomain','label', 'status_code', 'title', 'server', 'ip_address', 'port')
+    list_display = ('id','httpx_result','label', 'status_code','server' ,'title', 'ip_address', 'port')
     list_filter = ('status_code', 'port' , 'label')
     search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title')
     ordering = ['created_at', 'updated_at' , 'label']
