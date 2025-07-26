@@ -27,7 +27,7 @@ def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", lo
     if telegram:
         escaped_message = message.replace(' ', '+')
         command = (
-            f'proxychains curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
+            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
             f'-d "chat_id=5028701156&text={escaped_message}"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)

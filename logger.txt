@@ -55,3 +55,13 @@
        [+] Intigriti Data Inserting Successfully -> 26/07/2025, 22:30:25
 [info] Getting Hackerone data ... -> 26/07/2025, 22:30:25
       [info] Connection OK -> 26/07/2025, 22:30:26
+       [+] Hackerone Data Inserting Successfully -> 26/07/2025, 22:36:11
+[info] Getting Federacy data ... -> 26/07/2025, 22:36:11
+      [info] Connection OK -> 26/07/2025, 22:36:12
+       [+] Federacy Data Inserting Successfully -> 26/07/2025, 22:36:13
+[info] Getting Yeswehack data ... -> 26/07/2025, 22:36:13
+      [info] Connection OK -> 26/07/2025, 22:36:14
+       [+] Yeswehack Data Inserting Successfully -> 26/07/2025, 22:36:20
+[info] Getting Bugcrowd data ... -> 26/07/2025, 22:36:20
+      [info] Connection OK -> 26/07/2025, 22:36:21
+       [+] Bugcrowd Data Inserting Successfully -> 26/07/2025, 22:36:39
