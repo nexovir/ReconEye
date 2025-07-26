@@ -685,7 +685,7 @@ def check_assets():
         process_crtsh(crtsh_domains)
         process_wabackurls(wabackurls_domains)
         proccess_user_subdomains(assets)
-        # process_dns_bruteforce(assets)
+        process_dns_bruteforce(assets)
         process_httpx(assets)
         process_cidrs_scanning(watcher_cidrs)
 
