@@ -61,6 +61,7 @@ class AssetWatcherAdmin(admin.ModelAdmin):
 class WatchedWildcardAdmin(admin.ModelAdmin):
     list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'updated_at')
     search_fields = ('wildcard',)
+    
     list_filter = ['watcher' , 'status' , 'tools']
     def get_all_tools(self, obj):
         return ", ".join([tool.tool_name for tool in obj.tools.all()])
@@ -82,7 +83,7 @@ class SubdomainHttpxAdmin(admin.ModelAdmin):
     list_display = ('id','httpx_result','label', 'status_code','server' ,'title', 'ip_address', 'port')
     list_filter = ('status_code', 'port' , 'label')
     search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title')
-    ordering = ['created_at', 'updated_at' , 'label']
+    ordering = ['label']
 
 
 @admin.register(SubdomainHttpxChanges)
@@ -100,7 +101,7 @@ class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
                     'body_hash_change', 
                     'header_hash_change' , 
                     'has_cdn_change']
-    ordering = ['created_at' , 'updated_at' , 'label']
+    ordering = ['label']
 
 
     
