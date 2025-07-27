@@ -52,14 +52,13 @@ def run_subfinder(domain):
         return []
 
 
-def run_crtsh(domain, retries=4, timeout=15):  # timeout به ثانیه
+def run_crtsh(domain, retries=2, timeout=15):  
     for attempt in range(1, retries + 1):
         try:
-            sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh on SOCKS 127.0.0.1:1080 for '{domain}'...", telegram=False)
+            sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh for '{domain}'...", telegram=False)
 
             command = f"curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | dnsx -silent"
 
-            # اجرای دستور با timeout
             output = subprocess.run(
                 command,
                 shell=True,
