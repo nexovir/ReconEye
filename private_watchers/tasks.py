@@ -65,6 +65,7 @@ def run_crtsh(domain, retries=2, timeout=15):
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 timeout=timeout,
+                timeout=10,
                 text=True
             )
 
