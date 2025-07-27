@@ -72,7 +72,7 @@ class WatchedWildcardAdmin(admin.ModelAdmin):
 class DiscoverSubdomainAdmin(admin.ModelAdmin):
     list_display = ('id', 'subdomain', 'label', 'wildcard', 'tool' , 'created_at' , 'updated_at')
     search_fields = ('subdomain',)
-    ordering = ('updated_at',)
+    ordering = ('-updated_at',)
     list_filter = ('tool','wildcard__watcher__user__username' , 'label')
 
 
