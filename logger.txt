@@ -405,3 +405,248 @@ Process Subfinder error: get() returned more than one DiscoverSubdomain -- it re
 [INFO] Attempt 1: Starting Waybackurls for 'pyszne.pl'... -> 27/07/2025, 22:18:29
   [+] 5 subs found for pyszne.pl -> 27/07/2025, 22:18:32
 [INFO] Attempt 1: Starting Waybackurls for 'samsclub.com'... -> 27/07/2025, 22:18:32
+  [+] 4 subs found for samsclub.com -> 27/07/2025, 22:18:47
+[INFO] Attempt 1: Starting Waybackurls for 'bigc.co.th'... -> 27/07/2025, 22:18:47
+  [+] 4 subs found for bigc.co.th -> 27/07/2025, 22:18:55
+[INFO] Attempt 1: Starting Waybackurls for 'bestprice.in'... -> 27/07/2025, 22:18:55
+  [+] 2 subs found for bestprice.in -> 27/07/2025, 22:18:58
+[INFO] Attempt 1: Starting Waybackurls for 'thuisbezorgd.nl'... -> 27/07/2025, 22:18:58
+  [+] 6 subs found for thuisbezorgd.nl -> 27/07/2025, 22:19:03
+[INFO] Attempt 1: Starting Waybackurls for 'fareharbor.engineering'... -> 27/07/2025, 22:19:03
+  [WAR] No subdomains found in attempt 1 for fareharbor.engineering -> 27/07/2025, 22:19:06
+[INFO] Attempt 2: Starting Waybackurls for 'fareharbor.engineering'... -> 27/07/2025, 22:19:06
+  [WAR] No subdomains found in attempt 2 for fareharbor.engineering -> 27/07/2025, 22:19:10
+[INFO] Attempt 3: Starting Waybackurls for 'fareharbor.engineering'... -> 27/07/2025, 22:19:10
+  [WAR] No subdomains found in attempt 3 for fareharbor.engineering -> 27/07/2025, 22:19:13
+  [ERROR] Failed to get subdomains from Waybackurls for fareharbor.engineering after 3 attempts. -> 27/07/2025, 22:19:13
+[INFO] Attempt 1: Starting Waybackurls for 'walmart.com'... -> 27/07/2025, 22:19:13
+  [+] 2 subs found for walmart.com -> 27/07/2025, 22:19:33
+[INFO] Attempt 1: Starting Waybackurls for 'skipthedishes.com'... -> 27/07/2025, 22:19:33
+  [+] 4 subs found for skipthedishes.com -> 27/07/2025, 22:19:37
+[INFO] Attempt 1: Starting Waybackurls for 'booking.com'... -> 27/07/2025, 22:19:37
+  [+] 2 subs found for booking.com -> 27/07/2025, 22:19:42
+[INFO] Attempt 1: Starting Waybackurls for 'just-eat.dk'... -> 27/07/2025, 22:19:42
+  [+] 3 subs found for just-eat.dk -> 27/07/2025, 22:19:47
+[INFO] Attempt 1: Starting Waybackurls for 'barenecessities.com'... -> 27/07/2025, 22:19:47
+  [+] 2 subs found for barenecessities.com -> 27/07/2025, 22:19:55
+[INFO] Attempt 1: Starting Waybackurls for 'dell.com'... -> 27/07/2025, 22:19:55
+  [+] 2 subs found for dell.com -> 27/07/2025, 22:20:02
+[INFO] Attempt 1: Starting Waybackurls for 'modcloth.com'... -> 27/07/2025, 22:20:02
+  [+] 13 subs found for modcloth.com -> 27/07/2025, 22:20:10
+[INFO] Attempt 1: Starting Waybackurls for 'moosejaw.com'... -> 27/07/2025, 22:20:10
+  [+] 2 subs found for moosejaw.com -> 27/07/2025, 22:20:19
+[INFO] Attempt 1: Starting Waybackurls for 'hayneedle.com'... -> 27/07/2025, 22:20:19
+  [+] 2 subs found for hayneedle.com -> 27/07/2025, 22:20:29
+[INFO] Attempt 1: Starting Waybackurls for 'fisglobal.com'... -> 27/07/2025, 22:20:29
+  [+] 12 subs found for fisglobal.com -> 27/07/2025, 22:20:34
+[INFO] Attempt 1: Starting Waybackurls for 'phonepe.com'... -> 27/07/2025, 22:20:34
+  [+] 3 subs found for phonepe.com -> 27/07/2025, 22:20:38
+[INFO] Attempt 1: Starting Waybackurls for 'bistro.sk'... -> 27/07/2025, 22:20:38
+  [+] 3 subs found for bistro.sk -> 27/07/2025, 22:20:41
+[INFO] Attempt 1: Starting Waybackurls for 'fis-development-clone.zoominsoftware.io'... -> 27/07/2025, 22:20:41
+  [WAR] No subdomains found in attempt 1 for fis-development-clone.zoominsoftware.io -> 27/07/2025, 22:20:44
+[INFO] Attempt 2: Starting Waybackurls for 'fis-development-clone.zoominsoftware.io'... -> 27/07/2025, 22:20:44
+  [WAR] No subdomains found in attempt 2 for fis-development-clone.zoominsoftware.io -> 27/07/2025, 22:20:48
+[INFO] Attempt 3: Starting Waybackurls for 'fis-development-clone.zoominsoftware.io'... -> 27/07/2025, 22:20:48
+  [WAR] No subdomains found in attempt 3 for fis-development-clone.zoominsoftware.io -> 27/07/2025, 22:21:10
+  [ERROR] Failed to get subdomains from Waybackurls for fis-development-clone.zoominsoftware.io after 3 attempts. -> 27/07/2025, 22:21:10
+[INFO] Attempt 1: Starting Waybackurls for 'delltechnologies.com'... -> 27/07/2025, 22:21:10
+  [+] 5 subs found for delltechnologies.com -> 27/07/2025, 22:21:16
+[INFO] Attempt 1: Starting Waybackurls for 'fisconnect.com'... -> 27/07/2025, 22:21:16
+  [WAR] No subdomains found in attempt 1 for fisconnect.com -> 27/07/2025, 22:21:20
+[INFO] Attempt 2: Starting Waybackurls for 'fisconnect.com'... -> 27/07/2025, 22:21:20
+  [WAR] No subdomains found in attempt 2 for fisconnect.com -> 27/07/2025, 22:21:23
+[INFO] Attempt 3: Starting Waybackurls for 'fisconnect.com'... -> 27/07/2025, 22:21:23
+  [WAR] No subdomains found in attempt 3 for fisconnect.com -> 27/07/2025, 22:21:26
+  [ERROR] Failed to get subdomains from Waybackurls for fisconnect.com after 3 attempts. -> 27/07/2025, 22:21:26
+[INFO] Attempt 1: Starting Waybackurls for 'bonobos.com'... -> 27/07/2025, 22:21:26
+  [+] 3 subs found for bonobos.com -> 27/07/2025, 22:21:30
+[INFO] Attempt 1: Starting Waybackurls for 'asda.com'... -> 27/07/2025, 22:21:30
+  [+] 12 subs found for asda.com -> 27/07/2025, 22:21:48
+[INFO] Attempt 1: Starting Waybackurls for 'fisemerald.com'... -> 27/07/2025, 22:21:48
+  [WAR] No subdomains found in attempt 1 for fisemerald.com -> 27/07/2025, 22:21:52
+[INFO] Attempt 2: Starting Waybackurls for 'fisemerald.com'... -> 27/07/2025, 22:21:52
+  [WAR] No subdomains found in attempt 2 for fisemerald.com -> 27/07/2025, 22:21:55
+[INFO] Attempt 3: Starting Waybackurls for 'fisemerald.com'... -> 27/07/2025, 22:21:55
+  [WAR] No subdomains found in attempt 3 for fisemerald.com -> 27/07/2025, 22:21:59
+  [ERROR] Failed to get subdomains from Waybackurls for fisemerald.com after 3 attempts. -> 27/07/2025, 22:21:59
+[INFO] Attempt 1: Starting Waybackurls for 'scoober.com'... -> 27/07/2025, 22:21:59
+  [WAR] No subdomains found in attempt 1 for scoober.com -> 27/07/2025, 22:22:02
+[INFO] Attempt 2: Starting Waybackurls for 'scoober.com'... -> 27/07/2025, 22:22:02
+  [WAR] No subdomains found in attempt 2 for scoober.com -> 27/07/2025, 22:22:05
+[INFO] Attempt 3: Starting Waybackurls for 'scoober.com'... -> 27/07/2025, 22:22:05
+  [WAR] No subdomains found in attempt 3 for scoober.com -> 27/07/2025, 22:22:09
+  [ERROR] Failed to get subdomains from Waybackurls for scoober.com after 3 attempts. -> 27/07/2025, 22:22:09
+[INFO] Attempt 1: Starting Waybackurls for 'eloquii.com'... -> 27/07/2025, 22:22:09
+  [+] 3 subs found for eloquii.com -> 27/07/2025, 22:22:13
+[INFO] Attempt 1: Starting Waybackurls for 'lider.cl'... -> 27/07/2025, 22:22:13
+  [+] 2 subs found for lider.cl -> 27/07/2025, 22:22:17
+[INFO] Attempt 1: Starting Waybackurls for 'takeaway.com'... -> 27/07/2025, 22:22:17
+  [+] 8 subs found for takeaway.com -> 27/07/2025, 22:22:21
+[INFO] Attempt 1: Starting Waybackurls for 'fmberlin.com'... -> 27/07/2025, 22:22:21
+  [+] 2 subs found for fmberlin.com -> 27/07/2025, 22:22:25
+[INFO] Attempt 1: Starting Waybackurls for 'skippayments.com'... -> 27/07/2025, 22:22:25
+  [WAR] No subdomains found in attempt 1 for skippayments.com -> 27/07/2025, 22:22:29
+[INFO] Attempt 2: Starting Waybackurls for 'skippayments.com'... -> 27/07/2025, 22:22:29
+  [WAR] No subdomains found in attempt 2 for skippayments.com -> 27/07/2025, 22:22:32
+[INFO] Attempt 3: Starting Waybackurls for 'skippayments.com'... -> 27/07/2025, 22:22:32
+  [WAR] No subdomains found in attempt 3 for skippayments.com -> 27/07/2025, 22:22:36
+  [ERROR] Failed to get subdomains from Waybackurls for skippayments.com after 3 attempts. -> 27/07/2025, 22:22:36
+[INFO] Attempt 1: Starting Waybackurls for 'fiscloudservices.com'... -> 27/07/2025, 22:22:36
+  [WAR] No subdomains found in attempt 1 for fiscloudservices.com -> 27/07/2025, 22:22:39
+[INFO] Attempt 2: Starting Waybackurls for 'fiscloudservices.com'... -> 27/07/2025, 22:22:39
+  [WAR] No subdomains found in attempt 2 for fiscloudservices.com -> 27/07/2025, 22:22:42
+[INFO] Attempt 3: Starting Waybackurls for 'fiscloudservices.com'... -> 27/07/2025, 22:22:42
+  [WAR] No subdomains found in attempt 3 for fiscloudservices.com -> 27/07/2025, 22:22:46
+  [ERROR] Failed to get subdomains from Waybackurls for fiscloudservices.com after 3 attempts. -> 27/07/2025, 22:22:46
+[INFO] Attempt 1: Starting Waybackurls for 'fismitlab.com'... -> 27/07/2025, 22:22:46
+  [WAR] No subdomains found in attempt 1 for fismitlab.com -> 27/07/2025, 22:22:49
+[INFO] Attempt 2: Starting Waybackurls for 'fismitlab.com'... -> 27/07/2025, 22:22:49
+  [WAR] No subdomains found in attempt 2 for fismitlab.com -> 27/07/2025, 22:22:52
+[INFO] Attempt 3: Starting Waybackurls for 'fismitlab.com'... -> 27/07/2025, 22:22:52
+  [WAR] No subdomains found in attempt 3 for fismitlab.com -> 27/07/2025, 22:22:56
+  [ERROR] Failed to get subdomains from Waybackurls for fismitlab.com after 3 attempts. -> 27/07/2025, 22:22:56
+[INFO] Attempt 1: Starting Waybackurls for 'fnbgranbury.com'... -> 27/07/2025, 22:22:56
+  [+] 2 subs found for fnbgranbury.com -> 27/07/2025, 22:23:00
+[INFO] Attempt 1: Starting Waybackurls for 'lieferando.de'... -> 27/07/2025, 22:23:00
+  [+] 7 subs found for lieferando.de -> 27/07/2025, 22:23:04
+[INFO] Attempt 1: Starting Waybackurls for 'jet.com'... -> 27/07/2025, 22:23:04
+  [+] 1 subs found for jet.com -> 27/07/2025, 22:23:11
+[INFO] Attempt 1: Starting Waybackurls for 'fnfis.com'... -> 27/07/2025, 22:23:11
+  [+] 2 subs found for fnfis.com -> 27/07/2025, 22:23:14
+[INFO] Attempt 1: Starting Waybackurls for 'vudu.com'... -> 27/07/2025, 22:23:14
+  [+] 18 subs found for vudu.com -> 27/07/2025, 22:23:21
+[INFO] Attempt 1: Starting Waybackurls for 'rentalcars.com'... -> 27/07/2025, 22:23:21
+  [+] 2 subs found for rentalcars.com -> 27/07/2025, 22:23:32
+[INFO] Attempt 1: Starting Waybackurls for 'flipkart.com'... -> 27/07/2025, 22:23:32
+  [+] 2 subs found for flipkart.com -> 27/07/2025, 22:23:45
+[INFO] Starting Insert user's subdomains -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for hayneedle.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for thuisbezorgd.nl -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fareharbor.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for scoober.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fareharbor.engineering -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fnfis.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fnis.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fisglobal.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for eloquii.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for parcel.io -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for vudu.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for walmart.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for phonepe.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for 10bis.co.il -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for lider.cl -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for skipthedishes.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for bistro.sk -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for rentalcars.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for booking.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for takeaway.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for walmartlabs.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for flipkart.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fis-development-clone.zoominsoftware.io -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fmberlin.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for just-eat.dk -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for delltechnologies.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for skippayments.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for just-eat.co.uk -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fisconnect.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for just-eat.es -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fiscloudservices.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for barenecessities.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for bonobos.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for just-eat.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for pyszne.pl -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for dell.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fismitlab.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for seiyu.co.jp -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for asda.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for samsclub.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for modcloth.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fnbgranbury.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for bigc.co.th -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for fisemerald.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for menulog.com.au -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for moosejaw.com -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for lieferando.de -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for bestprice.in -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for massmart.co.za -> 27/07/2025, 22:23:45
+  [INFO] No own subdomains found for jet.com -> 27/07/2025, 22:23:45
+  [INFO] Starting HTTPx on 'hayneedle.com - nexovir'... -> 27/07/2025, 22:23:45
+  [*] Starting Parsing Data ... -> 27/07/2025, 22:24:05
+     [+] Starting Save Httpx Results and Detect Changes -> 27/07/2025, 22:24:05
+  [INFO] Starting HTTPx on 'thuisbezorgd.nl - nexovir'... -> 27/07/2025, 22:24:05
+  [*] Starting Parsing Data ... -> 27/07/2025, 22:31:23
+     [+] Starting Save Httpx Results and Detect Changes -> 27/07/2025, 22:31:23
+  [INFO] Starting HTTPx on 'fareharbor.com - nexovir'... -> 27/07/2025, 22:31:24
+  [*] Starting Parsing Data ... -> 27/07/2025, 22:31:57
+     [+] Starting Save Httpx Results and Detect Changes -> 27/07/2025, 22:31:57
+  [INFO] Starting HTTPx on 'scoober.com - nexovir'... -> 27/07/2025, 22:31:59
+  [*] Starting Parsing Data ... -> 27/07/2025, 22:33:33
+     [+] Starting Save Httpx Results and Detect Changes -> 27/07/2025, 22:33:33
+  [INFO] Starting HTTPx on 'fareharbor.engineering - nexovir'... -> 27/07/2025, 22:33:34
+  [*] Starting Parsing Data ... -> 27/07/2025, 22:33:58
+     [+] Starting Save Httpx Results and Detect Changes -> 27/07/2025, 22:33:58
+  [INFO] Starting HTTPx on 'fnfis.com - nexovir'... -> 27/07/2025, 22:33:58
+  [*] Starting Parsing Data ... -> 27/07/2025, 23:16:43
+     [+] Starting Save Httpx Results and Detect Changes -> 27/07/2025, 23:16:43
+  [INFO] Starting HTTPx on 'fnis.com - nexovir'... -> 27/07/2025, 23:16:45
+  [*] Starting Parsing Data ... -> 27/07/2025, 23:24:42
+     [+] Starting Save Httpx Results and Detect Changes -> 27/07/2025, 23:24:42
+  [INFO] Starting HTTPx on 'fisglobal.com - nexovir'... -> 27/07/2025, 23:24:54
+  [*] Starting Parsing Data ... -> 28/07/2025, 01:44:11
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 01:44:11
+  [INFO] Starting HTTPx on 'eloquii.com - nexovir'... -> 28/07/2025, 01:45:16
+  [*] Starting Parsing Data ... -> 28/07/2025, 01:45:33
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 01:45:33
+  [INFO] Starting HTTPx on 'parcel.io - nexovir'... -> 28/07/2025, 01:45:34
+  [*] Starting Parsing Data ... -> 28/07/2025, 01:45:49
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 01:45:49
+  [INFO] Starting HTTPx on 'vudu.com - nexovir'... -> 28/07/2025, 01:45:51
+  [*] Starting Parsing Data ... -> 28/07/2025, 01:51:05
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 01:51:05
+  [INFO] Starting HTTPx on 'walmart.com - nexovir'... -> 28/07/2025, 01:51:19
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:12:11
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:12:11
+  [INFO] Starting HTTPx on 'phonepe.com - nexovir'... -> 28/07/2025, 02:12:33
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:13:46
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:13:46
+  [INFO] Starting HTTPx on '10bis.co.il - nexovir'... -> 28/07/2025, 02:13:50
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:14:21
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:14:21
+  [INFO] Starting HTTPx on 'lider.cl - nexovir'... -> 28/07/2025, 02:14:22
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:14:57
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:14:57
+  [INFO] Starting HTTPx on 'skipthedishes.com - nexovir'... -> 28/07/2025, 02:14:58
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:17:10
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:17:10
+  [INFO] Starting HTTPx on 'bistro.sk - nexovir'... -> 28/07/2025, 02:17:20
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:17:44
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:17:44
+  [INFO] Starting HTTPx on 'rentalcars.com - nexovir'... -> 28/07/2025, 02:17:44
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:20:42
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:20:42
+  [INFO] Starting HTTPx on 'booking.com - nexovir'... -> 28/07/2025, 02:20:45
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:28:45
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:28:45
+  [INFO] Starting HTTPx on 'takeaway.com - nexovir'... -> 28/07/2025, 02:29:00
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:59:03
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:59:03
+  [INFO] Starting HTTPx on 'walmartlabs.com - nexovir'... -> 28/07/2025, 02:59:07
+  [*] Starting Parsing Data ... -> 28/07/2025, 02:59:40
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 02:59:40
+  [INFO] Starting HTTPx on 'flipkart.com - nexovir'... -> 28/07/2025, 02:59:40
+  [*] Starting Parsing Data ... -> 28/07/2025, 03:03:50
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 03:03:50
+  [INFO] Starting HTTPx on 'fis-development-clone.zoominsoftware.io - nexovir'... -> 28/07/2025, 03:03:55
+  [*] Starting Parsing Data ... -> 28/07/2025, 03:03:59
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 03:03:59
+  [INFO] Starting HTTPx on 'fmberlin.com - nexovir'... -> 28/07/2025, 03:03:59
+  [*] Starting Parsing Data ... -> 28/07/2025, 03:04:16
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 03:04:16
+  [INFO] Starting HTTPx on 'just-eat.dk - nexovir'... -> 28/07/2025, 03:04:16
+  [*] Starting Parsing Data ... -> 28/07/2025, 03:04:43
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 03:04:43
+  [INFO] Starting HTTPx on 'delltechnologies.com - nexovir'... -> 28/07/2025, 03:04:44
+  [*] Starting Parsing Data ... -> 28/07/2025, 03:05:59
+     [+] Starting Save Httpx Results and Detect Changes -> 28/07/2025, 03:05:59
+[ERROR] Subdomain discovery failed: value too long for type character varying(500) -> 28/07/2025, 03:06:00
