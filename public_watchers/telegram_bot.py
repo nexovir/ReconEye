@@ -74,7 +74,7 @@ async def send_summary_to_channel(platform_counter):
 
         summary_lines.append('\n🔗 Details: <a href="https://t.me/zerosec_watcher/">Click here</a>')
         summary_lines.append('\n#zerosec #bugbounty #watcher #summary_report')
-        summary_lines.append("\n──────────────")
+        summary_lines.append("\n")
         summary_lines.append("⭐️ @ZeroSec_team")
 
         summary_text = "\n".join(summary_lines)
