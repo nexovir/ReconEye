@@ -65,7 +65,6 @@ def run_crtsh(domain, retries=2, timeout=15):
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 timeout=timeout,
-                timeout=10,
                 text=True
             )
 
@@ -133,7 +132,7 @@ def run_httpx(watcher_wildcard, input_file_path):
             '-json',
             '-silent',
             '-threads', '10',
-            '-timeout', '7',
+            '-timeout', '4',
             '-http-proxy', PROXY
         ]
 
