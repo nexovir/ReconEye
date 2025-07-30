@@ -75,12 +75,12 @@ async def send_summary_to_channel(platform_counter):
         summary_lines.append('\n🔗 Details: <a href="https://t.me/zerosec_watcher/">Click here</a>')
         summary_lines.append('\n#zerosec #bugbounty #watcher #summary_report')
         summary_lines.append("\n──────────────")
-        summary_lines.append("📡 Follow :\n👉 @zerosec_team")
+        summary_lines.append("⭐️ @ZeroSec_team")
 
         summary_text = "\n".join(summary_lines)
 
         keyboard = [
-            [InlineKeyboardButton("🚀 Visit Details on ZeroSec", url="https://t.me/zerosec_watcher/")]
+            [InlineKeyboardButton("⭐️ Visit Details on ZeroSec ⭐️", url="https://t.me/zerosec_watcher/")]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 

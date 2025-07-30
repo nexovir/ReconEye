@@ -3775,3 +3775,18 @@ Process Subfinder error: get() returned more than one DiscoverSubdomain -- it re
 [error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '10', '-timeout', '7', '-http-proxy', 'socks5://127.0.0.1:2080']' returned non-zero exit status 1. -> 30/07/2025, 09:27:28
   [INFO] Starting HTTPx on 'fareharbor.com - nexovir'... -> 30/07/2025, 09:27:28
   [INFO] Starting HTTPx on 'just-eat.es - nexovir'... -> 30/07/2025, 09:27:28
+[info] Getting Yeswehack data ... -> 30/07/2025, 14:11:07
+      [info] Connection OK -> 30/07/2025, 14:11:08
+       [+] Yeswehack Data Inserting Successfully -> 30/07/2025, 14:11:13
+[info] Getting Intigriti data ... -> 30/07/2025, 14:11:13
+      [info] Connection OK -> 30/07/2025, 14:11:13
+       [+] Intigriti Data Inserting Successfully -> 30/07/2025, 14:11:21
+[info] Getting Hackerone data ... -> 30/07/2025, 14:11:21
+      [info] Connection OK -> 30/07/2025, 14:11:22
+       [+] Hackerone Data Inserting Successfully -> 30/07/2025, 14:18:14
+[info] Getting Federacy data ... -> 30/07/2025, 14:18:14
+      [info] Connection OK -> 30/07/2025, 14:18:15
+       [+] Federacy Data Inserting Successfully -> 30/07/2025, 14:18:16
+[info] Getting Bugcrowd data ... -> 30/07/2025, 14:18:16
+      [info] Connection OK -> 30/07/2025, 14:18:17
+       [+] Bugcrowd Data Inserting Successfully -> 30/07/2025, 14:19:08
