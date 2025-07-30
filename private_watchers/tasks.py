@@ -5,9 +5,11 @@ from .models import *
 from datetime import datetime
 from .telegram_bot import *
 
+
 OUTPUT_PATH = 'private_watchers/outputs'
 WORDLISTS_PATH = 'private_watchers/wordlists'
 
+# use if you want this
 PROXY = 'socks5://127.0.0.1:2080'
 SIMPLE_PROXY = '127.0.0.1:2080'
 
@@ -23,7 +25,7 @@ def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", lo
     if telegram:
         escaped_message = message.replace(' ', '+')
         command = (
-            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage --socks5 {PROXY}"'
+            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage"'
             f'-d "chat_id=5028701156&text={escaped_message}"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -42,7 +44,7 @@ def clear_services_labels():
 def run_subfinder(domain):
     try:
         sendmessage(f"[INFO] Starting Subfinder for '{domain}'...", telegram=False)
-        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 40 -proxy {PROXY}| dnsx -silent -proxy {PROXY}").read()
+        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 40| dnsx -silent").read()
         subdomains = [line.strip() for line in output.splitlines() if line.strip()]
         sendmessage(f"  [+] {len(subdomains)} subs found for {domain}", colour='GREEN')
         return subdomains
@@ -56,7 +58,7 @@ def run_crtsh(domain, retries=2, timeout=15):
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh for '{domain}'...", telegram=False)
 
-            command = f"curl -s 'https://crt.sh/?q={domain}&output=json --socks5 {PROXY}' | jq -r '.[].name_value' | dnsx -silent"
+            command = f"curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | dnsx -silent"
 
             output = subprocess.run(
                 command,
@@ -90,7 +92,7 @@ def run_wabackurls(domain, retries=3):
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Waybackurls for '{domain}'...", telegram=False)
             
-            output = os.popen(f"echo {domain} | waybackurls | unfurl domains | sort -u | dnsx -silent -proxy {PROXY}").read()
+            output = os.popen(f"echo {domain} | waybackurls | unfurl domains | sort -u | dnsx -silent").read()
             subdomains = [line.strip() for line in output.splitlines() if line.strip()]
             
             if subdomains:
@@ -131,8 +133,7 @@ def run_httpx(watcher_wildcard, input_file_path):
             '-json',
             '-silent',
             '-threads', '10',
-            '-timeout', '4',
-            '-http-proxy', PROXY
+            '-timeout', '4'
         ]
 
         with open(output_file_path, 'w') as outfile, open(os.devnull, 'w') as devnull:
@@ -492,7 +493,7 @@ def process_dns_bruteforce(watcher_assets):
                 )
 
                 dnsx = subprocess.Popen(
-                    ['dnsx', '-silent','-proxy', PROXY],
+                    ['dnsx', '-silent'],
                     stdin=puredns.stdout,
                     stdout=outfile,
                 )
@@ -537,7 +538,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
         try:
             result = subprocess.run(
-                ['naabu', '-host', cidr, '-p', ports, '-silent' , '-proxy',SIMPLE_PROXY],
+                ['naabu', '-host', cidr, '-p', ports, '-silent'],
                 capture_output=True, text=True, check=True
             )
         except subprocess.CalledProcessError as e:
@@ -579,7 +580,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
         try:
             result = subprocess.run(
-                ['httpx', '-l', f.name, '-sc', '-threads', '10', '-timeout','7', '-no-color','-http-proxy', PROXY, '-silent'],
+                ['httpx', '-l', f.name, '-sc', '-threads', '10', '-timeout','7', '-no-color','-silent'],
                 capture_output=True, text=True, check=True
             )
         except subprocess.CalledProcessError as e:

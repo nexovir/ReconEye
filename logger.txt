@@ -3790,3 +3790,5 @@ Process Subfinder error: get() returned more than one DiscoverSubdomain -- it re
 [info] Getting Bugcrowd data ... -> 30/07/2025, 14:18:16
       [info] Connection OK -> 30/07/2025, 14:18:17
        [+] Bugcrowd Data Inserting Successfully -> 30/07/2025, 14:19:08
+[info] Getting Yeswehack data ... -> 30/07/2025, 17:55:50
+  [error] Failed to retrieve data: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /arkadiyt/bounty-targets-data/refs/heads/main/data/yeswehack_data.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb313c282f0>: Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)")). Retrying in 5 seconds... -> 30/07/2025, 17:55:50
