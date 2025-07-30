@@ -26,7 +26,7 @@ sem = asyncio.Semaphore(1)
 async def send_message_to_channel(name, scope, platform, time_date, url, target_type, _type):
     try:
         keyboard = [
-            [InlineKeyboardButton(f"⚡️ Visit {target_type} on {platform.upper()} ⚡️", url=url)],
+            [InlineKeyboardButton(f"⚡️ Visit on {platform.upper()} ⚡️", url=url)],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
@@ -48,9 +48,7 @@ Type : <b>{_type.upper()}</b>
 #new_{target_type} #zerosec #bugbounty
 #{platform}
 
-──────────────
-📡 Follow :
-👉 @zerosec_team
+⭐ @ZeroSec_team
 ''',
             reply_markup=reply_markup,
             parse_mode="HTML",

@@ -1,7 +1,6 @@
 from celery import shared_task
 from django.utils.timezone import now  # type: ignore
-import colorama, json, requests, time, subprocess, pydig, os , tempfile
-from requests.exceptions import RequestException
+import colorama, json, time, subprocess, pydig, os , tempfile
 from .models import *
 from datetime import datetime
 from .telegram_bot import *
