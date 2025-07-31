@@ -17,7 +17,6 @@ request = HTTPXRequest(
     connect_timeout=10,
     read_timeout=10,
     pool_timeout=30,
-    proxy="socks5://127.0.0.1:2080"
 )
 
 bot = Bot(token=BOT_TOKEN, request=request)
