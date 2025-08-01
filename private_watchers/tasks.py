@@ -4,6 +4,8 @@ import colorama, json, time, subprocess, pydig, os , tempfile
 from .models import *
 from datetime import datetime
 from .telegram_bot import *
+from celery import chain
+from celery import group
 
 
 OUTPUT_PATH = 'private_watchers/outputs'
@@ -645,12 +647,11 @@ def process_httpx(assets_watchers):
                         results = parse_httpx_jsonl(output_file)
                         save_httpx_results(results)
 
-  
 
 @shared_task
 def check_assets():
     assets = AssetWatcher.objects.filter(is_active=True)
-    watcher_cidrs = WatcherCIDR.objects.filter(is_active = True)
+    watcher_cidrs = WatcherCIDR.objects.filter(is_active=True)
     AssetWatcher.objects.filter(is_active=True).update(status='pending')
 
     subfinder_domains = set()
@@ -667,13 +668,12 @@ def check_assets():
                 for tool in wildcard.tools.all():
                     if tool.tool_name == 'subfinder':
                         subfinder_domains.add(wildcard.wildcard)
-                    if tool.tool_name =='httpx':
+                    if tool.tool_name == 'httpx':
                         httpx_domains.add(wildcard.wildcard)
                     if tool.tool_name == 'crt.sh':
                         crtsh_domains.add(wildcard.wildcard)
                     if tool.tool_name == 'wabackurls':
                         wabackurls_domains.add(wildcard.wildcard)
-
 
         except Exception as e:
             asset.status = 'failed'
@@ -681,13 +681,17 @@ def check_assets():
             sendmessage(f"[ERROR] Failed to process {asset}: {e}", colour='RED')
 
     try:
-        process_subfinder(subfinder_domains)
-        process_crtsh(crtsh_domains)
-        process_wabackurls(wabackurls_domains)
-        proccess_user_subdomains(assets)
-        process_dns_bruteforce(assets)
-        process_httpx(assets)
-        process_cidrs_scanning(watcher_cidrs)
+        tasks = [
+            process_subfinder.s(subfinder_domains),
+            process_crtsh.s(crtsh_domains),
+            process_wabackurls.s(wabackurls_domains),
+            proccess_user_subdomains.s(assets),
+            process_dns_bruteforce.s(assets),
+            process_httpx.s(assets),
+            process_cidrs_scanning.s(watcher_cidrs),
+        ]
+
+        group(tasks).apply_async()
 
     except Exception as e:
         sendmessage(f"[ERROR] Subdomain discovery failed: {e}", colour='RED')
