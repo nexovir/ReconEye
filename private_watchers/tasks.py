@@ -4,9 +4,6 @@ import colorama, json, time, subprocess, pydig, os , tempfile
 from .models import *
 from datetime import datetime
 from .telegram_bot import *
-from celery import chain
-from celery import group
-
 
 OUTPUT_PATH = 'private_watchers/outputs'
 WORDLISTS_PATH = 'private_watchers/wordlists'
@@ -647,6 +644,7 @@ def process_httpx(assets_watchers):
                         results = parse_httpx_jsonl(output_file)
                         save_httpx_results(results)
 
+  
 
 @shared_task
 def check_assets():
@@ -680,20 +678,23 @@ def check_assets():
             asset.save()
             sendmessage(f"[ERROR] Failed to process {asset}: {e}", colour='RED')
 
-    try:
-        tasks = [
-            process_subfinder.s(subfinder_domains),
-            process_crtsh.s(crtsh_domains),
-            process_wabackurls.s(wabackurls_domains),
-            proccess_user_subdomains.s(assets),
-            process_dns_bruteforce.s(assets),
-            process_httpx.s(assets),
-            process_cidrs_scanning.s(watcher_cidrs),
-        ]
+    # اجرای مرتب و مرحله‌به‌مرحله‌ی ابزارها
+    steps = [
+        ("subfinder", lambda: process_subfinder(subfinder_domains)),
+        ("crt.sh", lambda: process_crtsh(crtsh_domains)),
+        ("waybackurls", lambda: process_wabackurls(wabackurls_domains)),
+        ("user subdomains", lambda: proccess_user_subdomains(assets)),
+        # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
+        ("httpx", lambda: process_httpx(assets)),
+        ("cidrs scanning", lambda: process_cidrs_scanning(watcher_cidrs)),
+    ]
 
-        group(tasks).apply_async()
-
-    except Exception as e:
-        sendmessage(f"[ERROR] Subdomain discovery failed: {e}", colour='RED')
+    for step_name, func in steps:
+        try:
+            sendmessage(f"[INFO] Starting {step_name}", colour='BLUE')
+            func()
+            sendmessage(f"[SUCCESS] Finished {step_name}", colour='GREEN')
+        except Exception as e:
+            sendmessage(f"[ERROR] {step_name} failed: {e}", colour='RED')
 
     AssetWatcher.objects.filter(is_active=True).update(status='completed')

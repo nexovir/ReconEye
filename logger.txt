@@ -3792,3 +3792,151 @@ Process Subfinder error: get() returned more than one DiscoverSubdomain -- it re
        [+] Bugcrowd Data Inserting Successfully -> 30/07/2025, 14:19:08
 [info] Getting Yeswehack data ... -> 30/07/2025, 17:55:50
   [error] Failed to retrieve data: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /arkadiyt/bounty-targets-data/refs/heads/main/data/yeswehack_data.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb313c282f0>: Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)")). Retrying in 5 seconds... -> 30/07/2025, 17:55:50
+[info] Getting Yeswehack data ... -> 01/08/2025, 11:31:12
+      [info] Connection OK -> 01/08/2025, 11:31:13
+       [+] Yeswehack Data Inserting Successfully -> 01/08/2025, 11:31:16
+[info] Getting Intigriti data ... -> 01/08/2025, 11:31:16
+      [info] Connection OK -> 01/08/2025, 11:31:17
+[info] Getting Hackerone data ... -> 01/08/2025, 11:31:32
+      [info] Connection OK -> 01/08/2025, 11:31:33
+  [error] in_scope error: can't change 'autocommit' now: connection in transaction status ACTIVE -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+  [error] Error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 01/08/2025, 11:31:38
+[ERROR] Subdomain discovery failed: 'function' object has no attribute 's' -> 01/08/2025, 11:32:13
+[ERROR] Subdomain discovery failed: Object of type set is not JSON serializable -> 01/08/2025, 11:34:45
+[INFO] Starting subfinder -> 01/08/2025, 18:19:28
+[INFO] Starting Subfinder for 'fismitlab.com'... -> 01/08/2025, 18:19:28
