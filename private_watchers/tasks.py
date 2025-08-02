@@ -52,7 +52,7 @@ def run_subfinder(domain):
         return []
 
 
-def run_crtsh(domain, retries=2, timeout=15):  
+def run_crtsh(domain, retries=1, timeout=15):  
     for attempt in range(1, retries + 1):
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh for '{domain}'...", telegram=False)
@@ -86,7 +86,7 @@ def run_crtsh(domain, retries=2, timeout=15):
     return []
 
 
-def run_wabackurls(domain, retries=3):
+def run_wabackurls(domain, retries=1):
     for attempt in range(1, retries + 1):
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Waybackurls for '{domain}'...", telegram=False)

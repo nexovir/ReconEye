@@ -34,6 +34,7 @@ AUTHENTICATION_BACKENDS = (
     'graphql_jwt.backends.JSONWebTokenBackend',  # ← اضافه کن
     'django.contrib.auth.backends.ModelBackend',
 )
+
 CSRF_TRUSTED_ORIGINS = ['https://info-disclosure.ir']
 
 
