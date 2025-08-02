@@ -646,7 +646,7 @@ def process_httpx(assets_watchers):
 
   
 
-@shared_task
+@shared_task(bind=True, acks_late=True)
 def check_assets():
     assets = AssetWatcher.objects.filter(is_active=True)
     watcher_cidrs = WatcherCIDR.objects.filter(is_active=True)
