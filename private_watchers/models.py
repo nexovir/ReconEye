@@ -197,7 +197,7 @@ class WatchedWildcard(BaseModel):
 
 class DiscoverSubdomain(BaseModel):
     wildcard = models.ForeignKey(WatchedWildcard, on_delete=models.CASCADE, related_name='subdomains')
-    subdomain = models.CharField(max_length=300, blank=True, null=True)
+    subdomain = models.CharField(max_length=300, blank=True, null=True , unique= True)
     tool = models.ForeignKey(Tool, on_delete=models.SET_NULL, null=True, blank=True)
 
     label = models.CharField(choices=LABELS, max_length=50, default='new')

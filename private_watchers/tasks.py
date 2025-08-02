@@ -678,7 +678,6 @@ def check_assets():
             asset.save()
             sendmessage(f"[ERROR] Failed to process {asset}: {e}", colour='RED')
 
-    # اجرای مرتب و مرحله‌به‌مرحله‌ی ابزارها
     steps = [
         ("subfinder", lambda: process_subfinder(subfinder_domains)),
         ("crt.sh", lambda: process_crtsh(crtsh_domains)),

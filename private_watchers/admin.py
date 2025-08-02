@@ -57,15 +57,15 @@ class AssetWatcherAdmin(admin.ModelAdmin):
 
 
 
-@admin.register(WatchedWildcard)
-class WatchedWildcardAdmin(admin.ModelAdmin):
-    list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'updated_at')
-    search_fields = ('wildcard',)
+# @admin.register(WatchedWildcard)
+# class WatchedWildcardAdmin(admin.ModelAdmin):
+#     list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'updated_at')
+#     search_fields = ('wildcard',)
     
-    list_filter = ['watcher' , 'status' , 'tools']
-    def get_all_tools(self, obj):
-        return ", ".join([tool.tool_name for tool in obj.tools.all()])
-    get_all_tools.short_description = "Tools"
+#     list_filter = ['watcher' , 'status' , 'tools']
+#     def get_all_tools(self, obj):
+#         return ", ".join([tool.tool_name for tool in obj.tools.all()])
+#     get_all_tools.short_description = "Tools"
 
 
 
