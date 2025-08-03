@@ -43,7 +43,7 @@ def clear_services_labels():
 def run_subfinder(domain):
     try:
         sendmessage(f"[INFO] Starting Subfinder for '{domain}'...", telegram=False)
-        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 40| dnsx -silent").read()
+        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 60 | dnsx -silent").read()
         subdomains = [line.strip() for line in output.splitlines() if line.strip()]
         sendmessage(f"  [+] {len(subdomains)} subs found for {domain}", colour='GREEN')
         return subdomains
@@ -91,7 +91,7 @@ def run_wabackurls(domain, retries=1):
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Waybackurls for '{domain}'...", telegram=False)
             
-            output = os.popen(f"echo {domain} | waybackurls | unfurl domains | sort -u | dnsx -silent").read()
+            output = os.popen(f"echo {domain} | waybackurls | unfurl domains | sort -u | awk '!seen[$0]++' | dnsx -silent").read()
             subdomains = [line.strip() for line in output.splitlines() if line.strip()]
             
             if subdomains:
@@ -681,7 +681,7 @@ def check_assets(self):
     steps = [
         ("subfinder", lambda: process_subfinder(subfinder_domains)),
         ("crt.sh", lambda: process_crtsh(crtsh_domains)),
-        ("waybackurls", lambda: process_wabackurls(wabackurls_domains)),
+        # ("waybackurls", lambda: process_wabackurls(wabackurls_domains)),
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
         # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
         ("httpx", lambda: process_httpx(assets)),
