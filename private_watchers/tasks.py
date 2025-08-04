@@ -681,7 +681,6 @@ def check_assets(self):
     steps = [
         ("subfinder", lambda: process_subfinder(subfinder_domains)),
         ("crt.sh", lambda: process_crtsh(crtsh_domains)),
-        # ("waybackurls", lambda: process_wabackurls(wabackurls_domains)),
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
         # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
         ("httpx", lambda: process_httpx(assets)),
