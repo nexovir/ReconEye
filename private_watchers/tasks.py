@@ -57,7 +57,7 @@ def run_crtsh(domain, retries=1, timeout=15):
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Crt.sh for '{domain}'...", telegram=False)
 
-            command = f"curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | dnsx -silent"
+            command = f"curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | sort -u | dnsx -silent"
 
             output = subprocess.run(
                 command,
@@ -91,7 +91,7 @@ def run_wabackurls(domain, retries=1):
         try:
             sendmessage(f"[INFO] Attempt {attempt}: Starting Waybackurls for '{domain}'...", telegram=False)
             
-            output = os.popen(f"echo {domain} | waybackurls | unfurl domains | sort -u | awk '!seen[$0]++' | dnsx -silent").read()
+            output = os.popen(f"echo {domain} | waybackurls | unfurl domains | awk '!seen[$0]++' | dnsx -silent").read()
             subdomains = [line.strip() for line in output.splitlines() if line.strip()]
             
             if subdomains:
@@ -682,9 +682,9 @@ def check_assets(self):
         ("subfinder", lambda: process_subfinder(subfinder_domains)),
         ("crt.sh", lambda: process_crtsh(crtsh_domains)),
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
-        # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
         ("httpx", lambda: process_httpx(assets)),
         ("cidrs scanning", lambda: process_cidrs_scanning(watcher_cidrs)),
+        # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
     ]
 
     for step_name, func in steps:
