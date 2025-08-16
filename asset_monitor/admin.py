@@ -15,10 +15,10 @@ class WatcherCIDRInline(admin.TabularInline):
 
 
 
-# @admin.register(Tool)
-# class ToolAdmin(admin.ModelAdmin):
-#     list_display = ('id', 'tool_name')
-#     search_fields = ('tool_name',)
+@admin.register(Tool)
+class ToolAdmin(admin.ModelAdmin):
+    list_display = ('id', 'tool_name')
+    search_fields = ('tool_name',)
 
 
 
