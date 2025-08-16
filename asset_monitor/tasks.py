@@ -684,6 +684,8 @@ def check_assets(self):
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
         ("httpx", lambda: process_httpx(assets)),
         ("cidrs scanning", lambda: process_cidrs_scanning(watcher_cidrs)),
+        
+        # ("wayback urls" , lambda: process_wabackurls(wabackurls_domains))
         # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
     ]
 

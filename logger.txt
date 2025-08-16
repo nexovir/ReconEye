@@ -4637,3 +4637,55 @@ DETAIL:  Key (subdomain)=(delltechnologies.com) already exists. -> 06/08/2025, 2
 [INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 23:17:57
   [WAR] No subdomains found for booking.com in Shodan -> 06/08/2025, 23:17:58
 [SUCCESS] Finished shodan -> 06/08/2025, 23:17:58
+[INFO] Starting subfinder -> 16/08/2025, 21:49:46
+Process Subfinder error: Tool matching query does not exist. -> 16/08/2025, 21:49:46
+[SUCCESS] Finished subfinder -> 16/08/2025, 21:49:46
+[INFO] Starting crt.sh -> 16/08/2025, 21:49:46
+Process Crt.sh error: Tool matching query does not exist. -> 16/08/2025, 21:49:46
+[SUCCESS] Finished crt.sh -> 16/08/2025, 21:49:46
+[INFO] Starting user subdomains -> 16/08/2025, 21:49:46
+[INFO] Starting Insert user's subdomains -> 16/08/2025, 21:49:46
+[ERROR] Process User Subdomains error: Tool matching query does not exist. -> 16/08/2025, 21:49:46
+[SUCCESS] Finished user subdomains -> 16/08/2025, 21:49:46
+[INFO] Starting httpx -> 16/08/2025, 21:49:46
+[SUCCESS] Finished httpx -> 16/08/2025, 21:49:46
+[INFO] Starting cidrs scanning -> 16/08/2025, 21:49:46
+[SUCCESS] Finished cidrs scanning -> 16/08/2025, 21:49:46
+[info] Getting Bugcrowd data ... -> 16/08/2025, 21:56:17
+[INFO] Starting subfinder -> 16/08/2025, 21:56:17
+Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 16/08/2025, 21:56:17
+[SUCCESS] Finished subfinder -> 16/08/2025, 21:56:17
+[INFO] Starting crt.sh -> 16/08/2025, 21:56:17
+[INFO] Attempt 1: Starting Crt.sh for 'zomans.com'... -> 16/08/2025, 21:56:17
+      [info] Connection OK -> 16/08/2025, 21:56:17
+[INFO] Starting subfinder -> 16/08/2025, 21:56:58
+Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 16/08/2025, 21:56:58
+[SUCCESS] Finished subfinder -> 16/08/2025, 21:56:58
+[INFO] Starting crt.sh -> 16/08/2025, 21:56:58
+[INFO] Attempt 1: Starting Crt.sh for 'tktnew.com'... -> 16/08/2025, 21:56:58
+[info] Getting Federacy data ... -> 16/08/2025, 21:56:58
+      [info] Connection OK -> 16/08/2025, 21:56:59
+  [TIMEOUT] Crt.sh took longer than 15s for tktnew.com (Attempt 1) -> 16/08/2025, 21:57:13
+  [ERROR] Failed to get subdomains from Crt.sh for tktnew.com after 1 attempts. -> 16/08/2025, 21:57:13
+[INFO] Attempt 1: Starting Crt.sh for 'zomans.com'... -> 16/08/2025, 21:57:13
+  [+] 28 subs found for zomans.com -> 16/08/2025, 21:57:23
+[SUCCESS] Finished crt.sh -> 16/08/2025, 21:57:23
+[INFO] Starting user subdomains -> 16/08/2025, 21:57:23
+[INFO] Starting Insert user's subdomains -> 16/08/2025, 21:57:23
+  [INFO] No own subdomains found for tktnew.com -> 16/08/2025, 21:57:23
+  [INFO] No own subdomains found for zomans.com -> 16/08/2025, 21:57:23
+[SUCCESS] Finished user subdomains -> 16/08/2025, 21:57:23
+[INFO] Starting httpx -> 16/08/2025, 21:57:23
+  [INFO] Starting HTTPx on 'tktnew.com - nexovir'... -> 16/08/2025, 21:57:24
+  [*] Starting Parsing Data ... -> 16/08/2025, 21:57:29
+     [+] Starting Save Httpx Results and Detect Changes -> 16/08/2025, 21:57:29
+  [INFO] Starting HTTPx on 'zomans.com - nexovir'... -> 16/08/2025, 21:57:29
+  [*] Starting Parsing Data ... -> 16/08/2025, 21:57:46
+     [+] Starting Save Httpx Results and Detect Changes -> 16/08/2025, 21:57:46
+[SUCCESS] Finished httpx -> 16/08/2025, 21:57:46
+[INFO] Starting cidrs scanning -> 16/08/2025, 21:57:46
+[SUCCESS] Finished cidrs scanning -> 16/08/2025, 21:57:46
+[INFO] Starting subfinder -> 16/08/2025, 21:58:29
+[INFO] Starting Subfinder for 'zomans.com'... -> 16/08/2025, 21:58:29
+[info] Getting Yeswehack data ... -> 16/08/2025, 21:58:29
+      [info] Connection OK -> 16/08/2025, 21:58:30
