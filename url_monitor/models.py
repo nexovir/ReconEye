@@ -4,19 +4,26 @@ from django.contrib.auth.models import User
 from asset_monitor.models import *
 
 
-EXTENSION = [('none', 'none'),('html', 'html'),('htm', 'htm'),('js', 'js'),
-             ('css', 'css'),('json', 'json'),('xml', 'xml'),('jpg', 'jpg'),
-             ('jpeg', 'jpeg'),('png', 'png'),('gif', 'gif'),('svg', 'svg'),
-             ('ico', 'ico'),('pdf', 'pdf'),('doc', 'doc'),('docx', 'docx'),
-             ('xls', 'xls'),('xlsx', 'xlsx'),('ppt', 'ppt'),('pptx', 'pptx'),
-             ('txt', 'txt'),('csv', 'csv'),('zip', 'zip'),('rar', 'rar'),
-             ('7z', '7z'),('tar', 'tar'),('gz', 'gz'),('exe', 'exe'),('apk', 'apk'),
-             ('mp3', 'mp3'),('mp4', 'mp4'),('mov', 'mov'),('avi', 'avi'),
-             ('mkv', 'mkv'),('webm', 'webm'),('wav', 'wav'),('flac', 'flac'),
-             ('ogg', 'ogg'),('log', 'log'),('sql', 'sql'),('db', 'db'),
-             ('conf', 'conf'),('ini', 'ini'),('yml', 'yml'),('yaml', 'yaml'),
-             ('env', 'env'),
+EXTENSION = [
+    ('none', 'none'),
+    ('html', '.html'), ('htm', '.htm'), ('xhtml', '.xhtml'), ('php', '.php'),
+    ('asp', '.asp'), ('aspx', '.aspx'), ('jsp', '.jsp'), ('cgi', '.cgi'), ('pl', '.pl'),
+    ('js', '.js'), ('ts', '.ts'), ('jsx', '.jsx'), ('tsx', '.tsx'),
+    ('css', '.css'), ('scss', '.scss'), ('sass', '.sass'), ('less', '.less'),
+    ('json', '.json'), ('xml', '.xml'), ('yaml', '.yaml'), ('yml', '.yml'), ('csv', '.csv'), ('txt', '.txt'),
+    ('jpg', '.jpg'), ('jpeg', '.jpeg'), ('png', '.png'), ('gif', '.gif'), ('svg', '.svg'),
+    ('webp', '.webp'), ('ico', '.ico'), ('bmp', '.bmp'), ('tiff', '.tiff'), ('heic', '.heic'),
+    ('pdf', '.pdf'), ('doc', '.doc'), ('docx', '.docx'), ('xls', '.xls'), ('xlsx', '.xlsx'),
+    ('ppt', '.ppt'), ('pptx', '.pptx'), ('odt', '.odt'), ('ods', '.ods'), ('odp', '.odp'),
+    ('zip', '.zip'), ('rar', '.rar'), ('7z', '.7z'), ('tar', '.tar'), ('gz', '.gz'), ('bz2', '.bz2'),
+    ('mp3', '.mp3'), ('wav', '.wav'), ('flac', '.flac'), ('ogg', '.ogg'),
+    ('mp4', '.mp4'), ('mov', '.mov'), ('avi', '.avi'), ('mkv', '.mkv'), ('webm', '.webm'),
+    ('exe', '.exe'), ('apk', '.apk'), ('bin', '.bin'), ('jar', '.jar'), ('sh', '.sh'), ('bat', '.bat'),
+    ('sql', '.sql'), ('db', '.db'), ('sqlite', '.sqlite'), ('mdb', '.mdb'),
+    ('conf', '.conf'), ('ini', '.ini'), ('env', '.env'), ('log', '.log'), ('cfg', '.cfg'), 
+    ('toml', '.toml'), ('lock', '.lock'), ('crt', '.crt'), ('key', '.key'),
 ]
+
 
 class Url(BaseModel):
     subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE)

@@ -4689,3 +4689,604 @@ Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 
 [INFO] Starting Subfinder for 'zomans.com'... -> 16/08/2025, 21:58:29
 [info] Getting Yeswehack data ... -> 16/08/2025, 21:58:29
       [info] Connection OK -> 16/08/2025, 21:58:30
+[info] Getting Intigriti data ... -> 16/08/2025, 23:10:36
+[INFO] Starting subfinder -> 16/08/2025, 23:10:36
+[INFO] Starting Subfinder for 'zomans.com'... -> 16/08/2025, 23:10:36
+      [info] Connection OK -> 16/08/2025, 23:10:36
+       [+] Intigriti Data Inserting Successfully -> 16/08/2025, 23:10:40
+[info] Getting Yeswehack data ... -> 16/08/2025, 23:10:40
+      [info] Connection OK -> 16/08/2025, 23:10:41
+       [+] Yeswehack Data Inserting Successfully -> 16/08/2025, 23:10:43
+[info] Getting Bugcrowd data ... -> 16/08/2025, 23:10:43
+      [info] Connection OK -> 16/08/2025, 23:10:44
+  [error] in_scope error: can't change 'autocommit' now: connection in transaction status ACTIVE -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] in_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] out_of_scope error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+  [error] Error: sending query failed: another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress
+another command is already in progress -> 16/08/2025, 23:10:51
+[INFO] Starting subfinder -> 16/08/2025, 23:11:09
+[INFO] Starting Subfinder for 'zomans.com'... -> 16/08/2025, 23:11:09
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:46:30
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:46:30
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:46:45
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:46:46
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:46:52
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:46:52
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:47:08
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:47:34
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:47:34
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:47:50
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:47:51
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:48:02
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:48:03
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:54:18
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:54:18
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:54:19
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:54:19
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:54:33
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:54:35
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:54:55
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:54:55
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:55:11
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:55:11
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:55:37
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:55:38
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:57:25
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:57:25
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:57:27
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:57:27
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:57:41
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:57:41
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:57:43
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:57:44
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:57:52
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:57:52
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:57:53
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:57:53
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:58:06
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:58:06
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:58:06
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:58:06
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:58:07
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:58:07
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:58:21
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:58:21
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:58:22
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:58:22
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 16/08/2025, 23:58:23
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:58:23
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:58:41
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:58:42
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:58:48
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 16/08/2025, 23:58:48
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:58:49
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:58:49
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:59:02
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:59:15
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 16/08/2025, 23:59:15
+[INFO] Starting URL Monitoring -> 16/08/2025, 23:59:47
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 16/08/2025, 23:59:47
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 00:00:03
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:00:34
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:00:55
+[INFO] Starting URL Monitoring -> 17/08/2025, 00:01:01
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 00:01:01
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 00:01:17
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:01:47
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:02:06
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:02:07
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:02:33
+[INFO] Starting URL Monitoring -> 17/08/2025, 00:05:18
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 00:05:18
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 00:05:33
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:05:54
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:06:20
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:06:21
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:06:47
+[INFO] Starting URL Monitoring -> 17/08/2025, 00:09:49
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 00:09:49
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 00:10:05
+[INFO] Starting URL Monitoring -> 17/08/2025, 00:11:07
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 00:11:07
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 00:11:23
+[INFO] Starting URL Monitoring -> 17/08/2025, 00:12:08
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 00:12:08
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 00:12:23
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:12:24
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:12:50
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:12:51
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:13:17
+[INFO] Starting URL Monitoring -> 17/08/2025, 00:13:48
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 00:13:48
