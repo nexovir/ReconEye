@@ -1,5 +1,2 @@
 venv/
-asset_monitor/outputs/*
-asset_monitor/subdomains/*
-asset_monitor/wordlists/*
 logger.txt
