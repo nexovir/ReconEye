@@ -3940,3 +3940,700 @@ another command is already in progress -> 01/08/2025, 11:31:38
 [ERROR] Subdomain discovery failed: Object of type set is not JSON serializable -> 01/08/2025, 11:34:45
 [INFO] Starting subfinder -> 01/08/2025, 18:19:28
 [INFO] Starting Subfinder for 'fismitlab.com'... -> 01/08/2025, 18:19:28
+[INFO] Starting shodan -> 06/08/2025, 21:36:09
+[SUCCESS] Finished shodan -> 06/08/2025, 21:36:09
+[INFO] Starting shodan -> 06/08/2025, 21:38:53
+Process Shodan error: 'NoneType' object is not iterable -> 06/08/2025, 21:38:53
+[SUCCESS] Finished shodan -> 06/08/2025, 21:38:53
+[INFO] Starting shodan -> 06/08/2025, 21:39:42
+Process Shodan error: 'NoneType' object is not iterable -> 06/08/2025, 21:39:42
+[SUCCESS] Finished shodan -> 06/08/2025, 21:39:42
+[INFO] Starting shodan -> 06/08/2025, 21:39:55
+Process Shodan error: 'NoneType' object is not iterable -> 06/08/2025, 21:39:55
+[SUCCESS] Finished shodan -> 06/08/2025, 21:39:55
+[INFO] Starting shodan -> 06/08/2025, 21:40:07
+Process Shodan error: 'NoneType' object is not iterable -> 06/08/2025, 21:40:07
+[SUCCESS] Finished shodan -> 06/08/2025, 21:40:07
+[INFO] Starting shodan -> 06/08/2025, 21:40:17
+Process Shodan error: 'NoneType' object is not iterable -> 06/08/2025, 21:40:17
+[SUCCESS] Finished shodan -> 06/08/2025, 21:40:17
+[INFO] Starting shodan -> 06/08/2025, 21:46:34
+[INFO] Starting Shodan Search for 'just-eat.co.uk'... -> 06/08/2025, 21:46:34
+  [WAR] No subdomains found for just-eat.co.uk in Shodan -> 06/08/2025, 21:46:35
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 21:46:35
+  [WAR] No subdomains found for phonepe.com in Shodan -> 06/08/2025, 21:46:35
+[INFO] Starting Shodan Search for 'pyszne.pl'... -> 06/08/2025, 21:46:35
+  [WAR] No subdomains found for pyszne.pl in Shodan -> 06/08/2025, 21:46:35
+[INFO] Starting Shodan Search for 'fiscloudservices.com'... -> 06/08/2025, 21:46:35
+  [WAR] No subdomains found for fiscloudservices.com in Shodan -> 06/08/2025, 21:46:36
+[INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 21:46:36
+  [WAR] No subdomains found for booking.com in Shodan -> 06/08/2025, 21:46:36
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 21:46:36
+  [WAR] No subdomains found for fnis.com in Shodan -> 06/08/2025, 21:46:37
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 21:46:37
+  [WAR] No subdomains found for vudu.com in Shodan -> 06/08/2025, 21:46:37
+[INFO] Starting Shodan Search for 'bestprice.in'... -> 06/08/2025, 21:46:37
+  [WAR] No subdomains found for bestprice.in in Shodan -> 06/08/2025, 21:46:37
+[INFO] Starting Shodan Search for 'delltechnologies.com'... -> 06/08/2025, 21:46:37
+  [WAR] No subdomains found for delltechnologies.com in Shodan -> 06/08/2025, 21:46:38
+[INFO] Starting Shodan Search for 'fnfis.com'... -> 06/08/2025, 21:46:38
+  [WAR] No subdomains found for fnfis.com in Shodan -> 06/08/2025, 21:46:38
+[INFO] Starting Shodan Search for 'eloquii.com'... -> 06/08/2025, 21:46:38
+  [WAR] No subdomains found for eloquii.com in Shodan -> 06/08/2025, 21:46:38
+[INFO] Starting Shodan Search for 'bistro.sk'... -> 06/08/2025, 21:46:38
+  [WAR] No subdomains found for bistro.sk in Shodan -> 06/08/2025, 21:46:39
+[INFO] Starting Shodan Search for 'fisemerald.com'... -> 06/08/2025, 21:46:39
+  [WAR] No subdomains found for fisemerald.com in Shodan -> 06/08/2025, 21:46:39
+[INFO] Starting Shodan Search for 'thuisbezorgd.nl'... -> 06/08/2025, 21:46:39
+  [WAR] No subdomains found for thuisbezorgd.nl in Shodan -> 06/08/2025, 21:46:40
+[INFO] Starting Shodan Search for 'moosejaw.com'... -> 06/08/2025, 21:46:40
+  [WAR] No subdomains found for moosejaw.com in Shodan -> 06/08/2025, 21:46:40
+[INFO] Starting Shodan Search for 'fis-development-clone.zoominsoftware.io'... -> 06/08/2025, 21:46:40
+  [WAR] No subdomains found for fis-development-clone.zoominsoftware.io in Shodan -> 06/08/2025, 21:46:40
+[INFO] Starting Shodan Search for 'fisglobal.com'... -> 06/08/2025, 21:46:40
+  [WAR] No subdomains found for fisglobal.com in Shodan -> 06/08/2025, 21:46:41
+[INFO] Starting Shodan Search for 'jet.com'... -> 06/08/2025, 21:46:41
+  [WAR] No subdomains found for jet.com in Shodan -> 06/08/2025, 21:46:41
+[INFO] Starting Shodan Search for 'modcloth.com'... -> 06/08/2025, 21:46:41
+  [WAR] No subdomains found for modcloth.com in Shodan -> 06/08/2025, 21:46:42
+[INFO] Starting Shodan Search for 'fmberlin.com'... -> 06/08/2025, 21:46:42
+  [WAR] No subdomains found for fmberlin.com in Shodan -> 06/08/2025, 21:46:42
+[INFO] Starting Shodan Search for 'fnbgranbury.com'... -> 06/08/2025, 21:46:42
+  [WAR] No subdomains found for fnbgranbury.com in Shodan -> 06/08/2025, 21:46:42
+[INFO] Starting Shodan Search for 'flipkart.com'... -> 06/08/2025, 21:46:42
+  [WAR] No subdomains found for flipkart.com in Shodan -> 06/08/2025, 21:46:43
+[INFO] Starting Shodan Search for 'skipthedishes.com'... -> 06/08/2025, 21:46:43
+  [WAR] No subdomains found for skipthedishes.com in Shodan -> 06/08/2025, 21:46:43
+[INFO] Starting Shodan Search for 'parcel.io'... -> 06/08/2025, 21:46:43
+  [WAR] No subdomains found for parcel.io in Shodan -> 06/08/2025, 21:46:44
+[INFO] Starting Shodan Search for 'bigc.co.th'... -> 06/08/2025, 21:46:44
+  [WAR] No subdomains found for bigc.co.th in Shodan -> 06/08/2025, 21:46:44
+[INFO] Starting Shodan Search for 'm-pesa.com'... -> 06/08/2025, 21:46:44
+  [WAR] No subdomains found for m-pesa.com in Shodan -> 06/08/2025, 21:46:44
+[INFO] Starting Shodan Search for 'bonobos.com'... -> 06/08/2025, 21:46:44
+  [WAR] No subdomains found for bonobos.com in Shodan -> 06/08/2025, 21:46:45
+[INFO] Starting Shodan Search for 'takeaway.com'... -> 06/08/2025, 21:46:45
+  [WAR] No subdomains found for takeaway.com in Shodan -> 06/08/2025, 21:46:45
+[INFO] Starting Shodan Search for '10bis.co.il'... -> 06/08/2025, 21:46:45
+  [WAR] No subdomains found for 10bis.co.il in Shodan -> 06/08/2025, 21:46:46
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 21:46:46
+  [WAR] No subdomains found for dell.com in Shodan -> 06/08/2025, 21:46:46
+[INFO] Starting Shodan Search for 'hayneedle.com'... -> 06/08/2025, 21:46:46
+  [WAR] No subdomains found for hayneedle.com in Shodan -> 06/08/2025, 21:46:46
+[INFO] Starting Shodan Search for 'seiyu.co.jp'... -> 06/08/2025, 21:46:46
+  [WAR] No subdomains found for seiyu.co.jp in Shodan -> 06/08/2025, 21:46:47
+[INFO] Starting Shodan Search for 'fisconnect.com'... -> 06/08/2025, 21:46:47
+  [WAR] No subdomains found for fisconnect.com in Shodan -> 06/08/2025, 21:46:47
+[INFO] Starting Shodan Search for 'lieferando.de'... -> 06/08/2025, 21:46:47
+  [WAR] No subdomains found for lieferando.de in Shodan -> 06/08/2025, 21:46:48
+[INFO] Starting Shodan Search for 'just-eat.dk'... -> 06/08/2025, 21:46:48
+  [WAR] No subdomains found for just-eat.dk in Shodan -> 06/08/2025, 21:46:48
+[INFO] Starting Shodan Search for 'skippayments.com'... -> 06/08/2025, 21:46:48
+  [WAR] No subdomains found for skippayments.com in Shodan -> 06/08/2025, 21:46:48
+[INFO] Starting Shodan Search for 'fareharbor.com'... -> 06/08/2025, 21:46:48
+  [WAR] No subdomains found for fareharbor.com in Shodan -> 06/08/2025, 21:46:49
+[INFO] Starting Shodan Search for 'menulog.com.au'... -> 06/08/2025, 21:46:49
+  [WAR] No subdomains found for menulog.com.au in Shodan -> 06/08/2025, 21:46:49
+[INFO] Starting Shodan Search for 'just-eat.com'... -> 06/08/2025, 21:46:49
+  [WAR] No subdomains found for just-eat.com in Shodan -> 06/08/2025, 21:46:50
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 21:46:50
+  [WAR] No subdomains found for walmart.com in Shodan -> 06/08/2025, 21:46:50
+[INFO] Starting Shodan Search for 'fismitlab.com'... -> 06/08/2025, 21:46:50
+  [WAR] No subdomains found for fismitlab.com in Shodan -> 06/08/2025, 21:46:50
+[INFO] Starting Shodan Search for 'lider.cl'... -> 06/08/2025, 21:46:50
+  [WAR] No subdomains found for lider.cl in Shodan -> 06/08/2025, 21:46:51
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 21:46:51
+  [WAR] No subdomains found for fareharbor.engineering in Shodan -> 06/08/2025, 21:46:51
+[INFO] Starting Shodan Search for 'scoober.com'... -> 06/08/2025, 21:46:51
+  [WAR] No subdomains found for scoober.com in Shodan -> 06/08/2025, 21:46:52
+[INFO] Starting Shodan Search for 'massmart.co.za'... -> 06/08/2025, 21:46:52
+  [WAR] No subdomains found for massmart.co.za in Shodan -> 06/08/2025, 21:46:52
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 21:46:52
+  [WAR] No subdomains found for just-eat.es in Shodan -> 06/08/2025, 21:46:53
+[INFO] Starting Shodan Search for 'samsclub.com'... -> 06/08/2025, 21:46:53
+  [WAR] No subdomains found for samsclub.com in Shodan -> 06/08/2025, 21:46:53
+[INFO] Starting Shodan Search for 'asda.com'... -> 06/08/2025, 21:46:53
+  [WAR] No subdomains found for asda.com in Shodan -> 06/08/2025, 21:46:54
+[INFO] Starting Shodan Search for 'barenecessities.com'... -> 06/08/2025, 21:46:54
+  [WAR] No subdomains found for barenecessities.com in Shodan -> 06/08/2025, 21:46:54
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 21:46:54
+  [WAR] No subdomains found for rentalcars.com in Shodan -> 06/08/2025, 21:46:55
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 21:46:55
+  [WAR] No subdomains found for walmartlabs.com in Shodan -> 06/08/2025, 21:46:55
+[SUCCESS] Finished shodan -> 06/08/2025, 21:46:55
+[INFO] Starting shodan -> 06/08/2025, 21:47:01
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 21:47:01
+  [WAR] No subdomains found for walmart.com in Shodan -> 06/08/2025, 21:47:01
+[INFO] Starting Shodan Search for 'skippayments.com'... -> 06/08/2025, 21:47:01
+  [WAR] No subdomains found for skippayments.com in Shodan -> 06/08/2025, 21:47:02
+[INFO] Starting Shodan Search for 'hayneedle.com'... -> 06/08/2025, 21:47:02
+  [WAR] No subdomains found for hayneedle.com in Shodan -> 06/08/2025, 21:47:02
+[INFO] Starting Shodan Search for 'bonobos.com'... -> 06/08/2025, 21:47:02
+  [WAR] No subdomains found for bonobos.com in Shodan -> 06/08/2025, 21:47:03
+[INFO] Starting Shodan Search for 'eloquii.com'... -> 06/08/2025, 21:47:03
+  [WAR] No subdomains found for eloquii.com in Shodan -> 06/08/2025, 21:47:03
+[INFO] Starting Shodan Search for 'massmart.co.za'... -> 06/08/2025, 21:47:03
+  [WAR] No subdomains found for massmart.co.za in Shodan -> 06/08/2025, 21:47:03
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 21:47:03
+[INFO] Starting shodan -> 06/08/2025, 21:58:44
+[INFO] Starting Shodan Search for 'bestprice.in'... -> 06/08/2025, 21:58:44
+[INFO] Starting shodan -> 06/08/2025, 21:58:44
+[INFO] Starting Shodan Search for 'bestprice.in'... -> 06/08/2025, 21:58:44
+  [+] 100 subs found for bestprice.in -> 06/08/2025, 21:58:45
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 21:58:45
+[SUCCESS] Finished shodan -> 06/08/2025, 21:58:45
+  [+] 100 subs found for bestprice.in -> 06/08/2025, 21:58:46
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 21:58:46
+[SUCCESS] Finished shodan -> 06/08/2025, 21:58:46
+[INFO] Starting shodan -> 06/08/2025, 21:59:18
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 21:59:18
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:20
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 21:59:20
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:22
+[INFO] Starting Shodan Search for 'fisconnect.com'... -> 06/08/2025, 21:59:22
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:23
+[INFO] Starting Shodan Search for 'lieferando.de'... -> 06/08/2025, 21:59:23
+[INFO] Starting shodan -> 06/08/2025, 21:59:43
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 21:59:43
+[INFO] Starting shodan -> 06/08/2025, 21:59:44
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 21:59:44
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:44
+[INFO] Starting Shodan Search for 'jet.com'... -> 06/08/2025, 21:59:44
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:45
+[INFO] Starting Shodan Search for 'jet.com'... -> 06/08/2025, 21:59:45
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:45
+[INFO] Starting Shodan Search for 'moosejaw.com'... -> 06/08/2025, 21:59:45
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:46
+[INFO] Starting Shodan Search for 'moosejaw.com'... -> 06/08/2025, 21:59:46
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:46
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 21:59:46
+[ERROR] Shodan Error 'list' object has no attribute 'split' -> 06/08/2025, 21:59:47
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 21:59:47
+[INFO] Starting shodan -> 06/08/2025, 22:51:53
+[INFO] Starting Shodan Search for 'm-pesa.com'... -> 06/08/2025, 22:51:53
+  [+] 20 subs found for m-pesa.com -> 06/08/2025, 22:51:55
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 22:51:55
+[SUCCESS] Finished shodan -> 06/08/2025, 22:51:55
+[INFO] Starting shodan -> 06/08/2025, 22:54:09
+[INFO] Starting Shodan Search for 'thuisbezorgd.nl'... -> 06/08/2025, 22:54:09
+  [+] 14 subs found for thuisbezorgd.nl -> 06/08/2025, 22:54:11
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 22:54:11
+[SUCCESS] Finished shodan -> 06/08/2025, 22:54:11
+[INFO] Starting shodan -> 06/08/2025, 22:56:19
+[INFO] Starting Shodan Search for 'fismitlab.com'... -> 06/08/2025, 22:56:19
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:24
+[INFO] Starting Shodan Search for 'lieferando.de'... -> 06/08/2025, 22:56:24
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:26
+[INFO] Starting Shodan Search for 'fiscloudservices.com'... -> 06/08/2025, 22:56:26
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:27
+[INFO] Starting Shodan Search for 'fisglobal.com'... -> 06/08/2025, 22:56:27
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:29
+[INFO] Starting Shodan Search for 'just-eat.com'... -> 06/08/2025, 22:56:29
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:30
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 22:56:30
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:32
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 22:56:32
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:33
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 22:56:33
+[ERROR] Shodan Error cannot access local variable 'subdomains' where it is not associated with a value -> 06/08/2025, 22:56:34
+[INFO] Starting Shodan Search for 'bonobos.com'... -> 06/08/2025, 22:56:34
+[INFO] Starting shodan -> 06/08/2025, 22:58:11
+[INFO] Starting Shodan Search for 'fis-development-clone.zoominsoftware.io'... -> 06/08/2025, 22:58:11
+  [WAR] No subdomains found for fis-development-clone.zoominsoftware.io in Shodan -> 06/08/2025, 22:58:12
+[INFO] Starting Shodan Search for 'delltechnologies.com'... -> 06/08/2025, 22:58:12
+  [+] 97 subs found for delltechnologies.com -> 06/08/2025, 22:58:13
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 22:58:14
+[SUCCESS] Finished shodan -> 06/08/2025, 22:58:14
+[INFO] Starting shodan -> 06/08/2025, 23:01:11
+[INFO] Starting Shodan Search for 'asda.com'... -> 06/08/2025, 23:01:11
+  [+] 92 subs found for asda.com -> 06/08/2025, 23:01:13
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 23:01:13
+[SUCCESS] Finished shodan -> 06/08/2025, 23:01:13
+[INFO] Starting shodan -> 06/08/2025, 23:02:22
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:02:22
+  [+] 26 subs found for fareharbor.engineering -> 06/08/2025, 23:02:23
+[INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 23:02:23
+  [+] 64 subs found for booking.com -> 06/08/2025, 23:02:26
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 23:02:26
+[SUCCESS] Finished shodan -> 06/08/2025, 23:02:26
+[INFO] Starting shodan -> 06/08/2025, 23:03:50
+[INFO] Starting Shodan Search for 'just-eat.co.uk'... -> 06/08/2025, 23:03:50
+  [+] 7 subs found for just-eat.co.uk -> 06/08/2025, 23:03:52
+[INFO] Starting Shodan Search for 'scoober.com'... -> 06/08/2025, 23:03:52
+  [+] 5 subs found for scoober.com -> 06/08/2025, 23:03:53
+[INFO] Starting Shodan Search for 'fisemerald.com'... -> 06/08/2025, 23:03:53
+  [WAR] No subdomains found for fisemerald.com in Shodan -> 06/08/2025, 23:03:54
+[INFO] Starting Shodan Search for 'asda.com'... -> 06/08/2025, 23:03:54
+  [+] 92 subs found for asda.com -> 06/08/2025, 23:03:56
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 23:03:56
+[SUCCESS] Finished shodan -> 06/08/2025, 23:03:56
+[INFO] Starting shodan -> 06/08/2025, 23:04:13
+[INFO] Starting Shodan Search for 'fismitlab.com'... -> 06/08/2025, 23:04:13
+  [+] 2 subs found for fismitlab.com -> 06/08/2025, 23:04:14
+[INFO] Starting Shodan Search for 'modcloth.com'... -> 06/08/2025, 23:04:14
+  [+] 4 subs found for modcloth.com -> 06/08/2025, 23:04:16
+[INFO] Starting Shodan Search for 'bigc.co.th'... -> 06/08/2025, 23:04:16
+[INFO] Starting shodan -> 06/08/2025, 23:05:38
+[INFO] Starting Shodan Search for 'skippayments.com'... -> 06/08/2025, 23:05:38
+[INFO] Starting shodan -> 06/08/2025, 23:05:39
+[INFO] Starting Shodan Search for 'skippayments.com'... -> 06/08/2025, 23:05:39
+  [WAR] No subdomains found for skippayments.com in Shodan -> 06/08/2025, 23:05:39
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 23:05:39
+  [WAR] No subdomains found for skippayments.com in Shodan -> 06/08/2025, 23:05:40
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 23:05:40
+  [+] 100 subs found for walmartlabs.com -> 06/08/2025, 23:05:40
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 23:05:40
+[SUCCESS] Finished shodan -> 06/08/2025, 23:05:40
+  [+] 100 subs found for walmartlabs.com -> 06/08/2025, 23:05:41
+Process Shodan error: value too long for type character varying(300) -> 06/08/2025, 23:05:41
+[SUCCESS] Finished shodan -> 06/08/2025, 23:05:41
+[INFO] Starting shodan -> 06/08/2025, 23:06:22
+[INFO] Starting Shodan Search for 'fisemerald.com'... -> 06/08/2025, 23:06:22
+  [WAR] No subdomains found for fisemerald.com in Shodan -> 06/08/2025, 23:06:23
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 23:06:23
+  [+] 124 subs found for walmart.com -> 06/08/2025, 23:06:27
+[INFO] Starting Shodan Search for 'lieferando.de'... -> 06/08/2025, 23:06:27
+  [+] 1907 subs found for lieferando.de -> 06/08/2025, 23:06:28
+Process Shodan error: duplicate key value violates unique constraint "private_watchers_discoversubdomain_subdomain_6e4f7c32_uniq"
+DETAIL:  Key (subdomain)=(c) already exists. -> 06/08/2025, 23:06:28
+[SUCCESS] Finished shodan -> 06/08/2025, 23:06:28
+[INFO] Starting shodan -> 06/08/2025, 23:06:44
+[INFO] Starting Shodan Search for 'm-pesa.com'... -> 06/08/2025, 23:06:44
+  [+] 274 subs found for m-pesa.com -> 06/08/2025, 23:06:46
+[INFO] Starting Shodan Search for 'parcel.io'... -> 06/08/2025, 23:06:47
+  [+] 69 subs found for parcel.io -> 06/08/2025, 23:06:48
+[INFO] Starting Shodan Search for '10bis.co.il'... -> 06/08/2025, 23:06:48
+  [+] 138 subs found for 10bis.co.il -> 06/08/2025, 23:06:49
+Process Shodan error: duplicate key value violates unique constraint "private_watchers_discoversubdomain_subdomain_6e4f7c32_uniq"
+DETAIL:  Key (subdomain)=(takeaway.com) already exists. -> 06/08/2025, 23:06:49
+[SUCCESS] Finished shodan -> 06/08/2025, 23:06:49
+[INFO] Starting shodan -> 06/08/2025, 23:08:31
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:08:31
+  [+] 1255 subs found for dell.com -> 06/08/2025, 23:08:33
+Process Shodan error: duplicate key value violates unique constraint "private_watchers_discoversubdomain_subdomain_6e4f7c32_uniq"
+DETAIL:  Key (subdomain)=(delltechnologies.com) already exists. -> 06/08/2025, 23:08:34
+[SUCCESS] Finished shodan -> 06/08/2025, 23:08:34
+[INFO] Starting shodan -> 06/08/2025, 23:10:15
+[INFO] Starting Shodan Search for 'lider.cl'... -> 06/08/2025, 23:10:15
+  [+] 4596 subs found for lider.cl -> 06/08/2025, 23:10:17
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:10:22
+  [+] 1293 subs found for dell.com -> 06/08/2025, 23:10:24
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 23:10:25
+  [+] 337 subs found for vudu.com -> 06/08/2025, 23:10:26
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 23:10:27
+  [+] 91 subs found for walmart.com -> 06/08/2025, 23:10:29
+[INFO] Starting Shodan Search for 'just-eat.co.uk'... -> 06/08/2025, 23:10:30
+  [+] 20 subs found for just-eat.co.uk -> 06/08/2025, 23:10:31
+[INFO] Starting Shodan Search for 'modcloth.com'... -> 06/08/2025, 23:10:31
+  [+] 8 subs found for modcloth.com -> 06/08/2025, 23:10:33
+[INFO] Starting Shodan Search for 'fiscloudservices.com'... -> 06/08/2025, 23:10:33
+  [+] 477 subs found for fiscloudservices.com -> 06/08/2025, 23:10:34
+[INFO] Starting Shodan Search for 'thuisbezorgd.nl'... -> 06/08/2025, 23:10:36
+  [+] 227 subs found for thuisbezorgd.nl -> 06/08/2025, 23:10:42
+[INFO] Starting Shodan Search for 'samsclub.com'... -> 06/08/2025, 23:10:42
+  [+] 3848 subs found for samsclub.com -> 06/08/2025, 23:10:44
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 23:10:48
+  [+] 2 subs found for phonepe.com -> 06/08/2025, 23:10:50
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:10:50
+  [+] 95 subs found for fareharbor.engineering -> 06/08/2025, 23:10:51
+[INFO] Starting Shodan Search for 'fisconnect.com'... -> 06/08/2025, 23:10:51
+  [WAR] No subdomains found for fisconnect.com in Shodan -> 06/08/2025, 23:10:53
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 23:10:53
+  [+] 2 subs found for just-eat.es -> 06/08/2025, 23:11:03
+[INFO] Starting Shodan Search for 'parcel.io'... -> 06/08/2025, 23:11:03
+[INFO] Starting shodan -> 06/08/2025, 23:11:53
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 23:11:53
+  [+] 239 subs found for vudu.com -> 06/08/2025, 23:11:54
+[INFO] Starting Shodan Search for 'menulog.com.au'... -> 06/08/2025, 23:11:55
+[INFO] Starting shodan -> 06/08/2025, 23:11:55
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 23:11:55
+  [WAR] No subdomains found for menulog.com.au in Shodan -> 06/08/2025, 23:11:56
+[INFO] Starting Shodan Search for 'moosejaw.com'... -> 06/08/2025, 23:11:56
+  [+] 239 subs found for vudu.com -> 06/08/2025, 23:11:56
+[INFO] Starting Shodan Search for 'menulog.com.au'... -> 06/08/2025, 23:11:56
+  [+] 4 subs found for moosejaw.com -> 06/08/2025, 23:11:57
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 23:11:57
+  [WAR] No subdomains found for menulog.com.au in Shodan -> 06/08/2025, 23:11:57
+[INFO] Starting Shodan Search for 'moosejaw.com'... -> 06/08/2025, 23:11:57
+  [+] 22 subs found for rentalcars.com -> 06/08/2025, 23:11:58
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 23:11:58
+  [+] 4 subs found for moosejaw.com -> 06/08/2025, 23:11:58
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 23:11:58
+  [+] 2 subs found for just-eat.es -> 06/08/2025, 23:11:59
+[INFO] Starting Shodan Search for 'jet.com'... -> 06/08/2025, 23:11:59
+  [+] 22 subs found for rentalcars.com -> 06/08/2025, 23:12:00
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 23:12:00
+  [+] 197 subs found for jet.com -> 06/08/2025, 23:12:00
+[INFO] Starting Shodan Search for '10bis.co.il'... -> 06/08/2025, 23:12:01
+  [+] 2 subs found for just-eat.es -> 06/08/2025, 23:12:01
+[INFO] Starting Shodan Search for 'jet.com'... -> 06/08/2025, 23:12:01
+  [+] 29 subs found for 10bis.co.il -> 06/08/2025, 23:12:02
+  [+] 197 subs found for jet.com -> 06/08/2025, 23:12:02
+[INFO] Starting Shodan Search for 'fismitlab.com'... -> 06/08/2025, 23:12:02
+[INFO] Starting Shodan Search for '10bis.co.il'... -> 06/08/2025, 23:12:02
+  [+] 6 subs found for fismitlab.com -> 06/08/2025, 23:12:03
+[INFO] Starting Shodan Search for 'bestprice.in'... -> 06/08/2025, 23:12:03
+  [+] 29 subs found for 10bis.co.il -> 06/08/2025, 23:12:03
+[INFO] Starting Shodan Search for 'fismitlab.com'... -> 06/08/2025, 23:12:03
+  [+] 6 subs found for fismitlab.com -> 06/08/2025, 23:12:04
+[INFO] Starting Shodan Search for 'bestprice.in'... -> 06/08/2025, 23:12:04
+  [+] 300 subs found for bestprice.in -> 06/08/2025, 23:12:04
+[INFO] Starting Shodan Search for 'eloquii.com'... -> 06/08/2025, 23:12:05
+  [+] 300 subs found for bestprice.in -> 06/08/2025, 23:12:05
+  [+] 10 subs found for eloquii.com -> 06/08/2025, 23:12:06
+[INFO] Starting Shodan Search for 'eloquii.com'... -> 06/08/2025, 23:12:06
+[INFO] Starting Shodan Search for 'skipthedishes.com'... -> 06/08/2025, 23:12:06
+  [+] 69 subs found for skipthedishes.com -> 06/08/2025, 23:12:07
+  [+] 10 subs found for eloquii.com -> 06/08/2025, 23:12:07
+[INFO] Starting Shodan Search for 'skipthedishes.com'... -> 06/08/2025, 23:12:07
+[INFO] Starting Shodan Search for 'barenecessities.com'... -> 06/08/2025, 23:12:07
+  [+] 69 subs found for skipthedishes.com -> 06/08/2025, 23:12:08
+[INFO] Starting Shodan Search for 'barenecessities.com'... -> 06/08/2025, 23:12:08
+  [+] 2 subs found for barenecessities.com -> 06/08/2025, 23:12:08
+[INFO] Starting Shodan Search for 'bistro.sk'... -> 06/08/2025, 23:12:08
+  [+] 2 subs found for barenecessities.com -> 06/08/2025, 23:12:10
+[INFO] Starting Shodan Search for 'bistro.sk'... -> 06/08/2025, 23:12:10
+  [+] 20 subs found for bistro.sk -> 06/08/2025, 23:12:10
+[INFO] Starting Shodan Search for 'asda.com'... -> 06/08/2025, 23:12:10
+  [+] 20 subs found for bistro.sk -> 06/08/2025, 23:12:11
+[INFO] Starting Shodan Search for 'asda.com'... -> 06/08/2025, 23:12:11
+  [+] 2741 subs found for asda.com -> 06/08/2025, 23:12:11
+  [+] 2741 subs found for asda.com -> 06/08/2025, 23:12:12
+[INFO] Starting Shodan Search for 'fisconnect.com'... -> 06/08/2025, 23:12:13
+[INFO] Starting Shodan Search for 'fisconnect.com'... -> 06/08/2025, 23:12:14
+  [WAR] No subdomains found for fisconnect.com in Shodan -> 06/08/2025, 23:12:14
+[INFO] Starting Shodan Search for 'hayneedle.com'... -> 06/08/2025, 23:12:14
+  [WAR] No subdomains found for fisconnect.com in Shodan -> 06/08/2025, 23:12:15
+[INFO] Starting Shodan Search for 'hayneedle.com'... -> 06/08/2025, 23:12:15
+  [+] 4 subs found for hayneedle.com -> 06/08/2025, 23:12:15
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 23:12:15
+  [+] 4 subs found for hayneedle.com -> 06/08/2025, 23:12:16
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 23:12:16
+  [+] 2 subs found for phonepe.com -> 06/08/2025, 23:12:16
+[INFO] Starting Shodan Search for 'fareharbor.com'... -> 06/08/2025, 23:12:16
+  [+] 2 subs found for phonepe.com -> 06/08/2025, 23:12:17
+[INFO] Starting Shodan Search for 'fareharbor.com'... -> 06/08/2025, 23:12:17
+  [+] 52 subs found for fareharbor.com -> 06/08/2025, 23:12:17
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 23:12:17
+  [+] 52 subs found for fareharbor.com -> 06/08/2025, 23:12:18
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 23:12:18
+  [+] 317 subs found for fnis.com -> 06/08/2025, 23:12:19
+[INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 23:12:19
+  [+] 317 subs found for fnis.com -> 06/08/2025, 23:12:19
+[INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 23:12:19
+  [+] 157 subs found for booking.com -> 06/08/2025, 23:12:20
+  [+] 157 subs found for booking.com -> 06/08/2025, 23:12:21
+[INFO] Starting Shodan Search for 'just-eat.com'... -> 06/08/2025, 23:12:21
+[INFO] Starting Shodan Search for 'just-eat.com'... -> 06/08/2025, 23:12:21
+  [+] 198 subs found for just-eat.com -> 06/08/2025, 23:12:22
+  [+] 198 subs found for just-eat.com -> 06/08/2025, 23:12:22
+[INFO] Starting Shodan Search for 'modcloth.com'... -> 06/08/2025, 23:12:22
+[INFO] Starting Shodan Search for 'modcloth.com'... -> 06/08/2025, 23:12:22
+  [+] 8 subs found for modcloth.com -> 06/08/2025, 23:12:23
+  [+] 8 subs found for modcloth.com -> 06/08/2025, 23:12:23
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:12:23
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:12:23
+  [+] 930 subs found for dell.com -> 06/08/2025, 23:12:24
+  [+] 930 subs found for dell.com -> 06/08/2025, 23:12:25
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:12:25
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:12:25
+  [+] 69 subs found for fareharbor.engineering -> 06/08/2025, 23:12:27
+  [+] 69 subs found for fareharbor.engineering -> 06/08/2025, 23:12:27
+[INFO] Starting Shodan Search for 'fis-development-clone.zoominsoftware.io'... -> 06/08/2025, 23:12:27
+[INFO] Starting Shodan Search for 'fis-development-clone.zoominsoftware.io'... -> 06/08/2025, 23:12:27
+  [WAR] No subdomains found for fis-development-clone.zoominsoftware.io in Shodan -> 06/08/2025, 23:12:28
+[INFO] Starting Shodan Search for 'flipkart.com'... -> 06/08/2025, 23:12:28
+[INFO] Starting shodan -> 06/08/2025, 23:12:53
+[INFO] Starting Shodan Search for 'menulog.com.au'... -> 06/08/2025, 23:12:53
+  [WAR] No subdomains found for menulog.com.au in Shodan -> 06/08/2025, 23:12:55
+[INFO] Starting Shodan Search for '10bis.co.il'... -> 06/08/2025, 23:12:55
+  [+] 29 subs found for 10bis.co.il -> 06/08/2025, 23:12:57
+[INFO] Starting Shodan Search for 'parcel.io'... -> 06/08/2025, 23:12:57
+  [+] 46 subs found for parcel.io -> 06/08/2025, 23:12:58
+[INFO] Starting Shodan Search for 'just-eat.co.uk'... -> 06/08/2025, 23:12:58
+  [+] 14 subs found for just-eat.co.uk -> 06/08/2025, 23:12:59
+[INFO] Starting Shodan Search for 'massmart.co.za'... -> 06/08/2025, 23:12:59
+  [+] 300 subs found for massmart.co.za -> 06/08/2025, 23:13:01
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 23:13:01
+  [+] 22 subs found for rentalcars.com -> 06/08/2025, 23:13:03
+[INFO] Starting Shodan Search for 'fmberlin.com'... -> 06/08/2025, 23:13:03
+  [+] 2 subs found for fmberlin.com -> 06/08/2025, 23:13:04
+[INFO] Starting Shodan Search for 'just-eat.com'... -> 06/08/2025, 23:13:04
+  [+] 198 subs found for just-eat.com -> 06/08/2025, 23:13:05
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 23:13:06
+  [+] 2 subs found for just-eat.es -> 06/08/2025, 23:13:07
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 23:13:07
+  [+] 317 subs found for fnis.com -> 06/08/2025, 23:13:08
+[INFO] Starting Shodan Search for 'fisglobal.com'... -> 06/08/2025, 23:13:08
+  [+] 393 subs found for fisglobal.com -> 06/08/2025, 23:13:10
+[INFO] Starting Shodan Search for 'delltechnologies.com'... -> 06/08/2025, 23:13:11
+  [+] 225 subs found for delltechnologies.com -> 06/08/2025, 23:13:12
+[INFO] Starting Shodan Search for 'hayneedle.com'... -> 06/08/2025, 23:13:13
+[INFO] Starting shodan -> 06/08/2025, 23:13:37
+[INFO] Starting Shodan Search for 'bigc.co.th'... -> 06/08/2025, 23:13:37
+[INFO] Starting shodan -> 06/08/2025, 23:13:38
+[INFO] Starting Shodan Search for 'bigc.co.th'... -> 06/08/2025, 23:13:38
+  [+] 38 subs found for bigc.co.th -> 06/08/2025, 23:13:39
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 23:13:39
+  [+] 38 subs found for bigc.co.th -> 06/08/2025, 23:13:39
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 23:13:39
+  [+] 22 subs found for rentalcars.com -> 06/08/2025, 23:13:40
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 23:13:40
+  [+] 22 subs found for rentalcars.com -> 06/08/2025, 23:13:41
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 23:13:41
+  [+] 2 subs found for phonepe.com -> 06/08/2025, 23:13:41
+[INFO] Starting Shodan Search for 'fnfis.com'... -> 06/08/2025, 23:13:41
+  [+] 2 subs found for phonepe.com -> 06/08/2025, 23:13:42
+[INFO] Starting Shodan Search for 'fnfis.com'... -> 06/08/2025, 23:13:42
+  [+] 207 subs found for fnfis.com -> 06/08/2025, 23:13:43
+[INFO] Starting Shodan Search for 'fmberlin.com'... -> 06/08/2025, 23:13:43
+  [+] 207 subs found for fnfis.com -> 06/08/2025, 23:13:44
+[INFO] Starting Shodan Search for 'fmberlin.com'... -> 06/08/2025, 23:13:44
+  [+] 2 subs found for fmberlin.com -> 06/08/2025, 23:13:44
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 23:13:44
+  [+] 2 subs found for fmberlin.com -> 06/08/2025, 23:13:45
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 23:13:45
+  [+] 119 subs found for walmart.com -> 06/08/2025, 23:13:46
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:13:46
+  [+] 119 subs found for walmart.com -> 06/08/2025, 23:13:46
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:13:46
+  [+] 69 subs found for fareharbor.engineering -> 06/08/2025, 23:13:47
+  [+] 69 subs found for fareharbor.engineering -> 06/08/2025, 23:13:47
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 23:13:47
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 23:13:47
+  [+] 239 subs found for vudu.com -> 06/08/2025, 23:13:49
+  [+] 239 subs found for vudu.com -> 06/08/2025, 23:13:49
+[INFO] Starting Shodan Search for 'samsclub.com'... -> 06/08/2025, 23:13:49
+[INFO] Starting Shodan Search for 'samsclub.com'... -> 06/08/2025, 23:13:49
+  [+] 2599 subs found for samsclub.com -> 06/08/2025, 23:13:51
+  [+] 2459 subs found for samsclub.com -> 06/08/2025, 23:13:51
+[INFO] Starting Shodan Search for 'fnbgranbury.com'... -> 06/08/2025, 23:13:53
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:13:53
+  [+] 10 subs found for fnbgranbury.com -> 06/08/2025, 23:13:54
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:13:54
+  [+] 895 subs found for dell.com -> 06/08/2025, 23:13:54
+[INFO] Starting Shodan Search for 'bistro.sk'... -> 06/08/2025, 23:13:55
+  [+] 895 subs found for dell.com -> 06/08/2025, 23:13:56
+  [+] 20 subs found for bistro.sk -> 06/08/2025, 23:13:56
+[INFO] Starting Shodan Search for 'fnbgranbury.com'... -> 06/08/2025, 23:13:56
+[INFO] Starting Shodan Search for 'lider.cl'... -> 06/08/2025, 23:13:56
+  [+] 10 subs found for fnbgranbury.com -> 06/08/2025, 23:13:57
+[INFO] Starting Shodan Search for 'lider.cl'... -> 06/08/2025, 23:13:57
+  [+] 194 subs found for lider.cl -> 06/08/2025, 23:13:59
+[INFO] Starting Shodan Search for 'eloquii.com'... -> 06/08/2025, 23:13:59
+  [+] 10 subs found for eloquii.com -> 06/08/2025, 23:14:06
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 23:14:06
+  [+] 315 subs found for fnis.com -> 06/08/2025, 23:14:08
+[INFO] Starting Shodan Search for 'skipthedishes.com'... -> 06/08/2025, 23:14:08
+  [+] 69 subs found for skipthedishes.com -> 06/08/2025, 23:14:09
+[INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 23:14:10
+[INFO] Starting shodan -> 06/08/2025, 23:15:10
+[INFO] Starting Shodan Search for 'fnfis.com'... -> 06/08/2025, 23:15:10
+  [+] 123 subs found for fnfis.com -> 06/08/2025, 23:15:11
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 23:15:11
+  [+] 11 subs found for rentalcars.com -> 06/08/2025, 23:15:13
+[INFO] Starting Shodan Search for 'delltechnologies.com'... -> 06/08/2025, 23:15:13
+  [+] 128 subs found for delltechnologies.com -> 06/08/2025, 23:15:14
+[INFO] Starting Shodan Search for 'pyszne.pl'... -> 06/08/2025, 23:15:14
+  [+] 13 subs found for pyszne.pl -> 06/08/2025, 23:15:15
+[INFO] Starting Shodan Search for 'modcloth.com'... -> 06/08/2025, 23:15:15
+  [+] 4 subs found for modcloth.com -> 06/08/2025, 23:15:18
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:15:18
+  [+] 43 subs found for fareharbor.engineering -> 06/08/2025, 23:15:19
+[INFO] Starting Shodan Search for 'just-eat.com'... -> 06/08/2025, 23:15:19
+  [+] 99 subs found for just-eat.com -> 06/08/2025, 23:15:20
+[INFO] Starting Shodan Search for 'skipthedishes.com'... -> 06/08/2025, 23:15:20
+  [+] 32 subs found for skipthedishes.com -> 06/08/2025, 23:15:22
+[INFO] Starting Shodan Search for 'fis-development-clone.zoominsoftware.io'... -> 06/08/2025, 23:15:22
+  [WAR] No subdomains found for fis-development-clone.zoominsoftware.io in Shodan -> 06/08/2025, 23:15:23
+[INFO] Starting Shodan Search for 'just-eat.co.uk'... -> 06/08/2025, 23:15:23
+  [+] 7 subs found for just-eat.co.uk -> 06/08/2025, 23:15:24
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 23:15:24
+  [+] 139 subs found for vudu.com -> 06/08/2025, 23:15:27
+[INFO] Starting Shodan Search for '10bis.co.il'... -> 06/08/2025, 23:15:27
+  [+] 15 subs found for 10bis.co.il -> 06/08/2025, 23:15:28
+[INFO] Starting Shodan Search for 'seiyu.co.jp'... -> 06/08/2025, 23:15:28
+  [+] 13 subs found for seiyu.co.jp -> 06/08/2025, 23:15:29
+[INFO] Starting Shodan Search for 'm-pesa.com'... -> 06/08/2025, 23:15:29
+  [+] 26 subs found for m-pesa.com -> 06/08/2025, 23:15:30
+[INFO] Starting Shodan Search for 'eloquii.com'... -> 06/08/2025, 23:15:31
+  [WAR] No subdomains found for eloquii.com in Shodan -> 06/08/2025, 23:15:32
+[INFO] Starting Shodan Search for 'scoober.com'... -> 06/08/2025, 23:15:32
+  [WAR] No subdomains found for scoober.com in Shodan -> 06/08/2025, 23:15:33
+[INFO] Starting Shodan Search for 'fareharbor.com'... -> 06/08/2025, 23:15:33
+  [WAR] No subdomains found for fareharbor.com in Shodan -> 06/08/2025, 23:15:35
+[INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 23:15:35
+  [WAR] No subdomains found for booking.com in Shodan -> 06/08/2025, 23:15:36
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 23:15:36
+  [WAR] No subdomains found for just-eat.es in Shodan -> 06/08/2025, 23:15:37
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 23:15:37
+  [WAR] No subdomains found for walmart.com in Shodan -> 06/08/2025, 23:15:38
+[INFO] Starting Shodan Search for 'menulog.com.au'... -> 06/08/2025, 23:15:38
+  [WAR] No subdomains found for menulog.com.au in Shodan -> 06/08/2025, 23:15:39
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 23:15:40
+  [WAR] No subdomains found for phonepe.com in Shodan -> 06/08/2025, 23:15:51
+[INFO] Starting Shodan Search for 'fisemerald.com'... -> 06/08/2025, 23:15:51
+  [WAR] No subdomains found for fisemerald.com in Shodan -> 06/08/2025, 23:15:53
+[INFO] Starting Shodan Search for 'samsclub.com'... -> 06/08/2025, 23:15:53
+  [WAR] No subdomains found for samsclub.com in Shodan -> 06/08/2025, 23:15:54
+[INFO] Starting Shodan Search for 'fmberlin.com'... -> 06/08/2025, 23:15:54
+  [WAR] No subdomains found for fmberlin.com in Shodan -> 06/08/2025, 23:15:55
+[INFO] Starting Shodan Search for 'fiscloudservices.com'... -> 06/08/2025, 23:15:55
+  [WAR] No subdomains found for fiscloudservices.com in Shodan -> 06/08/2025, 23:15:56
+[INFO] Starting Shodan Search for 'fisglobal.com'... -> 06/08/2025, 23:15:56
+  [WAR] No subdomains found for fisglobal.com in Shodan -> 06/08/2025, 23:15:58
+[INFO] Starting Shodan Search for 'barenecessities.com'... -> 06/08/2025, 23:15:58
+  [WAR] No subdomains found for barenecessities.com in Shodan -> 06/08/2025, 23:15:59
+[INFO] Starting Shodan Search for 'lieferando.de'... -> 06/08/2025, 23:15:59
+  [WAR] No subdomains found for lieferando.de in Shodan -> 06/08/2025, 23:16:00
+[INFO] Starting Shodan Search for 'bonobos.com'... -> 06/08/2025, 23:16:00
+  [WAR] No subdomains found for bonobos.com in Shodan -> 06/08/2025, 23:16:01
+[INFO] Starting Shodan Search for 'bestprice.in'... -> 06/08/2025, 23:16:01
+  [WAR] No subdomains found for bestprice.in in Shodan -> 06/08/2025, 23:16:03
+[INFO] Starting Shodan Search for 'bistro.sk'... -> 06/08/2025, 23:16:03
+  [WAR] No subdomains found for bistro.sk in Shodan -> 06/08/2025, 23:16:04
+[INFO] Starting Shodan Search for 'massmart.co.za'... -> 06/08/2025, 23:16:04
+  [WAR] No subdomains found for massmart.co.za in Shodan -> 06/08/2025, 23:16:05
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 23:16:05
+  [WAR] No subdomains found for walmartlabs.com in Shodan -> 06/08/2025, 23:16:07
+[INFO] Starting Shodan Search for 'takeaway.com'... -> 06/08/2025, 23:16:07
+  [WAR] No subdomains found for takeaway.com in Shodan -> 06/08/2025, 23:16:08
+[INFO] Starting Shodan Search for 'just-eat.dk'... -> 06/08/2025, 23:16:08
+  [WAR] No subdomains found for just-eat.dk in Shodan -> 06/08/2025, 23:16:09
+[INFO] Starting Shodan Search for 'fisconnect.com'... -> 06/08/2025, 23:16:09
+  [WAR] No subdomains found for fisconnect.com in Shodan -> 06/08/2025, 23:16:11
+[INFO] Starting Shodan Search for 'moosejaw.com'... -> 06/08/2025, 23:16:11
+  [WAR] No subdomains found for moosejaw.com in Shodan -> 06/08/2025, 23:16:12
+[INFO] Starting Shodan Search for 'lider.cl'... -> 06/08/2025, 23:16:12
+  [WAR] No subdomains found for lider.cl in Shodan -> 06/08/2025, 23:16:13
+[INFO] Starting Shodan Search for 'hayneedle.com'... -> 06/08/2025, 23:16:13
+  [WAR] No subdomains found for hayneedle.com in Shodan -> 06/08/2025, 23:16:15
+[INFO] Starting Shodan Search for 'fnbgranbury.com'... -> 06/08/2025, 23:16:15
+  [WAR] No subdomains found for fnbgranbury.com in Shodan -> 06/08/2025, 23:16:16
+[INFO] Starting Shodan Search for 'thuisbezorgd.nl'... -> 06/08/2025, 23:16:16
+  [WAR] No subdomains found for thuisbezorgd.nl in Shodan -> 06/08/2025, 23:16:17
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 23:16:17
+  [WAR] No subdomains found for fnis.com in Shodan -> 06/08/2025, 23:16:18
+[INFO] Starting Shodan Search for 'asda.com'... -> 06/08/2025, 23:16:18
+  [WAR] No subdomains found for asda.com in Shodan -> 06/08/2025, 23:16:19
+[INFO] Starting Shodan Search for 'flipkart.com'... -> 06/08/2025, 23:16:19
+  [WAR] No subdomains found for flipkart.com in Shodan -> 06/08/2025, 23:16:21
+[INFO] Starting Shodan Search for 'bigc.co.th'... -> 06/08/2025, 23:16:21
+  [WAR] No subdomains found for bigc.co.th in Shodan -> 06/08/2025, 23:16:22
+[INFO] Starting Shodan Search for 'parcel.io'... -> 06/08/2025, 23:16:22
+  [WAR] No subdomains found for parcel.io in Shodan -> 06/08/2025, 23:16:24
+[INFO] Starting Shodan Search for 'jet.com'... -> 06/08/2025, 23:16:24
+  [WAR] No subdomains found for jet.com in Shodan -> 06/08/2025, 23:16:25
+[INFO] Starting Shodan Search for 'fismitlab.com'... -> 06/08/2025, 23:16:25
+  [WAR] No subdomains found for fismitlab.com in Shodan -> 06/08/2025, 23:16:26
+[INFO] Starting Shodan Search for 'skippayments.com'... -> 06/08/2025, 23:16:26
+  [WAR] No subdomains found for skippayments.com in Shodan -> 06/08/2025, 23:16:29
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:16:29
+  [WAR] No subdomains found for dell.com in Shodan -> 06/08/2025, 23:16:30
+[SUCCESS] Finished shodan -> 06/08/2025, 23:16:30
+[INFO] Starting shodan -> 06/08/2025, 23:16:38
+[INFO] Starting Shodan Search for 'just-eat.com'... -> 06/08/2025, 23:16:38
+  [WAR] No subdomains found for just-eat.com in Shodan -> 06/08/2025, 23:16:40
+[INFO] Starting Shodan Search for 'skipthedishes.com'... -> 06/08/2025, 23:16:40
+  [WAR] No subdomains found for skipthedishes.com in Shodan -> 06/08/2025, 23:16:41
+[INFO] Starting Shodan Search for 'fisconnect.com'... -> 06/08/2025, 23:16:41
+  [WAR] No subdomains found for fisconnect.com in Shodan -> 06/08/2025, 23:16:42
+[INFO] Starting Shodan Search for 'bigc.co.th'... -> 06/08/2025, 23:16:42
+  [WAR] No subdomains found for bigc.co.th in Shodan -> 06/08/2025, 23:16:44
+[INFO] Starting Shodan Search for 'just-eat.es'... -> 06/08/2025, 23:16:44
+  [WAR] No subdomains found for just-eat.es in Shodan -> 06/08/2025, 23:16:45
+[INFO] Starting Shodan Search for 'fiscloudservices.com'... -> 06/08/2025, 23:16:45
+  [WAR] No subdomains found for fiscloudservices.com in Shodan -> 06/08/2025, 23:16:47
+[INFO] Starting Shodan Search for 'fisglobal.com'... -> 06/08/2025, 23:16:47
+  [WAR] No subdomains found for fisglobal.com in Shodan -> 06/08/2025, 23:16:49
+[INFO] Starting Shodan Search for 'moosejaw.com'... -> 06/08/2025, 23:16:49
+  [WAR] No subdomains found for moosejaw.com in Shodan -> 06/08/2025, 23:16:50
+[INFO] Starting Shodan Search for 'modcloth.com'... -> 06/08/2025, 23:16:50
+  [WAR] No subdomains found for modcloth.com in Shodan -> 06/08/2025, 23:16:51
+[INFO] Starting Shodan Search for 'fareharbor.com'... -> 06/08/2025, 23:16:51
+  [WAR] No subdomains found for fareharbor.com in Shodan -> 06/08/2025, 23:16:52
+[INFO] Starting Shodan Search for 'eloquii.com'... -> 06/08/2025, 23:16:52
+  [WAR] No subdomains found for eloquii.com in Shodan -> 06/08/2025, 23:16:54
+[INFO] Starting Shodan Search for 'seiyu.co.jp'... -> 06/08/2025, 23:16:54
+  [WAR] No subdomains found for seiyu.co.jp in Shodan -> 06/08/2025, 23:16:55
+[INFO] Starting Shodan Search for 'bistro.sk'... -> 06/08/2025, 23:16:55
+  [WAR] No subdomains found for bistro.sk in Shodan -> 06/08/2025, 23:16:57
+[INFO] Starting Shodan Search for 'phonepe.com'... -> 06/08/2025, 23:16:57
+  [WAR] No subdomains found for phonepe.com in Shodan -> 06/08/2025, 23:16:58
+[INFO] Starting Shodan Search for 'lieferando.de'... -> 06/08/2025, 23:16:58
+  [WAR] No subdomains found for lieferando.de in Shodan -> 06/08/2025, 23:17:00
+[INFO] Starting Shodan Search for 'barenecessities.com'... -> 06/08/2025, 23:17:00
+  [WAR] No subdomains found for barenecessities.com in Shodan -> 06/08/2025, 23:17:01
+[INFO] Starting Shodan Search for 'takeaway.com'... -> 06/08/2025, 23:17:01
+  [WAR] No subdomains found for takeaway.com in Shodan -> 06/08/2025, 23:17:02
+[INFO] Starting Shodan Search for 'fareharbor.engineering'... -> 06/08/2025, 23:17:02
+  [WAR] No subdomains found for fareharbor.engineering in Shodan -> 06/08/2025, 23:17:03
+[INFO] Starting Shodan Search for 'fismitlab.com'... -> 06/08/2025, 23:17:03
+  [WAR] No subdomains found for fismitlab.com in Shodan -> 06/08/2025, 23:17:04
+[INFO] Starting Shodan Search for 'lider.cl'... -> 06/08/2025, 23:17:04
+  [WAR] No subdomains found for lider.cl in Shodan -> 06/08/2025, 23:17:06
+[INFO] Starting Shodan Search for 'vudu.com'... -> 06/08/2025, 23:17:06
+  [WAR] No subdomains found for vudu.com in Shodan -> 06/08/2025, 23:17:07
+[INFO] Starting Shodan Search for 'delltechnologies.com'... -> 06/08/2025, 23:17:07
+  [WAR] No subdomains found for delltechnologies.com in Shodan -> 06/08/2025, 23:17:08
+[INFO] Starting Shodan Search for 'bestprice.in'... -> 06/08/2025, 23:17:08
+  [WAR] No subdomains found for bestprice.in in Shodan -> 06/08/2025, 23:17:09
+[INFO] Starting Shodan Search for 'samsclub.com'... -> 06/08/2025, 23:17:09
+  [WAR] No subdomains found for samsclub.com in Shodan -> 06/08/2025, 23:17:10
+[INFO] Starting Shodan Search for 'uscc.net'... -> 06/08/2025, 23:17:10
+  [WAR] No subdomains found for uscc.net in Shodan -> 06/08/2025, 23:17:17
+[INFO] Starting Shodan Search for 'flipkart.com'... -> 06/08/2025, 23:17:17
+  [WAR] No subdomains found for flipkart.com in Shodan -> 06/08/2025, 23:17:18
+[INFO] Starting Shodan Search for 'hayneedle.com'... -> 06/08/2025, 23:17:18
+  [WAR] No subdomains found for hayneedle.com in Shodan -> 06/08/2025, 23:17:19
+[INFO] Starting Shodan Search for 'walmart.com'... -> 06/08/2025, 23:17:19
+  [WAR] No subdomains found for walmart.com in Shodan -> 06/08/2025, 23:17:20
+[INFO] Starting Shodan Search for 'fnfis.com'... -> 06/08/2025, 23:17:20
+  [WAR] No subdomains found for fnfis.com in Shodan -> 06/08/2025, 23:17:21
+[INFO] Starting Shodan Search for 'massmart.co.za'... -> 06/08/2025, 23:17:21
+  [WAR] No subdomains found for massmart.co.za in Shodan -> 06/08/2025, 23:17:22
+[INFO] Starting Shodan Search for 'fnis.com'... -> 06/08/2025, 23:17:22
+  [WAR] No subdomains found for fnis.com in Shodan -> 06/08/2025, 23:17:23
+[INFO] Starting Shodan Search for 'fis-development-clone.zoominsoftware.io'... -> 06/08/2025, 23:17:23
+  [WAR] No subdomains found for fis-development-clone.zoominsoftware.io in Shodan -> 06/08/2025, 23:17:24
+[INFO] Starting Shodan Search for 'parcel.io'... -> 06/08/2025, 23:17:24
+  [WAR] No subdomains found for parcel.io in Shodan -> 06/08/2025, 23:17:25
+[INFO] Starting Shodan Search for 'menulog.com.au'... -> 06/08/2025, 23:17:25
+  [WAR] No subdomains found for menulog.com.au in Shodan -> 06/08/2025, 23:17:26
+[INFO] Starting Shodan Search for 'scoober.com'... -> 06/08/2025, 23:17:26
+  [WAR] No subdomains found for scoober.com in Shodan -> 06/08/2025, 23:17:27
+[INFO] Starting Shodan Search for 'walmartlabs.com'... -> 06/08/2025, 23:17:27
+  [WAR] No subdomains found for walmartlabs.com in Shodan -> 06/08/2025, 23:17:28
+[INFO] Starting Shodan Search for 'just-eat.dk'... -> 06/08/2025, 23:17:28
+  [WAR] No subdomains found for just-eat.dk in Shodan -> 06/08/2025, 23:17:30
+[INFO] Starting Shodan Search for 'just-eat.co.uk'... -> 06/08/2025, 23:17:30
+  [WAR] No subdomains found for just-eat.co.uk in Shodan -> 06/08/2025, 23:17:37
+[INFO] Starting Shodan Search for 'thuisbezorgd.nl'... -> 06/08/2025, 23:17:37
+  [WAR] No subdomains found for thuisbezorgd.nl in Shodan -> 06/08/2025, 23:17:38
+[INFO] Starting Shodan Search for 'bonobos.com'... -> 06/08/2025, 23:17:38
+  [WAR] No subdomains found for bonobos.com in Shodan -> 06/08/2025, 23:17:39
+[INFO] Starting Shodan Search for 'skippayments.com'... -> 06/08/2025, 23:17:39
+  [WAR] No subdomains found for skippayments.com in Shodan -> 06/08/2025, 23:17:40
+[INFO] Starting Shodan Search for 'asda.com'... -> 06/08/2025, 23:17:40
+  [WAR] No subdomains found for asda.com in Shodan -> 06/08/2025, 23:17:46
+[INFO] Starting Shodan Search for 'jet.com'... -> 06/08/2025, 23:17:46
+  [WAR] No subdomains found for jet.com in Shodan -> 06/08/2025, 23:17:47
+[INFO] Starting Shodan Search for 'fisemerald.com'... -> 06/08/2025, 23:17:47
+  [WAR] No subdomains found for fisemerald.com in Shodan -> 06/08/2025, 23:17:49
+[INFO] Starting Shodan Search for 'fnbgranbury.com'... -> 06/08/2025, 23:17:49
+  [WAR] No subdomains found for fnbgranbury.com in Shodan -> 06/08/2025, 23:17:50
+[INFO] Starting Shodan Search for 'pyszne.pl'... -> 06/08/2025, 23:17:50
+  [WAR] No subdomains found for pyszne.pl in Shodan -> 06/08/2025, 23:17:51
+[INFO] Starting Shodan Search for 'rentalcars.com'... -> 06/08/2025, 23:17:51
+  [WAR] No subdomains found for rentalcars.com in Shodan -> 06/08/2025, 23:17:52
+[INFO] Starting Shodan Search for 'm-pesa.com'... -> 06/08/2025, 23:17:52
+  [WAR] No subdomains found for m-pesa.com in Shodan -> 06/08/2025, 23:17:53
+[INFO] Starting Shodan Search for 'fmberlin.com'... -> 06/08/2025, 23:17:53
+  [WAR] No subdomains found for fmberlin.com in Shodan -> 06/08/2025, 23:17:54
+[INFO] Starting Shodan Search for '10bis.co.il'... -> 06/08/2025, 23:17:54
+  [WAR] No subdomains found for 10bis.co.il in Shodan -> 06/08/2025, 23:17:56
+[INFO] Starting Shodan Search for 'dell.com'... -> 06/08/2025, 23:17:56
+  [WAR] No subdomains found for dell.com in Shodan -> 06/08/2025, 23:17:57
+[INFO] Starting Shodan Search for 'booking.com'... -> 06/08/2025, 23:17:57
+  [WAR] No subdomains found for booking.com in Shodan -> 06/08/2025, 23:17:58
+[SUCCESS] Finished shodan -> 06/08/2025, 23:17:58
