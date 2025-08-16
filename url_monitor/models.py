@@ -1,12 +1,8 @@
 from django.db import models
 from core.models import BaseModel
 from django.contrib.auth.models import User
-from private_watchers.models import *
+from asset_monitor.models import *
 
-LABELS = [
-        ('new', 'NEW'),
-        ('available' , 'AVAILABLE')
-    ]
 
 EXTENSION = [('none', 'none'),('html', 'html'),('htm', 'htm'),('js', 'js'),
              ('css', 'css'),('json', 'json'),('xml', 'xml'),('jpg', 'jpg'),
@@ -22,10 +18,10 @@ EXTENSION = [('none', 'none'),('html', 'html'),('htm', 'htm'),('js', 'js'),
              ('env', 'env'),
 ]
 
-class UrL(BaseModel):
+class Url(BaseModel):
     subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE)
     url = models.CharField(max_length=300 , null=False , blank=False)
-    label = models.CharField(max_length=150 , choices=STATUSES , default='new')
+    label = models.CharField(max_length=150 , choices=LABELS , default='new')
     ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
     body_hash = models.CharField(max_length=300 , null=False , blank=True)
     
@@ -33,5 +29,19 @@ class UrL(BaseModel):
         return f"{self.subdomain} - {self.ext}"
 
     class Meta:
-        verbose_name = 'Discovered URL'
-        verbose_name_plural = 'Discovered URLs'
+        verbose_name = 'URL'
+        verbose_name_plural = 'URLs'
+
+
+class UrlChanges(BaseModel):
+    url = models.ForeignKey(Url , on_delete=models.CASCADE)
+    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+    old_body_hash = models.CharField(max_length=300 , null=False , blank=True)
+    new_body_hash = models.CharField(max_length=300 , null=False , blank=True)
+
+    def __str__(self):
+        return f"{self.old_body_hash} -> {self.new_body_hash}"
+    
+    class Meta:
+        verbose_name = 'URL Change'
+        verbose_name_plural = 'URL Changes'

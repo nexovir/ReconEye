@@ -59,13 +59,13 @@ INSTALLED_APPS = [
     'writeups',
     'techniques',
     'zerodays',
-    'public_watchers',
-    'private_watchers',
+    'programs_monitor',
+    'asset_monitor',
     'rating',
     'chats',
     'interactions',
     'core',
-    
+    'url_monitor',
         
 ]
 
