@@ -43,13 +43,13 @@ class Url(BaseModel):
 
 
 class UrlChanges(BaseModel):
-    path = models.ForeignKey(Url , on_delete=models.CASCADE)
+    url = models.ForeignKey(Url , on_delete=models.CASCADE)
+    body_hash_change = models.CharField(max_length=300 , null=True , blank=True)
     label = models.CharField(max_length=150 , choices=LABELS , default='new')
-    old_body_hash = models.CharField(max_length=300 , null=False , blank=True)
-    new_body_hash = models.CharField(max_length=300 , null=False , blank=True)
+    ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
 
     def __str__(self):
-        return f"{self.old_body_hash} -> {self.new_body_hash}"
+        return f"{self.url} -> {self.ext}"
     
     class Meta:
         verbose_name = 'URL Change'
