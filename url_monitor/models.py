@@ -28,8 +28,8 @@ EXTENSION = [
 class Url(BaseModel):
     subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE)
     url = models.CharField(max_length=600, null=False , blank=False)
-    path = models.CharField(max_length=300 , null=False , blank=False)
-    query = models.CharField(max_length=300 , null=False , blank=False)
+    path = models.CharField(max_length=300 , null=False , blank=True)
+    query = models.CharField(max_length=300 , null=False , blank=True)
     label = models.CharField(max_length=150 , choices=LABELS , default='new')
     ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
     body_hash = models.CharField(max_length=300 , null=True , blank=True)

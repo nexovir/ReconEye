@@ -6,7 +6,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'infodisclosure_backend.settings
 
 app = Celery('infodisclosure_backend')
 app.config_from_object('django.conf:settings', namespace='CELERY')
-app.autodiscover_tasks(['programs_monitor', 'asset_monitor' , 'url_monitor'])
+app.autodiscover_tasks(['programs_monitor', 'asset_monitor' , 'url_monitor' , 'vulnerability_monitor'])
 
 app.conf.update(
     task_time_limit=86400,

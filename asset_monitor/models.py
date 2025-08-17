@@ -88,6 +88,7 @@ class AssetWatcher(BaseModel):
     user = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)
     notify = models.BooleanField(default=False)
     status = models.CharField(max_length=150, choices=STATUSES, default='pending')
+    
 
     def import_wildcards_from_file(self, file_path):
         tool_names = ['subfinder', 'httpx', 'crt.sh', 'wabackurls']
@@ -157,8 +158,6 @@ class AssetWatcher(BaseModel):
 
 
 
-
-
 class Tool(models.Model):
 
     tool_name = models.CharField(max_length=120, choices=TOOLS_NAME , default='subfinder')
@@ -169,7 +168,6 @@ class Tool(models.Model):
     class Meta:
         verbose_name = 'Tool'
         verbose_name_plural = 'Tools'
-
 
 
 
@@ -193,6 +191,15 @@ class WatchedWildcard(BaseModel):
         verbose_name_plural = 'Watcher Wildcards'
 
 
+class RequestHeaders (BaseModel):
+    asset_watcher = models.ForeignKey(WatchedWildcard , on_delete=models.CASCADE)
+    header = models.CharField(max_length=5000 , null=True , blank=True)
+
+    def __str__(self):
+        return self.asset_watcher.wildcard
+    class Meta:
+        verbose_name = 'Request Header'
+        verbose_name_plural = 'Request Headers'
 
 
 class DiscoverSubdomain(BaseModel):

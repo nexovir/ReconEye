@@ -1,14 +1,20 @@
 from django.contrib import admin
 from .models import *
+from nested_admin import NestedTabularInline, NestedModelAdmin
 
-
-class WatchedWildcardInline(admin.TabularInline):
-    model = WatchedWildcard
+class RequestHeadersInline(NestedTabularInline):
+    model = RequestHeaders
     extra = 0
     show_change_link = True
 
+class WatchedWildcardInline(NestedTabularInline):
+    model = WatchedWildcard
+    extra = 0
+    show_change_link = True
+    inlines = [RequestHeadersInline]
 
-class WatcherCIDRInline(admin.TabularInline):
+
+class WatcherCIDRInline(NestedTabularInline):
     model = WatcherCIDR
     extra = 0
     show_change_link = True
@@ -23,7 +29,7 @@ class ToolAdmin(admin.ModelAdmin):
 
 
 @admin.register(AssetWatcher)
-class AssetWatcherAdmin(admin.ModelAdmin):
+class AssetWatcherAdmin(NestedModelAdmin):
     list_display = ('id', 'user', 'status','updated_at', 'notify')
     list_filter = ('status', 'notify')
     search_fields = ('user__username',)
@@ -31,9 +37,8 @@ class AssetWatcherAdmin(admin.ModelAdmin):
     inlines = [WatchedWildcardInline , WatcherCIDRInline]
 
 
-
 @admin.register(WatchedWildcard)
-class WatchedWildcardAdmin(admin.ModelAdmin):
+class WatchedWildcardAdmin(NestedModelAdmin):
     list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'updated_at')
     search_fields = ('wildcard',)
     
@@ -42,6 +47,7 @@ class WatchedWildcardAdmin(admin.ModelAdmin):
         return ", ".join([tool.tool_name for tool in obj.tools.all()])
     get_all_tools.short_description = "Tools"
 
+    inlines = [RequestHeadersInline]
 
 
 @admin.register(DiscoverSubdomain)

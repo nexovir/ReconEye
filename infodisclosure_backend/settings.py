@@ -66,6 +66,7 @@ INSTALLED_APPS = [
     'interactions',
     'core',
     'url_monitor',
+    'vulnerability_monitor'
         
 ]
 
