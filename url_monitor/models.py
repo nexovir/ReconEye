@@ -27,10 +27,12 @@ EXTENSION = [
 
 class Url(BaseModel):
     subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE)
-    url = models.CharField(max_length=300 , null=False , blank=False)
+    url = models.CharField(max_length=600, null=False , blank=False)
+    path = models.CharField(max_length=300 , null=False , blank=False)
+    query = models.CharField(max_length=300 , null=False , blank=False)
     label = models.CharField(max_length=150 , choices=LABELS , default='new')
     ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
-    body_hash = models.CharField(max_length=300 , null=False , blank=True)
+    body_hash = models.CharField(max_length=300 , null=True , blank=True)
     
     def __str__(self):
         return f"{self.subdomain} - {self.ext}"
@@ -41,7 +43,7 @@ class Url(BaseModel):
 
 
 class UrlChanges(BaseModel):
-    url = models.ForeignKey(Url , on_delete=models.CASCADE)
+    path = models.ForeignKey(Url , on_delete=models.CASCADE)
     label = models.CharField(max_length=150 , choices=LABELS , default='new')
     old_body_hash = models.CharField(max_length=300 , null=False , blank=True)
     new_body_hash = models.CharField(max_length=300 , null=False , blank=True)

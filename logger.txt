@@ -5290,3 +5290,178 @@ another command is already in progress -> 16/08/2025, 23:10:51
   [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:13:17
 [INFO] Starting URL Monitoring -> 17/08/2025, 00:13:48
   [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 00:13:48
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 00:14:04
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:14:05
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 00:14:31
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:14:32
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 00:14:48
+[INFO] Starting URL Monitoring -> 17/08/2025, 10:53:40
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 10:53:40
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 10:53:52
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:53:52
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:54:13
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:54:13
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:54:26
+[INFO] Starting URL Monitoring -> 17/08/2025, 10:55:30
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 10:55:30
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 10:55:40
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:55:40
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:56:01
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:56:01
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:56:21
+[INFO] Starting URL Monitoring -> 17/08/2025, 10:57:16
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 10:57:16
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 10:57:29
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:57:29
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:57:50
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:57:50
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:58:11
+[INFO] Starting URL Monitoring -> 17/08/2025, 10:58:39
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 10:58:39
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 10:58:55
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:58:56
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 10:59:22
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:59:23
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 10:59:40
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:00:10
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:00:23
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:00:23
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:00:39
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:00:46
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:01:12
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:01:16
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:01:42
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:07:10
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:07:10
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:07:26
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:07:27
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:07:44
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:07:45
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:08:01
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:09:23
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:09:23
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:09:39
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:09:40
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:10:02
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:10:03
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:10:48
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:17:58
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:17:58
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:18:13
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:18:14
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:18:34
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:18:35
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:18:57
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:21:48
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:21:48
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:21:51
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:21:51
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:22:04
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:22:06
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:22:06
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:22:07
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:22:24
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:22:25
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:22:28
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:22:29
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:22:47
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:22:51
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:25:22
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:25:22
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:25:38
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:25:39
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:26:01
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:26:02
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:26:18
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:28:01
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:28:01
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:28:16
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:28:17
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:28:39
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:28:41
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:29:03
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:29:13
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:29:13
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:29:29
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:29:31
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:29:53
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:29:53
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:30:02
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:30:12
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:30:12
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:30:28
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:30:29
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:30:51
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:30:52
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:31:14
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:31:28
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:31:28
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:31:43
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:31:44
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:32:04
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:32:09
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:32:09
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:32:24
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:32:25
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:32:47
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:32:48
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:33:09
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:35:05
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:35:05
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:35:20
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:35:21
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:35:43
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:35:52
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:36:15
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:36:26
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:36:26
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:36:41
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:36:42
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:37:04
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:37:05
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:37:27
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:39:24
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:39:24
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:39:29
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:39:29
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:39:29
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:39:29
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:39:36
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:39:36
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:39:52
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:39:53
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:40:09
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:40:10
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:40:27
+[INFO] Starting URL Monitoring -> 17/08/2025, 11:45:30
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 11:45:30
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 11:45:46
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:45:47
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 11:46:09
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:46:10
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 11:46:33
+[INFO] Starting URL Monitoring -> 17/08/2025, 12:01:51
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 12:01:51
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 12:02:07
+Error fetching https://www.tktnew.com: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) -> 17/08/2025, 12:02:09
+[INFO] Starting URL Monitoring -> 17/08/2025, 12:02:41
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 12:02:41
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 12:02:57
+Error fetching https://www.tktnew.com: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) -> 17/08/2025, 12:02:59
+Error fetching http://www.tktnew.com/robots.txt: 404 Client Error: Not Found for url: http://www.tktnew.com/robots.txt -> 17/08/2025, 12:03:00
+Error fetching http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D: 404 Client Error: Not Found for url: http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 17/08/2025, 12:03:01
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 12:03:01
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 12:03:17
+Error fetching https://cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com: HTTPSConnectionPool(host='cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f373bb03890>: Failed to resolve 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com' ([Errno -2] Name or service not known)")) -> 17/08/2025, 12:03:19
+Error fetching : Invalid URL '': No scheme supplied. Perhaps you meant https://? -> 17/08/2025, 12:03:19
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 12:03:19
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 12:03:40
+Error fetching https://cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com: HTTPSConnectionPool(host='cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f373bb03110>: Failed to resolve 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com' ([Errno -2] Name or service not known)")) -> 17/08/2025, 12:03:42
+Error fetching : Invalid URL '': No scheme supplied. Perhaps you meant https://? -> 17/08/2025, 12:03:42
+[INFO] Starting URL Monitoring -> 17/08/2025, 12:06:03
+  [INFO] Starting Katana for 'www.tktnew.com'... -> 17/08/2025, 12:06:03
+  [INFO] Starting Waybackurls for 'www.tktnew.com'... -> 17/08/2025, 12:06:18
+  [INFO] Starting Katana for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 12:06:21
+  [INFO] Starting Waybackurls for 'cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com'... -> 17/08/2025, 12:06:43
+  [INFO] Starting Katana for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 12:06:44
+  [INFO] Starting Waybackurls for 'cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com'... -> 17/08/2025, 12:07:05
