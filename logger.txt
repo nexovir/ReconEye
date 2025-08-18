@@ -14155,3 +14155,1647 @@
    [SUCCESS] Injector finished successfully -> 18/08/2025, 17:16:42
   [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 18/08/2025, 17:16:42
 [INFO] Starting Light Reflix ... -> 18/08/2025, 17:16:42
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:16:23
+   [INFO] Running injector ... -> 19/08/2025, 00:16:23
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:16:23
+  [INFO] Running nuclei scan on 1 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:16:23
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:16:27
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir?q= -> 19/08/2025, 00:16:27
+      [INFO] 1 parameters found  -> 19/08/2025, 00:16:27
+  [INFO] Start Fuzzing 1 parameters (method: GET) https://memoryleaks.ir?q= -> 19/08/2025, 00:16:27
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir?q= -> 19/08/2025, 00:16:28
+      [INFO] 1 parameters found  -> 19/08/2025, 00:16:28
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://memoryleaks.ir?q= -> 19/08/2025, 00:16:28
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir -> 19/08/2025, 00:16:30
+      [INFO] 0 parameters found  -> 19/08/2025, 00:16:30
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir -> 19/08/2025, 00:16:30
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir -> 19/08/2025, 00:16:30
+      [INFO] 0 parameters found  -> 19/08/2025, 00:16:30
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir -> 19/08/2025, 00:16:30
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:16:30
+      [INFO] 0 parameters found  -> 19/08/2025, 00:16:30
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:16:30
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:16:30
+      [INFO] 0 parameters found  -> 19/08/2025, 00:16:30
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:16:30
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:16:31
+   [INFO] Running injector ... -> 19/08/2025, 00:16:31
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:16:31
+  [INFO] Running nuclei scan on 1 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:16:31
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:16:34
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://www.tktnew.com -> 19/08/2025, 00:16:34
+      [INFO] 0 parameters found  -> 19/08/2025, 00:16:34
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://www.tktnew.com -> 19/08/2025, 00:16:34
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://www.tktnew.com -> 19/08/2025, 00:16:34
+      [INFO] 0 parameters found  -> 19/08/2025, 00:16:34
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://www.tktnew.com -> 19/08/2025, 00:16:34
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:16:34
+      [INFO] 1 parameters found  -> 19/08/2025, 00:16:34
+  [INFO] Start Fuzzing 1 parameters (method: GET) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:16:34
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:16:36
+      [INFO] 1 parameters found  -> 19/08/2025, 00:16:36
+  [INFO] Start Fuzzing 1 parameters (method: POST) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:16:36
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:35
+   [INFO] Running injector ... -> 19/08/2025, 00:19:35
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:35
+  [INFO] Running nuclei scan on 1 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:35
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:37
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir -> 19/08/2025, 00:19:37
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:37
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir -> 19/08/2025, 00:19:37
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir -> 19/08/2025, 00:19:37
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:37
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir -> 19/08/2025, 00:19:37
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:19:37
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:37
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:19:37
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:19:37
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:37
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:19:37
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir?q= -> 19/08/2025, 00:19:37
+      [INFO] 1 parameters found  -> 19/08/2025, 00:19:37
+  [INFO] Start Fuzzing 1 parameters (method: GET) https://memoryleaks.ir?q= -> 19/08/2025, 00:19:37
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir?q= -> 19/08/2025, 00:19:39
+      [INFO] 1 parameters found  -> 19/08/2025, 00:19:39
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://memoryleaks.ir?q= -> 19/08/2025, 00:19:39
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:42
+   [INFO] Running injector ... -> 19/08/2025, 00:19:42
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:42
+  [INFO] Running nuclei scan on 1 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:42
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:43
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:19:43
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:43
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:19:43
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:19:43
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:43
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:19:43
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:19:43
+      [INFO] 1 parameters found  -> 19/08/2025, 00:19:43
+  [INFO] Start Fuzzing 1 parameters (method: GET) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:19:43
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:19:45
+      [INFO] 1 parameters found  -> 19/08/2025, 00:19:45
+  [INFO] Start Fuzzing 1 parameters (method: POST) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:19:45
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:19:47
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:47
+  [INFO] Start Fuzzing 0 parameters (method: GET) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:19:47
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:19:47
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:47
+  [INFO] Start Fuzzing 0 parameters (method: POST) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:19:47
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://www.tktnew.com -> 19/08/2025, 00:19:47
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:47
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://www.tktnew.com -> 19/08/2025, 00:19:47
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://www.tktnew.com -> 19/08/2025, 00:19:47
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:47
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://www.tktnew.com -> 19/08/2025, 00:19:47
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:47
+   [INFO] Running injector ... -> 19/08/2025, 00:19:47
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:47
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:47
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:47
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com -> 19/08/2025, 00:19:47
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:47
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com -> 19/08/2025, 00:19:47
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com -> 19/08/2025, 00:19:47
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:47
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://cserverfwdkim3do-payments-preprodxde6v.bounceme.netoppofadminadmin-fwdevradio-krd.order-stag-fw-devradio-kr.devradio-kr.ali.zomans.com -> 19/08/2025, 00:19:47
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:48
+   [INFO] Running injector ... -> 19/08/2025, 00:19:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:48
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com -> 19/08/2025, 00:19:48
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:48
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com -> 19/08/2025, 00:19:48
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com -> 19/08/2025, 00:19:48
+      [INFO] 0 parameters found  -> 19/08/2025, 00:19:48
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com -> 19/08/2025, 00:19:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:48
+   [INFO] Running injector ... -> 19/08/2025, 00:19:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:48
+   [INFO] Running injector ... -> 19/08/2025, 00:19:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:48
+   [INFO] Running injector ... -> 19/08/2025, 00:19:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:49
+   [INFO] Running injector ... -> 19/08/2025, 00:19:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:49
+   [INFO] Running injector ... -> 19/08/2025, 00:19:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:49
+   [INFO] Running injector ... -> 19/08/2025, 00:19:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:49
+   [INFO] Running injector ... -> 19/08/2025, 00:19:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:49
+   [INFO] Running injector ... -> 19/08/2025, 00:19:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:50
+   [INFO] Running injector ... -> 19/08/2025, 00:19:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:50
+   [INFO] Running injector ... -> 19/08/2025, 00:19:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:50
+   [INFO] Running injector ... -> 19/08/2025, 00:19:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:50
+   [INFO] Running injector ... -> 19/08/2025, 00:19:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:51
+   [INFO] Running injector ... -> 19/08/2025, 00:19:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:51
+   [INFO] Running injector ... -> 19/08/2025, 00:19:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:51
+   [INFO] Running injector ... -> 19/08/2025, 00:19:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:51
+   [INFO] Running injector ... -> 19/08/2025, 00:19:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:51
+   [INFO] Running injector ... -> 19/08/2025, 00:19:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:52
+   [INFO] Running injector ... -> 19/08/2025, 00:19:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:52
+   [INFO] Running injector ... -> 19/08/2025, 00:19:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:52
+   [INFO] Running injector ... -> 19/08/2025, 00:19:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:52
+   [INFO] Running injector ... -> 19/08/2025, 00:19:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:53
+   [INFO] Running injector ... -> 19/08/2025, 00:19:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:53
+   [INFO] Running injector ... -> 19/08/2025, 00:19:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:53
+   [INFO] Running injector ... -> 19/08/2025, 00:19:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:53
+   [INFO] Running injector ... -> 19/08/2025, 00:19:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:54
+   [INFO] Running injector ... -> 19/08/2025, 00:19:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:54
+   [INFO] Running injector ... -> 19/08/2025, 00:19:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:54
+   [INFO] Running injector ... -> 19/08/2025, 00:19:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:54
+   [INFO] Running injector ... -> 19/08/2025, 00:19:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:54
+   [INFO] Running injector ... -> 19/08/2025, 00:19:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:55
+   [INFO] Running injector ... -> 19/08/2025, 00:19:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:55
+   [INFO] Running injector ... -> 19/08/2025, 00:19:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:55
+   [INFO] Running injector ... -> 19/08/2025, 00:19:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:55
+   [INFO] Running injector ... -> 19/08/2025, 00:19:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:56
+   [INFO] Running injector ... -> 19/08/2025, 00:19:56
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:56
+   [INFO] Running injector ... -> 19/08/2025, 00:19:56
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:56
+   [INFO] Running injector ... -> 19/08/2025, 00:19:56
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:56
+   [INFO] Running injector ... -> 19/08/2025, 00:19:56
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:57
+   [INFO] Running injector ... -> 19/08/2025, 00:19:57
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:57
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:57
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:57
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:57
+   [INFO] Running injector ... -> 19/08/2025, 00:19:57
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:57
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:57
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:57
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:57
+   [INFO] Running injector ... -> 19/08/2025, 00:19:57
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:57
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:57
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:57
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:57
+   [INFO] Running injector ... -> 19/08/2025, 00:19:57
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:57
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:57
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:57
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:57
+   [INFO] Running injector ... -> 19/08/2025, 00:19:57
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:57
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:57
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:57
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:58
+   [INFO] Running injector ... -> 19/08/2025, 00:19:58
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:58
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:58
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:58
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:58
+   [INFO] Running injector ... -> 19/08/2025, 00:19:58
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:58
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:58
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:58
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:58
+   [INFO] Running injector ... -> 19/08/2025, 00:19:58
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:58
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:58
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:58
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:58
+   [INFO] Running injector ... -> 19/08/2025, 00:19:58
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:58
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:58
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:58
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:59
+   [INFO] Running injector ... -> 19/08/2025, 00:19:59
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:59
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:59
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:59
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:59
+   [INFO] Running injector ... -> 19/08/2025, 00:19:59
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:59
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:59
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:59
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:59
+   [INFO] Running injector ... -> 19/08/2025, 00:19:59
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:59
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:59
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:59
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:59
+   [INFO] Running injector ... -> 19/08/2025, 00:19:59
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:19:59
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:19:59
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:19:59
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:19:59
+   [INFO] Running injector ... -> 19/08/2025, 00:19:59
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:00
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:00
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:00
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:00
+   [INFO] Running injector ... -> 19/08/2025, 00:20:00
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:00
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:00
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:00
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:00
+   [INFO] Running injector ... -> 19/08/2025, 00:20:00
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:00
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:00
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:00
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:00
+   [INFO] Running injector ... -> 19/08/2025, 00:20:00
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:00
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:00
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:00
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:00
+   [INFO] Running injector ... -> 19/08/2025, 00:20:00
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:00
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:00
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:00
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:01
+   [INFO] Running injector ... -> 19/08/2025, 00:20:01
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:01
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:01
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:01
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:01
+   [INFO] Running injector ... -> 19/08/2025, 00:20:01
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:01
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:01
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:01
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:01
+   [INFO] Running injector ... -> 19/08/2025, 00:20:01
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:01
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:01
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:01
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:01
+   [INFO] Running injector ... -> 19/08/2025, 00:20:01
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:01
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:01
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:01
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:02
+   [INFO] Running injector ... -> 19/08/2025, 00:20:02
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:02
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:02
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:02
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:02
+   [INFO] Running injector ... -> 19/08/2025, 00:20:02
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:02
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:02
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:02
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:02
+   [INFO] Running injector ... -> 19/08/2025, 00:20:02
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:02
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:02
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:02
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:02
+   [INFO] Running injector ... -> 19/08/2025, 00:20:02
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:02
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:02
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:02
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:02
+   [INFO] Running injector ... -> 19/08/2025, 00:20:02
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:02
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:02
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:02
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:03
+   [INFO] Running injector ... -> 19/08/2025, 00:20:03
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:03
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:03
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:03
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:03
+   [INFO] Running injector ... -> 19/08/2025, 00:20:03
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:03
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:03
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:03
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:03
+   [INFO] Running injector ... -> 19/08/2025, 00:20:03
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:03
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:03
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:03
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:03
+   [INFO] Running injector ... -> 19/08/2025, 00:20:03
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:03
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:03
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:03
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:04
+   [INFO] Running injector ... -> 19/08/2025, 00:20:04
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:04
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:04
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:04
+   [INFO] Running injector ... -> 19/08/2025, 00:20:04
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:04
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:04
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:04
+   [INFO] Running injector ... -> 19/08/2025, 00:20:04
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:04
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:04
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:04
+   [INFO] Running injector ... -> 19/08/2025, 00:20:04
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:04
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:04
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:04
+   [INFO] Running injector ... -> 19/08/2025, 00:20:04
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:05
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:05
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:05
+   [INFO] Running injector ... -> 19/08/2025, 00:20:05
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:05
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:05
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:05
+   [INFO] Running injector ... -> 19/08/2025, 00:20:05
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:05
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:05
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:05
+   [INFO] Running injector ... -> 19/08/2025, 00:20:05
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:05
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:05
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:05
+   [INFO] Running injector ... -> 19/08/2025, 00:20:05
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:05
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:05
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:06
+   [INFO] Running injector ... -> 19/08/2025, 00:20:06
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:06
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:06
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:06
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:06
+   [INFO] Running injector ... -> 19/08/2025, 00:20:06
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:06
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:06
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:06
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:06
+   [INFO] Running injector ... -> 19/08/2025, 00:20:06
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:06
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:06
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:06
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:06
+   [INFO] Running injector ... -> 19/08/2025, 00:20:06
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:06
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:06
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:06
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:07
+   [INFO] Running injector ... -> 19/08/2025, 00:20:07
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:07
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:07
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:07
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:07
+   [INFO] Running injector ... -> 19/08/2025, 00:20:07
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:07
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:07
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:07
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:07
+   [INFO] Running injector ... -> 19/08/2025, 00:20:07
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:07
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:07
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:07
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:07
+   [INFO] Running injector ... -> 19/08/2025, 00:20:07
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:07
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:07
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:07
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:07
+   [INFO] Running injector ... -> 19/08/2025, 00:20:07
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:07
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:07
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:07
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:08
+   [INFO] Running injector ... -> 19/08/2025, 00:20:08
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:08
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:08
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:08
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:08
+   [INFO] Running injector ... -> 19/08/2025, 00:20:08
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:08
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:08
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:08
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:08
+   [INFO] Running injector ... -> 19/08/2025, 00:20:08
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:08
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:08
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:08
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:08
+   [INFO] Running injector ... -> 19/08/2025, 00:20:08
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:08
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:08
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:08
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:09
+   [INFO] Running injector ... -> 19/08/2025, 00:20:09
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:09
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:09
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:09
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:09
+   [INFO] Running injector ... -> 19/08/2025, 00:20:09
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:09
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:09
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:09
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:09
+   [INFO] Running injector ... -> 19/08/2025, 00:20:09
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:09
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:09
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:09
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:09
+   [INFO] Running injector ... -> 19/08/2025, 00:20:09
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:09
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:09
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:09
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:10
+   [INFO] Running injector ... -> 19/08/2025, 00:20:10
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:10
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:10
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:10
+   [INFO] Running injector ... -> 19/08/2025, 00:20:10
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:10
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:10
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:10
+   [INFO] Running injector ... -> 19/08/2025, 00:20:10
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:10
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:10
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:10
+   [INFO] Running injector ... -> 19/08/2025, 00:20:10
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:10
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:10
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:10
+   [INFO] Running injector ... -> 19/08/2025, 00:20:10
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:10
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:10
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:11
+   [INFO] Running injector ... -> 19/08/2025, 00:20:11
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:11
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:11
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:11
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:11
+   [INFO] Running injector ... -> 19/08/2025, 00:20:11
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:11
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:11
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:11
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:11
+   [INFO] Running injector ... -> 19/08/2025, 00:20:11
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:11
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:11
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:11
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:11
+   [INFO] Running injector ... -> 19/08/2025, 00:20:11
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:11
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:11
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:11
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:12
+   [INFO] Running injector ... -> 19/08/2025, 00:20:12
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:12
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:12
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:12
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:12
+   [INFO] Running injector ... -> 19/08/2025, 00:20:12
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:12
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:12
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:12
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:12
+   [INFO] Running injector ... -> 19/08/2025, 00:20:12
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:12
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:12
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:12
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:12
+   [INFO] Running injector ... -> 19/08/2025, 00:20:12
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:12
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:12
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:12
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:12
+   [INFO] Running injector ... -> 19/08/2025, 00:20:12
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:13
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:13
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:13
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:13
+   [INFO] Running injector ... -> 19/08/2025, 00:20:13
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:13
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:13
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:13
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:13
+   [INFO] Running injector ... -> 19/08/2025, 00:20:13
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:13
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:13
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:13
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:13
+   [INFO] Running injector ... -> 19/08/2025, 00:20:13
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:13
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:13
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:13
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:13
+   [INFO] Running injector ... -> 19/08/2025, 00:20:13
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:13
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:13
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:13
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:14
+   [INFO] Running injector ... -> 19/08/2025, 00:20:14
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:14
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:14
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:14
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:14
+   [INFO] Running injector ... -> 19/08/2025, 00:20:14
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:14
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:14
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:14
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:14
+   [INFO] Running injector ... -> 19/08/2025, 00:20:14
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:14
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:14
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:14
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:14
+   [INFO] Running injector ... -> 19/08/2025, 00:20:14
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:14
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:14
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:14
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:15
+   [INFO] Running injector ... -> 19/08/2025, 00:20:15
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:15
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:15
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:15
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:15
+   [INFO] Running injector ... -> 19/08/2025, 00:20:15
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:15
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:15
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:15
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:15
+   [INFO] Running injector ... -> 19/08/2025, 00:20:15
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:15
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:15
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:15
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:15
+   [INFO] Running injector ... -> 19/08/2025, 00:20:15
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:15
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:15
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:15
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:15
+   [INFO] Running injector ... -> 19/08/2025, 00:20:15
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:16
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:16
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:16
+   [INFO] Running injector ... -> 19/08/2025, 00:20:16
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:16
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:16
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:16
+   [INFO] Running injector ... -> 19/08/2025, 00:20:16
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:16
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:16
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:16
+   [INFO] Running injector ... -> 19/08/2025, 00:20:16
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:16
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:16
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:16
+   [INFO] Running injector ... -> 19/08/2025, 00:20:16
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:16
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:16
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:17
+   [INFO] Running injector ... -> 19/08/2025, 00:20:17
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:17
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:17
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:17
+   [INFO] Running injector ... -> 19/08/2025, 00:20:17
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:17
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:17
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:17
+   [INFO] Running injector ... -> 19/08/2025, 00:20:17
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:17
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:17
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:17
+   [INFO] Running injector ... -> 19/08/2025, 00:20:17
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:17
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:17
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:18
+   [INFO] Running injector ... -> 19/08/2025, 00:20:18
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:18
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:18
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:18
+   [INFO] Running injector ... -> 19/08/2025, 00:20:18
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:18
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:18
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:18
+   [INFO] Running injector ... -> 19/08/2025, 00:20:18
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:18
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:18
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:18
+   [INFO] Running injector ... -> 19/08/2025, 00:20:18
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:18
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:18
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:18
+   [INFO] Running injector ... -> 19/08/2025, 00:20:18
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:18
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:18
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:19
+   [INFO] Running injector ... -> 19/08/2025, 00:20:19
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:19
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:19
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:19
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:19
+   [INFO] Running injector ... -> 19/08/2025, 00:20:19
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:19
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:19
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:19
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:19
+   [INFO] Running injector ... -> 19/08/2025, 00:20:19
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:19
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:19
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:19
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:19
+   [INFO] Running injector ... -> 19/08/2025, 00:20:19
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:19
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:19
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:19
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:20
+   [INFO] Running injector ... -> 19/08/2025, 00:20:20
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:20
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:20
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:20
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:20
+   [INFO] Running injector ... -> 19/08/2025, 00:20:20
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:20
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:20
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:20
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:20
+   [INFO] Running injector ... -> 19/08/2025, 00:20:20
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:20
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:20
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:20
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:20
+   [INFO] Running injector ... -> 19/08/2025, 00:20:20
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:20
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:20
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:20
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:20
+   [INFO] Running injector ... -> 19/08/2025, 00:20:20
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:21
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:21
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:21
+   [INFO] Running injector ... -> 19/08/2025, 00:20:21
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:21
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:21
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:21
+   [INFO] Running injector ... -> 19/08/2025, 00:20:21
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:21
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:21
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:21
+   [INFO] Running injector ... -> 19/08/2025, 00:20:21
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:21
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:21
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:21
+   [INFO] Running injector ... -> 19/08/2025, 00:20:21
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:21
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:21
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:22
+   [INFO] Running injector ... -> 19/08/2025, 00:20:22
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:22
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:22
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:22
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:22
+   [INFO] Running injector ... -> 19/08/2025, 00:20:22
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:22
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:22
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:22
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:22
+   [INFO] Running injector ... -> 19/08/2025, 00:20:22
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:22
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:22
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:22
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:22
+   [INFO] Running injector ... -> 19/08/2025, 00:20:22
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:22
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:22
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:22
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:23
+   [INFO] Running injector ... -> 19/08/2025, 00:20:23
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:23
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:23
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:23
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:23
+   [INFO] Running injector ... -> 19/08/2025, 00:20:23
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:23
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:23
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:23
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:23
+   [INFO] Running injector ... -> 19/08/2025, 00:20:23
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:23
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:23
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:23
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:23
+   [INFO] Running injector ... -> 19/08/2025, 00:20:23
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:23
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:23
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:23
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:23
+   [INFO] Running injector ... -> 19/08/2025, 00:20:23
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:23
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:23
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:23
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:24
+   [INFO] Running injector ... -> 19/08/2025, 00:20:24
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:24
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:24
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:24
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:24
+   [INFO] Running injector ... -> 19/08/2025, 00:20:24
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:24
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:24
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:24
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:24
+   [INFO] Running injector ... -> 19/08/2025, 00:20:24
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:24
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:24
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:24
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:24
+   [INFO] Running injector ... -> 19/08/2025, 00:20:24
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:24
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:24
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:24
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:25
+   [INFO] Running injector ... -> 19/08/2025, 00:20:25
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:25
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:25
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:25
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:25
+   [INFO] Running injector ... -> 19/08/2025, 00:20:25
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:25
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:25
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:25
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:25
+   [INFO] Running injector ... -> 19/08/2025, 00:20:25
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:25
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:25
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:25
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:25
+   [INFO] Running injector ... -> 19/08/2025, 00:20:25
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:25
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:25
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:25
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:25
+   [INFO] Running injector ... -> 19/08/2025, 00:20:25
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:26
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:26
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:26
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:26
+   [INFO] Running injector ... -> 19/08/2025, 00:20:26
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:26
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:26
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:26
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:26
+   [INFO] Running injector ... -> 19/08/2025, 00:20:26
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:26
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:26
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:26
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:26
+   [INFO] Running injector ... -> 19/08/2025, 00:20:26
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:26
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:26
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:26
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:26
+   [INFO] Running injector ... -> 19/08/2025, 00:20:26
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:26
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:26
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:26
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:27
+   [INFO] Running injector ... -> 19/08/2025, 00:20:27
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:27
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:27
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:27
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:27
+   [INFO] Running injector ... -> 19/08/2025, 00:20:27
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:27
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:27
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:27
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:27
+   [INFO] Running injector ... -> 19/08/2025, 00:20:27
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:27
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:27
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:27
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:27
+   [INFO] Running injector ... -> 19/08/2025, 00:20:27
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:27
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:27
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:27
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:28
+   [INFO] Running injector ... -> 19/08/2025, 00:20:28
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:28
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:28
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:28
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:28
+   [INFO] Running injector ... -> 19/08/2025, 00:20:28
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:28
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:28
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:28
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:28
+   [INFO] Running injector ... -> 19/08/2025, 00:20:28
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:28
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:28
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:28
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:28
+   [INFO] Running injector ... -> 19/08/2025, 00:20:28
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:28
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:28
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:28
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:28
+   [INFO] Running injector ... -> 19/08/2025, 00:20:28
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:28
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:28
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:28
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:29
+   [INFO] Running injector ... -> 19/08/2025, 00:20:29
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:29
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:29
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:29
+   [INFO] Running injector ... -> 19/08/2025, 00:20:29
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:29
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:29
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:29
+   [INFO] Running injector ... -> 19/08/2025, 00:20:29
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:29
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:29
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:29
+   [INFO] Running injector ... -> 19/08/2025, 00:20:29
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:29
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:29
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:30
+   [INFO] Running injector ... -> 19/08/2025, 00:20:30
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:30
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:30
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:30
+   [INFO] Running injector ... -> 19/08/2025, 00:20:30
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:30
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:30
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:30
+   [INFO] Running injector ... -> 19/08/2025, 00:20:30
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:30
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:30
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:30
+   [INFO] Running injector ... -> 19/08/2025, 00:20:30
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:30
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:30
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:30
+   [INFO] Running injector ... -> 19/08/2025, 00:20:30
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:31
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:31
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:31
+   [INFO] Running injector ... -> 19/08/2025, 00:20:31
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:31
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:31
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:31
+   [INFO] Running injector ... -> 19/08/2025, 00:20:31
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:31
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:31
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:31
+   [INFO] Running injector ... -> 19/08/2025, 00:20:31
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:31
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:31
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:31
+   [INFO] Running injector ... -> 19/08/2025, 00:20:31
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:31
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:31
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:32
+   [INFO] Running injector ... -> 19/08/2025, 00:20:32
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:32
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:32
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:32
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:32
+   [INFO] Running injector ... -> 19/08/2025, 00:20:32
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:32
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:32
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:32
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:32
+   [INFO] Running injector ... -> 19/08/2025, 00:20:32
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:32
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:32
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:32
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:32
+   [INFO] Running injector ... -> 19/08/2025, 00:20:32
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:32
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:32
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:32
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:33
+   [INFO] Running injector ... -> 19/08/2025, 00:20:33
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:33
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:33
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:33
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:33
+   [INFO] Running injector ... -> 19/08/2025, 00:20:33
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:33
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:33
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:33
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:33
+   [INFO] Running injector ... -> 19/08/2025, 00:20:33
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:33
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:33
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:33
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:33
+   [INFO] Running injector ... -> 19/08/2025, 00:20:33
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:33
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:33
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:33
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:33
+   [INFO] Running injector ... -> 19/08/2025, 00:20:33
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:33
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:33
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:33
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:34
+   [INFO] Running injector ... -> 19/08/2025, 00:20:34
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:34
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:34
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:34
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:34
+   [INFO] Running injector ... -> 19/08/2025, 00:20:34
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:34
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:34
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:34
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:34
+   [INFO] Running injector ... -> 19/08/2025, 00:20:34
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:34
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:34
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:34
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:34
+   [INFO] Running injector ... -> 19/08/2025, 00:20:34
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:34
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:34
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:34
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:35
+   [INFO] Running injector ... -> 19/08/2025, 00:20:35
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:35
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:35
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:35
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:35
+   [INFO] Running injector ... -> 19/08/2025, 00:20:35
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:35
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:35
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:35
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:35
+   [INFO] Running injector ... -> 19/08/2025, 00:20:35
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:35
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:35
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:35
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:35
+   [INFO] Running injector ... -> 19/08/2025, 00:20:35
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:35
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:35
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:35
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:35
+   [INFO] Running injector ... -> 19/08/2025, 00:20:35
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:36
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:36
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:36
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:36
+   [INFO] Running injector ... -> 19/08/2025, 00:20:36
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:36
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:36
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:36
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:36
+   [INFO] Running injector ... -> 19/08/2025, 00:20:36
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:36
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:36
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:36
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:36
+   [INFO] Running injector ... -> 19/08/2025, 00:20:36
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:36
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:36
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:36
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:36
+   [INFO] Running injector ... -> 19/08/2025, 00:20:36
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:36
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:36
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:36
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:37
+   [INFO] Running injector ... -> 19/08/2025, 00:20:37
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:37
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:37
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:37
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:37
+   [INFO] Running injector ... -> 19/08/2025, 00:20:37
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:37
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:37
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:37
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:37
+   [INFO] Running injector ... -> 19/08/2025, 00:20:37
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:37
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:37
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:37
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:37
+   [INFO] Running injector ... -> 19/08/2025, 00:20:37
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:37
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:37
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:37
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:38
+   [INFO] Running injector ... -> 19/08/2025, 00:20:38
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:38
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:38
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:38
+   [INFO] Running injector ... -> 19/08/2025, 00:20:38
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:38
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:38
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:38
+   [INFO] Running injector ... -> 19/08/2025, 00:20:38
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:38
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:38
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:38
+   [INFO] Running injector ... -> 19/08/2025, 00:20:38
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:38
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:38
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:38
+   [INFO] Running injector ... -> 19/08/2025, 00:20:38
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:38
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:38
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:39
+   [INFO] Running injector ... -> 19/08/2025, 00:20:39
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:39
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:39
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:39
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:39
+   [INFO] Running injector ... -> 19/08/2025, 00:20:39
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:39
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:39
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:39
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:39
+   [INFO] Running injector ... -> 19/08/2025, 00:20:39
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:39
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:39
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:39
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:39
+   [INFO] Running injector ... -> 19/08/2025, 00:20:39
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:39
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:39
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:39
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:40
+   [INFO] Running injector ... -> 19/08/2025, 00:20:40
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:40
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:40
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:40
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:40
+   [INFO] Running injector ... -> 19/08/2025, 00:20:40
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:40
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:40
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:40
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:40
+   [INFO] Running injector ... -> 19/08/2025, 00:20:40
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:40
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:40
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:40
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:40
+   [INFO] Running injector ... -> 19/08/2025, 00:20:40
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:40
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:40
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:40
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:40
+   [INFO] Running injector ... -> 19/08/2025, 00:20:40
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:41
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:41
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:41
+   [INFO] Running injector ... -> 19/08/2025, 00:20:41
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:41
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:41
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:41
+   [INFO] Running injector ... -> 19/08/2025, 00:20:41
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:41
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:41
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:41
+   [INFO] Running injector ... -> 19/08/2025, 00:20:41
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:41
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:41
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:41
+   [INFO] Running injector ... -> 19/08/2025, 00:20:41
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:41
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:41
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:42
+   [INFO] Running injector ... -> 19/08/2025, 00:20:42
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:42
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:42
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:42
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:42
+   [INFO] Running injector ... -> 19/08/2025, 00:20:42
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:42
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:42
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:42
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:42
+   [INFO] Running injector ... -> 19/08/2025, 00:20:42
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:42
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:42
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:42
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:42
+   [INFO] Running injector ... -> 19/08/2025, 00:20:42
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:42
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:42
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:42
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:43
+   [INFO] Running injector ... -> 19/08/2025, 00:20:43
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:43
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:43
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:43
+   [INFO] Running injector ... -> 19/08/2025, 00:20:43
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:43
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:43
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:43
+   [INFO] Running injector ... -> 19/08/2025, 00:20:43
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:43
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:43
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:43
+   [INFO] Running injector ... -> 19/08/2025, 00:20:43
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:43
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:43
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:44
+   [INFO] Running injector ... -> 19/08/2025, 00:20:44
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:44
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:44
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:44
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:44
+   [INFO] Running injector ... -> 19/08/2025, 00:20:44
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:44
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:44
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:44
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:44
+   [INFO] Running injector ... -> 19/08/2025, 00:20:44
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:44
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:44
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:44
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:44
+   [INFO] Running injector ... -> 19/08/2025, 00:20:44
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:45
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:45
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:45
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:45
+   [INFO] Running injector ... -> 19/08/2025, 00:20:45
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:45
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:45
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:45
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:45
+   [INFO] Running injector ... -> 19/08/2025, 00:20:45
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:45
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:45
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:45
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:45
+   [INFO] Running injector ... -> 19/08/2025, 00:20:45
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:45
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:45
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:45
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:46
+   [INFO] Running injector ... -> 19/08/2025, 00:20:46
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:46
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:46
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:46
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:46
+   [INFO] Running injector ... -> 19/08/2025, 00:20:46
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:46
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:46
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:46
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:46
+   [INFO] Running injector ... -> 19/08/2025, 00:20:46
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:46
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:46
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:46
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:46
+   [INFO] Running injector ... -> 19/08/2025, 00:20:46
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:46
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:46
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:46
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:47
+   [INFO] Running injector ... -> 19/08/2025, 00:20:47
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:47
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:47
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:47
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:47
+   [INFO] Running injector ... -> 19/08/2025, 00:20:47
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:47
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:47
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:47
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:47
+   [INFO] Running injector ... -> 19/08/2025, 00:20:47
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:47
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:47
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:47
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:47
+   [INFO] Running injector ... -> 19/08/2025, 00:20:47
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:47
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:47
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:47
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:48
+   [INFO] Running injector ... -> 19/08/2025, 00:20:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:48
+   [INFO] Running injector ... -> 19/08/2025, 00:20:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:48
+   [INFO] Running injector ... -> 19/08/2025, 00:20:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:48
+   [INFO] Running injector ... -> 19/08/2025, 00:20:48
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:48
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:48
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:48
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:49
+   [INFO] Running injector ... -> 19/08/2025, 00:20:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:49
+   [INFO] Running injector ... -> 19/08/2025, 00:20:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:49
+   [INFO] Running injector ... -> 19/08/2025, 00:20:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:49
+   [INFO] Running injector ... -> 19/08/2025, 00:20:49
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:49
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:49
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:50
+   [INFO] Running injector ... -> 19/08/2025, 00:20:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:50
+   [INFO] Running injector ... -> 19/08/2025, 00:20:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:50
+   [INFO] Running injector ... -> 19/08/2025, 00:20:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:50
+   [INFO] Running injector ... -> 19/08/2025, 00:20:50
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:50
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:50
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:51
+   [INFO] Running injector ... -> 19/08/2025, 00:20:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:51
+   [INFO] Running injector ... -> 19/08/2025, 00:20:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:51
+   [INFO] Running injector ... -> 19/08/2025, 00:20:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:51
+   [INFO] Running injector ... -> 19/08/2025, 00:20:51
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:51
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:51
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:51
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:52
+   [INFO] Running injector ... -> 19/08/2025, 00:20:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:52
+   [INFO] Running injector ... -> 19/08/2025, 00:20:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:52
+   [INFO] Running injector ... -> 19/08/2025, 00:20:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:52
+   [INFO] Running injector ... -> 19/08/2025, 00:20:52
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:52
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:52
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:53
+   [INFO] Running injector ... -> 19/08/2025, 00:20:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:53
+   [INFO] Running injector ... -> 19/08/2025, 00:20:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:53
+   [INFO] Running injector ... -> 19/08/2025, 00:20:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:53
+   [INFO] Running injector ... -> 19/08/2025, 00:20:53
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:53
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:53
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:54
+   [INFO] Running injector ... -> 19/08/2025, 00:20:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:54
+   [INFO] Running injector ... -> 19/08/2025, 00:20:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:54
+   [INFO] Running injector ... -> 19/08/2025, 00:20:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:54
+   [INFO] Running injector ... -> 19/08/2025, 00:20:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:54
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:54
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:54
+   [INFO] Running injector ... -> 19/08/2025, 00:20:54
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:55
+   [INFO] Running injector ... -> 19/08/2025, 00:20:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:55
+   [INFO] Running injector ... -> 19/08/2025, 00:20:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:55
+   [INFO] Running injector ... -> 19/08/2025, 00:20:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:55
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:55
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:55
+   [INFO] Running injector ... -> 19/08/2025, 00:20:55
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:56
+   [INFO] Running injector ... -> 19/08/2025, 00:20:56
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:56
+   [INFO] Running injector ... -> 19/08/2025, 00:20:56
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:20:56
+   [INFO] Running injector ... -> 19/08/2025, 00:20:56
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:20:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:20:56
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:20:56
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:21:00
+   [INFO] Running injector ... -> 19/08/2025, 00:21:00
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:21:00
+  [INFO] Running nuclei scan on 1 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:21:00
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:21:02
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:21:02
+      [INFO] 6 parameters found  -> 19/08/2025, 00:21:03
+  [INFO] Start Fuzzing 6 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:21:03
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:21:10
+      [INFO] 1 parameters found  -> 19/08/2025, 00:21:10
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 19/08/2025, 00:21:10
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir?q= -> 19/08/2025, 00:21:13
+      [INFO] 51 parameters found  -> 19/08/2025, 00:21:14
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir?q= -> 19/08/2025, 00:21:14
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir?q= -> 19/08/2025, 00:21:19
+      [INFO] 51 parameters found  -> 19/08/2025, 00:21:19
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir?q= -> 19/08/2025, 00:21:19
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir -> 19/08/2025, 00:21:25
+[INFO] Starting Static Reflix ... -> 19/08/2025, 00:21:25
+   [INFO] Running injector ... -> 19/08/2025, 00:21:25
+   [SUCCESS] Injector finished successfully -> 19/08/2025, 00:21:25
+  [INFO] Running nuclei scan on 1 generated urls & methods: ['GET', 'POST'] ... -> 19/08/2025, 00:21:25
+  [ERROR] Nuclei error: [[1;31mFTL[0m] Program exiting: [proxyutils:RUNTIME] all proxies are dead got : dial tcp 192.168.1.102:8080: connect: connection refused
+ -> 19/08/2025, 00:21:25
+  [ERROR] Nuclei error: [[1;31mFTL[0m] Program exiting: [proxyutils:RUNTIME] all proxies are dead got : dial tcp 192.168.1.102:8080: connect: connection refused
+ -> 19/08/2025, 00:21:25
+[INFO] Starting Light Reflix ... -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: GET) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: POST) http://www.tktnew.com/robots.txt -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://www.tktnew.com -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://www.tktnew.com -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://www.tktnew.com -> 19/08/2025, 00:21:25
+      [INFO] 0 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://www.tktnew.com -> 19/08/2025, 00:21:25
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:21:25
+      [INFO] 1 parameters found  -> 19/08/2025, 00:21:25
+  [INFO] Start Fuzzing 1 parameters (method: GET) http://www.tktnew.com/scheduleiframe/theatre/partnersites/Rupasi/default.aspx?MultiplexID=NQ%3D%3D-RR9vcDxsm9c%3D -> 19/08/2025, 00:21:25
+  [ERROR] Nuclei error: [[1;31mFTL[0m] Program exiting: [proxyutils:RUNTIME] all proxies are dead got : dial tcp 192.168.1.102:8080: connect: connection refused
+ -> 19/08/2025, 00:21:25

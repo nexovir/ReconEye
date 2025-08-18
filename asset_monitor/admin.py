@@ -11,7 +11,6 @@ class WatchedWildcardInline(NestedTabularInline):
     model = WatchedWildcard
     extra = 0
     show_change_link = True
-    inlines = [RequestHeadersInline]
 
 
 class WatcherCIDRInline(NestedTabularInline):
@@ -47,8 +46,6 @@ class WatchedWildcardAdmin(NestedModelAdmin):
         return ", ".join([tool.tool_name for tool in obj.tools.all()])
     get_all_tools.short_description = "Tools"
 
-    inlines = [RequestHeadersInline]
-
 
 @admin.register(DiscoverSubdomain)
 class DiscoverSubdomainAdmin(admin.ModelAdmin):
@@ -56,7 +53,7 @@ class DiscoverSubdomainAdmin(admin.ModelAdmin):
     search_fields = ('subdomain',)
     ordering = ('-updated_at',)
     list_filter = ('tool','wildcard__watcher__user__username' , 'label')
-
+    inlines = [RequestHeadersInline]
 
 
 @admin.register(SubdomainHttpx)

@@ -191,17 +191,6 @@ class WatchedWildcard(BaseModel):
         verbose_name_plural = 'Watcher Wildcards'
 
 
-class RequestHeaders (BaseModel):
-    asset_watcher = models.ForeignKey(WatchedWildcard , on_delete=models.CASCADE)
-    header = models.CharField(max_length=5000 , null=True , blank=True)
-
-    def __str__(self):
-        return self.asset_watcher.wildcard
-    class Meta:
-        verbose_name = 'Request Header'
-        verbose_name_plural = 'Request Headers'
-
-
 class DiscoverSubdomain(BaseModel):
     wildcard = models.ForeignKey(WatchedWildcard, on_delete=models.CASCADE, related_name='subdomains')
     subdomain = models.CharField(max_length=300, blank=True, null=True , unique= True)
@@ -217,6 +206,16 @@ class DiscoverSubdomain(BaseModel):
         verbose_name_plural = 'Discovered Subdomains'
 
 
+class RequestHeaders (BaseModel):
+    asset_watcher = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE , blank=False , null=False)
+    header = models.CharField(max_length=5000 , null=True , blank=True)
+
+    def __str__(self):
+        return f"{self.asset_watcher.subdomain} -> {self.asset_watcher.wildcard.wildcard}"
+
+    class Meta:
+        verbose_name = 'Request Header'
+        verbose_name_plural = 'Request Headers'
 
 
 class SubdomainHttpx(BaseModel):
