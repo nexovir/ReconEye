@@ -24,3 +24,11 @@ class UrlChangesAdmin(admin.ModelAdmin):
     def short_url(self, obj):
         return format_html('<a href="{}" target="_blank">Click here</a>', obj.url.url)
     short_url.short_description = 'URL'
+
+
+@register(Parameter)
+class ParameterAdmin(admin.ModelAdmin):
+    list_display = ['url' , 'method' , 'status' , 'parameter' , 'reason_kind' , 'injection_place']
+    list_filter = ['label' , 'injection_place' , 'method' , 'status' , 'reason_kind']
+
+    

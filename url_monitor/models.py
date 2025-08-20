@@ -42,6 +42,24 @@ class Url(BaseModel):
         verbose_name_plural = 'URLs'
 
 
+class Parameter(BaseModel) :
+    url = models.ForeignKey(Url , on_delete=models.CASCADE)
+    method = models.CharField(max_length=100 , null=True , blank=True)
+    status = models.CharField(max_length=100 , blank=True , null=True)
+    parameter = models.CharField(max_length=1000 , blank=True , null=True)
+    reason_kind = models.CharField(max_length=100 , blank=True , null=True)
+    injection_place = models.CharField(max_length=1000 , blank=True , null=True)
+    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+    
+    def __str__(self):
+        return f"{self.url} : {self.method} - {self.parameter}"
+
+    class Meta:
+        verbose_name = 'Parameter'
+        verbose_name_plural = 'Parameters'
+
+
+
 class UrlChanges(BaseModel):
     url = models.ForeignKey(Url , on_delete=models.CASCADE)
     body_hash_change = models.CharField(max_length=300 , null=True , blank=True)
