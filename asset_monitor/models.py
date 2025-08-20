@@ -202,6 +202,7 @@ class DiscoverSubdomain(BaseModel):
         return f"{self.subdomain} - {self.wildcard.watcher.user.username}"
 
     class Meta:
+        ordering = ['label']
         verbose_name = 'Discovered Subdomain'
         verbose_name_plural = 'Discovered Subdomains'
 

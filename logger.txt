@@ -40232,3 +40232,138 @@ DETAIL:  Key (url)=(https://nexovir.ir/unlock/secure/matrix-login/?canvas=zerodi
    [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:55
   [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:55
 [INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:55
+[INFO] Starting Static Reflix ... -> 20/08/2025, 18:24:35
+   [INFO] Running injector ... -> 20/08/2025, 18:24:35
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 18:24:35
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 18:24:35
+[INFO] Starting Light Reflix ... -> 20/08/2025, 18:24:35
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 18:24:35
+      [INFO] 50 parameters found  -> 20/08/2025, 18:24:36
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 18:24:36
+[INFO] Starting Static Reflix ... -> 20/08/2025, 18:25:04
+   [INFO] Running injector ... -> 20/08/2025, 18:25:04
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 18:25:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 18:25:04
+[INFO] Starting Light Reflix ... -> 20/08/2025, 18:25:04
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 18:25:04
+      [INFO] 51 parameters found  -> 20/08/2025, 18:25:05
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 18:25:05
+  [ERROR] Nuclei error:  -> 20/08/2025, 18:25:05
+[INFO] Starting Static Reflix ... -> 20/08/2025, 18:26:11
+   [INFO] Running injector ... -> 20/08/2025, 18:26:11
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 18:26:12
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 18:26:12
+[INFO] Starting Light Reflix ... -> 20/08/2025, 18:26:12
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 18:26:12
+      [INFO] 50 parameters found  -> 20/08/2025, 18:26:12
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 18:26:12
+[INFO] Starting Static Reflix ... -> 20/08/2025, 19:39:19
+   [INFO] Running injector ... -> 20/08/2025, 19:39:19
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 19:39:19
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 19:39:19
+[INFO] Starting Light Reflix ... -> 20/08/2025, 19:39:19
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 19:39:19
+      [INFO] 51 parameters found  -> 20/08/2025, 19:39:20
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 19:39:20
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:39:21
+  [INFO] Starting Katana for 'sep.memoryleaks.ir'... -> 20/08/2025, 19:39:21
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 19:39:30
+      [INFO] 51 parameters found  -> 20/08/2025, 19:39:31
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 19:39:31
+  [INFO] Starting Waybackurls for 'sep.memoryleaks.ir'... -> 20/08/2025, 19:39:33
+  [INFO] Starting Katana for 'test.memoryleaks.ir'... -> 20/08/2025, 19:39:35
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:41:14
+  [INFO] Starting Katana for 'sep.memoryleaks.ir'... -> 20/08/2025, 19:41:14
+[INFO] Starting Static Reflix ... -> 20/08/2025, 19:41:15
+   [INFO] Running injector ... -> 20/08/2025, 19:41:15
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 19:41:15
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 19:41:15
+[INFO] Starting Light Reflix ... -> 20/08/2025, 19:41:15
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 19:41:15
+      [INFO] 51 parameters found  -> 20/08/2025, 19:41:15
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 19:41:15
+  [ERROR] Nuclei error:  -> 20/08/2025, 19:41:17
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:41:22
+  [INFO] Starting Katana for 'sep.memoryleaks.ir'... -> 20/08/2025, 19:41:22
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:41:56
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:41:56
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:41:56
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:41:56
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:42:12
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:42:12
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:43:07
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:43:07
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:43:45
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:43:45
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:43:45
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:43:45
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:45:38
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:45:38
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:46:12
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:46:44
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:46:44
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:46:44
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:46:44
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:48:19
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:48:20
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 19:48:26
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:48:53
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:49:08
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:49:08
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 19:49:14
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:50:08
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:50:08
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:50:08
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:50:08
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 19:50:14
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 19:50:14
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:51:27
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:51:27
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 19:51:42
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 19:51:50
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 19:51:50
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 19:52:34
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 20:31:35
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 20:32:04
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 20:32:04
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 20:32:46
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 20:33:30
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 20:33:30
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 20:34:15
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 20:46:21
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 20:47:45
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 20:52:47
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 20:57:15
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 20:57:16
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 20:58:17
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 21:00:39
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 21:00:39
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 21:00:39
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 21:00:39
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 20/08/2025, 21:00:52
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 21:00:52
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 20/08/2025, 21:01:10
+  [INFO] Starting Katana for 'test.memoryleaks.ir'... -> 20/08/2025, 21:01:14
+  [INFO] Starting Waybackurls for 'test.memoryleaks.ir'... -> 20/08/2025, 21:01:33
+  [INFO] Starting Katana for 'www.nexovir.ir'... -> 20/08/2025, 21:01:37
+  [INFO] Starting Waybackurls for 'www.nexovir.ir'... -> 20/08/2025, 21:01:56
+  [INFO] Starting Katana for 'sep.memoryleaks.ir'... -> 20/08/2025, 21:02:01
+  [INFO] Starting Waybackurls for 'sep.memoryleaks.ir'... -> 20/08/2025, 21:02:17
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 21:02:18
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 21:03:04
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:03:37
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:04:22
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:06:07
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:07:57
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:09:53
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:10:40
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:11:53
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:12:43
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:14:18
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:15:16
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:16:06
+[INFO] Starting Detect URLs Changes -> 20/08/2025, 21:17:33
+  [ERROR] Error Fallparams url_monitor/outputs/parameters.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-silent', '-duc', '-o', 'url_monitor/outputs/parameters.txt', '-X', 'GET POST']' returned non-zero exit status 2. -> 20/08/2025, 22:13:13
+  [ERROR] Error Fallparams url_monitor/outputs/parameters.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-silent', '-duc', '-o', 'url_monitor/outputs/parameters.txt', '-X', 'GET POST']' returned non-zero exit status 2. -> 20/08/2025, 22:13:23
+  [ERROR] Error Fallparams url_monitor/outputs/parameters.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-silent', '-duc', '-o', 'url_monitor/outputs/parameters.txt', '-X', 'GET POST']' returned non-zero exit status 2. -> 20/08/2025, 22:14:55
+  [ERROR] Error Fallparams url_monitor/outputs/parameters.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-silent', '-duc', '-o', 'url_monitor/outputs/parameters.txt', '-X', 'GET POST']' returned non-zero exit status 2. -> 20/08/2025, 22:14:55

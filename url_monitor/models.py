@@ -30,16 +30,33 @@ class Url(BaseModel):
     url = models.CharField(max_length=600, null=False , blank=False)
     path = models.CharField(max_length=300 , null=False , blank=True)
     query = models.CharField(max_length=300 , null=False , blank=True)
-    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+    status = models.CharField(max_length=100 , blank=True , null=True)
     ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
     body_hash = models.CharField(max_length=300 , null=True , blank=True)
-    
+    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+
     def __str__(self):
         return f"{self.subdomain} - {self.ext}"
 
     class Meta:
         verbose_name = 'URL'
         verbose_name_plural = 'URLs'
+
+
+class UrlChanges(BaseModel):
+    url = models.ForeignKey(Url , on_delete=models.CASCADE)
+    query_change = models.CharField(max_length=1000 , null=True , blank=True)
+    body_hash_change = models.CharField(max_length=300 , null=True , blank=True)
+    status_change = models.CharField(max_length=100 , null=True , blank=True)
+    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+    ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
+
+    def __str__(self):
+        return f"{self.url} -> {self.ext}"
+    
+    class Meta:
+        verbose_name = 'URL Change'
+        verbose_name_plural = 'URL Changes'
 
 
 class Parameter(BaseModel) :
@@ -59,16 +76,15 @@ class Parameter(BaseModel) :
         verbose_name_plural = 'Parameters'
 
 
-
-class UrlChanges(BaseModel):
-    url = models.ForeignKey(Url , on_delete=models.CASCADE)
-    body_hash_change = models.CharField(max_length=300 , null=True , blank=True)
+class SubdomainParameter(BaseModel):
+    subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE)
+    parameter = models.CharField(max_length=500 , null=False , blank=False)
     label = models.CharField(max_length=150 , choices=LABELS , default='new')
-    ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
-
-    def __str__(self):
-        return f"{self.url} -> {self.ext}"
     
-    class Meta:
-        verbose_name = 'URL Change'
-        verbose_name_plural = 'URL Changes'
+    def __str__(self):
+        return f"{self.parameter} - {self.subdomain}"
+    
+    class Meta :
+        unique_together = ['subdomain' , 'parameter']
+        verbose_name = 'Subdomain Parameter'
+        verbose_name_plural = 'Subdomain Parameters'
