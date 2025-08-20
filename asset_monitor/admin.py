@@ -2,7 +2,8 @@ from django.contrib import admin
 from .models import *
 from nested_admin import NestedTabularInline, NestedModelAdmin
 
-class RequestHeadersInline(NestedTabularInline):
+
+class RequestHeadersInline(admin.TabularInline):
     model = RequestHeaders
     extra = 0
     show_change_link = True

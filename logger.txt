@@ -39378,3 +39378,857 @@
       [INFO] 2 parameters found  -> 19/08/2025, 22:10:14
   [INFO] Start Fuzzing 2 parameters (method: GET) https://cserver-e3z-stag-fwfreebsd.bounceme.netoppofdashboardsdevradio-kr-krfi-blog-admind.devradio-kr.payments-redis.ali.zomans.com -> 19/08/2025, 22:10:14
   [ERROR] Nuclei error:  -> 19/08/2025, 22:10:15
+[INFO] Starting subfinder -> 20/08/2025, 10:39:13
+[INFO] Starting Subfinder for 'nexovir.ir'... -> 20/08/2025, 10:39:13
+  [+] 2 subs found for nexovir.ir -> 20/08/2025, 10:40:20
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 20/08/2025, 10:40:20
+  [+] 2 subs found for memoryleaks.ir -> 20/08/2025, 10:41:26
+[SUCCESS] Finished subfinder -> 20/08/2025, 10:41:26
+[INFO] Starting crt.sh -> 20/08/2025, 10:41:26
+[INFO] Attempt 1: Starting Crt.sh for 'nexovir.ir'... -> 20/08/2025, 10:41:26
+  [+] 4 subs found for nexovir.ir -> 20/08/2025, 10:41:31
+[INFO] Attempt 1: Starting Crt.sh for 'memoryleaks.ir'... -> 20/08/2025, 10:41:31
+  [+] 3 subs found for memoryleaks.ir -> 20/08/2025, 10:41:45
+[SUCCESS] Finished crt.sh -> 20/08/2025, 10:41:45
+[INFO] Starting user subdomains -> 20/08/2025, 10:41:45
+[INFO] Starting Insert user's subdomains -> 20/08/2025, 10:41:45
+  [INFO] No own subdomains found for nexovir.ir -> 20/08/2025, 10:41:45
+  [INFO] No own subdomains found for memoryleaks.ir -> 20/08/2025, 10:41:45
+[SUCCESS] Finished user subdomains -> 20/08/2025, 10:41:45
+[INFO] Starting httpx -> 20/08/2025, 10:41:45
+  [INFO] Starting HTTPx on 'nexovir.ir - nexovir'... -> 20/08/2025, 10:41:45
+[error] HTTPx failed: Command '['httpx', '-l', 'asset_monitor/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '10', '-timeout', '4']' returned non-zero exit status 1. -> 20/08/2025, 10:41:46
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 20/08/2025, 10:41:46
+[error] HTTPx failed: Command '['httpx', '-l', 'asset_monitor/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '10', '-timeout', '4']' returned non-zero exit status 1. -> 20/08/2025, 10:41:46
+[SUCCESS] Finished httpx -> 20/08/2025, 10:41:46
+[INFO] Starting cidrs scanning -> 20/08/2025, 10:41:46
+[SUCCESS] Finished cidrs scanning -> 20/08/2025, 10:41:46
+[INFO] Starting URL Monitoring -> 20/08/2025, 10:43:03
+  [INFO] Starting Katana for 'www.just-eat.dk.nexovir.ir'... -> 20/08/2025, 10:43:03
+  [INFO] Starting Waybackurls for 'www.just-eat.dk.nexovir.ir'... -> 20/08/2025, 10:43:03
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:04
+   [INFO] Running injector ... -> 20/08/2025, 10:43:04
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:04
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:04
+  [INFO] Starting Katana for 'www.nexovir.ir'... -> 20/08/2025, 10:43:04
+  [INFO] Starting Waybackurls for 'www.nexovir.ir'... -> 20/08/2025, 10:43:04
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:05
+   [INFO] Running injector ... -> 20/08/2025, 10:43:05
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:05
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:05
+  [INFO] Starting Katana for 'sep.memoryleaks.ir'... -> 20/08/2025, 10:43:05
+  [INFO] Starting Waybackurls for 'sep.memoryleaks.ir'... -> 20/08/2025, 10:43:05
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:05
+   [INFO] Running injector ... -> 20/08/2025, 10:43:05
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:05
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:05
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:06
+   [INFO] Running injector ... -> 20/08/2025, 10:43:06
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:06
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:06
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:06
+  [INFO] Starting Katana for 'test.memoryleaks.ir'... -> 20/08/2025, 10:43:06
+  [INFO] Starting Waybackurls for 'test.memoryleaks.ir'... -> 20/08/2025, 10:43:06
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:06
+   [INFO] Running injector ... -> 20/08/2025, 10:43:06
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:06
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:06
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:06
+  [INFO] Starting Katana for '*.nexovir.ir'... -> 20/08/2025, 10:43:06
+  [INFO] Starting Waybackurls for '*.nexovir.ir'... -> 20/08/2025, 10:43:06
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:06
+   [INFO] Running injector ... -> 20/08/2025, 10:43:06
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:07
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:07
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:07
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 10:43:07
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 20/08/2025, 10:43:07
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:07
+   [INFO] Running injector ... -> 20/08/2025, 10:43:07
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:07
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:07
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:07
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 10:43:07
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 10:43:07
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:42
+   [INFO] Running injector ... -> 20/08/2025, 10:43:42
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:42
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:42
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:42
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:42
+   [INFO] Running injector ... -> 20/08/2025, 10:43:42
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:42
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:42
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:42
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:43
+   [INFO] Running injector ... -> 20/08/2025, 10:43:43
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:43
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:43
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:43
+   [INFO] Running injector ... -> 20/08/2025, 10:43:43
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:43
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:43
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:44
+   [INFO] Running injector ... -> 20/08/2025, 10:43:44
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:44
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:44
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:44
+[INFO] Starting Static Reflix ... -> 20/08/2025, 10:43:44
+   [INFO] Running injector ... -> 20/08/2025, 10:43:44
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 10:43:44
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 10:43:44
+[INFO] Starting Light Reflix ... -> 20/08/2025, 10:43:44
+[INFO] Starting subfinder -> 20/08/2025, 10:44:03
+[INFO] Starting Subfinder for 'nexovir.ir'... -> 20/08/2025, 10:44:03
+  [+] 2 subs found for nexovir.ir -> 20/08/2025, 10:45:09
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 20/08/2025, 10:45:09
+  [+] 2 subs found for memoryleaks.ir -> 20/08/2025, 10:46:15
+[SUCCESS] Finished subfinder -> 20/08/2025, 10:46:15
+[INFO] Starting crt.sh -> 20/08/2025, 10:46:15
+[INFO] Attempt 1: Starting Crt.sh for 'nexovir.ir'... -> 20/08/2025, 10:46:15
+  [+] 4 subs found for nexovir.ir -> 20/08/2025, 10:46:27
+[INFO] Attempt 1: Starting Crt.sh for 'memoryleaks.ir'... -> 20/08/2025, 10:46:27
+  [TIMEOUT] Crt.sh took longer than 15s for memoryleaks.ir (Attempt 1) -> 20/08/2025, 10:46:42
+  [ERROR] Failed to get subdomains from Crt.sh for memoryleaks.ir after 1 attempts. -> 20/08/2025, 10:46:42
+[SUCCESS] Finished crt.sh -> 20/08/2025, 10:46:42
+[INFO] Starting user subdomains -> 20/08/2025, 10:46:42
+[INFO] Starting Insert user's subdomains -> 20/08/2025, 10:46:42
+  [INFO] No own subdomains found for nexovir.ir -> 20/08/2025, 10:46:42
+  [INFO] No own subdomains found for memoryleaks.ir -> 20/08/2025, 10:46:42
+[SUCCESS] Finished user subdomains -> 20/08/2025, 10:46:42
+[INFO] Starting httpx -> 20/08/2025, 10:46:42
+  [INFO] Starting HTTPx on 'nexovir.ir - nexovir'... -> 20/08/2025, 10:46:42
+  [*] Starting Parsing Data ... -> 20/08/2025, 10:46:49
+     [+] Starting Save Httpx Results and Detect Changes -> 20/08/2025, 10:46:49
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 20/08/2025, 10:46:49
+  [*] Starting Parsing Data ... -> 20/08/2025, 10:46:56
+     [+] Starting Save Httpx Results and Detect Changes -> 20/08/2025, 10:46:56
+[SUCCESS] Finished httpx -> 20/08/2025, 10:46:56
+[INFO] Starting cidrs scanning -> 20/08/2025, 10:46:56
+[SUCCESS] Finished cidrs scanning -> 20/08/2025, 10:46:56
+[INFO] Starting URL Monitoring -> 20/08/2025, 10:49:00
+[INFO] Starting subfinder -> 20/08/2025, 10:49:00
+[INFO] Starting Subfinder for 'memoryleaks.ir'... -> 20/08/2025, 10:49:00
+  [+] 2 subs found for memoryleaks.ir -> 20/08/2025, 10:50:06
+[INFO] Starting Subfinder for 'nexovir.ir'... -> 20/08/2025, 10:50:06
+  [+] 2 subs found for nexovir.ir -> 20/08/2025, 10:51:11
+[SUCCESS] Finished subfinder -> 20/08/2025, 10:51:11
+[INFO] Starting crt.sh -> 20/08/2025, 10:51:11
+[INFO] Attempt 1: Starting Crt.sh for 'memoryleaks.ir'... -> 20/08/2025, 10:51:11
+  [+] 3 subs found for memoryleaks.ir -> 20/08/2025, 10:51:22
+[INFO] Attempt 1: Starting Crt.sh for 'nexovir.ir'... -> 20/08/2025, 10:51:22
+  [+] 4 subs found for nexovir.ir -> 20/08/2025, 10:51:28
+[SUCCESS] Finished crt.sh -> 20/08/2025, 10:51:28
+[INFO] Starting user subdomains -> 20/08/2025, 10:51:28
+[INFO] Starting Insert user's subdomains -> 20/08/2025, 10:51:28
+  [INFO] No own subdomains found for nexovir.ir -> 20/08/2025, 10:51:28
+  [INFO] No own subdomains found for memoryleaks.ir -> 20/08/2025, 10:51:28
+[SUCCESS] Finished user subdomains -> 20/08/2025, 10:51:28
+[INFO] Starting httpx -> 20/08/2025, 10:51:28
+  [INFO] Starting HTTPx on 'nexovir.ir - nexovir'... -> 20/08/2025, 10:51:28
+  [*] Starting Parsing Data ... -> 20/08/2025, 10:51:35
+     [+] Starting Save Httpx Results and Detect Changes -> 20/08/2025, 10:51:35
+  [INFO] Starting HTTPx on 'memoryleaks.ir - nexovir'... -> 20/08/2025, 10:51:35
+  [*] Starting Parsing Data ... -> 20/08/2025, 10:51:41
+     [+] Starting Save Httpx Results and Detect Changes -> 20/08/2025, 10:51:41
+[SUCCESS] Finished httpx -> 20/08/2025, 10:51:41
+[INFO] Starting cidrs scanning -> 20/08/2025, 10:51:41
+[SUCCESS] Finished cidrs scanning -> 20/08/2025, 10:51:41
+[INFO] Starting URL Monitoring -> 20/08/2025, 12:04:07
+[INFO] Starting URL Monitoring -> 20/08/2025, 12:04:43
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 12:04:43
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 20/08/2025, 12:04:43
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 12:04:45
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 12:04:45
+[INFO] Starting URL Monitoring -> 20/08/2025, 12:07:06
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 12:07:06
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 20/08/2025, 12:07:26
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 12:07:48
+[INFO] Starting URL Monitoring -> 20/08/2025, 12:10:18
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 12:10:18
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 20/08/2025, 12:10:39
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 12:11:33
+[INFO] Starting URL Monitoring -> 20/08/2025, 12:14:03
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 12:14:03
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 20/08/2025, 12:14:28
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 20/08/2025, 12:14:49
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 20/08/2025, 12:16:48
+[INFO] Starting URL Monitoring -> 20/08/2025, 12:20:03
+  [INFO] Starting Katana for 'nexovir.ir'... -> 20/08/2025, 12:20:03
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:08
+   [INFO] Running injector ... -> 20/08/2025, 12:20:08
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:08
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:08
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:08
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:09
+   [INFO] Running injector ... -> 20/08/2025, 12:20:09
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:09
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:09
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:09
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:09
+   [INFO] Running injector ... -> 20/08/2025, 12:20:09
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:09
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:09
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:09
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:10
+   [INFO] Running injector ... -> 20/08/2025, 12:20:10
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:10
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:10
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:10
+   [INFO] Running injector ... -> 20/08/2025, 12:20:10
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:10
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:10
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:10
+   [INFO] Running injector ... -> 20/08/2025, 12:20:10
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:10
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:10
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:11
+   [INFO] Running injector ... -> 20/08/2025, 12:20:11
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:11
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:11
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:11
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 20/08/2025, 12:20:12
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:20
+   [INFO] Running injector ... -> 20/08/2025, 12:20:20
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:20
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:20
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:20
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:21
+   [INFO] Running injector ... -> 20/08/2025, 12:20:21
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:21
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:21
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:21
+   [INFO] Running injector ... -> 20/08/2025, 12:20:21
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:21
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:21
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:22
+   [INFO] Running injector ... -> 20/08/2025, 12:20:22
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:22
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:22
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:22
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:22
+   [INFO] Running injector ... -> 20/08/2025, 12:20:22
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:22
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:22
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:22
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:22
+   [INFO] Running injector ... -> 20/08/2025, 12:20:22
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:22
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:22
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:22
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:20:23
+   [INFO] Running injector ... -> 20/08/2025, 12:20:23
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:20:23
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:20:23
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:20:23
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:21:48
+   [INFO] Running injector ... -> 20/08/2025, 12:21:48
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:21:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:21:49
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:21:49
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:21:49
+      [INFO] 20 parameters found  -> 20/08/2025, 12:21:52
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:21:52
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:21:57
+      [INFO] 20 parameters found  -> 20/08/2025, 12:21:59
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:21:59
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:22:03
+      [INFO] 6 parameters found  -> 20/08/2025, 12:22:03
+  [INFO] Start Fuzzing 6 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:22:03
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:22:05
+      [INFO] 1 parameters found  -> 20/08/2025, 12:22:06
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:22:06
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:22:09
+   [INFO] Running injector ... -> 20/08/2025, 12:22:09
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:22:09
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:22:09
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:22:09
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:22:09
+      [INFO] 51 parameters found  -> 20/08/2025, 12:22:10
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:22:10
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:22:19
+      [INFO] 51 parameters found  -> 20/08/2025, 12:22:20
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:22:20
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir -> 20/08/2025, 12:22:26
+      [INFO] 50 parameters found  -> 20/08/2025, 12:22:28
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir -> 20/08/2025, 12:22:28
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir -> 20/08/2025, 12:22:34
+      [INFO] 50 parameters found  -> 20/08/2025, 12:22:35
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir -> 20/08/2025, 12:22:35
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:22:40
+   [INFO] Running injector ... -> 20/08/2025, 12:22:40
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:22:40
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:22:40
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:22:40
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:22:40
+   [INFO] Running injector ... -> 20/08/2025, 12:22:40
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:22:40
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:22:40
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:22:40
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:22:40
+   [INFO] Running injector ... -> 20/08/2025, 12:22:40
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:22:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:22:41
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:22:41
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:22:41
+   [INFO] Running injector ... -> 20/08/2025, 12:22:41
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:22:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:22:41
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:22:41
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:22:41
+   [INFO] Running injector ... -> 20/08/2025, 12:22:41
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:22:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:22:41
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:22:41
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:25:18
+   [INFO] Running injector ... -> 20/08/2025, 12:25:18
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:25:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:25:18
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:25:18
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:25:18
+      [INFO] 20 parameters found  -> 20/08/2025, 12:25:23
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:25:23
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:25:28
+      [INFO] 20 parameters found  -> 20/08/2025, 12:25:29
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:25:29
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:25:32
+      [INFO] 6 parameters found  -> 20/08/2025, 12:25:32
+  [INFO] Start Fuzzing 6 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:25:32
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:25:34
+      [INFO] 1 parameters found  -> 20/08/2025, 12:25:35
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:25:35
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:25:38
+   [INFO] Running injector ... -> 20/08/2025, 12:25:38
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:25:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:25:38
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:25:38
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir -> 20/08/2025, 12:25:38
+      [INFO] 50 parameters found  -> 20/08/2025, 12:25:39
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir -> 20/08/2025, 12:25:39
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir -> 20/08/2025, 12:25:44
+      [INFO] 50 parameters found  -> 20/08/2025, 12:25:45
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir -> 20/08/2025, 12:25:45
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:27:10
+   [INFO] Running injector ... -> 20/08/2025, 12:27:10
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:27:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:27:10
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:27:10
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:10
+      [INFO] 20 parameters found  -> 20/08/2025, 12:27:12
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:12
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:15
+[ERROR] Process interrupted by user. -> 20/08/2025, 12:27:16
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:27:17
+   [INFO] Running injector ... -> 20/08/2025, 12:27:17
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:27:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:27:17
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:27:17
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:17
+[ERROR] Process interrupted by user. -> 20/08/2025, 12:27:18
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:27:20
+   [INFO] Running injector ... -> 20/08/2025, 12:27:20
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:27:20
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:27:20
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:27:20
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:20
+      [INFO] 20 parameters found  -> 20/08/2025, 12:27:22
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:22
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:27
+      [INFO] 20 parameters found  -> 20/08/2025, 12:27:31
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:27:31
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:27:40
+      [INFO] 51 parameters found  -> 20/08/2025, 12:27:48
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:27:48
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:28:02
+      [INFO] 51 parameters found  -> 20/08/2025, 12:28:04
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:28:04
+[ERROR] Process interrupted by user. -> 20/08/2025, 12:28:32
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:28:44
+   [INFO] Running injector ... -> 20/08/2025, 12:28:44
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:28:44
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:28:44
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:28:44
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:28:44
+      [INFO] 20 parameters found  -> 20/08/2025, 12:28:52
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:28:52
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:28:55
+      [INFO] 20 parameters found  -> 20/08/2025, 12:28:56
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login -> 20/08/2025, 12:28:56
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:28:58
+      [INFO] 51 parameters found  -> 20/08/2025, 12:29:01
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:29:01
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:29:08
+      [INFO] 51 parameters found  -> 20/08/2025, 12:29:08
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:29:08
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir -> 20/08/2025, 12:29:14
+      [INFO] 50 parameters found  -> 20/08/2025, 12:29:15
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir -> 20/08/2025, 12:29:15
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir -> 20/08/2025, 12:29:19
+      [INFO] 50 parameters found  -> 20/08/2025, 12:29:19
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir -> 20/08/2025, 12:29:19
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:31:21
+   [INFO] Running injector ... -> 20/08/2025, 12:31:21
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:31:21
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:31:21
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:31:21
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:31:21
+      [INFO] 6 parameters found  -> 20/08/2025, 12:31:23
+  [INFO] Start Fuzzing 6 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:31:23
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:31:25
+      [INFO] 1 parameters found  -> 20/08/2025, 12:31:26
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:31:26
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:31:31
+      [INFO] 20 parameters found  -> 20/08/2025, 12:31:33
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:31:33
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:31:36
+      [INFO] 20 parameters found  -> 20/08/2025, 12:31:37
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:31:37
+  [ERROR] Error Reflix URL vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt : duplicate key value violates unique constraint "vulnerability_monitor_xssreport_url_key"
+DETAIL:  Key (url)=(https://nexovir.ir/unlock/secure/matrix-login/?canvas=zerodium&ctx=zerodium&width=zerodium&height=zerodium&letters=zerodium&fontSize=zerodium&columns=zerodium&drops=zerodium&i=zerodium&text=zerodium&2d=zerodium&1=zerodium&0=zerodium&resize=zerodium&draw=zerodium&init=zerodium&50=zerodium&viewport=zerodium&username=zerodium&password=zerodium) already exists. -> 20/08/2025, 12:31:43
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:31:43
+   [INFO] Running injector ... -> 20/08/2025, 12:31:43
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:31:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:31:43
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:31:43
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 12:31:43
+      [INFO] 50 parameters found  -> 20/08/2025, 12:31:44
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 12:31:44
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 12:31:57
+      [INFO] 50 parameters found  -> 20/08/2025, 12:31:58
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 12:31:58
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:32:16
+      [INFO] 51 parameters found  -> 20/08/2025, 12:32:17
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:32:17
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:32:28
+      [INFO] 51 parameters found  -> 20/08/2025, 12:32:28
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:32:28
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:32:38
+   [INFO] Running injector ... -> 20/08/2025, 12:32:38
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:32:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:32:38
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:32:38
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:32:38
+   [INFO] Running injector ... -> 20/08/2025, 12:32:38
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:32:39
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:32:39
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:32:39
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:32:39
+   [INFO] Running injector ... -> 20/08/2025, 12:32:39
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:32:39
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:32:39
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:32:39
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:32:39
+   [INFO] Running injector ... -> 20/08/2025, 12:32:39
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:32:39
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:32:39
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:32:39
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:32:40
+   [INFO] Running injector ... -> 20/08/2025, 12:32:40
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:32:40
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:32:40
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:32:40
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:33:38
+   [INFO] Running injector ... -> 20/08/2025, 12:33:38
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:33:38
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:33:38
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:33:38
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:33:38
+      [INFO] 20 parameters found  -> 20/08/2025, 12:33:39
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:33:39
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:33:41
+      [INFO] 20 parameters found  -> 20/08/2025, 12:33:42
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:33:42
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:33:45
+      [INFO] 6 parameters found  -> 20/08/2025, 12:33:46
+  [INFO] Start Fuzzing 6 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:33:46
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:33:48
+      [INFO] 1 parameters found  -> 20/08/2025, 12:33:49
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:33:49
+  [ERROR] Error Reflix URL vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt : duplicate key value violates unique constraint "vulnerability_monitor_xssreport_url_key"
+DETAIL:  Key (url)=(https://nexovir.ir/unlock/secure/matrix-login/?canvas=zerodium&ctx=zerodium&width=zerodium&height=zerodium&letters=zerodium&fontSize=zerodium&columns=zerodium&drops=zerodium&i=zerodium&text=zerodium&2d=zerodium&1=zerodium&0=zerodium&resize=zerodium&draw=zerodium&init=zerodium&50=zerodium&viewport=zerodium&username=zerodium&password=zerodium) already exists. -> 20/08/2025, 12:33:52
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:33:53
+   [INFO] Running injector ... -> 20/08/2025, 12:33:53
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:33:53
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:33:53
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:33:53
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 12:33:53
+      [INFO] 50 parameters found  -> 20/08/2025, 12:33:56
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 12:33:56
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 12:34:00
+      [INFO] 50 parameters found  -> 20/08/2025, 12:34:01
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 12:34:01
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:34:06
+      [INFO] 51 parameters found  -> 20/08/2025, 12:34:06
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:34:06
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:34:14
+      [INFO] 51 parameters found  -> 20/08/2025, 12:34:17
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:34:17
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:34:24
+   [INFO] Running injector ... -> 20/08/2025, 12:34:24
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:34:24
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:34:24
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:34:24
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:34:24
+   [INFO] Running injector ... -> 20/08/2025, 12:34:24
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:34:24
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:34:24
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:34:24
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:34:24
+   [INFO] Running injector ... -> 20/08/2025, 12:34:24
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:34:25
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:34:25
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:34:25
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:34:25
+   [INFO] Running injector ... -> 20/08/2025, 12:34:25
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:34:25
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:34:25
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:34:25
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:34:25
+   [INFO] Running injector ... -> 20/08/2025, 12:34:25
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:34:25
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:34:25
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:34:25
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:47:30
+   [INFO] Running injector ... -> 20/08/2025, 12:47:30
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:47:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:47:30
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:47:30
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:47:30
+      [INFO] 0 parameters found  -> 20/08/2025, 12:48:00
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:48:00
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:48:00
+      [INFO] 0 parameters found  -> 20/08/2025, 12:48:15
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 12:48:15
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:48:15
+      [INFO] 0 parameters found  -> 20/08/2025, 12:48:45
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:48:45
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:48:45
+      [INFO] 0 parameters found  -> 20/08/2025, 12:49:15
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 12:49:15
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:49:16
+   [INFO] Running injector ... -> 20/08/2025, 12:49:16
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:49:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:49:16
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:49:16
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 12:49:16
+      [INFO] 0 parameters found  -> 20/08/2025, 12:49:46
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 12:49:46
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 12:49:46
+      [INFO] 0 parameters found  -> 20/08/2025, 12:50:16
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 12:50:16
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:50:16
+      [INFO] 0 parameters found  -> 20/08/2025, 12:50:46
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:50:46
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:50:46
+      [INFO] 0 parameters found  -> 20/08/2025, 12:51:16
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 12:51:16
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:51:16
+   [INFO] Running injector ... -> 20/08/2025, 12:51:16
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:51:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:51:17
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:51:17
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:51:17
+   [INFO] Running injector ... -> 20/08/2025, 12:51:17
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:51:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:51:17
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:51:17
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:51:17
+   [INFO] Running injector ... -> 20/08/2025, 12:51:17
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:51:17
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:51:17
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:51:17
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:51:18
+   [INFO] Running injector ... -> 20/08/2025, 12:51:18
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:51:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:51:18
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:51:18
+[INFO] Starting Static Reflix ... -> 20/08/2025, 12:51:18
+   [INFO] Running injector ... -> 20/08/2025, 12:51:18
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 12:51:18
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 12:51:18
+[INFO] Starting Light Reflix ... -> 20/08/2025, 12:51:18
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:05:49
+   [INFO] Running injector ... -> 20/08/2025, 13:05:49
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:05:49
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:05:49
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:05:49
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:05:49
+      [INFO] 20 parameters found  -> 20/08/2025, 13:05:50
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:05:50
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:05:53
+      [INFO] 20 parameters found  -> 20/08/2025, 13:05:54
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:05:54
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 13:05:57
+      [INFO] 6 parameters found  -> 20/08/2025, 13:05:57
+  [INFO] Start Fuzzing 6 parameters (method: GET) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 13:05:57
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 13:05:59
+      [INFO] 1 parameters found  -> 20/08/2025, 13:05:59
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://nexovir.ir/static/xss/js/script.js -> 20/08/2025, 13:05:59
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:06:04
+   [INFO] Running injector ... -> 20/08/2025, 13:06:04
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:06:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:06:04
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:06:04
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:06:04
+      [INFO] 51 parameters found  -> 20/08/2025, 13:06:05
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:06:05
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:06:11
+      [INFO] 51 parameters found  -> 20/08/2025, 13:06:12
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:06:12
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:06:18
+      [INFO] 50 parameters found  -> 20/08/2025, 13:06:18
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:06:18
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:06:22
+      [INFO] 50 parameters found  -> 20/08/2025, 13:06:24
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:06:24
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:06:29
+   [INFO] Running injector ... -> 20/08/2025, 13:06:29
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:06:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:06:29
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:06:29
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:06:29
+   [INFO] Running injector ... -> 20/08/2025, 13:06:29
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:06:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:06:29
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:06:29
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:06:30
+   [INFO] Running injector ... -> 20/08/2025, 13:06:30
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:06:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:06:30
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:06:30
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:06:30
+   [INFO] Running injector ... -> 20/08/2025, 13:06:30
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:06:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:06:30
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:06:30
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:06:30
+   [INFO] Running injector ... -> 20/08/2025, 13:06:30
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:06:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:06:31
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:06:31
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:38:31
+   [INFO] Running injector ... -> 20/08/2025, 13:38:31
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:38:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:38:31
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:38:31
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:38:31
+      [INFO] 51 parameters found  -> 20/08/2025, 13:38:32
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:38:32
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:38:38
+      [INFO] 51 parameters found  -> 20/08/2025, 13:38:39
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:38:39
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:38:44
+      [INFO] 50 parameters found  -> 20/08/2025, 13:38:45
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:38:45
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:38:50
+      [INFO] 50 parameters found  -> 20/08/2025, 13:38:51
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:38:51
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:38:55
+   [INFO] Running injector ... -> 20/08/2025, 13:38:55
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:38:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:38:55
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:38:55
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:38:55
+      [INFO] 0 parameters found  -> 20/08/2025, 13:38:56
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:38:56
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:38:56
+      [INFO] 0 parameters found  -> 20/08/2025, 13:38:57
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:38:57
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:38:57
+      [INFO] 20 parameters found  -> 20/08/2025, 13:38:58
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:38:58
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:39:00
+      [INFO] 20 parameters found  -> 20/08/2025, 13:39:00
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:39:00
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:39:03
+   [INFO] Running injector ... -> 20/08/2025, 13:39:03
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:39:03
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:39:03
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:39:03
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:39:03
+   [INFO] Running injector ... -> 20/08/2025, 13:39:03
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:39:03
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:39:03
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:39:03
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:39:04
+   [INFO] Running injector ... -> 20/08/2025, 13:39:04
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:39:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:39:04
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:39:04
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:39:04
+   [INFO] Running injector ... -> 20/08/2025, 13:39:04
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:39:04
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:39:04
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:39:04
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:39:04
+   [INFO] Running injector ... -> 20/08/2025, 13:39:04
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:39:05
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:39:05
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:39:05
+  [ERROR] Error Reflix URL vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt : Command '['reflix', '-l', 'vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt', '-X', 'GET,POST', '-c', '25', '-t', '1', '-rd', '1', '-p', 'zerodium', '-x', 'http://127.0.0.1:8080-o', 'vulnerability_monitor/vulnerabilities/xss/outputs/reflix.output', '-s']' returned non-zero exit status 2. -> 20/08/2025, 13:41:14
+  [ERROR] Error Reflix URL vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt : Command '['reflix', '-l', 'vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt', '-X', 'GET,POST', '-c', '25', '-t', '1', '-rd', '1', '-p', 'zerodium', '-x', 'http://127.0.0.1:8080-o', 'vulnerability_monitor/vulnerabilities/xss/outputs/reflix.output', '-s', '-H', 'Cookie: csrftoken=DhlokcdT08r0RrjG675dIRDpyqzgmNp3; sessionid=q43jyrmob0gx15zl1gn5o77kasa8ltq0']' returned non-zero exit status 2. -> 20/08/2025, 13:41:14
+  [ERROR] Error Reflix URL vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt : Command '['reflix', '-l', 'vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt', '-X', 'GET,POST', '-c', '25', '-t', '1', '-rd', '1', '-p', 'zerodium', '-x', 'http://127.0.0.1:8080-o', 'vulnerability_monitor/vulnerabilities/xss/outputs/reflix.output', '-s']' returned non-zero exit status 2. -> 20/08/2025, 13:41:15
+  [ERROR] Error Reflix URL vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt : Command '['reflix', '-l', 'vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt', '-X', 'GET,POST', '-c', '25', '-t', '1', '-rd', '1', '-p', 'zerodium', '-x', 'http://127.0.0.1:8080-o', 'vulnerability_monitor/vulnerabilities/xss/outputs/reflix.output', '-s']' returned non-zero exit status 2. -> 20/08/2025, 13:41:15
+  [ERROR] Error Reflix URL vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt : Command '['reflix', '-l', 'vulnerability_monitor/vulnerabilities/xss/outputs/urls.txt', '-X', 'GET,POST', '-c', '25', '-t', '1', '-rd', '1', '-p', 'zerodium', '-x', 'http://127.0.0.1:8080-o', 'vulnerability_monitor/vulnerabilities/xss/outputs/reflix.output', '-s']' returned non-zero exit status 2. -> 20/08/2025, 13:41:15
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:41:29
+   [INFO] Running injector ... -> 20/08/2025, 13:41:29
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:41:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:41:29
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:41:29
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:41:29
+      [INFO] 50 parameters found  -> 20/08/2025, 13:41:29
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:41:29
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:41:30
+   [INFO] Running injector ... -> 20/08/2025, 13:41:30
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:41:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:41:30
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:41:30
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:41:30
+      [INFO] 50 parameters found  -> 20/08/2025, 13:41:30
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:41:30
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:41:34
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:41:34
+      [INFO] 50 parameters found  -> 20/08/2025, 13:41:34
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:41:34
+      [INFO] 50 parameters found  -> 20/08/2025, 13:41:35
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:41:35
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:39
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:39
+      [INFO] 51 parameters found  -> 20/08/2025, 13:41:40
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:40
+      [INFO] 51 parameters found  -> 20/08/2025, 13:41:40
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:40
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:45
+      [INFO] 51 parameters found  -> 20/08/2025, 13:41:45
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:45
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:46
+      [INFO] 51 parameters found  -> 20/08/2025, 13:41:46
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:41:46
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:41:50
+   [INFO] Running injector ... -> 20/08/2025, 13:41:50
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:41:50
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:41:50
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:41:50
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:41:50
+      [INFO] 0 parameters found  -> 20/08/2025, 13:41:51
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:41:51
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:41:51
+      [INFO] 0 parameters found  -> 20/08/2025, 13:41:52
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:41:52
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:52
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:41:52
+   [INFO] Running injector ... -> 20/08/2025, 13:41:52
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:41:52
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:41:52
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:41:52
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:52
+      [INFO] 20 parameters found  -> 20/08/2025, 13:41:52
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:52
+      [INFO] 20 parameters found  -> 20/08/2025, 13:41:53
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:53
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:55
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:55
+      [INFO] 20 parameters found  -> 20/08/2025, 13:41:56
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:56
+      [INFO] 20 parameters found  -> 20/08/2025, 13:41:57
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:41:57
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:41:58
+   [INFO] Running injector ... -> 20/08/2025, 13:41:58
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:41:58
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:41:58
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:41:58
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:41:59
+   [INFO] Running injector ... -> 20/08/2025, 13:41:59
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:41:59
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:41:59
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:41:59
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:41:59
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:41:59
+   [INFO] Running injector ... -> 20/08/2025, 13:41:59
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:00
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:00
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:00
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:00
+   [INFO] Running injector ... -> 20/08/2025, 13:42:00
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:00
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:00
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:00
+      [INFO] 0 parameters found  -> 20/08/2025, 13:42:00
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:42:00
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:42:00
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:00
+   [INFO] Running injector ... -> 20/08/2025, 13:42:00
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:01
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:01
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:01
+      [INFO] 0 parameters found  -> 20/08/2025, 13:42:01
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:42:01
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:26
+   [INFO] Running injector ... -> 20/08/2025, 13:42:26
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:27
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:27
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:27
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:42:27
+      [INFO] 50 parameters found  -> 20/08/2025, 13:42:27
+  [INFO] Start Fuzzing 50 parameters (method: GET) https://memoryleaks.ir/ -> 20/08/2025, 13:42:27
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:42:31
+      [INFO] 50 parameters found  -> 20/08/2025, 13:42:32
+  [INFO] Start Fuzzing 50 parameters (method: POST) https://memoryleaks.ir/ -> 20/08/2025, 13:42:32
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:42:35
+      [INFO] 51 parameters found  -> 20/08/2025, 13:42:35
+  [INFO] Start Fuzzing 51 parameters (method: GET) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:42:35
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:42:40
+      [INFO] 51 parameters found  -> 20/08/2025, 13:42:41
+  [INFO] Start Fuzzing 51 parameters (method: POST) https://memoryleaks.ir/tag/%da%a9%d9%84%d8%a7%d9%87%d8%a8%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c-2/ -> 20/08/2025, 13:42:41
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:46
+   [INFO] Running injector ... -> 20/08/2025, 13:42:46
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:46
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:46
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:46
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:42:46
+      [INFO] 20 parameters found  -> 20/08/2025, 13:42:47
+  [INFO] Start Fuzzing 20 parameters (method: GET) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:42:47
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:42:49
+      [INFO] 20 parameters found  -> 20/08/2025, 13:42:50
+  [INFO] Start Fuzzing 20 parameters (method: POST) https://nexovir.ir/unlock/secure/matrix-login/ -> 20/08/2025, 13:42:50
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:42:52
+      [INFO] 0 parameters found  -> 20/08/2025, 13:42:53
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:42:53
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:42:53
+      [INFO] 0 parameters found  -> 20/08/2025, 13:42:53
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://nexovir.ir/admin/debug/ -> 20/08/2025, 13:42:53
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:53
+   [INFO] Running injector ... -> 20/08/2025, 13:42:53
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:54
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:54
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:54
+   [INFO] Running injector ... -> 20/08/2025, 13:42:54
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:54
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:54
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:54
+   [INFO] Running injector ... -> 20/08/2025, 13:42:54
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:54
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:54
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:54
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:55
+   [INFO] Running injector ... -> 20/08/2025, 13:42:55
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:55
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:55
+[INFO] Starting Static Reflix ... -> 20/08/2025, 13:42:55
+   [INFO] Running injector ... -> 20/08/2025, 13:42:55
+   [SUCCESS] Injector finished successfully -> 20/08/2025, 13:42:55
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 20/08/2025, 13:42:55
+[INFO] Starting Light Reflix ... -> 20/08/2025, 13:42:55
