@@ -40367,3 +40367,427 @@ DETAIL:  Key (url)=(https://nexovir.ir/unlock/secure/matrix-login/?canvas=zerodi
   [ERROR] Error Fallparams url_monitor/outputs/parameters.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-silent', '-duc', '-o', 'url_monitor/outputs/parameters.txt', '-X', 'GET POST']' returned non-zero exit status 2. -> 20/08/2025, 22:13:23
   [ERROR] Error Fallparams url_monitor/outputs/parameters.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-silent', '-duc', '-o', 'url_monitor/outputs/parameters.txt', '-X', 'GET POST']' returned non-zero exit status 2. -> 20/08/2025, 22:14:55
   [ERROR] Error Fallparams url_monitor/outputs/parameters.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-silent', '-duc', '-o', 'url_monitor/outputs/parameters.txt', '-X', 'GET POST']' returned non-zero exit status 2. -> 20/08/2025, 22:14:55
+[INFO] Starting Discover Urls on All Assets (order by NEW) -> 21/08/2025, 09:50:18
+  [INFO] Starting Katana for 'nexovir.ir'... -> 21/08/2025, 09:50:18
+  [INFO] Starting Waybackurls for 'nexovir.ir'... -> 21/08/2025, 09:50:37
+  [INFO] Starting Katana for 'test.memoryleaks.ir'... -> 21/08/2025, 09:50:41
+  [INFO] Starting Waybackurls for 'test.memoryleaks.ir'... -> 21/08/2025, 09:50:59
+  [INFO] Starting Katana for 'memoryleaks.ir'... -> 21/08/2025, 09:51:05
+  [INFO] Starting Waybackurls for 'memoryleaks.ir'... -> 21/08/2025, 09:51:22
+[INFO] Starting Detect URLs Changes -> 21/08/2025, 09:51:38
+[INFO] Starting Detect URLs Changes -> 21/08/2025, 09:55:32
+  [ERROR] Error Fallparams url_monitor/outputs/urls.txt : 'list' object has no attribute 'items' -> 21/08/2025, 13:28:25
+  [ERROR] Error Fallparams url_monitor/outputs/urls.txt : 'list' object has no attribute 'items' -> 21/08/2025, 13:30:57
+  [ERROR] Error Fallparams url_monitor/outputs/urls.txt : Command '['fallparams', '-u', 'url_monitor/outputs/urls.txt', '-x', 'http://127.0.0.1:8080', '-X', 'GET POST', '-silent', '-duc']' returned non-zero exit status 2. -> 21/08/2025, 13:38:24
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://test.memoryleaks.ir/', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'url_monitor/outputs/x8_output.json', '-X', 'GET POST']' returned non-zero exit status 101. -> 21/08/2025, 13:48:10
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'url_monitor/outputs/x8_output.json', '-X', 'GET POST']' returned non-zero exit status 101. -> 21/08/2025, 13:48:10
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://nexovir.ir', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'url_monitor/outputs/x8_output.json', '-X', 'GET POST', '-H', 'Cookie:csrftoken=DhlokcdT08r0RrjG675dIRDpyqzgmNp3; sessionid=q43jyrmob0gx15zl1gn5o77kasa8ltq0', '-H', 'Header1:123']' returned non-zero exit status 1. -> 21/08/2025, 13:48:10
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://nexovir.ir/static/xss/js/script.js', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'url_monitor/outputs/x8_output.json', '-X', 'GET POST', '-H', 'Cookie:csrftoken=DhlokcdT08r0RrjG675dIRDpyqzgmNp3; sessionid=q43jyrmob0gx15zl1gn5o77kasa8ltq0', '-H', 'Header1:123']' returned non-zero exit status 1. -> 21/08/2025, 13:48:10
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://test.memoryleaks.ir/', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080']' returned non-zero exit status 1. -> 21/08/2025, 13:50:48
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080']' returned non-zero exit status 1. -> 21/08/2025, 13:50:48
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://nexovir.ir', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080', '-H', 'Cookie:csrftoken=DhlokcdT08r0RrjG675dIRDpyqzgmNp3; sessionid=q43jyrmob0gx15zl1gn5o77kasa8ltq0', '-H', 'Header1:123']' returned non-zero exit status 1. -> 21/08/2025, 13:50:48
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://nexovir.ir/static/xss/js/script.js', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080', '-H', 'Cookie:csrftoken=DhlokcdT08r0RrjG675dIRDpyqzgmNp3; sessionid=q43jyrmob0gx15zl1gn5o77kasa8ltq0', '-H', 'Header1:123']' returned non-zero exit status 1. -> 21/08/2025, 13:50:48
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://test.memoryleaks.ir/', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080']' returned non-zero exit status 1. -> 21/08/2025, 13:52:03
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080']' returned non-zero exit status 1. -> 21/08/2025, 13:52:03
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://nexovir.ir', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080', '-H', 'Cookie: csrftoken=DhlokcdT08r0RrjG675dIRDpyqzgmNp3; sessionid=q43jyrmob0gx15zl1gn5o77kasa8ltq0', '-H', 'Header1: 123']' returned non-zero exit status 1. -> 21/08/2025, 13:52:03
+  [ERROR] Error X8 <built-in function input> : Command '['x8', '-u', 'https://nexovir.ir/static/xss/js/script.js', '-w', 'url_monitor/outputs/parameters.txt', '--output-format', 'json', '-o', 'o.txt', '-X', 'GET', '-X', 'POST', '-x', 'http://127.0.0.1:8080', '-H', 'Cookie: csrftoken=DhlokcdT08r0RrjG675dIRDpyqzgmNp3; sessionid=q43jyrmob0gx15zl1gn5o77kasa8ltq0', '-H', 'Header1: 123']' returned non-zero exit status 1. -> 21/08/2025, 13:52:03
+[ERROR] JSON decode failed for https://test.memoryleaks.ir/ GET: Expecting value: line 1 column 1 (char 0) -> 21/08/2025, 13:56:02
+[ERROR] Failed to decode JSON for https://test.memoryleaks.ir/: Expecting value: line 1 column 1 (char 0) -> 21/08/2025, 14:06:59
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:35
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:11:36
+[ERROR] Failed to decode JSON for https://test.memoryleaks.ir/: Expecting value: line 1 column 1 (char 0) -> 21/08/2025, 14:12:27
+[ERROR] Failed to decode JSON for https://test.memoryleaks.ir/: Expecting value: line 1 column 1 (char 0) -> 21/08/2025, 14:13:08
+[ERROR] Failed to decode JSON for https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js: Expecting value: line 1 column 1 (char 0) -> 21/08/2025, 14:13:32
+[ERROR] Failed to decode JSON for https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js: Expecting value: line 1 column 1 (char 0) -> 21/08/2025, 14:13:58
+[ERROR] X8 failed on https://nexovir.ir with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:14:13
+[ERROR] X8 failed on https://nexovir.ir with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:14:13
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:14:13
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:14:13
+[ERROR] Failed to save parameters for https://test.memoryleaks.ir/: Cannot assign "'https://test.memoryleaks.ir/'": "Parameter.url" must be a "Url" instance. -> 21/08/2025, 14:14:44
+[ERROR] Failed to save parameters for https://test.memoryleaks.ir/: Cannot assign "'https://test.memoryleaks.ir/'": "Parameter.url" must be a "Url" instance. -> 21/08/2025, 14:16:14
+[ERROR] X8 failed on https://nexovir.ir with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:22:08
+[ERROR] X8 failed on https://nexovir.ir with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:22:08
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:22:08
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:22:08
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:21
+[ERROR] X8 failed on https://test.memoryleaks.ir/ with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:21
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:21
+[ERROR] X8 failed on https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:22
+[ERROR] X8 failed on https://nexovir.ir with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:22
+[ERROR] X8 failed on https://nexovir.ir with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:22
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: Found argument 'GET' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:22
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: Found argument 'POST' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    x8 --output <file> --output-format <output-format> --proxy <proxy> --url <url> --wordlist <wordlist>
+
+For more information try --help
+ -> 21/08/2025, 14:32:22
+[ERROR] X8 failed on https://nexovir.ir with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:57
+[ERROR] X8 failed on https://nexovir.ir with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:57
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:57
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:57
+[ERROR] X8 failed on https://nexovir.ir with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:59
+[ERROR] X8 failed on https://nexovir.ir with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:59
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with GET: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:59
+[ERROR] X8 failed on https://nexovir.ir/static/xss/js/script.js with POST: error: The argument '-H <headers>' was provided more than once, but cannot be used multiple times
+
+USAGE:
+    x8 -c <concurrency> --delay <Delay between requests in milliseconds> -H <headers> --learn-requests <learn-requests-count> --method <methods> --output <file> --output-format <output-format> --progress-bar-len <progress-bar-len> --proxy <proxy> --timeout <timeout> --url <url> --verbose <verbose> --wordlist <wordlist> --workers <workers>
+
+For more information try --help
+ -> 21/08/2025, 14:48:59

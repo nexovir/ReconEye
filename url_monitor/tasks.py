@@ -4,7 +4,7 @@ from asset_monitor.models import *
 import subprocess , time , hashlib , requests
 from asset_monitor.tasks import sendmessage
 from urllib.parse import urlparse
-import colorama
+import json
 from django.db.models import Case, When, Value, IntegerField
 from vulnerability_monitor.tasks import read_write_list
 
@@ -15,19 +15,24 @@ OUTPUT_PATH = 'url_monitor/outputs'
 def clear_labels(self):
     Url.objects.all().update(label="available")
     UrlChanges.objects.all().update(label="available")
+    SubdomainParameter.objects.all().update(label='available')
+    Parameter.objects.all().update(label = 'available')
 
-
-def run_fallparams(input : str ) -> list:
+def run_fallparams(input : str , headers : list) -> list:
     try : 
         command = [
-            'fallparams',
-            '-u',input,
-            '-silent',
-            '-duc',
-            '-X','GET',
-            'POST',
-            
+            "fallparams",
+            "-u", input,
+            "-x", "http://127.0.0.1:8080",
+            "-X", "GET",
+            "-X", "POST",
+            "-silent",
+            "-duc",
         ]
+        if headers:
+            for h in headers:
+                if h:
+                    command.extend(["-H", h])
         result = subprocess.run(
             command,
             shell=False,
@@ -36,6 +41,7 @@ def run_fallparams(input : str ) -> list:
             stderr=subprocess.PIPE,
             text=True
         )
+        
         parameters = result.stdout.splitlines()
         return parameters
     
@@ -181,11 +187,11 @@ def detect_urls_changes(self):
 
 
 
-def discover_parameter_and_changes(self):
+def discover_parameter(self):
     def parameters_insert_database(subdomain , parameters):
         for parameter in parameters :
             obj, created = SubdomainParameter.objects.get_or_create(
-                subdomain = subdomain,
+                wildcard = subdomain.wildcard,
                 parameter = parameter
             )
             if created:
@@ -195,21 +201,102 @@ def discover_parameter_and_changes(self):
     subdomains = DiscoverSubdomain.objects.filter(label='new')
 
     for subdomain in subdomains :
+        print(subdomain)
+        headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
         read_write_list(list(subdomain.url_set.values_list('url', flat=True)) , f"{OUTPUT_PATH}/urls.txt" , 'w')
-        parameters = run_fallparams(f"{OUTPUT_PATH}/urls.txt")
+        parameters = run_fallparams(f"{OUTPUT_PATH}/urls.txt" , headers)
         parameters_insert_database (subdomain , parameters)
 
 
 
-def fuzz_parameters_on_urls (self):
-    urls = Url.objects.filter(label ='new')
-    
+
+def fuzz_parameters_on_urls(self):
+    wildcards = WatchedWildcard.objects.all()
+
+    def save_x8_output_from_file(url_instance , json_file_path, url):
+
+        try:
+            with open(json_file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            for item in data:
+                method = item.get("method")
+                injection_place = item.get("injection_place")
+                for param in item.get("found_params", []):
+                    obj, created = Parameter.objects.get_or_create(
+                        url=url_instance,
+                        method=method,
+                        parameter=param.get("name"),
+                        defaults={
+                            "status": str(param.get("status")),
+                            "reason_kind": param.get("reason_kind"),
+                            "injection_place": injection_place
+                        }
+                    )
+                    if created :
+                        obj.label = 'new'
+                        obj.save()
+                        
+        except json.JSONDecodeError as e:
+            sendmessage(f"[ERROR] Failed to decode JSON for {url_instance}: {str(e)}", colour="RED")
+        except FileNotFoundError:
+            sendmessage(f"[ERROR] JSON file not found: {json_file_path}", colour="RED")
+        except Exception as e:
+            sendmessage(f"[ERROR] Failed to save parameters for {url_instance}: {str(e)}", colour="RED")
+
+    def run_x8(url_instance , url, parameters_path, headers):
+        for method in ["GET", "POST"]:
+            output_file = f"{OUTPUT_PATH}/x8_output_{method}.json"
+            try:
+                command = [
+                    "x8",
+                    "-u", url,
+                    "-w", parameters_path,
+                    "--output-format", "json",
+                    "-o",output_file,
+                    "-X", method,
+                ]
+
+                if headers:
+                    valid_headers = [h.strip() for h in headers if h and ":" in h]
+                    if valid_headers:
+                        command.append("-H")
+                        command.extend(valid_headers)
+                
+                print(command)
+                result = subprocess.run(
+                    command,
+                    shell=False,
+                    check=True,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True
+                )
+                save_x8_output_from_file(url_instance , output_file, url)
+
+            except subprocess.CalledProcessError as e:
+                sendmessage(f"[ERROR] X8 failed on {url} with {method}: {e.stderr}", colour="RED")
+            except Exception as e:
+                sendmessage(f"[ERROR] Unexpected error X8 {url} with {method}: {str(e)}", colour="RED")
+
+
+    for wildcard in wildcards:
+        parameters = wildcard.subdomainparameter_set.values_list('parameter', flat=True)
+        read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
+        subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard)
+        for subdomain in subdomains:
+            headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
+            urls = Url.objects.filter(subdomain=subdomain, label='new')
+            for url in urls:
+                run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
+
+
 
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
     # clear_labels(self)
     # discover_urls(self)
     # detect_urls_changes(self)
-    # discover_parameter_and_changes(self)
+    # discover_parameter(self)
     fuzz_parameters_on_urls(self)
     

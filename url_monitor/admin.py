@@ -29,14 +29,17 @@ class UrlChangesAdmin(admin.ModelAdmin):
 
 @register(Parameter)
 class ParameterAdmin(admin.ModelAdmin):
-    list_display = ['url' , 'method' , 'status' , 'parameter' , 'reason_kind' , 'injection_place']
+    list_display = ['url' , 'method' , 'status' , 'parameter' , 'reason_kind' , 'injection_place' , 'label' , 'short_url']
     list_filter = ['label' , 'injection_place' , 'method' , 'status' , 'reason_kind']
 
+    def short_url(self, obj):
+        return format_html('<a href="{}" target="_blank">Click here</a>', obj.url.url)
+    short_url.short_description = 'URL'
     
 
 @register(SubdomainParameter)
 class SubdomainParameterAdmin(admin.ModelAdmin):
-    list_display = ['subdomain' , 'parameter' , 'label']
-    search_fields = ['subdomain__subdomain' , 'path' ]
+    list_display = ['wildcard' , 'parameter' , 'label']
+    search_fields = ['wildcard' , 'path' ]
     list_filter = ['label']
     list_per_page = 100

@@ -1,0 +1,1 @@
+[{"method":"GET","url":"https://test.memoryleaks.ir/%5C/memoryleaks.ir%5C/wp-includes%5C/js%5C/wp-emoji-release.min.js","status":404,"size":629,"found_params":[],"injection_place":"Path"}]
