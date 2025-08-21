@@ -187,7 +187,7 @@ def detect_urls_changes(self):
 
 
 def discover_parameter(self):
-    sendmessage(f"[INFO] Starting Discover Parameters from New Discovered Subdomains", telegram=True , colour="CYAN")
+    sendmessage(f"[INFO] Starting Discover Parameters from Discovered Subdomains", telegram=True , colour="CYAN")
     
     def parameters_insert_database(subdomain , parameters):
         for parameter in parameters :
@@ -199,7 +199,7 @@ def discover_parameter(self):
                 obj.label = "new"   
                 obj.save()
     
-    subdomains = DiscoverSubdomain.objects.filter(label='new')
+    subdomains = DiscoverSubdomain.objects.all()
 
     for subdomain in subdomains :
         headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
