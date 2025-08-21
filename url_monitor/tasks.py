@@ -23,7 +23,6 @@ def run_fallparams(input : str , headers : list) -> list:
         command = [
             "fallparams",
             "-u", input,
-            "-x", "http://127.0.0.1:8080",
             "-X", "GET",
             "-X", "POST",
             "-silent",
@@ -96,7 +95,7 @@ def discover_urls(self):
         output_field=IntegerField(),
     ),
     )
-    sendmessage(f"[INFO] Starting Discover Urls on All Assets (order by NEW)", telegram=True , colour="CYAN")
+    sendmessage(f"[INFO] Starting Discover URLs on All Assets (order by NEW) for Discover New URLs", telegram=True , colour="CYAN")
 
     def insert_subdomains(subdomain_obj, urls):
         for url in urls:
@@ -137,7 +136,7 @@ def discover_urls(self):
 
 
 def detect_urls_changes(self):
-    sendmessage(f"[INFO] Starting Detect URLs Changes", telegram=True , colour="CYAN")
+    sendmessage(f"[INFO] Starting Detect URLs Changes ", telegram=True , colour="CYAN")
 
     urls = Url.objects.all()
     
@@ -188,6 +187,8 @@ def detect_urls_changes(self):
 
 
 def discover_parameter(self):
+    sendmessage(f"[INFO] Starting Discover Parameters from New Discovered Subdomains", telegram=True , colour="CYAN")
+    
     def parameters_insert_database(subdomain , parameters):
         for parameter in parameters :
             obj, created = SubdomainParameter.objects.get_or_create(
@@ -201,7 +202,6 @@ def discover_parameter(self):
     subdomains = DiscoverSubdomain.objects.filter(label='new')
 
     for subdomain in subdomains :
-        print(subdomain)
         headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
         read_write_list(list(subdomain.url_set.values_list('url', flat=True)) , f"{OUTPUT_PATH}/urls.txt" , 'w')
         parameters = run_fallparams(f"{OUTPUT_PATH}/urls.txt" , headers)
@@ -212,7 +212,7 @@ def discover_parameter(self):
 
 def fuzz_parameters_on_urls(self):
     wildcards = WatchedWildcard.objects.all()
-
+    sendmessage(f"[INFO] Starting Fuzz Parameters on URLs (ordery_by NEW URLs)", telegram=True , colour="CYAN")
     def save_x8_output_from_file(url_instance , json_file_path, url):
 
         try:
@@ -236,7 +236,7 @@ def fuzz_parameters_on_urls(self):
                     if created :
                         obj.label = 'new'
                         obj.save()
-                        
+
         except json.JSONDecodeError as e:
             sendmessage(f"[ERROR] Failed to decode JSON for {url_instance}: {str(e)}", colour="RED")
         except FileNotFoundError:
@@ -263,7 +263,6 @@ def fuzz_parameters_on_urls(self):
                         command.append("-H")
                         command.extend(valid_headers)
                 
-                print(command)
                 result = subprocess.run(
                     command,
                     shell=False,
@@ -283,10 +282,20 @@ def fuzz_parameters_on_urls(self):
     for wildcard in wildcards:
         parameters = wildcard.subdomainparameter_set.values_list('parameter', flat=True)
         read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
-        subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard)
+        subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard).order_by(
+            Case(
+                When(label="new", then=Value(0)),
+                default=Value(1),
+                output_field=IntegerField(),))
+        
         for subdomain in subdomains:
             headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
-            urls = Url.objects.filter(subdomain=subdomain, label='new')
+            urls = Url.objects.filter(subdomain=subdomain).order_by(
+            Case(
+                When(label="new", then=Value(0)),
+                default=Value(1),
+                output_field=IntegerField()),)
+
             for url in urls:
                 run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
 
@@ -294,9 +303,9 @@ def fuzz_parameters_on_urls(self):
 
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
-    # clear_labels(self)
-    # discover_urls(self)
-    # detect_urls_changes(self)
-    # discover_parameter(self)
+    clear_labels(self)
+    discover_urls(self)
+    detect_urls_changes(self)
+    discover_parameter(self)
     fuzz_parameters_on_urls(self)
     
