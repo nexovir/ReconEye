@@ -1,7 +1,0 @@
-x
-run
-runner
-cmd
-command
-s
-test

@@ -40791,3 +40791,10 @@ USAGE:
 
 For more information try --help
  -> 21/08/2025, 14:48:59
+[INFO] Starting Discover URLs on All Assets (order by NEW) for Discover New URLs -> 22/08/2025, 00:15:19
+  [INFO] Starting Katana for 'test.memoryleaks.ir'... -> 22/08/2025, 00:15:20
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 22/08/2025, 10:48:36
+[!] Nuclei execution failed: Command '['nuclei', '-u', 'https://nexovir.ir', '-t', '/Users/apple/nuclei-templates', '-rate-limit', '150', '-json-export', 'vulnerability_monitor/outputs/nuclei_result.json', '-silent']' returned non-zero exit status 1. on https://nexovir.ir -> 22/08/2025, 10:57:03
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 22/08/2025, 11:00:23
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 22/08/2025, 11:00:23
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 22/08/2025, 11:05:13
