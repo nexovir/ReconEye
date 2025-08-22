@@ -59,7 +59,7 @@ class DirectMessage(BaseModel):
 class MessageReaction(BaseModel):
     message = models.ForeignKey(Message, on_delete=models.CASCADE, related_name='reactions')
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    emoji = models.CharField(max_length=10)  # مثل 👍 ❤️ 🔥 😂
+    emoji = models.CharField(max_length=10) 
     reacted_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
