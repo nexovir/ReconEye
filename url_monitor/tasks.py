@@ -1,16 +1,17 @@
 from celery import shared_task
 from .models import *
 from asset_monitor.models import *
-import subprocess , time , hashlib , requests
-from programs_monitor.tasks import sendmessage
-from urllib.parse import urlparse
-import json
+import subprocess , time , hashlib , requests , json
+from urllib.parse import urlparse 
 from django.db.models import Case, When, Value, IntegerField
 from vulnerability_monitor.tasks import read_write_list
+from programs_monitor.tasks import sendmessage , PROXIES
+from vulnerability_monitor.tasks import *
 
 
 OUTPUT_PATH = 'url_monitor/outputs'
 
+EXTS = ['js']
 
 def clear_labels(self):
     Url.objects.all().update(label="available")
@@ -23,6 +24,7 @@ def run_fallparams(input : str , headers : list) -> list:
         command = [
             "fallparams",
             "-u", input,
+            "-proxy","socks5://127.0.0.1:1080",
             "-X", "GET",
             "-X", "POST",
             "-silent",
@@ -50,7 +52,7 @@ def run_fallparams(input : str , headers : list) -> list:
 
 def run_waybackurls (subdomain : str) -> list :
     sendmessage(f"  [INFO] Starting Waybackurls for '{subdomain}'...", telegram=False)
-    command = f"waybackurls {subdomain} | uro"
+    command = f"proxychains waybackurls {subdomain} | uro | sort -u"
     output = subprocess.run(
         command,
         shell=True,
@@ -63,13 +65,13 @@ def run_waybackurls (subdomain : str) -> list :
 
 def run_katana(subdomain : str) -> list :
     sendmessage(f"  [INFO] Starting Katana for '{subdomain}'...", telegram=False)
-    command = f"nice-katana {subdomain}"
+    command = f"nice-katana {subdomain} | uro | sort -u"
     output = subprocess.run(
         command,
         shell=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        timeout=120,
+        timeout=600,
         text=True
     )
     return(output.stdout.splitlines())
@@ -79,7 +81,8 @@ def generate_body_hash(url: str) -> str:
     try:
         response = requests.get(url, timeout=30, verify=True, headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36",
-        "Cache-Control": "no-cache","Pragma": "no-cache"}
+        "Cache-Control": "no-cache","Pragma": "no-cache"},
+        proxies=PROXIES
     )
         body_bytes = response.content 
         return hashlib.sha256(body_bytes).hexdigest()
@@ -87,15 +90,7 @@ def generate_body_hash(url: str) -> str:
         return None
 
 
-def discover_urls(self):
-    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW)" , colour='CYAN')
-    subdomains = SubdomainHttpx.objects.order_by(
-    Case(
-        When(label='new', then=Value(0)),
-        default=Value(1),
-        output_field=IntegerField(),
-    ),
-    )
+def discover_urls(self, label):
 
     def insert_subdomains(subdomain_obj, urls):
         for url in urls:
@@ -106,7 +101,10 @@ def discover_urls(self):
                     matched_ext = ext[0]
                     break  
 
-            new_body_hash = generate_body_hash(url)
+            if matched_ext in EXTS:
+                new_body_hash = generate_body_hash(url)
+            else :
+                new_body_hash = ''
 
             try:
                 resp = requests.get(url, timeout=10)
@@ -129,7 +127,11 @@ def discover_urls(self):
                 obj.label = "new"   
                 obj.save()
 
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : {label})" , colour='CYAN')
+    subdomains = SubdomainHttpx.objects.filter(label=label)
+    
     for subdomain in subdomains :
+        print(subdomain)
         urls = run_katana(subdomain.httpx_result) + run_waybackurls(subdomain.httpx_result)
         insert_subdomains(subdomain , urls)
 
@@ -146,7 +148,7 @@ def detect_urls_changes(self):
         try:
             response = requests.get(
                 url.url, 
-                timeout=30, 
+                timeout=30,
                 verify=True, 
                 headers={
                     "Cache-Control": "no-cache",
@@ -186,8 +188,8 @@ def detect_urls_changes(self):
 
 
 
-def discover_parameter(self):
-    sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on All Assets (order_by NEW)", telegram=True , colour="CYAN")
+def discover_parameter(self , label):
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: {label})", telegram=True , colour="CYAN")
     
     def parameters_insert_database(subdomain , parameters):
         for parameter in parameters :
@@ -199,9 +201,10 @@ def discover_parameter(self):
                 obj.label = "new"   
                 obj.save()
     
-    subdomains = DiscoverSubdomain.objects.all()
-
+    subdomains = DiscoverSubdomain.objects.filter(label=label)
+    
     for subdomain in subdomains :
+        print(subdomain)
         headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
         read_write_list(list(subdomain.url_set.values_list('url', flat=True)) , f"{OUTPUT_PATH}/urls.txt" , 'w')
         parameters = run_fallparams(f"{OUTPUT_PATH}/urls.txt" , headers)
@@ -210,9 +213,8 @@ def discover_parameter(self):
 
 
 
-def fuzz_parameters_on_urls(self):
-    wildcards = WatchedWildcard.objects.all()
-    sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (ordery_by NEW)", telegram=True , colour="CYAN")
+def fuzz_parameters_on_urls(self , label):
+
     def save_x8_output_from_file(url_instance , json_file_path, url):
 
         try:
@@ -278,15 +280,13 @@ def fuzz_parameters_on_urls(self):
             except Exception as e:
                 sendmessage(f"[Url-Watcher] ❌ Unexpected error X8 {url} with {method}: {str(e)}", colour="RED")
 
+    wildcards = WatchedWildcard.objects.all()
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", telegram=True , colour="CYAN")
 
     for wildcard in wildcards:
         parameters = wildcard.subdomainparameter_set.values_list('parameter', flat=True)
         read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
-        subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard).order_by(
-            Case(
-                When(label="new", then=Value(0)),
-                default=Value(1),
-                output_field=IntegerField(),))
+        subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard , label=label)
         
         for subdomain in subdomains:
             headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
@@ -304,8 +304,18 @@ def fuzz_parameters_on_urls(self):
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
     clear_labels(self)
-    discover_urls(self)
+    sendmessage(f"[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️")
+
+    discover_urls(self , 'new')
+    discover_parameter(self , 'new')
+    fuzz_parameters_on_urls(self , 'new')
+    vulnerability_monitor('new')
+
+    fuzz_parameters_on_urls(self , 'available')
+    discover_urls(self , 'available')
+    discover_parameter(self , 'available')
+    vulnerability_monitor(self , 'available')
+
     detect_urls_changes(self)
-    discover_parameter(self)
-    fuzz_parameters_on_urls(self)
+
     

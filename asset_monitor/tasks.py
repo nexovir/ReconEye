@@ -4,15 +4,11 @@ import colorama, json, time, subprocess, pydig, os , tempfile
 from .models import *
 from datetime import datetime
 from .telegram_bot import *
-from programs_monitor.tasks import sendmessage
-
+from programs_monitor.tasks import *
 
 OUTPUT_PATH = 'asset_monitor/outputs'
 WORDLISTS_PATH = 'asset_monitor/wordlists'
 
-# use if you want this
-PROXY = 'socks5://127.0.0.1:2080'
-SIMPLE_PROXY = '127.0.0.1:2080'
 
 
 def clear_subdomains_labels(watcher):
@@ -28,7 +24,7 @@ def clear_services_labels():
 def run_subfinder(domain):
     try:
         sendmessage(f"[Asset-Watcher] ℹ️ Starting Subfinder for '{domain}'..." , telegram=False)
-        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 60 | dnsx -silent").read()
+        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 60 -proxy {PROXIES['http']}| dnsx -silent").read()
         subdomains = [line.strip() for line in output.splitlines() if line.strip()]
         sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram=False)
         return subdomains
@@ -42,7 +38,7 @@ def run_crtsh(domain, retries=1, timeout=15):
         try:
             sendmessage(f"[Asset-Watcher] ℹ️ Attempt {attempt}: Starting CRT.sh for '{domain}'...", telegram=False)
 
-            command = f"curl -s 'https://crt.sh/?q={domain}&output=json' | jq -r '.[].name_value' | sort -u | dnsx -silent"
+            command = f"curl -s 'https://crt.sh/?q={domain}&output=json --socks5 {PROXIES['http']}' | jq -r '.[].name_value' | sort -u | dnsx -silent"
 
             output = subprocess.run(
                 command,
@@ -67,7 +63,7 @@ def run_crtsh(domain, retries=1, timeout=15):
         except Exception as e:
             sendmessage(f"  [Asset-Watcher] ❌ Crt.sh error on attempt {attempt} for {domain}: {e}", colour='RED')
 
-    sendmessage(f"  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for {domain} after {retries} attempts.", colour='RED')
+    sendmessage(f"  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for {domain} after {retries}/2 attempts.", colour='RED')
     return []
 
 
@@ -103,6 +99,7 @@ def run_httpx(watcher_wildcard, input_file_path):
         command = [
             'httpx',
             '-l', input_file_path,
+            '-proxy',PROXIES['http'],
             '-title',
             '-status-code',
             '-hash', 'md5',
@@ -522,7 +519,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
         try:
             result = subprocess.run(
-                ['naabu', '-host', cidr, '-p', ports, '-silent'],
+                ['naabu', '-host', cidr, '-p', ports, '-proxy', PROXIES['http'] ,'-silent'],
                 capture_output=True, text=True, check=True
             )
         except subprocess.CalledProcessError as e:

@@ -41033,3 +41033,190 @@ Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 
 [Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 11:15:03
   [INFO] Starting Katana for 'https://Samsclub.com'... -> 23/08/2025, 11:15:04
   [INFO] Starting Waybackurls for 'https://Samsclub.com'... -> 23/08/2025, 11:15:17
+[Program-Watcher] [ℹ️] getting new programs from Bugcrowd  -> 23/08/2025, 12:57:43
+  [Program-Watcher] ❌ Failed to retrieve data: Missing dependencies for SOCKS support.. Retrying in 5 seconds... -> 23/08/2025, 12:57:44
+  [Program-Watcher] ❌ Failed to retrieve data: Missing dependencies for SOCKS support.. Retrying in 5 seconds... -> 23/08/2025, 12:57:50
+[Program-Watcher] [ℹ️] getting new programs from Bugcrowd  -> 23/08/2025, 12:58:26
+[Program-Watcher] [ℹ️] getting new programs from Bugcrowd  -> 23/08/2025, 12:58:32
+[Program-Watcher] [ℹ️] Connection OK -> 23/08/2025, 12:58:33
+[Program-Watcher] [ℹ️] Connection OK -> 23/08/2025, 12:58:39
+[Program-Watcher] [ℹ️] getting new programs from Federacy  -> 23/08/2025, 13:00:34
+[Program-Watcher] [ℹ️] getting new programs from Federacy  -> 23/08/2025, 13:00:34
+[Program-Watcher] [ℹ️] Connection OK -> 23/08/2025, 13:00:38
+[Program-Watcher] [ℹ️] Connection OK -> 23/08/2025, 13:00:38
+[Program-Watcher] [ℹ️] getting new programs from Hackerone  -> 23/08/2025, 13:00:51
+[Program-Watcher] [ℹ️] Connection OK -> 23/08/2025, 13:01:18
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 23/08/2025, 13:05:45
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 23/08/2025, 13:05:48
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 23/08/2025, 13:05:55
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:06:30
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 23/08/2025, 13:08:16
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:08:22
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 23/08/2025, 13:08:32
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 23/08/2025, 13:08:32
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:08:35
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 23/08/2025, 13:08:41
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 23/08/2025, 13:08:41
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 23/08/2025, 13:08:49
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:08:57
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 23/08/2025, 13:09:25
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 23/08/2025, 13:09:25
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:09:27
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 23/08/2025, 13:09:28
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 23/08/2025, 13:09:28
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:09:57
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 23/08/2025, 13:16:29
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 23/08/2025, 13:16:29
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:16:34
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 23/08/2025, 13:16:38
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 23/08/2025, 13:16:38
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:16:42
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 23/08/2025, 13:16:45
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 23/08/2025, 13:20:58
+  [Program-Watcher] ❌ An unexpected error occurred: name 'proxies' is not defined -> 23/08/2025, 13:20:59
+  [Program-Watcher] ❌ Failed to retrieve data after 20 attempts. -> 23/08/2025, 13:21:00
+  [Program-Watcher] ❌ Error: 'NoneType' object is not iterable -> 23/08/2025, 13:21:01
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 23/08/2025, 13:21:02
+  [Program-Watcher] ❌ An unexpected error occurred: name 'proxies' is not defined -> 23/08/2025, 13:21:03
+  [Program-Watcher] ❌ Failed to retrieve data after 20 attempts. -> 23/08/2025, 13:21:04
+  [Program-Watcher] ❌ Error: 'NoneType' object is not iterable -> 23/08/2025, 13:21:05
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 23/08/2025, 13:21:06
+  [Program-Watcher] ❌ An unexpected error occurred: name 'proxies' is not defined -> 23/08/2025, 13:21:07
+  [Program-Watcher] ❌ Failed to retrieve data after 20 attempts. -> 23/08/2025, 13:21:08
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 23/08/2025, 13:21:58
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:22:04
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 23/08/2025, 13:22:11
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 23/08/2025, 13:22:11
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:22:15
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 23/08/2025, 13:25:03
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 23/08/2025, 13:25:03
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:25:10
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 23/08/2025, 13:25:26
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 23/08/2025, 13:25:26
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:25:29
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 23/08/2025, 13:25:30
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 23/08/2025, 13:25:30
+[Program-Watcher] ℹ️ Connection OK -> 23/08/2025, 13:25:57
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 13:34:05
+[Asset-Watcher] ❌Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 23/08/2025, 13:34:06
+[Asset-Watcher] ✅ Finished subfinder -> 23/08/2025, 13:34:07
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 13:34:08
+[Asset-Watcher] ❌Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 23/08/2025, 13:34:09
+[Asset-Watcher] ✅ Finished subfinder -> 23/08/2025, 13:34:10
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 13:34:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 13:34:50
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 13:35:11
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 13:35:12
+  ℹ️ 1046 subs found for samsclub.com -> 23/08/2025, 13:36:46
+[Asset-Watcher] ✅ Finished subfinder -> 23/08/2025, 13:36:51
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 13:37:28
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 13:37:29
+  ℹ️ 1046 subs found for samsclub.com -> 23/08/2025, 13:38:54
+[Asset-Watcher] ✅ Finished subfinder -> 23/08/2025, 13:38:55
+[Asset-Watcher] ℹ️ Starting crt.sh -> 23/08/2025, 13:38:56
+[Asset-Watcher] ✅ Finished crt.sh -> 23/08/2025, 13:38:57
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 14:02:45
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 14:02:46
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 14:03:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 14:03:53
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 14:04:05
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 14:06:55
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 14:06:56
+  ℹ️ 1828 subs found for samsclub.com -> 23/08/2025, 14:08:14
+[Asset-Watcher] ✅ Finished subfinder -> 23/08/2025, 14:08:21
+[Asset-Watcher] ℹ️ Starting crt.sh -> 23/08/2025, 14:08:22
+[Asset-Watcher] ✅ Finished crt.sh -> 23/08/2025, 14:08:23
+[Asset-Watcher] ℹ️ Starting user subdomains -> 23/08/2025, 14:08:24
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 23/08/2025, 14:08:25
+  [Asset-Watcher] ℹ️ No own subdomains found for samsclub.com -> 23/08/2025, 14:08:25
+[Asset-Watcher] ✅ Finished user subdomains -> 23/08/2025, 14:08:25
+[Asset-Watcher] ℹ️ Starting httpx -> 23/08/2025, 14:08:26
+[Asset-Watcher] ✅ Finished httpx -> 23/08/2025, 14:08:27
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 23/08/2025, 14:08:28
+[Asset-Watcher] ✅ Finished cidrs scanning -> 23/08/2025, 14:08:29
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 14:16:13
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 14:16:14
+  ℹ️ 953 subs found for samsclub.com -> 23/08/2025, 14:17:24
+[Asset-Watcher] ✅ Finished subfinder -> 23/08/2025, 14:17:26
+[Asset-Watcher] ℹ️ Starting crt.sh -> 23/08/2025, 14:17:27
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'samsclub.com'... -> 23/08/2025, 14:17:28
+  [Asset-Watcher] ⚠️ No subdomains found for samsclub.com in Crt.sh (Attempt 1) -> 23/08/2025, 14:17:33
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for samsclub.com after 1 attempts. -> 23/08/2025, 14:17:33
+[Asset-Watcher] ✅ Finished crt.sh -> 23/08/2025, 14:17:34
+[Asset-Watcher] ℹ️ Starting user subdomains -> 23/08/2025, 14:17:35
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 23/08/2025, 14:17:36
+  [Asset-Watcher] ℹ️ No own subdomains found for samsclub.com -> 23/08/2025, 14:17:36
+[Asset-Watcher] ✅ Finished user subdomains -> 23/08/2025, 14:17:36
+[Asset-Watcher] ℹ️ Starting httpx -> 23/08/2025, 14:17:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'samsclub.com - nexovir'... -> 23/08/2025, 14:17:38
+[Asset-Watcher] ❌ HTTPx failed: Command '['httpx', '-l', 'asset_monitor/outputs/subdomains_httpx.txt', '-proxy', 'socks5h://127.0.0.1:1080', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '10', '-timeout', '4']' returned non-zero exit status 1. -> 23/08/2025, 14:28:31
+[Asset-Watcher] ✅ Finished httpx -> 23/08/2025, 14:28:32
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 23/08/2025, 14:28:33
+[Asset-Watcher] ✅ Finished cidrs scanning -> 23/08/2025, 14:28:34
+[Asset-Watcher] ℹ️ Starting httpx -> 23/08/2025, 14:28:49
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'samsclub.com - nexovir'... -> 23/08/2025, 14:28:50
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 23/08/2025, 14:49:40
+     [Asset-Watcher] ℹ️ Starting Save Httpx Results and Detect Changes -> 23/08/2025, 14:49:40
+[Asset-Watcher] ✅ Finished httpx -> 23/08/2025, 14:49:45
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 23/08/2025, 14:49:46
+[Asset-Watcher] ✅ Finished cidrs scanning -> 23/08/2025, 14:49:47
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 15:32:35
+  [INFO] Starting Katana for 'https://adlist-api-stg.cld.samsclub.com'... -> 23/08/2025, 15:32:36
+  [INFO] Starting Waybackurls for 'https://adlist-api-stg.cld.samsclub.com'... -> 23/08/2025, 15:33:08
+  [INFO] Starting Katana for 'https://adlist-api-wus.cld.samsclub.com'... -> 23/08/2025, 15:33:13
+  [INFO] Starting Waybackurls for 'https://adlist-api-wus.cld.samsclub.com'... -> 23/08/2025, 15:33:37
+  [INFO] Starting Katana for 'https://adlist-api-eus.cld.samsclub.com'... -> 23/08/2025, 15:33:41
+  [INFO] Starting Waybackurls for 'https://adlist-api-eus.cld.samsclub.com'... -> 23/08/2025, 15:34:06
+  [INFO] Starting Katana for 'https://adlist-api-stg-eus.cld.samsclub.com'... -> 23/08/2025, 15:34:10
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : new) -> 23/08/2025, 21:14:15
+  [INFO] Starting Katana for 'https://adlist-api-stg.cld.samsclub.com'... -> 23/08/2025, 21:14:16
+  [INFO] Starting Waybackurls for 'https://adlist-api-stg.cld.samsclub.com'... -> 23/08/2025, 21:14:41
+  [INFO] Starting Katana for 'https://adlist-api-wus.cld.samsclub.com'... -> 23/08/2025, 21:14:46
+  [INFO] Starting Waybackurls for 'https://adlist-api-wus.cld.samsclub.com'... -> 23/08/2025, 21:15:12
+  [INFO] Starting Katana for 'https://adlist-api-eus.cld.samsclub.com'... -> 23/08/2025, 21:15:18
+  [INFO] Starting Waybackurls for 'https://adlist-api-eus.cld.samsclub.com'... -> 23/08/2025, 21:15:35
+  [INFO] Starting Katana for 'https://adlist-api-stg-eus.cld.samsclub.com'... -> 23/08/2025, 21:15:35
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : new) -> 23/08/2025, 21:16:16
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 21:16:17
+  [INFO] Starting Katana for 'https://adlist-api-stg.cld.samsclub.com'... -> 23/08/2025, 21:16:18
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 21:16:18
+[Asset-Watcher] ℹ️ Starting subfinder -> 23/08/2025, 21:16:28
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 23/08/2025, 21:16:29
+  ℹ️ 1031 subs found for samsclub.com -> 23/08/2025, 21:17:42
+[Asset-Watcher] ✅ Finished subfinder -> 23/08/2025, 21:17:43
+[Asset-Watcher] ℹ️ Starting crt.sh -> 23/08/2025, 21:17:44
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'samsclub.com'... -> 23/08/2025, 21:17:45
+  [Asset-Watcher] ⚠️ No subdomains found for samsclub.com in Crt.sh (Attempt 1) -> 23/08/2025, 21:17:50
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for samsclub.com after 1/2 attempts. -> 23/08/2025, 21:17:50
+[Asset-Watcher] ✅ Finished crt.sh -> 23/08/2025, 21:17:51
+[Asset-Watcher] ℹ️ Starting user subdomains -> 23/08/2025, 21:17:52
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 23/08/2025, 21:17:53
+  [Asset-Watcher] ℹ️ No own subdomains found for samsclub.com -> 23/08/2025, 21:17:53
+[Asset-Watcher] ✅ Finished user subdomains -> 23/08/2025, 21:17:53
+[Asset-Watcher] ℹ️ Starting httpx -> 23/08/2025, 21:17:54
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'samsclub.com - nexovir'... -> 23/08/2025, 21:17:55
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : new) -> 23/08/2025, 21:18:34
+  [INFO] Starting Katana for 'https://www5.samsclub.com'... -> 23/08/2025, 21:18:35
+  [INFO] Starting Waybackurls for 'https://www5.samsclub.com'... -> 23/08/2025, 21:18:57
+  [INFO] Starting Katana for 'https://www.samsclub.com'... -> 23/08/2025, 21:19:07
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : new) -> 23/08/2025, 21:23:43
+  [INFO] Starting Katana for 'https://www5.samsclub.com'... -> 23/08/2025, 21:23:44
+  [INFO] Starting Waybackurls for 'https://www5.samsclub.com'... -> 23/08/2025, 21:24:09
+  [INFO] Starting Katana for 'https://www.samsclub.com'... -> 23/08/2025, 21:24:15
+  [INFO] Starting Waybackurls for 'https://www.samsclub.com'... -> 23/08/2025, 21:34:01
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 22:23:39
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : new) -> 23/08/2025, 22:23:40
+  [INFO] Starting Katana for 'https://www5.samsclub.com'... -> 23/08/2025, 22:23:41
+  [INFO] Starting Waybackurls for 'https://www5.samsclub.com'... -> 23/08/2025, 22:24:05
+  [INFO] Starting Katana for 'https://www.samsclub.com'... -> 23/08/2025, 22:24:11
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 22:25:25
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : new) -> 23/08/2025, 22:25:26
+  [INFO] Starting Katana for 'https://www5.samsclub.com'... -> 23/08/2025, 22:25:27
+  [INFO] Starting Waybackurls for 'https://www5.samsclub.com'... -> 23/08/2025, 22:25:51
+  [INFO] Starting Katana for 'https://www.samsclub.com'... -> 23/08/2025, 22:25:53
+  [INFO] Starting Waybackurls for 'https://www.samsclub.com'... -> 23/08/2025, 22:27:09
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 23/08/2025, 22:33:02
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: new) -> 23/08/2025, 22:33:03
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 22:38:17
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: new) -> 23/08/2025, 22:38:18
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: available) -> 23/08/2025, 22:38:19

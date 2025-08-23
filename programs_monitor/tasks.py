@@ -8,9 +8,10 @@ from .telegram_bot import *
 
 # if you want this 
 
-PROXY = 'socks5://127.0.0.1:2080'
-SIMPLE_PROXY = '127.0.0.1:2080'
-
+PROXIES = {
+    "http": "socks5h://127.0.0.1:1080",
+    "https": "socks5h://127.0.0.1:1080"
+}
 
 publicwatcher_summary = {
     "Bugcrowd" : 0,
@@ -33,7 +34,7 @@ def sendmessage(message: str, telegram: bool = True, colour: str = "YELLOW", log
         escaped_message = message.replace(' ', '+')
         command = (
             f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
-            f'-d "chat_id=-1002827285846&text=<code>{escaped_message}</code>&parse_mode=HTML&message_thread_id=1818"'
+            f'-d "chat_id=3012418787&text=<code>{escaped_message}</code>&parse_mode=HTML" --socks5-hostname 127.0.0.1:1080'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         time.sleep(1)
@@ -42,14 +43,14 @@ def sendmessage(message: str, telegram: bool = True, colour: str = "YELLOW", log
 
 
 def request(url: str, name:str ,  retries: int = 20, delay: int = 5) -> dict:
-    sendmessage (f"[Program-Watcher] [ℹ️] getting new programs from {name} ")
+    sendmessage (f"[Program-Watcher] ℹ️ getting new programs from {name} ")
     attempts = 0
     while attempts < retries:
         try:
-            response = requests.get(url)
+            response = requests.get(url , proxies=PROXIES, timeout=10)
             response.raise_for_status()
             data = response.json()
-            sendmessage(f"[Program-Watcher] [ℹ️] Connection OK" , colour='GREEN' , telegram=False)
+            sendmessage(f"[Program-Watcher] ℹ️ Connection OK" , colour='GREEN' , telegram=False)
             return data
         except (RequestException, json.JSONDecodeError) as e:
             sendmessage(f"  [Program-Watcher] ❌ Failed to retrieve data: {e}. Retrying in {delay} seconds...", colour='RED')
