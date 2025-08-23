@@ -41220,3 +41220,36 @@ Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 
 [Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 22:38:17
 [Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: new) -> 23/08/2025, 22:38:18
 [Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: available) -> 23/08/2025, 22:38:19
+[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes) -> 23/08/2025, 22:57:48
+[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes) -> 23/08/2025, 22:57:49
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:31:04
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:31:04
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:31:05
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:31:05
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:31:06
+[ERROR] Nuclei update failed: Command '['nuclei', '-update', '-ut', '-silent']' returned non-zero exit status 1. -> 23/08/2025, 23:31:07
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:31:07
+[ERROR] Nuclei update failed: Command '['nuclei', '-update', '-ut', '-silent']' returned non-zero exit status 1. -> 23/08/2025, 23:31:08
+[ERROR] Nuclei execution failed: Command '['nuclei', '-u', 'https://www5.samsclub.com', '-t', '/home/nexovir/nuclei-templates', '-p', 'socks5://127.0.0.1:1080', '-tags', 'osint', '-rate-limit', '150', '-json-export', 'vulnerability_monitor/outputs/nuclei_result.json', '-silent', '-duc']' returned non-zero exit status 1. on https://www5.samsclub.com -> 23/08/2025, 23:31:09
+[ERROR] Nuclei update failed: Command '['nuclei', '-update', '-ut', '-silent']' returned non-zero exit status 1. -> 23/08/2025, 23:31:09
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:32:01
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:32:01
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:32:01
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:32:02
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:32:02
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:32:02
+[ERROR] Nuclei update failed: Command '['sudo', 'nuclei', '-update', '-ut', '-silent']' returned non-zero exit status 1. -> 23/08/2025, 23:32:39
+[ERROR] Nuclei update failed: Command '['sudo', 'nuclei', '-update', '-ut', '-silent']' returned non-zero exit status 1. -> 23/08/2025, 23:32:39
+[ERROR] Nuclei update failed: Command '['sudo', 'nuclei', '-update', '-ut', '-silent']' returned non-zero exit status 1. -> 23/08/2025, 23:32:40
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:33:23
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:33:24
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:35:48
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:35:49
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:38:56
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:38:57
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:40:00
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:40:01
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:40:39
+[INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 23/08/2025, 23:40:40
+[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️ -> 23/08/2025, 23:52:54
+[INFO] Starting Nuclei Check on Subdomains HTTPX Results -> 23/08/2025, 23:52:55

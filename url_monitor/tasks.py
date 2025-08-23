@@ -156,11 +156,15 @@ def detect_urls_changes(self):
                     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
                 }
             )
-            new_body_hash = hashlib.sha256(response.content).hexdigest()
+            if url.ext in EXTS : 
+                new_body_hash = hashlib.sha256(response.content).hexdigest()
+            else : 
+                new_body_hash = ''
             new_status = str(response.status_code)
             new_query = url.query 
         except requests.RequestException:
             continue
+        
 
         if url.body_hash != new_body_hash:
             changes['body_hash_change'] = f"{url.body_hash} -> {new_body_hash}"
@@ -315,7 +319,7 @@ def url_monitor(self):
     discover_urls(self , 'available')
     discover_parameter(self , 'available')
     vulnerability_monitor(self , 'available')
-
+    
     detect_urls_changes(self)
 
     
