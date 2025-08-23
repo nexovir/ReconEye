@@ -20,7 +20,7 @@ publicwatcher_summary = {
     "Federacy" : 0,
 }
 
-def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", logger: bool = True):
+def sendmessage(message: str, telegram: bool = True, colour: str = "YELLOW", logger: bool = True):
     color = getattr(colorama.Fore, colour.upper(), colorama.Fore.YELLOW)
     print(color + message + colorama.Style.RESET_ALL)
 
@@ -32,32 +32,33 @@ def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", lo
     if telegram:
         escaped_message = message.replace(' ', '+')
         command = (
-            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage"'
-            f'-d "chat_id=5028701156&text={escaped_message}"'
+            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
+            f'-d "chat_id=-1002827285846&text=<code>{escaped_message}</code>&parse_mode=HTML&message_thread_id=1818"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        time.sleep(1)
 
 
 
 
 def request(url: str, name:str ,  retries: int = 20, delay: int = 5) -> dict:
-    sendmessage (f"[info] Getting {name} data ..."  )
+    sendmessage (f"[Program-Watcher] [ℹ️] getting new programs from {name} ")
     attempts = 0
     while attempts < retries:
         try:
             response = requests.get(url)
             response.raise_for_status()
             data = response.json()
-            sendmessage(f"      [info] Connection OK" , colour='GREEN')
+            sendmessage(f"[Program-Watcher] [ℹ️] Connection OK" , colour='GREEN' , telegram=False)
             return data
         except (RequestException, json.JSONDecodeError) as e:
-            sendmessage(f"  [error] Failed to retrieve data: {e}. Retrying in {delay} seconds...", colour='RED')
+            sendmessage(f"  [Program-Watcher] ❌ Failed to retrieve data: {e}. Retrying in {delay} seconds...", colour='RED')
             attempts += 1
             time.sleep(delay)
         except Exception as e:
-            sendmessage(f"  [error] An unexpected error occurred: {e}" , colour='RED')
+            sendmessage(f"  [Program-Watcher] ❌ An unexpected error occurred: {e}" , colour='RED')
             break
-    sendmessage(f"  [error] Failed to retrieve data after {retries} attempts." , colour='RED')
+    sendmessage(f"  [Program-Watcher] ❌ Failed to retrieve data after {retries} attempts." , colour='RED')
     return None
 
 
@@ -71,7 +72,7 @@ def delete_label (watcherprogram):
         DiscoverdProgram.objects.filter(watcher=watcherprogram).update(label='available')
 
     except Exception as e :
-        sendmessage(f"  [error] error while deleting label {e}", colour='RED')
+        sendmessage(f"  [Program-Watcher] ❌ error while deleting label {e}", colour='RED')
 
 
 
@@ -100,7 +101,7 @@ def get_bugcrowd_programs(data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Bugcrowd"] += 1
-            #asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
 
@@ -124,18 +125,18 @@ def get_bugcrowd_programs(data, watcherprogram):
                 try:
                     save_scope(program_obj, item, 'in_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] in_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ in_scope error: {e}", colour='RED')
 
             for item in program.get("targets", {}).get("out_of_scope", []):
                 try:
                     save_scope(program_obj, item, 'out_of_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] out_of_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ out_of_scope error: {e}", colour='RED')
 
-        sendmessage('       [+] Bugcrowd Data Inserting Successfully', colour='GREEN')
+        sendmessage('       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully', telegram=False, colour='GREEN')
 
     except Exception as e:
-        sendmessage(f'  [error] Error: {e}', colour='RED')
+        sendmessage(f'  [Program-Watcher] ❌ Error: {e}', colour='RED')
 
 
 
@@ -177,7 +178,7 @@ def get_hackerone_programs(data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Hackerone"] += 1
-            #asyncio.run(startbot(program_obj.name, item.get('asset_identifier' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            asyncio.run(startbot(program_obj.name, item.get('asset_identifier' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
     try:
@@ -199,18 +200,18 @@ def get_hackerone_programs(data, watcherprogram):
                 try:
                     save_scope(program_obj, item, 'in_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] in_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ in_scope error: {e}", colour='RED')
 
             for item in program.get("targets", {}).get("out_of_scope", []):
                 try:
                     save_scope(program_obj, item, 'out_of_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] out_of_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ out_of_scope error: {e}", colour='RED')
 
-        sendmessage('       [+] Hackerone Data Inserting Successfully', colour='GREEN')
+        sendmessage('       [Program-Watcher] ✅ Hackerone Data Inserting Successfully', colour='GREEN' , telegram=False)
 
     except Exception as e:
-        sendmessage(f"  [error] Error: {e}", colour='RED')
+        sendmessage(f"  [Program-Watcher] ❌ Error: {e}", colour='RED')
 
 
 
@@ -239,7 +240,7 @@ def get_federacy_programs(data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Federacy"] += 1
-            #asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
 
@@ -262,18 +263,18 @@ def get_federacy_programs(data, watcherprogram):
                 try:
                     save_scope(program_obj, item, 'in_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] in_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ in_scope error: {e}", colour='RED')
 
             for item in program.get("targets", {}).get("out_of_scope", []):
                 try:
                     save_scope(program_obj, item, 'out_of_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] out_of_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ out_of_scope error: {e}", colour='RED')
 
-        sendmessage('       [+] Federacy Data Inserting Successfully', colour='GREEN')
+        sendmessage('       [Program-Watcher] ✅ Federacy Data Inserting Successfully', colour='GREEN' , telegram=False)
 
     except Exception as e:
-        sendmessage(f"  [error] Error: {e}", colour='RED')
+        sendmessage(f"  [Program-Watcher] ❌ Error: {e}", colour='RED')
 
 
 
@@ -305,7 +306,7 @@ def get_intigriti_programs (data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Intigriti"] += 1
-            #asyncio.run(startbot(program_obj.name, item.get('endpoint' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            asyncio.run(startbot(program_obj.name, item.get('endpoint' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
 
@@ -328,18 +329,18 @@ def get_intigriti_programs (data, watcherprogram):
                 try:
                     save_scope(program_obj, item, 'in_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] in_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ in_scope error: {e}", colour='RED')
 
             for item in program.get("targets", {}).get("out_of_scope", []):
                 try:
                     save_scope(program_obj, item, 'out_of_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] out_of_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ out_of_scope error: {e}", colour='RED')
 
-        sendmessage('       [+] Intigriti Data Inserting Successfully', colour='GREEN')
+        sendmessage('       [Program-Watcher] ✅ Intigriti Data Inserting Successfully', colour='GREEN' , telegram=False)
 
     except Exception as e:
-        sendmessage(f"  [error] Error: {e}", colour='RED')
+        sendmessage(f"  [Program-Watcher] ❌ Error: {e}", colour='RED')
 
 
 
@@ -369,7 +370,7 @@ def get_yeswehack_programs (data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Yeswehack"] += 1
-            #asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), 'https://yeswehack.com' , scope_type , program_obj.type))
+            asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), 'https://yeswehack.com' , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
     try:
@@ -391,18 +392,18 @@ def get_yeswehack_programs (data, watcherprogram):
                 try:
                     save_scope(program_obj, item, 'in_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] in_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ in_scope error: {e}", colour='RED')
 
             for item in program.get("targets", {}).get("out_of_scope", []):
                 try:
                     save_scope(program_obj, item, 'out_of_scope')
                 except Exception as e:
-                    sendmessage(f"  [error] out_of_scope error: {e}", colour='RED')
+                    sendmessage(f"  [Program-Watcher] ❌ out_of_scope error: {e}", colour='RED')
 
-        sendmessage('       [+] Yeswehack Data Inserting Successfully', colour='GREEN')
+        sendmessage('       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully', colour='GREEN' , telegram=False)
 
     except Exception as e:
-        sendmessage(f"  [error] Error: {e}", colour='RED')
+        sendmessage(f"  [Program-Watcher] ❌ Error: {e}", colour='RED')
 
 
 
@@ -441,7 +442,7 @@ def check_programs():
             program.status = 'failed'
             program.save()
             
-            sendmessage(f'Error : {e}' , colour='RED')
+            sendmessage(f'[Program-Watcher] ❌ While Check Programs: {e}' , colour='RED')
         
     asyncio.run(send_summary_to_channel(publicwatcher_summary))
             

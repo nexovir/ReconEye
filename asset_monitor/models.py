@@ -26,7 +26,7 @@ TOOLS_NAME = [
     ('amass', 'Amass'),
     ('subfinder' , 'Subfinder'),
     ('dns_bruteforce', 'DNS Bruteforce'),
-    ('httpx', 'Httpx'),
+    ('httpx', 'HTTPX'),
     ('wabackurls', 'Wabackurls'),
     ('crt.sh', 'CRT.sh'),
 ]

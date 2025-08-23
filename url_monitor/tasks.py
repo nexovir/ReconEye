@@ -2,7 +2,7 @@ from celery import shared_task
 from .models import *
 from asset_monitor.models import *
 import subprocess , time , hashlib , requests
-from asset_monitor.tasks import sendmessage
+from programs_monitor.tasks import sendmessage
 from urllib.parse import urlparse
 import json
 from django.db.models import Case, When, Value, IntegerField
@@ -45,12 +45,12 @@ def run_fallparams(input : str , headers : list) -> list:
         return parameters
     
     except Exception as e:
-        sendmessage(f"  [ERROR] Error Fallparams {input} : {str(e)}", colour="RED")
+        sendmessage(f"  [Url-Watcher] ❌ Error Fallparams {input} : {str(e)}", colour="RED")
         return None
 
 def run_waybackurls (subdomain : str) -> list :
     sendmessage(f"  [INFO] Starting Waybackurls for '{subdomain}'...", telegram=False)
-    command = f"waybackurls {subdomain}"
+    command = f"waybackurls {subdomain} | uro"
     output = subprocess.run(
         command,
         shell=True,
@@ -88,14 +88,14 @@ def generate_body_hash(url: str) -> str:
 
 
 def discover_urls(self):
-    subdomains = DiscoverSubdomain.objects.order_by(
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW)" , colour='CYAN')
+    subdomains = SubdomainHttpx.objects.order_by(
     Case(
         When(label='new', then=Value(0)),
         default=Value(1),
         output_field=IntegerField(),
     ),
     )
-    sendmessage(f"[INFO] Starting Discover URLs on All Assets (order by NEW) for Discover New URLs", telegram=True , colour="CYAN")
 
     def insert_subdomains(subdomain_obj, urls):
         for url in urls:
@@ -115,7 +115,7 @@ def discover_urls(self):
                 status = None
 
             obj, created = Url.objects.get_or_create(
-                subdomain=subdomain_obj,
+                subdomain=subdomain_obj.discovered_subdomain,
                 path=clean_url.path,
                 defaults={
                     'query': clean_url.query,
@@ -130,13 +130,13 @@ def discover_urls(self):
                 obj.save()
 
     for subdomain in subdomains :
-        urls = run_katana(subdomain.subdomain) + run_waybackurls(subdomain.subdomain)
+        urls = run_katana(subdomain.httpx_result) + run_waybackurls(subdomain.httpx_result)
         insert_subdomains(subdomain , urls)
 
 
 
 def detect_urls_changes(self):
-    sendmessage(f"[INFO] Starting Detect URLs Changes ", telegram=True , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)", telegram=True , colour="CYAN")
 
     urls = Url.objects.all()
     
@@ -187,7 +187,7 @@ def detect_urls_changes(self):
 
 
 def discover_parameter(self):
-    sendmessage(f"[INFO] Starting Discover Parameters from Discovered Subdomains", telegram=True , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on All Assets (order_by NEW)", telegram=True , colour="CYAN")
     
     def parameters_insert_database(subdomain , parameters):
         for parameter in parameters :
@@ -212,7 +212,7 @@ def discover_parameter(self):
 
 def fuzz_parameters_on_urls(self):
     wildcards = WatchedWildcard.objects.all()
-    sendmessage(f"[INFO] Starting Fuzz Parameters on URLs (ordery_by NEW URLs)", telegram=True , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (ordery_by NEW)", telegram=True , colour="CYAN")
     def save_x8_output_from_file(url_instance , json_file_path, url):
 
         try:
@@ -238,11 +238,11 @@ def fuzz_parameters_on_urls(self):
                         obj.save()
 
         except json.JSONDecodeError as e:
-            sendmessage(f"[ERROR] Failed to decode JSON for {url_instance}: {str(e)}", colour="RED")
+            sendmessage(f"[Url-Watcher] ❌ Failed to decode JSON for {url_instance}: {str(e)}", colour="RED")
         except FileNotFoundError:
-            sendmessage(f"[ERROR] JSON file not found: {json_file_path}", colour="RED")
+            sendmessage(f"[Url-Watcher] ❌ JSON file not found: {json_file_path}", colour="RED")
         except Exception as e:
-            sendmessage(f"[ERROR] Failed to save parameters for {url_instance}: {str(e)}", colour="RED")
+            sendmessage(f"[Url-Watcher] ❌ Failed to save parameters for {url_instance}: {str(e)}", colour="RED")
 
     def run_x8(url_instance , url, parameters_path, headers):
         for method in ["GET", "POST"]:
@@ -274,9 +274,9 @@ def fuzz_parameters_on_urls(self):
                 save_x8_output_from_file(url_instance , output_file, url)
 
             except subprocess.CalledProcessError as e:
-                sendmessage(f"[ERROR] X8 failed on {url} with {method}: {e.stderr}", colour="RED")
+                sendmessage(f"[Url-Watcher] ❌ X8 failed on {url} with {method}: {e.stderr}", colour="RED")
             except Exception as e:
-                sendmessage(f"[ERROR] Unexpected error X8 {url} with {method}: {str(e)}", colour="RED")
+                sendmessage(f"[Url-Watcher] ❌ Unexpected error X8 {url} with {method}: {str(e)}", colour="RED")
 
 
     for wildcard in wildcards:

@@ -40798,3 +40798,238 @@ For more information try --help
 [INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 22/08/2025, 11:00:23
 [INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 22/08/2025, 11:00:23
 [INFO] Starting Nuclei Check on Subdomains HTTPX Result -> 22/08/2025, 11:05:13
+[info] Getting Bugcrowd data ... -> 22/08/2025, 13:28:48
+      [info] Connection OK -> 22/08/2025, 13:29:17
+       [+] Bugcrowd Data Inserting Successfully -> 22/08/2025, 13:30:12
+[info] Getting Federacy data ... -> 22/08/2025, 13:30:12
+      [info] Connection OK -> 22/08/2025, 13:30:25
+       [+] Federacy Data Inserting Successfully -> 22/08/2025, 13:30:27
+[info] Getting Hackerone data ... -> 22/08/2025, 13:30:27
+      [info] Connection OK -> 22/08/2025, 13:30:41
+       [+] Hackerone Data Inserting Successfully -> 22/08/2025, 13:41:39
+[info] Getting Intigriti data ... -> 22/08/2025, 13:41:39
+      [info] Connection OK -> 22/08/2025, 13:42:07
+       [+] Intigriti Data Inserting Successfully -> 22/08/2025, 13:42:31
+[info] Getting Yeswehack data ... -> 22/08/2025, 13:42:31
+      [info] Connection OK -> 22/08/2025, 13:42:44
+       [+] Yeswehack Data Inserting Successfully -> 22/08/2025, 13:43:04
+[info] Getting Bugcrowd data ... -> 22/08/2025, 14:28:02
+[info] Getting Bugcrowd data ... -> 22/08/2025, 14:28:39
+      [info] Connection OK -> 22/08/2025, 14:28:51
+  [error] in_scope error: can't change 'autocommit' now: connection in transaction status ACTIVE -> 22/08/2025, 14:29:01
+  [error] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] out_of_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+  [error] Error: sending query failed: another command is already in progress -> 22/08/2025, 14:29:01
+[info] Getting Federacy data ... -> 22/08/2025, 14:30:29
+      [info] Connection OK -> 22/08/2025, 14:30:40
+       [+] Federacy Data Inserting Successfully -> 22/08/2025, 14:30:41
+[info] Getting Hackerone data ... -> 22/08/2025, 14:30:41
+[info] Getting Hackerone data ... -> 22/08/2025, 14:30:58
+[info] Getting Hackerone data ... -> 22/08/2025, 14:30:59
+[info] Getting Hackerone data ... -> 22/08/2025, 14:31:37
+[info] Getting Hackerone data ... -> 22/08/2025, 14:31:49
+[info] Getting Hackerone data ... -> 22/08/2025, 14:32:08
+[info] Getting Hackerone data ... -> 22/08/2025, 14:32:10
+      [info] Connection OK -> 22/08/2025, 14:32:22
+      [info] Connection OK -> 22/08/2025, 14:32:22
+[Program-Watcher] [INFO] Getting Intigriti data ... -> 22/08/2025, 14:35:38
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:36:06
+       [Program-Watcher] [+] Intigriti Data Inserting Successfully -> 22/08/2025, 14:36:19
+[Program-Watcher] [INFO] Getting Yeswehack data ... -> 22/08/2025, 14:36:19
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:36:31
+       [Program-Watcher] [+] Yeswehack Data Inserting Successfully -> 22/08/2025, 14:36:44
+[Program-Watcher] [INFO] Getting Bugcrowd data ... -> 22/08/2025, 14:36:44
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:36:57
+       [Program-Watcher] [+] Bugcrowd Data Inserting Successfully -> 22/08/2025, 14:37:26
+[Program-Watcher] [INFO] Getting Federacy data ... -> 22/08/2025, 14:37:26
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:37:38
+       [Program-Watcher] [+] Federacy Data Inserting Successfully -> 22/08/2025, 14:37:40
+[Program-Watcher] [INFO] Getting Hackerone data ... -> 22/08/2025, 14:37:40
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:37:53
+       [Program-Watcher] [+] Hackerone Data Inserting Successfully -> 22/08/2025, 14:44:22
+[Program-Watcher] [INFO] getting new programs from Intigriti  -> 22/08/2025, 14:50:17
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:50:45
+       [Program-Watcher] [INFO] Intigriti Data Inserting Successfully -> 22/08/2025, 14:50:58
+[Program-Watcher] [INFO] getting new programs from Yeswehack  -> 22/08/2025, 14:50:58
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:51:11
+       [Program-Watcher] [INFO] Yeswehack Data Inserting Successfully -> 22/08/2025, 14:51:21
+[Program-Watcher] [INFO] getting new programs from Bugcrowd  -> 22/08/2025, 14:51:21
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:51:33
+       [Program-Watcher] [INFO] Bugcrowd Data Inserting Successfully -> 22/08/2025, 14:52:02
+[Program-Watcher] [INFO] getting new programs from Federacy  -> 22/08/2025, 14:52:02
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:52:14
+       [Program-Watcher] [INFO] Federacy Data Inserting Successfully -> 22/08/2025, 14:52:19
+[Program-Watcher] [INFO] getting new programs from Hackerone  -> 22/08/2025, 14:52:19
+[Program-Watcher] [INFO] Connection OK -> 22/08/2025, 14:52:32
+  [Program-Watcher] [ERROR] in_scope error: can't change 'autocommit' now: connection in transaction status ACTIVE -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:52
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:53
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:53
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:53
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:53
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:53
+  [Program-Watcher] [ERROR] in_scope error: sending query failed: another command is already in progress -> 22/08/2025, 14:56:53
+[INFO] Starting subfinder -> 22/08/2025, 14:57:05
+Process Subfinder error: get() returned more than one Tool -- it returned 2! -> 22/08/2025, 14:57:05
+[SUCCESS] Finished subfinder -> 22/08/2025, 14:57:05
+[INFO] Starting crt.sh -> 22/08/2025, 14:57:05
+[INFO] Attempt 1: Starting Crt.sh for 'samsclub.com'... -> 22/08/2025, 14:57:05
+  [TIMEOUT] Crt.sh took longer than 15s for samsclub.com (Attempt 1) -> 22/08/2025, 14:57:20
+  [ERROR] Failed to get subdomains from Crt.sh for samsclub.com after 1 attempts. -> 22/08/2025, 14:57:20
+[SUCCESS] Finished crt.sh -> 22/08/2025, 14:57:20
+[INFO] Starting user subdomains -> 22/08/2025, 14:57:20
+[INFO] Starting Insert user's subdomains -> 22/08/2025, 14:57:20
+  [INFO] No own subdomains found for samsclub.com -> 22/08/2025, 14:57:20
+[SUCCESS] Finished user subdomains -> 22/08/2025, 14:57:20
+[INFO] Starting httpx -> 22/08/2025, 14:57:20
+[SUCCESS] Finished httpx -> 22/08/2025, 14:57:20
+[INFO] Starting cidrs scanning -> 22/08/2025, 14:57:20
+[SUCCESS] Finished cidrs scanning -> 22/08/2025, 14:57:20
+[INFO] Starting subfinder -> 22/08/2025, 14:57:48
+[INFO] Starting Subfinder for 'samsclub.com'... -> 22/08/2025, 14:57:48
+  [+] 953 subs found for samsclub.com -> 22/08/2025, 15:02:52
+[Asset-Watcher] [INFO] Starting subfinder -> 22/08/2025, 15:10:17
+[Asset-Watcher] [INFO] Starting Subfinder for 'samsclub.com'... -> 22/08/2025, 15:10:17
+[Asset-Watcher] [INFO] Starting subfinder -> 22/08/2025, 15:10:19
+[Asset-Watcher] [INFO] Starting Subfinder for 'samsclub.com'... -> 22/08/2025, 15:10:19
+[Asset-Watcher] [INFO] Starting subfinder -> 22/08/2025, 15:10:37
+[Asset-Watcher] [INFO] Starting Subfinder for 'samsclub.com'... -> 22/08/2025, 15:10:37
+  [+] 1048 subs found for samsclub.com -> 22/08/2025, 15:11:41
+[Asset-Watcher] [SUCCESS] Finished subfinder -> 22/08/2025, 15:11:46
+[Asset-Watcher] [INFO] Starting crt.sh -> 22/08/2025, 15:11:46
+[Asset-Watcher] [INFO] Attempt 1: Starting CRT.sh for 'samsclub.com'... -> 22/08/2025, 15:11:46
+  [Asset-Watcher] [INFO] 640 subs found for samsclub.com -> 22/08/2025, 15:11:53
+[Asset-Watcher] [SUCCESS] Finished crt.sh -> 22/08/2025, 15:11:54
+[Asset-Watcher] [INFO] Starting user subdomains -> 22/08/2025, 15:11:54
+[Asset-Watcher] [INFO] Starting Insert user's subdomains -> 22/08/2025, 15:11:54
+  [Asset-Watcher] [INFO] No own subdomains found for samsclub.com -> 22/08/2025, 15:11:54
+[Asset-Watcher] [SUCCESS] Finished user subdomains -> 22/08/2025, 15:11:54
+[Asset-Watcher] [INFO] Starting httpx -> 22/08/2025, 15:11:54
+[Asset-Watcher] [SUCCESS] Finished httpx -> 22/08/2025, 15:11:54
+[Asset-Watcher] [INFO] Starting cidrs scanning -> 22/08/2025, 15:11:54
+[Asset-Watcher] [SUCCESS] Finished cidrs scanning -> 22/08/2025, 15:11:54
+[Asset-Watcher] [ℹ️] Starting subfinder -> 22/08/2025, 15:20:26
+[Asset-Watcher] [ℹ️] Starting Subfinder for 'samsclub.com'... -> 22/08/2025, 15:20:27
+[Asset-Watcher] ℹ️ Starting subfinder -> 22/08/2025, 15:22:25
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 22/08/2025, 15:22:26
+  ℹ️ 1032 subs found for samsclub.com -> 22/08/2025, 15:23:29
+[Asset-Watcher] ✅ Finished subfinder -> 22/08/2025, 15:23:31
+[Asset-Watcher] ℹ️ Starting crt.sh -> 22/08/2025, 15:23:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'samsclub.com'... -> 22/08/2025, 15:23:35
+  [Asset-Watcher] ℹ️ 640 subs found for samsclub.com -> 22/08/2025, 15:23:45
+[Asset-Watcher] ✅ Finished crt.sh -> 22/08/2025, 15:23:45
+[Asset-Watcher] ℹ️ Starting user subdomains -> 22/08/2025, 15:23:46
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 22/08/2025, 15:23:47
+  [Asset-Watcher] ℹ️ No own subdomains found for samsclub.com -> 22/08/2025, 15:23:47
+[Asset-Watcher] ✅ Finished user subdomains -> 22/08/2025, 15:23:47
+[Asset-Watcher] ℹ️ Starting httpx -> 22/08/2025, 15:23:48
+[Asset-Watcher] ✅ Finished httpx -> 22/08/2025, 15:23:49
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 22/08/2025, 15:23:50
+[Asset-Watcher] ✅ Finished cidrs scanning -> 22/08/2025, 15:23:51
+[Asset-Watcher] ℹ️ Starting subfinder -> 22/08/2025, 15:26:18
+[Asset-Watcher] ℹ️ Starting Subfinder for 'samsclub.com'... -> 22/08/2025, 15:26:19
+  ℹ️ 1047 subs found for samsclub.com -> 22/08/2025, 15:27:25
+[Asset-Watcher] ✅ Finished subfinder -> 22/08/2025, 15:27:27
+[Asset-Watcher] ℹ️ Starting crt.sh -> 22/08/2025, 15:27:28
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'samsclub.com'... -> 22/08/2025, 15:27:29
+  [Asset-Watcher] [TIMEOUT] Crt.sh took longer than 15s for samsclub.com (Attempt 1) -> 22/08/2025, 15:27:44
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for samsclub.com after 1 attempts. -> 22/08/2025, 15:27:44
+[Asset-Watcher] ✅ Finished crt.sh -> 22/08/2025, 15:27:45
+[Asset-Watcher] ℹ️ Starting user subdomains -> 22/08/2025, 15:27:46
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 22/08/2025, 15:27:47
+  [Asset-Watcher] ℹ️ No own subdomains found for samsclub.com -> 22/08/2025, 15:27:47
+[Asset-Watcher] ✅ Finished user subdomains -> 22/08/2025, 15:27:47
+[Asset-Watcher] ℹ️ Starting httpx -> 22/08/2025, 15:27:48
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'samsclub.com - nexovir'... -> 22/08/2025, 15:27:49
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 22/08/2025, 15:37:24
+     [Asset-Watcher] ℹ️ Starting Save Httpx Results and Detect Changes -> 22/08/2025, 15:37:24
+[Asset-Watcher] ✅ Finished httpx -> 22/08/2025, 15:37:32
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 22/08/2025, 15:37:33
+[Asset-Watcher] ✅ Finished cidrs scanning -> 22/08/2025, 15:37:34
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 10:42:36
+[INFO] Starting Discover URLs on All Assets (order by NEW) for Discover New URLs -> 23/08/2025, 10:42:37
+  [INFO] Starting Katana for 'dev.scus.cld.samsclub.com'... -> 23/08/2025, 10:42:38
+  [INFO] Starting Waybackurls for 'dev.scus.cld.samsclub.com'... -> 23/08/2025, 10:42:54
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 10:44:39
+  [INFO] Starting Katana for 'dev.scus.cld.samsclub.com'... -> 23/08/2025, 10:44:40
+  [INFO] Starting Waybackurls for 'dev.scus.cld.samsclub.com'... -> 23/08/2025, 10:45:03
+  [INFO] Starting Katana for 'freeport-stg-wus.cld.samsclub.com'... -> 23/08/2025, 10:45:44
+  [INFO] Starting Waybackurls for 'freeport-stg-wus.cld.samsclub.com'... -> 23/08/2025, 10:45:56
+  [INFO] Starting Katana for 'freeport.cld.samsclub.com'... -> 23/08/2025, 10:46:02
+  [INFO] Starting Waybackurls for 'freeport.cld.samsclub.com'... -> 23/08/2025, 10:46:14
+  [INFO] Starting Katana for 'membership.samsclub.com'... -> 23/08/2025, 10:46:21
+  [INFO] Starting Waybackurls for 'membership.samsclub.com'... -> 23/08/2025, 10:46:32
+  [INFO] Starting Katana for 'giving.samsclub.com'... -> 23/08/2025, 10:46:46
+  [INFO] Starting Waybackurls for 'giving.samsclub.com'... -> 23/08/2025, 10:47:08
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 10:49:04
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 10:49:30
+  [INFO] Starting Katana for 'https://Samsclub.com'... -> 23/08/2025, 10:49:31
+  [INFO] Starting Waybackurls for 'https://Samsclub.com'... -> 23/08/2025, 10:49:43
+[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (order_by NEW) -> 23/08/2025, 11:15:03
+  [INFO] Starting Katana for 'https://Samsclub.com'... -> 23/08/2025, 11:15:04
+  [INFO] Starting Waybackurls for 'https://Samsclub.com'... -> 23/08/2025, 11:15:17
