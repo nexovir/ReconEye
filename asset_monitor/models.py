@@ -280,8 +280,8 @@ class SubdomainHttpxChanges(BaseModel):
         return f"{self.discovered_subdomain.subdomain} - {self.label}"
 
     class Meta:
-        verbose_name = 'Subdomain Httpx Changes'
-        verbose_name_plural = 'Subdomain Httpxes Changes'
+        verbose_name = 'Subdomain HTTPX Changes'
+        verbose_name_plural = 'Subdomains HTTPX Changes'
 
 
 

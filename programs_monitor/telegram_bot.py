@@ -5,13 +5,11 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Bot
 from telegram.request import HTTPXRequest
 import nest_asyncio
 
-PROXY_URL = "socks5h://127.0.0.1:1080"
 
 request = HTTPXRequest(
     connect_timeout=10,
     read_timeout=10,
     pool_timeout=30,
-    proxy=PROXY_URL   # ← فقط یک رشته
 )
 
 nest_asyncio.apply()
@@ -25,7 +23,6 @@ request = HTTPXRequest(
     connect_timeout=10,
     read_timeout=10,
     pool_timeout=30,
-    proxy= PROXY_URL
 )
 
 bot = Bot(token=BOT_TOKEN, request=request)

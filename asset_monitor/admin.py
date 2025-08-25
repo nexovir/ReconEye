@@ -3,6 +3,16 @@ from .models import *
 from nested_admin import NestedTabularInline, NestedModelAdmin
 
 
+@admin.action(description="Set label to 'New'")
+def make_label_new(modeladmin, request, queryset):
+    queryset.update(label="new")
+
+@admin.action(description="Set label to 'Available'")
+def make_label_available(modeladmin, request, queryset):
+    queryset.update(label="available")
+
+
+
 class RequestHeadersInline(admin.TabularInline):
     model = RequestHeaders
     extra = 0
@@ -55,14 +65,16 @@ class DiscoverSubdomainAdmin(admin.ModelAdmin):
     ordering = ('-label',)
     list_filter = ('tool','wildcard__watcher__user__username' , 'label')
     inlines = [RequestHeadersInline]
-
+    actions = [make_label_new , make_label_available]
+    
 
 @admin.register(SubdomainHttpx)
 class SubdomainHttpxAdmin(admin.ModelAdmin):
     list_display = ('id','httpx_result','label', 'status_code','server' ,'title', 'ip_address', 'port')
     list_filter = ('status_code', 'port' , 'label')
-    search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title')
-    ordering = ['-created_at']
+    search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title' , 'technologies')
+    ordering = ['-label']
+    actions = [make_label_new , make_label_available]
 
 
 @admin.register(SubdomainHttpxChanges)
@@ -81,14 +93,14 @@ class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
                     'header_hash_change' , 
                     'has_cdn_change']
     ordering = ['-updated_at']
+    actions = [make_label_new , make_label_available]
 
 
 
-
-# @admin.register(Ports)
-# class PortsAdmin(admin.ModelAdmin):
-#     list_display = ('port' ,)
-#     search_fields = ('port' ,)
+@admin.register(Ports)
+class PortsAdmin(admin.ModelAdmin):
+    list_display = ('port' ,)
+    search_fields = ('port' ,)
 
 
 @admin.register(DiscoverdServices)

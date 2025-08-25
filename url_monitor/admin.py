@@ -3,6 +3,16 @@ from django.contrib.admin import register
 from .models import *
 from django.utils.html import format_html
 
+@admin.action(description="Set label to 'New'")
+def make_label_new(modeladmin, request, queryset):
+    queryset.update(label="new")
+
+@admin.action(description="Set label to 'Available'")
+def make_label_available(modeladmin, request, queryset):
+    queryset.update(label="available")
+
+
+
 
 @register(Url)
 class UrlAdmin(admin.ModelAdmin):
@@ -10,6 +20,7 @@ class UrlAdmin(admin.ModelAdmin):
     search_fields = ['subdomain__subdomain' , 'path' ]
     list_filter = ['label' , 'ext' , 'status']
     ordering = ['-label']
+    actions = [make_label_new , make_label_available]
 
     def short_url(self, obj):
         return format_html('<a href="{}" target="_blank">Click here</a>', obj.url)
@@ -31,7 +42,8 @@ class UrlChangesAdmin(admin.ModelAdmin):
 class ParameterAdmin(admin.ModelAdmin):
     list_display = ['url' , 'method' , 'status' , 'parameter' , 'reason_kind' , 'injection_place' , 'label' , 'short_url']
     list_filter = ['label' , 'injection_place' , 'method' , 'status' , 'reason_kind']
-
+    ordering = ['-label']
+    
     def short_url(self, obj):
         return format_html('<a href="{}" target="_blank">Click here</a>', obj.url.url)
     short_url.short_description = 'URL'
@@ -43,3 +55,5 @@ class SubdomainParameterAdmin(admin.ModelAdmin):
     search_fields = ['wildcard' , 'path' ]
     list_filter = ['label']
     list_per_page = 100
+
+    ordering = ['-label']

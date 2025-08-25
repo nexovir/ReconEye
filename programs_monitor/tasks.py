@@ -34,7 +34,7 @@ def sendmessage(message: str, telegram: bool = True, colour: str = "YELLOW", log
         escaped_message = message.replace(' ', '+')
         command = (
             f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
-            f'-d "chat_id=3012418787&text=<code>{escaped_message}</code>&parse_mode=HTML" --socks5-hostname 127.0.0.1:1080'
+            f'-d "chat_id=-1002827285846&text=<code>{escaped_message}</code>&parse_mode=HTML&message_thread_id=1818"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         time.sleep(1)
@@ -47,7 +47,7 @@ def request(url: str, name:str ,  retries: int = 20, delay: int = 5) -> dict:
     attempts = 0
     while attempts < retries:
         try:
-            response = requests.get(url , proxies=PROXIES, timeout=10)
+            response = requests.get(url , timeout=10)
             response.raise_for_status()
             data = response.json()
             sendmessage(f"[Program-Watcher] ℹ️ Connection OK" , colour='GREEN' , telegram=False)

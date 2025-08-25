@@ -24,7 +24,7 @@ def clear_services_labels():
 def run_subfinder(domain):
     try:
         sendmessage(f"[Asset-Watcher] ℹ️ Starting Subfinder for '{domain}'..." , telegram=False)
-        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 60 -proxy {PROXIES['http']}| dnsx -silent").read()
+        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 60 | dnsx -silent").read()
         subdomains = [line.strip() for line in output.splitlines() if line.strip()]
         sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram=False)
         return subdomains
@@ -38,7 +38,7 @@ def run_crtsh(domain, retries=1, timeout=15):
         try:
             sendmessage(f"[Asset-Watcher] ℹ️ Attempt {attempt}: Starting CRT.sh for '{domain}'...", telegram=False)
 
-            command = f"curl -s 'https://crt.sh/?q={domain}&output=json --socks5 {PROXIES['http']}' | jq -r '.[].name_value' | sort -u | dnsx -silent"
+            command = f"curl -s 'https://crt.sh/?q={domain}&output=json | jq -r '.[].name_value' | sort -u | dnsx -silent"
 
             output = subprocess.run(
                 command,
@@ -99,7 +99,6 @@ def run_httpx(watcher_wildcard, input_file_path):
         command = [
             'httpx',
             '-l', input_file_path,
-            '-proxy',PROXIES['http'],
             '-title',
             '-status-code',
             '-hash', 'md5',
@@ -141,7 +140,6 @@ def parse_httpx_jsonl(file_path):
 
 
 def save_httpx_results(results):
-    sendmessage(f"     [Asset-Watcher] ℹ️ Starting Save Httpx Results and Detect Changes", colour='GREEN')
 
     for item in results:
         domain = item.get("input")
@@ -251,6 +249,7 @@ def export_for_httpx(subdomains , file):
         sendmessage(f"[Asset-Watcher] ❌ Error Export domains for Httpx {e}" , colour='RED')
 
 
+
 def process_subfinder(domains):
     try:
         tool = Tool.objects.get(tool_name='subfinder')
@@ -276,7 +275,8 @@ def process_subfinder(domains):
                 wildcard.status = 'completed'
                 wildcard.save()
     except Exception as e:
-        sendmessage(f"[Asset-Watcher] ❌Process Subfinder error: {e}", colour='RED')
+        sendmessage(f"[Asset-Watcher] ❌ Process Subfinder error: {e}", colour='RED')
+
 
 
 def process_crtsh(domains):
@@ -519,7 +519,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
         try:
             result = subprocess.run(
-                ['naabu', '-host', cidr, '-p', ports, '-proxy', PROXIES['http'] ,'-silent'],
+                ['naabu', '-host', cidr, '-p', ports,'-silent'],
                 capture_output=True, text=True, check=True
             )
         except subprocess.CalledProcessError as e:

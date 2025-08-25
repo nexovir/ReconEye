@@ -5,7 +5,7 @@ import subprocess , time , hashlib , requests , json
 from urllib.parse import urlparse 
 from django.db.models import Case, When, Value, IntegerField
 from vulnerability_monitor.tasks import read_write_list
-from programs_monitor.tasks import sendmessage , PROXIES
+from programs_monitor.tasks import sendmessage
 from vulnerability_monitor.tasks import *
 
 
@@ -24,7 +24,6 @@ def run_fallparams(input : str , headers : list) -> list:
         command = [
             "fallparams",
             "-u", input,
-            "-proxy","socks5://127.0.0.1:1080",
             "-X", "GET",
             "-X", "POST",
             "-silent",
@@ -51,29 +50,40 @@ def run_fallparams(input : str , headers : list) -> list:
         return None
 
 def run_waybackurls (subdomain : str) -> list :
-    sendmessage(f"  [INFO] Starting Waybackurls for '{subdomain}'...", telegram=False)
-    command = f"proxychains waybackurls {subdomain} | uro | sort -u"
-    output = subprocess.run(
-        command,
-        shell=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        timeout=120,
-        text=True
-    )
+    sendmessage(f"  [Url-Watcher] ℹ️ Starting Waybackurls for '{subdomain}'...", telegram=False)
+    command = f"waybackurls {subdomain} | uro | sort -u"
+    try : 
+        output = subprocess.run(
+            command,
+            shell=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=2000,
+            text=True
+        )
+    except Exception as e:
+        sendmessage(f"  [Url-Watcher] ❌ Error Waybackurls {subdomain} : {str(e)}", colour="RED")
+        return None
+
     return(output.stdout.splitlines())
 
 def run_katana(subdomain : str) -> list :
-    sendmessage(f"  [INFO] Starting Katana for '{subdomain}'...", telegram=False)
+    sendmessage(f"  [Url-Watcher] ℹ️ Starting Katana for '{subdomain}'...", telegram=False)
     command = f"nice-katana {subdomain} | uro | sort -u"
-    output = subprocess.run(
-        command,
-        shell=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        timeout=600,
-        text=True
-    )
+    try : 
+        output = subprocess.run(
+            command,
+            shell=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=2000,
+            text=True
+        )
+
+    except Exception as e:
+        sendmessage(f"  [Url-Watcher] ❌ Error Katana {subdomain} : {str(e)}", colour="RED")
+        return None
+
     return(output.stdout.splitlines())
 
 
@@ -82,7 +92,6 @@ def generate_body_hash(url: str) -> str:
         response = requests.get(url, timeout=30, verify=True, headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36",
         "Cache-Control": "no-cache","Pragma": "no-cache"},
-        proxies=PROXIES
     )
         body_bytes = response.content 
         return hashlib.sha256(body_bytes).hexdigest()
@@ -127,11 +136,10 @@ def discover_urls(self, label):
                 obj.label = "new"   
                 obj.save()
 
-    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery on All Assets (label : {label})" , colour='CYAN')
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})" , colour='CYAN')
     subdomains = SubdomainHttpx.objects.filter(label=label)
     
     for subdomain in subdomains :
-        print(subdomain)
         urls = run_katana(subdomain.httpx_result) + run_waybackurls(subdomain.httpx_result)
         insert_subdomains(subdomain , urls)
 
@@ -205,14 +213,13 @@ def discover_parameter(self , label):
                 obj.label = "new"   
                 obj.save()
     
-    subdomains = DiscoverSubdomain.objects.filter(label=label)
+    subdomains = SubdomainHttpx.objects.filter(label=label)
     
     for subdomain in subdomains :
-        print(subdomain)
-        headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
-        read_write_list(list(subdomain.url_set.values_list('url', flat=True)) , f"{OUTPUT_PATH}/urls.txt" , 'w')
+        headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain.discovered_subdomain).values_list('header', flat=True))
+        read_write_list(list(subdomain.discovered_subdomain.url_set.values_list('url', flat=True)) , f"{OUTPUT_PATH}/urls.txt" , 'w')
         parameters = run_fallparams(f"{OUTPUT_PATH}/urls.txt" , headers)
-        parameters_insert_database (subdomain , parameters)
+        parameters_insert_database (subdomain.discovered_subdomain , parameters)
 
 
 
@@ -308,16 +315,16 @@ def fuzz_parameters_on_urls(self , label):
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
     clear_labels(self)
-    sendmessage(f"[Url-Monitoring] ⚠️ Url Monitoring Will be Started Please add Valid Headers ⚠️")
+    sendmessage(f"[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
 
     discover_urls(self , 'new')
     discover_parameter(self , 'new')
     fuzz_parameters_on_urls(self , 'new')
     vulnerability_monitor('new')
-
-    fuzz_parameters_on_urls(self , 'available')
-    discover_urls(self , 'available')
+    
+    # discover_urls(self , 'available') #Becarefull you should disable it
     discover_parameter(self , 'available')
+    fuzz_parameters_on_urls(self , 'available')
     vulnerability_monitor(self , 'available')
     
     detect_urls_changes(self)

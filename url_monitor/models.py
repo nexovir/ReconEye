@@ -27,13 +27,13 @@ EXTENSION = [
 
 class Url(BaseModel):
     subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE)
-    url = models.CharField(max_length=600, null=False , blank=False)
-    path = models.CharField(max_length=300 , null=False , blank=True)
-    query = models.CharField(max_length=300 , null=False , blank=True)
-    status = models.CharField(max_length=100 , blank=True , null=True)
-    ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
-    body_hash = models.CharField(max_length=300 , null=True , blank=True)
-    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+    url = models.CharField(null=False , blank=False)
+    path = models.CharField(null=False , blank=True)
+    query = models.CharField(null=False , blank=True)
+    status = models.CharField(blank=True , null=True)
+    ext = models.CharField(choices=EXTENSION , default='none')
+    body_hash = models.CharField(null=True , blank=True)
+    label = models.CharField(choices=LABELS , default='new')
 
     def __str__(self):
         return f"{self.subdomain} - {self.ext}"
@@ -45,11 +45,11 @@ class Url(BaseModel):
 
 class UrlChanges(BaseModel):
     url = models.ForeignKey(Url , on_delete=models.CASCADE)
-    query_change = models.CharField(max_length=1000 , null=True , blank=True)
-    body_hash_change = models.CharField(max_length=300 , null=True , blank=True)
-    status_change = models.CharField(max_length=100 , null=True , blank=True)
-    label = models.CharField(max_length=150 , choices=LABELS , default='new')
-    ext = models.CharField(max_length=150 , choices=EXTENSION , default='none')
+    query_change = models.CharField(null=True , blank=True)
+    body_hash_change = models.CharField(null=True , blank=True)
+    status_change = models.CharField(null=True , blank=True)
+    label = models.CharField(choices=LABELS , default='new')
+    ext = models.CharField(choices=EXTENSION , default='none')
 
     def __str__(self):
         return f"{self.url} -> {self.ext}"
@@ -61,12 +61,12 @@ class UrlChanges(BaseModel):
 
 class Parameter(BaseModel) :
     url = models.ForeignKey(Url , on_delete=models.CASCADE)
-    method = models.CharField(max_length=100 , null=True , blank=True)
-    status = models.CharField(max_length=100 , blank=True , null=True)
-    parameter = models.CharField(max_length=1000 , blank=True , null=True)
-    reason_kind = models.CharField(max_length=100 , blank=True , null=True)
-    injection_place = models.CharField(max_length=1000 , blank=True , null=True)
-    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+    method = models.CharField(null=True , blank=True)
+    status = models.CharField(blank=True , null=True)
+    parameter = models.CharField(blank=True , null=True)
+    reason_kind = models.CharField(blank=True , null=True)
+    injection_place = models.CharField(blank=True , null=True)
+    label = models.CharField(choices=LABELS , default='new')
     
     def __str__(self):
         return f"{self.url} : {self.method} - {self.parameter}"
@@ -78,8 +78,8 @@ class Parameter(BaseModel) :
 
 class SubdomainParameter(BaseModel):
     wildcard = models.ForeignKey(WatchedWildcard , on_delete=models.CASCADE , null=True , blank=True)
-    parameter = models.CharField(max_length=500 , null=False , blank=False)
-    label = models.CharField(max_length=150 , choices=LABELS , default='new')
+    parameter = models.CharField(null=False , blank=False)
+    label = models.CharField(choices=LABELS , default='new')
     
     def __str__(self):
         return f"{self.parameter} - {self.wildcard}"
