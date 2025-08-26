@@ -1,4 +1,4 @@
-from celery import shared_task
+from celery import shared_task , chain
 from .models import *
 from asset_monitor.models import *
 import subprocess , time , hashlib , requests , json
@@ -300,6 +300,7 @@ def fuzz_parameters_on_urls(self , label):
         subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard , label=label)
         
         for subdomain in subdomains:
+            sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs", telegram=False , colour="CYAN")
             headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
             urls = Url.objects.filter(subdomain=subdomain).order_by(
             Case(
@@ -312,21 +313,43 @@ def fuzz_parameters_on_urls(self , label):
 
 
 
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+def discover_urls_task(self, label):
+    return discover_urls(self, label)
+
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+def discover_parameter_task(self, label):
+    return discover_parameter(self, label)
+
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+def fuzz_parameters_on_urls_task(self, label):
+    return fuzz_parameters_on_urls(self, label)
+
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+def vulnerability_monitor_task(self, label):
+    return vulnerability_monitor(label)
+
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+def detect_urls_changes_task(self):
+    return detect_urls_changes(self)
+
+
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
     clear_labels(self)
-    sendmessage(f"[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
+    sendmessage("[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
 
-    discover_urls(self , 'new')
-    discover_parameter(self , 'new')
-    fuzz_parameters_on_urls(self , 'new')
-    vulnerability_monitor('new')
-    
-    # discover_urls(self , 'available') #Becarefull you should disable it
-    discover_parameter(self , 'available')
-    fuzz_parameters_on_urls(self , 'available')
-    vulnerability_monitor(self , 'available')
-    
-    detect_urls_changes(self)
-
-    
+    workflow = chain(
+        discover_urls_task.s('new'),
+        discover_parameter_task.s('new'),
+        fuzz_parameters_on_urls_task.s('new'),
+        vulnerability_monitor_task.s('new'),
+        
+        discover_urls_task.s('available'),
+        discover_parameter_task.s('available'),
+        fuzz_parameters_on_urls_task.s('available'),
+        vulnerability_monitor_task.s('available'),
+        
+        detect_urls_changes_task.s()
+    )
+    workflow.apply_async()
