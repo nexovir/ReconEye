@@ -286,7 +286,7 @@ def fuzz_parameters_on_urls(self , label):
                     process.kill()
                     stdout, stderr = process.communicate()
                     sendmessage(f"[Url-Watcher] ⏱ Timeout X8 {url} with {method}", colour="RED")
-                    continue  # بریم سراغ متد بعدی
+                    continue 
 
                 if process.returncode != 0:
                     sendmessage(f"[Url-Watcher] ❌ X8 failed on {url} with {method}: {stderr.strip()}", colour="RED")
@@ -350,13 +350,13 @@ def url_monitor(self):
     workflow = chain(
         discover_urls_task.s('new'),
         discover_parameter_task.s('new'),
-        fuzz_parameters_on_urls_task.s('new'),
-        vulnerability_monitor_task.s('new'),
+        # fuzz_parameters_on_urls_task.s('new'),
+        # vulnerability_monitor_task.s('new'),
 
         discover_urls_task.s('available'),
         discover_parameter_task.s('available'),
         # fuzz_parameters_on_urls_task.s('available'),
-        vulnerability_monitor_task.s('available'),
+        # vulnerability_monitor_task.s('available'),
         
         detect_urls_changes_task.s()
     )

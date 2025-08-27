@@ -29,6 +29,7 @@ TOOLS_NAME = [
     ('httpx', 'HTTPX'),
     ('wabackurls', 'Wabackurls'),
     ('crt.sh', 'CRT.sh'),
+    ('narrow_monitor' , 'Narrow Monitor')
 ]
 
 PORTS = [
