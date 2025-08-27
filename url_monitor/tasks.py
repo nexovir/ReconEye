@@ -49,42 +49,40 @@ def run_fallparams(input : str , headers : list) -> list:
         sendmessage(f"  [Url-Watcher] ❌ Error Fallparams {input} : {str(e)}", colour="RED")
         return None
 
-def run_waybackurls (subdomain : str) -> list :
-    sendmessage(f"  [Url-Watcher] ℹ️ Starting Waybackurls for '{subdomain}'...", telegram=False)
-    command = f"waybackurls {subdomain} | uro | sort -u"
-    try : 
-        output = subprocess.run(
-            command,
-            shell=True,
+
+
+def run_command(cmd_list: list, timeout: int = 2000) -> list:
+    try:
+        process = subprocess.Popen(
+            cmd_list,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            timeout=2000,
-            text=True
+            text=True,
         )
+        stdout, stderr = process.communicate(timeout=timeout)
+        if stderr.strip():
+            sendmessage(f"[Url-Watcher] ⚠️ Command error: {stderr.strip()}", colour="YELLOW")
+        return [line.strip() for line in stdout.splitlines() if line.strip()]
+    except subprocess.TimeoutExpired:
+        process.kill()
+        stdout, _ = process.communicate()
+        sendmessage(f"[Url-Watcher] ⏱ Timeout running: {' '.join(cmd_list)}", colour="RED")
+        return []
     except Exception as e:
-        sendmessage(f"  [Url-Watcher] ❌ Error Waybackurls {subdomain} : {str(e)}", colour="RED")
-        return None
+        sendmessage(f"[Url-Watcher] ❌ Failed running: {' '.join(cmd_list)} - {str(e)}", colour="RED")
+        return []
 
-    return(output.stdout.splitlines())
 
-def run_katana(subdomain : str) -> list :
-    sendmessage(f"  [Url-Watcher] ℹ️ Starting Katana for '{subdomain}'...", telegram=False)
-    command = f"nice-katana {subdomain} | uro | sort -u"
-    try : 
-        output = subprocess.run(
-            command,
-            shell=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            timeout=2000,
-            text=True
-        )
 
-    except Exception as e:
-        sendmessage(f"  [Url-Watcher] ❌ Error Katana {subdomain} : {str(e)}", colour="RED")
-        return None
+def run_waybackurls(subdomain: str) -> list:
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Waybackurls for '{subdomain}'...")
+    return run_command(["waybackurls", subdomain])
 
-    return(output.stdout.splitlines())
+
+def run_katana(subdomain: str) -> list:
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Katana for '{subdomain}'...")
+    return run_command(["nice-katana", subdomain])
+
 
 
 def generate_body_hash(url: str) -> str:
@@ -104,16 +102,16 @@ def discover_urls(self, label):
     def insert_subdomains(subdomain_obj, urls):
         for url in urls:
             clean_url = urlparse(url)
-            matched_ext = 'none'
+            matched_ext = "none"
             for ext in EXTENSION:
                 if clean_url.path.endswith(ext[1]):
                     matched_ext = ext[0]
-                    break  
+                    break
 
             if matched_ext in EXTS:
                 new_body_hash = generate_body_hash(url)
-            else :
-                new_body_hash = ''
+            else:
+                new_body_hash = ""
 
             try:
                 resp = requests.get(url, timeout=10)
@@ -125,28 +123,30 @@ def discover_urls(self, label):
                 subdomain=subdomain_obj.discovered_subdomain,
                 path=clean_url.path,
                 defaults={
-                    'query': clean_url.query,
-                    'ext': matched_ext,
-                    'url': url,
-                    'body_hash' : new_body_hash,
-                    'status': status
-                }
+                    "query": clean_url.query,
+                    "ext": matched_ext,
+                    "url": url,
+                    "body_hash": new_body_hash,
+                    "status": status,
+                },
             )
             if created:
-                obj.label = "new"   
+                obj.label = "new"
                 obj.save()
 
-    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})" , colour='CYAN')
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})", colour="CYAN")
     subdomains = SubdomainHttpx.objects.filter(label=label)
-    
-    for subdomain in subdomains :
-        urls = run_katana(subdomain.httpx_result) + run_waybackurls(subdomain.httpx_result)
-        insert_subdomains(subdomain , urls)
+
+    for subdomain in subdomains:
+        katana_urls = run_katana(subdomain.httpx_result)
+        wayback_urls = run_waybackurls(subdomain.httpx_result)
+        urls = katana_urls + wayback_urls
+        insert_subdomains(subdomain, urls)
 
 
 
 def detect_urls_changes(self):
-    sendmessage(f"[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)", telegram=True , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)" , colour="CYAN")
 
     urls = Url.objects.all()
     
@@ -201,7 +201,7 @@ def detect_urls_changes(self):
 
 
 def discover_parameter(self , label):
-    sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: {label})", telegram=True , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: {label})" , colour="CYAN")
     
     def parameters_insert_database(subdomain , parameters):
         for parameter in parameters :
@@ -227,7 +227,6 @@ def discover_parameter(self , label):
 def fuzz_parameters_on_urls(self , label):
 
     def save_x8_output_from_file(url_instance , json_file_path, url):
-
         try:
             with open(json_file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -246,7 +245,7 @@ def fuzz_parameters_on_urls(self , label):
                             "injection_place": injection_place
                         }
                     )
-                    if created :
+                    if created:
                         obj.label = 'new'
                         obj.save()
 
@@ -260,39 +259,46 @@ def fuzz_parameters_on_urls(self , label):
     def run_x8(url_instance , url, parameters_path, headers):
         for method in ["GET", "POST"]:
             output_file = f"{OUTPUT_PATH}/x8_output_{method}.json"
-            try:
-                command = [
-                    "x8",
-                    "-u", url,
-                    "-w", parameters_path,
-                    "--output-format", "json",
-                    "-o",output_file,
-                    "-X", method,
-                ]
+            command = [
+                "x8",
+                "-u", url,
+                "-w", parameters_path,
+                "--output-format", "json",
+                "-o", output_file,
+                "-X", method,
+            ]
 
-                if headers:
-                    valid_headers = [h.strip() for h in headers if h and ":" in h]
-                    if valid_headers:
-                        command.append("-H")
-                        command.extend(valid_headers)
-                
-                result = subprocess.run(
+            if headers:
+                valid_headers = [h.strip() for h in headers if h and ":" in h]
+                for h in valid_headers:
+                    command.extend(["-H", h])
+
+            try:
+                process = subprocess.Popen(
                     command,
-                    shell=False,
-                    check=True,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
                     text=True
                 )
+                try:
+                    stdout, stderr = process.communicate(timeout=1000)
+                except subprocess.TimeoutExpired:
+                    process.kill()
+                    stdout, stderr = process.communicate()
+                    sendmessage(f"[Url-Watcher] ⏱ Timeout X8 {url} with {method}", colour="RED")
+                    continue  # بریم سراغ متد بعدی
+
+                if process.returncode != 0:
+                    sendmessage(f"[Url-Watcher] ❌ X8 failed on {url} with {method}: {stderr.strip()}", colour="RED")
+                    continue
+
                 save_x8_output_from_file(url_instance , output_file, url)
 
-            except subprocess.CalledProcessError as e:
-                sendmessage(f"[Url-Watcher] ❌ X8 failed on {url} with {method}: {e.stderr}", colour="RED")
             except Exception as e:
                 sendmessage(f"[Url-Watcher] ❌ Unexpected error X8 {url} with {method}: {str(e)}", colour="RED")
 
     wildcards = WatchedWildcard.objects.all()
-    sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", telegram=True , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", colour="CYAN")
 
     for wildcard in wildcards:
         parameters = wildcard.subdomainparameter_set.values_list('parameter', flat=True)
@@ -300,13 +306,15 @@ def fuzz_parameters_on_urls(self , label):
         subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard , label=label)
         
         for subdomain in subdomains:
-            sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs", telegram=False , colour="CYAN")
+            sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs" , colour="CYAN")
             headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
             urls = Url.objects.filter(subdomain=subdomain).order_by(
-            Case(
-                When(label="new", then=Value(0)),
-                default=Value(1),
-                output_field=IntegerField()),)
+                Case(
+                    When(label="new", then=Value(0)),
+                    default=Value(1),
+                    output_field=IntegerField()
+                ),
+            )
 
             for url in urls:
                 run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
@@ -344,10 +352,10 @@ def url_monitor(self):
         discover_parameter_task.s('new'),
         fuzz_parameters_on_urls_task.s('new'),
         vulnerability_monitor_task.s('new'),
-        
+
         discover_urls_task.s('available'),
         discover_parameter_task.s('available'),
-        fuzz_parameters_on_urls_task.s('available'),
+        # fuzz_parameters_on_urls_task.s('available'),
         vulnerability_monitor_task.s('available'),
         
         detect_urls_changes_task.s()

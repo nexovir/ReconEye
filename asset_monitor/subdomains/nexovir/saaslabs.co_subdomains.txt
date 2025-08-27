@@ -1,0 +1,17 @@
+ftdkim.saaslabs.co
+mail.saaslabs.co
+salesloft.saaslabs.co
+tech.saaslabs.co
+trail.saaslabs.co
+vpn.saaslabs.co
+www.saaslabs.co
+clientTransferProhibited.saaslabs.co
+culture.saaslabs.co
+host.saaslabs.co
+saaslabs.co
+salesloft.saaslabs.co
+tech.saaslabs.co
+trail.saaslabs.co
+vpn.saaslabs.co
+www.host.saaslabs.co
+www.saaslabs.co

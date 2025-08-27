@@ -1,0 +1,693 @@
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 26/08/2025, 20:50:48
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 26/08/2025, 20:50:49
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 26/08/2025, 20:53:48
+[Program-Watcher] ℹ️ Connection OK -> 26/08/2025, 20:54:09
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 26/08/2025, 20:54:17
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 26/08/2025, 20:54:17
+[Program-Watcher] ℹ️ Connection OK -> 26/08/2025, 20:54:30
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 26/08/2025, 20:56:01
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 26/08/2025, 20:56:01
+[Program-Watcher] ℹ️ Connection OK -> 26/08/2025, 20:56:14
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 26/08/2025, 20:56:16
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 26/08/2025, 20:56:16
+[Program-Watcher] ℹ️ Connection OK -> 26/08/2025, 20:56:28
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 26/08/2025, 20:56:49
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 26/08/2025, 20:56:49
+[Program-Watcher] ℹ️ Connection OK -> 26/08/2025, 20:57:03
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 26/08/2025, 21:10:01
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 26/08/2025, 23:54:15
+[Asset-Watcher] ℹ️ Starting subfinder -> 26/08/2025, 23:54:15
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 26/08/2025, 23:54:16
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.work'... -> 26/08/2025, 23:54:16
+[Asset-Watcher] ℹ️ Starting subfinder -> 26/08/2025, 23:55:15
+[Asset-Watcher] ℹ️ Starting Subfinder for '‪padvish.ir'... -> 26/08/2025, 23:55:16
+  ℹ️ 0 subs found for ‪padvish.ir -> 26/08/2025, 23:55:41
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 26/08/2025, 23:55:41
+  ℹ️ 0 subs found for linktree-extensions.com -> 26/08/2025, 23:56:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 26/08/2025, 23:56:43
+  ℹ️ 6 subs found for tr.ee -> 26/08/2025, 23:57:45
+[Asset-Watcher] ℹ️ Starting Subfinder for 'song.link'... -> 26/08/2025, 23:57:45
+  ℹ️ 5 subs found for song.link -> 26/08/2025, 23:58:46
+[Asset-Watcher] ℹ️ Starting Subfinder for 'synthetix.io'... -> 26/08/2025, 23:58:46
+  ℹ️ 63 subs found for synthetix.io -> 26/08/2025, 23:59:48
+[Asset-Watcher] ℹ️ Starting Subfinder for 'datavolo.io'... -> 26/08/2025, 23:59:51
+  ℹ️ 7 subs found for datavolo.io -> 27/08/2025, 00:00:53
+[Asset-Watcher] ℹ️ Starting Subfinder for 'teamretro.com'... -> 27/08/2025, 00:00:53
+  ℹ️ 95 subs found for teamretro.com -> 27/08/2025, 00:01:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'songlink.io'... -> 27/08/2025, 00:01:55
+  ℹ️ 1 subs found for songlink.io -> 27/08/2025, 00:02:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'gcorelabs.com'... -> 27/08/2025, 00:02:57
+  ℹ️ 926 subs found for gcorelabs.com -> 27/08/2025, 00:04:01
+[Asset-Watcher] ℹ️ Starting Subfinder for 'playlist.link'... -> 27/08/2025, 00:04:16
+  ℹ️ 1 subs found for playlist.link -> 27/08/2025, 00:05:16
+[Asset-Watcher] ℹ️ Starting Subfinder for 'devicelock.com'... -> 27/08/2025, 00:05:16
+  ℹ️ 3 subs found for devicelock.com -> 27/08/2025, 00:06:18
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 27/08/2025, 00:06:18
+  ℹ️ 259 subs found for linktr.ee -> 27/08/2025, 00:07:40
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superops.com'... -> 27/08/2025, 00:07:48
+  ℹ️ 13 subs found for superops.com -> 27/08/2025, 00:08:48
+[Asset-Watcher] ℹ️ Starting Subfinder for 'marqeta-dev.org'... -> 27/08/2025, 00:08:49
+  ℹ️ 3 subs found for marqeta-dev.org -> 27/08/2025, 00:09:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'album.link'... -> 27/08/2025, 00:09:49
+  ℹ️ 1 subs found for album.link -> 27/08/2025, 00:10:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'marqeta.io'... -> 27/08/2025, 00:10:52
+  ℹ️ 706 subs found for marqeta.io -> 27/08/2025, 00:11:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'airwallex.com'... -> 27/08/2025, 00:12:01
+  ℹ️ 135 subs found for airwallex.com -> 27/08/2025, 00:12:22
+[Asset-Watcher] ℹ️ Starting Subfinder for 'gcore.com'... -> 27/08/2025, 00:12:24
+  ℹ️ 203 subs found for gcore.com -> 27/08/2025, 00:13:33
+[Asset-Watcher] ℹ️ Starting Subfinder for 'saaslabs.co'... -> 27/08/2025, 00:13:35
+  ℹ️ 4 subs found for saaslabs.co -> 27/08/2025, 00:13:40
+[Asset-Watcher] ℹ️ Starting Subfinder for '‪amnpardaz.com'... -> 27/08/2025, 00:13:40
+  ℹ️ 0 subs found for ‪amnpardaz.com -> 27/08/2025, 00:14:29
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 27/08/2025, 00:14:29
+  ℹ️ 8 subs found for 5nine.com -> 27/08/2025, 00:14:37
+[Asset-Watcher] ℹ️ Starting Subfinder for 'marqeta.com'... -> 27/08/2025, 00:14:37
+  ℹ️ 210 subs found for marqeta.com -> 27/08/2025, 00:15:24
+[Asset-Watcher] ℹ️ Starting Subfinder for 'artist.link'... -> 27/08/2025, 00:15:27
+  ℹ️ 1 subs found for artist.link -> 27/08/2025, 00:15:40
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.com'... -> 27/08/2025, 00:15:42
+  ℹ️ 1 subs found for odesli.com -> 27/08/2025, 00:15:47
+[Asset-Watcher] ℹ️ Starting Subfinder for 'gcore.lu'... -> 27/08/2025, 00:15:47
+  ℹ️ 102 subs found for gcore.lu -> 27/08/2025, 00:16:26
+[Asset-Watcher] ℹ️ Starting Subfinder for 'mylink.page'... -> 27/08/2025, 00:16:27
+  ℹ️ 1 subs found for mylink.page -> 27/08/2025, 00:16:34
+[Asset-Watcher] ℹ️ Starting Subfinder for '‪amnpardaz.ir'... -> 27/08/2025, 00:16:34
+  ℹ️ 0 subs found for ‪amnpardaz.ir -> 27/08/2025, 00:16:40
+[Asset-Watcher] ℹ️ Starting Subfinder for 'gmgn.ai'... -> 27/08/2025, 00:16:40
+  ℹ️ 4 subs found for gmgn.ai -> 27/08/2025, 00:17:41
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.com'... -> 27/08/2025, 00:17:41
+  ℹ️ 842 subs found for acronis.com -> 27/08/2025, 00:18:46
+[Asset-Watcher] ℹ️ Starting Subfinder for 'runcloud.io'... -> 27/08/2025, 00:18:58
+  ℹ️ 33 subs found for runcloud.io -> 27/08/2025, 00:19:47
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.co'... -> 27/08/2025, 00:19:47
+  ℹ️ 9 subs found for odesli.co -> 27/08/2025, 00:20:09
+[Asset-Watcher] ℹ️ Starting Subfinder for 'gcore.top'... -> 27/08/2025, 00:20:09
+  ℹ️ 13 subs found for gcore.top -> 27/08/2025, 00:21:11
+[Asset-Watcher] ℹ️ Starting Subfinder for 'nebius.com'... -> 27/08/2025, 00:21:11
+  ℹ️ 43 subs found for nebius.com -> 27/08/2025, 00:22:15
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pods.link'... -> 27/08/2025, 00:22:16
+  ℹ️ 1 subs found for pods.link -> 27/08/2025, 00:23:17
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.work'... -> 27/08/2025, 00:23:17
+  ℹ️ 320 subs found for acronis.work -> 27/08/2025, 00:24:19
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree.com'... -> 27/08/2025, 00:24:23
+  ℹ️ 4 subs found for linktree.com -> 27/08/2025, 00:25:24
+[Asset-Watcher] ℹ️ Starting Subfinder for 'padvish.com'... -> 27/08/2025, 00:25:24
+  ℹ️ 10 subs found for padvish.com -> 27/08/2025, 00:26:26
+[Asset-Watcher] ✅ Finished subfinder -> 27/08/2025, 00:26:27
+[Asset-Watcher] ℹ️ Starting crt.sh -> 27/08/2025, 00:26:28
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '‪padvish.ir'... -> 27/08/2025, 00:26:29
+  [Asset-Watcher] ⚠️ No subdomains found for ‪padvish.ir in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:29
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for ‪padvish.ir after 1/2 attempts. -> 27/08/2025, 00:26:29
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree-extensions.com'... -> 27/08/2025, 00:26:30
+  [Asset-Watcher] ⚠️ No subdomains found for linktree-extensions.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:30
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree-extensions.com after 1/2 attempts. -> 27/08/2025, 00:26:30
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'tr.ee'... -> 27/08/2025, 00:26:31
+  [Asset-Watcher] ⚠️ No subdomains found for tr.ee in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for tr.ee after 1/2 attempts. -> 27/08/2025, 00:26:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'song.link'... -> 27/08/2025, 00:26:32
+  [Asset-Watcher] ⚠️ No subdomains found for song.link in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for song.link after 1/2 attempts. -> 27/08/2025, 00:26:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'synthetix.io'... -> 27/08/2025, 00:26:33
+  [Asset-Watcher] ⚠️ No subdomains found for synthetix.io in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:33
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for synthetix.io after 1/2 attempts. -> 27/08/2025, 00:26:33
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'datavolo.io'... -> 27/08/2025, 00:26:34
+  [Asset-Watcher] ⚠️ No subdomains found for datavolo.io in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:34
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for datavolo.io after 1/2 attempts. -> 27/08/2025, 00:26:34
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'teamretro.com'... -> 27/08/2025, 00:26:35
+  [Asset-Watcher] ⚠️ No subdomains found for teamretro.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:35
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for teamretro.com after 1/2 attempts. -> 27/08/2025, 00:26:35
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'songlink.io'... -> 27/08/2025, 00:26:36
+  [Asset-Watcher] ⚠️ No subdomains found for songlink.io in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for songlink.io after 1/2 attempts. -> 27/08/2025, 00:26:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'gcorelabs.com'... -> 27/08/2025, 00:26:37
+  [Asset-Watcher] ⚠️ No subdomains found for gcorelabs.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:37
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for gcorelabs.com after 1/2 attempts. -> 27/08/2025, 00:26:37
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'playlist.link'... -> 27/08/2025, 00:26:38
+  [Asset-Watcher] ⚠️ No subdomains found for playlist.link in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:38
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for playlist.link after 1/2 attempts. -> 27/08/2025, 00:26:38
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'devicelock.com'... -> 27/08/2025, 00:26:39
+  [Asset-Watcher] ⚠️ No subdomains found for devicelock.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:39
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for devicelock.com after 1/2 attempts. -> 27/08/2025, 00:26:39
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktr.ee'... -> 27/08/2025, 00:26:40
+  [Asset-Watcher] ⚠️ No subdomains found for linktr.ee in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:40
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktr.ee after 1/2 attempts. -> 27/08/2025, 00:26:40
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superops.com'... -> 27/08/2025, 00:26:41
+  [Asset-Watcher] ⚠️ No subdomains found for superops.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:41
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superops.com after 1/2 attempts. -> 27/08/2025, 00:26:41
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'marqeta-dev.org'... -> 27/08/2025, 00:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for marqeta-dev.org in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for marqeta-dev.org after 1/2 attempts. -> 27/08/2025, 00:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'album.link'... -> 27/08/2025, 00:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for album.link in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for album.link after 1/2 attempts. -> 27/08/2025, 00:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'marqeta.io'... -> 27/08/2025, 00:26:44
+  [Asset-Watcher] ⚠️ No subdomains found for marqeta.io in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:44
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for marqeta.io after 1/2 attempts. -> 27/08/2025, 00:26:44
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'airwallex.com'... -> 27/08/2025, 00:26:45
+  [Asset-Watcher] ⚠️ No subdomains found for airwallex.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:45
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for airwallex.com after 1/2 attempts. -> 27/08/2025, 00:26:45
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'gcore.com'... -> 27/08/2025, 00:26:46
+  [Asset-Watcher] ⚠️ No subdomains found for gcore.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for gcore.com after 1/2 attempts. -> 27/08/2025, 00:26:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'saaslabs.co'... -> 27/08/2025, 00:26:47
+  [Asset-Watcher] ⚠️ No subdomains found for saaslabs.co in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:47
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for saaslabs.co after 1/2 attempts. -> 27/08/2025, 00:26:47
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '‪amnpardaz.com'... -> 27/08/2025, 00:26:48
+  [Asset-Watcher] ⚠️ No subdomains found for ‪amnpardaz.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:48
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for ‪amnpardaz.com after 1/2 attempts. -> 27/08/2025, 00:26:48
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '5nine.com'... -> 27/08/2025, 00:26:49
+  [Asset-Watcher] ⚠️ No subdomains found for 5nine.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:49
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 5nine.com after 1/2 attempts. -> 27/08/2025, 00:26:49
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'marqeta.com'... -> 27/08/2025, 00:26:50
+  [Asset-Watcher] ⚠️ No subdomains found for marqeta.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:50
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for marqeta.com after 1/2 attempts. -> 27/08/2025, 00:26:50
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'artist.link'... -> 27/08/2025, 00:26:51
+  [Asset-Watcher] ⚠️ No subdomains found for artist.link in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:51
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for artist.link after 1/2 attempts. -> 27/08/2025, 00:26:51
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.com'... -> 27/08/2025, 00:26:52
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:52
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.com after 1/2 attempts. -> 27/08/2025, 00:26:52
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'gcore.lu'... -> 27/08/2025, 00:26:53
+  [Asset-Watcher] ⚠️ No subdomains found for gcore.lu in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:53
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for gcore.lu after 1/2 attempts. -> 27/08/2025, 00:26:53
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'mylink.page'... -> 27/08/2025, 00:26:54
+  [Asset-Watcher] ⚠️ No subdomains found for mylink.page in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:54
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for mylink.page after 1/2 attempts. -> 27/08/2025, 00:26:54
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '‪amnpardaz.ir'... -> 27/08/2025, 00:26:55
+  [Asset-Watcher] ⚠️ No subdomains found for ‪amnpardaz.ir in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:55
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for ‪amnpardaz.ir after 1/2 attempts. -> 27/08/2025, 00:26:55
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'gmgn.ai'... -> 27/08/2025, 00:26:56
+  [Asset-Watcher] ⚠️ No subdomains found for gmgn.ai in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:56
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for gmgn.ai after 1/2 attempts. -> 27/08/2025, 00:26:56
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.com'... -> 27/08/2025, 00:26:57
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:57
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.com after 1/2 attempts. -> 27/08/2025, 00:26:57
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'runcloud.io'... -> 27/08/2025, 00:26:58
+  [Asset-Watcher] ⚠️ No subdomains found for runcloud.io in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:58
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for runcloud.io after 1/2 attempts. -> 27/08/2025, 00:26:58
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.co'... -> 27/08/2025, 00:26:59
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.co in Crt.sh (Attempt 1) -> 27/08/2025, 00:26:59
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.co after 1/2 attempts. -> 27/08/2025, 00:26:59
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'gcore.top'... -> 27/08/2025, 00:27:00
+  [Asset-Watcher] ⚠️ No subdomains found for gcore.top in Crt.sh (Attempt 1) -> 27/08/2025, 00:27:00
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for gcore.top after 1/2 attempts. -> 27/08/2025, 00:27:00
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'nebius.com'... -> 27/08/2025, 00:27:01
+  [Asset-Watcher] ⚠️ No subdomains found for nebius.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:27:01
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for nebius.com after 1/2 attempts. -> 27/08/2025, 00:27:01
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pods.link'... -> 27/08/2025, 00:27:02
+  [Asset-Watcher] ⚠️ No subdomains found for pods.link in Crt.sh (Attempt 1) -> 27/08/2025, 00:27:02
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pods.link after 1/2 attempts. -> 27/08/2025, 00:27:02
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.work'... -> 27/08/2025, 00:27:03
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.work in Crt.sh (Attempt 1) -> 27/08/2025, 00:27:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.work after 1/2 attempts. -> 27/08/2025, 00:27:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree.com'... -> 27/08/2025, 00:27:04
+  [Asset-Watcher] ⚠️ No subdomains found for linktree.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:27:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree.com after 1/2 attempts. -> 27/08/2025, 00:27:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'padvish.com'... -> 27/08/2025, 00:27:06
+  [Asset-Watcher] ⚠️ No subdomains found for padvish.com in Crt.sh (Attempt 1) -> 27/08/2025, 00:27:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for padvish.com after 1/2 attempts. -> 27/08/2025, 00:27:06
+[Asset-Watcher] ✅ Finished crt.sh -> 27/08/2025, 00:27:07
+[Asset-Watcher] ℹ️ Starting user subdomains -> 27/08/2025, 00:27:08
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 27/08/2025, 00:27:09
+  [Asset-Watcher] ℹ️ No own subdomains found for ‪amnpardaz.ir -> 27/08/2025, 00:27:39
+  [Asset-Watcher] ℹ️ No own subdomains found for padvish.com -> 27/08/2025, 00:27:40
+[Asset-Watcher] ❌ Process User Subdomains error: duplicate key value violates unique constraint "asset_monitor_discoversubdomain_subdomain_key"
+DETAIL:  Key (subdomain)=(title><) already exists. -> 27/08/2025, 00:27:54
+[Asset-Watcher] ✅ Finished user subdomains -> 27/08/2025, 00:27:55
+[Asset-Watcher] ℹ️ Starting httpx -> 27/08/2025, 00:27:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'nebius.com - nexovir'... -> 27/08/2025, 00:27:57
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:28:20
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'gcore.com - nexovir'... -> 27/08/2025, 00:28:21
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:29:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on '‪amnpardaz.ir - nexovir'... -> 27/08/2025, 00:29:44
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:29:45
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'padvish.com - nexovir'... -> 27/08/2025, 00:29:45
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:29:52
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'tr.ee - nexovir'... -> 27/08/2025, 00:29:52
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:29:57
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'song.link - nexovir'... -> 27/08/2025, 00:29:57
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:29:59
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'artist.link - nexovir'... -> 27/08/2025, 00:29:59
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:30:00
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'gcorelabs.com - nexovir'... -> 27/08/2025, 00:30:00
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:30:54
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'gmgn.ai - nexovir'... -> 27/08/2025, 00:31:02
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'marqeta-dev.org - nexovir'... -> 27/08/2025, 00:31:08
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:17
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'gcore.top - nexovir'... -> 27/08/2025, 00:31:17
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:25
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'synthetix.io - nexovir'... -> 27/08/2025, 00:31:25
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'saaslabs.co - nexovir'... -> 27/08/2025, 00:31:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:45
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.com - nexovir'... -> 27/08/2025, 00:31:45
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'playlist.link - nexovir'... -> 27/08/2025, 00:31:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:48
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pods.link - nexovir'... -> 27/08/2025, 00:31:48
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:31:49
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.com - nexovir'... -> 27/08/2025, 00:31:49
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:35:14
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'album.link - nexovir'... -> 27/08/2025, 00:35:26
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:35:28
+  [Asset-Watcher] ℹ️ Starting HTTPx on '‪amnpardaz.com - nexovir'... -> 27/08/2025, 00:35:28
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:35:29
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'gcore.lu - nexovir'... -> 27/08/2025, 00:35:29
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:35:51
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'datavolo.io - nexovir'... -> 27/08/2025, 00:35:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:35:58
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'devicelock.com - nexovir'... -> 27/08/2025, 00:35:58
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:36:00
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'marqeta.com - nexovir'... -> 27/08/2025, 00:36:00
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:48:14
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'runcloud.io - nexovir'... -> 27/08/2025, 00:48:28
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:48:39
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.work - nexovir'... -> 27/08/2025, 00:48:40
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:49:02
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'airwallex.com - nexovir'... -> 27/08/2025, 00:49:07
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:51:25
+  [Asset-Watcher] ℹ️ Starting HTTPx on '‪padvish.ir - nexovir'... -> 27/08/2025, 00:51:31
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:51:32
+  [Asset-Watcher] ℹ️ Starting HTTPx on '5nine.com - nexovir'... -> 27/08/2025, 00:51:32
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 00:51:41
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'marqeta.io - nexovir'... -> 27/08/2025, 00:51:41
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:00:01
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'mylink.page - nexovir'... -> 27/08/2025, 01:00:03
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:00:04
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'songlink.io - nexovir'... -> 27/08/2025, 01:00:04
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:00:16
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree.com - nexovir'... -> 27/08/2025, 01:00:16
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:00:20
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'teamretro.com - nexovir'... -> 27/08/2025, 01:00:20
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:00:34
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree-extensions.com - nexovir'... -> 27/08/2025, 01:00:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:00:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktr.ee - nexovir'... -> 27/08/2025, 01:00:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:01:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.co - nexovir'... -> 27/08/2025, 01:02:01
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:02:05
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superops.com - nexovir'... -> 27/08/2025, 01:02:06
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 27/08/2025, 01:02:18
+[Asset-Watcher] ✅ Finished httpx -> 27/08/2025, 01:02:18
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 27/08/2025, 01:02:19
+[Asset-Watcher] ✅ Finished cidrs scanning -> 27/08/2025, 01:02:20
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 27/08/2025, 08:52:51
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 08:52:52
+  [Url-Watcher] ℹ️ Starting Katana for 'https://ai-hub.academy.nebius.com'... -> 27/08/2025, 08:52:53
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://ai-hub.academy.nebius.com'... -> 27/08/2025, 08:53:04
+  [Url-Watcher] ℹ️ Starting Katana for 'https://admin.academy.nebius.com'... -> 27/08/2025, 08:53:15
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://admin.academy.nebius.com'... -> 27/08/2025, 08:53:27
+  [Url-Watcher] ℹ️ Starting Katana for 'https://api.studio.nebius.com'... -> 27/08/2025, 08:53:32
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://api.studio.nebius.com'... -> 27/08/2025, 08:53:42
+  [Url-Watcher] ℹ️ Starting Katana for 'https://auth.eu.nebius.com'... -> 27/08/2025, 08:54:20
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://auth.eu.nebius.com'... -> 27/08/2025, 08:54:35
+  [Url-Watcher] ℹ️ Starting Katana for 'https://auth.studio.nebius.com'... -> 27/08/2025, 08:55:36
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://auth.studio.nebius.com'... -> 27/08/2025, 08:55:49
+  [Url-Watcher] ℹ️ Starting Katana for 'https://auth.nebius.com'... -> 27/08/2025, 08:56:12
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://auth.nebius.com'... -> 27/08/2025, 08:56:25
+  [Url-Watcher] ℹ️ Starting Katana for 'http://bd77eog.26806167t.nebius.com'... -> 27/08/2025, 08:57:11
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://bd77eog.26806167t.nebius.com'... -> 27/08/2025, 08:57:22
+  [Url-Watcher] ℹ️ Starting Katana for 'https://billing.studio.nebius.com'... -> 27/08/2025, 08:57:45
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://billing.studio.nebius.com'... -> 27/08/2025, 08:57:56
+  [Url-Watcher] ℹ️ Starting Katana for 'https://assets.nebius.com'... -> 27/08/2025, 08:57:56
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://assets.nebius.com'... -> 27/08/2025, 08:58:12
+  [Url-Watcher] ℹ️ Starting Katana for 'https://console.eu.nebius.com'... -> 27/08/2025, 08:59:34
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://console.eu.nebius.com'... -> 27/08/2025, 08:59:45
+  [Url-Watcher] ℹ️ Starting Katana for 'https://console.nebius.com'... -> 27/08/2025, 09:00:07
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://console.nebius.com'... -> 27/08/2025, 09:00:19
+  [Url-Watcher] ℹ️ Starting Katana for 'https://console.us.nebius.com'... -> 27/08/2025, 09:00:21
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://console.us.nebius.com'... -> 27/08/2025, 09:00:32
+  [Url-Watcher] ℹ️ Starting Katana for 'https://academy.nebius.com'... -> 27/08/2025, 09:00:34
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://academy.nebius.com'... -> 27/08/2025, 09:00:53
+  [Url-Watcher] ℹ️ Starting Katana for 'https://careers.nebius.com'... -> 27/08/2025, 09:16:57
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://careers.nebius.com'... -> 27/08/2025, 09:17:13
+  [Url-Watcher] ℹ️ Starting Katana for 'http://autodiscover.nebius.com'... -> 27/08/2025, 09:33:09
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://autodiscover.nebius.com'... -> 27/08/2025, 09:33:29
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.nebius.com'... -> 27/08/2025, 09:34:04
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.nebius.com'... -> 27/08/2025, 09:35:00
+  [Url-Watcher] ℹ️ Starting Katana for 'http://console-cf.testing.nebius.com'... -> 27/08/2025, 09:55:10
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://console-cf.testing.nebius.com'... -> 27/08/2025, 09:55:29
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.academy.nebius.com'... -> 27/08/2025, 09:55:47
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.academy.nebius.com'... -> 27/08/2025, 09:56:02
+  [Url-Watcher] ℹ️ Starting Katana for 'https://email.academy.nebius.com'... -> 27/08/2025, 10:13:32
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://email.academy.nebius.com'... -> 27/08/2025, 10:13:43
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.studio.nebius.com'... -> 27/08/2025, 10:13:52
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.studio.nebius.com'... -> 27/08/2025, 10:14:38
+  [Url-Watcher] ℹ️ Starting Katana for 'https://enterpriseenrollment.nebius.com'... -> 27/08/2025, 10:20:37
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://enterpriseenrollment.nebius.com'... -> 27/08/2025, 10:20:48
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.testing.nebius.com'... -> 27/08/2025, 10:20:49
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.testing.nebius.com'... -> 27/08/2025, 10:21:01
+  [Url-Watcher] ℹ️ Starting Katana for 'https://group.nebius.com'... -> 27/08/2025, 10:21:34
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://group.nebius.com'... -> 27/08/2025, 10:21:54
+  [Url-Watcher] ℹ️ Starting Katana for 'https://hello.nebius.com'... -> 27/08/2025, 10:22:53
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://hello.nebius.com'... -> 27/08/2025, 10:23:04
+  [Url-Watcher] ℹ️ Starting Katana for 'https://id.academy.nebius.com'... -> 27/08/2025, 10:23:07
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://id.academy.nebius.com'... -> 27/08/2025, 10:23:18
+  [Url-Watcher] ℹ️ Starting Katana for 'https://notify.eu.nebius.com'... -> 27/08/2025, 10:23:27
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://notify.eu.nebius.com'... -> 27/08/2025, 10:23:38
+  [Url-Watcher] ℹ️ Starting Katana for 'https://pay.academy.nebius.com'... -> 27/08/2025, 10:23:46
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://pay.academy.nebius.com'... -> 27/08/2025, 10:23:58
+  [Url-Watcher] ℹ️ Starting Katana for 'https://enterpriseregistration.nebius.com'... -> 27/08/2025, 10:23:59
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://enterpriseregistration.nebius.com'... -> 27/08/2025, 10:24:22
+  [Url-Watcher] ℹ️ Starting Katana for 'https://gtm.nebius.com'... -> 27/08/2025, 10:24:35
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://gtm.nebius.com'... -> 27/08/2025, 10:24:49
+  [Url-Watcher] ℹ️ Starting Katana for 'https://platform.academy.nebius.com'... -> 27/08/2025, 10:24:59
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://platform.academy.nebius.com'... -> 27/08/2025, 10:25:10
+  [Url-Watcher] ℹ️ Starting Katana for 'https://mta-sts.nebius.com'... -> 27/08/2025, 10:25:16
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://mta-sts.nebius.com'... -> 27/08/2025, 10:25:30
+  [Url-Watcher] ℹ️ Starting Katana for 'https://lp.nebius.com'... -> 27/08/2025, 10:26:20
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://lp.nebius.com'... -> 27/08/2025, 10:26:36
+  [Url-Watcher] ℹ️ Starting Katana for 'https://review.academy.nebius.com'... -> 27/08/2025, 10:31:16
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://review.academy.nebius.com'... -> 27/08/2025, 10:31:28
+  [Url-Watcher] ℹ️ Starting Katana for 'https://sentry-api.academy.nebius.com'... -> 27/08/2025, 10:31:39
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://sentry-api.academy.nebius.com'... -> 27/08/2025, 10:31:55
+  [Url-Watcher] ℹ️ Starting Katana for 'https://email.nebius.com'... -> 27/08/2025, 10:31:57
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://email.nebius.com'... -> 27/08/2025, 10:32:12
+  [Url-Watcher] ℹ️ Starting Katana for 'https://speakup.nebius.com'... -> 27/08/2025, 10:34:05
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://speakup.nebius.com'... -> 27/08/2025, 10:34:17
+  [Url-Watcher] ℹ️ Starting Katana for 'https://nebius.com'... -> 27/08/2025, 10:34:24
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://nebius.com'... -> 27/08/2025, 10:35:05
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 27/08/2025, 14:12:30
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 14:12:31
+  [Url-Watcher] ℹ️ Starting Katana for 'https://ai-hub.academy.nebius.com'... -> 27/08/2025, 14:12:32
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://ai-hub.academy.nebius.com'... -> 27/08/2025, 14:12:41
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 14:16:18
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.testing.nebius.com'... -> 27/08/2025, 14:16:19
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.testing.nebius.com'... -> 27/08/2025, 14:16:21
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 27/08/2025, 14:16:28
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 14:16:29
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.testing.nebius.com'... -> 27/08/2025, 14:16:30
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.testing.nebius.com'... -> 27/08/2025, 14:16:44
+  [Url-Watcher] ℹ️ Starting Katana for 'https://platform.academy.nebius.com'... -> 27/08/2025, 14:17:10
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://platform.academy.nebius.com'... -> 27/08/2025, 14:17:22
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 27/08/2025, 14:17:52
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 14:17:53
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.testing.nebius.com'... -> 27/08/2025, 14:17:54
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.testing.nebius.com'... -> 27/08/2025, 14:18:07
+  [Url-Watcher] ℹ️ Starting Katana for 'https://platform.academy.nebius.com'... -> 27/08/2025, 14:18:39
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://platform.academy.nebius.com'... -> 27/08/2025, 14:18:52
+  [Url-Watcher] ℹ️ Starting Katana for 'https://console-novnc-kal2.cloud.gcore.com'... -> 27/08/2025, 14:18:54
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://console-novnc-kal2.cloud.gcore.com'... -> 27/08/2025, 14:19:05
+  [Url-Watcher] ℹ️ Starting Katana for 'https://ed-16-latency.tools.gcore.com'... -> 27/08/2025, 14:19:08
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://ed-16-latency.tools.gcore.com'... -> 27/08/2025, 14:19:19
+  [Url-Watcher] ℹ️ Starting Katana for 'https://jb1-2-latency.tools.gcore.com'... -> 27/08/2025, 14:19:25
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://jb1-2-latency.tools.gcore.com'... -> 27/08/2025, 14:19:37
+  [Url-Watcher] ℹ️ Starting Katana for 'https://sqr-v6.vm.gcore.com'... -> 27/08/2025, 14:19:42
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://sqr-v6.vm.gcore.com'... -> 27/08/2025, 14:19:55
+  [Url-Watcher] ℹ️ Starting Katana for 'https://support.padvish.com'... -> 27/08/2025, 14:20:05
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://support.padvish.com'... -> 27/08/2025, 14:20:17
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-ed.gcorelabs.com'... -> 27/08/2025, 14:20:20
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-ed.gcorelabs.com'... -> 27/08/2025, 14:20:32
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-153.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:20:38
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-153.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:20:50
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-188.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:20:52
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-188.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:21:04
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-213.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:21:06
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-213.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:21:17
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-251.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:21:21
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-251.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:21:33
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-55.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:21:55
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-55.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:22:06
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-jb1.gcorelabs.com'... -> 27/08/2025, 14:22:08
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-jb1.gcorelabs.com'... -> 27/08/2025, 14:22:21
+  [Url-Watcher] ℹ️ Starting Katana for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 14:22:26
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 14:22:41
+  [Url-Watcher] ℹ️ Starting Katana for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 14:22:43
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 14:22:55
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-mdc.gcorelabs.com'... -> 27/08/2025, 14:23:03
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-mdc.gcorelabs.com'... -> 27/08/2025, 14:23:27
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.cm.gcorelabs.com'... -> 27/08/2025, 14:24:09
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.cm.gcorelabs.com'... -> 27/08/2025, 14:24:27
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-kal.gcorelabs.com'... -> 27/08/2025, 14:24:31
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-kal.gcorelabs.com'... -> 27/08/2025, 14:24:45
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.jb1.gcorelabs.com'... -> 27/08/2025, 14:24:48
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.jb1.gcorelabs.com'... -> 27/08/2025, 14:25:10
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-kx.gcorelabs.com'... -> 27/08/2025, 14:25:32
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-kx.gcorelabs.com'... -> 27/08/2025, 14:25:47
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-pl1.gcorelabs.com'... -> 27/08/2025, 14:25:53
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-pl1.gcorelabs.com'... -> 27/08/2025, 14:26:05
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-mi1.gcorelabs.com'... -> 27/08/2025, 14:26:08
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-mi1.gcorelabs.com'... -> 27/08/2025, 14:26:21
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-scl2.gcorelabs.com'... -> 27/08/2025, 14:27:03
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-scl2.gcorelabs.com'... -> 27/08/2025, 14:27:16
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-ml2.gcorelabs.com'... -> 27/08/2025, 14:27:34
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-ml2.gcorelabs.com'... -> 27/08/2025, 14:27:47
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-sg2.gcorelabs.com'... -> 27/08/2025, 14:27:50
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-sg2.gcorelabs.com'... -> 27/08/2025, 14:28:03
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-sp3.gcorelabs.com'... -> 27/08/2025, 14:28:16
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-sp3.gcorelabs.com'... -> 27/08/2025, 14:28:31
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-tii.gcorelabs.com'... -> 27/08/2025, 14:28:37
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-tii.gcorelabs.com'... -> 27/08/2025, 14:28:49
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-sy4.gcorelabs.com'... -> 27/08/2025, 14:28:52
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-sy4.gcorelabs.com'... -> 27/08/2025, 14:29:06
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-tp.gcorelabs.com'... -> 27/08/2025, 14:29:11
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-tp.gcorelabs.com'... -> 27/08/2025, 14:29:23
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-ww.gcorelabs.com'... -> 27/08/2025, 14:29:31
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-ww.gcorelabs.com'... -> 27/08/2025, 14:29:44
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-tl.gcorelabs.com'... -> 27/08/2025, 14:29:56
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-tl.gcorelabs.com'... -> 27/08/2025, 14:30:08
+  [Url-Watcher] ℹ️ Starting Katana for 'https://anyconnect.gcore.lu'... -> 27/08/2025, 14:30:13
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://anyconnect.gcore.lu'... -> 27/08/2025, 14:30:29
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci.gcorelabs.com'... -> 27/08/2025, 14:30:38
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci.gcorelabs.com'... -> 27/08/2025, 14:30:49
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dci-gn.gcorelabs.com'... -> 27/08/2025, 14:31:06
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-gn.gcorelabs.com'... -> 27/08/2025, 14:31:19
+  [Url-Watcher] ℹ️ Starting Katana for 'https://dns.gcorelabs.com'... -> 27/08/2025, 14:31:22
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://dns.gcorelabs.com'... -> 27/08/2025, 14:31:35
+  [Url-Watcher] ℹ️ Starting Katana for 'https://faas.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:32:32
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://faas.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:32:44
+  [Url-Watcher] ℹ️ Starting Katana for 'https://feedback.cloud.gcorelabs.com'... -> 27/08/2025, 14:32:46
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://feedback.cloud.gcorelabs.com'... -> 27/08/2025, 14:33:02
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-100.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:33:26
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-100.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:33:38
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-10.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:33:40
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-10.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:33:51
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-102.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:33:53
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-102.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:34:05
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-1.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:34:19
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-1.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:34:30
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-101.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:34:34
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-101.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:34:45
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-104.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:34:50
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-104.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:35:01
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-105.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:35:11
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-105.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:35:23
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-106.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:35:25
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-106.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:35:36
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-107.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:35:57
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-107.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:36:08
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-103.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:36:10
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-103.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:36:22
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-108.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:36:25
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-108.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:36:36
+  [Url-Watcher] ℹ️ Starting Katana for 'https://www-qa3.marqeta.com'... -> 27/08/2025, 14:36:40
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://www-qa3.marqeta.com'... -> 27/08/2025, 14:36:55
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-11.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:37:02
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-11.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:37:14
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-109.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:37:17
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-109.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:37:30
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-110.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:04
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-110.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:16
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-112.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:19
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-112.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:31
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-111.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:33
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-111.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:44
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-113.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:46
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-113.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:38:58
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-115.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:39:00
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-115.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:39:12
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-114.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:39:15
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-114.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:39:27
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-117.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:39:36
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-117.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:39:48
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-116.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:39:50
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-116.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:40:02
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-118.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:40:15
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-118.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:40:27
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-119.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:40:29
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-119.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:40:41
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-12.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:40:46
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-12.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:40:58
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-121.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:41:05
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-121.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:41:16
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-122.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:41:31
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-122.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:41:42
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-123.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:41:54
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-123.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:06
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-120.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:09
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-120.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:20
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-124.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:22
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-124.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:34
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-126.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:36
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-126.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:48
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-125.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:42:51
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-125.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:43:02
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-127.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:43:04
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-127.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:43:16
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-128.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:43:18
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-128.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:43:30
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-13.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:43:33
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-13.lux.cloud.gcorelabs.com'... -> 27/08/2025, 14:43:44
+  [Url-Watcher] ℹ️ Starting Katana for 'https://control.gcorelabs.com'... -> 27/08/2025, 14:43:46
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://control.gcorelabs.com'... -> 27/08/2025, 14:44:04
+  [Url-Watcher] ℹ️ Starting Katana for 'https://docs.gcorelabs.com'... -> 27/08/2025, 14:53:11
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.gcorelabs.com'... -> 27/08/2025, 14:53:29
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-130.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:03:11
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-130.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:03:23
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-131.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:03:25
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-131.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:03:36
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-133.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:03:39
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-133.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:03:53
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-132.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:03:57
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-132.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:04:08
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-135.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:04:10
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-135.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:04:22
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fi-136.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:04:30
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-136.lux.cloud.gcorelabs.com'... -> 27/08/2025, 15:04:42
+  [Url-Watcher] ℹ️ Starting Katana for 'https://capital-on-tap-eu-dev.marqeta.com'... -> 27/08/2025, 15:04:45
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://capital-on-tap-eu-dev.marqeta.com'... -> 27/08/2025, 15:04:57
+  [Url-Watcher] ℹ️ Starting Katana for 'https://capital-on-tap-us-dev.marqeta.com'... -> 27/08/2025, 15:05:10
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://capital-on-tap-us-dev.marqeta.com'... -> 27/08/2025, 15:05:22
+  [Url-Watcher] ℹ️ Starting Katana for 'http://calendar.marqeta.com'... -> 27/08/2025, 15:05:33
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://calendar.marqeta.com'... -> 27/08/2025, 15:05:46
+  [Url-Watcher] ℹ️ Starting Katana for 'http://cal.marqeta.com'... -> 27/08/2025, 15:05:49
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://cal.marqeta.com'... -> 27/08/2025, 15:06:02
+  [Url-Watcher] ℹ️ Starting Katana for 'https://caponepos-dev.marqeta.com'... -> 27/08/2025, 15:06:05
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://caponepos-dev.marqeta.com'... -> 27/08/2025, 15:06:17
+  [Url-Watcher] ℹ️ Starting Katana for 'https://cardholder-support.marqeta.com'... -> 27/08/2025, 15:06:20
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://cardholder-support.marqeta.com'... -> 27/08/2025, 15:06:37
+  [Url-Watcher] ℹ️ Starting Katana for 'https://card-sandbox-credit.marqeta.com'... -> 27/08/2025, 15:06:39
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://card-sandbox-credit.marqeta.com'... -> 27/08/2025, 15:07:08
+  [Url-Watcher] ℹ️ Starting Katana for 'https://card-credit.marqeta.com'... -> 27/08/2025, 15:46:31
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://card-credit.marqeta.com'... -> 27/08/2025, 15:46:59
+  [Url-Watcher] ℹ️ Starting Katana for 'https://yapeal-dev.marqeta.com'... -> 27/08/2025, 16:26:36
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://yapeal-dev.marqeta.com'... -> 27/08/2025, 16:26:48
+  [Url-Watcher] ℹ️ Starting Katana for 'https://www-qa.marqeta.com'... -> 27/08/2025, 16:26:53
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://www-qa.marqeta.com'... -> 27/08/2025, 16:27:08
+  [Url-Watcher] ℹ️ Starting Katana for 'https://yokoy-dev.marqeta.com'... -> 27/08/2025, 16:28:45
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://yokoy-dev.marqeta.com'... -> 27/08/2025, 16:28:57
+  [Url-Watcher] ℹ️ Starting Katana for 'https://yokoy-lodge-dev.marqeta.com'... -> 27/08/2025, 16:29:01
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://yokoy-lodge-dev.marqeta.com'... -> 27/08/2025, 16:29:14
+  [Url-Watcher] ℹ️ Starting Katana for 'https://financeit-dev.marqeta.com'... -> 27/08/2025, 16:29:16
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://financeit-dev.marqeta.com'... -> 27/08/2025, 16:29:28
+  [Url-Watcher] ℹ️ Starting Katana for 'https://finfareexp-dev.marqeta.com'... -> 27/08/2025, 16:29:41
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://finfareexp-dev.marqeta.com'... -> 27/08/2025, 16:29:54
+  [Url-Watcher] ℹ️ Starting Katana for 'https://finmid-dev.marqeta.com'... -> 27/08/2025, 16:29:56
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://finmid-dev.marqeta.com'... -> 27/08/2025, 16:30:08
+  [Url-Watcher] ℹ️ Starting Katana for 'https://finom-dev.marqeta.com'... -> 27/08/2025, 16:30:15
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://finom-dev.marqeta.com'... -> 27/08/2025, 16:30:30
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fintex-dev.marqeta.com'... -> 27/08/2025, 16:30:33
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fintex-dev.marqeta.com'... -> 27/08/2025, 16:30:45
+  [Url-Watcher] ℹ️ Starting Katana for 'https://fitbankbrpxm-dev.marqeta.com'... -> 27/08/2025, 16:30:48
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://fitbankbrpxm-dev.marqeta.com'... -> 27/08/2025, 16:31:00
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.ml2.gcorelabs.com'... -> 27/08/2025, 16:31:06
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.ml2.gcorelabs.com'... -> 27/08/2025, 16:31:26
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.mi2.gcorelabs.com'... -> 27/08/2025, 16:31:57
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.mi2.gcorelabs.com'... -> 27/08/2025, 16:32:17
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.ny2.gcorelabs.com'... -> 27/08/2025, 16:32:21
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.ny2.gcorelabs.com'... -> 27/08/2025, 16:32:41
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.pl1.gcorelabs.com'... -> 27/08/2025, 16:32:48
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.pl1.gcorelabs.com'... -> 27/08/2025, 16:33:06
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.scl2.gcorelabs.com'... -> 27/08/2025, 16:33:08
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.scl2.gcorelabs.com'... -> 27/08/2025, 16:33:29
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.tii.gcorelabs.com'... -> 27/08/2025, 16:33:37
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.tii.gcorelabs.com'... -> 27/08/2025, 16:33:56
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.sp3.gcorelabs.com'... -> 27/08/2025, 16:34:04
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.sp3.gcorelabs.com'... -> 27/08/2025, 16:34:27
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.sy4.gcorelabs.com'... -> 27/08/2025, 16:34:37
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.sy4.gcorelabs.com'... -> 27/08/2025, 16:34:59
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.tp.gcorelabs.com'... -> 27/08/2025, 16:35:04
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.tp.gcorelabs.com'... -> 27/08/2025, 16:35:23
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.ww.gcorelabs.com'... -> 27/08/2025, 16:35:34
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.ww.gcorelabs.com'... -> 27/08/2025, 16:35:58
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm2.bzi.gcorelabs.com'... -> 27/08/2025, 16:36:26
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm2.bzi.gcorelabs.com'... -> 27/08/2025, 16:36:47
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm2.cm.gcorelabs.com'... -> 27/08/2025, 16:36:49
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm2.cm.gcorelabs.com'... -> 27/08/2025, 16:37:09
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm2.cc1.gcorelabs.com'... -> 27/08/2025, 16:37:11
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm2.cc1.gcorelabs.com'... -> 27/08/2025, 16:37:34
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm2.mi2.gcorelabs.com'... -> 27/08/2025, 16:37:38
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm2.mi2.gcorelabs.com'... -> 27/08/2025, 16:37:58
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm2.ml2.gcorelabs.com'... -> 27/08/2025, 16:38:23
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm2.ml2.gcorelabs.com'... -> 27/08/2025, 16:38:42
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm2.ny2.gcorelabs.com'... -> 27/08/2025, 16:38:52
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm2.ny2.gcorelabs.com'... -> 27/08/2025, 16:39:12
+  [Url-Watcher] ℹ️ Starting Katana for 'https://kvm2.tl.gcorelabs.com'... -> 27/08/2025, 16:39:35
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://kvm2.tl.gcorelabs.com'... -> 27/08/2025, 16:39:47
+  [Url-Watcher] ℹ️ Starting Katana for 'http://kvm2.pl1.gcorelabs.com'... -> 27/08/2025, 16:40:00
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm2.pl1.gcorelabs.com'... -> 27/08/2025, 16:40:19
+  [Url-Watcher] ℹ️ Starting Katana for 'https://kvmmgr-am3.gcorelabs.com'... -> 27/08/2025, 16:40:28
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://kvmmgr-am3.gcorelabs.com'... -> 27/08/2025, 16:40:41
+  [Url-Watcher] ℹ️ Starting Katana for 'https://kvmmgr-anx.gcorelabs.com'... -> 27/08/2025, 16:40:46
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://kvmmgr-anx.gcorelabs.com'... -> 27/08/2025, 16:40:59
+  [Url-Watcher] ℹ️ Starting Katana for 'https://branded-dk01-cloud.acronis.com'... -> 27/08/2025, 16:41:03
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-dk01-cloud.acronis.com'... -> 27/08/2025, 16:41:15
+  [Url-Watcher] ℹ️ Starting Katana for 'https://zable-bnpl-dev.marqeta.com'... -> 27/08/2025, 16:41:17
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://zable-bnpl-dev.marqeta.com'... -> 27/08/2025, 16:41:29
+  [Url-Watcher] ℹ️ Starting Katana for 'http://zendesk2.marqeta.com'... -> 27/08/2025, 16:41:32
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'http://zendesk2.marqeta.com'... -> 27/08/2025, 16:41:44
+  [Url-Watcher] ℹ️ Starting Katana for 'https://jvssxpnsmngmntpthwrd-dev.marqeta.com'... -> 27/08/2025, 16:41:46
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://jvssxpnsmngmntpthwrd-dev.marqeta.com'... -> 27/08/2025, 16:41:58
+  [Url-Watcher] ℹ️ Starting Katana for 'https://juniprincipal-dev.marqeta.com'... -> 27/08/2025, 16:42:01
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://juniprincipal-dev.marqeta.com'... -> 27/08/2025, 16:42:13
+  [Url-Watcher] ℹ️ Starting Katana for 'https://kabu-dev.marqeta.com'... -> 27/08/2025, 16:42:15
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://kabu-dev.marqeta.com'... -> 27/08/2025, 16:42:27
+  [Url-Watcher] ℹ️ Starting Katana for 'https://karta-dev.marqeta.com'... -> 27/08/2025, 16:42:42
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://karta-dev.marqeta.com'... -> 27/08/2025, 16:42:54
+  [Url-Watcher] ℹ️ Starting Katana for 'https://www.marqeta.com'... -> 27/08/2025, 16:42:57
+  [Url-Watcher] ℹ️ Starting Waybackurls for 'https://www.marqeta.com'... -> 27/08/2025, 16:47:05
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 27/08/2025, 18:22:31
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 18:22:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://docs.testing.nebius.com'... -> 27/08/2025, 18:22:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://docs.testing.nebius.com'... -> 27/08/2025, 18:22:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://platform.academy.nebius.com'... -> 27/08/2025, 18:23:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://platform.academy.nebius.com'... -> 27/08/2025, 18:23:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://console-novnc-kal2.cloud.gcore.com'... -> 27/08/2025, 18:23:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://console-novnc-kal2.cloud.gcore.com'... -> 27/08/2025, 18:23:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://ed-16-latency.tools.gcore.com'... -> 27/08/2025, 18:23:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ed-16-latency.tools.gcore.com'... -> 27/08/2025, 18:23:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://jb1-2-latency.tools.gcore.com'... -> 27/08/2025, 18:24:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://jb1-2-latency.tools.gcore.com'... -> 27/08/2025, 18:24:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://sqr-v6.vm.gcore.com'... -> 27/08/2025, 18:24:29
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://sqr-v6.vm.gcore.com'... -> 27/08/2025, 18:24:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://support.padvish.com'... -> 27/08/2025, 18:24:51
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://support.padvish.com'... -> 27/08/2025, 18:25:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-ed.gcorelabs.com'... -> 27/08/2025, 18:25:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-ed.gcorelabs.com'... -> 27/08/2025, 18:25:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://fi-153.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:25:26
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-153.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:25:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://fi-188.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:25:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-188.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:25:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://fi-213.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:25:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-213.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:26:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://fi-251.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:26:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-251.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:26:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://fi-55.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:26:24
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://fi-55.lux.cloud.gcorelabs.com'... -> 27/08/2025, 18:26:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-jb1.gcorelabs.com'... -> 27/08/2025, 18:26:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-jb1.gcorelabs.com'... -> 27/08/2025, 18:26:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 18:26:57
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 18:27:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 18:27:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 18:27:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-mdc.gcorelabs.com'... -> 27/08/2025, 18:27:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-mdc.gcorelabs.com'... -> 27/08/2025, 18:27:54
+[Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.cm.gcorelabs.com'... -> 27/08/2025, 18:28:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.cm.gcorelabs.com'... -> 27/08/2025, 18:28:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-kal.gcorelabs.com'... -> 27/08/2025, 18:29:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-kal.gcorelabs.com'... -> 27/08/2025, 18:29:12
+[Url-Watcher] ℹ️ Starting Katana for 'http://kvm1.jb1.gcorelabs.com'... -> 27/08/2025, 18:29:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://kvm1.jb1.gcorelabs.com'... -> 27/08/2025, 18:29:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-kx.gcorelabs.com'... -> 27/08/2025, 18:29:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-kx.gcorelabs.com'... -> 27/08/2025, 18:29:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-pl1.gcorelabs.com'... -> 27/08/2025, 18:30:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-pl1.gcorelabs.com'... -> 27/08/2025, 18:30:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-mi1.gcorelabs.com'... -> 27/08/2025, 18:30:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-mi1.gcorelabs.com'... -> 27/08/2025, 18:30:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-scl2.gcorelabs.com'... -> 27/08/2025, 18:30:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-scl2.gcorelabs.com'... -> 27/08/2025, 18:30:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-ml2.gcorelabs.com'... -> 27/08/2025, 18:31:01
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dci-ml2.gcorelabs.com'... -> 27/08/2025, 18:31:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://dci-sg2.gcorelabs.com'... -> 27/08/2025, 18:31:48
