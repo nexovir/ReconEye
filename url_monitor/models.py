@@ -77,14 +77,14 @@ class Parameter(BaseModel) :
 
 
 class SubdomainParameter(BaseModel):
-    wildcard = models.ForeignKey(WatchedWildcard , on_delete=models.CASCADE , null=True , blank=True)
+    subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE , null=True , blank=True)
     parameter = models.CharField(null=False , blank=False)
     label = models.CharField(choices=LABELS , default='new')
     
     def __str__(self):
-        return f"{self.parameter} - {self.wildcard}"
+        return f"{self.parameter} - {self.subdomain}"
     
     class Meta :
-        unique_together = ['wildcard' , 'parameter']
+        unique_together = ['subdomain' , 'parameter']
         verbose_name = 'Subdomain Parameter'
         verbose_name_plural = 'Subdomain Parameters'

@@ -95,7 +95,7 @@ def _killpg(p: subprocess.Popen):
         except Exception:
             pass
 
-def run_command(cmd_list, on_line=None, timeout_ms=10*60*1000, idle_timeout_ms=120*1000, max_lines=None):
+def run_command(cmd_list, on_line=None, timeout_ms=15*60*1000, idle_timeout_ms=120*1000, max_lines=None):
     p = None
     lines_seen = 0
     last_activity = time.monotonic()
@@ -211,11 +211,21 @@ def discover_urls(self, label):
     subdomains = SubdomainHttpx.objects.filter(label=label)
 
     for subdomain in subdomains:
-        run_katana(subdomain.httpx_result, on_line=lambda url: insert_url(subdomain, url))
-        run_waybackurls(subdomain.httpx_result, on_line=lambda url: insert_url(subdomain, url))
+        if subdomain.label == "new":
+            run_katana(
+                subdomain.httpx_result,
+                on_line=lambda url: insert_url(subdomain, url)
+            )
+            run_waybackurls(
+               subdomain.httpx_result,
+               on_line=lambda url: insert_url(subdomain, url)
+            )
 
-
-
+        elif subdomain.label == "available":
+            run_katana(
+                subdomain.httpx_result,
+                on_line=lambda url: insert_url(subdomain, url)
+            )
 
 def detect_urls_changes(self):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)" , colour="CYAN")
@@ -278,7 +288,7 @@ def discover_parameter(self , label):
     def parameters_insert_database(subdomain , parameters):
         for parameter in parameters :
             obj, created = SubdomainParameter.objects.get_or_create(
-                wildcard = subdomain.wildcard,
+                subdomain = subdomain,
                 parameter = parameter
             )
             if created:
@@ -370,27 +380,26 @@ def fuzz_parameters_on_urls(self , label):
             except Exception as e:
                 sendmessage(f"[Url-Watcher] ❌ Unexpected error X8 {url} with {method}: {str(e)}", colour="RED")
 
-    wildcards = WatchedWildcard.objects.all()
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", colour="CYAN")
 
-    for wildcard in wildcards:
-        parameters = wildcard.subdomainparameter_set.values_list('parameter', flat=True)
-        read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
-        subdomains = DiscoverSubdomain.objects.filter(wildcard=wildcard , label=label)
-        
-        for subdomain in subdomains:
-            sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs" , colour="CYAN")
-            headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
-            urls = Url.objects.filter(subdomain=subdomain).order_by(
-                Case(
-                    When(label="new", then=Value(0)),
-                    default=Value(1),
-                    output_field=IntegerField()
-                ),
-            )
 
-            for url in urls:
-                run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
+    subdomains = DiscoverSubdomain.objects.filter(label=label)
+    
+    for subdomain in subdomains:
+        parameters = subdomain.subdomainparameter_set.values_list('parameter', flat=True)
+        read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
+
+        sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs" , colour="CYAN")
+        headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
+        urls = Url.objects.filter(subdomain=subdomain).order_by(
+            Case(
+                When(label="new", then=Value(0)),
+                default=Value(1),
+                output_field=IntegerField()
+            ),
+        )
+        for url in urls:
+            run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
 
 
 
@@ -422,15 +431,15 @@ def url_monitor(self):
 
     workflow = chain(
         # discover_urls_task.s('new'),
-        discover_parameter_task.si('new'),
+        # discover_parameter_task.si('new'),
         fuzz_parameters_on_urls_task.si('new'),
-        vulnerability_monitor_task.si('new'),
+        # vulnerability_monitor_task.si('new'),
 
-        # discover_urls_task.s('available'),
-        # discover_parameter_task.s('available'),
-        # fuzz_parameters_on_urls_task.s('available'),
-        # vulnerability_monitor_task.s('available'),
+        discover_urls_task.si('available'),
+        ## discover_parameter_task.s('available'),
+        ## fuzz_parameters_on_urls_task.s('available'),
+        ## vulnerability_monitor_task.s('available'),
         
-        detect_urls_changes_task.s()
+        # detect_urls_changes_task.si()
     )
     workflow.apply_async()

@@ -51,8 +51,8 @@ class ParameterAdmin(admin.ModelAdmin):
 
 @register(SubdomainParameter)
 class SubdomainParameterAdmin(admin.ModelAdmin):
-    list_display = ['wildcard' , 'parameter' , 'label']
-    search_fields = ['wildcard' , 'path' ]
+    list_display = ['subdomain' , 'parameter' , 'label']
+    search_fields = ['subdomain' , 'path' ]
     list_filter = ['label']
     list_per_page = 100
 
