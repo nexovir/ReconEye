@@ -860,3 +860,998 @@ DETAIL:  Key (subdomain)=(title><) already exists. -> 27/08/2025, 00:27:54
 [Url-Watcher] ℹ️ Starting Waybackurls for 'https://my.padvish.com'... -> 27/08/2025, 19:44:17
 [Url-Watcher] ℹ️ Starting Katana for 'https://www.padvish.com'... -> 27/08/2025, 19:44:21
 [Url-Watcher] ℹ️ Starting Waybackurls for 'https://www.padvish.com'... -> 27/08/2025, 19:44:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud2.padvish.com'... -> 27/08/2025, 20:03:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud2.padvish.com'... -> 27/08/2025, 20:03:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://help.padvish.com'... -> 27/08/2025, 20:03:16
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://help.padvish.com'... -> 27/08/2025, 20:03:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://vuln.padvish.com'... -> 27/08/2025, 20:06:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://vuln.padvish.com'... -> 27/08/2025, 20:06:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.qa.tr.ee'... -> 27/08/2025, 20:06:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.qa.tr.ee'... -> 27/08/2025, 20:06:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.tr.ee'... -> 27/08/2025, 20:06:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.tr.ee'... -> 27/08/2025, 20:07:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa.tr.ee'... -> 27/08/2025, 20:07:13
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa.tr.ee'... -> 27/08/2025, 20:07:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.qa.tr.ee'... -> 27/08/2025, 20:07:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.qa.tr.ee'... -> 27/08/2025, 20:08:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.tr.ee'... -> 27/08/2025, 20:08:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.tr.ee'... -> 27/08/2025, 20:08:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr.ee'... -> 27/08/2025, 20:08:28
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://tr.ee'... -> 27/08/2025, 20:08:49
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 27/08/2025, 22:30:20
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 22:30:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://support.padvish.com'... -> 27/08/2025, 22:30:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://support.padvish.com'... -> 27/08/2025, 22:30:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 22:30:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 22:31:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 22:31:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 22:31:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-dk01-cloud.acronis.com'... -> 27/08/2025, 22:31:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-dk01-cloud.acronis.com'... -> 27/08/2025, 22:31:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.cloud.acronis.work'... -> 27/08/2025, 22:31:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.cloud.acronis.work'... -> 27/08/2025, 22:32:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.kaseya-cloud.acronis.work'... -> 27/08/2025, 22:32:40
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.kaseya-cloud.acronis.work'... -> 27/08/2025, 22:32:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.se01-cloud.acronis.work'... -> 27/08/2025, 22:32:57
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.se01-cloud.acronis.work'... -> 27/08/2025, 22:33:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.ro01-cloud.acronis.work'... -> 27/08/2025, 22:33:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.ro01-cloud.acronis.work'... -> 27/08/2025, 22:33:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.pt01-cloud.acronis.work'... -> 27/08/2025, 22:33:57
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.pt01-cloud.acronis.work'... -> 27/08/2025, 22:34:09
+[Url-Watcher] ℹ️ Starting Katana for 'http://connect.acronis.work'... -> 27/08/2025, 22:34:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://connect.acronis.work'... -> 27/08/2025, 22:34:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://intranet.acronis.work'... -> 27/08/2025, 22:34:47
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://intranet.acronis.work'... -> 27/08/2025, 22:35:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://telemetry.platform.linktr.ee'... -> 27/08/2025, 22:35:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://telemetry.platform.linktr.ee'... -> 27/08/2025, 22:36:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://chargehound.production.linktr.ee'... -> 27/08/2025, 22:37:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://chargehound.production.linktr.ee'... -> 27/08/2025, 22:37:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://shop.padvish.com'... -> 27/08/2025, 22:37:26
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://shop.padvish.com'... -> 27/08/2025, 22:37:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloudpms.padvish.com'... -> 27/08/2025, 22:41:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloudpms.padvish.com'... -> 27/08/2025, 22:41:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://update.padvish.com'... -> 27/08/2025, 22:41:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://update.padvish.com'... -> 27/08/2025, 22:41:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://my.padvish.com'... -> 27/08/2025, 22:42:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://my.padvish.com'... -> 27/08/2025, 22:42:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.padvish.com'... -> 27/08/2025, 22:42:51
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://www.padvish.com'... -> 27/08/2025, 22:43:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud2.padvish.com'... -> 27/08/2025, 22:44:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud2.padvish.com'... -> 27/08/2025, 22:44:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://help.padvish.com'... -> 27/08/2025, 22:44:36
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://help.padvish.com'... -> 27/08/2025, 22:44:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://vuln.padvish.com'... -> 27/08/2025, 22:47:24
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://vuln.padvish.com'... -> 27/08/2025, 22:47:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.qa.tr.ee'... -> 27/08/2025, 22:47:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.qa.tr.ee'... -> 27/08/2025, 22:48:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.tr.ee'... -> 27/08/2025, 22:48:18
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.tr.ee'... -> 27/08/2025, 22:48:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa.tr.ee'... -> 27/08/2025, 22:49:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa.tr.ee'... -> 27/08/2025, 22:49:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.qa.tr.ee'... -> 27/08/2025, 22:50:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.qa.tr.ee'... -> 27/08/2025, 22:50:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.tr.ee'... -> 27/08/2025, 22:50:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.tr.ee'... -> 27/08/2025, 22:50:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr.ee'... -> 27/08/2025, 22:50:57
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://tr.ee'... -> 27/08/2025, 22:51:16
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 23:16:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://support.padvish.com'... -> 27/08/2025, 23:16:58
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 27/08/2025, 23:17:13
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 27/08/2025, 23:17:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://support.padvish.com'... -> 27/08/2025, 23:17:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://support.padvish.com'... -> 27/08/2025, 23:17:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 23:17:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us5-cloud.acronis.com'... -> 27/08/2025, 23:18:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 23:18:12
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-fi01-cloud.acronis.com'... -> 27/08/2025, 23:18:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-dk01-cloud.acronis.com'... -> 27/08/2025, 23:18:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-dk01-cloud.acronis.com'... -> 27/08/2025, 23:18:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.cloud.acronis.work'... -> 27/08/2025, 23:18:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.cloud.acronis.work'... -> 27/08/2025, 23:19:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.kaseya-cloud.acronis.work'... -> 27/08/2025, 23:19:29
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.kaseya-cloud.acronis.work'... -> 27/08/2025, 23:19:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.se01-cloud.acronis.work'... -> 27/08/2025, 23:19:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.se01-cloud.acronis.work'... -> 27/08/2025, 23:19:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.ro01-cloud.acronis.work'... -> 27/08/2025, 23:19:58
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.ro01-cloud.acronis.work'... -> 27/08/2025, 23:20:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.pt01-cloud.acronis.work'... -> 27/08/2025, 23:20:16
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.pt01-cloud.acronis.work'... -> 27/08/2025, 23:20:29
+[Url-Watcher] ℹ️ Starting Katana for 'http://connect.acronis.work'... -> 27/08/2025, 23:20:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://connect.acronis.work'... -> 27/08/2025, 23:20:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://intranet.acronis.work'... -> 27/08/2025, 23:20:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://intranet.acronis.work'... -> 27/08/2025, 23:21:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://telemetry.platform.linktr.ee'... -> 27/08/2025, 23:22:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://telemetry.platform.linktr.ee'... -> 27/08/2025, 23:22:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://chargehound.production.linktr.ee'... -> 27/08/2025, 23:22:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://chargehound.production.linktr.ee'... -> 27/08/2025, 23:22:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://shop.padvish.com'... -> 27/08/2025, 23:22:42
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://shop.padvish.com'... -> 27/08/2025, 23:24:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloudpms.padvish.com'... -> 27/08/2025, 23:25:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloudpms.padvish.com'... -> 27/08/2025, 23:25:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://update.padvish.com'... -> 27/08/2025, 23:25:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://update.padvish.com'... -> 27/08/2025, 23:25:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://my.padvish.com'... -> 27/08/2025, 23:25:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://my.padvish.com'... -> 27/08/2025, 23:26:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.padvish.com'... -> 27/08/2025, 23:26:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://www.padvish.com'... -> 27/08/2025, 23:26:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud2.padvish.com'... -> 27/08/2025, 23:42:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud2.padvish.com'... -> 27/08/2025, 23:42:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://help.padvish.com'... -> 27/08/2025, 23:43:18
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://help.padvish.com'... -> 27/08/2025, 23:43:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://vuln.padvish.com'... -> 27/08/2025, 23:45:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://vuln.padvish.com'... -> 27/08/2025, 23:45:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.qa.tr.ee'... -> 27/08/2025, 23:45:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.qa.tr.ee'... -> 27/08/2025, 23:46:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.tr.ee'... -> 27/08/2025, 23:46:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.tr.ee'... -> 27/08/2025, 23:46:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa.tr.ee'... -> 27/08/2025, 23:46:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa.tr.ee'... -> 27/08/2025, 23:46:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.qa.tr.ee'... -> 27/08/2025, 23:46:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.qa.tr.ee'... -> 27/08/2025, 23:47:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.tr.ee'... -> 27/08/2025, 23:47:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.tr.ee'... -> 27/08/2025, 23:47:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr.ee'... -> 27/08/2025, 23:47:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://tr.ee'... -> 27/08/2025, 23:51:39
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 28/08/2025, 08:55:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://support.padvish.com'... -> 28/08/2025, 08:55:40
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 28/08/2025, 09:10:23
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 28/08/2025, 09:10:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr.ee'... -> 28/08/2025, 09:10:25
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 28/08/2025, 09:10:26
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 28/08/2025, 09:10:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr.ee'... -> 28/08/2025, 09:10:28
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 28/08/2025, 09:11:00
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 28/08/2025, 09:11:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr.ee'... -> 28/08/2025, 09:11:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://tr.ee'... -> 28/08/2025, 09:11:25
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://tr.ee -> 28/08/2025, 09:21:27
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 28/08/2025, 09:23:55
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 28/08/2025, 09:23:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://support.padvish.com'... -> 28/08/2025, 09:23:57
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://support.padvish.com'... -> 28/08/2025, 09:24:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us5-cloud.acronis.com'... -> 28/08/2025, 09:24:16
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us5-cloud.acronis.com'... -> 28/08/2025, 09:24:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-fi01-cloud.acronis.com'... -> 28/08/2025, 09:24:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-fi01-cloud.acronis.com'... -> 28/08/2025, 09:24:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-dk01-cloud.acronis.com'... -> 28/08/2025, 09:24:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-dk01-cloud.acronis.com'... -> 28/08/2025, 09:24:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.cloud.acronis.work'... -> 28/08/2025, 09:25:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.cloud.acronis.work'... -> 28/08/2025, 09:25:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.kaseya-cloud.acronis.work'... -> 28/08/2025, 09:25:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.kaseya-cloud.acronis.work'... -> 28/08/2025, 09:25:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.se01-cloud.acronis.work'... -> 28/08/2025, 09:25:36
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.se01-cloud.acronis.work'... -> 28/08/2025, 09:25:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.ro01-cloud.acronis.work'... -> 28/08/2025, 09:25:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.ro01-cloud.acronis.work'... -> 28/08/2025, 09:26:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.pt01-cloud.acronis.work'... -> 28/08/2025, 09:26:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://k8s.pt01-cloud.acronis.work'... -> 28/08/2025, 09:26:17
+[Url-Watcher] ℹ️ Starting Katana for 'http://connect.acronis.work'... -> 28/08/2025, 09:26:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://connect.acronis.work'... -> 28/08/2025, 09:26:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://intranet.acronis.work'... -> 28/08/2025, 09:26:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://intranet.acronis.work'... -> 28/08/2025, 09:26:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://telemetry.platform.linktr.ee'... -> 28/08/2025, 09:27:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://telemetry.platform.linktr.ee'... -> 28/08/2025, 09:27:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://chargehound.production.linktr.ee'... -> 28/08/2025, 09:27:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://chargehound.production.linktr.ee'... -> 28/08/2025, 09:27:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://shop.padvish.com'... -> 28/08/2025, 09:27:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://shop.padvish.com'... -> 28/08/2025, 09:28:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloudpms.padvish.com'... -> 28/08/2025, 09:28:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloudpms.padvish.com'... -> 28/08/2025, 09:28:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://update.padvish.com'... -> 28/08/2025, 09:28:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://update.padvish.com'... -> 28/08/2025, 09:28:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://my.padvish.com'... -> 28/08/2025, 09:29:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://my.padvish.com'... -> 28/08/2025, 09:29:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.padvish.com'... -> 28/08/2025, 09:29:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://www.padvish.com'... -> 28/08/2025, 09:30:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud2.padvish.com'... -> 28/08/2025, 09:32:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud2.padvish.com'... -> 28/08/2025, 09:33:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://help.padvish.com'... -> 28/08/2025, 09:33:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://help.padvish.com'... -> 28/08/2025, 09:33:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://vuln.padvish.com'... -> 28/08/2025, 09:33:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://vuln.padvish.com'... -> 28/08/2025, 09:33:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.qa.tr.ee'... -> 28/08/2025, 09:33:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.qa.tr.ee'... -> 28/08/2025, 09:33:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.tr.ee'... -> 28/08/2025, 09:33:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.tr.ee'... -> 28/08/2025, 09:34:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa.tr.ee'... -> 28/08/2025, 09:34:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa.tr.ee'... -> 28/08/2025, 09:34:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.qa.tr.ee'... -> 28/08/2025, 09:34:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.qa.tr.ee'... -> 28/08/2025, 09:34:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirect.tr.ee'... -> 28/08/2025, 09:34:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://redirect.tr.ee'... -> 28/08/2025, 09:34:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr.ee'... -> 28/08/2025, 09:34:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://tr.ee'... -> 28/08/2025, 09:35:08
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://tr.ee -> 28/08/2025, 09:45:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://capi.tr.ee'... -> 28/08/2025, 09:45:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://capi.tr.ee'... -> 28/08/2025, 09:45:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://embed.staging.song.link'... -> 28/08/2025, 09:45:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://embed.staging.song.link'... -> 28/08/2025, 09:46:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging.song.link'... -> 28/08/2025, 09:46:01
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://staging.song.link'... -> 28/08/2025, 09:46:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://api.staging.song.link'... -> 28/08/2025, 09:46:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api.staging.song.link'... -> 28/08/2025, 09:46:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://api.song.link'... -> 28/08/2025, 09:46:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api.song.link'... -> 28/08/2025, 09:46:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://embed.song.link'... -> 28/08/2025, 09:46:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://embed.song.link'... -> 28/08/2025, 09:47:03
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://embed.song.link -> 28/08/2025, 09:57:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging.artist.link'... -> 28/08/2025, 09:57:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://staging.artist.link'... -> 28/08/2025, 09:57:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-au1-cloud.acronis.com'... -> 28/08/2025, 09:57:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-au1-cloud.acronis.com'... -> 28/08/2025, 09:57:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-tw01-cloud.acronis.com'... -> 28/08/2025, 09:57:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-tw01-cloud.acronis.com'... -> 28/08/2025, 09:57:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging.odesli.com'... -> 28/08/2025, 09:57:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://staging.odesli.com'... -> 28/08/2025, 09:58:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging.playlist.link'... -> 28/08/2025, 09:58:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://staging.playlist.link'... -> 28/08/2025, 09:58:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging.pods.link'... -> 28/08/2025, 09:58:29
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://staging.pods.link'... -> 28/08/2025, 09:58:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://a.acronis.com'... -> 28/08/2025, 09:58:44
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://a.acronis.com'... -> 28/08/2025, 09:58:56
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://a.acronis.com -> 28/08/2025, 10:08:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-ber1-acs01.acronis.com'... -> 28/08/2025, 10:08:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-ber1-acs01.acronis.com'... -> 28/08/2025, 10:09:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://a-preview.acronis.com'... -> 28/08/2025, 10:09:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://a-preview.acronis.com'... -> 28/08/2025, 10:09:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://aa.acronis.com'... -> 28/08/2025, 10:09:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://aa.acronis.com'... -> 28/08/2025, 10:09:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://15.acronis.com'... -> 28/08/2025, 10:09:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://15.acronis.com'... -> 28/08/2025, 10:09:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-auh1-aci01.acronis.com'... -> 28/08/2025, 10:10:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-auh1-aci01.acronis.com'... -> 28/08/2025, 10:10:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-cgk1-aci01.acronis.com'... -> 28/08/2025, 10:10:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-cgk1-aci01.acronis.com'... -> 28/08/2025, 10:10:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-au2-acs1.acronis.com'... -> 28/08/2025, 10:10:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-au2-acs1.acronis.com'... -> 28/08/2025, 10:10:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-bll1-aci01.acronis.com'... -> 28/08/2025, 10:10:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-bll1-aci01.acronis.com'... -> 28/08/2025, 10:11:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-ach1-aci01.acronis.com'... -> 28/08/2025, 10:11:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-ach1-aci01.acronis.com'... -> 28/08/2025, 10:11:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-fco1-aci01.acronis.com'... -> 28/08/2025, 10:11:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-fco1-aci01.acronis.com'... -> 28/08/2025, 10:11:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-iad10-aci01.acronis.com'... -> 28/08/2025, 10:11:42
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-iad10-aci01.acronis.com'... -> 28/08/2025, 10:11:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-hel1-aci01.acronis.com'... -> 28/08/2025, 10:12:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-hel1-aci01.acronis.com'... -> 28/08/2025, 10:12:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-jnb1-aci01.acronis.com'... -> 28/08/2025, 10:12:21
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-jnb1-aci01.acronis.com'... -> 28/08/2025, 10:12:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-jp2-acs1.acronis.com'... -> 28/08/2025, 10:12:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-jp2-acs1.acronis.com'... -> 28/08/2025, 10:12:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-sof1-aci01.acronis.com'... -> 28/08/2025, 10:12:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-sof1-aci01.acronis.com'... -> 28/08/2025, 10:13:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-skg1-aci01.acronis.com'... -> 28/08/2025, 10:13:12
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-skg1-aci01.acronis.com'... -> 28/08/2025, 10:13:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-sof92-aci01.acronis.com'... -> 28/08/2025, 10:13:28
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-sof92-aci01.acronis.com'... -> 28/08/2025, 10:13:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-tlv1-aci01.acronis.com'... -> 28/08/2025, 10:13:44
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-tlv1-aci01.acronis.com'... -> 28/08/2025, 10:14:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu4-cloud.acronis.com'... -> 28/08/2025, 10:14:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-eu4-cloud.acronis.com'... -> 28/08/2025, 10:14:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu-cloud.acronis.com'... -> 28/08/2025, 10:14:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-eu-cloud.acronis.com'... -> 28/08/2025, 10:14:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu8-cloud.acronis.com'... -> 28/08/2025, 10:14:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-eu8-cloud.acronis.com'... -> 28/08/2025, 10:14:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu2-cloud.acronis.com'... -> 28/08/2025, 10:14:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-eu2-cloud.acronis.com'... -> 28/08/2025, 10:15:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-es01-cloud.acronis.com'... -> 28/08/2025, 10:15:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-es01-cloud.acronis.com'... -> 28/08/2025, 10:15:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-vie1-aci01.acronis.com'... -> 28/08/2025, 10:15:21
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-vie1-aci01.acronis.com'... -> 28/08/2025, 10:15:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-yyz2-acs01.acronis.com'... -> 28/08/2025, 10:15:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-yyz2-acs01.acronis.com'... -> 28/08/2025, 10:15:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://academy.acronis.com'... -> 28/08/2025, 10:16:01
+[Url-Watcher] ⏱ Hard timeout: nice-katana https://academy.acronis.com -> 28/08/2025, 10:26:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://academy.acronis.com'... -> 28/08/2025, 10:26:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://account.acronis.com'... -> 28/08/2025, 10:26:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://account.acronis.com'... -> 28/08/2025, 10:26:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://acep.acronis.com'... -> 28/08/2025, 10:26:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://acep.acronis.com'... -> 28/08/2025, 10:26:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://ach1-repo.acronis.com'... -> 28/08/2025, 10:26:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ach1-repo.acronis.com'... -> 28/08/2025, 10:27:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://ach1-s3gw.acronis.com'... -> 28/08/2025, 10:27:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ach1-s3gw.acronis.com'... -> 28/08/2025, 10:27:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://activation-cn.acronis.com'... -> 28/08/2025, 10:27:18
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://activation-cn.acronis.com'... -> 28/08/2025, 10:27:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://activation.acronis.com'... -> 28/08/2025, 10:27:32
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://activation.acronis.com'... -> 28/08/2025, 10:27:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://admin.acronis.com'... -> 28/08/2025, 10:28:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://admin.acronis.com'... -> 28/08/2025, 10:28:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://admin2.acronis.com'... -> 28/08/2025, 10:28:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://admin2.acronis.com'... -> 28/08/2025, 10:29:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://affiliate.acronis.com'... -> 28/08/2025, 10:29:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://affiliate.acronis.com'... -> 28/08/2025, 10:29:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://adn.acronis.com'... -> 28/08/2025, 10:29:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://adn.acronis.com'... -> 28/08/2025, 10:29:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ae01-cloud.acronis.com'... -> 28/08/2025, 10:29:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-ae01-cloud.acronis.com'... -> 28/08/2025, 10:30:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://ae01-cloud.acronis.com'... -> 28/08/2025, 10:30:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ae01-cloud.acronis.com'... -> 28/08/2025, 10:30:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-bg01-cloud.acronis.com'... -> 28/08/2025, 10:30:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-bg01-cloud.acronis.com'... -> 28/08/2025, 10:30:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-at01-cloud.acronis.com'... -> 28/08/2025, 10:30:44
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-at01-cloud.acronis.com'... -> 28/08/2025, 10:30:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-bg92-cloud.acronis.com'... -> 28/08/2025, 10:30:58
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-bg92-cloud.acronis.com'... -> 28/08/2025, 10:31:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-au1-cloud.acronis.com'... -> 28/08/2025, 10:31:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-au1-cloud.acronis.com'... -> 28/08/2025, 10:31:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-cz01-cloud.acronis.com'... -> 28/08/2025, 10:31:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-cz01-cloud.acronis.com'... -> 28/08/2025, 10:31:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-dk01-cloud.acronis.com'... -> 28/08/2025, 10:31:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-dk01-cloud.acronis.com'... -> 28/08/2025, 10:31:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ca02-cloud.acronis.com'... -> 28/08/2025, 10:32:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-ca02-cloud.acronis.com'... -> 28/08/2025, 10:32:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ee99-cloud.acronis.com'... -> 28/08/2025, 10:32:45
+[Url-Watcher] ⏱ Idle timeout (no output): nice-katana https://agents-ee99-cloud.acronis.com -> 28/08/2025, 10:34:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-ee99-cloud.acronis.com'... -> 28/08/2025, 10:34:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ca01-cloud.acronis.com'... -> 28/08/2025, 10:34:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-ca01-cloud.acronis.com'... -> 28/08/2025, 10:35:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-br02-cloud.acronis.com'... -> 28/08/2025, 10:35:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-br02-cloud.acronis.com'... -> 28/08/2025, 10:35:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu16-cloud.acronis.com'... -> 28/08/2025, 10:35:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-eu16-cloud.acronis.com'... -> 28/08/2025, 10:35:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-br01-cloud.acronis.com'... -> 28/08/2025, 10:35:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-br01-cloud.acronis.com'... -> 28/08/2025, 10:35:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-godaddy-cloud.acronis.com'... -> 28/08/2025, 10:35:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-godaddy-cloud.acronis.com'... -> 28/08/2025, 10:36:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu5-cloud.acronis.com'... -> 28/08/2025, 10:36:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-eu5-cloud.acronis.com'... -> 28/08/2025, 10:36:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-hu01-cloud.acronis.com'... -> 28/08/2025, 10:36:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-hu01-cloud.acronis.com'... -> 28/08/2025, 10:36:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-il01-cloud.acronis.com'... -> 28/08/2025, 10:36:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-il01-cloud.acronis.com'... -> 28/08/2025, 10:36:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-gr01-cloud.acronis.com'... -> 28/08/2025, 10:36:56
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-gr01-cloud.acronis.com'... -> 28/08/2025, 10:37:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-id01-cloud.acronis.com'... -> 28/08/2025, 10:37:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-id01-cloud.acronis.com'... -> 28/08/2025, 10:37:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-in01-cloud.acronis.com'... -> 28/08/2025, 10:37:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-in01-cloud.acronis.com'... -> 28/08/2025, 10:37:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-li01-cloud.acronis.com'... -> 28/08/2025, 10:37:40
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-li01-cloud.acronis.com'... -> 28/08/2025, 10:37:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-it01-cloud.acronis.com'... -> 28/08/2025, 10:37:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-it01-cloud.acronis.com'... -> 28/08/2025, 10:38:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-jp03-cloud.acronis.com'... -> 28/08/2025, 10:38:12
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-jp03-cloud.acronis.com'... -> 28/08/2025, 10:38:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mc-beta-cloud.acronis.com'... -> 28/08/2025, 10:38:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-mc-beta-cloud.acronis.com'... -> 28/08/2025, 10:38:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-kr01-cloud.acronis.com'... -> 28/08/2025, 10:38:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-kr01-cloud.acronis.com'... -> 28/08/2025, 10:38:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mc-heg-baas.acronis.com'... -> 28/08/2025, 10:38:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-mc-heg-baas.acronis.com'... -> 28/08/2025, 10:39:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mx01-cloud.acronis.com'... -> 28/08/2025, 10:39:13
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-mx01-cloud.acronis.com'... -> 28/08/2025, 10:39:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-no01-cloud.acronis.com'... -> 28/08/2025, 10:39:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-no01-cloud.acronis.com'... -> 28/08/2025, 10:39:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-my01-cloud.acronis.com'... -> 28/08/2025, 10:39:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-my01-cloud.acronis.com'... -> 28/08/2025, 10:39:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-jp-cloud.acronis.com'... -> 28/08/2025, 10:40:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-jp-cloud.acronis.com'... -> 28/08/2025, 10:40:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-pt01-cloud.acronis.com'... -> 28/08/2025, 10:40:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-pt01-cloud.acronis.com'... -> 28/08/2025, 10:40:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mc-kaseya-cloud.acronis.com'... -> 28/08/2025, 10:40:29
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-mc-kaseya-cloud.acronis.com'... -> 28/08/2025, 10:40:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-se01-cloud.acronis.com'... -> 28/08/2025, 10:40:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-se01-cloud.acronis.com'... -> 28/08/2025, 10:41:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ro01-cloud.acronis.com'... -> 28/08/2025, 10:41:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-ro01-cloud.acronis.com'... -> 28/08/2025, 10:41:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-pl01-cloud.acronis.com'... -> 28/08/2025, 10:41:16
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-pl01-cloud.acronis.com'... -> 28/08/2025, 10:41:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-nz01-cloud.acronis.com'... -> 28/08/2025, 10:41:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-nz01-cloud.acronis.com'... -> 28/08/2025, 10:41:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-uk01-cloud.acronis.com'... -> 28/08/2025, 10:41:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-uk01-cloud.acronis.com'... -> 28/08/2025, 10:41:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-sg-cloud.acronis.com'... -> 28/08/2025, 10:42:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-sg-cloud.acronis.com'... -> 28/08/2025, 10:42:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-tr01-cloud.acronis.com'... -> 28/08/2025, 10:42:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-tr01-cloud.acronis.com'... -> 28/08/2025, 10:42:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us-cloud.acronis.com'... -> 28/08/2025, 10:42:29
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-us-cloud.acronis.com'... -> 28/08/2025, 10:42:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us11-cloud.acronis.com'... -> 28/08/2025, 10:42:44
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-us11-cloud.acronis.com'... -> 28/08/2025, 10:42:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us15-cloud.acronis.com'... -> 28/08/2025, 10:42:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-us15-cloud.acronis.com'... -> 28/08/2025, 10:43:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us5-cloud.acronis.com'... -> 28/08/2025, 10:43:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-us5-cloud.acronis.com'... -> 28/08/2025, 10:43:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us14-cloud.acronis.com'... -> 28/08/2025, 10:43:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-us14-cloud.acronis.com'... -> 28/08/2025, 10:43:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us4-cloud.acronis.com'... -> 28/08/2025, 10:43:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-us4-cloud.acronis.com'... -> 28/08/2025, 10:43:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-za01-cloud.acronis.com'... -> 28/08/2025, 10:44:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://agents-za01-cloud.acronis.com'... -> 28/08/2025, 10:44:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://akl1-repo.acronis.com'... -> 28/08/2025, 10:44:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://akl1-repo.acronis.com'... -> 28/08/2025, 10:44:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://akl1-s3gw.acronis.com'... -> 28/08/2025, 10:44:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://akl1-s3gw.acronis.com'... -> 28/08/2025, 10:44:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.acronis.com'... -> 28/08/2025, 10:44:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.acronis.com'... -> 28/08/2025, 10:45:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-dcm.acronis.com'... -> 28/08/2025, 10:45:12
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-dcm.acronis.com'... -> 28/08/2025, 10:45:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-dc-monitoring.acronis.com'... -> 28/08/2025, 10:45:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-dc-monitoring.acronis.com'... -> 28/08/2025, 10:45:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://at01-cloud.acronis.com'... -> 28/08/2025, 10:45:43
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://at01-cloud.acronis.com'... -> 28/08/2025, 10:45:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://atih-pushy.acronis.com'... -> 28/08/2025, 10:46:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://atih-pushy.acronis.com'... -> 28/08/2025, 10:46:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://au.new-pp.acronis.com'... -> 28/08/2025, 10:46:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://au.new-pp.acronis.com'... -> 28/08/2025, 10:46:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://appdirect-eu2-cloud.acronis.com'... -> 28/08/2025, 10:46:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://appdirect-eu2-cloud.acronis.com'... -> 28/08/2025, 10:47:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://asign.acronis.com'... -> 28/08/2025, 10:47:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://asign.acronis.com'... -> 28/08/2025, 10:47:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://au1-backup.acronis.com'... -> 28/08/2025, 10:47:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://au1-backup.acronis.com'... -> 28/08/2025, 10:47:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://au1-cloud.acronis.com'... -> 28/08/2025, 10:47:44
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://au1-cloud.acronis.com'... -> 28/08/2025, 10:48:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth.acronis.com'... -> 28/08/2025, 10:48:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://auth.acronis.com'... -> 28/08/2025, 10:48:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://auh1-repo.acronis.com'... -> 28/08/2025, 10:48:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://auh1-repo.acronis.com'... -> 28/08/2025, 10:48:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://auh1-s3gw.acronis.com'... -> 28/08/2025, 10:48:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://auh1-s3gw.acronis.com'... -> 28/08/2025, 10:48:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://authenticationfr.metro.acronis.com'... -> 28/08/2025, 10:48:47
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://authenticationfr.metro.acronis.com'... -> 28/08/2025, 10:48:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://au-cloud.acronis.com'... -> 28/08/2025, 10:49:01
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://au-cloud.acronis.com'... -> 28/08/2025, 10:49:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://au1-baas.acronis.com'... -> 28/08/2025, 10:49:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://au1-baas.acronis.com'... -> 28/08/2025, 10:49:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://aws.acronis.com'... -> 28/08/2025, 10:49:43
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://aws.acronis.com'... -> 28/08/2025, 10:50:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://ca.metro.acronis.com'... -> 28/08/2025, 10:50:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ca.metro.acronis.com'... -> 28/08/2025, 10:50:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-za01-cloud.acronis.com'... -> 28/08/2025, 10:50:21
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-za01-cloud.acronis.com'... -> 28/08/2025, 10:50:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://baas-fes-au1.acronis.com'... -> 28/08/2025, 10:50:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://baas-fes-au1.acronis.com'... -> 28/08/2025, 10:50:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://baas-fes-eu5.acronis.com'... -> 28/08/2025, 10:50:56
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://baas-fes-eu5.acronis.com'... -> 28/08/2025, 10:51:08
+[Url-Watcher] ℹ️ Starting Katana for 'http://autodiscover.acronis.com'... -> 28/08/2025, 10:51:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://autodiscover.acronis.com'... -> 28/08/2025, 10:51:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-baas.acronis.com'... -> 28/08/2025, 10:51:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-baas.acronis.com'... -> 28/08/2025, 10:51:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-backup.acronis.com'... -> 28/08/2025, 10:51:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-backup.acronis.com'... -> 28/08/2025, 10:52:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu-baas.acronis.com'... -> 28/08/2025, 10:52:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-eu-baas.acronis.com'... -> 28/08/2025, 10:52:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://baas.acronis.com'... -> 28/08/2025, 10:52:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://baas.acronis.com'... -> 28/08/2025, 10:52:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu2-backup.acronis.com'... -> 28/08/2025, 10:52:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-eu2-backup.acronis.com'... -> 28/08/2025, 10:53:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://backup.acronis.com'... -> 28/08/2025, 10:53:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://backup.acronis.com'... -> 28/08/2025, 10:53:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu4-baas.acronis.com'... -> 28/08/2025, 10:53:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-eu4-baas.acronis.com'... -> 28/08/2025, 10:53:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu2-cloud.acronis.com'... -> 28/08/2025, 10:53:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-eu2-cloud.acronis.com'... -> 28/08/2025, 10:53:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu2-baas.acronis.com'... -> 28/08/2025, 10:53:56
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-eu2-baas.acronis.com'... -> 28/08/2025, 10:54:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-heg-baas.acronis.com'... -> 28/08/2025, 10:54:13
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-heg-baas.acronis.com'... -> 28/08/2025, 10:54:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu5-baas.acronis.com'... -> 28/08/2025, 10:54:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-eu5-baas.acronis.com'... -> 28/08/2025, 10:54:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-us4-baas.acronis.com'... -> 28/08/2025, 10:54:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-us4-baas.acronis.com'... -> 28/08/2025, 10:55:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://ber1-repo.acronis.com'... -> 28/08/2025, 10:55:09
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ber1-repo.acronis.com'... -> 28/08/2025, 10:55:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta-baas.acronis.com'... -> 28/08/2025, 10:55:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta-baas.acronis.com'... -> 28/08/2025, 10:55:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-vpn.acronis.com'... -> 28/08/2025, 10:55:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bg-vpn.acronis.com'... -> 28/08/2025, 10:55:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta-cloud.acronis.com'... -> 28/08/2025, 10:56:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta-cloud.acronis.com'... -> 28/08/2025, 10:56:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg92-cloud.acronis.com'... -> 28/08/2025, 10:56:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bg92-cloud.acronis.com'... -> 28/08/2025, 10:56:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg01-cloud.acronis.com'... -> 28/08/2025, 10:56:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bg01-cloud.acronis.com'... -> 28/08/2025, 10:56:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://bll1-repo.acronis.com'... -> 28/08/2025, 10:56:56
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bll1-repo.acronis.com'... -> 28/08/2025, 10:57:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://blog.acronis.com'... -> 28/08/2025, 10:57:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://blog.acronis.com'... -> 28/08/2025, 10:57:38
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://blog.acronis.com -> 28/08/2025, 11:07:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://bom1-s3gw.acronis.com'... -> 28/08/2025, 11:07:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bom1-s3gw.acronis.com'... -> 28/08/2025, 11:07:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://bom1-repo.acronis.com'... -> 28/08/2025, 11:07:57
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bom1-repo.acronis.com'... -> 28/08/2025, 11:08:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://br01-cloud.acronis.com'... -> 28/08/2025, 11:08:24
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://br01-cloud.acronis.com'... -> 28/08/2025, 11:08:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://bll1-s3gw.acronis.com'... -> 28/08/2025, 11:08:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bll1-s3gw.acronis.com'... -> 28/08/2025, 11:09:01
+[Url-Watcher] ℹ️ Starting Katana for 'http://brand.acronis.com'... -> 28/08/2025, 11:09:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://brand.acronis.com'... -> 28/08/2025, 11:09:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://br02-cloud.acronis.com'... -> 28/08/2025, 11:09:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://br02-cloud.acronis.com'... -> 28/08/2025, 11:09:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-ae01-cloud.acronis.com'... -> 28/08/2025, 11:09:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-ae01-cloud.acronis.com'... -> 28/08/2025, 11:09:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-br01-cloud.acronis.com'... -> 28/08/2025, 11:09:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-br01-cloud.acronis.com'... -> 28/08/2025, 11:10:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-br02-cloud.acronis.com'... -> 28/08/2025, 11:10:16
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-br02-cloud.acronis.com'... -> 28/08/2025, 11:10:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-ca02-cloud.acronis.com'... -> 28/08/2025, 11:10:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-ca02-cloud.acronis.com'... -> 28/08/2025, 11:10:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-ca01-cloud.acronis.com'... -> 28/08/2025, 11:10:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-ca01-cloud.acronis.com'... -> 28/08/2025, 11:11:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-es01-cloud.acronis.com'... -> 28/08/2025, 11:11:12
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-es01-cloud.acronis.com'... -> 28/08/2025, 11:11:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu-cloud.acronis.com'... -> 28/08/2025, 11:11:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-eu-cloud.acronis.com'... -> 28/08/2025, 11:11:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu-baas.acronis.com'... -> 28/08/2025, 11:11:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-eu-baas.acronis.com'... -> 28/08/2025, 11:11:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu2-cloud.acronis.com'... -> 28/08/2025, 11:12:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-eu2-cloud.acronis.com'... -> 28/08/2025, 11:12:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu4-cloud.acronis.com'... -> 28/08/2025, 11:12:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-eu4-cloud.acronis.com'... -> 28/08/2025, 11:12:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-fi01-cloud.acronis.com'... -> 28/08/2025, 11:12:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-fi01-cloud.acronis.com'... -> 28/08/2025, 11:12:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu5-cloud.acronis.com'... -> 28/08/2025, 11:12:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-eu5-cloud.acronis.com'... -> 28/08/2025, 11:13:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu8-cloud.acronis.com'... -> 28/08/2025, 11:13:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-eu8-cloud.acronis.com'... -> 28/08/2025, 11:13:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-heg-baas.acronis.com'... -> 28/08/2025, 11:13:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-heg-baas.acronis.com'... -> 28/08/2025, 11:13:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-it01-cloud.acronis.com'... -> 28/08/2025, 11:13:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-it01-cloud.acronis.com'... -> 28/08/2025, 11:13:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-li01-cloud.acronis.com'... -> 28/08/2025, 11:13:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-li01-cloud.acronis.com'... -> 28/08/2025, 11:14:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-pl01-cloud.acronis.com'... -> 28/08/2025, 11:14:09
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-pl01-cloud.acronis.com'... -> 28/08/2025, 11:14:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-id01-cloud.acronis.com'... -> 28/08/2025, 11:14:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-id01-cloud.acronis.com'... -> 28/08/2025, 11:14:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-in01-cloud.acronis.com'... -> 28/08/2025, 11:14:42
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-in01-cloud.acronis.com'... -> 28/08/2025, 11:14:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-tr01-cloud.acronis.com'... -> 28/08/2025, 11:15:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-tr01-cloud.acronis.com'... -> 28/08/2025, 11:15:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-jp-cloud.acronis.com'... -> 28/08/2025, 11:15:14
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-jp-cloud.acronis.com'... -> 28/08/2025, 11:15:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us4-cloud.acronis.com'... -> 28/08/2025, 11:15:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us4-cloud.acronis.com'... -> 28/08/2025, 11:15:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://bud1-repo.acronis.com'... -> 28/08/2025, 11:15:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bud1-repo.acronis.com'... -> 28/08/2025, 11:15:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-sg-cloud.acronis.com'... -> 28/08/2025, 11:16:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-sg-cloud.acronis.com'... -> 28/08/2025, 11:16:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://ca01-cloud.acronis.com'... -> 28/08/2025, 11:16:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ca01-cloud.acronis.com'... -> 28/08/2025, 11:16:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://care.acronis.com'... -> 28/08/2025, 11:16:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://care.acronis.com'... -> 28/08/2025, 11:18:45
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://care.acronis.com -> 28/08/2025, 11:28:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us15-cloud.acronis.com'... -> 28/08/2025, 11:28:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us15-cloud.acronis.com'... -> 28/08/2025, 11:29:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://careers.acronis.com'... -> 28/08/2025, 11:29:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://careers.acronis.com'... -> 28/08/2025, 11:29:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://cftp-de.acronis.com'... -> 28/08/2025, 11:29:42
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cftp-de.acronis.com'... -> 28/08/2025, 11:29:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://cftp-de1.acronis.com'... -> 28/08/2025, 11:30:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cftp-de1.acronis.com'... -> 28/08/2025, 11:30:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us-cloud.acronis.com'... -> 28/08/2025, 11:31:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-us-cloud.acronis.com'... -> 28/08/2025, 11:31:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://cftp.acronis.com'... -> 28/08/2025, 11:31:29
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cftp.acronis.com'... -> 28/08/2025, 11:31:41
+[Url-Watcher] ℹ️ Starting Katana for 'http://branded-ee99-cloud.acronis.com'... -> 28/08/2025, 11:31:56
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://branded-ee99-cloud.acronis.com'... -> 28/08/2025, 11:32:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://ca02-cloud.acronis.com'... -> 28/08/2025, 11:32:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ca02-cloud.acronis.com'... -> 28/08/2025, 11:32:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://cdn.acronis.com'... -> 28/08/2025, 11:33:21
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cdn.acronis.com'... -> 28/08/2025, 11:33:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://casestudies.acronis.com'... -> 28/08/2025, 11:33:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://casestudies.acronis.com'... -> 28/08/2025, 11:34:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://cgk1-s3gw.acronis.com'... -> 28/08/2025, 11:34:42
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cgk1-s3gw.acronis.com'... -> 28/08/2025, 11:34:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://cleverbridge.acronis.com'... -> 28/08/2025, 11:35:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cleverbridge.acronis.com'... -> 28/08/2025, 11:36:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://cgk1-repo.acronis.com'... -> 28/08/2025, 11:36:16
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cgk1-repo.acronis.com'... -> 28/08/2025, 11:36:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-eu2.acronis.com'... -> 28/08/2025, 11:36:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-fes-eu2.acronis.com'... -> 28/08/2025, 11:36:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://bud1-s3gw.acronis.com'... -> 28/08/2025, 11:37:32
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bud1-s3gw.acronis.com'... -> 28/08/2025, 11:37:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-jp1.acronis.com'... -> 28/08/2025, 11:38:01
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-fes-jp1.acronis.com'... -> 28/08/2025, 11:38:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-jp2.acronis.com'... -> 28/08/2025, 11:38:18
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-fes-jp2.acronis.com'... -> 28/08/2025, 11:38:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-us3-acs2.acronis.com'... -> 28/08/2025, 11:38:36
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-fes-us3-acs2.acronis.com'... -> 28/08/2025, 11:38:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ae01.acronis.com'... -> 28/08/2025, 11:39:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-ae01.acronis.com'... -> 28/08/2025, 11:39:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-at01.acronis.com'... -> 28/08/2025, 11:39:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-at01.acronis.com'... -> 28/08/2025, 11:39:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-beta.acronis.com'... -> 28/08/2025, 11:39:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-beta.acronis.com'... -> 28/08/2025, 11:40:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-bg92.acronis.com'... -> 28/08/2025, 11:41:09
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-bg92.acronis.com'... -> 28/08/2025, 11:41:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-bg01.acronis.com'... -> 28/08/2025, 11:41:24
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-bg01.acronis.com'... -> 28/08/2025, 11:41:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-cz01.acronis.com'... -> 28/08/2025, 11:42:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-cz01.acronis.com'... -> 28/08/2025, 11:42:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ca02.acronis.com'... -> 28/08/2025, 11:42:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-ca02.acronis.com'... -> 28/08/2025, 11:42:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ca01.acronis.com'... -> 28/08/2025, 11:43:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-ca01.acronis.com'... -> 28/08/2025, 11:43:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-br01.acronis.com'... -> 28/08/2025, 11:43:36
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-br01.acronis.com'... -> 28/08/2025, 11:43:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu1.acronis.com'... -> 28/08/2025, 11:44:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-eu1.acronis.com'... -> 28/08/2025, 11:44:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-dk01.acronis.com'... -> 28/08/2025, 11:44:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-dk01.acronis.com'... -> 28/08/2025, 11:44:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-br02.acronis.com'... -> 28/08/2025, 11:45:21
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-br02.acronis.com'... -> 28/08/2025, 11:45:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu2.acronis.com'... -> 28/08/2025, 11:45:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-eu2.acronis.com'... -> 28/08/2025, 11:46:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-es01.acronis.com'... -> 28/08/2025, 11:47:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-es01.acronis.com'... -> 28/08/2025, 11:47:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu8.acronis.com'... -> 28/08/2025, 11:47:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-eu8.acronis.com'... -> 28/08/2025, 11:47:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-fi01.acronis.com'... -> 28/08/2025, 11:48:43
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-fi01.acronis.com'... -> 28/08/2025, 11:48:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu16.acronis.com'... -> 28/08/2025, 11:49:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-eu16.acronis.com'... -> 28/08/2025, 11:49:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-au1.acronis.com'... -> 28/08/2025, 11:49:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-au1.acronis.com'... -> 28/08/2025, 11:50:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-gr01.acronis.com'... -> 28/08/2025, 11:50:26
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-gr01.acronis.com'... -> 28/08/2025, 11:50:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu5.acronis.com'... -> 28/08/2025, 11:50:47
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-eu5.acronis.com'... -> 28/08/2025, 11:51:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-il01.acronis.com'... -> 28/08/2025, 11:51:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-il01.acronis.com'... -> 28/08/2025, 11:51:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-hu01.acronis.com'... -> 28/08/2025, 11:51:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-hu01.acronis.com'... -> 28/08/2025, 11:51:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-it01.acronis.com'... -> 28/08/2025, 11:52:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-it01.acronis.com'... -> 28/08/2025, 11:52:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-id01.acronis.com'... -> 28/08/2025, 11:52:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-id01.acronis.com'... -> 28/08/2025, 11:52:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-in01.acronis.com'... -> 28/08/2025, 11:52:47
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-in01.acronis.com'... -> 28/08/2025, 11:53:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-jp1.acronis.com'... -> 28/08/2025, 11:53:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-jp1.acronis.com'... -> 28/08/2025, 11:53:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-li01.acronis.com'... -> 28/08/2025, 11:53:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-li01.acronis.com'... -> 28/08/2025, 11:54:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-mx01.acronis.com'... -> 28/08/2025, 11:54:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-mx01.acronis.com'... -> 28/08/2025, 11:54:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-jp03.acronis.com'... -> 28/08/2025, 11:54:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-jp03.acronis.com'... -> 28/08/2025, 11:54:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-kr01.acronis.com'... -> 28/08/2025, 11:54:56
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-kr01.acronis.com'... -> 28/08/2025, 11:55:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-no01.acronis.com'... -> 28/08/2025, 11:55:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-no01.acronis.com'... -> 28/08/2025, 11:55:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-jp2.acronis.com'... -> 28/08/2025, 11:55:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-jp2.acronis.com'... -> 28/08/2025, 11:56:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-my01.acronis.com'... -> 28/08/2025, 11:56:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-my01.acronis.com'... -> 28/08/2025, 11:56:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ro01.acronis.com'... -> 28/08/2025, 11:56:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-ro01.acronis.com'... -> 28/08/2025, 11:57:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-pl01.acronis.com'... -> 28/08/2025, 11:57:09
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-pl01.acronis.com'... -> 28/08/2025, 11:57:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-se01.acronis.com'... -> 28/08/2025, 11:57:25
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-se01.acronis.com'... -> 28/08/2025, 11:57:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-nz01.acronis.com'... -> 28/08/2025, 11:57:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-nz01.acronis.com'... -> 28/08/2025, 11:58:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-tr01.acronis.com'... -> 28/08/2025, 11:58:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-tr01.acronis.com'... -> 28/08/2025, 11:58:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-pt01.acronis.com'... -> 28/08/2025, 11:58:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-pt01.acronis.com'... -> 28/08/2025, 11:58:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-uk01.acronis.com'... -> 28/08/2025, 11:58:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-uk01.acronis.com'... -> 28/08/2025, 11:58:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-sg1.acronis.com'... -> 28/08/2025, 11:58:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-sg1.acronis.com'... -> 28/08/2025, 11:59:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-tw01.acronis.com'... -> 28/08/2025, 11:59:29
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-tw01.acronis.com'... -> 28/08/2025, 11:59:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us1.acronis.com'... -> 28/08/2025, 11:59:47
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-us1.acronis.com'... -> 28/08/2025, 12:00:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us11.acronis.com'... -> 28/08/2025, 12:00:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-us11.acronis.com'... -> 28/08/2025, 12:00:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wrh-eu1.acronis.com'... -> 28/08/2025, 12:00:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wrh-eu1.acronis.com'... -> 28/08/2025, 12:00:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-za01.acronis.com'... -> 28/08/2025, 12:01:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-za01.acronis.com'... -> 28/08/2025, 12:01:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wrh-us1.acronis.com'... -> 28/08/2025, 12:01:43
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wrh-us1.acronis.com'... -> 28/08/2025, 12:01:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us15.acronis.com'... -> 28/08/2025, 12:02:01
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-us15.acronis.com'... -> 28/08/2025, 12:02:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us14.acronis.com'... -> 28/08/2025, 12:02:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-us14.acronis.com'... -> 28/08/2025, 12:02:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud.acronis.com'... -> 28/08/2025, 12:02:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud.acronis.com'... -> 28/08/2025, 12:02:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://customers.acronis.com'... -> 28/08/2025, 12:03:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://customers.acronis.com'... -> 28/08/2025, 12:03:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://cz01-cloud.acronis.com'... -> 28/08/2025, 12:03:18
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cz01-cloud.acronis.com'... -> 28/08/2025, 12:03:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us2.acronis.com'... -> 28/08/2025, 12:03:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-wr-us2.acronis.com'... -> 28/08/2025, 12:04:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://dc-monitoring.acronis.com'... -> 28/08/2025, 12:04:43
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dc-monitoring.acronis.com'... -> 28/08/2025, 12:05:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://connect.acronis.com'... -> 28/08/2025, 12:05:14
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://connect.acronis.com'... -> 28/08/2025, 12:05:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i2.acronis.com'... -> 28/08/2025, 12:05:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://de-i2.acronis.com'... -> 28/08/2025, 12:05:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i3.acronis.com'... -> 28/08/2025, 12:05:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://de-i3.acronis.com'... -> 28/08/2025, 12:06:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i4.acronis.com'... -> 28/08/2025, 12:06:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://de-i4.acronis.com'... -> 28/08/2025, 12:06:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i1.acronis.com'... -> 28/08/2025, 12:06:26
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://de-i1.acronis.com'... -> 28/08/2025, 12:06:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://de.metro.acronis.com'... -> 28/08/2025, 12:06:43
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://de.metro.acronis.com'... -> 28/08/2025, 12:06:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-img.acronis.com'... -> 28/08/2025, 12:06:58
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://de-img.acronis.com'... -> 28/08/2025, 12:07:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://deakali.metro.acronis.com'... -> 28/08/2025, 12:07:13
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://deakali.metro.acronis.com'... -> 28/08/2025, 12:07:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://developer.acronis.com'... -> 28/08/2025, 12:07:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://developer.acronis.com'... -> 28/08/2025, 12:12:06
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://developer.acronis.com -> 28/08/2025, 12:22:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://dl.acronis.com'... -> 28/08/2025, 12:22:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dl.acronis.com'... -> 28/08/2025, 12:22:23
+[Asset-Watcher] ℹ️ Starting subfinder -> 28/08/2025, 12:52:56
+[Asset-Watcher] ℹ️ Starting Subfinder for 'artist.link'... -> 28/08/2025, 12:52:57
+  ℹ️ 1 subs found for artist.link -> 28/08/2025, 12:53:03
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 28/08/2025, 12:53:04
+  ℹ️ 257 subs found for linktr.ee -> 28/08/2025, 12:54:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.co'... -> 28/08/2025, 12:54:57
+  ℹ️ 9 subs found for odesli.co -> 28/08/2025, 12:55:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.com'... -> 28/08/2025, 12:55:06
+  ℹ️ 1 subs found for odesli.com -> 28/08/2025, 12:55:15
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.work'... -> 28/08/2025, 12:55:15
+  ℹ️ 318 subs found for acronis.work -> 28/08/2025, 12:55:39
+[Asset-Watcher] ℹ️ Starting Subfinder for '‪amnpardaz.ir'... -> 28/08/2025, 12:55:39
+  ℹ️ 0 subs found for ‪amnpardaz.ir -> 28/08/2025, 12:55:42
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 28/08/2025, 12:55:42
+  ℹ️ 6 subs found for tr.ee -> 28/08/2025, 12:55:57
+[Asset-Watcher] ℹ️ Starting Subfinder for '‪padvish.ir'... -> 28/08/2025, 12:55:57
+  ℹ️ 0 subs found for ‪padvish.ir -> 28/08/2025, 12:56:25
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.com'... -> 28/08/2025, 12:56:25
+  ℹ️ 862 subs found for acronis.com -> 28/08/2025, 12:57:31
+[Asset-Watcher] ℹ️ Starting Subfinder for 'playlist.link'... -> 28/08/2025, 12:57:33
+  ℹ️ 1 subs found for playlist.link -> 28/08/2025, 12:57:37
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 28/08/2025, 12:57:38
+  ℹ️ 8 subs found for 5nine.com -> 28/08/2025, 12:57:58
+[Asset-Watcher] ℹ️ Starting Subfinder for 'padvish.com'... -> 28/08/2025, 12:57:58
+  ℹ️ 13 subs found for padvish.com -> 28/08/2025, 12:58:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'song.link'... -> 28/08/2025, 12:58:06
+  ℹ️ 5 subs found for song.link -> 28/08/2025, 12:58:42
+[Asset-Watcher] ℹ️ Starting Subfinder for 'songlink.io'... -> 28/08/2025, 12:58:42
+  ℹ️ 1 subs found for songlink.io -> 28/08/2025, 12:58:45
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree.com'... -> 28/08/2025, 12:58:45
+  ℹ️ 4 subs found for linktree.com -> 28/08/2025, 12:59:04
+[Asset-Watcher] ℹ️ Starting Subfinder for 'album.link'... -> 28/08/2025, 12:59:04
+  ℹ️ 1 subs found for album.link -> 28/08/2025, 12:59:21
+[Asset-Watcher] ℹ️ Starting Subfinder for '‪amnpardaz.com'... -> 28/08/2025, 12:59:22
+  ℹ️ 0 subs found for ‪amnpardaz.com -> 28/08/2025, 12:59:24
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 28/08/2025, 12:59:24
+  ℹ️ 1 subs found for linktree-extensions.com -> 28/08/2025, 12:59:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'mylink.page'... -> 28/08/2025, 12:59:39
+  ℹ️ 1 subs found for mylink.page -> 28/08/2025, 12:59:42
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pods.link'... -> 28/08/2025, 12:59:42
+  ℹ️ 1 subs found for pods.link -> 28/08/2025, 12:59:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'devicelock.com'... -> 28/08/2025, 12:59:59
+  ℹ️ 3 subs found for devicelock.com -> 28/08/2025, 13:00:17
+[Asset-Watcher] ✅ Finished subfinder -> 28/08/2025, 13:00:17
+[Asset-Watcher] ℹ️ Starting crt.sh -> 28/08/2025, 13:00:18
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'artist.link'... -> 28/08/2025, 13:00:19
+  [Asset-Watcher] ⚠️ No subdomains found for artist.link in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:19
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for artist.link after 1/2 attempts. -> 28/08/2025, 13:00:19
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktr.ee'... -> 28/08/2025, 13:00:20
+  [Asset-Watcher] ⚠️ No subdomains found for linktr.ee in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:20
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktr.ee after 1/2 attempts. -> 28/08/2025, 13:00:20
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.co'... -> 28/08/2025, 13:00:21
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.co in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:21
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.co after 1/2 attempts. -> 28/08/2025, 13:00:21
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.com'... -> 28/08/2025, 13:00:22
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:22
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.com after 1/2 attempts. -> 28/08/2025, 13:00:22
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.work'... -> 28/08/2025, 13:00:23
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.work in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:23
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.work after 1/2 attempts. -> 28/08/2025, 13:00:23
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '‪amnpardaz.ir'... -> 28/08/2025, 13:00:24
+  [Asset-Watcher] ⚠️ No subdomains found for ‪amnpardaz.ir in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:24
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for ‪amnpardaz.ir after 1/2 attempts. -> 28/08/2025, 13:00:24
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'tr.ee'... -> 28/08/2025, 13:00:25
+  [Asset-Watcher] ⚠️ No subdomains found for tr.ee in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:25
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for tr.ee after 1/2 attempts. -> 28/08/2025, 13:00:25
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '‪padvish.ir'... -> 28/08/2025, 13:00:27
+  [Asset-Watcher] ⚠️ No subdomains found for ‪padvish.ir in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:27
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for ‪padvish.ir after 1/2 attempts. -> 28/08/2025, 13:00:27
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.com'... -> 28/08/2025, 13:00:28
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:28
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.com after 1/2 attempts. -> 28/08/2025, 13:00:28
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'playlist.link'... -> 28/08/2025, 13:00:29
+  [Asset-Watcher] ⚠️ No subdomains found for playlist.link in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:29
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for playlist.link after 1/2 attempts. -> 28/08/2025, 13:00:29
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '5nine.com'... -> 28/08/2025, 13:00:30
+  [Asset-Watcher] ⚠️ No subdomains found for 5nine.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:30
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 5nine.com after 1/2 attempts. -> 28/08/2025, 13:00:30
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'padvish.com'... -> 28/08/2025, 13:00:31
+  [Asset-Watcher] ⚠️ No subdomains found for padvish.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for padvish.com after 1/2 attempts. -> 28/08/2025, 13:00:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'song.link'... -> 28/08/2025, 13:00:32
+  [Asset-Watcher] ⚠️ No subdomains found for song.link in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for song.link after 1/2 attempts. -> 28/08/2025, 13:00:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'songlink.io'... -> 28/08/2025, 13:00:33
+  [Asset-Watcher] ⚠️ No subdomains found for songlink.io in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:33
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for songlink.io after 1/2 attempts. -> 28/08/2025, 13:00:33
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree.com'... -> 28/08/2025, 13:00:34
+  [Asset-Watcher] ⚠️ No subdomains found for linktree.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:34
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree.com after 1/2 attempts. -> 28/08/2025, 13:00:34
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'album.link'... -> 28/08/2025, 13:00:35
+  [Asset-Watcher] ⚠️ No subdomains found for album.link in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:35
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for album.link after 1/2 attempts. -> 28/08/2025, 13:00:35
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '‪amnpardaz.com'... -> 28/08/2025, 13:00:36
+  [Asset-Watcher] ⚠️ No subdomains found for ‪amnpardaz.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for ‪amnpardaz.com after 1/2 attempts. -> 28/08/2025, 13:00:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree-extensions.com'... -> 28/08/2025, 13:00:37
+  [Asset-Watcher] ⚠️ No subdomains found for linktree-extensions.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:37
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree-extensions.com after 1/2 attempts. -> 28/08/2025, 13:00:37
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'mylink.page'... -> 28/08/2025, 13:00:38
+  [Asset-Watcher] ⚠️ No subdomains found for mylink.page in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:38
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for mylink.page after 1/2 attempts. -> 28/08/2025, 13:00:38
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pods.link'... -> 28/08/2025, 13:00:39
+  [Asset-Watcher] ⚠️ No subdomains found for pods.link in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:39
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pods.link after 1/2 attempts. -> 28/08/2025, 13:00:39
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'devicelock.com'... -> 28/08/2025, 13:00:40
+  [Asset-Watcher] ⚠️ No subdomains found for devicelock.com in Crt.sh (Attempt 1) -> 28/08/2025, 13:00:40
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for devicelock.com after 1/2 attempts. -> 28/08/2025, 13:00:40
+[Asset-Watcher] ✅ Finished crt.sh -> 28/08/2025, 13:00:41
+[Asset-Watcher] ℹ️ Starting user subdomains -> 28/08/2025, 13:00:42
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 28/08/2025, 13:00:43
+  [Asset-Watcher] ℹ️ No own subdomains found for ‪amnpardaz.com -> 28/08/2025, 13:00:43
+  [Asset-Watcher] ℹ️ No own subdomains found for ‪amnpardaz.ir -> 28/08/2025, 13:00:43
+  [Asset-Watcher] ℹ️ No own subdomains found for ‪padvish.ir -> 28/08/2025, 13:00:50
+[Asset-Watcher] ❌ Process User Subdomains error: duplicate key value violates unique constraint "asset_monitor_discoversubdomain_subdomain_key"
+DETAIL:  Key (subdomain)=(title><) already exists. -> 28/08/2025, 13:00:51
+[Asset-Watcher] ✅ Finished user subdomains -> 28/08/2025, 13:00:52
+[Asset-Watcher] ℹ️ Starting httpx -> 28/08/2025, 13:00:53
+  [Asset-Watcher] ℹ️ Starting HTTPx on '‪amnpardaz.com - nexovir'... -> 28/08/2025, 13:00:54
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:03:09
+  [Asset-Watcher] ℹ️ Starting HTTPx on '‪amnpardaz.ir - nexovir'... -> 28/08/2025, 13:03:09
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:03:10
+  [Asset-Watcher] ℹ️ Starting HTTPx on '‪padvish.ir - nexovir'... -> 28/08/2025, 13:03:10
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:03:11
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree-extensions.com - nexovir'... -> 28/08/2025, 13:03:11
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:03:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.com - nexovir'... -> 28/08/2025, 13:03:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:08:57
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'mylink.page - nexovir'... -> 28/08/2025, 13:09:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:09:42
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'playlist.link - nexovir'... -> 28/08/2025, 13:09:42
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:09:43
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'tr.ee - nexovir'... -> 28/08/2025, 13:09:43
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:09:52
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'artist.link - nexovir'... -> 28/08/2025, 13:09:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:09:54
+  [Asset-Watcher] ℹ️ Starting HTTPx on '5nine.com - nexovir'... -> 28/08/2025, 13:09:54
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:10:03
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pods.link - nexovir'... -> 28/08/2025, 13:10:03
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:10:07
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'devicelock.com - nexovir'... -> 28/08/2025, 13:10:07
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:10:10
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktr.ee - nexovir'... -> 28/08/2025, 13:10:10
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:11:26
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'padvish.com - nexovir'... -> 28/08/2025, 13:11:32
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:11:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.co - nexovir'... -> 28/08/2025, 13:11:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:11:41
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'song.link - nexovir'... -> 28/08/2025, 13:11:41
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:11:43
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.com - nexovir'... -> 28/08/2025, 13:11:45
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:11:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'songlink.io - nexovir'... -> 28/08/2025, 13:11:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:11:57
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.work - nexovir'... -> 28/08/2025, 13:11:57
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:12:16
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree.com - nexovir'... -> 28/08/2025, 13:12:25
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:12:30
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'album.link - nexovir'... -> 28/08/2025, 13:12:30
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 28/08/2025, 13:12:31
+[Asset-Watcher] ✅ Finished httpx -> 28/08/2025, 13:12:31
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 28/08/2025, 13:12:32
+[Asset-Watcher] ✅ Finished cidrs scanning -> 28/08/2025, 13:12:33
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 28/08/2025, 13:17:53
+[Asset-Watcher] ℹ️ Starting subfinder -> 28/08/2025, 13:17:53
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.co'... -> 28/08/2025, 13:17:54
+  ℹ️ 9 subs found for odesli.co -> 28/08/2025, 13:18:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'album.link'... -> 28/08/2025, 13:18:10
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:18:11
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 28/08/2025, 13:18:20
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 28/08/2025, 13:18:20
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:18:33
+  ℹ️ 1 subs found for album.link -> 28/08/2025, 13:18:38
+[Asset-Watcher] ℹ️ Starting Subfinder for '‪amnpardaz.com'... -> 28/08/2025, 13:18:39
+  ℹ️ 0 subs found for ‪amnpardaz.com -> 28/08/2025, 13:18:51
+[Asset-Watcher] ℹ️ Starting Subfinder for 'song.link'... -> 28/08/2025, 13:18:51
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 28/08/2025, 13:19:15
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 28/08/2025, 13:19:15
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:19:27
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 28/08/2025, 13:19:28
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 28/08/2025, 13:19:28
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:19:41
+  ℹ️ 5 subs found for song.link -> 28/08/2025, 13:19:44
+[Asset-Watcher] ℹ️ Starting Subfinder for 'devicelock.com'... -> 28/08/2025, 13:19:44
+  ℹ️ 3 subs found for devicelock.com -> 28/08/2025, 13:19:50
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.com'... -> 28/08/2025, 13:19:50
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 28/08/2025, 13:19:58
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 28/08/2025, 13:19:58
+  ℹ️ 1 subs found for odesli.com -> 28/08/2025, 13:20:00
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.work'... -> 28/08/2025, 13:20:00
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:20:11
+  ℹ️ 244 subs found for acronis.work -> 28/08/2025, 13:20:15
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 28/08/2025, 13:20:15
+  ℹ️ 6 subs found for tr.ee -> 28/08/2025, 13:20:26
+[Asset-Watcher] ℹ️ Starting Subfinder for 'padvish.com'... -> 28/08/2025, 13:20:26
+  ℹ️ 11 subs found for padvish.com -> 28/08/2025, 13:20:32
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 28/08/2025, 13:20:32
+  ℹ️ 224 subs found for linktr.ee -> 28/08/2025, 13:23:24
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 28/08/2025, 13:23:25
+  ℹ️ 8 subs found for 5nine.com -> 28/08/2025, 13:24:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 28/08/2025, 13:25:00
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 28/08/2025, 13:37:18
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 28/08/2025, 13:37:21
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 28/08/2025, 13:37:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-at01-cloud.acronis.com'... -> 28/08/2025, 13:37:24
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-at01-cloud.acronis.com'... -> 28/08/2025, 13:37:37
+[Url-Watcher] ℹ️ Starting Katana for 'http://linktree-extensions.com'... -> 28/08/2025, 13:37:38
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:37:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://linktree-extensions.com'... -> 28/08/2025, 13:37:51
+[Url-Watcher] ℹ️ Starting Katana for 'http://www.linktree-extensions.com'... -> 28/08/2025, 13:37:54
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://www.linktree-extensions.com'... -> 28/08/2025, 13:38:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-lis1-aci01.acronis.com'... -> 28/08/2025, 13:38:09
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 28/08/2025, 13:38:09
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 28/08/2025, 13:38:09
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:38:22
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 28/08/2025, 13:38:24
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 28/08/2025, 13:38:24
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-lis1-aci01.acronis.com'... -> 28/08/2025, 13:38:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-zrh1-acs2.acronis.com'... -> 28/08/2025, 13:38:27
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:38:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-zrh1-acs2.acronis.com'... -> 28/08/2025, 13:38:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-cz01-cloud.acronis.com'... -> 28/08/2025, 13:38:41
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 28/08/2025, 13:38:53
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 28/08/2025, 13:38:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-cz01-cloud.acronis.com'... -> 28/08/2025, 13:38:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu16-cloud.acronis.com'... -> 28/08/2025, 13:39:01
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:39:05
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 28/08/2025, 13:39:14
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 28/08/2025, 13:39:14
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-eu16-cloud.acronis.com'... -> 28/08/2025, 13:39:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-gr01-cloud.acronis.com'... -> 28/08/2025, 13:39:23
+[Program-Watcher] ℹ️ Connection OK -> 28/08/2025, 13:39:27
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-gr01-cloud.acronis.com'... -> 28/08/2025, 13:39:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-il01-cloud.acronis.com'... -> 28/08/2025, 13:39:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-il01-cloud.acronis.com'... -> 28/08/2025, 13:39:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-se01-cloud.acronis.com'... -> 28/08/2025, 13:40:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-se01-cloud.acronis.com'... -> 28/08/2025, 13:40:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-kr01-cloud.acronis.com'... -> 28/08/2025, 13:40:14
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-kr01-cloud.acronis.com'... -> 28/08/2025, 13:40:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-my01-cloud.acronis.com'... -> 28/08/2025, 13:40:56
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-my01-cloud.acronis.com'... -> 28/08/2025, 13:41:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-nz01-cloud.acronis.com'... -> 28/08/2025, 13:41:12
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-nz01-cloud.acronis.com'... -> 28/08/2025, 13:41:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-tw01-cloud.acronis.com'... -> 28/08/2025, 13:41:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://branded-tw01-cloud.acronis.com'... -> 28/08/2025, 13:41:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://bt-eu2-cloud.acronis.com'... -> 28/08/2025, 13:41:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bt-eu2-cloud.acronis.com'... -> 28/08/2025, 13:42:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-au1.acronis.com'... -> 28/08/2025, 13:42:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-fes-au1.acronis.com'... -> 28/08/2025, 13:42:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-au2.acronis.com'... -> 28/08/2025, 13:42:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-fes-au2.acronis.com'... -> 28/08/2025, 13:42:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-us3.acronis.com'... -> 28/08/2025, 13:42:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://cloud-fes-us3.acronis.com'... -> 28/08/2025, 13:42:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://gsnlink.acronis.com'... -> 28/08/2025, 13:42:58
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://gsnlink.acronis.com'... -> 28/08/2025, 13:43:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://kul1-s3gw.acronis.com'... -> 28/08/2025, 13:43:14
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://kul1-s3gw.acronis.com'... -> 28/08/2025, 13:43:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://mylink.page'... -> 28/08/2025, 13:43:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://mylink.page'... -> 28/08/2025, 13:43:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://pods.link'... -> 28/08/2025, 13:43:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://pods.link'... -> 28/08/2025, 13:44:04
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 28/08/2025, 13:47:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://devicelock.com'... -> 28/08/2025, 13:50:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://devicelock.com'... -> 28/08/2025, 13:50:20
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://devicelock.com -> 28/08/2025, 14:00:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://postmaster@devicelock.com'... -> 28/08/2025, 14:00:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://postmaster@devicelock.com'... -> 28/08/2025, 14:00:35
+[Url-Watcher] ⏱ Hard timeout: waybackurls https://postmaster@devicelock.com -> 28/08/2025, 14:10:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://app-store-storybook.qa.linktr.ee'... -> 28/08/2025, 14:10:38
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://app-store-storybook.qa.linktr.ee'... -> 28/08/2025, 14:11:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth.develop.linktr.ee'... -> 28/08/2025, 14:11:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://auth.develop.linktr.ee'... -> 28/08/2025, 14:11:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://apkscanner.padvish.com'... -> 28/08/2025, 14:11:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://apkscanner.padvish.com'... -> 28/08/2025, 14:11:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://updatepms.padvish.com'... -> 28/08/2025, 14:11:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://updatepms.padvish.com'... -> 28/08/2025, 14:11:46
+[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 28/08/2025, 14:49:18
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 28/08/2025, 14:49:19

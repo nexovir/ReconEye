@@ -1,7 +1,7 @@
 from celery import shared_task , chain
 from .models import *
 from asset_monitor.models import *
-import subprocess , time , hashlib , requests , json
+import subprocess , time , hashlib , requests , json , threading , os , signal , ctypes
 from urllib.parse import urlparse 
 from django.db.models import Case, When, Value, IntegerField
 from vulnerability_monitor.tasks import read_write_list
@@ -51,40 +51,6 @@ def run_fallparams(input : str , headers : list) -> list:
 
 
 
-def run_command(cmd_list: list, timeout: int = 2000) -> list:
-    try:
-        process = subprocess.Popen(
-            cmd_list,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-        )
-        stdout, stderr = process.communicate(timeout=timeout)
-        if stderr.strip():
-            sendmessage(f"[Url-Watcher] ⚠️ Command error: {stderr.strip()}", colour="YELLOW")
-        return [line.strip() for line in stdout.splitlines() if line.strip()]
-    except subprocess.TimeoutExpired:
-        process.kill()
-        stdout, _ = process.communicate()
-        sendmessage(f"[Url-Watcher] ⏱ Timeout running: {' '.join(cmd_list)}", colour="RED")
-        return []
-    except Exception as e:
-        sendmessage(f"[Url-Watcher] ❌ Failed running: {' '.join(cmd_list)} - {str(e)}", colour="RED")
-        return []
-
-
-
-def run_waybackurls(subdomain: str) -> list:
-    sendmessage(f"[Url-Watcher] ℹ️ Starting Waybackurls for '{subdomain}'...")
-    return run_command(["waybackurls", subdomain])
-
-
-def run_katana(subdomain: str) -> list:
-    sendmessage(f"[Url-Watcher] ℹ️ Starting Katana for '{subdomain}'...")
-    return run_command(["nice-katana", subdomain])
-
-
-
 def generate_body_hash(url: str) -> str:
     try:
         response = requests.get(url, timeout=30, verify=True, headers = {
@@ -97,51 +63,157 @@ def generate_body_hash(url: str) -> str:
         return None
 
 
+
+PR_SET_PDEATHSIG = 1
+
+try:
+    _libc = ctypes.CDLL("libc.so.6")
+except OSError:
+    _libc = None
+
+def _preexec():
+    def _inner():
+        if _libc is not None:
+            try:
+                _libc.prctl(PR_SET_PDEATHSIG, signal.SIGTERM)
+            except Exception:
+                pass
+        os.setsid()
+    return _inner
+
+def _killpg(p: subprocess.Popen):
+    try:
+        pgid = os.getpgid(p.pid)
+        os.killpg(pgid, signal.SIGTERM)
+        try:
+            p.wait(timeout=2)
+        except subprocess.TimeoutExpired:
+            os.killpg(pgid, signal.SIGKILL)
+    except Exception:
+        try:
+            p.kill()
+        except Exception:
+            pass
+
+def run_command(cmd_list, on_line=None, timeout_ms=10*60*1000, idle_timeout_ms=120*1000, max_lines=None):
+    p = None
+    lines_seen = 0
+    last_activity = time.monotonic()
+
+    try:
+        p = subprocess.Popen(
+            cmd_list,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            bufsize=1,
+            preexec_fn=_preexec()
+        )
+
+        def _read_stderr(pipe):
+            for line in iter(pipe.readline, ''):
+                msg = line.strip()
+                if msg:
+                    sendmessage(f"[Url-Watcher] ⚠️ {msg}", colour="YELLOW")
+            pipe.close()
+
+        def _read_stdout(pipe):
+            nonlocal last_activity, lines_seen
+            for line in iter(pipe.readline, ''):
+                last_activity = time.monotonic()
+                clean = line.strip()
+                if clean:
+                    lines_seen += 1
+                    if on_line:
+                        on_line(clean)
+                    if max_lines and lines_seen >= max_lines:
+                        break
+            pipe.close()
+
+        t_err = threading.Thread(target=_read_stderr, args=(p.stderr,), daemon=True)
+        t_out = threading.Thread(target=_read_stdout, args=(p.stdout,), daemon=True)
+        t_err.start(); t_out.start()
+
+        deadline = time.monotonic() + (timeout_ms/1000.0) if timeout_ms else None
+
+        while True:
+            rc = p.poll()
+            if rc is not None:
+                break 
+            now = time.monotonic()
+            if deadline and now >= deadline:
+                _killpg(p)
+                sendmessage(f"[Url-Watcher] ⏱ Hard timeout: {' '.join(cmd_list)}", colour="RED")
+                break
+            if idle_timeout_ms and (now - last_activity) >= (idle_timeout_ms/1000.0):
+                _killpg(p)
+                sendmessage(f"[Url-Watcher] ⏱ Idle timeout (no output): {' '.join(cmd_list)}", colour="RED")
+                break
+            time.sleep(0.2)
+
+        if t_out.is_alive(): t_out.join(timeout=1)
+        if t_err.is_alive(): t_err.join(timeout=1)
+
+    except Exception as e:
+        if p:
+            _killpg(p)
+        sendmessage(f"[Url-Watcher] ❌ Failed: {' '.join(cmd_list)} - {e}", colour="RED")
+
+
+
+def run_waybackurls(subdomain: str, on_line):
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Waybackurls for '{subdomain}'...")
+    run_command(["waybackurls", subdomain], on_line=on_line)
+
+
+def run_katana(subdomain: str, on_line):
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Katana for '{subdomain}'...")
+    run_command(["nice-katana", subdomain], on_line=on_line)
+
+
 def discover_urls(self, label):
 
-    def insert_subdomains(subdomain_obj, urls):
-        for url in urls:
-            clean_url = urlparse(url)
-            matched_ext = "none"
-            for ext in EXTENSION:
-                if clean_url.path.endswith(ext[1]):
-                    matched_ext = ext[0]
-                    break
+    def insert_url(subdomain_obj, url):
+        clean_url = urlparse(url)
+        matched_ext = "none"
+        for ext in EXTENSION:
+            if clean_url.path.endswith(ext[1]):
+                matched_ext = ext[0]
+                break
 
-            if matched_ext in EXTS:
-                new_body_hash = generate_body_hash(url)
-            else:
-                new_body_hash = ""
+        if matched_ext in EXTS:
+            new_body_hash = generate_body_hash(url)
+        else:
+            new_body_hash = ""
 
-            try:
-                resp = requests.get(url, timeout=10)
-                status = resp.status_code
-            except requests.RequestException:
-                status = None
+        try:
+            resp = requests.get(url, timeout=10)
+            status = resp.status_code
+        except requests.RequestException:
+            status = None
 
-            obj, created = Url.objects.get_or_create(
-                subdomain=subdomain_obj.discovered_subdomain,
-                path=clean_url.path,
-                defaults={
-                    "query": clean_url.query,
-                    "ext": matched_ext,
-                    "url": url,
-                    "body_hash": new_body_hash,
-                    "status": status,
-                },
-            )
-            if created:
-                obj.label = "new"
-                obj.save()
+        obj, created = Url.objects.get_or_create(
+            subdomain=subdomain_obj.discovered_subdomain,
+            path=clean_url.path,
+            defaults={
+                "query": clean_url.query,
+                "ext": matched_ext,
+                "url": url,
+                "body_hash": new_body_hash,
+                "status": status,
+            },
+        )
+        if created:
+            obj.label = "new"
+            obj.save()
 
     sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})", colour="CYAN")
     subdomains = SubdomainHttpx.objects.filter(label=label)
 
     for subdomain in subdomains:
-        katana_urls = run_katana(subdomain.httpx_result)
-        wayback_urls = run_waybackurls(subdomain.httpx_result)
-        urls = katana_urls + wayback_urls
-        insert_subdomains(subdomain, urls)
+        run_katana(subdomain.httpx_result, on_line=lambda url: insert_url(subdomain, url))
+        run_waybackurls(subdomain.httpx_result, on_line=lambda url: insert_url(subdomain, url))
+
 
 
 
@@ -216,6 +288,7 @@ def discover_parameter(self , label):
     subdomains = SubdomainHttpx.objects.filter(label=label)
     
     for subdomain in subdomains :
+        sendmessage(f"[Url-Watcher] ℹ️ Starting Parameter Discovery for '{subdomain}'...")
         headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain.discovered_subdomain).values_list('header', flat=True))
         read_write_list(list(subdomain.discovered_subdomain.url_set.values_list('url', flat=True)) , f"{OUTPUT_PATH}/urls.txt" , 'w')
         parameters = run_fallparams(f"{OUTPUT_PATH}/urls.txt" , headers)
@@ -348,13 +421,13 @@ def url_monitor(self):
     sendmessage("[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
 
     workflow = chain(
-        discover_urls_task.s('new'),
-        discover_parameter_task.s('new'),
-        # fuzz_parameters_on_urls_task.s('new'),
-        # vulnerability_monitor_task.s('new'),
+        # discover_urls_task.s('new'),
+        discover_parameter_task.si('new'),
+        fuzz_parameters_on_urls_task.si('new'),
+        vulnerability_monitor_task.si('new'),
 
-        discover_urls_task.s('available'),
-        discover_parameter_task.s('available'),
+        # discover_urls_task.s('available'),
+        # discover_parameter_task.s('available'),
         # fuzz_parameters_on_urls_task.s('available'),
         # vulnerability_monitor_task.s('available'),
         
