@@ -1,9 +1,0 @@
-description
-message
-referrer
-app
-allow_default
-scope
-viewport
-domain
-code

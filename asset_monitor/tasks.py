@@ -629,7 +629,7 @@ def process_httpx(assets_watchers):
   
 
 @shared_task(bind=True, acks_late=True)
-def check_assets(self):
+def check_assets():
     assets = AssetWatcher.objects.filter(is_active=True)
     watcher_cidrs = WatcherCIDR.objects.filter(is_active=True)
     AssetWatcher.objects.filter(is_active=True).update(status='pending')
@@ -678,5 +678,7 @@ def check_assets(self):
             sendmessage(f"[Asset-Watcher] ✅ Finished {step_name}", colour='GREEN')
         except Exception as e:
             sendmessage(f"[Asset-Watcher] ❌ {step_name} failed: {e}", colour='RED')
+    
+    sendmessage(f"[Asset-Watcher] ✅ Asset Monitoring Successfully Done" , colour="CYAN")
 
     AssetWatcher.objects.filter(is_active=True).update(status='completed')

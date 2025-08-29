@@ -52,7 +52,7 @@ class ParameterAdmin(admin.ModelAdmin):
 @register(SubdomainParameter)
 class SubdomainParameterAdmin(admin.ModelAdmin):
     list_display = ['subdomain' , 'parameter' , 'label']
-    search_fields = ['subdomain' , 'path' ]
+    search_fields = ['subdomain__subdomain' , 'parameter' ]
     list_filter = ['label']
     list_per_page = 100
 

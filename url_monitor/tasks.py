@@ -28,18 +28,23 @@ def run_fallparams(input : str , headers : list) -> list:
             "-X", "POST",
             "-silent",
             "-duc",
+
         ]
         if headers:
             for h in headers:
                 if h:
                     command.extend(["-H", h])
+
         result = subprocess.run(
             command,
             shell=False,
             check=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            text=True
+            text=True,
+            encoding="utf-8",
+            errors="ignore"
+
         )
         
         parameters = result.stdout.splitlines()
@@ -47,7 +52,7 @@ def run_fallparams(input : str , headers : list) -> list:
     
     except Exception as e:
         sendmessage(f"  [Url-Watcher] ❌ Error Fallparams {input} : {str(e)}", colour="RED")
-        return None
+        return []
 
 
 
@@ -214,27 +219,28 @@ def discover_urls(self, label):
         if subdomain.label == "new":
             run_katana(
                 subdomain.httpx_result,
-                on_line=lambda url: insert_url(subdomain, url)
+                on_line=lambda url, sub=subdomain: insert_url(sub, url)
             )
             run_waybackurls(
                subdomain.httpx_result,
-               on_line=lambda url: insert_url(subdomain, url)
+               on_line=lambda url, sub=subdomain: insert_url(sub, url)
             )
 
         elif subdomain.label == "available":
             run_katana(
                 subdomain.httpx_result,
-                on_line=lambda url: insert_url(subdomain, url)
+                on_line=lambda url, sub=subdomain: insert_url(sub, url)
             )
+
+    sendmessage(f"[Urls-Watcher] ✅ URLs Discovery Successfully Done" , colour="CYAN")
+
 
 def detect_urls_changes(self):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)" , colour="CYAN")
 
-    urls = Url.objects.all()
-    
+    urls = Url.objects.filter(label='available')
     for url in urls:
         changes = {}
-
         try:
             response = requests.get(
                 url.url, 
@@ -280,7 +286,7 @@ def detect_urls_changes(self):
             url.label = 'new'
             url.save(update_fields=['body_hash', 'status', 'query', 'label'])
 
-
+    sendmessage(f"[Urls-Watcher] ✅ Detect URLs Changes Successfully Done" , colour="CYAN")
 
 def discover_parameter(self , label):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: {label})" , colour="CYAN")
@@ -303,6 +309,8 @@ def discover_parameter(self , label):
         read_write_list(list(subdomain.discovered_subdomain.url_set.values_list('url', flat=True)) , f"{OUTPUT_PATH}/urls.txt" , 'w')
         parameters = run_fallparams(f"{OUTPUT_PATH}/urls.txt" , headers)
         parameters_insert_database (subdomain.discovered_subdomain , parameters)
+
+    sendmessage(f"[Urls-Watcher] ✅ Parameter Discovery Successfully Done" , colour="CYAN")
 
 
 
@@ -401,6 +409,8 @@ def fuzz_parameters_on_urls(self , label):
         for url in urls:
             run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
 
+    sendmessage(f"[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done" , colour="CYAN")
+
 
 
 @shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
@@ -427,19 +437,20 @@ def detect_urls_changes_task(self):
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
     clear_labels(self)
-    sendmessage("[Url-Monitoring] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
+    sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
 
     workflow = chain(
         # discover_urls_task.s('new'),
-        # discover_parameter_task.si('new'),
+        discover_parameter_task.si('new'),
         fuzz_parameters_on_urls_task.si('new'),
-        # vulnerability_monitor_task.si('new'),
+        vulnerability_monitor_task.si('new'),
 
         discover_urls_task.si('available'),
         ## discover_parameter_task.s('available'),
         ## fuzz_parameters_on_urls_task.s('available'),
         ## vulnerability_monitor_task.s('available'),
         
-        # detect_urls_changes_task.si()
+        detect_urls_changes_task.si()
+        sendmessage(f"[Urls-Watcher] ✅ URL Monitoring Successfully Done" , colour="CYAN")
     )
     workflow.apply_async()

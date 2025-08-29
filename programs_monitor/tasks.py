@@ -444,6 +444,8 @@ def check_programs():
             program.save()
             
             sendmessage(f'[Program-Watcher] ❌ While Check Programs: {e}' , colour='RED')
-        
+    
+    sendmessage(f"[Program-Watcher] ✅ Program Monitoring Successfully Done" , colour="CYAN")
+
     asyncio.run(send_summary_to_channel(publicwatcher_summary))
             

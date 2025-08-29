@@ -1,1 +1,1 @@
-[{"method":"GET","url":"https://branded-kr01-cloud.acronis.com/api/platform-web-assets/public/latest/login-app/js/chunks/ko","status":200,"size":9355,"found_params":[],"injection_place":"Path"}]
+[{"method":"GET","url":"https://pods.link/3D5PgjpXx375J","status":200,"size":18612,"found_params":[{"name":"pages","value":null,"diffs":"","status":200,"size":21327,"reason_kind":"Reflected"}],"injection_place":"Path"}]
