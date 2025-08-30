@@ -342,14 +342,14 @@ def proccess_user_subdomains(assets):
         return []
 
     try :
-        sendmessage("[Asset-Watcher] ℹ️ Starting Insert user's subdomains" , telegram=False)
+        sendmessage("[Asset-Watcher] ℹ️ Starting Insert user's subdomains" , telegram=True)
         tool = Tool.objects.get(tool_name='owned')
         for asset in assets :
             watched_wildcards = WatchedWildcard.objects.filter(watcher=asset)
             for watched_wildcard in watched_wildcards :
                 subdomains = read_own_subdomains(watched_wildcard.own_subdomains)
                 if not subdomains:
-                    sendmessage(f"  [Asset-Watcher] ℹ️ No own subdomains found for {watched_wildcard.wildcard}", colour='YELLOW' , telegram=False)
+                    sendmessage(f"  [Asset-Watcher] ⚠️ No own subdomains found for {watched_wildcard.wildcard}", colour='YELLOW' , telegram=True)
                     continue          
                 watched_wildcard.status = 'running'
                 watched_wildcard.save()
@@ -629,7 +629,7 @@ def process_httpx(assets_watchers):
   
 
 @shared_task(bind=True, acks_late=True)
-def check_assets():
+def check_assets(self):
     assets = AssetWatcher.objects.filter(is_active=True)
     watcher_cidrs = WatcherCIDR.objects.filter(is_active=True)
     AssetWatcher.objects.filter(is_active=True).update(status='pending')

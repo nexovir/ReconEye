@@ -391,15 +391,16 @@ def fuzz_parameters_on_urls(self , label):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", colour="CYAN")
 
 
-    subdomains = DiscoverSubdomain.objects.filter(label=label)
+    subdomains = SubdomainHttpx.objects.filter(label=label)
     
     for subdomain in subdomains:
-        parameters = subdomain.subdomainparameter_set.values_list('parameter', flat=True)
+        print(subdomain)
+        parameters = subdomain.discovered_subdomain.subdomainparameter_set.values_list('parameter', flat=True)
         read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
 
         sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs" , colour="CYAN")
-        headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain).values_list('header', flat=True))
-        urls = Url.objects.filter(subdomain=subdomain).order_by(
+        headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain.discovered_subdomain).values_list('header', flat=True))
+        urls = Url.objects.filter(subdomain=subdomain.discovered_subdomain).order_by(
             Case(
                 When(label="new", then=Value(0)),
                 default=Value(1),
@@ -434,13 +435,20 @@ def detect_urls_changes_task(self):
     return detect_urls_changes(self)
 
 
+
+@shared_task
+def notify_done():
+    sendmessage("[Urls-Watcher] ✅ URL Monitoring Successfully Done", colour="CYAN")
+
+
+
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
     clear_labels(self)
     sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
 
     workflow = chain(
-        # discover_urls_task.s('new'),
+        discover_urls_task.s('new'),
         discover_parameter_task.si('new'),
         fuzz_parameters_on_urls_task.si('new'),
         vulnerability_monitor_task.si('new'),
@@ -450,7 +458,7 @@ def url_monitor(self):
         ## fuzz_parameters_on_urls_task.s('available'),
         ## vulnerability_monitor_task.s('available'),
         
-        detect_urls_changes_task.si()
-        sendmessage(f"[Urls-Watcher] ✅ URL Monitoring Successfully Done" , colour="CYAN")
+        detect_urls_changes_task.si(),
+        notify_done.si()
     )
     workflow.apply_async()
