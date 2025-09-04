@@ -4437,3 +4437,16 @@ rd
 csp-nonce
 csrf-token
 csrf-param
+content-wrapper
+did-you-mean-msg
+shop-not-found
+hero-text
+href
+did-you-mean-link
+new-stores
+pg-store404
+subpage
+free-trial
+-5px
+hostname
+cta-row

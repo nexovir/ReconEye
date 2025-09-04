@@ -29,7 +29,8 @@ TOOLS_NAME = [
     ('httpx', 'HTTPX'),
     ('wabackurls', 'Wabackurls'),
     ('crt.sh', 'CRT.sh'),
-    ('narrow_monitor' , 'Narrow Monitor')
+    ('daily_narrow_monitoring' , 'Daily Narrow Monitoring'),
+    ('daily_vulnerabilities_monitor' , 'Daily Vulnerabilities Monitoring'),
 ]
 
 PORTS = [
@@ -175,7 +176,7 @@ class Tool(models.Model):
 class WatchedWildcard(BaseModel):
     watcher = models.ForeignKey(AssetWatcher , on_delete=models.CASCADE , related_name= 'wildcards')
     wildcard = models.CharField(max_length=300 , blank=True , null=True , unique=True)
-    tools = models.ManyToManyField(Tool)
+    tools = models.ManyToManyField(Tool, help_text = "Accure")
     own_subdomains = models.FileField(
         upload_to=user_subdomains_upload_path,
         validators=[validate_wordlist_file],

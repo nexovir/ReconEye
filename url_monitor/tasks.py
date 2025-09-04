@@ -213,7 +213,11 @@ def discover_urls(self, label):
             obj.save()
 
     sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})", colour="CYAN")
-    subdomains = SubdomainHttpx.objects.filter(label=label)
+
+    if label == 'new' : 
+        subdomains = SubdomainHttpx.objects.filter(label=label)
+    else : 
+        subdomains = SubdomainHttpx.objects.filter(label=label, discovered_subdomain__wildcard__tools__tool_name="daily_narrow_monitoring")
 
     for subdomain in subdomains:
         if subdomain.label == "new":
@@ -238,7 +242,7 @@ def discover_urls(self, label):
 def detect_urls_changes(self):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)" , colour="CYAN")
 
-    urls = Url.objects.filter(label='available')
+    urls = Url.objects.filter(label='available' , subdomain__wildcard__tools__tool_name="daily_narrow_monitoring")
     for url in urls:
         changes = {}
         try:
@@ -301,7 +305,11 @@ def discover_parameter(self , label):
                 obj.label = "new"   
                 obj.save()
     
-    subdomains = SubdomainHttpx.objects.filter(label=label)
+
+    if label == 'new' : 
+        subdomains = SubdomainHttpx.objects.filter(label=label)
+    else : 
+        subdomains = SubdomainHttpx.objects.filter(label=label, discovered_subdomain__wildcard__tools__tool_name="daily_narrow_monitoring")
     
     for subdomain in subdomains :
         sendmessage(f"[Url-Watcher] ℹ️ Starting Parameter Discovery for '{subdomain}'...")
@@ -391,10 +399,13 @@ def fuzz_parameters_on_urls(self , label):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", colour="CYAN")
 
 
-    subdomains = SubdomainHttpx.objects.filter(label=label)
-    
+    if label == 'new' : 
+        subdomains = SubdomainHttpx.objects.filter(label=label)
+    else : 
+        subdomains = SubdomainHttpx.objects.filter(label=label, discovered_subdomain__wildcard__tools__tool_name="daily_narrow_monitoring")
+
+
     for subdomain in subdomains:
-        print(subdomain)
         parameters = subdomain.discovered_subdomain.subdomainparameter_set.values_list('parameter', flat=True)
         read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
 
@@ -449,16 +460,16 @@ def url_monitor(self):
 
     workflow = chain(
         discover_urls_task.s('new'),
-        discover_parameter_task.si('new'),
-        fuzz_parameters_on_urls_task.si('new'),
-        vulnerability_monitor_task.si('new'),
+        # discover_parameter_task.si('new'),
+        # fuzz_parameters_on_urls_task.si('new'),
+        # vulnerability_monitor_task.si('new'),
 
         ## discover_urls_task.si('available'),
         ## discover_parameter_task.s('available'),
         ## fuzz_parameters_on_urls_task.s('available'),
         ## vulnerability_monitor_task.s('available'),
         
-        detect_urls_changes_task.si(),
-        notify_done.si()
+        # detect_urls_changes_task.si(),
+        # notify_done.si()
     )
     workflow.apply_async()

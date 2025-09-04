@@ -30402,3 +30402,315 @@ DETAIL:  Key (subdomain)=(staging.odesli.com) already exists. -> 02/09/2025, 11:
 [Url-Watcher] ℹ️ Starting Katana for 'https://107.shopify.com'... -> 04/09/2025, 08:52:36
 [WatchTower] ⏳ Cycle started. Will schedule next cycle after completion. -> 04/09/2025, 10:10:59
 [Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 04/09/2025, 10:11:00
+[Program-Watcher] ℹ️ Connection OK -> 04/09/2025, 10:11:20
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 04/09/2025, 10:11:29
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 04/09/2025, 10:11:29
+[Program-Watcher] ℹ️ Connection OK -> 04/09/2025, 10:11:41
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 04/09/2025, 10:12:37
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 04/09/2025, 10:12:37
+[Program-Watcher] ℹ️ Connection OK -> 04/09/2025, 10:12:49
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 04/09/2025, 10:12:51
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 04/09/2025, 10:12:51
+[Program-Watcher] ℹ️ Connection OK -> 04/09/2025, 10:13:03
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 04/09/2025, 10:13:13
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 04/09/2025, 10:13:13
+[Program-Watcher] ℹ️ Connection OK -> 04/09/2025, 10:13:27
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 04/09/2025, 10:20:07
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 04/09/2025, 10:20:07
+[Asset-Watcher] ℹ️ Starting subfinder -> 04/09/2025, 10:20:09
+[Asset-Watcher] ℹ️ Starting Subfinder for 'shopify.com'... -> 04/09/2025, 10:20:10
+  ℹ️ 25236 subs found for shopify.com -> 04/09/2025, 10:26:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'luckydays.com'... -> 04/09/2025, 10:27:33
+  ℹ️ 26 subs found for luckydays.com -> 04/09/2025, 10:28:35
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pci.shopifyinc.com'... -> 04/09/2025, 10:28:36
+  ℹ️ 3 subs found for pci.shopifyinc.com -> 04/09/2025, 10:29:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleondice.be'... -> 04/09/2025, 10:29:39
+  ℹ️ 5 subs found for napoleondice.be -> 04/09/2025, 10:30:40
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.ro'... -> 04/09/2025, 10:30:40
+  ℹ️ 68 subs found for superbet.ro -> 04/09/2025, 10:31:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'shopifycs.com'... -> 04/09/2025, 10:31:43
+  ℹ️ 15 subs found for shopifycs.com -> 04/09/2025, 10:32:45
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleonsports.be'... -> 04/09/2025, 10:32:45
+  ℹ️ 16 subs found for napoleonsports.be -> 04/09/2025, 10:33:47
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.com'... -> 04/09/2025, 10:33:47
+  ℹ️ 169 subs found for superbet.com -> 04/09/2025, 10:34:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleoncasino.be'... -> 04/09/2025, 10:34:49
+  ℹ️ 13 subs found for napoleoncasino.be -> 04/09/2025, 10:35:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'bybit.eu'... -> 04/09/2025, 10:35:52
+  ℹ️ 9 subs found for bybit.eu -> 04/09/2025, 10:36:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'bybit.tr'... -> 04/09/2025, 10:36:52
+  ℹ️ 3 subs found for bybit.tr -> 04/09/2025, 10:37:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleongames.be'... -> 04/09/2025, 10:37:55
+  ℹ️ 10 subs found for napoleongames.be -> 04/09/2025, 10:38:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'spinaway.com'... -> 04/09/2025, 10:38:57
+  ℹ️ 17 subs found for spinaway.com -> 04/09/2025, 10:39:58
+[Asset-Watcher] ℹ️ Starting Subfinder for 'luckydays.ca'... -> 04/09/2025, 10:39:58
+  ℹ️ 10 subs found for luckydays.ca -> 04/09/2025, 10:40:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'shopifycloud.com'... -> 04/09/2025, 10:40:59
+  ℹ️ 731 subs found for shopifycloud.com -> 04/09/2025, 10:47:35
+[Asset-Watcher] ℹ️ Starting Subfinder for 'shopifykloud.com'... -> 04/09/2025, 10:47:36
+  ℹ️ 9 subs found for shopifykloud.com -> 04/09/2025, 10:48:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'bybit.com'... -> 04/09/2025, 10:48:46
+  ℹ️ 123 subs found for bybit.com -> 04/09/2025, 10:49:48
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.rs'... -> 04/09/2025, 10:49:48
+  ℹ️ 28 subs found for superbet.rs -> 04/09/2025, 10:50:51
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.pl'... -> 04/09/2025, 10:50:51
+  ℹ️ 49 subs found for superbet.pl -> 04/09/2025, 10:51:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'shopify.io'... -> 04/09/2025, 10:51:54
+  ℹ️ 557 subs found for shopify.io -> 04/09/2025, 10:53:37
+[Asset-Watcher] ✅ Finished subfinder -> 04/09/2025, 10:53:38
+[Asset-Watcher] ℹ️ Starting crt.sh -> 04/09/2025, 10:53:39
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'shopify.com'... -> 04/09/2025, 10:53:40
+  [Asset-Watcher] ⚠️ No subdomains found for shopify.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:40
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for shopify.com after 1/2 attempts. -> 04/09/2025, 10:53:40
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'luckydays.com'... -> 04/09/2025, 10:53:41
+  [Asset-Watcher] ⚠️ No subdomains found for luckydays.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:41
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for luckydays.com after 1/2 attempts. -> 04/09/2025, 10:53:41
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pci.shopifyinc.com'... -> 04/09/2025, 10:53:42
+  [Asset-Watcher] ⚠️ No subdomains found for pci.shopifyinc.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pci.shopifyinc.com after 1/2 attempts. -> 04/09/2025, 10:53:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleondice.be'... -> 04/09/2025, 10:53:45
+  [Asset-Watcher] ⚠️ No subdomains found for napoleondice.be in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:45
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleondice.be after 1/2 attempts. -> 04/09/2025, 10:53:45
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.ro'... -> 04/09/2025, 10:53:46
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.ro in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.ro after 1/2 attempts. -> 04/09/2025, 10:53:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'shopifycs.com'... -> 04/09/2025, 10:53:47
+  [Asset-Watcher] ⚠️ No subdomains found for shopifycs.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:47
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for shopifycs.com after 1/2 attempts. -> 04/09/2025, 10:53:47
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleonsports.be'... -> 04/09/2025, 10:53:48
+  [Asset-Watcher] ⚠️ No subdomains found for napoleonsports.be in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:48
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleonsports.be after 1/2 attempts. -> 04/09/2025, 10:53:48
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.com'... -> 04/09/2025, 10:53:49
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:49
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.com after 1/2 attempts. -> 04/09/2025, 10:53:49
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleoncasino.be'... -> 04/09/2025, 10:53:50
+  [Asset-Watcher] ⚠️ No subdomains found for napoleoncasino.be in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:50
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleoncasino.be after 1/2 attempts. -> 04/09/2025, 10:53:50
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'bybit.eu'... -> 04/09/2025, 10:53:51
+  [Asset-Watcher] ⚠️ No subdomains found for bybit.eu in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:51
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for bybit.eu after 1/2 attempts. -> 04/09/2025, 10:53:51
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'bybit.tr'... -> 04/09/2025, 10:53:52
+  [Asset-Watcher] ⚠️ No subdomains found for bybit.tr in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:52
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for bybit.tr after 1/2 attempts. -> 04/09/2025, 10:53:52
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleongames.be'... -> 04/09/2025, 10:53:53
+  [Asset-Watcher] ⚠️ No subdomains found for napoleongames.be in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:53
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleongames.be after 1/2 attempts. -> 04/09/2025, 10:53:53
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'spinaway.com'... -> 04/09/2025, 10:53:54
+  [Asset-Watcher] ⚠️ No subdomains found for spinaway.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:54
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for spinaway.com after 1/2 attempts. -> 04/09/2025, 10:53:54
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'luckydays.ca'... -> 04/09/2025, 10:53:55
+  [Asset-Watcher] ⚠️ No subdomains found for luckydays.ca in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:55
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for luckydays.ca after 1/2 attempts. -> 04/09/2025, 10:53:55
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'shopifycloud.com'... -> 04/09/2025, 10:53:57
+  [Asset-Watcher] ⚠️ No subdomains found for shopifycloud.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:57
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for shopifycloud.com after 1/2 attempts. -> 04/09/2025, 10:53:57
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'shopifykloud.com'... -> 04/09/2025, 10:53:58
+  [Asset-Watcher] ⚠️ No subdomains found for shopifykloud.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:58
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for shopifykloud.com after 1/2 attempts. -> 04/09/2025, 10:53:58
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'bybit.com'... -> 04/09/2025, 10:53:59
+  [Asset-Watcher] ⚠️ No subdomains found for bybit.com in Crt.sh (Attempt 1) -> 04/09/2025, 10:53:59
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for bybit.com after 1/2 attempts. -> 04/09/2025, 10:53:59
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.rs'... -> 04/09/2025, 10:54:00
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.rs in Crt.sh (Attempt 1) -> 04/09/2025, 10:54:00
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.rs after 1/2 attempts. -> 04/09/2025, 10:54:00
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.pl'... -> 04/09/2025, 10:54:01
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.pl in Crt.sh (Attempt 1) -> 04/09/2025, 10:54:01
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.pl after 1/2 attempts. -> 04/09/2025, 10:54:01
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'shopify.io'... -> 04/09/2025, 10:54:02
+  [Asset-Watcher] ⚠️ No subdomains found for shopify.io in Crt.sh (Attempt 1) -> 04/09/2025, 10:54:02
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for shopify.io after 1/2 attempts. -> 04/09/2025, 10:54:02
+[Asset-Watcher] ✅ Finished crt.sh -> 04/09/2025, 10:54:03
+[Asset-Watcher] ℹ️ Starting user subdomains -> 04/09/2025, 10:54:04
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 04/09/2025, 10:54:05
+  [Asset-Watcher] ⚠️ No own subdomains found for shopify.com -> 04/09/2025, 10:54:06
+  [Asset-Watcher] ⚠️ No own subdomains found for luckydays.com -> 04/09/2025, 10:54:07
+  [Asset-Watcher] ⚠️ No own subdomains found for pci.shopifyinc.com -> 04/09/2025, 10:54:08
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleondice.be -> 04/09/2025, 10:54:09
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.ro -> 04/09/2025, 10:54:10
+  [Asset-Watcher] ⚠️ No own subdomains found for shopifycs.com -> 04/09/2025, 10:54:11
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleonsports.be -> 04/09/2025, 10:54:12
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.com -> 04/09/2025, 10:54:13
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleoncasino.be -> 04/09/2025, 10:54:14
+  [Asset-Watcher] ⚠️ No own subdomains found for bybit.eu -> 04/09/2025, 10:54:15
+  [Asset-Watcher] ⚠️ No own subdomains found for bybit.tr -> 04/09/2025, 10:54:16
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleongames.be -> 04/09/2025, 10:54:17
+  [Asset-Watcher] ⚠️ No own subdomains found for spinaway.com -> 04/09/2025, 10:54:18
+  [Asset-Watcher] ⚠️ No own subdomains found for luckydays.ca -> 04/09/2025, 10:54:19
+  [Asset-Watcher] ⚠️ No own subdomains found for shopifycloud.com -> 04/09/2025, 10:54:20
+  [Asset-Watcher] ⚠️ No own subdomains found for shopifykloud.com -> 04/09/2025, 10:54:21
+  [Asset-Watcher] ⚠️ No own subdomains found for bybit.com -> 04/09/2025, 10:54:22
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.rs -> 04/09/2025, 10:54:23
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.pl -> 04/09/2025, 10:54:24
+  [Asset-Watcher] ⚠️ No own subdomains found for shopify.io -> 04/09/2025, 10:54:25
+[Asset-Watcher] ✅ Finished user subdomains -> 04/09/2025, 10:54:26
+[Asset-Watcher] ℹ️ Starting httpx -> 04/09/2025, 10:54:27
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'shopify.com - nexovir'... -> 04/09/2025, 10:54:28
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:20:43
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'luckydays.com - nexovir'... -> 04/09/2025, 11:26:06
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:26:19
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pci.shopifyinc.com - nexovir'... -> 04/09/2025, 11:26:19
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:26:28
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleondice.be - nexovir'... -> 04/09/2025, 11:26:28
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:26:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.ro - nexovir'... -> 04/09/2025, 11:26:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:26:47
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'shopifycs.com - nexovir'... -> 04/09/2025, 11:26:48
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:26:53
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleonsports.be - nexovir'... -> 04/09/2025, 11:26:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:26:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.com - nexovir'... -> 04/09/2025, 11:26:56
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:27:15
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleoncasino.be - nexovir'... -> 04/09/2025, 11:27:17
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:27:21
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'bybit.eu - nexovir'... -> 04/09/2025, 11:27:21
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:27:24
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'bybit.tr - nexovir'... -> 04/09/2025, 11:27:24
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:27:29
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleongames.be - nexovir'... -> 04/09/2025, 11:27:29
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:27:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'spinaway.com - nexovir'... -> 04/09/2025, 11:27:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:27:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'luckydays.ca - nexovir'... -> 04/09/2025, 11:27:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:27:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'shopifycloud.com - nexovir'... -> 04/09/2025, 11:27:56
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:29:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'shopifykloud.com - nexovir'... -> 04/09/2025, 11:29:55
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:30:04
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'bybit.com - nexovir'... -> 04/09/2025, 11:30:07
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:31:00
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.rs - nexovir'... -> 04/09/2025, 11:31:01
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:31:11
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.pl - nexovir'... -> 04/09/2025, 11:31:11
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:31:21
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'shopify.io - nexovir'... -> 04/09/2025, 11:31:21
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 11:31:50
+[Asset-Watcher] ✅ Finished httpx -> 04/09/2025, 11:31:56
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 04/09/2025, 11:31:57
+[Asset-Watcher] ✅ Finished cidrs scanning -> 04/09/2025, 11:31:58
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 04/09/2025, 11:31:59
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 11:32:00
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 11:32:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://s4.shopify.com'... -> 04/09/2025, 11:32:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://s4.shopify.com'... -> 04/09/2025, 11:32:14
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 04/09/2025, 11:32:16
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 04/09/2025, 11:32:17
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 's4.shopify.com - 404'... -> 04/09/2025, 11:32:18
+[Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 04/09/2025, 11:32:21
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: new) -> 04/09/2025, 11:32:22
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on s4.shopify.com - 404 URLs -> 04/09/2025, 11:32:23
+[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done -> 04/09/2025, 11:32:39
+[vulnerability_monitor] ℹ️ Starting XSS Discovery on Assets (label: new) -> 04/09/2025, 11:32:40
+[vulnerability_monitor] ℹ️ Starting Reflix on s4.shopify.com - 404 -> 04/09/2025, 11:32:41
+[INFO] Starting Static Reflix ... -> 04/09/2025, 11:32:43
+   [INFO] Running injector ... -> 04/09/2025, 11:32:43
+   [SUCCESS] Injector finished successfully -> 04/09/2025, 11:32:43
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 04/09/2025, 11:32:43
+[INFO] Starting Light Reflix ... -> 04/09/2025, 11:32:43
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://s4.shopify.com -> 04/09/2025, 11:32:43
+      [INFO] 23 parameters found  -> 04/09/2025, 11:32:43
+  [INFO] Start Fuzzing 23 parameters (method: GET) https://s4.shopify.com -> 04/09/2025, 11:32:43
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://s4.shopify.com -> 04/09/2025, 11:32:45
+      [INFO] 23 parameters found  -> 04/09/2025, 11:32:45
+  [INFO] Start Fuzzing 23 parameters (method: POST) https://s4.shopify.com -> 04/09/2025, 11:32:45
+[vulnerability_monitor] ℹ️ Starting Nuclei Check on Subdomains HTTPX Results -> 04/09/2025, 11:32:47
+[Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 04/09/2025, 11:32:48
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://s4.shopify.com -> 04/09/2025, 11:32:50
+[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes) -> 04/09/2025, 11:34:18
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:09:27
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:09:28
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:10:27
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:10:28
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:13:33
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:13:34
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 04/09/2025, 12:13:35
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 04/09/2025, 12:13:36
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 's4.shopify.com - 404'... -> 04/09/2025, 12:13:37
+[Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 04/09/2025, 12:13:39
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:16:16
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:16:17
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:21:10
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:21:11
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:24:12
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:24:13
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:24:32
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:24:33
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:29:43
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:29:44
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:30:47
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:30:48
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:32:09
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:32:10
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 12:35:29
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 12:35:30
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 13:55:55
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 13:55:56
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 04/09/2025, 13:55:57
+[Asset-Watcher] ℹ️ Starting subfinder -> 04/09/2025, 13:57:07
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.ro'... -> 04/09/2025, 13:57:08
+  ℹ️ 68 subs found for superbet.ro -> 04/09/2025, 13:59:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'luckydays.ca'... -> 04/09/2025, 13:59:55
+  ℹ️ 9 subs found for luckydays.ca -> 04/09/2025, 14:00:57
+[Asset-Watcher] ✅ Finished subfinder -> 04/09/2025, 14:00:58
+[Asset-Watcher] ℹ️ Starting crt.sh -> 04/09/2025, 14:00:59
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.ro'... -> 04/09/2025, 14:01:00
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.ro in Crt.sh (Attempt 1) -> 04/09/2025, 14:01:00
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.ro after 1/2 attempts. -> 04/09/2025, 14:01:00
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'luckydays.ca'... -> 04/09/2025, 14:01:01
+  [Asset-Watcher] ⚠️ No subdomains found for luckydays.ca in Crt.sh (Attempt 1) -> 04/09/2025, 14:01:01
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for luckydays.ca after 1/2 attempts. -> 04/09/2025, 14:01:01
+[Asset-Watcher] ✅ Finished crt.sh -> 04/09/2025, 14:01:02
+[Asset-Watcher] ℹ️ Starting user subdomains -> 04/09/2025, 14:01:03
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 04/09/2025, 14:01:04
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.ro -> 04/09/2025, 14:01:05
+  [Asset-Watcher] ⚠️ No own subdomains found for luckydays.ca -> 04/09/2025, 14:01:06
+[Asset-Watcher] ✅ Finished user subdomains -> 04/09/2025, 14:01:07
+[Asset-Watcher] ℹ️ Starting httpx -> 04/09/2025, 14:01:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.ro - nexovir'... -> 04/09/2025, 14:01:09
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 14:01:19
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'luckydays.ca - nexovir'... -> 04/09/2025, 14:01:20
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 14:01:25
+[Asset-Watcher] ✅ Finished httpx -> 04/09/2025, 14:01:25
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 04/09/2025, 14:01:26
+[Asset-Watcher] ✅ Finished cidrs scanning -> 04/09/2025, 14:01:27
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 04/09/2025, 14:01:28
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 14:02:35
+[Asset-Watcher] ℹ️ Starting subfinder -> 04/09/2025, 14:02:35
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 14:02:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.ro'... -> 04/09/2025, 14:02:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://assets.offer-server.prod.incubator.superbet.ro'... -> 04/09/2025, 14:02:37
+[Asset-Watcher] ℹ️ Starting subfinder -> 04/09/2025, 14:03:01
+[Asset-Watcher] ℹ️ Starting Subfinder for 'luckydays.ca'... -> 04/09/2025, 14:03:02
+  ℹ️ 9 subs found for luckydays.ca -> 04/09/2025, 14:04:03
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.ro'... -> 04/09/2025, 14:04:03
+  ℹ️ 66 subs found for superbet.ro -> 04/09/2025, 14:05:05
+[Asset-Watcher] ✅ Finished subfinder -> 04/09/2025, 14:05:06
+[Asset-Watcher] ℹ️ Starting crt.sh -> 04/09/2025, 14:05:07
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'luckydays.ca'... -> 04/09/2025, 14:05:08
+  [Asset-Watcher] ⚠️ No subdomains found for luckydays.ca in Crt.sh (Attempt 1) -> 04/09/2025, 14:05:08
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for luckydays.ca after 1/2 attempts. -> 04/09/2025, 14:05:08
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.ro'... -> 04/09/2025, 14:05:09
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.ro in Crt.sh (Attempt 1) -> 04/09/2025, 14:05:09
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.ro after 1/2 attempts. -> 04/09/2025, 14:05:09
+[Asset-Watcher] ✅ Finished crt.sh -> 04/09/2025, 14:05:10
+[Asset-Watcher] ℹ️ Starting user subdomains -> 04/09/2025, 14:05:11
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 04/09/2025, 14:05:12
+  [Asset-Watcher] ⚠️ No own subdomains found for luckydays.ca -> 04/09/2025, 14:05:13
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.ro -> 04/09/2025, 14:05:14
+[Asset-Watcher] ✅ Finished user subdomains -> 04/09/2025, 14:05:15
+[Asset-Watcher] ℹ️ Starting httpx -> 04/09/2025, 14:05:16
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'luckydays.ca - nexovir'... -> 04/09/2025, 14:05:17
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 14:05:21
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.ro - nexovir'... -> 04/09/2025, 14:05:21
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 04/09/2025, 14:05:32
+[Asset-Watcher] ✅ Finished httpx -> 04/09/2025, 14:05:32
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 04/09/2025, 14:05:33
+[Asset-Watcher] ✅ Finished cidrs scanning -> 04/09/2025, 14:05:34
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 04/09/2025, 14:05:35
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 04/09/2025, 14:06:02
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 04/09/2025, 14:06:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://link.info.luckydays.ca'... -> 04/09/2025, 14:06:04
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://link.info.luckydays.ca'... -> 04/09/2025, 14:06:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://betting.prod.incubator.superbet.ro'... -> 04/09/2025, 14:06:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://betting.prod.incubator.superbet.ro'... -> 04/09/2025, 14:06:47
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 04/09/2025, 14:06:56
