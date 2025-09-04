@@ -453,7 +453,7 @@ def url_monitor(self):
         fuzz_parameters_on_urls_task.si('new'),
         vulnerability_monitor_task.si('new'),
 
-        discover_urls_task.si('available'),
+        ## discover_urls_task.si('available'),
         ## discover_parameter_task.s('available'),
         ## fuzz_parameters_on_urls_task.s('available'),
         ## vulnerability_monitor_task.s('available'),

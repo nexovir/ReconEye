@@ -62,7 +62,7 @@ class WatchedWildcardAdmin(NestedModelAdmin):
 class DiscoverSubdomainAdmin(admin.ModelAdmin):
     list_display = ('id', 'subdomain', 'label', 'wildcard', 'tool' , 'created_at' , 'updated_at')
     search_fields = ('subdomain',)
-    ordering = ('-label',)
+    ordering = ('-created_at',)
     list_filter = ('tool','wildcard__watcher__user__username' , 'label')
     inlines = [RequestHeadersInline]
     actions = [make_label_new , make_label_available]
@@ -73,7 +73,7 @@ class SubdomainHttpxAdmin(admin.ModelAdmin):
     list_display = ('id','httpx_result','label', 'status_code','server' ,'title', 'ip_address', 'port')
     list_filter = ('status_code', 'port' , 'label')
     search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title' , 'technologies','httpx_result')
-    ordering = ['-label']
+    ordering = ['-created_at']
     actions = [make_label_new , make_label_available]
 
 
@@ -92,7 +92,7 @@ class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
                     'body_hash_change', 
                     'header_hash_change' , 
                     'has_cdn_change']
-    ordering = ['-updated_at']
+    ordering = ['-created_at']
     actions = [make_label_new , make_label_available]
 
 
@@ -107,7 +107,7 @@ class PortsAdmin(admin.ModelAdmin):
 class DiscoverdServicesAdmin(admin.ModelAdmin):
     list_display = ['ip' , 'port'  , 'label' ]
     search_fields = ['ip'  , 'label']
-    ordering = ['-label']
+    ordering = ['-created_at']
     list_filter = ['watcher' , 'label' , 'port']
 
 
@@ -115,7 +115,7 @@ class DiscoverdServicesAdmin(admin.ModelAdmin):
 class DiscoverdServicesAliveAdmin(admin.ModelAdmin):
     list_display = ['service' , 'status_code' , 'label']
     search_fields = ['service' , 'status_code']
-    ordering = ['-label']
+    ordering = ['-created_at']
     list_filter = ['status_code' , 'label']
 
 

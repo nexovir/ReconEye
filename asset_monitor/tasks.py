@@ -182,7 +182,7 @@ def save_httpx_results(results):
                 if str(old_value) != str(new_value):
                     change_data[f"{field}_change"] = f"{old_value} -> {new_value}"
                     
-                    if field not in ['ip_address', 'a_records']:
+                    if field not in ['ip_address', 'a_records', 'body_hash' , 'header_hash']:
                         actual_changes[f"{field}_change"] = f"{old_value} -> {new_value}"
                 else:
                     change_data[f"{field}_change"] = str(new_value)

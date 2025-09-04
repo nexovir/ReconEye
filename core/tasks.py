@@ -25,6 +25,6 @@ def orchestrator(self):
         url_monitor.si()
     )
 
-    workflow.apply_async(link=schedule_next_cycle.si())
+    workflow.apply_async(link=schedule_next_cycle.s())
 
     sendmessage("[WatchTower] ⏳ Cycle started. Will schedule next cycle after completion.", colour="BLUE")
