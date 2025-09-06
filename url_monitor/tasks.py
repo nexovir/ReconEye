@@ -448,23 +448,23 @@ def fuzz_parameters_on_urls(self , label):
 
 
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
 def discover_urls_task(self, label):
     return discover_urls(self, label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
 def discover_parameter_task(self, label):
     return discover_parameter(self, label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
 def fuzz_parameters_on_urls_task(self, label):
     return fuzz_parameters_on_urls(self, label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
 def vulnerability_monitor_task(self, label):
     return vulnerability_monitor(label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*12, time_limit=60*60*13)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
 def detect_urls_changes_task(self):
     return detect_urls_changes(self)
 
@@ -482,12 +482,12 @@ def url_monitor(self):
     sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
 
     workflow = chain(
-        discover_urls_task.s('new'),
-        discover_parameter_task.si('new'),
-        fuzz_parameters_on_urls_task.si('new'),
-        vulnerability_monitor_task.si('new'),
+        # discover_urls_task.s('new'),
+        # discover_parameter_task.si('new'),
+        # fuzz_parameters_on_urls_task.si('new'),
+        # vulnerability_monitor_task.si('new'),
 
-        discover_urls_task.si('available'),
+        # discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
         fuzz_parameters_on_urls_task.si('available'),
         vulnerability_monitor_task.si('available'),
