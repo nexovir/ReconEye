@@ -15,6 +15,7 @@ EXTS = ['js']
 
 def clear_labels(self):
     Url.objects.all().update(label="available")
+    NewUrl.objects.all().update(label="available")
     UrlChanges.objects.all().update(label="available")
     SubdomainParameter.objects.all().update(label='available')
     Parameter.objects.all().update(label = 'available')
@@ -178,7 +179,7 @@ def run_katana(subdomain: str, on_line):
 
 def discover_urls(self, label):
 
-    def insert_url(subdomain_obj, url):
+    def insert_url(subdomain_obj, url, isNewUrl , tool):
         clean_url = urlparse(url)
         matched_ext = "none"
         for ext in EXTENSION:
@@ -201,6 +202,7 @@ def discover_urls(self, label):
             subdomain=subdomain_obj.discovered_subdomain,
             path=clean_url.path,
             defaults={
+                "tool": tool,
                 "query": clean_url.query,
                 "ext": matched_ext,
                 "url": url,
@@ -208,9 +210,29 @@ def discover_urls(self, label):
                 "status": status,
             },
         )
+
         if created:
             obj.label = "new"
             obj.save()
+
+
+        if isNewUrl : 
+            obj2, created2 = NewUrl.objects.get_or_create(
+                subdomain=subdomain_obj.discovered_subdomain,
+                path=clean_url.path,
+                defaults={
+                    "tool": tool,
+                   "query": clean_url.query,
+                   "ext": matched_ext,
+                   "url": url,
+                   "body_hash": new_body_hash,
+                    "status": status,
+                },
+             )
+
+            if created2:
+                obj2.label = "new"
+                obj2.save()
 
     sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})", colour="CYAN")
 
@@ -223,18 +245,19 @@ def discover_urls(self, label):
         if subdomain.label == "new":
             run_katana(
                 subdomain.httpx_result,
-                on_line=lambda url, sub=subdomain: insert_url(sub, url)
+                on_line=lambda url, sub=subdomain: insert_url(sub, url , False , 'katana')
             )
             run_waybackurls(
                subdomain.httpx_result,
-               on_line=lambda url, sub=subdomain: insert_url(sub, url)
+               on_line=lambda url, sub=subdomain: insert_url(sub, url , False, 'waybackurls')
             )
 
         elif subdomain.label == "available":
             run_katana(
                 subdomain.httpx_result,
-                on_line=lambda url, sub=subdomain: insert_url(sub, url)
+                on_line=lambda url, sub=subdomain: insert_url(sub, url , True, 'katana')
             )
+
 
     sendmessage(f"[Urls-Watcher] ✅ URLs Discovery Successfully Done" , colour="CYAN")
 
@@ -460,16 +483,16 @@ def url_monitor(self):
 
     workflow = chain(
         discover_urls_task.s('new'),
-        # discover_parameter_task.si('new'),
-        # fuzz_parameters_on_urls_task.si('new'),
-        # vulnerability_monitor_task.si('new'),
+        discover_parameter_task.si('new'),
+        fuzz_parameters_on_urls_task.si('new'),
+        vulnerability_monitor_task.si('new'),
 
-        ## discover_urls_task.si('available'),
-        ## discover_parameter_task.s('available'),
-        ## fuzz_parameters_on_urls_task.s('available'),
-        ## vulnerability_monitor_task.s('available'),
+        discover_urls_task.si('available'),
+        discover_parameter_task.si('available'),
+        fuzz_parameters_on_urls_task.si('available'),
+        vulnerability_monitor_task.si('available'),
         
-        # detect_urls_changes_task.si(),
-        # notify_done.si()
+        detect_urls_changes_task.si(),
+        notify_done.si()
     )
     workflow.apply_async()

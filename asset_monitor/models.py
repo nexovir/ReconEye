@@ -184,6 +184,14 @@ class WatchedWildcard(BaseModel):
         blank=True,
     )
     status = models.CharField(max_length=150, choices=STATUSES, default='pending') 
+    
+    @property
+    def subdomains_count(self):
+        return self.subdomains.count()
+
+    @property
+    def valid_subdomains_count(self):
+        return SubdomainHttpx.objects.filter(discovered_subdomain__wildcard=self).count()
 
     def __str__(self):
         return f"{self.wildcard} - {self.watcher.user.username}"

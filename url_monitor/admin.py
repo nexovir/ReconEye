@@ -16,15 +16,29 @@ def make_label_available(modeladmin, request, queryset):
 
 @register(Url)
 class UrlAdmin(admin.ModelAdmin):
-    list_display = ['subdomain' , 'path' , 'query' , 'status' ,'label', 'ext' , 'short_url']
+    list_display = ['subdomain' , 'path' , 'query' , 'status' ,'label', 'ext' , 'tool', 'short_url']
     search_fields = ['subdomain__subdomain' , 'path' ]
-    list_filter = ['label' , 'ext' , 'status']
+    list_filter = ['label' , 'ext' , 'status', 'tool']
     ordering = ['-created_at']
     actions = [make_label_new , make_label_available]
 
     def short_url(self, obj):
         return format_html('<a href="{}" target="_blank">Click here</a>', obj.url)
     short_url.short_description = 'URL'
+
+
+@register(NewUrl)
+class NewUrlAdmin(admin.ModelAdmin):
+    list_display = ['subdomain' , 'path' , 'query' , 'status' ,'label', 'ext', 'tool' , 'short_url']
+    search_fields = ['subdomain__subdomain' , 'path']
+    list_filter = ['label' , 'ext' , 'status' , 'tool']
+    ordering = ['-created_at']
+    actions = [make_label_new , make_label_available]
+
+    def short_url(self, obj):   
+        return format_html('<a href="{}" target="_blank">Click here</a>', obj.url)
+    short_url.short_description = 'URL'
+
 
 @register(UrlChanges)
 class UrlChangesAdmin(admin.ModelAdmin):

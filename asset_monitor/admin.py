@@ -18,10 +18,21 @@ class RequestHeadersInline(admin.TabularInline):
     extra = 0
     show_change_link = True
 
+
 class WatchedWildcardInline(NestedTabularInline):
     model = WatchedWildcard
     extra = 0
     show_change_link = True
+    readonly_fields = ('subdomains_count', 'valid_subdomains_count')
+    fields = ('wildcard', 'status','tools', 'own_subdomains' ,'subdomains_count', 'valid_subdomains_count')
+
+    def subdomains_count(self, obj):
+        return obj.subdomains_count
+    subdomains_count.short_description = 'Total Subdomains'
+
+    def valid_subdomains_count(self, obj):
+        return obj.valid_subdomains_count
+    valid_subdomains_count.short_description = 'Valid Subdomains'
 
 
 class WatcherCIDRInline(NestedTabularInline):
@@ -49,7 +60,7 @@ class AssetWatcherAdmin(NestedModelAdmin):
 
 @admin.register(WatchedWildcard)
 class WatchedWildcardAdmin(NestedModelAdmin):
-    list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'updated_at')
+    list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'subdomains_count' , 'valid_subdomains_count', 'updated_at')
     search_fields = ('wildcard',)
     
     list_filter = ['watcher' , 'status' , 'tools']

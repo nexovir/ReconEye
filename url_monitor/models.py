@@ -3,6 +3,12 @@ from core.models import BaseModel
 from django.contrib.auth.models import User
 from asset_monitor.models import *
 
+def user_urls_upload_path(instance, filename):
+    username = instance.watcher.user.username if instance.watcher.user else 'anonymous'
+    ext = os.path.splitext(filename)[1]
+    return f"url_monitor/urls/{username}/{instance.wildcard}_urls.txt"
+
+
 
 EXTENSION = [
     ('none', 'none'),
@@ -33,6 +39,15 @@ class Url(BaseModel):
     status = models.CharField(blank=True , null=True)
     ext = models.CharField(choices=EXTENSION , default='none')
     body_hash = models.CharField(null=True , blank=True)
+    tool = models.CharField(blank=True , null=True)
+    
+    own_urls = models.FileField(
+        upload_to=user_urls_upload_path,
+        validators=[validate_wordlist_file],
+        null=True,
+        blank=True,
+    )
+    
     label = models.CharField(choices=LABELS , default='new')
 
     def __str__(self):
@@ -40,7 +55,36 @@ class Url(BaseModel):
 
     class Meta:
         verbose_name = 'URL'
-        verbose_name_plural = 'URLs'
+        verbose_name_plural = 'All URLs'
+
+
+
+class NewUrl(BaseModel):
+    subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE)
+    url = models.CharField(null=False , blank=False)
+    path = models.CharField(null=False , blank=True)
+    query = models.CharField(null=False , blank=True)
+    status = models.CharField(blank=True , null=True)
+    ext = models.CharField(choices=EXTENSION , default='none')
+    body_hash = models.CharField(null=True , blank=True)
+    tool = models.CharField(blank=True , null=True)
+
+    own_urls = models.FileField(
+        upload_to=user_urls_upload_path,
+        validators=[validate_wordlist_file],
+        null=True,
+        blank=True,
+    )
+
+    label = models.CharField(choices=LABELS , default='new')
+
+    def __str__(self):
+        return f"{self.subdomain} - {self.ext}"
+
+    class Meta:
+        verbose_name = 'New URL'
+        verbose_name_plural = 'New URLs'
+
 
 
 class UrlChanges(BaseModel):
