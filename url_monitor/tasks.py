@@ -482,12 +482,12 @@ def url_monitor(self):
     sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
 
     workflow = chain(
-        # discover_urls_task.s('new'),
-        # discover_parameter_task.si('new'),
-        # fuzz_parameters_on_urls_task.si('new'),
-        # vulnerability_monitor_task.si('new'),
+        discover_urls_task.s('new'),
+        discover_parameter_task.si('new'),
+        fuzz_parameters_on_urls_task.si('new'),
+        vulnerability_monitor_task.si('new'),
 
-        # discover_urls_task.si('available'),
+        discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
         fuzz_parameters_on_urls_task.si('available'),
         vulnerability_monitor_task.si('available'),
