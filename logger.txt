@@ -43309,3 +43309,4 @@ Call log:
 [vulnerability_monitor] ℹ️ Starting Nuclei Check on Subdomains HTTPX Results -> 07/09/2025, 18:29:45
 [Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 07/09/2025, 18:29:46
 [Vulnerability_Monitor] ℹ️ Starting Nuclei on https://mail.nexovir.ir -> 07/09/2025, 18:29:47
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://www.nexovir.ir -> 07/09/2025, 18:36:22
