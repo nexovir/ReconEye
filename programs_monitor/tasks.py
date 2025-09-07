@@ -4,7 +4,7 @@ from django.utils.timezone import now
 import colorama , json , requests , time , subprocess
 from requests.exceptions import RequestException
 from .models import *
-from .telegram_bot import *
+from .telegram_bot import * # type: ignore
 
 # if you want this 
 
@@ -33,8 +33,8 @@ def sendmessage(message: str, telegram: bool = True, colour: str = "YELLOW", log
     if telegram:
         escaped_message = message.replace(' ', '+')
         command = (
-            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
-            f'-d "chat_id=-1002702601401&text=<code>{escaped_message}</code>&parse_mode=HTML"'
+            f'curl -X POST "https://api.telegram.org/bot8333732723:AAFccqPv6Z9m7zIbgPy1Peg98mByLiTZPug/sendMessage" '
+            f'-d "chat_id=-1003013589570&text=<code>{escaped_message}</code>&parse_mode=HTML"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         time.sleep(1)
@@ -60,7 +60,7 @@ def request(url: str, name:str ,  retries: int = 20, delay: int = 5) -> dict:
             sendmessage(f"  [Program-Watcher] ❌ An unexpected error occurred: {e}" , colour='RED')
             break
     sendmessage(f"  [Program-Watcher] ❌ Failed to retrieve data after {retries} attempts." , colour='RED')
-    return None
+    return None # type: ignore
 
 
 
@@ -102,7 +102,8 @@ def get_bugcrowd_programs(data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Bugcrowd"] += 1
-            asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            if program_obj.watcher.notify:
+                asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
 
@@ -179,7 +180,8 @@ def get_hackerone_programs(data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Hackerone"] += 1
-            asyncio.run(startbot(program_obj.name, item.get('asset_identifier' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            if program_obj.watcher.notify:
+                asyncio.run(startbot(program_obj.name, item.get('asset_identifier' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
     try:
@@ -241,7 +243,8 @@ def get_federacy_programs(data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Federacy"] += 1
-            asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            if program_obj.watcher.notify:
+                asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
 
@@ -307,7 +310,8 @@ def get_intigriti_programs (data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Intigriti"] += 1
-            asyncio.run(startbot(program_obj.name, item.get('endpoint' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
+            if program_obj.watcher.notify:
+                asyncio.run(startbot(program_obj.name, item.get('endpoint' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), program_obj.url , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
 
@@ -371,7 +375,8 @@ def get_yeswehack_programs (data, watcherprogram):
         )
         if created:
             publicwatcher_summary["Yeswehack"] += 1
-            asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), 'https://yeswehack.com' , scope_type , program_obj.type))
+            if program_obj.watcher.notify:
+                asyncio.run(startbot(program_obj.name, item.get('target' , ''), program_obj.watcher.platform_name, program_obj.updated_at.strftime("%Y-%m-%d | %H:%M:%S"), 'https://yeswehack.com' , scope_type , program_obj.type))
             obj.label = 'new'
             obj.save()
     try:
