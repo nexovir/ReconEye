@@ -388,6 +388,7 @@ def fuzz_parameters_on_urls(self , label):
                 "--output-format", "json",
                 "-o", output_file,
                 "-X", method,
+                '-L'
             ]
 
             if headers:

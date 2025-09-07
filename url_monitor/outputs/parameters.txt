@@ -1,0 +1,15 @@
+x
+fontSize
+y
+viewport
+ctx
+2d
+0
+challenge-guidelines
+height
+text
+canvas
+columns
+Ubuntu
+letters
+width

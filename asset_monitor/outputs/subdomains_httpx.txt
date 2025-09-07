@@ -1,3 +1,4 @@
-ingestion-scheduler.staging.data-acq.shopifykloud.com
-ingestion-scheduler.prod.data-acq.shopifykloud.com
-speedboat-yarn-oauth-proxy.data-acq.shopifykloud.com
+mail.nexovir.ir
+www.nexovir.ir
+vless.nexovir.ir
+www.just-eat.dk.nexovir.ir
