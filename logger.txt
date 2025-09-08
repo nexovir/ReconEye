@@ -43843,3 +43843,1539 @@ Call log:
   [Asset-Watcher] ℹ️ Starting HTTPx on 'tr.ee - nexovir'... -> 08/09/2025, 12:51:55
   [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:52:03
   [Asset-Watcher] ℹ️ Starting HTTPx on 'vrbo.com - nexovir'... -> 08/09/2025, 12:52:03
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:52:31
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktr.ee - nexovir'... -> 08/09/2025, 12:52:32
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:53:59
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree.com - nexovir'... -> 08/09/2025, 12:54:02
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:54:07
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'devicelock.com - nexovir'... -> 08/09/2025, 12:54:07
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:54:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'cheaptickets.com - nexovir'... -> 08/09/2025, 12:54:08
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:54:41
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'carrentals.com - nexovir'... -> 08/09/2025, 12:54:43
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:55:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.com - nexovir'... -> 08/09/2025, 12:55:09
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:01:29
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'wotif.com - nexovir'... -> 08/09/2025, 13:01:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:01:52
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lastminute.com.au - nexovir'... -> 08/09/2025, 13:01:52
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:02:18
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree-extensions.com - nexovir'... -> 08/09/2025, 13:02:18
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:02:23
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.work - nexovir'... -> 08/09/2025, 13:02:23
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:02:47
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'quora.com - nexovir'... -> 08/09/2025, 13:02:51
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:14:23
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'travelocity.ca - nexovir'... -> 08/09/2025, 13:14:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:15:03
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lastminute.co.nz - nexovir'... -> 08/09/2025, 13:15:04
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:15:13
+  [Asset-Watcher] ℹ️ Starting HTTPx on '5nine.com - nexovir'... -> 08/09/2025, 13:15:13
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:15:22
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'travelocity.com - nexovir'... -> 08/09/2025, 13:15:22
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:21:44
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'expediapartnercentral.com - nexovir'... -> 08/09/2025, 13:21:44
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 13:22:01
+[Asset-Watcher] ✅ Finished httpx -> 08/09/2025, 13:22:02
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 08/09/2025, 13:22:03
+[Asset-Watcher] ✅ Finished cidrs scanning -> 08/09/2025, 13:22:04
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 08/09/2025, 13:22:05
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 08/09/2025, 13:22:06
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 08/09/2025, 13:22:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://develop.clicks.linktr.ee'... -> 08/09/2025, 13:22:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://develop.clicks.linktr.ee'... -> 08/09/2025, 13:22:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://events-ingress.linktr.ee'... -> 08/09/2025, 13:22:24
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://events-ingress.linktr.ee'... -> 08/09/2025, 13:22:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://snowflake.linktr.ee'... -> 08/09/2025, 13:22:43
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://snowflake.linktr.ee'... -> 08/09/2025, 13:22:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://vote.linktr.ee'... -> 08/09/2025, 13:23:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://vote.linktr.ee'... -> 08/09/2025, 13:23:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-fco1-aci01.acronis.com'... -> 08/09/2025, 13:23:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-fco1-aci01.acronis.com'... -> 08/09/2025, 13:23:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-got1-aci01.acronis.com'... -> 08/09/2025, 13:23:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-got1-aci01.acronis.com'... -> 08/09/2025, 13:24:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-jnb1-aci01-r02.acronis.com'... -> 08/09/2025, 13:24:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-jnb1-aci01-r02.acronis.com'... -> 08/09/2025, 13:24:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-sof1-aci01.acronis.com'... -> 08/09/2025, 13:24:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://abgw-sof1-aci01.acronis.com'... -> 08/09/2025, 13:24:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu4-cloud.acronis.com'... -> 08/09/2025, 13:24:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://bc-eu4-cloud.acronis.com'... -> 08/09/2025, 13:25:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp-wr-cloud.acronis.com'... -> 08/09/2025, 13:25:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://jp-wr-cloud.acronis.com'... -> 08/09/2025, 13:25:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://mobile-eu4-cloud.acronis.com'... -> 08/09/2025, 13:25:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://mobile-eu4-cloud.acronis.com'... -> 08/09/2025, 13:25:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-host1.acronis.com'... -> 08/09/2025, 13:25:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://web-api-host1.acronis.com'... -> 08/09/2025, 13:26:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-host3.acronis.com'... -> 08/09/2025, 13:26:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://web-api-host3.acronis.com'... -> 08/09/2025, 13:26:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-site0.acronis.com'... -> 08/09/2025, 13:26:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://web-api-site0.acronis.com'... -> 08/09/2025, 13:26:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-vmp0.acronis.com'... -> 08/09/2025, 13:26:34
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://web-api-vmp0.acronis.com'... -> 08/09/2025, 13:26:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://healthcareemployee.quora.com'... -> 08/09/2025, 13:26:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://healthcareemployee.quora.com'... -> 08/09/2025, 13:27:05
+[Url-Watcher] ℹ️ Starting Katana for 'http://zendesk1.travelocity.com'... -> 08/09/2025, 13:27:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://zendesk1.travelocity.com'... -> 08/09/2025, 13:27:18
+[Url-Watcher] ℹ️ Starting Katana for 'http://zendesk2.travelocity.com'... -> 08/09/2025, 13:27:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://zendesk2.travelocity.com'... -> 08/09/2025, 13:27:32
+[Url-Watcher] ℹ️ Starting Katana for 'http://zendesk4.travelocity.com'... -> 08/09/2025, 13:27:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://zendesk4.travelocity.com'... -> 08/09/2025, 13:27:46
+[Url-Watcher] ℹ️ Starting Katana for 'http://zendesk3.travelocity.com'... -> 08/09/2025, 13:27:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://zendesk3.travelocity.com'... -> 08/09/2025, 13:28:00
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 08/09/2025, 13:28:04
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 08/09/2025, 13:28:05
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'develop.clicks.linktr.ee - 403'... -> 08/09/2025, 13:28:06
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'events-ingress.linktr.ee - 500'... -> 08/09/2025, 13:28:09
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'snowflake.linktr.ee - 404'... -> 08/09/2025, 13:28:10
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'vote.linktr.ee - 301'... -> 08/09/2025, 13:28:12
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'abgw-fco1-aci01.acronis.com - 404'... -> 08/09/2025, 13:28:14
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'abgw-got1-aci01.acronis.com - 404'... -> 08/09/2025, 13:28:16
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'abgw-jnb1-aci01-r02.acronis.com - 404'... -> 08/09/2025, 13:28:17
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'abgw-sof1-aci01.acronis.com - 404'... -> 08/09/2025, 13:28:19
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'bc-eu4-cloud.acronis.com - 302'... -> 08/09/2025, 13:28:21
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'jp-wr-cloud.acronis.com - 302'... -> 08/09/2025, 13:28:22
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'mobile-eu4-cloud.acronis.com - 302'... -> 08/09/2025, 13:28:25
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'web-api-host1.acronis.com - 403'... -> 08/09/2025, 13:28:26
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'web-api-host3.acronis.com - 403'... -> 08/09/2025, 13:28:27
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'web-api-site0.acronis.com - 403'... -> 08/09/2025, 13:28:29
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'web-api-vmp0.acronis.com - 403'... -> 08/09/2025, 13:28:31
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'healthcareemployee.quora.com - 403'... -> 08/09/2025, 13:28:32
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'zendesk1.travelocity.com - 409'... -> 08/09/2025, 13:28:34
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'zendesk2.travelocity.com - 409'... -> 08/09/2025, 13:28:35
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'zendesk4.travelocity.com - 409'... -> 08/09/2025, 13:28:39
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'zendesk3.travelocity.com - 409'... -> 08/09/2025, 13:28:41
+[Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 08/09/2025, 13:28:43
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: new) -> 08/09/2025, 13:28:44
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on develop.clicks.linktr.ee - 403 URLs -> 08/09/2025, 13:28:45
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on events-ingress.linktr.ee - 500 URLs -> 08/09/2025, 13:29:26
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on snowflake.linktr.ee - 404 URLs -> 08/09/2025, 13:29:30
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on vote.linktr.ee - 301 URLs -> 08/09/2025, 13:30:07
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on abgw-fco1-aci01.acronis.com - 404 URLs -> 08/09/2025, 13:30:14
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on abgw-got1-aci01.acronis.com - 404 URLs -> 08/09/2025, 13:30:29
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on abgw-jnb1-aci01-r02.acronis.com - 404 URLs -> 08/09/2025, 13:30:34
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on abgw-sof1-aci01.acronis.com - 404 URLs -> 08/09/2025, 13:31:29
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on bc-eu4-cloud.acronis.com - 302 URLs -> 08/09/2025, 13:31:55
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on jp-wr-cloud.acronis.com - 302 URLs -> 08/09/2025, 13:32:15
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on mobile-eu4-cloud.acronis.com - 302 URLs -> 08/09/2025, 13:33:47
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on web-api-host1.acronis.com - 403 URLs -> 08/09/2025, 13:34:07
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on web-api-host3.acronis.com - 403 URLs -> 08/09/2025, 13:34:17
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on web-api-site0.acronis.com - 403 URLs -> 08/09/2025, 13:34:27
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on web-api-vmp0.acronis.com - 403 URLs -> 08/09/2025, 13:34:37
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on healthcareemployee.quora.com - 403 URLs -> 08/09/2025, 13:34:47
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on zendesk1.travelocity.com - 409 URLs -> 08/09/2025, 13:36:30
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on zendesk2.travelocity.com - 409 URLs -> 08/09/2025, 13:36:35
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on zendesk4.travelocity.com - 409 URLs -> 08/09/2025, 13:36:41
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on zendesk3.travelocity.com - 409 URLs -> 08/09/2025, 13:36:48
+[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done -> 08/09/2025, 13:36:53
+[vulnerability_monitor] ℹ️ Starting XSS Discovery on Assets (label: new) -> 08/09/2025, 13:36:54
+[vulnerability_monitor] ℹ️ Starting Reflix on develop.clicks.linktr.ee - 403 -> 08/09/2025, 13:36:55
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:36:57
+   [INFO] Running injector ... -> 08/09/2025, 13:36:57
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:36:57
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:36:57
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:36:57
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://develop.clicks.linktr.ee -> 08/09/2025, 13:36:57
+      [INFO] 1 parameters found  -> 08/09/2025, 13:36:58
+  [INFO] Start Fuzzing 1 parameters (method: GET) https://develop.clicks.linktr.ee -> 08/09/2025, 13:36:58
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_DATE_INVALID at https://develop.clicks.linktr.ee/?message=zerodium
+Call log:
+  - navigating to "https://develop.clicks.linktr.ee/?message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:37:01
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://develop.clicks.linktr.ee -> 08/09/2025, 13:37:04
+      [INFO] 1 parameters found  -> 08/09/2025, 13:37:04
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://develop.clicks.linktr.ee -> 08/09/2025, 13:37:04
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_DATE_INVALID at https://develop.clicks.linktr.ee/?message=zerodium
+Call log:
+  - navigating to "https://develop.clicks.linktr.ee/?message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:37:05
+[vulnerability_monitor] ℹ️ Starting Reflix on events-ingress.linktr.ee - 500 -> 08/09/2025, 13:37:09
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:37:10
+   [INFO] Running injector ... -> 08/09/2025, 13:37:10
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:37:10
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:37:10
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:37:10
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://events-ingress.linktr.ee -> 08/09/2025, 13:37:10
+      [INFO] 0 parameters found  -> 08/09/2025, 13:37:10
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://events-ingress.linktr.ee -> 08/09/2025, 13:37:10
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://events-ingress.linktr.ee -> 08/09/2025, 13:37:10
+      [INFO] 0 parameters found  -> 08/09/2025, 13:37:10
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://events-ingress.linktr.ee -> 08/09/2025, 13:37:10
+[vulnerability_monitor] ℹ️ Starting Reflix on snowflake.linktr.ee - 404 -> 08/09/2025, 13:37:10
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:37:12
+   [INFO] Running injector ... -> 08/09/2025, 13:37:12
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:37:12
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:37:12
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:37:12
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://snowflake.linktr.ee -> 08/09/2025, 13:37:12
+      [INFO] 0 parameters found  -> 08/09/2025, 13:37:13
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://snowflake.linktr.ee -> 08/09/2025, 13:37:13
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://snowflake.linktr.ee -> 08/09/2025, 13:37:13
+      [INFO] 0 parameters found  -> 08/09/2025, 13:37:14
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://snowflake.linktr.ee -> 08/09/2025, 13:37:14
+[vulnerability_monitor] ℹ️ Starting Reflix on vote.linktr.ee - 301 -> 08/09/2025, 13:37:14
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:37:15
+   [INFO] Running injector ... -> 08/09/2025, 13:37:15
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:37:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:37:16
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:37:16
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://vote.linktr.ee -> 08/09/2025, 13:37:16
+      [INFO] 86 parameters found  -> 08/09/2025, 13:37:16
+  [INFO] Start Fuzzing 86 parameters (method: GET) https://vote.linktr.ee -> 08/09/2025, 13:37:16
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://vote.linktr.ee -> 08/09/2025, 13:37:37
+      [INFO] 86 parameters found  -> 08/09/2025, 13:37:39
+  [INFO] Start Fuzzing 86 parameters (method: POST) https://vote.linktr.ee -> 08/09/2025, 13:37:39
+[vulnerability_monitor] ℹ️ Starting Reflix on abgw-fco1-aci01.acronis.com - 404 -> 08/09/2025, 13:38:14
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:38:16
+   [INFO] Running injector ... -> 08/09/2025, 13:38:16
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:38:16
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:38:16
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:38:16
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://abgw-fco1-aci01.acronis.com -> 08/09/2025, 13:38:16
+      [INFO] 3 parameters found  -> 08/09/2025, 13:38:16
+  [INFO] Start Fuzzing 3 parameters (method: GET) https://abgw-fco1-aci01.acronis.com -> 08/09/2025, 13:38:16
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-fco1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-fco1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:38:18
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://abgw-fco1-aci01.acronis.com -> 08/09/2025, 13:38:22
+      [INFO] 3 parameters found  -> 08/09/2025, 13:38:23
+  [INFO] Start Fuzzing 3 parameters (method: POST) https://abgw-fco1-aci01.acronis.com -> 08/09/2025, 13:38:23
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-fco1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-fco1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:38:25
+[vulnerability_monitor] ℹ️ Starting Reflix on abgw-got1-aci01.acronis.com - 404 -> 08/09/2025, 13:38:29
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:38:30
+   [INFO] Running injector ... -> 08/09/2025, 13:38:30
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:38:30
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:38:30
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:38:30
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://abgw-got1-aci01.acronis.com -> 08/09/2025, 13:38:30
+      [INFO] 3 parameters found  -> 08/09/2025, 13:38:31
+  [INFO] Start Fuzzing 3 parameters (method: GET) https://abgw-got1-aci01.acronis.com -> 08/09/2025, 13:38:31
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-got1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-got1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:38:32
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://abgw-got1-aci01.acronis.com -> 08/09/2025, 13:38:36
+      [INFO] 3 parameters found  -> 08/09/2025, 13:38:36
+  [INFO] Start Fuzzing 3 parameters (method: POST) https://abgw-got1-aci01.acronis.com -> 08/09/2025, 13:38:36
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-got1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-got1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:38:37
+[vulnerability_monitor] ℹ️ Starting Reflix on abgw-jnb1-aci01-r02.acronis.com - 404 -> 08/09/2025, 13:38:40
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:38:41
+   [INFO] Running injector ... -> 08/09/2025, 13:38:41
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:38:41
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:38:41
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:38:41
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://abgw-jnb1-aci01-r02.acronis.com -> 08/09/2025, 13:38:41
+      [INFO] 3 parameters found  -> 08/09/2025, 13:38:43
+  [INFO] Start Fuzzing 3 parameters (method: GET) https://abgw-jnb1-aci01-r02.acronis.com -> 08/09/2025, 13:38:43
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-jnb1-aci01-r02.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-jnb1-aci01-r02.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:38:45
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://abgw-jnb1-aci01-r02.acronis.com -> 08/09/2025, 13:38:47
+      [INFO] 3 parameters found  -> 08/09/2025, 13:38:49
+  [INFO] Start Fuzzing 3 parameters (method: POST) https://abgw-jnb1-aci01-r02.acronis.com -> 08/09/2025, 13:38:49
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-jnb1-aci01-r02.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-jnb1-aci01-r02.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:38:51
+[vulnerability_monitor] ℹ️ Starting Reflix on abgw-sof1-aci01.acronis.com - 404 -> 08/09/2025, 13:38:54
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:38:55
+   [INFO] Running injector ... -> 08/09/2025, 13:38:55
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:38:56
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:38:56
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:38:56
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://abgw-sof1-aci01.acronis.com -> 08/09/2025, 13:38:56
+      [INFO] 3 parameters found  -> 08/09/2025, 13:38:56
+  [INFO] Start Fuzzing 3 parameters (method: GET) https://abgw-sof1-aci01.acronis.com -> 08/09/2025, 13:38:56
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-sof1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-sof1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:38:58
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://abgw-sof1-aci01.acronis.com -> 08/09/2025, 13:39:02
+      [INFO] 3 parameters found  -> 08/09/2025, 13:39:02
+  [INFO] Start Fuzzing 3 parameters (method: POST) https://abgw-sof1-aci01.acronis.com -> 08/09/2025, 13:39:02
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abgw-sof1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium
+Call log:
+  - navigating to "https://abgw-sof1-aci01.acronis.com/?Error=zerodium&Code=zerodium&Message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:03
+[vulnerability_monitor] ℹ️ Starting Reflix on bc-eu4-cloud.acronis.com - 302 -> 08/09/2025, 13:39:06
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:39:07
+   [INFO] Running injector ... -> 08/09/2025, 13:39:07
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:39:07
+  [INFO] Running nuclei scan on 2 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:39:07
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:39:09
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:09
+      [INFO] 2 parameters found  -> 08/09/2025, 13:39:09
+  [INFO] Start Fuzzing 2 parameters (method: GET) https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:09
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium
+Call log:
+  - navigating to "https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:11
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:13
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:13
+  [INFO] Start Fuzzing 5 parameters (method: POST) https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:13
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium&domain=zerodium&code=zerodium&message=zerodium
+Call log:
+  - navigating to "https://bc-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium&domain=zerodium&code=zerodium&message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:14
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://bc-eu4-cloud.acronis.com/login -> 08/09/2025, 13:39:16
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:16
+  [INFO] Start Fuzzing 5 parameters (method: GET) https://bc-eu4-cloud.acronis.com/login -> 08/09/2025, 13:39:16
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://bc-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://bc-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:17
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://bc-eu4-cloud.acronis.com/login -> 08/09/2025, 13:39:18
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:18
+  [INFO] Start Fuzzing 5 parameters (method: POST) https://bc-eu4-cloud.acronis.com/login -> 08/09/2025, 13:39:18
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://bc-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://bc-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:19
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://bc-eu4-cloud.acronis.com -> 08/09/2025, 13:39:21
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:21
+  [INFO] Start Fuzzing 5 parameters (method: GET) https://bc-eu4-cloud.acronis.com -> 08/09/2025, 13:39:21
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://bc-eu4-cloud.acronis.com/?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://bc-eu4-cloud.acronis.com/?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:22
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://bc-eu4-cloud.acronis.com -> 08/09/2025, 13:39:24
+      [INFO] 0 parameters found  -> 08/09/2025, 13:39:24
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://bc-eu4-cloud.acronis.com -> 08/09/2025, 13:39:24
+[vulnerability_monitor] ℹ️ Starting Reflix on jp-wr-cloud.acronis.com - 302 -> 08/09/2025, 13:39:24
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:39:25
+   [INFO] Running injector ... -> 08/09/2025, 13:39:25
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:39:26
+  [INFO] Running nuclei scan on 2 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:39:26
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:39:31
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://jp-wr-cloud.acronis.com -> 08/09/2025, 13:39:31
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:32
+  [INFO] Start Fuzzing 5 parameters (method: GET) https://jp-wr-cloud.acronis.com -> 08/09/2025, 13:39:32
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jp-wr-cloud.acronis.com/?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://jp-wr-cloud.acronis.com/?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:33
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://jp-wr-cloud.acronis.com -> 08/09/2025, 13:39:35
+      [INFO] 0 parameters found  -> 08/09/2025, 13:39:36
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://jp-wr-cloud.acronis.com -> 08/09/2025, 13:39:36
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://jp-wr-cloud.acronis.com/login -> 08/09/2025, 13:39:36
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:37
+  [INFO] Start Fuzzing 5 parameters (method: GET) https://jp-wr-cloud.acronis.com/login -> 08/09/2025, 13:39:37
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jp-wr-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://jp-wr-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:39
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://jp-wr-cloud.acronis.com/login -> 08/09/2025, 13:39:42
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:43
+  [INFO] Start Fuzzing 5 parameters (method: POST) https://jp-wr-cloud.acronis.com/login -> 08/09/2025, 13:39:43
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jp-wr-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://jp-wr-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:44
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:46
+      [INFO] 2 parameters found  -> 08/09/2025, 13:39:48
+  [INFO] Start Fuzzing 2 parameters (method: GET) https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:48
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium
+Call log:
+  - navigating to "https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:50
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:53
+      [INFO] 5 parameters found  -> 08/09/2025, 13:39:55
+  [INFO] Start Fuzzing 5 parameters (method: POST) https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:39:55
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium&domain=zerodium&code=zerodium&message=zerodium
+Call log:
+  - navigating to "https://jp-wr-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium&domain=zerodium&code=zerodium&message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:39:57
+[vulnerability_monitor] ℹ️ Starting Reflix on mobile-eu4-cloud.acronis.com - 302 -> 08/09/2025, 13:40:01
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:40:03
+   [INFO] Running injector ... -> 08/09/2025, 13:40:03
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:40:03
+  [INFO] Running nuclei scan on 2 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:40:03
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:40:05
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://mobile-eu4-cloud.acronis.com/login -> 08/09/2025, 13:40:05
+      [INFO] 5 parameters found  -> 08/09/2025, 13:40:05
+  [INFO] Start Fuzzing 5 parameters (method: GET) https://mobile-eu4-cloud.acronis.com/login -> 08/09/2025, 13:40:05
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mobile-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://mobile-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:40:06
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://mobile-eu4-cloud.acronis.com/login -> 08/09/2025, 13:40:07
+      [INFO] 5 parameters found  -> 08/09/2025, 13:40:07
+  [INFO] Start Fuzzing 5 parameters (method: POST) https://mobile-eu4-cloud.acronis.com/login -> 08/09/2025, 13:40:07
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mobile-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://mobile-eu4-cloud.acronis.com/login?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:40:08
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://mobile-eu4-cloud.acronis.com -> 08/09/2025, 13:40:10
+      [INFO] 5 parameters found  -> 08/09/2025, 13:40:10
+  [INFO] Start Fuzzing 5 parameters (method: GET) https://mobile-eu4-cloud.acronis.com -> 08/09/2025, 13:40:10
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mobile-eu4-cloud.acronis.com/?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium
+Call log:
+  - navigating to "https://mobile-eu4-cloud.acronis.com/?allow_default=zerodium&viewport=zerodium&referrer=zerodium&description=zerodium&app=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:40:11
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://mobile-eu4-cloud.acronis.com -> 08/09/2025, 13:40:14
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:14
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://mobile-eu4-cloud.acronis.com -> 08/09/2025, 13:40:14
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:40:14
+      [INFO] 2 parameters found  -> 08/09/2025, 13:40:14
+  [INFO] Start Fuzzing 2 parameters (method: GET) https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:40:14
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium
+Call log:
+  - navigating to "https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:40:16
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:40:20
+      [INFO] 5 parameters found  -> 08/09/2025, 13:40:20
+  [INFO] Start Fuzzing 5 parameters (method: POST) https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=true&scope=login -> 08/09/2025, 13:40:20
+[ERROR] Playwright scan failed: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium&domain=zerodium&code=zerodium&message=zerodium
+Call log:
+  - navigating to "https://mobile-eu4-cloud.acronis.com/api/branding/v1/static/favicon?allow_default=zerodium&scope=zerodium&domain=zerodium&code=zerodium&message=zerodium", waiting until "networkidle"
+ -> 08/09/2025, 13:40:21
+[vulnerability_monitor] ℹ️ Starting Reflix on web-api-host1.acronis.com - 403 -> 08/09/2025, 13:40:22
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:40:24
+   [INFO] Running injector ... -> 08/09/2025, 13:40:24
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:40:24
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:40:24
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:40:24
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://web-api-host1.acronis.com -> 08/09/2025, 13:40:24
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:24
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://web-api-host1.acronis.com -> 08/09/2025, 13:40:24
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://web-api-host1.acronis.com -> 08/09/2025, 13:40:24
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:25
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://web-api-host1.acronis.com -> 08/09/2025, 13:40:25
+[vulnerability_monitor] ℹ️ Starting Reflix on web-api-host3.acronis.com - 403 -> 08/09/2025, 13:40:25
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:40:26
+   [INFO] Running injector ... -> 08/09/2025, 13:40:26
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:40:26
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:40:26
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:40:26
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://web-api-host3.acronis.com -> 08/09/2025, 13:40:26
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:27
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://web-api-host3.acronis.com -> 08/09/2025, 13:40:27
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://web-api-host3.acronis.com -> 08/09/2025, 13:40:27
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:27
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://web-api-host3.acronis.com -> 08/09/2025, 13:40:27
+[vulnerability_monitor] ℹ️ Starting Reflix on web-api-site0.acronis.com - 403 -> 08/09/2025, 13:40:27
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:40:28
+   [INFO] Running injector ... -> 08/09/2025, 13:40:28
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:40:29
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:40:29
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:40:29
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://web-api-site0.acronis.com -> 08/09/2025, 13:40:29
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:29
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://web-api-site0.acronis.com -> 08/09/2025, 13:40:29
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://web-api-site0.acronis.com -> 08/09/2025, 13:40:29
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:29
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://web-api-site0.acronis.com -> 08/09/2025, 13:40:29
+[vulnerability_monitor] ℹ️ Starting Reflix on web-api-vmp0.acronis.com - 403 -> 08/09/2025, 13:40:30
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:40:31
+   [INFO] Running injector ... -> 08/09/2025, 13:40:31
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:40:31
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:40:31
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:40:31
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://web-api-vmp0.acronis.com -> 08/09/2025, 13:40:31
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:31
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://web-api-vmp0.acronis.com -> 08/09/2025, 13:40:31
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://web-api-vmp0.acronis.com -> 08/09/2025, 13:40:31
+      [INFO] 0 parameters found  -> 08/09/2025, 13:40:32
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://web-api-vmp0.acronis.com -> 08/09/2025, 13:40:32
+[vulnerability_monitor] ℹ️ Starting Reflix on healthcareemployee.quora.com - 403 -> 08/09/2025, 13:40:32
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:40:33
+   [INFO] Running injector ... -> 08/09/2025, 13:40:33
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:40:33
+  [INFO] Running nuclei scan on 3 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:40:33
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:40:36
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://healthcareemployee.quora.com -> 08/09/2025, 13:40:36
+      [INFO] 468 parameters found  -> 08/09/2025, 13:40:37
+  [INFO] Start Fuzzing 468 parameters (method: GET) https://healthcareemployee.quora.com -> 08/09/2025, 13:40:37
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://healthcareemployee.quora.com -> 08/09/2025, 13:42:43
+      [INFO] 0 parameters found  -> 08/09/2025, 13:42:46
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://healthcareemployee.quora.com -> 08/09/2025, 13:42:46
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://healthcareemployee.quora.com/4710d66e8fda/api.js -> 08/09/2025, 13:42:46
+      [INFO] 433 parameters found  -> 08/09/2025, 13:42:47
+  [INFO] Start Fuzzing 433 parameters (method: GET) https://healthcareemployee.quora.com/4710d66e8fda/api.js -> 08/09/2025, 13:42:47
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://healthcareemployee.quora.com/4710d66e8fda/api.js -> 08/09/2025, 13:44:19
+      [INFO] 0 parameters found  -> 08/09/2025, 13:44:19
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://healthcareemployee.quora.com/4710d66e8fda/api.js -> 08/09/2025, 13:44:19
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://healthcareemployee.quora.com/4710d66e8fda%5C/api.js -> 08/09/2025, 13:44:19
+      [INFO] 433 parameters found  -> 08/09/2025, 13:44:19
+  [INFO] Start Fuzzing 433 parameters (method: GET) https://healthcareemployee.quora.com/4710d66e8fda%5C/api.js -> 08/09/2025, 13:44:19
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://healthcareemployee.quora.com/4710d66e8fda%5C/api.js -> 08/09/2025, 13:46:00
+      [INFO] 0 parameters found  -> 08/09/2025, 13:46:01
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://healthcareemployee.quora.com/4710d66e8fda%5C/api.js -> 08/09/2025, 13:46:01
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://healthcareemployee.quora.com/?__cf_chl_tk=ysL7zM.U_jhjoUbeEdpO4Bq8TUFol6mnZFlqS8wjGYU-1757325410-1.0.1.1-qiMOoGvKvCMcOg2i8dJ20_uk86U8iyyNvvOF25FtF4Y -> 08/09/2025, 13:46:01
+      [INFO] 469 parameters found  -> 08/09/2025, 13:46:01
+  [INFO] Start Fuzzing 469 parameters (method: GET) https://healthcareemployee.quora.com/?__cf_chl_tk=ysL7zM.U_jhjoUbeEdpO4Bq8TUFol6mnZFlqS8wjGYU-1757325410-1.0.1.1-qiMOoGvKvCMcOg2i8dJ20_uk86U8iyyNvvOF25FtF4Y -> 08/09/2025, 13:46:01
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://healthcareemployee.quora.com/?__cf_chl_tk=ysL7zM.U_jhjoUbeEdpO4Bq8TUFol6mnZFlqS8wjGYU-1757325410-1.0.1.1-qiMOoGvKvCMcOg2i8dJ20_uk86U8iyyNvvOF25FtF4Y -> 08/09/2025, 13:48:17
+      [INFO] 1 parameters found  -> 08/09/2025, 13:48:17
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://healthcareemployee.quora.com/?__cf_chl_tk=ysL7zM.U_jhjoUbeEdpO4Bq8TUFol6mnZFlqS8wjGYU-1757325410-1.0.1.1-qiMOoGvKvCMcOg2i8dJ20_uk86U8iyyNvvOF25FtF4Y -> 08/09/2025, 13:48:17
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://healthcareemployee.quora.com/4710d66e8fda/%5C/4710d66e8fda%5C/api.js?__cf_chl_rt_tk=jT.DpYxtVfKlKWD0_3U8OI2MXJhIWtuTCRwIlXVrQvY-1757325412-1.0.1.1-s7I.oHFeTD9xGAKcOBR9Hl7iV5TdLS9AI9YpkP.mULM -> 08/09/2025, 13:48:24
+      [INFO] 434 parameters found  -> 08/09/2025, 13:48:24
+  [INFO] Start Fuzzing 434 parameters (method: GET) https://healthcareemployee.quora.com/4710d66e8fda/%5C/4710d66e8fda%5C/api.js?__cf_chl_rt_tk=jT.DpYxtVfKlKWD0_3U8OI2MXJhIWtuTCRwIlXVrQvY-1757325412-1.0.1.1-s7I.oHFeTD9xGAKcOBR9Hl7iV5TdLS9AI9YpkP.mULM -> 08/09/2025, 13:48:24
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://healthcareemployee.quora.com/4710d66e8fda/%5C/4710d66e8fda%5C/api.js?__cf_chl_rt_tk=jT.DpYxtVfKlKWD0_3U8OI2MXJhIWtuTCRwIlXVrQvY-1757325412-1.0.1.1-s7I.oHFeTD9xGAKcOBR9Hl7iV5TdLS9AI9YpkP.mULM -> 08/09/2025, 13:50:08
+      [INFO] 1 parameters found  -> 08/09/2025, 13:50:08
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://healthcareemployee.quora.com/4710d66e8fda/%5C/4710d66e8fda%5C/api.js?__cf_chl_rt_tk=jT.DpYxtVfKlKWD0_3U8OI2MXJhIWtuTCRwIlXVrQvY-1757325412-1.0.1.1-s7I.oHFeTD9xGAKcOBR9Hl7iV5TdLS9AI9YpkP.mULM -> 08/09/2025, 13:50:08
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/g -> 08/09/2025, 13:50:13
+      [INFO] 0 parameters found  -> 08/09/2025, 13:50:13
+  [INFO] Start Fuzzing 0 parameters (method: GET) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/g -> 08/09/2025, 13:50:13
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/g -> 08/09/2025, 13:50:13
+      [INFO] 0 parameters found  -> 08/09/2025, 13:50:13
+  [INFO] Start Fuzzing 0 parameters (method: POST) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/g -> 08/09/2025, 13:50:13
+  [INFO] Starting parameter discovery and check reflection (method: GET) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=97bd94059f76bc2f -> 08/09/2025, 13:50:13
+      [INFO] 547 parameters found  -> 08/09/2025, 13:50:18
+  [INFO] Start Fuzzing 547 parameters (method: GET) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=97bd94059f76bc2f -> 08/09/2025, 13:50:18
+  [INFO] Starting parameter discovery and check reflection (method: POST) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=97bd94059f76bc2f -> 08/09/2025, 13:51:22
+      [INFO] 1 parameters found  -> 08/09/2025, 13:51:22
+  [INFO] Start Fuzzing 1 parameters (method: POST) https://healthcareemployee.quora.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=97bd94059f76bc2f -> 08/09/2025, 13:51:22
+[vulnerability_monitor] ℹ️ Starting Reflix on zendesk1.travelocity.com - 409 -> 08/09/2025, 13:52:25
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:52:26
+   [INFO] Running injector ... -> 08/09/2025, 13:52:26
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:52:27
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:52:27
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:52:27
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://zendesk1.travelocity.com -> 08/09/2025, 13:52:27
+      [INFO] 24 parameters found  -> 08/09/2025, 13:52:27
+  [INFO] Start Fuzzing 24 parameters (method: GET) http://zendesk1.travelocity.com -> 08/09/2025, 13:52:27
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://zendesk1.travelocity.com -> 08/09/2025, 13:52:30
+      [INFO] 24 parameters found  -> 08/09/2025, 13:52:30
+  [INFO] Start Fuzzing 24 parameters (method: POST) http://zendesk1.travelocity.com -> 08/09/2025, 13:52:30
+[vulnerability_monitor] ℹ️ Starting Reflix on zendesk2.travelocity.com - 409 -> 08/09/2025, 13:52:33
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:52:34
+   [INFO] Running injector ... -> 08/09/2025, 13:52:34
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:52:34
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:52:34
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:52:34
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://zendesk2.travelocity.com -> 08/09/2025, 13:52:34
+      [INFO] 24 parameters found  -> 08/09/2025, 13:52:37
+  [INFO] Start Fuzzing 24 parameters (method: GET) http://zendesk2.travelocity.com -> 08/09/2025, 13:52:37
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://zendesk2.travelocity.com -> 08/09/2025, 13:52:42
+      [INFO] 24 parameters found  -> 08/09/2025, 13:52:42
+  [INFO] Start Fuzzing 24 parameters (method: POST) http://zendesk2.travelocity.com -> 08/09/2025, 13:52:42
+[vulnerability_monitor] ℹ️ Starting Reflix on zendesk4.travelocity.com - 409 -> 08/09/2025, 13:52:45
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:52:46
+   [INFO] Running injector ... -> 08/09/2025, 13:52:46
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:52:46
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:52:46
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:52:46
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://zendesk4.travelocity.com -> 08/09/2025, 13:52:46
+      [INFO] 24 parameters found  -> 08/09/2025, 13:52:46
+  [INFO] Start Fuzzing 24 parameters (method: GET) http://zendesk4.travelocity.com -> 08/09/2025, 13:52:46
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://zendesk4.travelocity.com -> 08/09/2025, 13:52:52
+      [INFO] 24 parameters found  -> 08/09/2025, 13:52:52
+  [INFO] Start Fuzzing 24 parameters (method: POST) http://zendesk4.travelocity.com -> 08/09/2025, 13:52:52
+[vulnerability_monitor] ℹ️ Starting Reflix on zendesk3.travelocity.com - 409 -> 08/09/2025, 13:52:56
+[INFO] Starting Static Reflix ... -> 08/09/2025, 13:52:57
+   [INFO] Running injector ... -> 08/09/2025, 13:52:57
+   [SUCCESS] Injector finished successfully -> 08/09/2025, 13:52:57
+  [INFO] Running nuclei scan on 0 generated urls & methods: ['GET', 'POST'] ... -> 08/09/2025, 13:52:57
+[INFO] Starting Light Reflix ... -> 08/09/2025, 13:52:57
+  [INFO] Starting parameter discovery and check reflection (method: GET) http://zendesk3.travelocity.com -> 08/09/2025, 13:52:57
+      [INFO] 24 parameters found  -> 08/09/2025, 13:52:57
+  [INFO] Start Fuzzing 24 parameters (method: GET) http://zendesk3.travelocity.com -> 08/09/2025, 13:52:57
+  [INFO] Starting parameter discovery and check reflection (method: POST) http://zendesk3.travelocity.com -> 08/09/2025, 13:53:00
+      [INFO] 24 parameters found  -> 08/09/2025, 13:53:00
+  [INFO] Start Fuzzing 24 parameters (method: POST) http://zendesk3.travelocity.com -> 08/09/2025, 13:53:00
+[vulnerability_monitor] ℹ️ Starting Nuclei Check on Subdomains HTTPX Results -> 08/09/2025, 13:53:03
+[Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 08/09/2025, 13:53:04
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://develop.clicks.linktr.ee -> 08/09/2025, 13:53:08
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://events-ingress.linktr.ee -> 08/09/2025, 13:55:21
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://snowflake.linktr.ee -> 08/09/2025, 13:56:52
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://vote.linktr.ee -> 08/09/2025, 14:01:24
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://abgw-fco1-aci01.acronis.com -> 08/09/2025, 14:02:49
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://abgw-got1-aci01.acronis.com -> 08/09/2025, 14:04:56
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://abgw-jnb1-aci01-r02.acronis.com -> 08/09/2025, 14:06:27
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://abgw-sof1-aci01.acronis.com -> 08/09/2025, 14:11:13
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://bc-eu4-cloud.acronis.com -> 08/09/2025, 14:13:42
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://jp-wr-cloud.acronis.com -> 08/09/2025, 14:15:42
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://mobile-eu4-cloud.acronis.com -> 08/09/2025, 14:22:13
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://web-api-host1.acronis.com -> 08/09/2025, 14:24:17
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://web-api-host3.acronis.com -> 08/09/2025, 14:26:51
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://web-api-site0.acronis.com -> 08/09/2025, 14:29:23
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://web-api-vmp0.acronis.com -> 08/09/2025, 14:32:18
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://healthcareemployee.quora.com -> 08/09/2025, 14:34:49
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on http://zendesk1.travelocity.com -> 08/09/2025, 14:36:15
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on http://zendesk2.travelocity.com -> 08/09/2025, 14:37:44
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on http://zendesk4.travelocity.com -> 08/09/2025, 14:39:02
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on http://zendesk3.travelocity.com -> 08/09/2025, 14:40:22
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : available) -> 08/09/2025, 14:41:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-ber1-acs01.acronis.com'... -> 08/09/2025, 14:41:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-iad10-aci01.acronis.com'... -> 08/09/2025, 14:42:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://asign.acronis.com'... -> 08/09/2025, 14:42:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-fra2-acs5.acronis.com'... -> 08/09/2025, 14:42:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu2-cloud.acronis.com'... -> 08/09/2025, 14:42:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-hu01-cloud.acronis.com'... -> 08/09/2025, 14:42:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu4-cloud.acronis.com'... -> 08/09/2025, 14:43:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu8-cloud.acronis.com'... -> 08/09/2025, 14:43:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-id01-cloud.acronis.com'... -> 08/09/2025, 14:43:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://a.acronis.com'... -> 08/09/2025, 14:43:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-ach1-aci01.acronis.com'... -> 08/09/2025, 14:43:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-cgk1-aci01.acronis.com'... -> 08/09/2025, 14:44:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-kr01-cloud.acronis.com'... -> 08/09/2025, 14:44:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mc-beta-cloud.acronis.com'... -> 08/09/2025, 14:44:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-il01-cloud.acronis.com'... -> 08/09/2025, 14:44:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-auh1-aci01.acronis.com'... -> 08/09/2025, 14:45:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-bll1-aci01.acronis.com'... -> 08/09/2025, 14:45:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-yyz2-acs01.acronis.com'... -> 08/09/2025, 14:45:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-it01-cloud.acronis.com'... -> 08/09/2025, 14:45:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i2.acronis.com'... -> 08/09/2025, 14:45:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://geoapi.acronis.com'... -> 08/09/2025, 14:46:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-au1-baas.acronis.com'... -> 08/09/2025, 14:46:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://tr01-cloud.acronis.com'... -> 08/09/2025, 14:46:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://websiteapi.acronis.com'... -> 08/09/2025, 14:46:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://sof1-s3gw.acronis.com'... -> 08/09/2025, 14:47:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://waw1-s3gw.acronis.com'... -> 08/09/2025, 14:47:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us4-cloud.acronis.com'... -> 08/09/2025, 14:47:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://phx10-repo.acronis.com'... -> 08/09/2025, 14:47:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-vmp.acronis.com'... -> 08/09/2025, 14:47:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp-wr-baas.acronis.com'... -> 08/09/2025, 14:48:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-cloud.acronis.com'... -> 08/09/2025, 14:48:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://preprod.partners.acronis.com'... -> 08/09/2025, 14:48:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-eu3-acs1.acronis.com'... -> 08/09/2025, 14:48:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://smart.acronis.com'... -> 08/09/2025, 14:49:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://tpe1-s3gw.acronis.com'... -> 08/09/2025, 14:49:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.us.metro.acronis.com'... -> 08/09/2025, 14:49:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-nz01-cloud.acronis.com'... -> 08/09/2025, 14:49:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-bc-baas.acronis.com'... -> 08/09/2025, 14:50:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-fra2-acs1.acronis.com'... -> 08/09/2025, 14:50:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://za01-cloud.acronis.com'... -> 08/09/2025, 14:50:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-sin2-acs1.acronis.com'... -> 08/09/2025, 14:50:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-id01-cloud.acronis.com'... -> 08/09/2025, 14:51:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://z.metro.acronis.com'... -> 08/09/2025, 14:51:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.z.metro.acronis.com'... -> 08/09/2025, 14:51:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-ber1-acs01.acronis.com'... -> 08/09/2025, 14:51:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://solutions.acronis.com'... -> 08/09/2025, 14:51:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://status.acronis.com'... -> 08/09/2025, 14:52:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://tlv1-repo.acronis.com'... -> 08/09/2025, 14:52:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://trueimage.acronis.com'... -> 08/09/2025, 14:53:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://wr-eu5-baas.acronis.com'... -> 08/09/2025, 14:53:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-baas.acronis.com'... -> 08/09/2025, 14:53:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://tlv1-s3gw.acronis.com'... -> 08/09/2025, 14:53:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://urlresearch.acronis.com'... -> 08/09/2025, 14:53:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://sof92-s3gw.acronis.com'... -> 08/09/2025, 14:54:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://sof92-repo.acronis.com'... -> 08/09/2025, 14:54:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-i2.acronis.com'... -> 08/09/2025, 14:54:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://vie1-s3gw.acronis.com'... -> 08/09/2025, 14:54:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://us11-cloud.acronis.com'... -> 08/09/2025, 14:54:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://webtest-2.acronis.com'... -> 08/09/2025, 14:55:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://skg1-s3gw.acronis.com'... -> 08/09/2025, 14:55:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-tw01-cloud.acronis.com'... -> 08/09/2025, 14:55:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://vlc1-repo.acronis.com'... -> 08/09/2025, 14:55:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-tie0.acronis.com'... -> 08/09/2025, 14:56:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://skg1-repo.acronis.com'... -> 08/09/2025, 14:56:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://staticfiles.acronis.com'... -> 08/09/2025, 14:56:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://wah-tih.acronis.com'... -> 08/09/2025, 14:56:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-bg01-cloud.acronis.com'... -> 08/09/2025, 14:56:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://tpe1-repo.acronis.com'... -> 08/09/2025, 14:57:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-tih.acronis.com'... -> 08/09/2025, 14:57:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.acronis.com'... -> 08/09/2025, 14:57:31
+[Url-Watcher] ℹ️ Starting Katana for 'http://rs-ee99-cloud.acronis.com'... -> 08/09/2025, 14:58:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-ma-vpn.acronis.com'... -> 08/09/2025, 14:58:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-az-vpn.acronis.com'... -> 08/09/2025, 14:59:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://yvr1-repo.acronis.com'... -> 08/09/2025, 14:59:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://us4-baas.acronis.com'... -> 08/09/2025, 14:59:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://us15-cloud.acronis.com'... -> 08/09/2025, 14:59:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-vpn.acronis.com'... -> 08/09/2025, 14:59:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-beta-baas.acronis.com'... -> 08/09/2025, 15:00:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-kibana.acronis.com'... -> 08/09/2025, 15:00:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://uk01-cloud.acronis.com'... -> 08/09/2025, 15:00:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-wr-baas.acronis.com'... -> 08/09/2025, 15:00:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://us5-backup.acronis.com'... -> 08/09/2025, 15:01:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-pl01-cloud.acronis.com'... -> 08/09/2025, 15:01:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-pt01-cloud.acronis.com'... -> 08/09/2025, 15:01:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://academy.acronis.com'... -> 08/09/2025, 15:01:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-cz01-cloud.acronis.com'... -> 08/09/2025, 15:12:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-bg92-cloud.acronis.com'... -> 08/09/2025, 15:12:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://admin2.acronis.com'... -> 08/09/2025, 15:12:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://admin.acronis.com'... -> 08/09/2025, 15:12:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-in01-cloud.acronis.com'... -> 08/09/2025, 15:13:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu-cloud.acronis.com'... -> 08/09/2025, 15:13:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-jnb1-aci01.acronis.com'... -> 08/09/2025, 15:13:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mx01-cloud.acronis.com'... -> 08/09/2025, 15:13:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us14-cloud.acronis.com'... -> 08/09/2025, 15:14:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu16-cloud.acronis.com'... -> 08/09/2025, 15:14:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://a-preview.acronis.com'... -> 08/09/2025, 15:14:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-sin2-acs1.acronis.com'... -> 08/09/2025, 15:14:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-se01-cloud.acronis.com'... -> 08/09/2025, 15:14:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-br01-cloud.acronis.com'... -> 08/09/2025, 15:15:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://ae01-cloud.acronis.com'... -> 08/09/2025, 15:15:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-fi01-cloud.acronis.com'... -> 08/09/2025, 15:15:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-bg01-cloud.acronis.com'... -> 08/09/2025, 15:15:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ae01-cloud.acronis.com'... -> 08/09/2025, 15:15:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ee99-cloud.acronis.com'... -> 08/09/2025, 15:16:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://adn.acronis.com'... -> 08/09/2025, 15:17:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-no01-cloud.acronis.com'... -> 08/09/2025, 15:17:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us11-cloud.acronis.com'... -> 08/09/2025, 15:18:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://ach1-repo.acronis.com'... -> 08/09/2025, 15:18:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://acep.acronis.com'... -> 08/09/2025, 15:18:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://akl1-repo.acronis.com'... -> 08/09/2025, 15:18:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://account.acronis.com'... -> 08/09/2025, 15:18:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-uk01-cloud.acronis.com'... -> 08/09/2025, 15:19:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ro01-cloud.acronis.com'... -> 08/09/2025, 15:19:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-au2-acs1.acronis.com'... -> 08/09/2025, 15:19:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://akl1-s3gw.acronis.com'... -> 08/09/2025, 15:19:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-jp03-cloud.acronis.com'... -> 08/09/2025, 15:20:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://ach1-s3gw.acronis.com'... -> 08/09/2025, 15:20:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://activation.acronis.com'... -> 08/09/2025, 15:20:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-gr01-cloud.acronis.com'... -> 08/09/2025, 15:20:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-tw01-cloud.acronis.com'... -> 08/09/2025, 15:20:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-au1-cloud.acronis.com'... -> 08/09/2025, 15:21:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-my01-cloud.acronis.com'... -> 08/09/2025, 15:21:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-li01-cloud.acronis.com'... -> 08/09/2025, 15:21:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-eu5-cloud.acronis.com'... -> 08/09/2025, 15:21:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-jp-cloud.acronis.com'... -> 08/09/2025, 15:22:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://au1-baas.acronis.com'... -> 08/09/2025, 15:22:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://au1-backup.acronis.com'... -> 08/09/2025, 15:22:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mc-kaseya-cloud.acronis.com'... -> 08/09/2025, 15:22:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-nz01-cloud.acronis.com'... -> 08/09/2025, 15:23:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu2-backup.acronis.com'... -> 08/09/2025, 15:23:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg92-cloud.acronis.com'... -> 08/09/2025, 15:23:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta-cloud.acronis.com'... -> 08/09/2025, 15:23:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us5-cloud.acronis.com'... -> 08/09/2025, 15:23:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://bom1-s3gw.acronis.com'... -> 08/09/2025, 15:24:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://affiliate.acronis.com'... -> 08/09/2025, 15:24:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-dk01-cloud.acronis.com'... -> 08/09/2025, 15:24:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-br01-cloud.acronis.com'... -> 08/09/2025, 15:24:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://auh1-repo.acronis.com'... -> 08/09/2025, 15:25:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://atih-pushy.acronis.com'... -> 08/09/2025, 15:25:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ca01-cloud.acronis.com'... -> 08/09/2025, 15:25:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-br02-cloud.acronis.com'... -> 08/09/2025, 15:25:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us-cloud.acronis.com'... -> 08/09/2025, 15:25:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://appdirect-eu2-cloud.acronis.com'... -> 08/09/2025, 15:26:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta-baas.acronis.com'... -> 08/09/2025, 15:26:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu4-baas.acronis.com'... -> 08/09/2025, 15:26:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-tr01-cloud.acronis.com'... -> 08/09/2025, 15:26:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu8-cloud.acronis.com'... -> 08/09/2025, 15:27:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-gr01-cloud.acronis.com'... -> 08/09/2025, 15:27:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://baas-fes-au1.acronis.com'... -> 08/09/2025, 15:27:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us4-cloud.acronis.com'... -> 08/09/2025, 15:27:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-fi01-cloud.acronis.com'... -> 08/09/2025, 15:28:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-ca02-cloud.acronis.com'... -> 08/09/2025, 15:28:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://bll1-repo.acronis.com'... -> 08/09/2025, 15:28:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-sg-cloud.acronis.com'... -> 08/09/2025, 15:28:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-jp-cloud.acronis.com'... -> 08/09/2025, 15:28:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-es01-cloud.acronis.com'... -> 08/09/2025, 15:29:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://au1-cloud.acronis.com'... -> 08/09/2025, 15:29:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-ae01-cloud.acronis.com'... -> 08/09/2025, 15:29:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-at01-cloud.acronis.com'... -> 08/09/2025, 15:29:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://br02-cloud.acronis.com'... -> 08/09/2025, 15:30:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-my01-cloud.acronis.com'... -> 08/09/2025, 15:30:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-se01-cloud.acronis.com'... -> 08/09/2025, 15:30:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-za01-cloud.acronis.com'... -> 08/09/2025, 15:30:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-br02-cloud.acronis.com'... -> 08/09/2025, 15:31:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://au.new-pp.acronis.com'... -> 08/09/2025, 15:31:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.acronis.com'... -> 08/09/2025, 15:31:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-vpn.acronis.com'... -> 08/09/2025, 15:31:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://cftp.acronis.com'... -> 08/09/2025, 15:32:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://cgk1-repo.acronis.com'... -> 08/09/2025, 15:32:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://cgk1-s3gw.acronis.com'... -> 08/09/2025, 15:32:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-us15-cloud.acronis.com'... -> 08/09/2025, 15:32:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-tw01-cloud.acronis.com'... -> 08/09/2025, 15:32:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-li01-cloud.acronis.com'... -> 08/09/2025, 15:33:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-us4-baas.acronis.com'... -> 08/09/2025, 15:33:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu-cloud.acronis.com'... -> 08/09/2025, 15:33:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-il01-cloud.acronis.com'... -> 08/09/2025, 15:33:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-id01-cloud.acronis.com'... -> 08/09/2025, 15:34:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-backup.acronis.com'... -> 08/09/2025, 15:34:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu2-baas.acronis.com'... -> 08/09/2025, 15:34:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://bom1-repo.acronis.com'... -> 08/09/2025, 15:34:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://at01-cloud.acronis.com'... -> 08/09/2025, 15:35:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-za01-cloud.acronis.com'... -> 08/09/2025, 15:35:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-us3-acs2.acronis.com'... -> 08/09/2025, 15:35:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-sg-cloud.acronis.com'... -> 08/09/2025, 15:35:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-au1-cloud.acronis.com'... -> 08/09/2025, 15:35:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-eu2.acronis.com'... -> 08/09/2025, 15:36:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://ca01-cloud.acronis.com'... -> 08/09/2025, 15:36:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu-img.acronis.com'... -> 08/09/2025, 15:36:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-at01-cloud.acronis.com'... -> 08/09/2025, 15:37:08
+[Url-Watcher] ℹ️ Starting Katana for 'http://brand.acronis.com'... -> 08/09/2025, 15:37:21
+[Url-Watcher] ℹ️ Starting Katana for 'http://autodiscover.acronis.com'... -> 08/09/2025, 15:37:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth.acronis.com'... -> 08/09/2025, 15:37:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-sof92-aci01.acronis.com'... -> 08/09/2025, 15:38:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-br01.acronis.com'... -> 08/09/2025, 15:38:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://au-cloud.acronis.com'... -> 08/09/2025, 15:38:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-ee99-cloud.acronis.com'... -> 08/09/2025, 15:38:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-dk01-cloud.acronis.com'... -> 08/09/2025, 15:39:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://br01-cloud.acronis.com'... -> 08/09/2025, 15:39:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-tw01.acronis.com'... -> 08/09/2025, 15:39:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://careers.acronis.com'... -> 08/09/2025, 15:40:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-br02.acronis.com'... -> 08/09/2025, 15:40:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://cdn.acronis.com'... -> 08/09/2025, 15:40:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-sg1.acronis.com'... -> 08/09/2025, 15:40:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us5-cloud.acronis.com'... -> 08/09/2025, 15:41:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://baas.acronis.com'... -> 08/09/2025, 15:41:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://blog.acronis.com'... -> 08/09/2025, 15:41:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://aws.acronis.com'... -> 08/09/2025, 15:42:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-jp03.acronis.com'... -> 08/09/2025, 15:42:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu1.acronis.com'... -> 08/09/2025, 15:42:37
+[Url-Watcher] ℹ️ Starting Katana for 'http://cloud-wr-in01.acronis.com'... -> 08/09/2025, 15:42:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu2.acronis.com'... -> 08/09/2025, 15:43:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-us3.acronis.com'... -> 08/09/2025, 15:43:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://bll1-s3gw.acronis.com'... -> 08/09/2025, 15:43:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-nz01.acronis.com'... -> 08/09/2025, 15:44:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu16-cloud.acronis.com'... -> 08/09/2025, 15:44:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-es01.acronis.com'... -> 08/09/2025, 15:44:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu5-cloud.acronis.com'... -> 08/09/2025, 15:44:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://ber1-repo.acronis.com'... -> 08/09/2025, 15:45:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-it01-cloud.acronis.com'... -> 08/09/2025, 15:45:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-cz01-cloud.acronis.com'... -> 08/09/2025, 15:45:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-ca02-cloud.acronis.com'... -> 08/09/2025, 15:45:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-jp1.acronis.com'... -> 08/09/2025, 15:45:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-jp2.acronis.com'... -> 08/09/2025, 15:46:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-in01-cloud.acronis.com'... -> 08/09/2025, 15:47:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-pl01-cloud.acronis.com'... -> 08/09/2025, 15:47:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us1.acronis.com'... -> 08/09/2025, 15:47:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-at01.acronis.com'... -> 08/09/2025, 15:47:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us15-cloud.acronis.com'... -> 08/09/2025, 15:48:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-ca01-cloud.acronis.com'... -> 08/09/2025, 15:48:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us15.acronis.com'... -> 08/09/2025, 15:48:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-kr01-cloud.acronis.com'... -> 08/09/2025, 15:48:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud.acronis.com'... -> 08/09/2025, 15:49:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://developer.acronis.com'... -> 08/09/2025, 15:49:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us4-cloud.acronis.com'... -> 08/09/2025, 16:04:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-nz01-cloud.acronis.com'... -> 08/09/2025, 16:04:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://easttw.metro.acronis.com'... -> 08/09/2025, 16:05:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://dl.acronis.com'... -> 08/09/2025, 16:05:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu2-cloud.acronis.com'... -> 08/09/2025, 16:05:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wrh-us1.acronis.com'... -> 08/09/2025, 16:05:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://ca02-cloud.acronis.com'... -> 08/09/2025, 16:06:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://connect.acronis.com'... -> 08/09/2025, 16:06:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-tr01-cloud.acronis.com'... -> 08/09/2025, 16:06:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://es01-cloud.acronis.com'... -> 08/09/2025, 16:06:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg01-cloud.acronis.com'... -> 08/09/2025, 16:06:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://dl6.acronis.com'... -> 08/09/2025, 16:07:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://dl5.acronis.com'... -> 08/09/2025, 16:07:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-pt01.acronis.com'... -> 08/09/2025, 16:07:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-tr01.acronis.com'... -> 08/09/2025, 16:07:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us2.acronis.com'... -> 08/09/2025, 16:08:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://customers.acronis.com'... -> 08/09/2025, 16:08:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://fco1-s3gw.acronis.com'... -> 08/09/2025, 16:08:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu2-cloud.acronis.com'... -> 08/09/2025, 16:08:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://feed-c.acronis.com'... -> 08/09/2025, 16:09:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-heg-baas.acronis.com'... -> 08/09/2025, 16:09:22
+[Url-Watcher] ℹ️ Starting Katana for 'http://ee99-cloud.acronis.com'... -> 08/09/2025, 16:09:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu-baas.acronis.com'... -> 08/09/2025, 16:10:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://developers.acronis.com'... -> 08/09/2025, 16:10:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://digitalriver.acronis.com'... -> 08/09/2025, 16:10:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wrh-eu1.acronis.com'... -> 08/09/2025, 16:10:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://docs.acronis.com'... -> 08/09/2025, 16:10:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://email.account.acronis.com'... -> 08/09/2025, 16:11:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://en_sg.metro.acronis.com'... -> 08/09/2025, 16:11:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu4-baas.acronis.com'... -> 08/09/2025, 16:11:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://backup.acronis.com'... -> 08/09/2025, 16:11:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu-baas.acronis.com'... -> 08/09/2025, 16:11:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-id01.acronis.com'... -> 08/09/2025, 16:12:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://help.dr.acronis.com'... -> 08/09/2025, 16:12:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-au2.acronis.com'... -> 08/09/2025, 16:12:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://got1-repo.acronis.com'... -> 08/09/2025, 16:12:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://download.acronis.com'... -> 08/09/2025, 16:13:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i3.acronis.com'... -> 08/09/2025, 16:13:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-eu5-baas.acronis.com'... -> 08/09/2025, 16:13:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-bg92.acronis.com'... -> 08/09/2025, 16:13:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-dk01.acronis.com'... -> 08/09/2025, 16:14:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://cleverbridge.acronis.com'... -> 08/09/2025, 16:14:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://bud1-repo.acronis.com'... -> 08/09/2025, 16:14:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-baas.acronis.com'... -> 08/09/2025, 16:14:37
+[Url-Watcher] ℹ️ Starting Katana for 'http://gru2-repo.acronis.com'... -> 08/09/2025, 16:14:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://esign.acronis.com'... -> 08/09/2025, 16:15:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://casestudies.acronis.com'... -> 08/09/2025, 16:15:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://dev-cloud.acronis.com'... -> 08/09/2025, 16:15:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu5.acronis.com'... -> 08/09/2025, 16:16:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://forum.acronis.com'... -> 08/09/2025, 16:16:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ca01.acronis.com'... -> 08/09/2025, 16:16:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://fr.metro.acronis.com'... -> 08/09/2025, 16:16:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://cz01-cloud.acronis.com'... -> 08/09/2025, 16:17:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://go.acronis.com'... -> 08/09/2025, 16:17:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-us-cloud.acronis.com'... -> 08/09/2025, 16:17:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://dl2.acronis.com'... -> 08/09/2025, 16:17:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://expenses.acronis.com'... -> 08/09/2025, 16:18:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-il01.acronis.com'... -> 08/09/2025, 16:18:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://dc-monitoring.acronis.com'... -> 08/09/2025, 16:18:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://bc-heg-baas.acronis.com'... -> 08/09/2025, 16:18:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://feed.acronis.com'... -> 08/09/2025, 16:19:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-au1.acronis.com'... -> 08/09/2025, 16:19:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://gr01-cloud.acronis.com'... -> 08/09/2025, 16:20:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu5-repo.acronis.com'... -> 08/09/2025, 16:20:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu4-cloud.acronis.com'... -> 08/09/2025, 16:20:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-img.acronis.com'... -> 08/09/2025, 16:20:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://erp.acronis.com'... -> 08/09/2025, 16:20:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-li01.acronis.com'... -> 08/09/2025, 16:21:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://fra4-repo.acronis.com'... -> 08/09/2025, 16:21:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://fra2-repo.acronis.com'... -> 08/09/2025, 16:21:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-fes-au1.acronis.com'... -> 08/09/2025, 16:21:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu-cloud.acronis.com'... -> 08/09/2025, 16:22:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://de.metro.acronis.com'... -> 08/09/2025, 16:22:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu4-cloud.acronis.com'... -> 08/09/2025, 16:22:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://foundation.acronis.com'... -> 08/09/2025, 16:22:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://engine-fr.metro.acronis.com'... -> 08/09/2025, 16:22:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://dl3.acronis.com'... -> 08/09/2025, 16:23:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://dk01-cloud.acronis.com'... -> 08/09/2025, 16:23:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu8-cloud.acronis.com'... -> 08/09/2025, 16:23:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://ist1-s3gw.acronis.com'... -> 08/09/2025, 16:23:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://history.acronis.com'... -> 08/09/2025, 16:24:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://hu01-cloud.acronis.com'... -> 08/09/2025, 16:24:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://branded-eu2-cloud.acronis.com'... -> 08/09/2025, 16:24:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://kb.acronis.com'... -> 08/09/2025, 16:24:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://kaseya-cloud.acronis.com'... -> 08/09/2025, 16:25:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://hel1-s3gw.acronis.com'... -> 08/09/2025, 16:25:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu2-baas.acronis.com'... -> 08/09/2025, 16:25:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://iad2-repo.acronis.com'... -> 08/09/2025, 16:25:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://id01-cloud.acronis.com'... -> 08/09/2025, 16:25:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://kr01-cloud.acronis.com'... -> 08/09/2025, 16:26:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu-i2.acronis.com'... -> 08/09/2025, 16:26:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://gateway.acronis.com'... -> 08/09/2025, 16:26:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu16-cloud.acronis.com'... -> 08/09/2025, 16:27:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://i2.acronis.com'... -> 08/09/2025, 16:27:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://jamf.acronis.com'... -> 08/09/2025, 16:27:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://lhr3-repo.acronis.com'... -> 08/09/2025, 16:27:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp-cloud.acronis.com'... -> 08/09/2025, 16:28:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://fco1-repo.acronis.com'... -> 08/09/2025, 16:28:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://i4.acronis.com'... -> 08/09/2025, 16:28:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp2-cloud.acronis.com'... -> 08/09/2025, 16:28:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://il01-cloud.acronis.com'... -> 08/09/2025, 16:28:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://fi01-cloud.acronis.com'... -> 08/09/2025, 16:29:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://got1-s3gw.acronis.com'... -> 08/09/2025, 16:29:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-cz01.acronis.com'... -> 08/09/2025, 16:29:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://mc-beta-baas.acronis.com'... -> 08/09/2025, 16:29:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu5-baas.acronis.com'... -> 08/09/2025, 16:29:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://kul1-repo.acronis.com'... -> 08/09/2025, 16:30:12
+[Url-Watcher] ℹ️ Starting Katana for 'http://gru1-repo.acronis.com'... -> 08/09/2025, 16:30:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://mc-beta-cloud.acronis.com'... -> 08/09/2025, 16:30:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://ist1-repo.acronis.com'... -> 08/09/2025, 16:30:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-gr01.acronis.com'... -> 08/09/2025, 16:31:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://godaddy-cloud.acronis.com'... -> 08/09/2025, 16:31:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu5-cloud.acronis.com'... -> 08/09/2025, 16:31:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://authenticationfr.metro.acronis.com'... -> 08/09/2025, 16:31:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-pl01.acronis.com'... -> 08/09/2025, 16:32:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://kul1-s3gw.acronis.com'... -> 08/09/2025, 16:32:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://hel1-repo.acronis.com'... -> 08/09/2025, 16:32:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://lis1-repo.acronis.com'... -> 08/09/2025, 16:32:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://iad10-repo.acronis.com'... -> 08/09/2025, 16:32:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://mail.acronis.com'... -> 08/09/2025, 16:33:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://motorsport.acronis.com'... -> 08/09/2025, 16:33:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://learn.acronis.com'... -> 08/09/2025, 16:33:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://mc-heg-baas.acronis.com'... -> 08/09/2025, 16:33:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://it.metro.acronis.com'... -> 08/09/2025, 16:34:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://en_eu.metro.acronis.com'... -> 08/09/2025, 16:34:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://li01-cloud.acronis.com'... -> 08/09/2025, 16:34:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://notary.acronis.com'... -> 08/09/2025, 16:34:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://no01-cloud.acronis.com'... -> 08/09/2025, 16:35:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://osl1-repo.acronis.com'... -> 08/09/2025, 16:35:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp-baas.acronis.com'... -> 08/09/2025, 16:35:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://partners.acronis.com'... -> 08/09/2025, 16:35:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://hnd1-s3gw.acronis.com'... -> 08/09/2025, 16:36:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://icn1-s3gw.acronis.com'... -> 08/09/2025, 16:36:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp-wr-backup.acronis.com'... -> 08/09/2025, 16:36:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://osl1-s3gw.acronis.com'... -> 08/09/2025, 16:36:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://redapi.acronis.com'... -> 08/09/2025, 16:37:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://mgmt-vpn.acronis.com'... -> 08/09/2025, 16:37:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://hris.acronis.com'... -> 08/09/2025, 16:37:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://pt01-cloud.acronis.com'... -> 08/09/2025, 16:37:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://redirectsap.acronis.com'... -> 08/09/2025, 16:37:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://logo.acronis.com'... -> 08/09/2025, 16:38:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://heg-baas.acronis.com'... -> 08/09/2025, 16:38:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://i3.acronis.com'... -> 08/09/2025, 16:38:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://mx01-cloud.acronis.com'... -> 08/09/2025, 16:38:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://rpc-oem.acronis.com'... -> 08/09/2025, 16:39:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://hnd1-repo.acronis.com'... -> 08/09/2025, 16:39:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://rpc.acronis.com'... -> 08/09/2025, 16:39:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://it01-cloud.acronis.com'... -> 08/09/2025, 16:39:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://jnb1-s3gw.acronis.com'... -> 08/09/2025, 16:39:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-br02-cloud.acronis.com'... -> 08/09/2025, 16:40:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://icn1-repo.acronis.com'... -> 08/09/2025, 16:40:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-ca01-cloud.acronis.com'... -> 08/09/2025, 16:40:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://jnb1-repo.acronis.com'... -> 08/09/2025, 16:40:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://otp1-repo.acronis.com'... -> 08/09/2025, 16:41:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://ivr.acronis.com'... -> 08/09/2025, 16:41:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-gr01-cloud.acronis.com'... -> 08/09/2025, 16:41:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://prg1-s3gw.acronis.com'... -> 08/09/2025, 16:41:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-il01-cloud.acronis.com'... -> 08/09/2025, 16:41:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-kr01-cloud.acronis.com'... -> 08/09/2025, 16:42:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://regnow.acronis.com'... -> 08/09/2025, 16:42:21
+[Url-Watcher] ℹ️ Starting Katana for 'http://cz.acronis.com'... -> 08/09/2025, 16:42:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://notary-tb.acronis.com'... -> 08/09/2025, 16:42:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://prg1-repo.acronis.com'... -> 08/09/2025, 16:43:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://i1.acronis.com'... -> 08/09/2025, 16:43:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp03-cloud.acronis.com'... -> 08/09/2025, 16:43:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://mobileapi.acronis.com'... -> 08/09/2025, 16:43:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://report.acronis.com'... -> 08/09/2025, 16:43:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-tr01-cloud.acronis.com'... -> 08/09/2025, 16:44:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-pt01-cloud.acronis.com'... -> 08/09/2025, 16:44:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us5-cloud.acronis.com'... -> 08/09/2025, 16:44:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-cz01-cloud.acronis.com'... -> 08/09/2025, 16:44:50
+[Url-Watcher] ℹ️ Starting Katana for 'http://rs-in01-cloud.acronis.com'... -> 08/09/2025, 16:45:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://heg-cloud.acronis.com'... -> 08/09/2025, 16:45:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://en_uk.metro.acronis.com'... -> 08/09/2025, 16:45:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-jp2-acs1.acronis.com'... -> 08/09/2025, 16:45:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://in01-cloud.acronis.com'... -> 08/09/2025, 16:46:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://img.acronis.com'... -> 08/09/2025, 16:47:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://my01-cloud.acronis.com'... -> 08/09/2025, 16:47:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://nz01-cloud.acronis.com'... -> 08/09/2025, 16:47:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-zrh1-acs2.acronis.com'... -> 08/09/2025, 16:48:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://sandbox-repo.acronis.com'... -> 08/09/2025, 16:48:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://nfe1.acronis.com'... -> 08/09/2025, 16:48:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://lis1-s3gw.acronis.com'... -> 08/09/2025, 16:48:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-fra2-acs4.acronis.com'... -> 08/09/2025, 16:48:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-i4.acronis.com'... -> 08/09/2025, 16:49:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-baas.acronis.com'... -> 08/09/2025, 16:49:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://jp.metro.acronis.com'... -> 08/09/2025, 16:49:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://mobileapi-enterprise.acronis.com'... -> 08/09/2025, 16:49:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://mty1-repo.acronis.com'... -> 08/09/2025, 16:50:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us5-baas.acronis.com'... -> 08/09/2025, 16:50:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://oos.acronis.com'... -> 08/09/2025, 16:50:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://office.acronis.com'... -> 08/09/2025, 16:50:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu-cloud.acronis.com'... -> 08/09/2025, 16:51:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-phx1-dcm-aci01.acronis.com'... -> 08/09/2025, 16:51:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://otp1-s3gw.acronis.com'... -> 08/09/2025, 16:51:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://snpool.acronis.com'... -> 08/09/2025, 16:51:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us5-backup.acronis.com'... -> 08/09/2025, 16:51:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://spinfo.acronis.com'... -> 08/09/2025, 16:52:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://se01-cloud.acronis.com'... -> 08/09/2025, 16:52:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://telemetry.acronis.com'... -> 08/09/2025, 16:52:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://security-advisory.acronis.com'... -> 08/09/2025, 16:52:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-jp-cloud.acronis.com'... -> 08/09/2025, 16:52:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://phx11-repo.acronis.com'... -> 08/09/2025, 16:53:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://ro01-cloud.acronis.com'... -> 08/09/2025, 16:53:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://pmc.acronis.com'... -> 08/09/2025, 16:53:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://pl01-cloud.acronis.com'... -> 08/09/2025, 16:53:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-phx1-acs10.acronis.com'... -> 08/09/2025, 16:54:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://phx1-repo.acronis.com'... -> 08/09/2025, 16:54:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://storage-repo.acronis.com'... -> 08/09/2025, 16:54:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://email.cloud.acronis.com'... -> 08/09/2025, 16:54:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://redapi2.acronis.com'... -> 08/09/2025, 16:54:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://provisioning-vpn.acronis.com'... -> 08/09/2025, 16:55:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us15-cloud.acronis.com'... -> 08/09/2025, 16:55:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://resellers.acronis.com'... -> 08/09/2025, 16:55:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://tru.acronis.com'... -> 08/09/2025, 16:55:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://tm.partners.acronis.com'... -> 08/09/2025, 16:56:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://tm.staging.partners.acronis.com'... -> 08/09/2025, 16:56:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://training.acronis.com'... -> 08/09/2025, 16:56:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://mc-kaseya-cloud.acronis.com'... -> 08/09/2025, 16:56:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://rpc-marketo.acronis.com'... -> 08/09/2025, 16:56:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://store.acronis.com'... -> 08/09/2025, 16:57:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://tw01-cloud.acronis.com'... -> 08/09/2025, 16:57:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://sof1-repo.acronis.com'... -> 08/09/2025, 16:57:36
+[Url-Watcher] ℹ️ Starting Katana for 'http://pages.acronis.com'... -> 08/09/2025, 16:57:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-at01-cloud.acronis.com'... -> 08/09/2025, 16:58:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://oem.acronis.com'... -> 08/09/2025, 16:58:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-bg92-cloud.acronis.com'... -> 08/09/2025, 16:58:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-jp-baas.acronis.com'... -> 08/09/2025, 16:58:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-cloud.acronis.com'... -> 08/09/2025, 16:58:53
+[Url-Watcher] ℹ️ Starting Katana for 'http://rs-br01-cloud.acronis.com'... -> 08/09/2025, 16:59:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://vie1-repo.acronis.com'... -> 08/09/2025, 16:59:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://us4-cloud.acronis.com'... -> 08/09/2025, 16:59:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-vytalink-acs1.acronis.com'... -> 08/09/2025, 16:59:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-bc-backup.acronis.com'... -> 08/09/2025, 17:00:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://us5-cloud.acronis.com'... -> 08/09/2025, 17:00:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-jp03-cloud.acronis.com'... -> 08/09/2025, 17:00:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://support.acronis.com'... -> 08/09/2025, 17:00:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-pl01-cloud.acronis.com'... -> 08/09/2025, 17:02:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging.partners.acronis.com'... -> 08/09/2025, 17:02:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-au2-acs1.acronis.com'... -> 08/09/2025, 17:02:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://waw1-repo.acronis.com'... -> 08/09/2025, 17:03:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://us14-cloud.acronis.com'... -> 08/09/2025, 17:03:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-host.acronis.com'... -> 08/09/2025, 17:03:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-site.acronis.com'... -> 08/09/2025, 17:03:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://vlc1-s3gw.acronis.com'... -> 08/09/2025, 17:03:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-tie.acronis.com'... -> 08/09/2025, 17:04:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-arp.acronis.com'... -> 08/09/2025, 17:04:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-repo.acronis.com'... -> 08/09/2025, 17:04:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-cloud.acronis.com'... -> 08/09/2025, 17:04:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://yvr1-s3gw.acronis.com'... -> 08/09/2025, 17:05:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://yyz2-repo.acronis.com'... -> 08/09/2025, 17:05:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-no01-cloud.acronis.com'... -> 08/09/2025, 17:05:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://zrh1-repo.acronis.com'... -> 08/09/2025, 17:05:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://us5-baas.acronis.com'... -> 08/09/2025, 17:05:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://profile-ru.metro.acronis.com'... -> 08/09/2025, 17:06:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://web-api-tih-feed-c.acronis.com'... -> 08/09/2025, 17:06:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://statsit.metro.acronis.com'... -> 08/09/2025, 17:06:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://info.acronis.com'... -> 08/09/2025, 17:06:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://forms.acronis.com'... -> 08/09/2025, 17:06:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://promo.acronis.com'... -> 08/09/2025, 17:07:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://aa.acronis.com'... -> 08/09/2025, 17:07:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://care.acronis.com'... -> 08/09/2025, 17:07:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-mc-heg-baas.acronis.com'... -> 08/09/2025, 17:09:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-dc-monitoring.acronis.com'... -> 08/09/2025, 17:09:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-godaddy-cloud.acronis.com'... -> 08/09/2025, 17:10:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://auh1-s3gw.acronis.com'... -> 08/09/2025, 17:10:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-dcm.acronis.com'... -> 08/09/2025, 17:10:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://cftp-de1.acronis.com'... -> 08/09/2025, 17:10:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://cftp-de.acronis.com'... -> 08/09/2025, 17:11:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://bt-eu2-cloud.acronis.com'... -> 08/09/2025, 17:11:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-bg01.acronis.com'... -> 08/09/2025, 17:11:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-fi01.acronis.com'... -> 08/09/2025, 17:11:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu8.acronis.com'... -> 08/09/2025, 17:11:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ae01.acronis.com'... -> 08/09/2025, 17:12:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-beta.acronis.com'... -> 08/09/2025, 17:12:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-hu01.acronis.com'... -> 08/09/2025, 17:12:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ca02.acronis.com'... -> 08/09/2025, 17:13:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-it01.acronis.com'... -> 08/09/2025, 17:13:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://bud1-s3gw.acronis.com'... -> 08/09/2025, 17:13:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-eu16.acronis.com'... -> 08/09/2025, 17:13:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-uk01.acronis.com'... -> 08/09/2025, 17:13:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-mx01.acronis.com'... -> 08/09/2025, 17:14:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-my01.acronis.com'... -> 08/09/2025, 17:14:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i1.acronis.com'... -> 08/09/2025, 17:14:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-ro01.acronis.com'... -> 08/09/2025, 17:14:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-se01.acronis.com'... -> 08/09/2025, 17:15:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-za01.acronis.com'... -> 08/09/2025, 17:15:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-kr01.acronis.com'... -> 08/09/2025, 17:15:32
+[Url-Watcher] ℹ️ Starting Katana for 'http://dl7.acronis.com'... -> 08/09/2025, 17:16:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://de-i4.acronis.com'... -> 08/09/2025, 17:16:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us14.acronis.com'... -> 08/09/2025, 17:16:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://feed2.acronis.com'... -> 08/09/2025, 17:16:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-us11.acronis.com'... -> 08/09/2025, 17:17:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu-i1.acronis.com'... -> 08/09/2025, 17:17:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://forums.acronis.com'... -> 08/09/2025, 17:17:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://ipn-beta-cloud.acronis.com'... -> 08/09/2025, 17:17:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud-wr-no01.acronis.com'... -> 08/09/2025, 17:17:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu-i4.acronis.com'... -> 08/09/2025, 17:18:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://feedback.acronis.com'... -> 08/09/2025, 17:18:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://ipn.acronis.com'... -> 08/09/2025, 17:18:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://iad10-s3gw.acronis.com'... -> 08/09/2025, 17:18:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://lhr2-repo.acronis.com'... -> 08/09/2025, 17:18:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://mobile-eu2-cloud.acronis.com'... -> 08/09/2025, 17:19:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://nps.acronis.com'... -> 08/09/2025, 17:19:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://eu-i3.acronis.com'... -> 08/09/2025, 17:19:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://office2.acronis.com'... -> 08/09/2025, 17:19:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://mobile-report.acronis.com'... -> 08/09/2025, 17:20:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://gsnlink.acronis.com'... -> 08/09/2025, 17:20:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://mmj1-repo.acronis.com'... -> 08/09/2025, 17:20:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://phx10-s3gw.acronis.com'... -> 08/09/2025, 17:20:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://notary-sentry.acronis.com'... -> 08/09/2025, 17:21:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://mty1-s3gw.acronis.com'... -> 08/09/2025, 17:21:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-au1-cloud.acronis.com'... -> 08/09/2025, 17:21:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-au-cloud.acronis.com'... -> 08/09/2025, 17:21:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://pagerduty-pmc.acronis.com'... -> 08/09/2025, 17:22:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-ae01-cloud.acronis.com'... -> 08/09/2025, 17:22:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-heg-baas.acronis.com'... -> 08/09/2025, 17:22:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu5-cloud.acronis.com'... -> 08/09/2025, 17:22:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-hu01-cloud.acronis.com'... -> 08/09/2025, 17:22:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu4-cloud.acronis.com'... -> 08/09/2025, 17:23:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-li01-cloud.acronis.com'... -> 08/09/2025, 17:23:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu-baas.acronis.com'... -> 08/09/2025, 17:23:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-es01-cloud.acronis.com'... -> 08/09/2025, 17:23:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu8-baas.acronis.com'... -> 08/09/2025, 17:23:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu16-cloud.acronis.com'... -> 08/09/2025, 17:24:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-sg-baas.acronis.com'... -> 08/09/2025, 17:24:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-sg-cloud.acronis.com'... -> 08/09/2025, 17:24:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-ca02-cloud.acronis.com'... -> 08/09/2025, 17:24:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-za01-cloud.acronis.com'... -> 08/09/2025, 17:24:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu2-baas.acronis.com'... -> 08/09/2025, 17:25:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-beta-cloud.acronis.com'... -> 08/09/2025, 17:25:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu8-cloud.acronis.com'... -> 08/09/2025, 17:25:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-dk01-cloud.acronis.com'... -> 08/09/2025, 17:25:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-mx01-cloud.acronis.com'... -> 08/09/2025, 17:25:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-fi01-cloud.acronis.com'... -> 08/09/2025, 17:26:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us11-cloud.acronis.com'... -> 08/09/2025, 17:26:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-uk01-cloud.acronis.com'... -> 08/09/2025, 17:26:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us14-cloud.acronis.com'... -> 08/09/2025, 17:26:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-it01-cloud.acronis.com'... -> 08/09/2025, 17:27:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-ro01-cloud.acronis.com'... -> 08/09/2025, 17:27:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-kaseya-cloud.acronis.com'... -> 08/09/2025, 17:27:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-my01-cloud.acronis.com'... -> 08/09/2025, 17:27:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-i3.acronis.com'... -> 08/09/2025, 17:27:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-se01-cloud.acronis.com'... -> 08/09/2025, 17:28:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-us-cloud.acronis.com'... -> 08/09/2025, 17:28:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://sin1-repo.acronis.com'... -> 08/09/2025, 17:28:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-iad2-acs01.acronis.com'... -> 08/09/2025, 17:28:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://snactivation.acronis.com'... -> 08/09/2025, 17:29:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging-snactivation.acronis.com'... -> 08/09/2025, 17:29:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://syd1-repo.acronis.com'... -> 08/09/2025, 17:29:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://sit-cloud.acronis.com'... -> 08/09/2025, 17:29:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-yyz2-acs01.acronis.com'... -> 08/09/2025, 17:29:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-i1.acronis.com'... -> 08/09/2025, 17:30:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://sg-img.acronis.com'... -> 08/09/2025, 17:30:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu4-baas.acronis.com'... -> 08/09/2025, 17:30:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-sentry.acronis.com'... -> 08/09/2025, 17:30:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-kibana-mon.acronis.com'... -> 08/09/2025, 17:30:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-sof93-acs01.acronis.com'... -> 08/09/2025, 17:31:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://rs-eu2-cloud.acronis.com'... -> 08/09/2025, 17:31:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-fra2-acs5.acronis.com'... -> 08/09/2025, 17:31:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://15.acronis.com'... -> 08/09/2025, 17:31:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-bud1-aci01.acronis.com'... -> 08/09/2025, 17:32:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-jp2-acs1.acronis.com'... -> 08/09/2025, 17:32:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://agents-es01-cloud.acronis.com'... -> 08/09/2025, 17:32:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://abgw-lis1-aci01.acronis.com'... -> 08/09/2025, 17:32:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://s3-staging-us2.acronis.com'... -> 08/09/2025, 17:33:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://aqa-backup-jenkins.acronis.work'... -> 08/09/2025, 17:33:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://common-jenkins.acronis.work'... -> 08/09/2025, 17:33:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.dk01-cloud.acronis.work'... -> 08/09/2025, 17:33:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.ae01-cloud.acronis.work'... -> 08/09/2025, 17:33:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://cyberapp-jenkins.acronis.work'... -> 08/09/2025, 17:34:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.bg91-cloud.acronis.work'... -> 08/09/2025, 17:34:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.bg92-cloud.acronis.work'... -> 08/09/2025, 17:34:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.es01-cloud.acronis.work'... -> 08/09/2025, 17:34:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://adn.acronis.work'... -> 08/09/2025, 17:34:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://admin.acronis.work'... -> 08/09/2025, 17:35:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.bg94-cloud.acronis.work'... -> 08/09/2025, 17:35:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://fivenine-jenkins.acronis.work'... -> 08/09/2025, 17:35:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.acronis.work'... -> 08/09/2025, 17:35:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://adntest.acronis.work'... -> 08/09/2025, 17:35:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.pl01-cloud.acronis.work'... -> 08/09/2025, 17:36:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://ch-ap-12.acronis.work'... -> 08/09/2025, 17:36:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://docker-jenkins.acronis.work'... -> 08/09/2025, 17:36:29
+[Url-Watcher] ℹ️ Starting Katana for 'http://connect.acronis.work'... -> 08/09/2025, 17:36:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://artifactorytest.acronis.work'... -> 08/09/2025, 17:36:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://artifactory.acronis.work'... -> 08/09/2025, 17:37:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.us5-cloud.acronis.work'... -> 08/09/2025, 17:37:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://devicelock-jenkins.acronis.work'... -> 08/09/2025, 17:37:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://bytebase.lh-cloud.acronis.work'... -> 08/09/2025, 17:37:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://dri-admin.lh-cloud.acronis.work'... -> 08/09/2025, 17:37:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.eu4-cloud.acronis.work'... -> 08/09/2025, 17:38:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.eu5-cloud.acronis.work'... -> 08/09/2025, 17:38:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.in01-cloud.acronis.work'... -> 08/09/2025, 17:38:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.sg-cloud.acronis.work'... -> 08/09/2025, 17:38:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.cloud.acronis.work'... -> 08/09/2025, 17:38:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://git.acronis.work'... -> 08/09/2025, 17:39:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.il01-cloud.acronis.work'... -> 08/09/2025, 17:39:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://coupa-acm.acronis.work'... -> 08/09/2025, 17:39:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://dcm-jenkins.acronis.work'... -> 08/09/2025, 17:39:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-acmrnd.acronis.work'... -> 08/09/2025, 17:39:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://atp-jenkins.acronis.work'... -> 08/09/2025, 17:40:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-passport.acronis.work'... -> 08/09/2025, 17:40:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.ca01-cloud.acronis.work'... -> 08/09/2025, 17:40:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.it01-cloud.acronis.work'... -> 08/09/2025, 17:40:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.id01-cloud.acronis.work'... -> 08/09/2025, 17:41:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://csl.acronis.work'... -> 08/09/2025, 17:41:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.cz01-cloud.acronis.work'... -> 08/09/2025, 17:41:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://azure.00.acep.acronis.work'... -> 08/09/2025, 17:41:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://ch-cloudint-jenkins.acronis.work'... -> 08/09/2025, 17:41:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.beta-cloud.acronis.work'... -> 08/09/2025, 17:42:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.bg01-cloud.acronis.work'... -> 08/09/2025, 17:42:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.au1-cloud.acronis.work'... -> 08/09/2025, 17:42:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.pt01-cloud.acronis.work'... -> 08/09/2025, 17:42:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.pl01-cloud.acronis.work'... -> 08/09/2025, 17:42:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.heg-cloud.acronis.work'... -> 08/09/2025, 17:43:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloudintegrations-jenkins.acronis.work'... -> 08/09/2025, 17:43:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.us-cloud.acronis.work'... -> 08/09/2025, 17:43:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.hu01-cloud.acronis.work'... -> 08/09/2025, 17:43:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.bg92-cloud.acronis.work'... -> 08/09/2025, 17:44:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.us-cloud.acronis.work'... -> 08/09/2025, 17:44:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://frontend.acronis.work'... -> 08/09/2025, 17:44:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://awx.acronis.work'... -> 08/09/2025, 17:44:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.uk01-cloud.acronis.work'... -> 08/09/2025, 17:44:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://cbc.acronis.work'... -> 08/09/2025, 17:45:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://gittest.acronis.work'... -> 08/09/2025, 17:45:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.beta-cloud.acronis.work'... -> 08/09/2025, 17:45:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-rnd-aci01.acronis.work'... -> 08/09/2025, 17:45:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://ci-common-jenkins.acronis.work'... -> 08/09/2025, 17:45:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.nz01-cloud.acronis.work'... -> 08/09/2025, 17:46:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://helpdesk.acronis.work'... -> 08/09/2025, 17:46:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://ci-tm-jenkins.acronis.work'... -> 08/09/2025, 17:46:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.li01-cloud.acronis.work'... -> 08/09/2025, 17:46:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.br02-cloud.acronis.work'... -> 08/09/2025, 17:46:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.us4-cloud.acronis.work'... -> 08/09/2025, 17:47:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://dn-registry.acronis.work'... -> 08/09/2025, 17:47:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://erp.acronis.work'... -> 08/09/2025, 17:47:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://004553.werp-okta-test.acep.acronis.work'... -> 08/09/2025, 17:47:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.eu-cloud.acronis.work'... -> 08/09/2025, 17:47:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.godaddy-cloud.acronis.work'... -> 08/09/2025, 17:48:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://abm-jenkins.acronis.work'... -> 08/09/2025, 17:48:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://acss.acronis.work'... -> 08/09/2025, 17:48:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://a.acronis.work'... -> 08/09/2025, 17:48:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.fi01-cloud.acronis.work'... -> 08/09/2025, 17:48:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://cd-jenkins.acronis.work'... -> 08/09/2025, 17:49:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.za01-cloud.acronis.work'... -> 08/09/2025, 17:49:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.bg92-cloud.acronis.work'... -> 08/09/2025, 17:49:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.lh-cloud.acronis.work'... -> 08/09/2025, 17:49:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://crp.acronis.work'... -> 08/09/2025, 17:50:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://dc-monitoring.acronis.work'... -> 08/09/2025, 17:50:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.ae01-cloud.acronis.work'... -> 08/09/2025, 17:50:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://dms.acronis.work'... -> 08/09/2025, 17:50:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://h1-beta-cloud.acronis.work'... -> 08/09/2025, 17:50:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.amer.acronis.work'... -> 08/09/2025, 17:51:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.heg-cloud.acronis.work'... -> 08/09/2025, 17:51:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.us11-cloud.acronis.work'... -> 08/09/2025, 17:51:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.se01-cloud.acronis.work'... -> 08/09/2025, 17:51:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-rnd-aci02.acronis.work'... -> 08/09/2025, 17:52:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.eu4-cloud.acronis.work'... -> 08/09/2025, 17:52:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.ca02-cloud.acronis.work'... -> 08/09/2025, 17:52:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://infrasec-jenkins.acronis.work'... -> 08/09/2025, 17:52:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://hdtrial.acronis.work'... -> 08/09/2025, 17:52:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://dr-jenkins.acronis.work'... -> 08/09/2025, 17:53:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.kr01-cloud.acronis.work'... -> 08/09/2025, 17:53:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.eu16-cloud.acronis.work'... -> 08/09/2025, 17:53:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://jenkins.acronis.work'... -> 08/09/2025, 17:53:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.bg91-cloud.acronis.work'... -> 08/09/2025, 17:53:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.us14-cloud.acronis.work'... -> 08/09/2025, 17:54:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.bg01-cloud.acronis.work'... -> 08/09/2025, 17:54:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://iad2-kibana.acronis.work'... -> 08/09/2025, 17:54:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.eu8-cloud.acronis.work'... -> 08/09/2025, 17:54:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.ca01-cloud.acronis.work'... -> 08/09/2025, 17:54:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.br02-cloud.acronis.work'... -> 08/09/2025, 17:55:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.ca02-cloud.acronis.work'... -> 08/09/2025, 17:55:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.in01-cloud.acronis.work'... -> 08/09/2025, 17:55:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.tr01-cloud.acronis.work'... -> 08/09/2025, 17:55:50
+[Url-Watcher] ℹ️ Starting Katana for 'https://cyberfit.acronis.work'... -> 08/09/2025, 17:56:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://fileshare.acronis.work'... -> 08/09/2025, 17:56:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.ae01-cloud.acronis.work'... -> 08/09/2025, 17:56:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.eu2-cloud.acronis.work'... -> 08/09/2025, 17:56:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.za01-cloud.acronis.work'... -> 08/09/2025, 17:57:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.in01-cloud.acronis.work'... -> 08/09/2025, 17:57:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.bg01-cloud.acronis.work'... -> 08/09/2025, 17:57:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.fi01-cloud.acronis.work'... -> 08/09/2025, 17:57:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.id01-cloud.acronis.work'... -> 08/09/2025, 17:58:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.dk01-cloud.acronis.work'... -> 08/09/2025, 17:58:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.mx01-cloud.acronis.work'... -> 08/09/2025, 17:58:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.us5-cloud.acronis.work'... -> 08/09/2025, 17:58:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.cz01-cloud.acronis.work'... -> 08/09/2025, 17:58:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.us4-cloud.acronis.work'... -> 08/09/2025, 17:59:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.kaseya-cloud.acronis.work'... -> 08/09/2025, 17:59:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.at01-cloud.acronis.work'... -> 08/09/2025, 17:59:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.my01-cloud.acronis.work'... -> 08/09/2025, 17:59:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.bg94-cloud.acronis.work'... -> 08/09/2025, 18:00:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://iamp.acronis.work'... -> 08/09/2025, 18:00:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.se01-cloud.acronis.work'... -> 08/09/2025, 18:00:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.il01-cloud.acronis.work'... -> 08/09/2025, 18:00:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://hastebin.acronis.work'... -> 08/09/2025, 18:00:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.kr01-cloud.acronis.work'... -> 08/09/2025, 18:01:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://it-jenkins.acronis.work'... -> 08/09/2025, 18:01:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.at01-cloud.acronis.work'... -> 08/09/2025, 18:01:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.it01-cloud.acronis.work'... -> 08/09/2025, 18:01:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.my01-cloud.acronis.work'... -> 08/09/2025, 18:01:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.cz01-cloud.acronis.work'... -> 08/09/2025, 18:02:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.eu2-cloud.acronis.work'... -> 08/09/2025, 18:02:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.fi01-cloud.acronis.work'... -> 08/09/2025, 18:02:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.us15-cloud.acronis.work'... -> 08/09/2025, 18:02:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.notary-tb.acronis.work'... -> 08/09/2025, 18:02:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.nz01-cloud.acronis.work'... -> 08/09/2025, 18:03:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.eu8-cloud.acronis.work'... -> 08/09/2025, 18:03:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.jp03-cloud.acronis.work'... -> 08/09/2025, 18:03:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.eu-cloud.acronis.work'... -> 08/09/2025, 18:03:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.sg-cloud.acronis.work'... -> 08/09/2025, 18:04:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://loki-receiver.acronis.work'... -> 08/09/2025, 18:04:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.se01-cloud.acronis.work'... -> 08/09/2025, 18:04:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://librenms.amer.acronis.work'... -> 08/09/2025, 18:04:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.hu01-cloud.acronis.work'... -> 08/09/2025, 18:04:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://intranet.acronis.work'... -> 08/09/2025, 18:05:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://accreports.acronis.work'... -> 08/09/2025, 18:05:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.au1-cloud.acronis.work'... -> 08/09/2025, 18:05:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.tw01-cloud.acronis.work'... -> 08/09/2025, 18:05:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.pl01-cloud.acronis.work'... -> 08/09/2025, 18:06:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.it01-cloud.acronis.work'... -> 08/09/2025, 18:06:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.godaddy-cloud.acronis.work'... -> 08/09/2025, 18:06:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.us14-cloud.acronis.work'... -> 08/09/2025, 18:06:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.us5-cloud.acronis.work'... -> 08/09/2025, 18:06:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.eu2-cloud.acronis.work'... -> 08/09/2025, 18:07:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://panopticum.acronis.work'... -> 08/09/2025, 18:07:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://passport-dev.acronis.work'... -> 08/09/2025, 18:07:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://mc-abv-external-esxi.acronis.work'... -> 08/09/2025, 18:07:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.us15-cloud.acronis.work'... -> 08/09/2025, 18:08:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.ca02-cloud.acronis.work'... -> 08/09/2025, 18:08:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.godaddy-cloud.acronis.work'... -> 08/09/2025, 18:08:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.ro01-cloud.acronis.work'... -> 08/09/2025, 18:08:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.no01-cloud.acronis.work'... -> 08/09/2025, 18:08:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://prf.acronis.work'... -> 08/09/2025, 18:09:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.dk01-cloud.acronis.work'... -> 08/09/2025, 18:09:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.li01-cloud.acronis.work'... -> 08/09/2025, 18:09:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.id01-cloud.acronis.work'... -> 08/09/2025, 18:09:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://loki.acronis.work'... -> 08/09/2025, 18:10:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.eu4-cloud.acronis.work'... -> 08/09/2025, 18:10:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://netboxdev.acronis.work'... -> 08/09/2025, 18:10:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://netbox.acronis.work'... -> 08/09/2025, 18:10:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.br01-cloud.acronis.work'... -> 08/09/2025, 18:10:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://scs-sign-jenkins.acronis.work'... -> 08/09/2025, 18:11:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.jp03-cloud.acronis.work'... -> 08/09/2025, 18:11:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.us15-cloud.acronis.work'... -> 08/09/2025, 18:11:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://lhr3-aci-01.emea.acronis.work'... -> 08/09/2025, 18:11:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://ngmp-hash-db.acronis.work'... -> 08/09/2025, 18:12:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.za01-cloud.acronis.work'... -> 08/09/2025, 18:12:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://load-grafana.lh-cloud.acronis.work'... -> 08/09/2025, 18:12:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://passport.acronis.work'... -> 08/09/2025, 18:12:43
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.at01-cloud.acronis.work'... -> 08/09/2025, 18:12:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.eu5-cloud.acronis.work'... -> 08/09/2025, 18:13:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.no01-cloud.acronis.work'... -> 08/09/2025, 18:13:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://netportal.amer.acronis.work'... -> 08/09/2025, 18:13:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.ro01-cloud.acronis.work'... -> 08/09/2025, 18:13:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://my.acronis.work'... -> 08/09/2025, 18:14:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://scs-ab-jenkins.acronis.work'... -> 08/09/2025, 18:14:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.ro01-cloud.acronis.work'... -> 08/09/2025, 18:14:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.my01-cloud.acronis.work'... -> 08/09/2025, 18:14:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.es01-cloud.acronis.work'... -> 08/09/2025, 18:14:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://scs-jenkins.acronis.work'... -> 08/09/2025, 18:15:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.au1-cloud.acronis.work'... -> 08/09/2025, 18:15:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://sqtest.acronis.work'... -> 08/09/2025, 18:15:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://kernel-jenkins.acronis.work'... -> 08/09/2025, 18:15:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.kaseya-cloud.acronis.work'... -> 08/09/2025, 18:16:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.br01-cloud.acronis.work'... -> 08/09/2025, 18:16:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://support-cyberlab.acronis.work'... -> 08/09/2025, 18:16:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.gr01-cloud.acronis.work'... -> 08/09/2025, 18:16:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://lansweeper.acronis.work'... -> 08/09/2025, 18:16:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://support-sandbox-esxi.acronis.work'... -> 08/09/2025, 18:17:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://security-advisory.acronis.work'... -> 08/09/2025, 18:17:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.eu-cloud.acronis.work'... -> 08/09/2025, 18:17:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://rds-grafana.acronis.work'... -> 08/09/2025, 18:17:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.mx01-cloud.acronis.work'... -> 08/09/2025, 18:18:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://snpool.acronis.work'... -> 08/09/2025, 18:18:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://pmctest.acronis.work'... -> 08/09/2025, 18:18:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://lighthouse.emea.acronis.work'... -> 08/09/2025, 18:18:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.pt01-cloud.acronis.work'... -> 08/09/2025, 18:18:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://ngmp-share.acronis.work'... -> 08/09/2025, 18:19:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://shareworks.acronis.work'... -> 08/09/2025, 18:19:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.es01-cloud.acronis.work'... -> 08/09/2025, 18:19:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.us11-cloud.acronis.work'... -> 08/09/2025, 18:19:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://greenhouse.acronis.work'... -> 08/09/2025, 18:19:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.tw01-cloud.acronis.work'... -> 08/09/2025, 18:20:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://tp-jenkins.acronis.work'... -> 08/09/2025, 18:20:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://security-mailhog.acronis.work'... -> 08/09/2025, 18:20:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://st2.acronis.work'... -> 08/09/2025, 18:20:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://rds-services-cache.acronis.work'... -> 08/09/2025, 18:21:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://metrics.acronis.work'... -> 08/09/2025, 18:21:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.il01-cloud.acronis.work'... -> 08/09/2025, 18:21:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.gr01-cloud.acronis.work'... -> 08/09/2025, 18:21:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://rndtools-jenkins.acronis.work'... -> 08/09/2025, 18:21:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://kibana.lh-cloud.acronis.work'... -> 08/09/2025, 18:22:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://librenms.apac.acronis.work'... -> 08/09/2025, 18:22:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://inventory.acronis.work'... -> 08/09/2025, 18:22:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://lighthouse.amer.acronis.work'... -> 08/09/2025, 18:22:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://testrail.acronis.work'... -> 08/09/2025, 18:22:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://ui-toolkit.acronis.work'... -> 08/09/2025, 18:23:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.us14-cloud.acronis.work'... -> 08/09/2025, 18:23:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://librenms.emea.acronis.work'... -> 08/09/2025, 18:23:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://lh-load-kibana.lh-cloud.acronis.work'... -> 08/09/2025, 18:23:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://travel.acronis.work'... -> 08/09/2025, 18:24:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://ui-perf.acronis.work'... -> 08/09/2025, 18:24:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://selab-grafana.acronis.work'... -> 08/09/2025, 18:24:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://rds-prometheus.acronis.work'... -> 08/09/2025, 18:24:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.mx01-cloud.acronis.work'... -> 08/09/2025, 18:24:56
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-kibana-mon.acronis.work'... -> 08/09/2025, 18:25:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://rds-hashicorp-vault.acronis.work'... -> 08/09/2025, 18:25:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.bg94-cloud.acronis.work'... -> 08/09/2025, 18:25:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://pmc.acronis.work'... -> 08/09/2025, 18:25:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-ap-12.acronis.work'... -> 08/09/2025, 18:25:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://sq.acronis.work'... -> 08/09/2025, 18:26:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.sg-cloud.acronis.work'... -> 08/09/2025, 18:26:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.notary-tb.acronis.work'... -> 08/09/2025, 18:26:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.tw01-cloud.acronis.work'... -> 08/09/2025, 18:26:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://webteam.0.acep.acronis.work'... -> 08/09/2025, 18:27:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://product-security-jenkins.acronis.work'... -> 08/09/2025, 18:27:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://support-archive-wizard.acronis.work'... -> 08/09/2025, 18:27:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://security-jenkins.acronis.work'... -> 08/09/2025, 18:27:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://rndtools-jenkins-test.acronis.work'... -> 08/09/2025, 18:27:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.us11-cloud.acronis.work'... -> 08/09/2025, 18:28:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.jp-cloud.acronis.work'... -> 08/09/2025, 18:28:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://phx1-aci-01.amer.acronis.work'... -> 08/09/2025, 18:28:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://workday.acronis.work'... -> 08/09/2025, 18:28:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://spmp.acronis.work'... -> 08/09/2025, 18:29:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://phx1-aci-02.amer.acronis.work'... -> 08/09/2025, 18:29:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.heg-cloud.acronis.work'... -> 08/09/2025, 18:29:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-kibana.acronis.work'... -> 08/09/2025, 18:30:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.jp-cloud.acronis.work'... -> 08/09/2025, 18:30:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.kr01-cloud.acronis.work'... -> 08/09/2025, 18:30:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://sign-jenkins.acronis.work'... -> 08/09/2025, 18:30:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://strg-jenkins.acronis.work'... -> 08/09/2025, 18:30:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://tableau.acronis.work'... -> 08/09/2025, 18:31:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://webpanel.acronis.work'... -> 08/09/2025, 18:31:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.tr01-cloud.acronis.work'... -> 08/09/2025, 18:31:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://lighthouse.apac.acronis.work'... -> 08/09/2025, 18:31:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.ca01-cloud.acronis.work'... -> 08/09/2025, 18:32:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.kaseya-cloud.acronis.work'... -> 08/09/2025, 18:32:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://zeppelin.acronis.work'... -> 08/09/2025, 18:32:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://uikit-jenkins.acronis.work'... -> 08/09/2025, 18:32:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://tinytools.acronis.work'... -> 08/09/2025, 18:32:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.eu16-cloud.acronis.work'... -> 08/09/2025, 18:33:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://us-passport.acronis.work'... -> 08/09/2025, 18:33:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://storage-admin.lh-cloud.acronis.work'... -> 08/09/2025, 18:33:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://virustotal.acronis.work'... -> 08/09/2025, 18:33:48
+[Url-Watcher] ℹ️ Starting Katana for 'https://uikit.acronis.work'... -> 08/09/2025, 18:34:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://rmq.acronis.work'... -> 08/09/2025, 18:34:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.acronis.work'... -> 08/09/2025, 18:34:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.us4-cloud.acronis.work'... -> 08/09/2025, 18:34:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.hu01-cloud.acronis.work'... -> 08/09/2025, 18:34:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.nz01-cloud.acronis.work'... -> 08/09/2025, 18:35:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.lh-cloud.acronis.work'... -> 08/09/2025, 18:35:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://grafana.lh-cloud.acronis.work'... -> 08/09/2025, 18:35:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.uk01-cloud.acronis.work'... -> 08/09/2025, 18:35:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://thanos.lh-cloud.acronis.work'... -> 08/09/2025, 18:35:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.us-cloud.acronis.work'... -> 08/09/2025, 18:36:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.eu5-cloud.acronis.work'... -> 08/09/2025, 18:36:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.beta-cloud.acronis.work'... -> 08/09/2025, 18:36:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.no01-cloud.acronis.work'... -> 08/09/2025, 18:36:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://pmm.lh-cloud.acronis.work'... -> 08/09/2025, 18:37:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://load-kibana.lh-cloud.acronis.work'... -> 08/09/2025, 18:37:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://pbi.acronis.work'... -> 08/09/2025, 18:37:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://k8s.cloud.acronis.work'... -> 08/09/2025, 18:37:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://adaptive.acronis.work'... -> 08/09/2025, 18:37:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.gr01-cloud.acronis.work'... -> 08/09/2025, 18:38:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.br02-cloud.acronis.work'... -> 08/09/2025, 18:38:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.uk01-cloud.acronis.work'... -> 08/09/2025, 18:38:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.br01-cloud.acronis.work'... -> 08/09/2025, 18:38:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.jp03-cloud.acronis.work'... -> 08/09/2025, 18:38:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.eu16-cloud.acronis.work'... -> 08/09/2025, 18:39:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://asap.acronis.work'... -> 08/09/2025, 18:39:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://aa-jenkins.acronis.work'... -> 08/09/2025, 18:39:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.jp-cloud.acronis.work'... -> 08/09/2025, 18:39:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://ab-jenkins.acronis.work'... -> 08/09/2025, 18:40:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://aiss.acronis.work'... -> 08/09/2025, 18:40:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.eu8-cloud.acronis.work'... -> 08/09/2025, 18:40:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://bw.acronis.work'... -> 08/09/2025, 18:40:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://awx-dev.acronis.work'... -> 08/09/2025, 18:40:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-ap-12.acronis.work'... -> 08/09/2025, 18:41:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://ch-mod-jenkins.acronis.work'... -> 08/09/2025, 18:41:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.li01-cloud.acronis.work'... -> 08/09/2025, 18:41:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.pt01-cloud.acronis.work'... -> 08/09/2025, 18:41:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://db.tr01-cloud.acronis.work'... -> 08/09/2025, 18:41:55
+[Url-Watcher] ℹ️ Starting Katana for 'https://ch-jenkins.acronis.work'... -> 08/09/2025, 18:42:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://csl-grafana.acronis.work'... -> 08/09/2025, 18:42:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://api.5nine.com'... -> 08/09/2025, 18:42:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://api2.5nine.com'... -> 08/09/2025, 18:42:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://alt.5nine.com'... -> 08/09/2025, 18:42:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://m.devicelock.com'... -> 08/09/2025, 18:43:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.devicelock.com'... -> 08/09/2025, 18:43:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://licserv.devicelock.com'... -> 08/09/2025, 18:43:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://click.eg.wotif.com'... -> 08/09/2025, 18:43:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://conversations.wotif.com'... -> 08/09/2025, 18:44:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://link.wotif.com'... -> 08/09/2025, 18:44:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://image.eg.wotif.com'... -> 08/09/2025, 18:44:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://res.ac.wotif.com'... -> 08/09/2025, 18:44:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://view.eg.wotif.com'... -> 08/09/2025, 18:45:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://feedback.wotif.com'... -> 08/09/2025, 18:45:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://email.chat.wotif.com'... -> 08/09/2025, 18:45:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.wotif.com'... -> 08/09/2025, 18:45:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://w.smobile.wotif.com'... -> 08/09/2025, 18:46:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://smobile.wotif.com'... -> 08/09/2025, 18:46:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud.eg.wotif.com'... -> 08/09/2025, 18:47:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth.wotif.com'... -> 08/09/2025, 18:47:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth-test.wotif.com'... -> 08/09/2025, 18:47:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://w.wotif.com'... -> 08/09/2025, 18:47:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://groups.wotif.com'... -> 08/09/2025, 18:48:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://ww.wotif.com'... -> 08/09/2025, 18:48:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://resources.vrbo.com'... -> 08/09/2025, 18:48:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://mi.vrbo.com'... -> 08/09/2025, 18:49:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.vrbo.com'... -> 08/09/2025, 18:50:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://mobile.vrbo.com'... -> 08/09/2025, 18:50:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://haodash-resources.vrbo.com'... -> 08/09/2025, 18:50:40
+[Url-Watcher] ℹ️ Starting Katana for 'https://view.eg.vrbo.com'... -> 08/09/2025, 18:50:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://westvirginia.vrbo.com'... -> 08/09/2025, 18:51:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://security.vrbo.com'... -> 08/09/2025, 18:51:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://help.vrbo.com'... -> 08/09/2025, 18:51:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://community.vrbo.com'... -> 08/09/2025, 18:52:17
+[Url-Watcher] ℹ️ Starting Katana for 'http://www.goodday.vrbo.com'... -> 08/09/2025, 18:52:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://accounts.vrbo.com'... -> 08/09/2025, 18:52:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://media.vrbo.com'... -> 08/09/2025, 18:53:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://pdp.vrbo.com'... -> 08/09/2025, 18:53:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.greaterpalmsprings.vrbo.com'... -> 08/09/2025, 18:53:26
+[Url-Watcher] ℹ️ Starting Katana for 'https://som.vrbo.com'... -> 08/09/2025, 18:53:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://toolkit.vrbo.com'... -> 08/09/2025, 18:53:56
+[Url-Watcher] ℹ️ Starting Katana for 'http://goodday.vrbo.com'... -> 08/09/2025, 18:54:08
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.westvirginia.vrbo.com'... -> 08/09/2025, 18:54:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://cloud.eg.vrbo.com'... -> 08/09/2025, 18:54:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://admin.vrbo.com'... -> 08/09/2025, 18:54:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://click.eg.vrbo.com'... -> 08/09/2025, 18:55:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://traveler.vrbo.com'... -> 08/09/2025, 18:55:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://textsearch.vrbo.com'... -> 08/09/2025, 18:55:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://news.vrbo.com'... -> 08/09/2025, 18:55:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://imagesus.vrbo.com'... -> 08/09/2025, 18:56:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://trk.mg.vrbo.com'... -> 08/09/2025, 18:58:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth.vrbo.com'... -> 08/09/2025, 18:58:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth-stage.vrbo.com'... -> 08/09/2025, 18:58:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://om.vrbo.com'... -> 08/09/2025, 18:58:45
+[Url-Watcher] ℹ️ Starting Katana for 'http://autodiscover.vrbo.com'... -> 08/09/2025, 18:58:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://web.vrbo.com'... -> 08/09/2025, 18:59:19
+[Url-Watcher] ℹ️ Starting Katana for 'https://calendar.vrbo.com'... -> 08/09/2025, 18:59:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://li.vrbo.com'... -> 08/09/2025, 18:59:43
