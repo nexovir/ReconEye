@@ -43310,3 +43310,536 @@ Call log:
 [Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 07/09/2025, 18:29:46
 [Vulnerability_Monitor] ℹ️ Starting Nuclei on https://mail.nexovir.ir -> 07/09/2025, 18:29:47
 [Vulnerability_Monitor] ℹ️ Starting Nuclei on https://www.nexovir.ir -> 07/09/2025, 18:36:22
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 10:12:36
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 08/09/2025, 10:12:37
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 10:12:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 08/09/2025, 10:12:55
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 08/09/2025, 10:13:10
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 10:13:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'devicelock.com'... -> 08/09/2025, 10:13:11
+  ℹ️ 3 subs found for devicelock.com -> 08/09/2025, 10:13:20
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.com.au'... -> 08/09/2025, 10:13:20
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 10:13:23
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 08/09/2025, 10:13:32
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 08/09/2025, 10:13:32
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 08/09/2025, 10:28:05
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 10:28:05
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.com'... -> 08/09/2025, 10:28:06
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 10:28:23
+  [Program-Watcher] ❌ out_of_scope error: can't change 'autocommit' now: connection in transaction status ACTIVE -> 08/09/2025, 10:28:33
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 08/09/2025, 10:32:16
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 10:32:16
+[Asset-Watcher] ℹ️ Starting Subfinder for 'carrentals.com'... -> 08/09/2025, 10:32:17
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 10:32:29
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 08/09/2025, 10:32:30
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 08/09/2025, 10:32:30
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 10:32:42
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 08/09/2025, 10:32:55
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 08/09/2025, 10:32:55
+  ℹ️ 48 subs found for carrentals.com -> 08/09/2025, 10:32:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'expediapartnercentral.com'... -> 08/09/2025, 10:33:02
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 10:33:07
+  ℹ️ 30 subs found for expediapartnercentral.com -> 08/09/2025, 10:33:13
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.com.au'... -> 08/09/2025, 10:33:14
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 08/09/2025, 10:33:16
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 08/09/2025, 10:33:16
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 10:33:30
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 08/09/2025, 10:34:02
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 08/09/2025, 10:34:02
+  ℹ️ 38 subs found for lastminute.com.au -> 08/09/2025, 10:34:15
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 08/09/2025, 10:34:16
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 10:34:16
+  ℹ️ 6 subs found for tr.ee -> 08/09/2025, 10:34:28
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 08/09/2025, 10:34:28
+  ℹ️ 1 subs found for linktree-extensions.com -> 08/09/2025, 10:34:41
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.com'... -> 08/09/2025, 10:34:41
+  ℹ️ 464 subs found for travelocity.com -> 08/09/2025, 10:35:46
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.com'... -> 08/09/2025, 10:35:58
+  ℹ️ 691 subs found for acronis.com -> 08/09/2025, 10:37:02
+[Asset-Watcher] ℹ️ Starting Subfinder for 'vrbo.com'... -> 08/09/2025, 10:37:13
+  ℹ️ 67 subs found for vrbo.com -> 08/09/2025, 10:38:14
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 08/09/2025, 10:38:15
+  ℹ️ 7 subs found for 5nine.com -> 08/09/2025, 10:38:24
+[Asset-Watcher] ℹ️ Starting Subfinder for 'quora.com'... -> 08/09/2025, 10:38:24
+  ℹ️ 1538 subs found for quora.com -> 08/09/2025, 10:39:55
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 08/09/2025, 10:40:23
+  ℹ️ 248 subs found for linktr.ee -> 08/09/2025, 10:41:25
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree.com'... -> 08/09/2025, 10:41:32
+  ℹ️ 4 subs found for linktree.com -> 08/09/2025, 10:42:00
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.ca'... -> 08/09/2025, 10:42:00
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 08/09/2025, 10:42:01
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 08/09/2025, 10:42:01
+  ℹ️ 20 subs found for travelocity.ca -> 08/09/2025, 10:43:02
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.co.nz'... -> 08/09/2025, 10:43:02
+  ℹ️ 7 subs found for lastminute.co.nz -> 08/09/2025, 10:43:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'devicelock.com'... -> 08/09/2025, 10:43:10
+  ℹ️ 3 subs found for devicelock.com -> 08/09/2025, 10:43:17
+[Asset-Watcher] ℹ️ Starting Subfinder for 'cheaptickets.com'... -> 08/09/2025, 10:43:17
+  ℹ️ 53 subs found for cheaptickets.com -> 08/09/2025, 10:44:20
+[Asset-Watcher] ℹ️ Starting Subfinder for 'wotif.com'... -> 08/09/2025, 10:44:20
+  ℹ️ 25 subs found for wotif.com -> 08/09/2025, 10:45:23
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.work'... -> 08/09/2025, 10:45:23
+  ℹ️ 322 subs found for acronis.work -> 08/09/2025, 10:45:57
+[Asset-Watcher] ✅ Finished subfinder -> 08/09/2025, 10:46:13
+[Asset-Watcher] ℹ️ Starting crt.sh -> 08/09/2025, 10:46:14
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'carrentals.com'... -> 08/09/2025, 10:46:15
+  [Asset-Watcher] ⚠️ No subdomains found for carrentals.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:15
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for carrentals.com after 1/2 attempts. -> 08/09/2025, 10:46:15
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'expediapartnercentral.com'... -> 08/09/2025, 10:46:16
+  [Asset-Watcher] ⚠️ No subdomains found for expediapartnercentral.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:16
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for expediapartnercentral.com after 1/2 attempts. -> 08/09/2025, 10:46:16
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lastminute.com.au'... -> 08/09/2025, 10:46:17
+  [Asset-Watcher] ⚠️ No subdomains found for lastminute.com.au in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:17
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lastminute.com.au after 1/2 attempts. -> 08/09/2025, 10:46:17
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'tr.ee'... -> 08/09/2025, 10:46:18
+  [Asset-Watcher] ⚠️ No subdomains found for tr.ee in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:18
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for tr.ee after 1/2 attempts. -> 08/09/2025, 10:46:18
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree-extensions.com'... -> 08/09/2025, 10:46:19
+  [Asset-Watcher] ⚠️ No subdomains found for linktree-extensions.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:19
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree-extensions.com after 1/2 attempts. -> 08/09/2025, 10:46:19
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'travelocity.com'... -> 08/09/2025, 10:46:20
+  [Asset-Watcher] ⚠️ No subdomains found for travelocity.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:20
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for travelocity.com after 1/2 attempts. -> 08/09/2025, 10:46:20
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.com'... -> 08/09/2025, 10:46:21
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:21
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.com after 1/2 attempts. -> 08/09/2025, 10:46:21
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'vrbo.com'... -> 08/09/2025, 10:46:22
+  [Asset-Watcher] ⚠️ No subdomains found for vrbo.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:22
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for vrbo.com after 1/2 attempts. -> 08/09/2025, 10:46:22
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '5nine.com'... -> 08/09/2025, 10:46:23
+  [Asset-Watcher] ⚠️ No subdomains found for 5nine.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:23
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 5nine.com after 1/2 attempts. -> 08/09/2025, 10:46:23
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'quora.com'... -> 08/09/2025, 10:46:24
+  [Asset-Watcher] ⚠️ No subdomains found for quora.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:24
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for quora.com after 1/2 attempts. -> 08/09/2025, 10:46:24
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktr.ee'... -> 08/09/2025, 10:46:25
+  [Asset-Watcher] ⚠️ No subdomains found for linktr.ee in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:25
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktr.ee after 1/2 attempts. -> 08/09/2025, 10:46:25
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree.com'... -> 08/09/2025, 10:46:26
+  [Asset-Watcher] ⚠️ No subdomains found for linktree.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:26
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree.com after 1/2 attempts. -> 08/09/2025, 10:46:26
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'travelocity.ca'... -> 08/09/2025, 10:46:27
+  [Asset-Watcher] ⚠️ No subdomains found for travelocity.ca in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:27
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for travelocity.ca after 1/2 attempts. -> 08/09/2025, 10:46:27
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lastminute.co.nz'... -> 08/09/2025, 10:46:28
+  [Asset-Watcher] ⚠️ No subdomains found for lastminute.co.nz in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:28
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lastminute.co.nz after 1/2 attempts. -> 08/09/2025, 10:46:28
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'devicelock.com'... -> 08/09/2025, 10:46:29
+  [Asset-Watcher] ⚠️ No subdomains found for devicelock.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:29
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for devicelock.com after 1/2 attempts. -> 08/09/2025, 10:46:29
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'cheaptickets.com'... -> 08/09/2025, 10:46:31
+  [Asset-Watcher] ⚠️ No subdomains found for cheaptickets.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for cheaptickets.com after 1/2 attempts. -> 08/09/2025, 10:46:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'wotif.com'... -> 08/09/2025, 10:46:32
+  [Asset-Watcher] ⚠️ No subdomains found for wotif.com in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for wotif.com after 1/2 attempts. -> 08/09/2025, 10:46:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.work'... -> 08/09/2025, 10:46:33
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.work in Crt.sh (Attempt 1) -> 08/09/2025, 10:46:33
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.work after 1/2 attempts. -> 08/09/2025, 10:46:33
+[Asset-Watcher] ✅ Finished crt.sh -> 08/09/2025, 10:46:34
+[Asset-Watcher] ℹ️ Starting user subdomains -> 08/09/2025, 10:46:35
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 08/09/2025, 10:46:36
+  [Asset-Watcher] ⚠️ No own subdomains found for quora.com -> 08/09/2025, 10:46:37
+  [Asset-Watcher] ⚠️ No own subdomains found for linktr.ee -> 08/09/2025, 10:46:38
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree.com -> 08/09/2025, 10:46:39
+  [Asset-Watcher] ⚠️ No own subdomains found for travelocity.ca -> 08/09/2025, 10:46:40
+  [Asset-Watcher] ⚠️ No own subdomains found for lastminute.co.nz -> 08/09/2025, 10:46:41
+  [Asset-Watcher] ⚠️ No own subdomains found for devicelock.com -> 08/09/2025, 10:46:42
+  [Asset-Watcher] ⚠️ No own subdomains found for cheaptickets.com -> 08/09/2025, 10:46:43
+  [Asset-Watcher] ⚠️ No own subdomains found for wotif.com -> 08/09/2025, 10:46:44
+  [Asset-Watcher] ⚠️ No own subdomains found for acronis.work -> 08/09/2025, 10:46:45
+  [Asset-Watcher] ⚠️ No own subdomains found for carrentals.com -> 08/09/2025, 10:46:46
+  [Asset-Watcher] ⚠️ No own subdomains found for expediapartnercentral.com -> 08/09/2025, 10:46:47
+  [Asset-Watcher] ⚠️ No own subdomains found for lastminute.com.au -> 08/09/2025, 10:46:48
+  [Asset-Watcher] ⚠️ No own subdomains found for tr.ee -> 08/09/2025, 10:46:49
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree-extensions.com -> 08/09/2025, 10:46:50
+  [Asset-Watcher] ⚠️ No own subdomains found for travelocity.com -> 08/09/2025, 10:46:51
+  [Asset-Watcher] ⚠️ No own subdomains found for acronis.com -> 08/09/2025, 10:46:52
+  [Asset-Watcher] ⚠️ No own subdomains found for vrbo.com -> 08/09/2025, 10:46:53
+  [Asset-Watcher] ⚠️ No own subdomains found for 5nine.com -> 08/09/2025, 10:46:54
+[Asset-Watcher] ✅ Finished user subdomains -> 08/09/2025, 10:46:55
+[Asset-Watcher] ℹ️ Starting httpx -> 08/09/2025, 10:46:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'quora.com - nexovir'... -> 08/09/2025, 10:46:57
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:49:26
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktr.ee - nexovir'... -> 08/09/2025, 10:49:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:51:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree.com - nexovir'... -> 08/09/2025, 10:51:11
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:51:16
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'travelocity.ca - nexovir'... -> 08/09/2025, 10:51:16
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:51:29
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lastminute.co.nz - nexovir'... -> 08/09/2025, 10:51:29
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:51:38
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'devicelock.com - nexovir'... -> 08/09/2025, 10:51:38
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:51:41
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'cheaptickets.com - nexovir'... -> 08/09/2025, 10:51:41
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:52:14
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'wotif.com - nexovir'... -> 08/09/2025, 10:52:14
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:52:24
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.work - nexovir'... -> 08/09/2025, 10:52:25
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:52:47
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'carrentals.com - nexovir'... -> 08/09/2025, 10:52:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:53:18
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'expediapartnercentral.com - nexovir'... -> 08/09/2025, 10:53:19
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:53:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lastminute.com.au - nexovir'... -> 08/09/2025, 10:53:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:54:01
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'tr.ee - nexovir'... -> 08/09/2025, 10:54:01
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:54:09
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree-extensions.com - nexovir'... -> 08/09/2025, 10:54:09
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 10:54:15
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'travelocity.com - nexovir'... -> 08/09/2025, 10:54:15
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:00:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.com - nexovir'... -> 08/09/2025, 11:00:09
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:03:00
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'vrbo.com - nexovir'... -> 08/09/2025, 11:03:12
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:03:39
+  [Asset-Watcher] ℹ️ Starting HTTPx on '5nine.com - nexovir'... -> 08/09/2025, 11:03:40
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:03:49
+[Asset-Watcher] ✅ Finished httpx -> 08/09/2025, 11:03:49
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 08/09/2025, 11:03:50
+[Asset-Watcher] ✅ Finished cidrs scanning -> 08/09/2025, 11:03:51
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 08/09/2025, 11:03:52
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 08/09/2025, 11:11:42
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 11:11:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'carrentals.com'... -> 08/09/2025, 11:11:44
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 11:12:03
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 08/09/2025, 11:12:04
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 08/09/2025, 11:12:04
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 11:12:17
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 08/09/2025, 11:12:32
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 08/09/2025, 11:12:32
+  ℹ️ 38 subs found for carrentals.com -> 08/09/2025, 11:12:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'expediapartnercentral.com'... -> 08/09/2025, 11:12:36
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 11:12:45
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 08/09/2025, 11:12:56
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 08/09/2025, 11:12:56
+  ℹ️ 30 subs found for expediapartnercentral.com -> 08/09/2025, 11:13:02
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.com.au'... -> 08/09/2025, 11:13:02
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 11:13:09
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 08/09/2025, 11:13:44
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 08/09/2025, 11:13:44
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 11:13:59
+  ℹ️ 38 subs found for lastminute.com.au -> 08/09/2025, 11:14:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.ca'... -> 08/09/2025, 11:14:06
+  ℹ️ 22 subs found for travelocity.ca -> 08/09/2025, 11:15:11
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 08/09/2025, 11:15:11
+  ℹ️ 6 subs found for tr.ee -> 08/09/2025, 11:15:47
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 08/09/2025, 11:15:47
+  ℹ️ 1 subs found for linktree-extensions.com -> 08/09/2025, 11:15:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.com'... -> 08/09/2025, 11:15:54
+  ℹ️ 413 subs found for travelocity.com -> 08/09/2025, 11:16:58
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.com'... -> 08/09/2025, 11:16:59
+  ℹ️ 796 subs found for acronis.com -> 08/09/2025, 11:18:02
+[Asset-Watcher] ℹ️ Starting Subfinder for 'vrbo.com'... -> 08/09/2025, 11:18:05
+  ℹ️ 59 subs found for vrbo.com -> 08/09/2025, 11:19:08
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 08/09/2025, 11:19:08
+  ℹ️ 7 subs found for 5nine.com -> 08/09/2025, 11:19:30
+[Asset-Watcher] ℹ️ Starting Subfinder for 'quora.com'... -> 08/09/2025, 11:19:30
+  ℹ️ 1645 subs found for quora.com -> 08/09/2025, 11:20:33
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.co.nz'... -> 08/09/2025, 11:20:57
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 08/09/2025, 11:21:21
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 08/09/2025, 11:21:21
+  ℹ️ 7 subs found for lastminute.co.nz -> 08/09/2025, 11:21:58
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree.com'... -> 08/09/2025, 11:21:58
+  ℹ️ 4 subs found for linktree.com -> 08/09/2025, 11:22:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 08/09/2025, 11:22:59
+  ℹ️ 283 subs found for linktr.ee -> 08/09/2025, 11:24:13
+[Asset-Watcher] ℹ️ Starting Subfinder for 'devicelock.com'... -> 08/09/2025, 11:24:14
+  ℹ️ 3 subs found for devicelock.com -> 08/09/2025, 11:25:14
+[Asset-Watcher] ℹ️ Starting Subfinder for 'cheaptickets.com'... -> 08/09/2025, 11:25:14
+  ℹ️ 50 subs found for cheaptickets.com -> 08/09/2025, 11:26:17
+[Asset-Watcher] ℹ️ Starting Subfinder for 'wotif.com'... -> 08/09/2025, 11:26:17
+  ℹ️ 25 subs found for wotif.com -> 08/09/2025, 11:27:18
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.work'... -> 08/09/2025, 11:27:18
+  ℹ️ 322 subs found for acronis.work -> 08/09/2025, 11:28:20
+[Asset-Watcher] ✅ Finished subfinder -> 08/09/2025, 11:28:20
+[Asset-Watcher] ℹ️ Starting crt.sh -> 08/09/2025, 11:28:21
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'carrentals.com'... -> 08/09/2025, 11:28:22
+  [Asset-Watcher] ⚠️ No subdomains found for carrentals.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:22
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for carrentals.com after 1/2 attempts. -> 08/09/2025, 11:28:22
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'expediapartnercentral.com'... -> 08/09/2025, 11:28:23
+  [Asset-Watcher] ⚠️ No subdomains found for expediapartnercentral.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:23
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for expediapartnercentral.com after 1/2 attempts. -> 08/09/2025, 11:28:23
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lastminute.com.au'... -> 08/09/2025, 11:28:24
+  [Asset-Watcher] ⚠️ No subdomains found for lastminute.com.au in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:24
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lastminute.com.au after 1/2 attempts. -> 08/09/2025, 11:28:24
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'travelocity.ca'... -> 08/09/2025, 11:28:25
+  [Asset-Watcher] ⚠️ No subdomains found for travelocity.ca in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:25
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for travelocity.ca after 1/2 attempts. -> 08/09/2025, 11:28:25
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'tr.ee'... -> 08/09/2025, 11:28:26
+  [Asset-Watcher] ⚠️ No subdomains found for tr.ee in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:26
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for tr.ee after 1/2 attempts. -> 08/09/2025, 11:28:26
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree-extensions.com'... -> 08/09/2025, 11:28:27
+  [Asset-Watcher] ⚠️ No subdomains found for linktree-extensions.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:27
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree-extensions.com after 1/2 attempts. -> 08/09/2025, 11:28:27
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'travelocity.com'... -> 08/09/2025, 11:28:29
+  [Asset-Watcher] ⚠️ No subdomains found for travelocity.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:29
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for travelocity.com after 1/2 attempts. -> 08/09/2025, 11:28:29
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.com'... -> 08/09/2025, 11:28:30
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:30
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.com after 1/2 attempts. -> 08/09/2025, 11:28:30
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'vrbo.com'... -> 08/09/2025, 11:28:31
+  [Asset-Watcher] ⚠️ No subdomains found for vrbo.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for vrbo.com after 1/2 attempts. -> 08/09/2025, 11:28:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '5nine.com'... -> 08/09/2025, 11:28:32
+  [Asset-Watcher] ⚠️ No subdomains found for 5nine.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 5nine.com after 1/2 attempts. -> 08/09/2025, 11:28:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'quora.com'... -> 08/09/2025, 11:28:33
+  [Asset-Watcher] ⚠️ No subdomains found for quora.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:33
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for quora.com after 1/2 attempts. -> 08/09/2025, 11:28:33
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lastminute.co.nz'... -> 08/09/2025, 11:28:34
+  [Asset-Watcher] ⚠️ No subdomains found for lastminute.co.nz in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:34
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lastminute.co.nz after 1/2 attempts. -> 08/09/2025, 11:28:34
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree.com'... -> 08/09/2025, 11:28:35
+  [Asset-Watcher] ⚠️ No subdomains found for linktree.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:35
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree.com after 1/2 attempts. -> 08/09/2025, 11:28:35
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktr.ee'... -> 08/09/2025, 11:28:36
+  [Asset-Watcher] ⚠️ No subdomains found for linktr.ee in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktr.ee after 1/2 attempts. -> 08/09/2025, 11:28:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'devicelock.com'... -> 08/09/2025, 11:28:37
+  [Asset-Watcher] ⚠️ No subdomains found for devicelock.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:37
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for devicelock.com after 1/2 attempts. -> 08/09/2025, 11:28:37
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'cheaptickets.com'... -> 08/09/2025, 11:28:38
+  [Asset-Watcher] ⚠️ No subdomains found for cheaptickets.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:38
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for cheaptickets.com after 1/2 attempts. -> 08/09/2025, 11:28:38
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'wotif.com'... -> 08/09/2025, 11:28:39
+  [Asset-Watcher] ⚠️ No subdomains found for wotif.com in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:39
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for wotif.com after 1/2 attempts. -> 08/09/2025, 11:28:39
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.work'... -> 08/09/2025, 11:28:40
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.work in Crt.sh (Attempt 1) -> 08/09/2025, 11:28:40
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.work after 1/2 attempts. -> 08/09/2025, 11:28:40
+[Asset-Watcher] ✅ Finished crt.sh -> 08/09/2025, 11:28:44
+[Asset-Watcher] ℹ️ Starting user subdomains -> 08/09/2025, 11:28:45
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 08/09/2025, 11:28:46
+  [Asset-Watcher] ⚠️ No own subdomains found for quora.com -> 08/09/2025, 11:28:47
+  [Asset-Watcher] ⚠️ No own subdomains found for lastminute.co.nz -> 08/09/2025, 11:28:48
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree.com -> 08/09/2025, 11:28:49
+  [Asset-Watcher] ⚠️ No own subdomains found for linktr.ee -> 08/09/2025, 11:28:50
+  [Asset-Watcher] ⚠️ No own subdomains found for devicelock.com -> 08/09/2025, 11:28:51
+  [Asset-Watcher] ⚠️ No own subdomains found for cheaptickets.com -> 08/09/2025, 11:28:52
+  [Asset-Watcher] ⚠️ No own subdomains found for wotif.com -> 08/09/2025, 11:28:53
+  [Asset-Watcher] ⚠️ No own subdomains found for acronis.work -> 08/09/2025, 11:28:54
+  [Asset-Watcher] ⚠️ No own subdomains found for carrentals.com -> 08/09/2025, 11:28:55
+  [Asset-Watcher] ⚠️ No own subdomains found for expediapartnercentral.com -> 08/09/2025, 11:28:56
+  [Asset-Watcher] ⚠️ No own subdomains found for lastminute.com.au -> 08/09/2025, 11:28:57
+  [Asset-Watcher] ⚠️ No own subdomains found for travelocity.ca -> 08/09/2025, 11:28:58
+  [Asset-Watcher] ⚠️ No own subdomains found for tr.ee -> 08/09/2025, 11:28:59
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree-extensions.com -> 08/09/2025, 11:29:00
+  [Asset-Watcher] ⚠️ No own subdomains found for travelocity.com -> 08/09/2025, 11:29:01
+  [Asset-Watcher] ⚠️ No own subdomains found for acronis.com -> 08/09/2025, 11:29:02
+  [Asset-Watcher] ⚠️ No own subdomains found for vrbo.com -> 08/09/2025, 11:29:03
+  [Asset-Watcher] ⚠️ No own subdomains found for 5nine.com -> 08/09/2025, 11:29:04
+[Asset-Watcher] ✅ Finished user subdomains -> 08/09/2025, 11:29:05
+[Asset-Watcher] ℹ️ Starting httpx -> 08/09/2025, 11:29:06
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'quora.com - nexovir'... -> 08/09/2025, 11:29:07
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:40:35
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lastminute.co.nz - nexovir'... -> 08/09/2025, 11:40:56
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:41:06
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree.com - nexovir'... -> 08/09/2025, 11:41:06
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:41:10
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktr.ee - nexovir'... -> 08/09/2025, 11:41:11
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:42:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'devicelock.com - nexovir'... -> 08/09/2025, 11:42:40
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:42:42
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'cheaptickets.com - nexovir'... -> 08/09/2025, 11:42:42
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:43:15
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'wotif.com - nexovir'... -> 08/09/2025, 11:43:15
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:43:25
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.work - nexovir'... -> 08/09/2025, 11:43:25
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:43:51
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'carrentals.com - nexovir'... -> 08/09/2025, 11:43:55
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:44:20
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'expediapartnercentral.com - nexovir'... -> 08/09/2025, 11:44:20
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:44:38
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lastminute.com.au - nexovir'... -> 08/09/2025, 11:44:38
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:45:04
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'travelocity.ca - nexovir'... -> 08/09/2025, 11:45:04
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:45:19
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'tr.ee - nexovir'... -> 08/09/2025, 11:45:20
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:45:30
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree-extensions.com - nexovir'... -> 08/09/2025, 11:45:30
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:45:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'travelocity.com - nexovir'... -> 08/09/2025, 11:45:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:51:30
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'acronis.com - nexovir'... -> 08/09/2025, 11:51:31
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:54:58
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'vrbo.com - nexovir'... -> 08/09/2025, 11:55:06
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:55:32
+  [Asset-Watcher] ℹ️ Starting HTTPx on '5nine.com - nexovir'... -> 08/09/2025, 11:55:32
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 11:55:42
+[Asset-Watcher] ✅ Finished httpx -> 08/09/2025, 11:55:42
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 08/09/2025, 11:55:43
+[Asset-Watcher] ✅ Finished cidrs scanning -> 08/09/2025, 11:55:44
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 08/09/2025, 11:55:45
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 08/09/2025, 12:12:18
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 12:12:18
+[Asset-Watcher] ℹ️ Starting Subfinder for 'carrentals.com'... -> 08/09/2025, 12:12:19
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:12:38
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 08/09/2025, 12:12:39
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 08/09/2025, 12:12:39
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:12:52
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 08/09/2025, 12:13:05
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 08/09/2025, 12:13:05
+  ℹ️ 38 subs found for carrentals.com -> 08/09/2025, 12:13:21
+[Asset-Watcher] ℹ️ Starting Subfinder for 'expediapartnercentral.com'... -> 08/09/2025, 12:13:22
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:13:25
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 08/09/2025, 12:13:34
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 08/09/2025, 12:13:34
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:13:46
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 08/09/2025, 12:14:19
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 08/09/2025, 12:14:19
+  ℹ️ 29 subs found for expediapartnercentral.com -> 08/09/2025, 12:14:23
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.com.au'... -> 08/09/2025, 12:14:23
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:14:33
+  ℹ️ 38 subs found for lastminute.com.au -> 08/09/2025, 12:15:26
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 08/09/2025, 12:15:26
+  ℹ️ 6 subs found for tr.ee -> 08/09/2025, 12:16:27
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 08/09/2025, 12:16:27
+  ℹ️ 1 subs found for linktree-extensions.com -> 08/09/2025, 12:17:29
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.com'... -> 08/09/2025, 12:17:30
+  ℹ️ 455 subs found for travelocity.com -> 08/09/2025, 12:18:34
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.com'... -> 08/09/2025, 12:18:35
+  ℹ️ 826 subs found for acronis.com -> 08/09/2025, 12:19:47
+[Asset-Watcher] ℹ️ Starting Subfinder for 'vrbo.com'... -> 08/09/2025, 12:19:48
+  ℹ️ 61 subs found for vrbo.com -> 08/09/2025, 12:20:51
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 08/09/2025, 12:20:51
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 08/09/2025, 12:21:48
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 08/09/2025, 12:21:48
+  ℹ️ 7 subs found for 5nine.com -> 08/09/2025, 12:21:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'quora.com'... -> 08/09/2025, 12:21:52
+[WatchTower] ⏳ Cycle started. Will schedule next cycle after completion. -> 08/09/2025, 12:22:48
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 08/09/2025, 12:22:48
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:23:00
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 08/09/2025, 12:23:30
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 08/09/2025, 12:23:30
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:23:42
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 08/09/2025, 12:23:43
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 08/09/2025, 12:23:43
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:23:56
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 08/09/2025, 12:24:07
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 08/09/2025, 12:24:07
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:24:20
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 08/09/2025, 12:24:29
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 08/09/2025, 12:24:29
+[Program-Watcher] ℹ️ Connection OK -> 08/09/2025, 12:24:42
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 08/09/2025, 12:32:04
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 08/09/2025, 12:32:04
+[Asset-Watcher] ℹ️ Starting subfinder -> 08/09/2025, 12:32:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.com'... -> 08/09/2025, 12:32:07
+  ℹ️ 795 subs found for acronis.com -> 08/09/2025, 12:33:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'wotif.com'... -> 08/09/2025, 12:33:11
+  ℹ️ 25 subs found for wotif.com -> 08/09/2025, 12:34:12
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.com.au'... -> 08/09/2025, 12:34:12
+  ℹ️ 38 subs found for lastminute.com.au -> 08/09/2025, 12:35:14
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 08/09/2025, 12:35:14
+  ℹ️ 1 subs found for linktree-extensions.com -> 08/09/2025, 12:36:15
+[Asset-Watcher] ℹ️ Starting Subfinder for 'acronis.work'... -> 08/09/2025, 12:36:15
+  ℹ️ 250 subs found for acronis.work -> 08/09/2025, 12:37:20
+[Asset-Watcher] ℹ️ Starting Subfinder for 'quora.com'... -> 08/09/2025, 12:37:21
+  ℹ️ 2357 subs found for quora.com -> 08/09/2025, 12:38:24
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.ca'... -> 08/09/2025, 12:38:27
+  ℹ️ 20 subs found for travelocity.ca -> 08/09/2025, 12:39:34
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lastminute.co.nz'... -> 08/09/2025, 12:39:34
+  ℹ️ 7 subs found for lastminute.co.nz -> 08/09/2025, 12:40:36
+[Asset-Watcher] ℹ️ Starting Subfinder for '5nine.com'... -> 08/09/2025, 12:40:36
+  ℹ️ 7 subs found for 5nine.com -> 08/09/2025, 12:41:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'travelocity.com'... -> 08/09/2025, 12:41:36
+  ℹ️ 455 subs found for travelocity.com -> 08/09/2025, 12:42:46
+[Asset-Watcher] ℹ️ Starting Subfinder for 'expediapartnercentral.com'... -> 08/09/2025, 12:42:46
+  ℹ️ 30 subs found for expediapartnercentral.com -> 08/09/2025, 12:43:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 08/09/2025, 12:43:49
+  ℹ️ 6 subs found for tr.ee -> 08/09/2025, 12:44:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'vrbo.com'... -> 08/09/2025, 12:44:52
+  ℹ️ 61 subs found for vrbo.com -> 08/09/2025, 12:45:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 08/09/2025, 12:45:53
+  ℹ️ 287 subs found for linktr.ee -> 08/09/2025, 12:46:56
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree.com'... -> 08/09/2025, 12:46:57
+  ℹ️ 4 subs found for linktree.com -> 08/09/2025, 12:48:00
+[Asset-Watcher] ℹ️ Starting Subfinder for 'devicelock.com'... -> 08/09/2025, 12:48:00
+  ℹ️ 3 subs found for devicelock.com -> 08/09/2025, 12:49:01
+[Asset-Watcher] ℹ️ Starting Subfinder for 'cheaptickets.com'... -> 08/09/2025, 12:49:01
+  ℹ️ 50 subs found for cheaptickets.com -> 08/09/2025, 12:50:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'carrentals.com'... -> 08/09/2025, 12:50:06
+  ℹ️ 43 subs found for carrentals.com -> 08/09/2025, 12:51:11
+[Asset-Watcher] ✅ Finished subfinder -> 08/09/2025, 12:51:11
+[Asset-Watcher] ℹ️ Starting crt.sh -> 08/09/2025, 12:51:12
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.com'... -> 08/09/2025, 12:51:13
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.com after 1/2 attempts. -> 08/09/2025, 12:51:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'wotif.com'... -> 08/09/2025, 12:51:14
+  [Asset-Watcher] ⚠️ No subdomains found for wotif.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:14
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for wotif.com after 1/2 attempts. -> 08/09/2025, 12:51:14
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lastminute.com.au'... -> 08/09/2025, 12:51:15
+  [Asset-Watcher] ⚠️ No subdomains found for lastminute.com.au in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:15
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lastminute.com.au after 1/2 attempts. -> 08/09/2025, 12:51:15
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree-extensions.com'... -> 08/09/2025, 12:51:16
+  [Asset-Watcher] ⚠️ No subdomains found for linktree-extensions.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:16
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree-extensions.com after 1/2 attempts. -> 08/09/2025, 12:51:16
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'acronis.work'... -> 08/09/2025, 12:51:17
+  [Asset-Watcher] ⚠️ No subdomains found for acronis.work in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:17
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for acronis.work after 1/2 attempts. -> 08/09/2025, 12:51:17
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'quora.com'... -> 08/09/2025, 12:51:18
+  [Asset-Watcher] ⚠️ No subdomains found for quora.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:18
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for quora.com after 1/2 attempts. -> 08/09/2025, 12:51:18
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'travelocity.ca'... -> 08/09/2025, 12:51:19
+  [Asset-Watcher] ⚠️ No subdomains found for travelocity.ca in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:19
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for travelocity.ca after 1/2 attempts. -> 08/09/2025, 12:51:19
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lastminute.co.nz'... -> 08/09/2025, 12:51:20
+  [Asset-Watcher] ⚠️ No subdomains found for lastminute.co.nz in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:20
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lastminute.co.nz after 1/2 attempts. -> 08/09/2025, 12:51:20
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '5nine.com'... -> 08/09/2025, 12:51:21
+  [Asset-Watcher] ⚠️ No subdomains found for 5nine.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:21
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 5nine.com after 1/2 attempts. -> 08/09/2025, 12:51:21
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'travelocity.com'... -> 08/09/2025, 12:51:22
+  [Asset-Watcher] ⚠️ No subdomains found for travelocity.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:22
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for travelocity.com after 1/2 attempts. -> 08/09/2025, 12:51:22
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'expediapartnercentral.com'... -> 08/09/2025, 12:51:23
+  [Asset-Watcher] ⚠️ No subdomains found for expediapartnercentral.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:23
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for expediapartnercentral.com after 1/2 attempts. -> 08/09/2025, 12:51:23
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'tr.ee'... -> 08/09/2025, 12:51:24
+  [Asset-Watcher] ⚠️ No subdomains found for tr.ee in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:24
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for tr.ee after 1/2 attempts. -> 08/09/2025, 12:51:24
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'vrbo.com'... -> 08/09/2025, 12:51:25
+  [Asset-Watcher] ⚠️ No subdomains found for vrbo.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:25
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for vrbo.com after 1/2 attempts. -> 08/09/2025, 12:51:25
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktr.ee'... -> 08/09/2025, 12:51:26
+  [Asset-Watcher] ⚠️ No subdomains found for linktr.ee in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:26
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktr.ee after 1/2 attempts. -> 08/09/2025, 12:51:26
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree.com'... -> 08/09/2025, 12:51:27
+  [Asset-Watcher] ⚠️ No subdomains found for linktree.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:27
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree.com after 1/2 attempts. -> 08/09/2025, 12:51:27
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'devicelock.com'... -> 08/09/2025, 12:51:28
+  [Asset-Watcher] ⚠️ No subdomains found for devicelock.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:28
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for devicelock.com after 1/2 attempts. -> 08/09/2025, 12:51:28
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'cheaptickets.com'... -> 08/09/2025, 12:51:29
+  [Asset-Watcher] ⚠️ No subdomains found for cheaptickets.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:29
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for cheaptickets.com after 1/2 attempts. -> 08/09/2025, 12:51:29
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'carrentals.com'... -> 08/09/2025, 12:51:30
+  [Asset-Watcher] ⚠️ No subdomains found for carrentals.com in Crt.sh (Attempt 1) -> 08/09/2025, 12:51:30
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for carrentals.com after 1/2 attempts. -> 08/09/2025, 12:51:30
+[Asset-Watcher] ✅ Finished crt.sh -> 08/09/2025, 12:51:31
+[Asset-Watcher] ℹ️ Starting user subdomains -> 08/09/2025, 12:51:32
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 08/09/2025, 12:51:33
+  [Asset-Watcher] ⚠️ No own subdomains found for tr.ee -> 08/09/2025, 12:51:34
+  [Asset-Watcher] ⚠️ No own subdomains found for vrbo.com -> 08/09/2025, 12:51:35
+  [Asset-Watcher] ⚠️ No own subdomains found for linktr.ee -> 08/09/2025, 12:51:36
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree.com -> 08/09/2025, 12:51:37
+  [Asset-Watcher] ⚠️ No own subdomains found for devicelock.com -> 08/09/2025, 12:51:38
+  [Asset-Watcher] ⚠️ No own subdomains found for cheaptickets.com -> 08/09/2025, 12:51:39
+  [Asset-Watcher] ⚠️ No own subdomains found for carrentals.com -> 08/09/2025, 12:51:40
+  [Asset-Watcher] ⚠️ No own subdomains found for acronis.com -> 08/09/2025, 12:51:41
+  [Asset-Watcher] ⚠️ No own subdomains found for wotif.com -> 08/09/2025, 12:51:42
+  [Asset-Watcher] ⚠️ No own subdomains found for lastminute.com.au -> 08/09/2025, 12:51:43
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree-extensions.com -> 08/09/2025, 12:51:44
+  [Asset-Watcher] ⚠️ No own subdomains found for acronis.work -> 08/09/2025, 12:51:45
+  [Asset-Watcher] ⚠️ No own subdomains found for quora.com -> 08/09/2025, 12:51:46
+  [Asset-Watcher] ⚠️ No own subdomains found for travelocity.ca -> 08/09/2025, 12:51:47
+  [Asset-Watcher] ⚠️ No own subdomains found for lastminute.co.nz -> 08/09/2025, 12:51:48
+  [Asset-Watcher] ⚠️ No own subdomains found for 5nine.com -> 08/09/2025, 12:51:49
+  [Asset-Watcher] ⚠️ No own subdomains found for travelocity.com -> 08/09/2025, 12:51:50
+  [Asset-Watcher] ⚠️ No own subdomains found for expediapartnercentral.com -> 08/09/2025, 12:51:51
+[Asset-Watcher] ✅ Finished user subdomains -> 08/09/2025, 12:51:52
+[Asset-Watcher] ℹ️ Starting httpx -> 08/09/2025, 12:51:53
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'tr.ee - nexovir'... -> 08/09/2025, 12:51:55
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 08/09/2025, 12:52:03
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'vrbo.com - nexovir'... -> 08/09/2025, 12:52:03

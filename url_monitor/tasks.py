@@ -20,6 +20,7 @@ def clear_labels(self):
     SubdomainParameter.objects.all().update(label='available')
     Parameter.objects.all().update(label = 'available')
 
+
 def run_fallparams(input : str , headers : list) -> list:
     try : 
         command = [
@@ -216,7 +217,7 @@ def discover_urls(self, label):
             obj.save()
 
 
-        if isNewUrl : 
+        if isNewUrl and subdomain_obj.label == "available": 
             obj2, created2 = NewUrl.objects.get_or_create(
                 subdomain=subdomain_obj.discovered_subdomain,
                 path=clean_url.path,

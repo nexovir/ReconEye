@@ -116,8 +116,8 @@ class Parameter(BaseModel) :
         return f"{self.url} : {self.method} - {self.parameter}"
 
     class Meta:
-        verbose_name = 'Parameter'
-        verbose_name_plural = 'Parameters'
+        verbose_name = 'URL Parameters'
+        verbose_name_plural = 'URLs Parameters'
 
 
 class SubdomainParameter(BaseModel):
