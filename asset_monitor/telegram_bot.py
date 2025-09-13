@@ -2,10 +2,11 @@ import colorama , time , asyncio , os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Bot
 from telegram.request import HTTPXRequest
 import nest_asyncio
+import infodisclosure_backend.settings
 
 nest_asyncio.apply()
-BOT_TOKEN = "6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA"
-GROUP_ID = -1002827285846
+BOT_TOKEN = TELEGRA_CONFIG['token']
+GROUP_ID = TELEGRA_CONFIG['chat_id']
 
 request = HTTPXRequest(
     connect_timeout=10,

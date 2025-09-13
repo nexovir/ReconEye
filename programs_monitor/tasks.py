@@ -5,6 +5,8 @@ import colorama , json , requests , time , subprocess
 from requests.exceptions import RequestException
 from .models import *
 from .telegram_bot import * # type: ignore
+import infodisclosure_backend.settings
+
 
 # if you want this 
 
@@ -33,8 +35,8 @@ def sendmessage(message: str, telegram: bool = True, colour: str = "YELLOW", log
     if telegram:
         escaped_message = message.replace(' ', '+')
         command = (
-            f'curl -X POST "https://api.telegram.org/bot6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA/sendMessage" '
-            f'-d "chat_id=-1002702601401&text=<code>{escaped_message}</code>&parse_mode=HTML"'
+            f'curl -X POST "https://api.telegram.org/bot{TELEGRA_CONFIG['token']}/sendMessage" '
+            f'-d "chat_id={TELEGRA_CONFIG['chat_id']}&text=<code>{escaped_message}</code>&parse_mode=HTML"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         time.sleep(1)

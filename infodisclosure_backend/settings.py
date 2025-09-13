@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['*']
 # settings.py
 
 AUTHENTICATION_BACKENDS = (
-    'graphql_jwt.backends.JSONWebTokenBackend',  # ← اضافه کن
+    'graphql_jwt.backends.JSONWebTokenBackend',
     'django.contrib.auth.backends.ModelBackend',
 )
 
@@ -39,7 +39,7 @@ CSRF_TRUSTED_ORIGINS = ['https://info-disclosure.ir']
 
 
 
-DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000000  # یا هر عددی که نیاز داری
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000000
 
 # Application definition
 
@@ -71,7 +71,7 @@ INSTALLED_APPS = [
 ]
 
 GRAPHENE = {
-    "SCHEMA": "infodisclosure_backend.schema.schema", # فایل schema.py که بعدا می‌سازیم
+    "SCHEMA": "infodisclosure_backend.schema.schema",
 
     'MIDDLEWARE': [
         'graphql_jwt.middleware.JSONWebTokenMiddleware',
@@ -182,3 +182,10 @@ CELERY_BROKER_TRANSPORT_OPTIONS = {
 
 CELERY_TASK_ACKS_LATE = True
 CELERY_WORKER_PREFETCH_MULTIPLIER = 1
+
+
+
+TELEGRA_CONFIG = {
+    'token' : '6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA' , 
+    'chat_id' : '-1002827285846'
+}
