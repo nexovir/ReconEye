@@ -5,8 +5,8 @@ import nest_asyncio
 import infodisclosure_backend.settings
 
 nest_asyncio.apply()
-BOT_TOKEN = TELEGRA_CONFIG['token']
-GROUP_ID = TELEGRA_CONFIG['chat_id']
+BOT_TOKEN = TELEGRAM_CONF['token']
+GROUP_ID = TELEGRAM_CONF['chat_id']
 
 request = HTTPXRequest(
     connect_timeout=10,
