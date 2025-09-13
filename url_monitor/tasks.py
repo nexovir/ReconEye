@@ -11,7 +11,7 @@ from vulnerability_monitor.tasks import *
 
 OUTPUT_PATH = 'url_monitor/outputs'
 
-EXTS = ['js']
+EXTS = ['js','mjs','jsx','ts','tsx']
 
 def clear_labels(self):
     Url.objects.all().update(label="available")
@@ -221,6 +221,7 @@ def discover_urls(self, label):
             obj2, created2 = NewUrl.objects.get_or_create(
                 subdomain=subdomain_obj.discovered_subdomain,
                 path=clean_url.path,
+                diff_type="url",
                 defaults={
                     "tool": tool,
                    "query": clean_url.query,
@@ -234,6 +235,29 @@ def discover_urls(self, label):
             if created2:
                 obj2.label = "new"
                 obj2.save()
+
+
+            if matched_ext in EXTS:
+
+                obj3, created3 = NewUrl.objects.get_or_create(
+                    subdomain=subdomain_obj.discovered_subdomain,
+                    body_hash=new_body_hash,
+                    diff_type="hash",
+                    defaults={
+                       "tool": tool,
+                       "query": clean_url.query,
+                       "ext": matched_ext,
+                       "path": clean_url.path,
+                       "url": url,
+                       "body_hash": new_body_hash,
+                        "status": status,
+                   },
+                )
+
+                if created3:
+                    obj3.label = "new"
+                    obj3.save()
+
 
     sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})", colour="CYAN")
 
@@ -315,6 +339,7 @@ def detect_urls_changes(self):
             url.save(update_fields=['body_hash', 'status', 'query', 'label'])
 
     sendmessage(f"[Urls-Watcher] ✅ Detect URLs Changes Successfully Done" , colour="CYAN")
+
 
 def discover_parameter(self , label):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: {label})" , colour="CYAN")
@@ -490,8 +515,8 @@ def url_monitor(self):
         vulnerability_monitor_task.si('new'),
 
         discover_urls_task.si('available'),
-        discover_parameter_task.si('available'),
-        fuzz_parameters_on_urls_task.si('available'),
+        # discover_parameter_task.si('available'),
+        # fuzz_parameters_on_urls_task.si('available'),
         vulnerability_monitor_task.si('available'),
         
         detect_urls_changes_task.si(),

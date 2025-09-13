@@ -23,10 +23,10 @@ def clear_services_labels():
 
 def run_subfinder(domain):
     try:
-        sendmessage(f"[Asset-Watcher] ℹ️ Starting Subfinder for '{domain}'..." , telegram=False)
+        sendmessage(f"[Asset-Watcher] ℹ️ Starting Subfinder for '{domain}'..." , telegram=True)
         output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 60 | dnsx -silent").read()
         subdomains = [line.strip() for line in output.splitlines() if line.strip()]
-        sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram=False)
+        sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram=True)
         return subdomains
     except Exception as e:
         sendmessage(f"  [Asset-Watcher] ❌ Error running Subfinder on {domain}: {e}", colour='RED')
@@ -36,7 +36,7 @@ def run_subfinder(domain):
 def run_crtsh(domain, retries=1, timeout=15):  
     for attempt in range(1, retries + 1):
         try:
-            sendmessage(f"[Asset-Watcher] ℹ️ Attempt {attempt}: Starting CRT.sh for '{domain}'...", telegram=False)
+            sendmessage(f"[Asset-Watcher] ℹ️ Attempt {attempt}: Starting CRT.sh for '{domain}'...", telegram=True)
 
             command = f"curl -s 'https://crt.sh/?q={domain}&output=json | jq -r '.[].name_value' | sort -u | dnsx -silent"
 
@@ -52,13 +52,13 @@ def run_crtsh(domain, retries=1, timeout=15):
             subdomains = [line.strip() for line in output.stdout.splitlines() if line.strip()]
             
             if subdomains:
-                sendmessage(f"  [Asset-Watcher] ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' , telegram=False)
+                sendmessage(f"  [Asset-Watcher] ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' , telegram=True)
                 return subdomains
             else:
-                sendmessage(f"  [Asset-Watcher] ⚠️ No subdomains found for {domain} in Crt.sh (Attempt {attempt})", colour='YELLOW' , telegram=False)
+                sendmessage(f"  [Asset-Watcher] ⚠️ No subdomains found for {domain} in Crt.sh (Attempt {attempt})", colour='YELLOW' , telegram=True)
 
         except subprocess.TimeoutExpired:
-            sendmessage(f"  [Asset-Watcher] [TIMEOUT] Crt.sh took longer than {timeout}s for {domain} (Attempt {attempt})", colour='YELLOW' , telegram=False)
+            sendmessage(f"  [Asset-Watcher] [TIMEOUT] Crt.sh took longer than {timeout}s for {domain} (Attempt {attempt})", colour='YELLOW' , telegram=True)
 
         except Exception as e:
             sendmessage(f"  [Asset-Watcher] ❌ Crt.sh error on attempt {attempt} for {domain}: {e}", colour='RED')
@@ -70,16 +70,16 @@ def run_crtsh(domain, retries=1, timeout=15):
 def run_wabackurls(domain, retries=1):
     for attempt in range(1, retries + 1):
         try:
-            sendmessage(f"[Asset-Watcher] ℹ️ Attempt {attempt}: Starting Waybackurls for '{domain}'...", telegram=False)
+            sendmessage(f"[Asset-Watcher] ℹ️ Attempt {attempt}: Starting Waybackurls for '{domain}'...", telegram=True)
             
             output = os.popen(f"echo {domain} | waybackurls | unfurl domains | awk '!seen[$0]++' | dnsx -silent").read()
             subdomains = [line.strip() for line in output.splitlines() if line.strip()]
             
             if subdomains:
-                sendmessage(f"  [Asset-Watcher] ℹ️ {len(subdomains)} subs found for {domain}", colour="GREEN" , telegram=False)
+                sendmessage(f"  [Asset-Watcher] ℹ️ {len(subdomains)} subs found for {domain}", colour="GREEN" , telegram=True)
                 return subdomains
             else:
-                sendmessage(f"  [Asset-Watcher] ⚠️ No subdomains found in attempt {attempt} for {domain}", colour='YELLOW' , telegram=False)
+                sendmessage(f"  [Asset-Watcher] ⚠️ No subdomains found in attempt {attempt} for {domain}", colour='YELLOW' , telegram=True)
 
         except Exception as e:
             sendmessage(f"[Asset-Watcher] ❌ Waybackurls error on attempt {attempt} for {domain}: {e}", colour='RED')
@@ -92,7 +92,7 @@ def run_wabackurls(domain, retries=1):
 def run_httpx(watcher_wildcard, input_file_path):
     
     try:
-        sendmessage(f"  [Asset-Watcher] ℹ️ Starting HTTPx on '{watcher_wildcard}'...", telegram=False)
+        sendmessage(f"  [Asset-Watcher] ℹ️ Starting HTTPx on '{watcher_wildcard}'...", telegram=True)
             
         output_file_path = f"{input_file_path}_output.jsonl"
 
@@ -303,6 +303,85 @@ def process_crtsh(domains):
                 wildcard.save()
     except Exception as e:
         sendmessage(f"[Asset-Watcher] ❌ Process Crt.sh error: {e}" , colour='RED')
+
+
+
+def run_findomain(domain, retries=1, timeout=15):  
+    try:
+        sendmessage(f"[Asset-Watcher] ℹ️ Starting Findomain for '{domain}'..." , telegram=True)
+        output = os.popen(f"findomain -t {domain} -q").read()
+        subdomains = [line.strip() for line in output.splitlines() if line.strip()]
+        sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram=True)
+        return subdomains
+    except Exception as e:
+        sendmessage(f"  [Asset-Watcher] ❌ Error running Findomain on {domain}: {e}", colour='RED')
+        return []
+
+
+
+def process_findomain(domains):
+    try : 
+        tool = Tool.objects.get(tool_name='findomain')
+        for domain in domains :
+            wildcards = WatchedWildcard.objects.filter(is_active=True , tools__tool_name='findomain' , wildcard=domain)
+            wildcards.update(status='running')
+            subdomains = run_findomain(domain)
+            for wildcard in wildcards:
+                wildcard.status = 'running'
+                wildcard.save()
+                for sub in subdomains:
+                    obj, created = DiscoverSubdomain.objects.get_or_create(
+                        wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
+                    )
+                    
+                    if created:
+                        if wildcard.watcher.notify :
+                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
+                        obj.label = "new"
+                        obj.save()
+                wildcard.status = 'completed'
+                wildcard.save()
+    except Exception as e:
+        sendmessage(f"[Asset-Watcher] ❌ Process Findomain error: {e}" , colour='RED')
+
+
+def run_findomain(domain, retries=1, timeout=15):  
+    try:
+        sendmessage(f"[Asset-Watcher] ℹ️ Starting Findomain for '{domain}'..." , telegram=True)
+        output = os.popen(f"curl -s 'https://subdomainfinder.c99.nl/scans/2025-09-08/{domain} | grep -oE '([a-zA-Z0-9_-]+\.)+amazon\.se' | sort -u'").read()
+        subdomains = [line.strip() for line in output.splitlines() if line.strip()]
+        sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram=True)
+        return subdomains
+    except Exception as e:
+        sendmessage(f"  [Asset-Watcher] ❌ Error running Findomain on {domain}: {e}", colour='RED')
+        return []
+
+
+def process_c99(domains):
+    try : 
+        tool = Tool.objects.get(tool_name='c99')
+        for domain in domains :
+            wildcards = WatchedWildcard.objects.filter(is_active=True , tools__tool_name='c99' , wildcard=domain)
+            wildcards.update(status='running')
+            subdomains = run_c99(domain)
+            for wildcard in wildcards:
+                wildcard.status = 'running'
+                wildcard.save()
+                for sub in subdomains:
+                    obj, created = DiscoverSubdomain.objects.get_or_create(
+                        wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
+                    )
+                    
+                    if created:
+                        if wildcard.watcher.notify :
+                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
+                        obj.label = "new"
+                        obj.save()
+                wildcard.status = 'completed'
+                wildcard.save()
+    except Exception as e:
+        sendmessage(f"[Asset-Watcher] ❌ Process Findomain error: {e}" , colour='RED')
+
 
 
 def process_wabackurls(domains):
@@ -547,7 +626,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
 
     def run_httpx(watcher_cidr):
-        sendmessage(f"  [Asset-Watcher] ℹ️ Starting HTTPx on {watcher_cidr.cidr} Assets", telegram=False)
+        sendmessage(f"  [Asset-Watcher] ℹ️ Starting HTTPx on {watcher_cidr.cidr} Assets", telegram=True)
 
         services = watcher_cidr.discoverd_services.all()
         if not services.exists():
@@ -603,7 +682,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
     for watcher_cidr in watcher_cidrs :
         try : 
-            sendmessage(f"[Asset-Watcher] ℹ️ Scanning CIDR: {watcher_cidr.cidr}" , telegram=False)
+            sendmessage(f"[Asset-Watcher] ℹ️ Scanning CIDR: {watcher_cidr.cidr}" , telegram=True)
             run_naabu(watcher_cidr)
             run_httpx(watcher_cidr)
 
@@ -638,7 +717,8 @@ def check_assets(self):
     httpx_domains = set()
     crtsh_domains = set()
     wabackurls_domains = set()
-
+    findomain_domains = set()
+    c99_domains = set()
     for asset in assets:
         try:
             for wildcard in asset.wildcards.all():
@@ -654,6 +734,10 @@ def check_assets(self):
                         crtsh_domains.add(wildcard.wildcard)
                     if tool.tool_name == 'wabackurls':
                         wabackurls_domains.add(wildcard.wildcard)
+                    if tool.tool_name == 'findomain':
+                        findomain_domains.add(wildcard.wildcard)
+                    if tool.tool_name == 'c99':
+                        c99_domains.add(wildcard.wildcard)
 
         except Exception as e:
             asset.status = 'failed'
@@ -663,10 +747,13 @@ def check_assets(self):
     steps = [
         ("subfinder", lambda: process_subfinder(subfinder_domains)),
         ("crt.sh", lambda: process_crtsh(crtsh_domains)),
+        ("findomain", lambda: process_findomain(findomain_domains)),
+        # ("c99", lambda: process_c99(c99_domains)),
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
+
         ("httpx", lambda: process_httpx(assets)),
         ("cidrs scanning", lambda: process_cidrs_scanning(watcher_cidrs)),
-        
+
         # ("wayback urls" , lambda: process_wabackurls(wabackurls_domains))
         # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
     ]

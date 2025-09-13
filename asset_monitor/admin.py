@@ -1,6 +1,8 @@
 from django.contrib import admin
 from .models import *
 from nested_admin import NestedTabularInline, NestedModelAdmin
+from django.urls import reverse
+from django.utils.html import format_html
 
 
 @admin.action(description="Set label to 'New'")
@@ -19,20 +21,30 @@ class RequestHeadersInline(admin.TabularInline):
     show_change_link = True
 
 
+
+
 class WatchedWildcardInline(NestedTabularInline):
     model = WatchedWildcard
     extra = 0
     show_change_link = True
-    readonly_fields = ('subdomains_count', 'valid_subdomains_count')
-    fields = ('wildcard', 'status','tools', 'own_subdomains' ,'subdomains_count', 'valid_subdomains_count')
+    readonly_fields = ('valid_subdomains_count', 'urls_subdomains_count', 'download_params_link')
+    fields = ('id','wildcard', 'status', 'tools', 'own_subdomains', 'valid_subdomains_count', 'urls_subdomains_count', 'download_params_link')
 
-    def subdomains_count(self, obj):
-        return obj.subdomains_count
-    subdomains_count.short_description = 'Total Subdomains'
+    def urls_subdomains_count(self, obj):
+        return obj.urls_subdomains_count
+    urls_subdomains_count.short_description = 'URLs'
 
     def valid_subdomains_count(self, obj):
         return obj.valid_subdomains_count
     valid_subdomains_count.short_description = 'Valid Subdomains'
+
+    def download_params_link(self, obj):
+        if obj.pk:
+            url = reverse('download_wildcard_params', args=[obj.pk])
+            return format_html('<a class="button" href="{}">📥</a>', url)
+        return "-"
+    download_params_link.short_description = "Download Parameters"
+
 
 
 class WatcherCIDRInline(NestedTabularInline):
@@ -60,7 +72,7 @@ class AssetWatcherAdmin(NestedModelAdmin):
 
 @admin.register(WatchedWildcard)
 class WatchedWildcardAdmin(NestedModelAdmin):
-    list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'subdomains_count' , 'valid_subdomains_count', 'updated_at')
+    list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools' , 'valid_subdomains_count', 'updated_at')
     search_fields = ('wildcard',)
     
     list_filter = ['watcher' , 'status' , 'tools']

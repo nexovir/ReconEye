@@ -16,7 +16,6 @@ nest_asyncio.apply()
 
 BOT_TOKEN = "6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA"
 GROUP_ID = -1002632654795
-TOPIC_ID = 16
 SUMMARY_CHANNEL_ID = -1002451703408 
 
 request = HTTPXRequest(
@@ -37,7 +36,6 @@ async def send_message_to_channel(name, scope, platform, time_date, url, target_
 
         await bot.send_message(
             chat_id=GROUP_ID,
-            message_thread_id=TOPIC_ID,
             text=f'''🔺 <b>NEW {target_type.upper()}</b> 🔻
 
 Name : <b>{name}</b>

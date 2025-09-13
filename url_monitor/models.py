@@ -66,6 +66,7 @@ class NewUrl(BaseModel):
     query = models.CharField(null=False , blank=True)
     status = models.CharField(blank=True , null=True)
     ext = models.CharField(choices=EXTENSION , default='none')
+    diff_type = models.CharField(blank=True , null=True)
     body_hash = models.CharField(null=True , blank=True)
     tool = models.CharField(blank=True , null=True)
 
@@ -122,7 +123,7 @@ class Parameter(BaseModel) :
 
 class SubdomainParameter(BaseModel):
     subdomain = models.ForeignKey(DiscoverSubdomain , on_delete=models.CASCADE , null=True , blank=True)
-    parameter = models.CharField(null=False , blank=False)
+    parameter = models.CharField(null=True , blank=True)
     label = models.CharField(choices=LABELS , default='new')
     
     def __str__(self):

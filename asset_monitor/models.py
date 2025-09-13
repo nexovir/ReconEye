@@ -3,7 +3,21 @@ from core.models import BaseModel
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 import os
+from django.http import HttpResponse
 
+
+
+def export_wildcard_parameters_txt(wildcard):
+    lines = []
+    for sub in wildcard.subdomains.all():
+        for param in sub.subdomainparameter_set.all():
+            if param.parameter:
+                lines.append(param.parameter)
+    content = "\n".join(lines)
+
+    response = HttpResponse(content, content_type='text/plain')
+    response['Content-Disposition'] = f'attachment; filename="{wildcard.wildcard}_parameters.txt"'
+    return response
 
 
 
@@ -29,6 +43,8 @@ TOOLS_NAME = [
     ('httpx', 'HTTPX'),
     ('wabackurls', 'Wabackurls'),
     ('crt.sh', 'CRT.sh'),
+    ('findomain', 'Findomain'),
+    ('c99', 'C99'),
     ('daily_narrow_monitoring' , 'Daily Narrow Monitoring'),
     ('daily_vulnerabilities_monitor' , 'Daily Vulnerabilities Monitoring'),
 ]
@@ -93,7 +109,7 @@ class AssetWatcher(BaseModel):
     
 
     def import_wildcards_from_file(self, file_path):
-        tool_names = ['subfinder', 'httpx', 'crt.sh', 'wabackurls']
+        tool_names = ['subfinder', 'httpx', 'crt.sh', 'wabackurls', 'findomain' , 'c99']
         tools = Tool.objects.filter(tool_name__in=tool_names)
         tools_dict = {tool.tool_name: tool for tool in tools}
 
@@ -186,8 +202,10 @@ class WatchedWildcard(BaseModel):
     status = models.CharField(max_length=150, choices=STATUSES, default='pending') 
     
     @property
-    def subdomains_count(self):
-        return self.subdomains.count()
+    def urls_subdomains_count(self):
+        from url_monitor.models import Url 
+        return Url.objects.filter(subdomain__wildcard=self).count()
+
 
     @property
     def valid_subdomains_count(self):

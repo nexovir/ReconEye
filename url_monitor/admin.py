@@ -27,11 +27,12 @@ class UrlAdmin(admin.ModelAdmin):
     short_url.short_description = 'URL'
 
 
+
 @register(NewUrl)
 class NewUrlAdmin(admin.ModelAdmin):
-    list_display = ['subdomain' , 'path' , 'query' , 'status' ,'label', 'ext', 'tool' , 'short_url']
+    list_display = ['subdomain' , 'path' , 'query' , 'status' ,'label', 'ext', 'tool' , 'diff_type', 'short_url']
     search_fields = ['subdomain__subdomain' , 'path']
-    list_filter = ['label' , 'ext' , 'status' , 'tool']
+    list_filter = ['label' , 'ext' , 'status' , 'tool' , 'diff_type']
     ordering = ['-created_at']
     actions = [make_label_new , make_label_available]
 
