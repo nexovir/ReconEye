@@ -41,7 +41,7 @@ CSRF_TRUSTED_ORIGINS = ['https://info-disclosure.ir']
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000000
 
-# Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',

@@ -4,7 +4,7 @@ import colorama
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Bot
 from telegram.request import HTTPXRequest
 import nest_asyncio
-from infodisclosure_backend.settings import TELEGRA_CONFIG
+from infodisclosure_backend.settings import TELEGRAM_CONF
 
 request = HTTPXRequest(
     connect_timeout=10,
@@ -14,9 +14,9 @@ request = HTTPXRequest(
 
 nest_asyncio.apply()
 
-BOT_TOKEN = TELEGRA_CONFIG['token']
-GROUP_ID = TELEGRA_CONFIG['chat_id']
-SUMMARY_CHANNEL_ID = TELEGRA_CONFIG['chat_id']
+BOT_TOKEN = TELEGRAM_CONF['token']
+GROUP_ID = TELEGRAM_CONF['chat_id']
+SUMMARY_CHANNEL_ID = TELEGRAM_CONF['chat_id']
 
 request = HTTPXRequest(
     connect_timeout=10,

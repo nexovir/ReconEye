@@ -2,7 +2,7 @@ import colorama , time , asyncio , os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Bot
 from telegram.request import HTTPXRequest
 import nest_asyncio
-import infodisclosure_backend.settings
+from infodisclosure_backend.settings import TELEGRAM_CONF
 
 nest_asyncio.apply()
 BOT_TOKEN = TELEGRAM_CONF['token']
