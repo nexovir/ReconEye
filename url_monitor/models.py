@@ -40,7 +40,8 @@ class Url(BaseModel):
     ext = models.CharField(choices=EXTENSION , default='none')
     body_hash = models.CharField(null=True , blank=True)
     tool = models.CharField(blank=True , null=True)
-    
+    base64_content= models.TextField(blank=True , null=True)
+
     own_urls = models.FileField(
         upload_to=user_urls_upload_path,
         validators=[validate_wordlist_file],
@@ -69,6 +70,7 @@ class NewUrl(BaseModel):
     diff_type = models.CharField(blank=True , null=True)
     body_hash = models.CharField(null=True , blank=True)
     tool = models.CharField(blank=True , null=True)
+    base64_content= models.TextField(blank=True , null=True)
 
     own_urls = models.FileField(
         upload_to=user_urls_upload_path,
@@ -93,9 +95,11 @@ class UrlChanges(BaseModel):
     query_change = models.CharField(null=True , blank=True)
     body_hash_change = models.CharField(null=True , blank=True)
     status_change = models.CharField(null=True , blank=True)
+    base64_content_change = models.TextField(blank=True , null=True)
+    
     label = models.CharField(choices=LABELS , default='new')
     ext = models.CharField(choices=EXTENSION , default='none')
-
+    
     def __str__(self):
         return f"{self.url} -> {self.ext}"
     

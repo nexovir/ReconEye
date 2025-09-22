@@ -1,13 +1,14 @@
 from celery import shared_task , chain
 from .models import *
 from asset_monitor.models import *
-import subprocess , time , hashlib , requests , json , threading , os , signal , ctypes
+import subprocess , time , hashlib , requests , json , threading , os , signal , ctypes , base64
 from urllib.parse import urlparse 
 from django.db.models import Case, When, Value, IntegerField
 from vulnerability_monitor.tasks import read_write_list
 from programs_monitor.tasks import sendmessage
 from vulnerability_monitor.tasks import *
-
+from django.db import transaction
+from infodisclosure_backend.settings import *
 
 OUTPUT_PATH = 'url_monitor/outputs'
 
@@ -53,7 +54,7 @@ def run_fallparams(input : str , headers : list) -> list:
         return parameters
     
     except Exception as e:
-        sendmessage(f"  [Url-Watcher] ❌ Error Fallparams {input} : {str(e)}", colour="RED")
+        sendmessage(f"  [Url-Watcher] ❌ Error Fallparams {input} : {str(e)}", colour="RED" , telegram=True)
         return []
 
 
@@ -65,7 +66,26 @@ def generate_body_hash(url: str) -> str:
         "Cache-Control": "no-cache","Pragma": "no-cache"},
     )
         body_bytes = response.content 
-        return hashlib.sha256(body_bytes).hexdigest()
+        if len(body_bytes) < MAX_CONTENT_SIZE:
+            return hashlib.sha256(body_bytes).hexdigest()
+        else:
+            return ''
+    except Exception as e:
+        return None
+
+
+def generate_base64_content(url: str) -> str:
+    try:
+        response = requests.get(url, timeout=30, verify=True, headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36",
+        "Cache-Control": "no-cache","Pragma": "no-cache"},
+    )
+        body_bytes = response.content
+        if len(body_bytes) < MAX_CONTENT_SIZE:
+            return base64.b64encode(body_bytes).decode("utf-8")
+        else:
+            return ''
+    
     except Exception as e:
         return None
 
@@ -121,7 +141,7 @@ def run_command(cmd_list, on_line=None, timeout_ms=15*60*1000, idle_timeout_ms=1
             for line in iter(pipe.readline, ''):
                 msg = line.strip()
                 if msg:
-                    sendmessage(f"[Url-Watcher] ⚠️ {msg}", colour="YELLOW")
+                    sendmessage(f"[Url-Watcher] ⚠️ {msg}", colour="YELLOW" , telegram=True)
             pipe.close()
 
         def _read_stdout(pipe):
@@ -150,11 +170,11 @@ def run_command(cmd_list, on_line=None, timeout_ms=15*60*1000, idle_timeout_ms=1
             now = time.monotonic()
             if deadline and now >= deadline:
                 _killpg(p)
-                sendmessage(f"[Url-Watcher] ⏱ Hard timeout: {' '.join(cmd_list)}", colour="RED")
+                sendmessage(f"[Url-Watcher] ⏱ Hard timeout: {' '.join(cmd_list)}", colour="RED" , telegram=True)
                 break
             if idle_timeout_ms and (now - last_activity) >= (idle_timeout_ms/1000.0):
                 _killpg(p)
-                sendmessage(f"[Url-Watcher] ⏱ Idle timeout (no output): {' '.join(cmd_list)}", colour="RED")
+                sendmessage(f"[Url-Watcher] ⏱ Idle timeout (no output): {' '.join(cmd_list)}", colour="RED" , telegram=True)
                 break
             time.sleep(0.2)
 
@@ -164,7 +184,7 @@ def run_command(cmd_list, on_line=None, timeout_ms=15*60*1000, idle_timeout_ms=1
     except Exception as e:
         if p:
             _killpg(p)
-        sendmessage(f"[Url-Watcher] ❌ Failed: {' '.join(cmd_list)} - {e}", colour="RED")
+        sendmessage(f"[Url-Watcher] ❌ Failed: {' '.join(cmd_list)} - {e}", colour="RED" , telegram=True)
 
 
 
@@ -190,23 +210,27 @@ def discover_urls(self, label):
 
         if matched_ext in EXTS:
             new_body_hash = generate_body_hash(url)
+            new_base64_content = generate_base64_content(url)
+
         else:
             new_body_hash = ""
+            new_base64_content = ""
 
         try:
-            resp = requests.get(url, timeout=10)
+            resp = requests.get(url, timeout=60)
             status = resp.status_code
         except requests.RequestException:
             status = None
 
         obj, created = Url.objects.get_or_create(
             subdomain=subdomain_obj.discovered_subdomain,
-            path=clean_url.path,
+            path=clean_url.path.strip().rstrip("/") or "/",
             defaults={
                 "tool": tool,
                 "query": clean_url.query,
                 "ext": matched_ext,
                 "url": url,
+                "base64_content" : new_base64_content,
                 "body_hash": new_body_hash,
                 "status": status,
             },
@@ -226,6 +250,7 @@ def discover_urls(self, label):
                     "tool": tool,
                    "query": clean_url.query,
                    "ext": matched_ext,
+                   "base64_content": new_base64_content,
                    "url": url,
                    "body_hash": new_body_hash,
                     "status": status,
@@ -248,6 +273,7 @@ def discover_urls(self, label):
                        "query": clean_url.query,
                        "ext": matched_ext,
                        "path": clean_url.path,
+                       "base64_content": new_base64_content,
                        "url": url,
                        "body_hash": new_body_hash,
                         "status": status,
@@ -259,7 +285,7 @@ def discover_urls(self, label):
                     obj3.save()
 
 
-    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})", colour="CYAN")
+    sendmessage(f"[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : {label})", colour="CYAN" , telegram=True)
 
     if label == 'new' : 
         subdomains = SubdomainHttpx.objects.filter(label=label)
@@ -284,74 +310,123 @@ def discover_urls(self, label):
             )
 
 
-    sendmessage(f"[Urls-Watcher] ✅ URLs Discovery Successfully Done" , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ✅ URLs Discovery Successfully Done" , colour="CYAN" , telegram=True)
+
+
 
 
 def detect_urls_changes(self):
-    sendmessage(f"[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)" , colour="CYAN")
+    sendmessage(
+        "[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes)",
+        colour="CYAN",
+        telegram=True
+    )
 
-    urls = Url.objects.filter(label='available' , subdomain__wildcard__tools__tool_name="daily_narrow_monitoring")
-    for url in urls:
-        changes = {}
-        try:
-            response = requests.get(
-                url.url, 
-                timeout=30,
-                verify=True, 
-                headers={
-                    "Cache-Control": "no-cache",
-                    "Pragma": "no-cache",
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-                }
+    urls = list(Url.objects.filter(
+        label='available',
+        subdomain__wildcard__tools__tool_name="daily_narrow_monitoring"
+    ))
+
+    for i in range(0, len(urls), BATCH_SIZE):
+        batch = urls[i:i+BATCH_SIZE]
+        url_changes_to_create = []
+        urls_to_update = []
+
+        for url in batch:
+            
+            changes = {}
+
+            try:
+                
+                response = requests.get(
+                    url.url,
+                    timeout=30,
+                    verify=True,
+                    headers={
+                        "Cache-Control": "no-cache",
+                        "Pragma": "no-cache",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+                    }
+                )
+                body_bytes = response.content
+                if len(body_bytes) < MAX_CONTENT_SIZE:
+                    new_body_hash = hashlib.sha256(body_bytes).hexdigest()
+                    new_base64_content = base64.b64encode(body_bytes).decode("utf-8")
+                else:
+                    new_body_hash = ''
+                    new_base64_content = ''
+
+                new_status = str(response.status_code)
+                new_query = url.query
+
+            except requests.RequestException:
+                continue
+
+            if url.body_hash != new_body_hash:
+                changes['body_hash_change'] = f"{url.body_hash} -> {new_body_hash}"
+                url.body_hash = new_body_hash
+
+            if url.base64_content != new_base64_content:
+                changes['base64_change'] = f"{url.base64_content} -> {new_base64_content}"
+                url.base64_content = new_base64_content
+
+            if url.status != new_status:
+                changes['status_change'] = f"{url.status} -> {new_status}"
+                url.status = new_status
+
+            if url.query != new_query:
+                changes['query_change'] = f"{url.query} -> {new_query}"
+                url.query = new_query
+
+            if changes:
+                url.label = 'new'
+                urls_to_update.append(url)
+                url_changes_to_create.append(
+                    UrlChanges(
+                        url=url,
+                        query_change=changes.get('query_change', ''),
+                        base64_content_change=changes.get('base64_change', ''),
+                        body_hash_change=changes.get('body_hash_change', ''),
+                        status_change=changes.get('status_change', ''),
+                        label="new",
+                        ext=url.ext
+                    )
+                )
+
+            time.sleep(REQUEST_DELAY)
+
+        if url_changes_to_create:
+            UrlChanges.objects.bulk_create(url_changes_to_create)
+        if urls_to_update:
+            Url.objects.bulk_update(
+                urls_to_update,
+                ['body_hash', 'base64_content', 'status', 'query', 'label']
             )
-            if url.ext in EXTS : 
-                new_body_hash = hashlib.sha256(response.content).hexdigest()
-            else : 
-                new_body_hash = ''
-            new_status = str(response.status_code)
-            new_query = url.query 
-        except requests.RequestException:
-            continue
-        
 
-        if url.body_hash != new_body_hash:
-            changes['body_hash_change'] = f"{url.body_hash} -> {new_body_hash}"
-            url.body_hash = new_body_hash
+    sendmessage(
+        "[Urls-Watcher] ✅ Detect URLs Changes Successfully Done",
+        colour="CYAN",
+        telegram=True
+    )
 
-        if url.status != new_status:
-            changes['status_change'] = f"{url.status} -> {new_status}"
-            url.status = new_status
-
-        if url.query != new_query:
-            changes['query_change'] = f"{url.query} -> {new_query}"
-            url.query = new_query
-
-        if changes:
-            UrlChanges.objects.create(
-                url=url,
-                query_change=changes.get('query_change', ''),
-                body_hash_change=changes.get('body_hash_change', ''),
-                status_change=changes.get('status_change', ''),
-                label="new",
-                ext=url.ext
-            )
-            url.label = 'new'
-            url.save(update_fields=['body_hash', 'status', 'query', 'label'])
-
-    sendmessage(f"[Urls-Watcher] ✅ Detect URLs Changes Successfully Done" , colour="CYAN")
 
 
 def discover_parameter(self , label):
     sendmessage(f"[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: {label})" , colour="CYAN")
     
-    def parameters_insert_database(subdomain , parameters):
-        for parameter in parameters :
+    def parameters_insert_database(subdomain, parameters):
+        for parameter in parameters:
+            clean_parameter = parameter.replace('\x00', '')
+	        
+            if not clean_parameter.strip():
+                continue
+
             obj, created = SubdomainParameter.objects.get_or_create(
-                subdomain = subdomain,
-                parameter = parameter
+                subdomain=subdomain,
+                parameter=clean_parameter
             )
             if created:
-                obj.label = "new"   
+                obj.label = "new"
                 obj.save()
     
 
@@ -368,7 +443,6 @@ def discover_parameter(self , label):
         parameters_insert_database (subdomain.discovered_subdomain , parameters)
 
     sendmessage(f"[Urls-Watcher] ✅ Parameter Discovery Successfully Done" , colour="CYAN")
-
 
 
 
@@ -398,11 +472,11 @@ def fuzz_parameters_on_urls(self , label):
                         obj.save()
 
         except json.JSONDecodeError as e:
-            sendmessage(f"[Url-Watcher] ❌ Failed to decode JSON for {url_instance}: {str(e)}", colour="RED")
+            sendmessage(f"[Url-Watcher] ❌ Failed to decode JSON for {url_instance}: {str(e)}", colour="RED",telegram=True)
         except FileNotFoundError:
-            sendmessage(f"[Url-Watcher] ❌ JSON file not found: {json_file_path}", colour="RED")
+            sendmessage(f"[Url-Watcher] ❌ JSON file not found: {json_file_path}", colour="RED",telegram=True)
         except Exception as e:
-            sendmessage(f"[Url-Watcher] ❌ Failed to save parameters for {url_instance}: {str(e)}", colour="RED")
+            sendmessage(f"[Url-Watcher] ❌ Failed to save parameters for {url_instance}: {str(e)}", colour="RED" , telegram=True)
 
     def run_x8(url_instance , url, parameters_path, headers):
         for method in ["GET", "POST"]:
@@ -434,19 +508,19 @@ def fuzz_parameters_on_urls(self , label):
                 except subprocess.TimeoutExpired:
                     process.kill()
                     stdout, stderr = process.communicate()
-                    sendmessage(f"[Url-Watcher] ⏱ Timeout X8 {url} with {method}", colour="RED")
+                    sendmessage(f"[Url-Watcher] ⏱ Timeout X8 {url} with {method}", colour="RED" , telegram=True)
                     continue 
 
                 if process.returncode != 0:
-                    sendmessage(f"[Url-Watcher] ❌ X8 failed on {url} with {method}: {stderr.strip()}", colour="RED")
+                    sendmessage(f"[Url-Watcher] ❌ X8 failed on {url} with {method}: {stderr.strip()}", colour="RED" , telegram=True)
                     continue
 
                 save_x8_output_from_file(url_instance , output_file, url)
 
             except Exception as e:
-                sendmessage(f"[Url-Watcher] ❌ Unexpected error X8 {url} with {method}: {str(e)}", colour="RED")
+                sendmessage(f"[Url-Watcher] ❌ Unexpected error X8 {url} with {method}: {str(e)}", colour="RED" , telegram=True)
 
-    sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: {label})", colour="CYAN" , telegram=True)
 
 
     if label == 'new' : 
@@ -471,7 +545,7 @@ def fuzz_parameters_on_urls(self , label):
         for url in urls:
             run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
 
-    sendmessage(f"[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done" , colour="CYAN")
+    sendmessage(f"[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done" , colour="CYAN", telegram=True)
 
 
 
@@ -499,24 +573,24 @@ def detect_urls_changes_task(self):
 
 @shared_task
 def notify_done():
-    sendmessage("[Urls-Watcher] ✅ URL Monitoring Successfully Done", colour="CYAN")
+    sendmessage("[Urls-Watcher] ✅ URL Monitoring Successfully Done", colour="CYAN" , telegram=True)
 
 
 
 @shared_task(bind=True, acks_late=True)
 def url_monitor(self):
     clear_labels(self)
-    sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️")
+    sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️" , telegram=True)
 
     workflow = chain(
         discover_urls_task.s('new'),
         discover_parameter_task.si('new'),
-        fuzz_parameters_on_urls_task.si('new'),
+        ## fuzz_parameters_on_urls_task.si('new'),
         vulnerability_monitor_task.si('new'),
 
         discover_urls_task.si('available'),
-        # discover_parameter_task.si('available'),
-        # fuzz_parameters_on_urls_task.si('available'),
+        discover_parameter_task.si('available'),
+        ## fuzz_parameters_on_urls_task.si('available'),
         vulnerability_monitor_task.si('available'),
         
         detect_urls_changes_task.si(),

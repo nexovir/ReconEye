@@ -1,1 +1,1 @@
-[{"method":"GET","url":"https://0.1.37.internal.psynet.gg/","status":502,"size":315,"found_params":[],"injection_place":"Path"}]
+[{"method":"GET","url":"https://pitiwazou.artstation.com/store/xmoOJ/easyref","status":403,"size":29002,"found_params":[{"name":"__cf_chl_tk","value":null,"diffs":"","status":403,"size":28892,"reason_kind":"NotReflected"},{"name":"__cf_chl_f_tk","value":null,"diffs":"","status":403,"size":26521,"reason_kind":"Reflected"},{"name":"__cf_chl_rt_tk","value":null,"diffs":"","status":403,"size":29888,"reason_kind":"Reflected"}],"injection_place":"Path"}]

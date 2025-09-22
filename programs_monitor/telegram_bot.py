@@ -15,8 +15,8 @@ request = HTTPXRequest(
 nest_asyncio.apply()
 
 BOT_TOKEN = TELEGRAM_CONF['token']
-GROUP_ID = TELEGRAM_CONF['chat_id']
-SUMMARY_CHANNEL_ID = TELEGRAM_CONF['chat_id']
+GROUP_ID = '-1002632654795'
+SUMMARY_CHANNEL_ID = '-1002632654795'
 
 request = HTTPXRequest(
     connect_timeout=10,
@@ -60,7 +60,11 @@ Type : <b>{_type.upper()}</b>
         await asyncio.sleep(1)
 
     except Exception as e:
-        print(colorama.Fore.RED + f"[!] Error sending message: {e}" + colorama.Style.RESET_ALL)
+        print(colorama.Fore.RED + "[!] Error sending message" + colorama.Style.RESET_ALL)
+        print(str(e))
+        traceback.print_exc() 
+    
+
 
 async def startbot(name, scope, platform, time_date, url, target_type, _type):
     async with sem:
@@ -75,7 +79,7 @@ async def send_summary_to_channel(platform_counter):
         for plat, count in platform_counter.items():
             summary_lines.append(f"🔹 <b>{plat.upper()}</b>: {count} new item{'s' if count > 1 else ''}")
 
-        summary_lines.append('\n🔗 Details: <a href="https://t.me/zerosec_watcher/">Click here</a>')
+        summary_lines.append('\n🔗 Details: <a href="https://t.me/zerosec_group/">Click here</a>')
         summary_lines.append('\n#zerosec #bugbounty #watcher #summary_report')
         summary_lines.append("\n")
         summary_lines.append("⭐️ @ZeroSec_team")
@@ -83,7 +87,7 @@ async def send_summary_to_channel(platform_counter):
         summary_text = "\n".join(summary_lines)
 
         keyboard = [
-            [InlineKeyboardButton("⭐️ Visit Details on ZeroSec ⭐️", url="https://t.me/zerosec_watcher/")]
+            [InlineKeyboardButton("⭐️ Visit Details on ZeroSec ⭐️", url="https://t.me/zerosec_group/")]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 

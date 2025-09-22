@@ -44,3 +44,4 @@ class DiscoverdScopeAdmin(admin.ModelAdmin):
     list_display = ('name', 'discovered_program__name','discovered_program__watcher__platform_name','label','type', 'scope_type')
     list_filter = ('type', 'scope_type' , 'discovered_program__watcher__platform_name' , 'label')
     search_fields = ('name',)
+    ordering = ('-created_at',)
