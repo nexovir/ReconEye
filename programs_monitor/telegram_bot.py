@@ -15,8 +15,8 @@ request = HTTPXRequest(
 nest_asyncio.apply()
 
 BOT_TOKEN = TELEGRAM_CONF['token']
-GROUP_ID = '-1002632654795'
-SUMMARY_CHANNEL_ID = '-1002632654795'
+GROUP_ID = TELEGRAM_CONF['chat_id']
+SUMMARY_CHANNEL_ID = TELEGRAM_CONF['chat_id']
 
 request = HTTPXRequest(
     connect_timeout=10,

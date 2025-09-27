@@ -1,1 +1,3 @@
-https://elink.zurichkotak.com
+https://provisioning.kommunikations-dienste.de
+http://provisioning.kommunikations-dienste.de/robots.txt
+http://provisioning.kommunikations-dienste.de/favicon.ico

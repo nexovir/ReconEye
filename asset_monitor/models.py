@@ -6,7 +6,6 @@ import os
 from django.http import HttpResponse
 
 
-
 def export_wildcard_parameters_txt(wildcard):
     lines = []
     for sub in wildcard.subdomains.all():
@@ -17,6 +16,19 @@ def export_wildcard_parameters_txt(wildcard):
 
     response = HttpResponse(content, content_type='text/plain')
     response['Content-Disposition'] = f'attachment; filename="{wildcard.wildcard}_parameters.txt"'
+    return response
+
+
+def export_wildcard_urls_txt(wildcard):
+    lines = []
+    for sub in wildcard.subdomains.all():
+        for url in sub.url_set.all():
+            if url.url:
+                lines.append(url.url)
+    content = "\n".join(lines)
+
+    response = HttpResponse(content, content_type='text/plain')
+    response['Content-Disposition'] = f'attachment; filename="{wildcard.wildcard}_urls.txt"'
     return response
 
 
@@ -203,14 +215,18 @@ class WatchedWildcard(BaseModel):
     
     @property
     def urls_subdomains_count(self):
-        from url_monitor.models import Url 
+        from url_monitor.models import Url
         return Url.objects.filter(subdomain__wildcard=self).count()
-
 
     @property
     def valid_subdomains_count(self):
         return SubdomainHttpx.objects.filter(discovered_subdomain__wildcard=self).count()
 
+    @property
+    def parameter_subdomains_count(self):
+        from url_monitor.models import SubdomainParameter
+        return SubdomainParameter.objects.filter(subdomain__wildcard=self).count()
+        
     def __str__(self):
         return f"{self.wildcard} - {self.watcher.user.username}"
     

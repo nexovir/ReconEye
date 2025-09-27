@@ -27,12 +27,17 @@ class WatchedWildcardInline(NestedTabularInline):
     model = WatchedWildcard
     extra = 0
     show_change_link = True
-    readonly_fields = ('valid_subdomains_count', 'urls_subdomains_count', 'download_params_link')
-    fields = ('id','wildcard', 'status', 'tools', 'own_subdomains', 'valid_subdomains_count', 'urls_subdomains_count', 'download_params_link')
+    readonly_fields = ('valid_subdomains_count', 'urls_subdomains_count', 'parameter_subdomains_count', 'download_params_link', 'download_urls_link')
+    fields = ('id','wildcard', 'status', 'tools', 'own_subdomains', 'valid_subdomains_count', 'urls_subdomains_count', 'download_urls_link' , 'parameter_subdomains_count', 'download_params_link')
 
     def urls_subdomains_count(self, obj):
         return obj.urls_subdomains_count
     urls_subdomains_count.short_description = 'URLs'
+
+    def parameter_subdomains_count(self, obj):
+        return obj.parameter_subdomains_count
+    parameter_subdomains_count.short_description = 'Parameters'
+
 
     def valid_subdomains_count(self, obj):
         return obj.valid_subdomains_count
@@ -45,6 +50,12 @@ class WatchedWildcardInline(NestedTabularInline):
         return "-"
     download_params_link.short_description = "Download Parameters"
 
+    def download_urls_link(self, obj):
+        if obj.pk:
+            url = reverse ('download_wildcard_urls', args=[obj.pk])
+            return format_html('<a class="button" href="{}">📥</a>', url)
+        return "-"
+    download_urls_link.short_description = "Download URLs"
 
 
 class WatcherCIDRInline(NestedTabularInline):
@@ -102,7 +113,7 @@ class SubdomainHttpxAdmin(admin.ModelAdmin):
 
 @admin.register(SubdomainHttpxChanges)
 class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
-    list_display = ['id' , 'discovered_subdomain' , 'label' , 'status_code_change' , 'title_change' , 'server_change'  , 'technologies_change' , 'ip_address_change' , 'port_change' , 'content_type_change',
+    list_display = ['id' , 'httpx_result_change_link' , 'label' , 'status_code_change' , 'title_change' , 'server_change'  , 'technologies_change' , 'ip_address_change' , 'port_change' , 'content_type_change',
                     'line_count_change', 
                     'a_records_change',
                     'body_hash_change', 
@@ -117,7 +128,12 @@ class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
                     'has_cdn_change']
     ordering = ['-created_at']
     actions = [make_label_new , make_label_available]
-
+    
+    def httpx_result_change_link(self, obj):
+        if obj.httpx_result_change:
+            return format_html('<a href="{}" target="_blank">{}</a>', obj.httpx_result_change, obj.httpx_result_change)
+        return "-"
+    httpx_result_change_link.short_description = "httpx_result_change"
 
 
 @admin.register(Ports)
