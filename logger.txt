@@ -6,3 +6,11 @@ Call log:
 Call log:
   - navigating to "http://www.ncontrol.de/onlineshop/+st+?uhiWa=%27zerodium&UGFrH=%27zerodium&FAQs=%27zerodium&ZKssD=%27zerodium&krFcb=%27zerodium&date=%27zerodium&component-TopicTab-ReadWrite=%27zerodium&dnPmg=%27zerodium&mode=%27zerodium&showCtaOnStickyOnly=%27zerodium&JwsvT=%27zerodium&nUulv=%27zerodium&gvVYC=%27zerodium&NPyHP=%27zerodium&Bnkjp=%27zerodium&XdCgv=%27zerodium&ndEQe=%27zerodium&g2rating=%27zerodium&21135=%27zerodium&EGpiV=%27zerodium&LmMLM=%27zerodium&g=%27zerodium&Left=%27zerodium&lPRxP=%27zerodium&jxiYN=%27zerodium", waiting until "networkidle"
  -> 27/09/2025, 21:07:49
+[ERROR] Playwright scan failed: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://www.ncontrol.de/onlineshop/+st+?XJLEC=zerodium&oriya=zerodium&vyUvX=zerodium&chunk-2d207bb6=zerodium&PMfEW=zerodium&g2LinkText=zerodium&ubKxp=zerodium&243241=zerodium&0tAh=zerodium&formResourceSuccessText=zerodium&warning=zerodium&Wt=zerodium&collabs-merchants=zerodium&akRsq=zerodium&cMFQR=zerodium&SZAaf=zerodium&award=zerodium&NEzAt=zerodium&form_type=zerodium&toQWT=zerodium&qEcjI=zerodium&on-error=zerodium&length=zerodium&kVviN=zerodium&Th=zerodium", waiting until "networkidle"
+ -> 27/09/2025, 21:08:21
+[ERROR] Playwright scan failed: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://www.ncontrol.de/onlineshop/+st+?XJLEC=%27zerodium&oriya=%27zerodium&vyUvX=%27zerodium&chunk-2d207bb6=%27zerodium&PMfEW=%27zerodium&g2LinkText=%27zerodium&ubKxp=%27zerodium&243241=%27zerodium&0tAh=%27zerodium&formResourceSuccessText=%27zerodium&warning=%27zerodium&Wt=%27zerodium&collabs-merchants=%27zerodium&akRsq=%27zerodium&cMFQR=%27zerodium&SZAaf=%27zerodium&award=%27zerodium&NEzAt=%27zerodium&form_type=%27zerodium&toQWT=%27zerodium&qEcjI=%27zerodium&on-error=%27zerodium&length=%27zerodium&kVviN=%27zerodium&Th=%27zerodium", waiting until "networkidle"
+ -> 27/09/2025, 21:08:53
