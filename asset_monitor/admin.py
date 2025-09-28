@@ -104,7 +104,7 @@ class DiscoverSubdomainAdmin(admin.ModelAdmin):
 
 @admin.register(SubdomainHttpx)
 class SubdomainHttpxAdmin(admin.ModelAdmin):
-    list_display = ('id','httpx_result','label', 'status_code','server' ,'title', 'ip_address', 'port')
+    list_display = ('id','httpx_result','label', 'status_code','server' ,'title', 'ip_address', 'port' , 'technologies')
     list_filter = ('status_code', 'port' , 'label')
     search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title' , 'technologies','httpx_result')
     ordering = ['-created_at']
