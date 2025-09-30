@@ -592,7 +592,7 @@ def url_monitor(self):
         discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
         fuzz_parameters_on_urls_task.si('available'),
-        vulnerability_monitor_task.si('available'),
+        # vulnerability_monitor_task.si('available'),
         
         detect_urls_changes_task.si(),
         notify_done.si()

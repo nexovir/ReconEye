@@ -345,10 +345,10 @@ def process_findomain(domains):
         sendmessage(f"[Asset-Watcher] ❌ Process Findomain error: {e}" , colour='RED')
 
 
-def run_findomain(domain, retries=1, timeout=15):  
+def run_c99(domain, retries=1, timeout=15):  
     try:
         sendmessage(f"[Asset-Watcher] ℹ️ Starting Findomain for '{domain}'..." , telegram = False)
-        output = os.popen(f"curl -s 'https://subdomainfinder.c99.nl/scans/2025-09-08/{domain} | grep -oE '([a-zA-Z0-9_-]+\.)+amazon\.se' | sort -u'").read()
+        output = os.popen(f"curl -s 'https://subdomainfinder.c99.nl/scans/2025-09-08/{domain}' | grep -oE '([a-zA-Z0-9_-]+\.)+amazon\.se' | sort -u'").read()
         subdomains = [line.strip() for line in output.splitlines() if line.strip()]
         sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram = False)
         return subdomains
@@ -748,9 +748,8 @@ def check_assets(self):
         ("subfinder", lambda: process_subfinder(subfinder_domains)),
         ("crt.sh", lambda: process_crtsh(crtsh_domains)),
         ("findomain", lambda: process_findomain(findomain_domains)),
-        # ("c99", lambda: process_c99(c99_domains)),
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
-
+        # ("c99", lambda: process_c99(c99_domains)),
         ("httpx", lambda: process_httpx(assets)),
         ("cidrs scanning", lambda: process_cidrs_scanning(watcher_cidrs)),
 
