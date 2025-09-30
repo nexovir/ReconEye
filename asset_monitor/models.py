@@ -267,9 +267,9 @@ class SubdomainHttpx(BaseModel):
 
     discovered_subdomain = models.OneToOneField(DiscoverSubdomain , on_delete=models.CASCADE)
     
-    httpx_result = models.URLField(max_length=300 , blank=True , null=True)
+    httpx_result = models.URLField(blank=True , null=True)
     status_code = models.CharField(null=True, blank=True)
-    title = models.CharField(null=True , blank=True , max_length=500)
+    title = models.CharField(null=True , blank=True)
     server = models.CharField(max_length=300 , null=True , blank=True)
     technologies = models.CharField(max_length=900, blank=True)
 
@@ -302,7 +302,7 @@ class SubdomainHttpxChanges(BaseModel):
 
     httpx_result_change = models.CharField(blank=True , null=True)
     status_code_change = models.CharField(null=True, blank=True)
-    title_change = models.CharField(null=True , blank=True , max_length=500)
+    title_change = models.CharField(null=True , blank=True )
     server_change = models.CharField(null=True , blank=True)
     technologies_change = models.CharField(blank=True)
 

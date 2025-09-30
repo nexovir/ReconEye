@@ -488,6 +488,7 @@ def fuzz_parameters_on_urls(self , label):
                 "--output-format", "json",
                 "-o", output_file,
                 "-X", method,
+                '-d', '100',
                 '-L'
             ]
 
@@ -585,12 +586,12 @@ def url_monitor(self):
     workflow = chain(
         discover_urls_task.s('new'),
         discover_parameter_task.si('new'),
-        ## fuzz_parameters_on_urls_task.si('new'),
+        fuzz_parameters_on_urls_task.si('new'),
         vulnerability_monitor_task.si('new'),
 
         discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
-        ## fuzz_parameters_on_urls_task.si('available'),
+        fuzz_parameters_on_urls_task.si('available'),
         vulnerability_monitor_task.si('available'),
         
         detect_urls_changes_task.si(),

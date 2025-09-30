@@ -2942,3 +2942,705 @@ Call log:
 [Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes) -> 28/09/2025, 08:11:06
 [Urls-Watcher] ✅ Detect URLs Changes Successfully Done -> 28/09/2025, 08:11:07
 [Urls-Watcher] ✅ URL Monitoring Successfully Done -> 28/09/2025, 08:11:08
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/MS_IE/Management_Infos/Seite05.htm -> 28/09/2025, 09:34:38
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/MS_IE/Management_Infos/Seite05.htm -> 28/09/2025, 11:46:30
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/Find/01KW21/index04.htm -> 28/09/2025, 13:59:07
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/Find/01KW21/index04.htm -> 28/09/2025, 16:09:56
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://ncontrol.de:80/images/Bildtop_only.jpg -> 28/09/2025, 18:21:19
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://ncontrol.de:80/images/Bildtop_only.jpg -> 28/09/2025, 20:34:04
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/MS_IE/Produkt_Infos/Seite08.htm -> 28/09/2025, 22:47:55
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/MS_IE/Produkt_Infos/Seite08.htm -> 29/09/2025, 01:04:20
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/Find/01KW16/index06.htm -> 29/09/2025, 03:19:13
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/Find/01KW16/index06.htm -> 29/09/2025, 05:36:09
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/MS_IE/Partner/index.htm -> 29/09/2025, 07:52:06
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/MS_IE/Partner/index.htm -> 29/09/2025, 10:21:57
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://ncontrol.de:80/IMAGES/E_A-Daten_mini.jpg -> 29/09/2025, 12:52:36
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://ncontrol.de:80/IMAGES/E_A-Daten_mini.jpg -> 29/09/2025, 15:05:25
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/Find/01KW16/index09.htm -> 29/09/2025, 17:18:04
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/Find/01KW16/index09.htm -> 29/09/2025, 19:31:39
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/Find/01KW16/index12.htm -> 29/09/2025, 21:44:21
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 29/09/2025, 23:15:15
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 29/09/2025, 23:15:16
+[Program-Watcher] ℹ️ Connection OK -> 29/09/2025, 23:15:36
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 29/09/2025, 23:15:57
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 29/09/2025, 23:15:58
+[Program-Watcher] ℹ️ Connection OK -> 29/09/2025, 23:16:09
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 29/09/2025, 23:16:20
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 29/09/2025, 23:16:21
+[Program-Watcher] ℹ️ Connection OK -> 29/09/2025, 23:16:32
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 29/09/2025, 23:17:18
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 29/09/2025, 23:17:19
+[Program-Watcher] ℹ️ Connection OK -> 29/09/2025, 23:17:31
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 29/09/2025, 23:17:33
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 29/09/2025, 23:17:34
+[Program-Watcher] ℹ️ Connection OK -> 29/09/2025, 23:17:48
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 29/09/2025, 23:26:26
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 29/09/2025, 23:26:27
+[Asset-Watcher] ℹ️ Starting subfinder -> 29/09/2025, 23:26:28
+[Asset-Watcher] ℹ️ Starting Subfinder for 'docs.gifty.nl'... -> 29/09/2025, 23:26:29
+  ℹ️ 2 subs found for docs.gifty.nl -> 29/09/2025, 23:26:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pos.gifty.nl'... -> 29/09/2025, 23:26:36
+  ℹ️ 4 subs found for pos.gifty.nl -> 29/09/2025, 23:26:42
+[Asset-Watcher] ✅ Finished subfinder -> 29/09/2025, 23:26:42
+[Asset-Watcher] ℹ️ Starting crt.sh -> 29/09/2025, 23:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'docs.gifty.nl'... -> 29/09/2025, 23:26:44
+  [Asset-Watcher] ⚠️ No subdomains found for docs.gifty.nl in Crt.sh (Attempt 1) -> 29/09/2025, 23:26:44
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for docs.gifty.nl after 1/2 attempts. -> 29/09/2025, 23:26:44
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pos.gifty.nl'... -> 29/09/2025, 23:26:44
+  [Asset-Watcher] ⚠️ No subdomains found for pos.gifty.nl in Crt.sh (Attempt 1) -> 29/09/2025, 23:26:44
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pos.gifty.nl after 1/2 attempts. -> 29/09/2025, 23:26:44
+[Asset-Watcher] ✅ Finished crt.sh -> 29/09/2025, 23:26:44
+[Asset-Watcher] ℹ️ Starting findomain -> 29/09/2025, 23:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'docs.gifty.nl'... -> 29/09/2025, 23:26:46
+  ℹ️ 0 subs found for docs.gifty.nl -> 29/09/2025, 23:26:46
+[Asset-Watcher] ℹ️ Starting Findomain for 'pos.gifty.nl'... -> 29/09/2025, 23:26:46
+  ℹ️ 0 subs found for pos.gifty.nl -> 29/09/2025, 23:26:46
+[Asset-Watcher] ✅ Finished findomain -> 29/09/2025, 23:26:46
+[Asset-Watcher] ℹ️ Starting user subdomains -> 29/09/2025, 23:26:47
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 29/09/2025, 23:26:48
+  [Asset-Watcher] ⚠️ No own subdomains found for docs.gifty.nl -> 29/09/2025, 23:26:48
+  [Asset-Watcher] ⚠️ No own subdomains found for pos.gifty.nl -> 29/09/2025, 23:26:48
+[Asset-Watcher] ✅ Finished user subdomains -> 29/09/2025, 23:26:48
+[Asset-Watcher] ℹ️ Starting httpx -> 29/09/2025, 23:26:49
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'docs.gifty.nl - nexovir'... -> 29/09/2025, 23:26:50
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 29/09/2025, 23:26:59
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pos.gifty.nl - nexovir'... -> 29/09/2025, 23:26:59
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 29/09/2025, 23:27:03
+[Asset-Watcher] ✅ Finished httpx -> 29/09/2025, 23:27:03
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 29/09/2025, 23:27:04
+[Asset-Watcher] ✅ Finished cidrs scanning -> 29/09/2025, 23:27:05
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 29/09/2025, 23:27:06
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 29/09/2025, 23:27:08
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 29/09/2025, 23:27:09
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 29/09/2025, 23:27:10
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 29/09/2025, 23:27:11
+[Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 29/09/2025, 23:27:11
+[vulnerability_monitor] ℹ️ Starting Nuclei Check on Subdomains HTTPX Results -> 29/09/2025, 23:27:11
+[Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 29/09/2025, 23:27:12
+[vulnerability_monitor] ✅ Nuclei Successfully done. -> 29/09/2025, 23:27:13
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : available) -> 29/09/2025, 23:27:13
+[Url-Watcher] ℹ️ Starting Katana for 'http://cdn.docs.gifty.nl'... -> 29/09/2025, 23:27:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://backend.docs.gifty.nl'... -> 29/09/2025, 23:27:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://lightspeed.pos.gifty.nl'... -> 29/09/2025, 23:27:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://racesquare.pos.gifty.nl'... -> 29/09/2025, 23:28:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://bork.pos.gifty.nl'... -> 29/09/2025, 23:28:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://mpluskassa.pos.gifty.nl'... -> 29/09/2025, 23:28:28
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 29/09/2025, 23:28:42
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: available) -> 29/09/2025, 23:28:43
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'cdn.docs.gifty.nl - 301'... -> 29/09/2025, 23:28:43
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'backend.docs.gifty.nl - 302'... -> 29/09/2025, 23:28:44
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'lightspeed.pos.gifty.nl - 302'... -> 29/09/2025, 23:28:45
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'racesquare.pos.gifty.nl - 200'... -> 29/09/2025, 23:28:45
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'bork.pos.gifty.nl - 200'... -> 29/09/2025, 23:28:46
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'mpluskassa.pos.gifty.nl - 200'... -> 29/09/2025, 23:28:46
+[Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 29/09/2025, 23:28:46
+[vulnerability_monitor] ℹ️ Starting Nuclei Check on Subdomains HTTPX Results -> 29/09/2025, 23:28:46
+[Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 29/09/2025, 23:28:47
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on http://cdn.docs.gifty.nl -> 29/09/2025, 23:28:49
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://backend.docs.gifty.nl -> 29/09/2025, 23:30:20
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://lightspeed.pos.gifty.nl -> 29/09/2025, 23:33:56
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://racesquare.pos.gifty.nl -> 29/09/2025, 23:37:47
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://bork.pos.gifty.nl -> 29/09/2025, 23:39:29
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://mpluskassa.pos.gifty.nl -> 29/09/2025, 23:41:18
+[vulnerability_monitor] ✅ Nuclei Successfully done. -> 29/09/2025, 23:42:58
+[Urls-Watcher] ℹ️ Starting Detect URLs Changes (Body-Hash , Query-Changes , Status-Changes) -> 29/09/2025, 23:42:58
+[Urls-Watcher] ✅ Detect URLs Changes Successfully Done -> 29/09/2025, 23:44:46
+[Urls-Watcher] ✅ URL Monitoring Successfully Done -> 29/09/2025, 23:44:47
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/Find/01KW16/index12.htm -> 30/09/2025, 00:00:23
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://ncontrol.de:80/images/BD05372_.gif -> 30/09/2025, 02:14:16
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://ncontrol.de:80/images/BD05372_.gif -> 30/09/2025, 04:27:27
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/MS_IE/Produkt_Infos/Seite40.htm -> 30/09/2025, 06:40:33
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/MS_IE/Produkt_Infos/Seite40.htm -> 30/09/2025, 08:52:49
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 30/09/2025, 10:10:06
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 30/09/2025, 10:10:06
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:10:27
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 30/09/2025, 10:11:01
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 30/09/2025, 10:11:02
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:11:14
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 30/09/2025, 10:11:18
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 30/09/2025, 10:11:19
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:11:30
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 30/09/2025, 10:11:44
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 30/09/2025, 10:11:45
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:11:57
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 30/09/2025, 10:12:09
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 30/09/2025, 10:12:10
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:12:23
+  [Program-Watcher] ❌ in_scope error: can't change 'autocommit' now: connection in transaction status ACTIVE -> 30/09/2025, 10:14:17
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:18
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:19
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:20
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:21
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:22
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:23
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:24
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:25
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:26
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:27
+  [Program-Watcher] ❌ in_scope error: sending query failed: another command is already in progress -> 30/09/2025, 10:14:28
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 30/09/2025, 10:16:54
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 30/09/2025, 10:16:54
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:17:07
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 30/09/2025, 10:17:46
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 30/09/2025, 10:17:47
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:17:58
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 30/09/2025, 10:18:01
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 30/09/2025, 10:18:02
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:18:14
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 30/09/2025, 10:18:29
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 30/09/2025, 10:18:30
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:18:41
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 30/09/2025, 10:18:53
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 30/09/2025, 10:18:54
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 10:19:06
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 30/09/2025, 10:27:34
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 30/09/2025, 10:27:35
+[Asset-Watcher] ℹ️ Starting subfinder -> 30/09/2025, 10:27:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'luckydays.com'... -> 30/09/2025, 10:27:38
+  ℹ️ 26 subs found for luckydays.com -> 30/09/2025, 10:27:46
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.rs'... -> 30/09/2025, 10:27:47
+  ℹ️ 29 subs found for superbet.rs -> 30/09/2025, 10:27:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.com'... -> 30/09/2025, 10:27:54
+  ℹ️ 189 subs found for superbet.com -> 30/09/2025, 10:28:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.ro'... -> 30/09/2025, 10:28:44
+  ℹ️ 70 subs found for superbet.ro -> 30/09/2025, 10:29:13
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleonsports.be'... -> 30/09/2025, 10:29:14
+  ℹ️ 16 subs found for napoleonsports.be -> 30/09/2025, 10:29:37
+[Asset-Watcher] ℹ️ Starting Subfinder for 'luckydays.ca'... -> 30/09/2025, 10:29:38
+  ℹ️ 10 subs found for luckydays.ca -> 30/09/2025, 10:29:50
+[Asset-Watcher] ℹ️ Starting Subfinder for 'superbet.pl'... -> 30/09/2025, 10:29:50
+  ℹ️ 50 subs found for superbet.pl -> 30/09/2025, 10:30:08
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleoncasino.be'... -> 30/09/2025, 10:30:13
+  ℹ️ 13 subs found for napoleoncasino.be -> 30/09/2025, 10:30:30
+[Asset-Watcher] ℹ️ Starting Subfinder for 'spinaway.com'... -> 30/09/2025, 10:30:30
+  ℹ️ 17 subs found for spinaway.com -> 30/09/2025, 10:30:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleondice.be'... -> 30/09/2025, 10:30:43
+  ℹ️ 6 subs found for napoleondice.be -> 30/09/2025, 10:30:53
+[Asset-Watcher] ℹ️ Starting Subfinder for 'napoleongames.be'... -> 30/09/2025, 10:30:53
+  ℹ️ 11 subs found for napoleongames.be -> 30/09/2025, 10:31:10
+[Asset-Watcher] ✅ Finished subfinder -> 30/09/2025, 10:31:10
+[Asset-Watcher] ℹ️ Starting crt.sh -> 30/09/2025, 10:31:11
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'luckydays.com'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for luckydays.com in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for luckydays.com after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.rs'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.rs in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.rs after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.com'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.com in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.com after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.ro'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.ro in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.ro after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleonsports.be'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for napoleonsports.be in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleonsports.be after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'luckydays.ca'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for luckydays.ca in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for luckydays.ca after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'superbet.pl'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for superbet.pl in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for superbet.pl after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleoncasino.be'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for napoleoncasino.be in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleoncasino.be after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'spinaway.com'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for spinaway.com in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for spinaway.com after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleondice.be'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for napoleondice.be in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleondice.be after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'napoleongames.be'... -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ⚠️ No subdomains found for napoleongames.be in Crt.sh (Attempt 1) -> 30/09/2025, 10:31:13
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for napoleongames.be after 1/2 attempts. -> 30/09/2025, 10:31:13
+[Asset-Watcher] ✅ Finished crt.sh -> 30/09/2025, 10:31:13
+[Asset-Watcher] ℹ️ Starting findomain -> 30/09/2025, 10:31:14
+[Asset-Watcher] ℹ️ Starting Findomain for 'luckydays.com'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for luckydays.com -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'superbet.rs'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for superbet.rs -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'superbet.com'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for superbet.com -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'superbet.ro'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for superbet.ro -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'napoleonsports.be'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for napoleonsports.be -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'luckydays.ca'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for luckydays.ca -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'superbet.pl'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for superbet.pl -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'napoleoncasino.be'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for napoleoncasino.be -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'spinaway.com'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for spinaway.com -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'napoleondice.be'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for napoleondice.be -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'napoleongames.be'... -> 30/09/2025, 10:31:15
+  ℹ️ 0 subs found for napoleongames.be -> 30/09/2025, 10:31:15
+[Asset-Watcher] ✅ Finished findomain -> 30/09/2025, 10:31:15
+[Asset-Watcher] ℹ️ Starting user subdomains -> 30/09/2025, 10:31:16
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for luckydays.com -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.rs -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.com -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.ro -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleonsports.be -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for luckydays.ca -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for superbet.pl -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleoncasino.be -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for spinaway.com -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleondice.be -> 30/09/2025, 10:31:17
+  [Asset-Watcher] ⚠️ No own subdomains found for napoleongames.be -> 30/09/2025, 10:31:17
+[Asset-Watcher] ✅ Finished user subdomains -> 30/09/2025, 10:31:17
+[Asset-Watcher] ℹ️ Starting httpx -> 30/09/2025, 10:31:18
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'luckydays.com - nexovir'... -> 30/09/2025, 10:31:19
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:31:29
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.rs - nexovir'... -> 30/09/2025, 10:31:30
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:31:35
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.com - nexovir'... -> 30/09/2025, 10:31:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:31:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.ro - nexovir'... -> 30/09/2025, 10:32:00
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:32:11
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleonsports.be - nexovir'... -> 30/09/2025, 10:32:12
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:32:18
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'luckydays.ca - nexovir'... -> 30/09/2025, 10:32:18
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:32:27
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'superbet.pl - nexovir'... -> 30/09/2025, 10:32:28
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:32:38
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleoncasino.be - nexovir'... -> 30/09/2025, 10:32:39
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:32:44
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'spinaway.com - nexovir'... -> 30/09/2025, 10:32:44
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:32:54
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleondice.be - nexovir'... -> 30/09/2025, 10:32:54
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:33:01
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'napoleongames.be - nexovir'... -> 30/09/2025, 10:33:02
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 10:33:09
+[Asset-Watcher] ✅ Finished httpx -> 30/09/2025, 10:33:11
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 30/09/2025, 10:33:12
+[Asset-Watcher] ✅ Finished cidrs scanning -> 30/09/2025, 10:33:13
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 30/09/2025, 10:33:14
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 30/09/2025, 10:33:15
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 30/09/2025, 10:33:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://campaign.luckydays.com'... -> 30/09/2025, 10:33:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://campaign.luckydays.com'... -> 30/09/2025, 10:33:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://development.luckydays.com'... -> 30/09/2025, 10:33:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://development.luckydays.com'... -> 30/09/2025, 10:33:52
+[Url-Watcher] ℹ️ Starting Katana for 'https://link.info.luckydays.com'... -> 30/09/2025, 10:33:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://link.info.luckydays.com'... -> 30/09/2025, 10:34:05
+[Url-Watcher] ℹ️ Starting Katana for 'https://link.mail.luckydays.com'... -> 30/09/2025, 10:34:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://link.mail.luckydays.com'... -> 30/09/2025, 10:34:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://fallback.luckydays.com'... -> 30/09/2025, 10:34:20
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://fallback.luckydays.com'... -> 30/09/2025, 10:34:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://images.luckydays.com'... -> 30/09/2025, 10:34:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://images.luckydays.com'... -> 30/09/2025, 10:34:53
+[Url-Watcher] ℹ️ Starting Katana for 'http://intl.luckydays.com'... -> 30/09/2025, 10:34:55
+[Url-Watcher] ⏱ Idle timeout (no output): nice-katana http://intl.luckydays.com -> 30/09/2025, 10:36:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://intl.luckydays.com'... -> 30/09/2025, 10:36:56
+[Url-Watcher] ℹ️ Starting Katana for 'http://ftp.luckydays.com'... -> 30/09/2025, 10:37:48
+[Url-Watcher] ⏱ Idle timeout (no output): nice-katana http://ftp.luckydays.com -> 30/09/2025, 10:39:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://ftp.luckydays.com'... -> 30/09/2025, 10:39:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://proxy.luckydays.com'... -> 30/09/2025, 10:39:53
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://proxy.luckydays.com'... -> 30/09/2025, 10:40:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://mail.luckydays.com'... -> 30/09/2025, 10:40:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://mail.luckydays.com'... -> 30/09/2025, 10:40:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://click.luckydays.com'... -> 30/09/2025, 10:40:21
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://click.luckydays.com'... -> 30/09/2025, 10:40:32
+[Url-Watcher] ℹ️ Starting Katana for 'https://hello.luckydays.com'... -> 30/09/2025, 10:40:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://hello.luckydays.com'... -> 30/09/2025, 10:40:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://staging.luckydays.com'... -> 30/09/2025, 10:41:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://staging.luckydays.com'... -> 30/09/2025, 10:41:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://static.luckydays.com'... -> 30/09/2025, 10:41:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://static.luckydays.com'... -> 30/09/2025, 10:41:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://wordpress-staging.luckydays.com'... -> 30/09/2025, 10:41:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://wordpress-staging.luckydays.com'... -> 30/09/2025, 10:42:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://wordpress.luckydays.com'... -> 30/09/2025, 10:42:14
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://wordpress.luckydays.com'... -> 30/09/2025, 10:42:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://www.luckydays.com'... -> 30/09/2025, 10:42:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://www.luckydays.com'... -> 30/09/2025, 10:42:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://promo.luckydays.com'... -> 30/09/2025, 10:53:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://promo.luckydays.com'... -> 30/09/2025, 10:53:21
+[Url-Watcher] ℹ️ Starting Katana for 'https://betting.prod.incubator.superbet.rs'... -> 30/09/2025, 10:53:28
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://betting.prod.incubator.superbet.rs'... -> 30/09/2025, 10:53:39
+[Url-Watcher] ℹ️ Starting Katana for 'https://beta.qa1deva-okta.prod.incubator.superbet.rs'... -> 30/09/2025, 10:53:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://beta.qa1deva-okta.prod.incubator.superbet.rs'... -> 30/09/2025, 10:54:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://api.web.production.betler.superbet.rs'... -> 30/09/2025, 10:54:03
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api.web.production.betler.superbet.rs'... -> 30/09/2025, 10:54:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://api.web.qa.betler.superbet.rs'... -> 30/09/2025, 10:54:16
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api.web.qa.betler.superbet.rs'... -> 30/09/2025, 10:54:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://dev.incubator.superbet.rs'... -> 30/09/2025, 10:54:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://dev.incubator.superbet.rs'... -> 30/09/2025, 10:54:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://abc.superbet.rs'... -> 30/09/2025, 10:54:51
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 30/09/2025, 11:03:21
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 30/09/2025, 11:03:21
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 11:03:34
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 30/09/2025, 11:04:12
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 30/09/2025, 11:04:13
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 11:04:24
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 30/09/2025, 11:04:34
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 30/09/2025, 11:04:35
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 11:04:46
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 30/09/2025, 11:05:04
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 30/09/2025, 11:05:05
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/Find/01KW21/index05.htm -> 30/09/2025, 11:05:10
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 11:05:23
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 30/09/2025, 11:05:33
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 30/09/2025, 11:05:34
+[Program-Watcher] ℹ️ Connection OK -> 30/09/2025, 11:05:47
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 30/09/2025, 11:14:20
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 30/09/2025, 11:14:21
+[Asset-Watcher] ℹ️ Starting subfinder -> 30/09/2025, 11:14:23
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 30/09/2025, 11:14:24
+  ℹ️ 1 subs found for linktree-extensions.com -> 30/09/2025, 11:14:35
+[Asset-Watcher] ℹ️ Starting Subfinder for 'album.link'... -> 30/09/2025, 11:14:35
+  ℹ️ 1 subs found for album.link -> 30/09/2025, 11:15:18
+[Asset-Watcher] ℹ️ Starting Subfinder for 'playlist.link'... -> 30/09/2025, 11:15:18
+  ℹ️ 1 subs found for playlist.link -> 30/09/2025, 11:15:26
+[Asset-Watcher] ℹ️ Starting Subfinder for 'artist.link'... -> 30/09/2025, 11:15:26
+  ℹ️ 1 subs found for artist.link -> 30/09/2025, 11:15:31
+[Asset-Watcher] ℹ️ Starting Subfinder for 'song.link'... -> 30/09/2025, 11:15:31
+  ℹ️ 5 subs found for song.link -> 30/09/2025, 11:16:34
+[Asset-Watcher] ℹ️ Starting Subfinder for 'mylink.page'... -> 30/09/2025, 11:16:34
+  ℹ️ 1 subs found for mylink.page -> 30/09/2025, 11:16:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pinterest.com'... -> 30/09/2025, 11:16:36
+  ℹ️ 490 subs found for pinterest.com -> 30/09/2025, 11:17:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pods.link'... -> 30/09/2025, 11:17:54
+  ℹ️ 1 subs found for pods.link -> 30/09/2025, 11:17:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 30/09/2025, 11:17:59
+  ℹ️ 292 subs found for linktr.ee -> 30/09/2025, 11:19:02
+[Asset-Watcher] ℹ️ Starting Subfinder for 'songlink.io'... -> 30/09/2025, 11:19:06
+  ℹ️ 1 subs found for songlink.io -> 30/09/2025, 11:19:42
+[Asset-Watcher] ℹ️ Starting Subfinder for 'dell.com'... -> 30/09/2025, 11:19:47
+  ℹ️ 7843 subs found for dell.com -> 30/09/2025, 11:22:22
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree.com'... -> 30/09/2025, 11:24:24
+  ℹ️ 4 subs found for linktree.com -> 30/09/2025, 11:24:35
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 30/09/2025, 11:24:35
+  ℹ️ 6 subs found for tr.ee -> 30/09/2025, 11:25:04
+[Asset-Watcher] ℹ️ Starting Subfinder for 'delltechnologies.com'... -> 30/09/2025, 11:25:04
+  ℹ️ 103 subs found for delltechnologies.com -> 30/09/2025, 11:26:07
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.co'... -> 30/09/2025, 11:26:09
+  ℹ️ 9 subs found for odesli.co -> 30/09/2025, 11:26:33
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.com'... -> 30/09/2025, 11:26:33
+  ℹ️ 1 subs found for odesli.com -> 30/09/2025, 11:26:40
+[Asset-Watcher] ✅ Finished subfinder -> 30/09/2025, 11:26:40
+[Asset-Watcher] ℹ️ Starting crt.sh -> 30/09/2025, 11:26:41
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree-extensions.com'... -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for linktree-extensions.com in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree-extensions.com after 1/2 attempts. -> 30/09/2025, 11:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'album.link'... -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for album.link in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for album.link after 1/2 attempts. -> 30/09/2025, 11:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'playlist.link'... -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for playlist.link in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for playlist.link after 1/2 attempts. -> 30/09/2025, 11:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'artist.link'... -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for artist.link in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for artist.link after 1/2 attempts. -> 30/09/2025, 11:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'song.link'... -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for song.link in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for song.link after 1/2 attempts. -> 30/09/2025, 11:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'mylink.page'... -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for mylink.page in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for mylink.page after 1/2 attempts. -> 30/09/2025, 11:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pinterest.com'... -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ⚠️ No subdomains found for pinterest.com in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:42
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pinterest.com after 1/2 attempts. -> 30/09/2025, 11:26:42
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pods.link'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for pods.link in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pods.link after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktr.ee'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for linktr.ee in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktr.ee after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'songlink.io'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for songlink.io in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for songlink.io after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'dell.com'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for dell.com in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for dell.com after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree.com'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for linktree.com in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree.com after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'tr.ee'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for tr.ee in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for tr.ee after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'delltechnologies.com'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for delltechnologies.com in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for delltechnologies.com after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.co'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.co in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.co after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.com'... -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.com in Crt.sh (Attempt 1) -> 30/09/2025, 11:26:43
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.com after 1/2 attempts. -> 30/09/2025, 11:26:43
+[Asset-Watcher] ✅ Finished crt.sh -> 30/09/2025, 11:26:43
+[Asset-Watcher] ℹ️ Starting findomain -> 30/09/2025, 11:26:44
+[Asset-Watcher] ℹ️ Starting Findomain for 'linktree-extensions.com'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for linktree-extensions.com -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'album.link'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for album.link -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'playlist.link'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for playlist.link -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'artist.link'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for artist.link -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'song.link'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for song.link -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'mylink.page'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for mylink.page -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'pinterest.com'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for pinterest.com -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'pods.link'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for pods.link -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'linktr.ee'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for linktr.ee -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'songlink.io'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for songlink.io -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'dell.com'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for dell.com -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'linktree.com'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for linktree.com -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'tr.ee'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for tr.ee -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'delltechnologies.com'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for delltechnologies.com -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'odesli.co'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for odesli.co -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'odesli.com'... -> 30/09/2025, 11:26:45
+  ℹ️ 0 subs found for odesli.com -> 30/09/2025, 11:26:45
+[Asset-Watcher] ✅ Finished findomain -> 30/09/2025, 11:26:45
+[Asset-Watcher] ℹ️ Starting user subdomains -> 30/09/2025, 11:26:46
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for odesli.co -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for odesli.com -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree-extensions.com -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for album.link -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for playlist.link -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for artist.link -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for song.link -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for mylink.page -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for pinterest.com -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for pods.link -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for linktr.ee -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for songlink.io -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for dell.com -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree.com -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for tr.ee -> 30/09/2025, 11:26:47
+  [Asset-Watcher] ⚠️ No own subdomains found for delltechnologies.com -> 30/09/2025, 11:26:47
+[Asset-Watcher] ✅ Finished user subdomains -> 30/09/2025, 11:26:47
+[Asset-Watcher] ℹ️ Starting httpx -> 30/09/2025, 11:26:48
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.co - nexovir'... -> 30/09/2025, 11:26:49
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:26:55
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.com - nexovir'... -> 30/09/2025, 11:26:55
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:26:57
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree-extensions.com - nexovir'... -> 30/09/2025, 11:26:57
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:27:03
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'album.link - nexovir'... -> 30/09/2025, 11:27:03
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:27:05
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'playlist.link - nexovir'... -> 30/09/2025, 11:27:05
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:27:07
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'artist.link - nexovir'... -> 30/09/2025, 11:27:07
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:27:09
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'song.link - nexovir'... -> 30/09/2025, 11:27:09
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:27:12
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'mylink.page - nexovir'... -> 30/09/2025, 11:27:12
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:27:15
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pinterest.com - nexovir'... -> 30/09/2025, 11:27:15
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:31:42
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pods.link - nexovir'... -> 30/09/2025, 11:31:47
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:31:49
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktr.ee - nexovir'... -> 30/09/2025, 11:31:49
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:33:23
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'songlink.io - nexovir'... -> 30/09/2025, 11:33:27
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 11:33:29
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'dell.com - nexovir'... -> 30/09/2025, 11:33:29
+[Asset-Watcher] ℹ️ Starting subfinder -> 30/09/2025, 11:40:11
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 30/09/2025, 11:40:12
+  ℹ️ 1 subs found for linktree-extensions.com -> 30/09/2025, 11:40:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'album.link'... -> 30/09/2025, 11:40:43
+  ℹ️ 1 subs found for album.link -> 30/09/2025, 11:41:22
+[Asset-Watcher] ℹ️ Starting Subfinder for 'playlist.link'... -> 30/09/2025, 11:41:22
+  ℹ️ 1 subs found for playlist.link -> 30/09/2025, 11:41:38
+[Asset-Watcher] ℹ️ Starting Subfinder for 'artist.link'... -> 30/09/2025, 11:41:38
+  ℹ️ 1 subs found for artist.link -> 30/09/2025, 11:42:20
+[Asset-Watcher] ℹ️ Starting Subfinder for 'song.link'... -> 30/09/2025, 11:42:20
+  ℹ️ 5 subs found for song.link -> 30/09/2025, 11:43:21
+[Asset-Watcher] ℹ️ Starting Subfinder for 'mylink.page'... -> 30/09/2025, 11:43:21
+  ℹ️ 1 subs found for mylink.page -> 30/09/2025, 11:43:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pinterest.com'... -> 30/09/2025, 11:43:57
+  ℹ️ 490 subs found for pinterest.com -> 30/09/2025, 11:45:01
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pods.link'... -> 30/09/2025, 11:45:01
+  ℹ️ 1 subs found for pods.link -> 30/09/2025, 11:45:23
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 30/09/2025, 11:45:24
+  ℹ️ 288 subs found for linktr.ee -> 30/09/2025, 11:46:35
+[Asset-Watcher] ℹ️ Starting Subfinder for 'songlink.io'... -> 30/09/2025, 11:46:36
+  ℹ️ 1 subs found for songlink.io -> 30/09/2025, 11:47:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'dell.com'... -> 30/09/2025, 11:47:36
+  ℹ️ 6037 subs found for dell.com -> 30/09/2025, 11:49:37
+[Asset-Watcher] ❌ HTTPx failed: Command '['httpx', '-l', 'asset_monitor/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '10', '-timeout', '4']' returned non-zero exit status 1. -> 30/09/2025, 11:49:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'linktree.com - nexovir'... -> 30/09/2025, 11:49:37
+[Asset-Watcher] ℹ️ Starting subfinder -> 30/09/2025, 11:49:55
+[Asset-Watcher] ℹ️ Starting Subfinder for 'artist.link'... -> 30/09/2025, 11:49:56
+  ℹ️ 1 subs found for artist.link -> 30/09/2025, 11:50:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 30/09/2025, 11:50:57
+  ℹ️ 6 subs found for tr.ee -> 30/09/2025, 11:52:01
+[Asset-Watcher] ℹ️ Starting Subfinder for 'songlink.io'... -> 30/09/2025, 11:52:01
+  ℹ️ 1 subs found for songlink.io -> 30/09/2025, 11:53:02
+[Asset-Watcher] ℹ️ Starting Subfinder for 'delltechnologies.com'... -> 30/09/2025, 11:53:02
+  ℹ️ 103 subs found for delltechnologies.com -> 30/09/2025, 11:54:04
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 30/09/2025, 11:54:05
+  ℹ️ 1 subs found for linktree-extensions.com -> 30/09/2025, 11:55:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'album.link'... -> 30/09/2025, 11:55:06
+  ℹ️ 1 subs found for album.link -> 30/09/2025, 11:56:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'song.link'... -> 30/09/2025, 11:56:06
+  ℹ️ 5 subs found for song.link -> 30/09/2025, 11:57:07
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pinterest.com'... -> 30/09/2025, 11:57:07
+  ℹ️ 490 subs found for pinterest.com -> 30/09/2025, 11:58:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktr.ee'... -> 30/09/2025, 11:58:11
+  ℹ️ 234 subs found for linktr.ee -> 30/09/2025, 11:59:23
+[Asset-Watcher] ℹ️ Starting Subfinder for 'dell.com'... -> 30/09/2025, 11:59:23
+  ℹ️ 9268 subs found for dell.com -> 30/09/2025, 12:03:00
+[Asset-Watcher] ℹ️ Starting Subfinder for 'playlist.link'... -> 30/09/2025, 12:03:37
+  ℹ️ 1 subs found for playlist.link -> 30/09/2025, 12:04:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pods.link'... -> 30/09/2025, 12:04:39
+  ℹ️ 1 subs found for pods.link -> 30/09/2025, 12:05:40
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree.com'... -> 30/09/2025, 12:05:40
+  ℹ️ 4 subs found for linktree.com -> 30/09/2025, 12:06:41
+[Asset-Watcher] ℹ️ Starting Subfinder for 'mylink.page'... -> 30/09/2025, 12:06:41
+  ℹ️ 1 subs found for mylink.page -> 30/09/2025, 12:07:42
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.com'... -> 30/09/2025, 12:07:42
+  ℹ️ 1 subs found for odesli.com -> 30/09/2025, 12:08:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'odesli.co'... -> 30/09/2025, 12:08:43
+  ℹ️ 9 subs found for odesli.co -> 30/09/2025, 12:09:44
+[Asset-Watcher] ✅ Finished subfinder -> 30/09/2025, 12:09:44
+[Asset-Watcher] ℹ️ Starting crt.sh -> 30/09/2025, 12:09:45
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'artist.link'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for artist.link in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for artist.link after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'tr.ee'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for tr.ee in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for tr.ee after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'songlink.io'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for songlink.io in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for songlink.io after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'delltechnologies.com'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for delltechnologies.com in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for delltechnologies.com after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree-extensions.com'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for linktree-extensions.com in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree-extensions.com after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'album.link'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for album.link in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for album.link after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'song.link'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for song.link in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for song.link after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pinterest.com'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for pinterest.com in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pinterest.com after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktr.ee'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for linktr.ee in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktr.ee after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'dell.com'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for dell.com in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for dell.com after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'playlist.link'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for playlist.link in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for playlist.link after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pods.link'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for pods.link in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pods.link after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'linktree.com'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for linktree.com in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for linktree.com after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'mylink.page'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for mylink.page in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for mylink.page after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.com'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.com in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.com after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'odesli.co'... -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ⚠️ No subdomains found for odesli.co in Crt.sh (Attempt 1) -> 30/09/2025, 12:09:46
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for odesli.co after 1/2 attempts. -> 30/09/2025, 12:09:46
+[Asset-Watcher] ✅ Finished crt.sh -> 30/09/2025, 12:09:46
+[Asset-Watcher] ℹ️ Starting findomain -> 30/09/2025, 12:09:47
+[Asset-Watcher] ℹ️ Starting Findomain for 'artist.link'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for artist.link -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'tr.ee'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for tr.ee -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'songlink.io'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for songlink.io -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'delltechnologies.com'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for delltechnologies.com -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'linktree-extensions.com'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for linktree-extensions.com -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'album.link'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for album.link -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'song.link'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for song.link -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'pinterest.com'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for pinterest.com -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'linktr.ee'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for linktr.ee -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'dell.com'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for dell.com -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'playlist.link'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for playlist.link -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'pods.link'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for pods.link -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'linktree.com'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for linktree.com -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'mylink.page'... -> 30/09/2025, 12:09:48
+  ℹ️ 0 subs found for mylink.page -> 30/09/2025, 12:09:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'odesli.com'... -> 30/09/2025, 12:09:49
+  ℹ️ 0 subs found for odesli.com -> 30/09/2025, 12:09:49
+[Asset-Watcher] ℹ️ Starting Findomain for 'odesli.co'... -> 30/09/2025, 12:09:49
+  ℹ️ 0 subs found for odesli.co -> 30/09/2025, 12:09:49
+[Asset-Watcher] ✅ Finished findomain -> 30/09/2025, 12:09:49
+[Asset-Watcher] ℹ️ Starting user subdomains -> 30/09/2025, 12:09:50
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for odesli.com -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for odesli.co -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for artist.link -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for tr.ee -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for songlink.io -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for delltechnologies.com -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree-extensions.com -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for album.link -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for song.link -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for pinterest.com -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for linktr.ee -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for dell.com -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for playlist.link -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for pods.link -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for linktree.com -> 30/09/2025, 12:09:51
+  [Asset-Watcher] ⚠️ No own subdomains found for mylink.page -> 30/09/2025, 12:09:51
+[Asset-Watcher] ✅ Finished user subdomains -> 30/09/2025, 12:09:51
+[Asset-Watcher] ℹ️ Starting httpx -> 30/09/2025, 12:09:52
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.com - nexovir'... -> 30/09/2025, 12:09:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 12:09:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'odesli.co - nexovir'... -> 30/09/2025, 12:09:56
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 12:10:01
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'artist.link - nexovir'... -> 30/09/2025, 12:10:01
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 12:10:02
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'tr.ee - nexovir'... -> 30/09/2025, 12:10:02
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 12:10:11
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'songlink.io - nexovir'... -> 30/09/2025, 12:10:12
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 12:10:14
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'delltechnologies.com - nexovir'... -> 30/09/2025, 12:10:14
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 30/09/2025, 12:10:52
+[Asset-Watcher] ❌ httpx failed: value too long for type character varying(500) -> 30/09/2025, 12:10:53
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 30/09/2025, 12:10:54
+[Asset-Watcher] ✅ Finished cidrs scanning -> 30/09/2025, 12:10:55
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 30/09/2025, 12:10:56
+[Asset-Watcher] ℹ️ Starting subfinder -> 30/09/2025, 12:21:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'artist.link'... -> 30/09/2025, 12:21:50
+  ℹ️ 1 subs found for artist.link -> 30/09/2025, 12:22:51
+[Asset-Watcher] ℹ️ Starting Subfinder for 'tr.ee'... -> 30/09/2025, 12:22:51
+  ℹ️ 6 subs found for tr.ee -> 30/09/2025, 12:23:55
+[Asset-Watcher] ℹ️ Starting Subfinder for 'songlink.io'... -> 30/09/2025, 12:23:55
+  ℹ️ 1 subs found for songlink.io -> 30/09/2025, 12:24:55
+[Asset-Watcher] ℹ️ Starting Subfinder for 'delltechnologies.com'... -> 30/09/2025, 12:24:55
+  ℹ️ 103 subs found for delltechnologies.com -> 30/09/2025, 12:25:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'mylink.page'... -> 30/09/2025, 12:25:59
+  ℹ️ 1 subs found for mylink.page -> 30/09/2025, 12:26:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'linktree-extensions.com'... -> 30/09/2025, 12:26:59
+  ℹ️ 1 subs found for linktree-extensions.com -> 30/09/2025, 12:28:00
+[Asset-Watcher] ℹ️ Starting Subfinder for 'album.link'... -> 30/09/2025, 12:28:00
