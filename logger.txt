@@ -4241,3 +4241,29 @@ Call log:
 [Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:15:50
        [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 02/10/2025, 15:15:54
 [Program-Watcher] ✅ Program Monitoring Successfully Done -> 02/10/2025, 15:15:55
+[Asset-Watcher] ℹ️ Starting subfinder -> 02/10/2025, 15:33:11
+[Asset-Watcher] ℹ️ Starting Subfinder for 'delltechnologies.com'... -> 02/10/2025, 15:33:12
+[Asset-Watcher] ℹ️ Starting subfinder -> 02/10/2025, 15:33:40
+[Asset-Watcher] ℹ️ Starting Subfinder for 'delltechnologies.com'... -> 02/10/2025, 15:33:41
+  ℹ️ 103 subs found for delltechnologies.com -> 02/10/2025, 15:34:49
+[Asset-Watcher] ✅ Finished subfinder -> 02/10/2025, 15:34:49
+[Asset-Watcher] ℹ️ Starting crt.sh -> 02/10/2025, 15:34:50
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'delltechnologies.com'... -> 02/10/2025, 15:34:51
+  [Asset-Watcher] ⚠️ No subdomains found for delltechnologies.com in Crt.sh (Attempt 1) -> 02/10/2025, 15:34:51
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for delltechnologies.com after 1/2 attempts. -> 02/10/2025, 15:34:51
+[Asset-Watcher] ✅ Finished crt.sh -> 02/10/2025, 15:34:51
+[Asset-Watcher] ℹ️ Starting findomain -> 02/10/2025, 15:34:52
+[Asset-Watcher] ℹ️ Starting Findomain for 'delltechnologies.com'... -> 02/10/2025, 15:34:53
+  ℹ️ 247 subs found for delltechnologies.com -> 02/10/2025, 15:35:33
+[Asset-Watcher] ✅ Finished findomain -> 02/10/2025, 15:35:33
+[Asset-Watcher] ℹ️ Starting user subdomains -> 02/10/2025, 15:35:34
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 02/10/2025, 15:35:35
+  [Asset-Watcher] ⚠️ No own subdomains found for delltechnologies.com -> 02/10/2025, 15:35:35
+[Asset-Watcher] ✅ Finished user subdomains -> 02/10/2025, 15:35:35
+[Asset-Watcher] ℹ️ Starting httpx -> 02/10/2025, 15:35:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'delltechnologies.com - nexovir'... -> 02/10/2025, 15:35:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 02/10/2025, 15:37:44
+[Asset-Watcher] ✅ Finished httpx -> 02/10/2025, 15:37:44
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 02/10/2025, 15:37:45
+[Asset-Watcher] ✅ Finished cidrs scanning -> 02/10/2025, 15:37:46
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 02/10/2025, 15:37:47

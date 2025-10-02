@@ -110,10 +110,12 @@ def run_httpx(watcher_wildcard, input_file_path):
             '-cname',
             '-content-type',
             '-no-color',
+            '-http-proxy',PROXIES['http'],
             '-json',
             '-silent',
             '-threads', '10',
-            '-timeout', '4'
+            '-timeout', '4',
+            
         ]
 
         with open(output_file_path, 'w') as outfile, open(os.devnull, 'w') as devnull:
@@ -602,9 +604,10 @@ def process_cidrs_scanning(watcher_cidrs):
 
         try:
             result = subprocess.run(
-                ['httpx', '-l', f.name, '-sc', '-threads', '10', '-timeout','7', '-no-color','-silent'],
+                ['httpx', '-l', f.name, '-sc', '-threads', '10', '-timeout','7', '-no-color','-http-proxy', PROXIES['http'] , '-silent'],
                 capture_output=True, text=True, check=True
             )
+            print(result)
         except subprocess.CalledProcessError as e:
             sendmessage(f"[Asset-Watcher] ❌ Error running httpx: {e}", colour="RED")
             return
@@ -680,7 +683,6 @@ def check_assets(self):
     crtsh_domains = set()
     wabackurls_domains = set()
     findomain_domains = set()
-    c99_domains = set()
     for asset in assets:
         try:
             for wildcard in asset.wildcards.all():
@@ -698,8 +700,6 @@ def check_assets(self):
                         wabackurls_domains.add(wildcard.wildcard)
                     if tool.tool_name == 'findomain':
                         findomain_domains.add(wildcard.wildcard)
-                    if tool.tool_name == 'c99':
-                        c99_domains.add(wildcard.wildcard)
 
         except Exception as e:
             asset.status = 'failed'
@@ -713,7 +713,6 @@ def check_assets(self):
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
         ("httpx", lambda: process_httpx(assets)),
         ("cidrs scanning", lambda: process_cidrs_scanning(watcher_cidrs)),
-
         # ("wayback urls" , lambda: process_wabackurls(wabackurls_domains))
         # ("dns bruteforce", lambda: process_dns_bruteforce(assets)),
     ]

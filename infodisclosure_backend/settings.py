@@ -194,7 +194,8 @@ TELEGRAM_CONF = {
 
 PROXIES = {
     "http": "socks5h://127.0.0.1:1080",
-    "https": "socks5h://127.0.0.1:1080"
+    "https": "socks5h://127.0.0.1:1080",
+    "tor" : "socks5h://127.0.0.1:9050"
 }
 
 

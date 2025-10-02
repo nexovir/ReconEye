@@ -56,7 +56,6 @@ TOOLS_NAME = [
     ('wabackurls', 'Wabackurls'),
     ('crt.sh', 'CRT.sh'),
     ('findomain', 'Findomain'),
-    ('c99', 'C99'),
     ('daily_narrow_monitoring' , 'Daily Narrow Monitoring'),
     ('daily_vulnerabilities_monitor' , 'Daily Vulnerabilities Monitoring'),
 ]
@@ -121,7 +120,7 @@ class AssetWatcher(BaseModel):
     
 
     def import_wildcards_from_file(self, file_path):
-        tool_names = ['subfinder', 'httpx', 'crt.sh', 'wabackurls', 'findomain' , 'c99']
+        tool_names = ['subfinder', 'httpx', 'crt.sh', 'wabackurls', 'findomain']
         tools = Tool.objects.filter(tool_name__in=tool_names)
         tools_dict = {tool.tool_name: tool for tool in tools}
 

@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='tool',
             name='tool_name',
-            field=models.CharField(choices=[('owned', 'Owned'), ('amass', 'Amass'), ('subfinder', 'Subfinder'), ('dns_bruteforce', 'DNS Bruteforce'), ('httpx', 'HTTPX'), ('wabackurls', 'Wabackurls'), ('crt.sh', 'CRT.sh'), ('findomain', 'Findomain'), ('c99', 'C99'), ('daily_narrow_monitoring', 'Daily Narrow Monitoring'), ('daily_vulnerabilities_monitor', 'Daily Vulnerabilities Monitoring')], default='subfinder', max_length=120),
+            field=models.CharField(choices=[('owned', 'Owned'), ('amass', 'Amass'), ('subfinder', 'Subfinder'), ('dns_bruteforce', 'DNS Bruteforce'), ('httpx', 'HTTPX'), ('wabackurls', 'Wabackurls'), ('crt.sh', 'CRT.sh'), ('findomain', 'Findomain'), ('daily_narrow_monitoring', 'Daily Narrow Monitoring'), ('daily_vulnerabilities_monitor', 'Daily Vulnerabilities Monitoring')], default='subfinder', max_length=120),
         ),
     ]
