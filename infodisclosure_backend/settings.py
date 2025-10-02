@@ -190,6 +190,15 @@ TELEGRAM_CONF = {
     'chat_id' : '-1002702601401'
 }
 
+
+
+PROXIES = {
+    "http": "socks5h://127.0.0.1:1080",
+    "https": "socks5h://127.0.0.1:1080"
+}
+
+
+
 MAX_CONTENT_SIZE = 1024 * 1024  # 1MB
 BATCH_SIZE = 50
 REQUEST_DELAY = 0.1

@@ -345,44 +345,6 @@ def process_findomain(domains):
         sendmessage(f"[Asset-Watcher] ❌ Process Findomain error: {e}" , colour='RED')
 
 
-def run_c99(domain, retries=1, timeout=15):  
-    try:
-        sendmessage(f"[Asset-Watcher] ℹ️ Starting Findomain for '{domain}'..." , telegram = False)
-        output = os.popen(f"curl -s 'https://subdomainfinder.c99.nl/scans/2025-09-08/{domain}' | grep -oE '([a-zA-Z0-9_-]+\.)+amazon\.se' | sort -u'").read()
-        subdomains = [line.strip() for line in output.splitlines() if line.strip()]
-        sendmessage(f"  ℹ️ {len(subdomains)} subs found for {domain}", colour='GREEN' ,  telegram = False)
-        return subdomains
-    except Exception as e:
-        sendmessage(f"  [Asset-Watcher] ❌ Error running Findomain on {domain}: {e}", colour='RED')
-        return []
-
-
-def process_c99(domains):
-    try : 
-        tool = Tool.objects.get(tool_name='c99')
-        for domain in domains :
-            wildcards = WatchedWildcard.objects.filter(is_active=True , tools__tool_name='c99' , wildcard=domain)
-            wildcards.update(status='running')
-            subdomains = run_c99(domain)
-            for wildcard in wildcards:
-                wildcard.status = 'running'
-                wildcard.save()
-                for sub in subdomains:
-                    obj, created = DiscoverSubdomain.objects.get_or_create(
-                        wildcard=wildcard, subdomain=sub, defaults={'tool': tool}
-                    )
-                    
-                    if created:
-                        if wildcard.watcher.notify :
-                            asyncio.run(startbot(domain, sub, tool.tool_name , wildcard.updated_at.strftime("%Y-%m-%d | %H:%M:%S")))
-                        obj.label = "new"
-                        obj.save()
-                wildcard.status = 'completed'
-                wildcard.save()
-    except Exception as e:
-        sendmessage(f"[Asset-Watcher] ❌ Process Findomain error: {e}" , colour='RED')
-
-
 
 def process_wabackurls(domains):
     try:
@@ -749,7 +711,6 @@ def check_assets(self):
         ("crt.sh", lambda: process_crtsh(crtsh_domains)),
         ("findomain", lambda: process_findomain(findomain_domains)),
         ("user subdomains", lambda: proccess_user_subdomains(assets)),
-        # ("c99", lambda: process_c99(c99_domains)),
         ("httpx", lambda: process_httpx(assets)),
         ("cidrs scanning", lambda: process_cidrs_scanning(watcher_cidrs)),
 

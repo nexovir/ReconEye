@@ -1,16 +1,11 @@
 import asyncio
 import time
 import colorama
+import traceback
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Bot
 from telegram.request import HTTPXRequest
 import nest_asyncio
-from infodisclosure_backend.settings import TELEGRAM_CONF
-
-request = HTTPXRequest(
-    connect_timeout=10,
-    read_timeout=10,
-    pool_timeout=30,
-)
+from infodisclosure_backend.settings import *
 
 nest_asyncio.apply()
 
@@ -22,10 +17,12 @@ request = HTTPXRequest(
     connect_timeout=10,
     read_timeout=10,
     pool_timeout=30,
+    proxy=PROXIES['http'] 
 )
 
+
 bot = Bot(token=BOT_TOKEN, request=request)
-sem = asyncio.Semaphore(1) 
+sem = asyncio.Semaphore(1)
 
 async def send_message_to_channel(name, scope, platform, time_date, url, target_type, _type):
     try:

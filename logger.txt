@@ -4187,3 +4187,57 @@ Call log:
 Call log:
   - navigating to "http://ncontrol.de/images/Intro-SQ.jpg?Guide=%3Ezerodium&VZVHr=%3Ezerodium&tsqHR=%3Ezerodium&thinText=%3Ezerodium&bhqHB=%3Ezerodium&osOGP=%3Ezerodium&MchnT=%3Ezerodium&BaaS=%3Ezerodium&yaLLz=%3Ezerodium&Qh=%3Ezerodium&NUS=%3Ezerodium&fGMxq=%3Ezerodium&VerifyAuthCode=%3Ezerodium&mIniW=%3Ezerodium&--av-brand-secondary-accent=%3Ezerodium&Unified=%3Ezerodium&SaBPk=%3Ezerodium&BAhXi=%3Ezerodium&KjCRD=%3Ezerodium&qSzUK=%3Ezerodium&fUxNL=%3Ezerodium&iOxkQ=%3Ezerodium&learnMoreFoundationTitle=%3Ezerodium&notFilledProvince=%3Ezerodium&zJgvA=%3Ezerodium", waiting until "networkidle"
  -> 02/10/2025, 14:24:52
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 02/10/2025, 14:59:12
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 02/10/2025, 14:59:12
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 14:59:15
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 02/10/2025, 14:59:25
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 02/10/2025, 14:59:26
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 14:59:28
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 02/10/2025, 14:59:29
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 02/10/2025, 14:59:30
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 14:59:34
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 02/10/2025, 15:02:17
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 02/10/2025, 15:02:18
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:02:19
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 02/10/2025, 15:02:24
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 02/10/2025, 15:02:25
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:02:26
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 02/10/2025, 15:02:30
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 02/10/2025, 15:02:31
+[Asset-Watcher] ℹ️ Starting subfinder -> 02/10/2025, 15:02:32
+[Asset-Watcher] ℹ️ Starting Subfinder for 'delltechnologies.com'... -> 02/10/2025, 15:02:33
+[Asset-Watcher] ℹ️ Starting subfinder -> 02/10/2025, 15:05:31
+[Asset-Watcher] ❌ subfinder failed: name 'PROXIES' is not defined -> 02/10/2025, 15:05:31
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 02/10/2025, 15:05:32
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 02/10/2025, 15:06:10
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:06:13
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 02/10/2025, 15:06:22
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 02/10/2025, 15:06:23
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:06:25
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 02/10/2025, 15:06:27
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 02/10/2025, 15:06:28
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:06:30
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 02/10/2025, 15:09:16
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 02/10/2025, 15:09:17
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:09:24
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 02/10/2025, 15:09:29
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 02/10/2025, 15:09:30
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:09:31
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 02/10/2025, 15:09:35
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 02/10/2025, 15:09:36
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 02/10/2025, 15:12:37
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:12:39
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 02/10/2025, 15:12:48
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 02/10/2025, 15:12:49
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:12:51
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 02/10/2025, 15:12:52
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 02/10/2025, 15:12:53
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:12:57
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 02/10/2025, 15:15:41
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 02/10/2025, 15:15:42
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:15:43
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 02/10/2025, 15:15:48
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 02/10/2025, 15:15:49
+[Program-Watcher] ℹ️ Connection OK -> 02/10/2025, 15:15:50
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 02/10/2025, 15:15:54
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 02/10/2025, 15:15:55

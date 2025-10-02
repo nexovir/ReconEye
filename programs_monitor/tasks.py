@@ -5,16 +5,10 @@ import colorama , json , requests , time , subprocess
 from requests.exceptions import RequestException
 from .models import *
 from .telegram_bot import * # type: ignore
-import infodisclosure_backend.settings
+from infodisclosure_backend.settings import *
 from urllib.parse import quote_plus
 import threading
-
 # if you want this 
-
-PROXIES = {
-    "http": "socks5h://127.0.0.1:1080",
-    "https": "socks5h://127.0.0.1:1080"
-}
 
 publicwatcher_summary = {
     "Bugcrowd" : 0,
@@ -38,7 +32,7 @@ def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", lo
         escaped_message = message.replace(' ', '+')
         command = (
             f'curl -X POST "https://api.telegram.org/bot{TELEGRAM_CONF["token"]}/sendMessage" '
-            f'-d "chat_id={TELEGRAM_CONF["chat_id"]}&text=<code>{escaped_message}</code>&parse_mode=HTML"'
+            f'-d "chat_id={TELEGRAM_CONF["chat_id"]}&text=<code>{escaped_message}</code>&parse_mode=HTML" -x {PROXIES['http']}'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         time.sleep(1)
