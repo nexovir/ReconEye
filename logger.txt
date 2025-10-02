@@ -4173,3 +4173,17 @@ Call log:
 [Url-Watcher] ℹ️ Starting Katana for 'https://12.testing.pinterest.com'... -> 01/10/2025, 07:17:05
 [Url-Watcher] ℹ️ Starting Katana for 'https://ch.pinterest.com'... -> 01/10/2025, 07:17:16
   [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/Find/01KW16/index05.htm -> 01/10/2025, 08:42:24
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/Find/01KW16/index05.htm -> 01/10/2025, 11:32:54
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://ncontrol.de:80/images/CD-H%fclle.jpg -> 01/10/2025, 14:23:03
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://ncontrol.de:80/images/CD-H%fclle.jpg -> 01/10/2025, 17:15:54
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://ncontrol.de:80/images/BD04931_.gif -> 01/10/2025, 19:57:31
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://ncontrol.de:80/images/BD04931_.gif -> 01/10/2025, 22:38:37
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://ncontrol.de:80/images/links_oben_-_Schiff.jpg -> 02/10/2025, 01:27:39
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://ncontrol.de:80/images/links_oben_-_Schiff.jpg -> 02/10/2025, 04:10:34
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://www.ncontrol.de:80/Find/01KW16/index02.htm -> 02/10/2025, 07:13:14
+  [INFO] Start Fuzzing 14305 parameters (method: POST) http://www.ncontrol.de:80/Find/01KW16/index02.htm -> 02/10/2025, 10:38:34
+  [INFO] Start Fuzzing 14305 parameters (method: GET) http://ncontrol.de:80/images/Intro-SQ.jpg -> 02/10/2025, 14:03:01
+[ERROR] Playwright scan failed: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://ncontrol.de/images/Intro-SQ.jpg?Guide=%3Ezerodium&VZVHr=%3Ezerodium&tsqHR=%3Ezerodium&thinText=%3Ezerodium&bhqHB=%3Ezerodium&osOGP=%3Ezerodium&MchnT=%3Ezerodium&BaaS=%3Ezerodium&yaLLz=%3Ezerodium&Qh=%3Ezerodium&NUS=%3Ezerodium&fGMxq=%3Ezerodium&VerifyAuthCode=%3Ezerodium&mIniW=%3Ezerodium&--av-brand-secondary-accent=%3Ezerodium&Unified=%3Ezerodium&SaBPk=%3Ezerodium&BAhXi=%3Ezerodium&KjCRD=%3Ezerodium&qSzUK=%3Ezerodium&fUxNL=%3Ezerodium&iOxkQ=%3Ezerodium&learnMoreFoundationTitle=%3Ezerodium&notFilledProvince=%3Ezerodium&zJgvA=%3Ezerodium", waiting until "networkidle"
+ -> 02/10/2025, 14:24:52
