@@ -29,6 +29,7 @@ def run_fallparams(input : str , headers : list) -> list:
             "-u", input,
             "-X", "GET",
             "-X", "POST",
+            "-x", PROXIES['http'],
             "-silent",
             "-duc",
 
@@ -64,6 +65,7 @@ def generate_body_hash(url: str) -> str:
         response = requests.get(url, timeout=30, verify=True, headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36",
         "Cache-Control": "no-cache","Pragma": "no-cache"},
+        proxies=PROXIES['http']
     )
         body_bytes = response.content 
         if len(body_bytes) < MAX_CONTENT_SIZE:
@@ -79,6 +81,7 @@ def generate_base64_content(url: str) -> str:
         response = requests.get(url, timeout=30, verify=True, headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36",
         "Cache-Control": "no-cache","Pragma": "no-cache"},
+        proxies=PROXIES['http']
     )
         body_bytes = response.content
         if len(body_bytes) < MAX_CONTENT_SIZE:
@@ -217,7 +220,7 @@ def discover_urls(self, label):
             new_base64_content = ""
 
         try:
-            resp = requests.get(url, timeout=60)
+            resp = requests.get(url, timeout=60 , proxies=PROXIES['http'])
             status = resp.status_code
         except requests.RequestException:
             status = None
@@ -346,7 +349,8 @@ def detect_urls_changes(self):
                         "Cache-Control": "no-cache",
                         "Pragma": "no-cache",
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-                    }
+                    },
+                    proxies=PROXIES['http']
                 )
                 body_bytes = response.content
                 if len(body_bytes) < MAX_CONTENT_SIZE:
@@ -488,6 +492,7 @@ def fuzz_parameters_on_urls(self , label):
                 "--output-format", "json",
                 "-o", output_file,
                 "-X", method,
+                '-x', PROXIES['http'],
                 '-d', '100',
                 '-L'
             ]
