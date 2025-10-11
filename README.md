@@ -182,7 +182,6 @@ Open the admin area for periodic tasks (e.g., `Periodic Tasks` → `Periodic tas
 I can also provide:
 
 * An English README in a different style (short checklist or full tutorial).
-* An `install-tools.sh` sample script to install common tools automatically.
 * A `systemd` unit example for running the web service and Celery/beat if used.
 
 Tell me which of the above you want and I will prepare it.
