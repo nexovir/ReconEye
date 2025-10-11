@@ -1,4 +1,4 @@
-# README — Watchtower / Reflix Installation & Configuration (Quick Guide)
+# README — Watchtower Installation & Configuration (Quick Guide)
 
 > **What the Watcher does**
 >
