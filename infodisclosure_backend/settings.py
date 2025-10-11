@@ -186,8 +186,8 @@ CELERY_WORKER_PREFETCH_MULTIPLIER = 1
 
 
 TELEGRAM_CONF = {
-    'token' : '6348870305:AAHawStCiN6XfiAu_ZwQJU-x8C1XtKjZ2XA', 
-    'chat_id' : '-1002702601401'
+    'token' : '{YOUR_TELEGRAM_BOT_TOKEN}', 
+    'chat_id' : '{CHAT_ID}'
 }
 
 
