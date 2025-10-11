@@ -122,8 +122,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'infodisclosure_backend',
-        'USER': 'nexovir',
-        'PASSWORD': '132@Nexovir@132!',
+        'USER': '{YOUR_USERNAME}',
+        'PASSWORD': '{YOUR_PASSWORD}',
         'HOST': 'localhost',
         'PORT': '5432',
     }
