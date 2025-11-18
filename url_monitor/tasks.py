@@ -28,8 +28,6 @@ def run_fallparams(input : str , headers : list) -> list:
             "fallparams",
             "-u", input,
             "-X", "GET",
-            "-X", "POST",
-            "-x", PROXIES['http'],
             "-silent",
             "-duc",
 
@@ -65,7 +63,6 @@ def generate_body_hash(url: str) -> str:
         response = requests.get(url, timeout=30, verify=True, headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36",
         "Cache-Control": "no-cache","Pragma": "no-cache"},
-        proxies=PROXIES
     )
         body_bytes = response.content 
         if len(body_bytes) < MAX_CONTENT_SIZE:
@@ -81,7 +78,6 @@ def generate_base64_content(url: str) -> str:
         response = requests.get(url, timeout=30, verify=True, headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36",
         "Cache-Control": "no-cache","Pragma": "no-cache"},
-        proxies=PROXIES
     )
         body_bytes = response.content
         if len(body_bytes) < MAX_CONTENT_SIZE:
@@ -125,11 +121,11 @@ def _killpg(p: subprocess.Popen):
         except Exception:
             pass
 
+
 def run_command(cmd_list, on_line=None, timeout_ms=15*60*1000, idle_timeout_ms=120*1000, max_lines=None):
     p = None
     lines_seen = 0
     last_activity = time.monotonic()
-
     try:
         p = subprocess.Popen(
             cmd_list,
@@ -137,8 +133,9 @@ def run_command(cmd_list, on_line=None, timeout_ms=15*60*1000, idle_timeout_ms=1
             stderr=subprocess.PIPE,
             text=True,
             bufsize=1,
-            preexec_fn=_preexec()
+            preexec_fn=_preexec
         )
+        
 
         def _read_stderr(pipe):
             for line in iter(pipe.readline, ''):
@@ -201,6 +198,83 @@ def run_katana(subdomain: str, on_line):
     run_command(["nice-katana", subdomain], on_line=on_line)
 
 
+
+def run_ffuf(subdomain_obj, subdomain: str, isNewUrl , insert_url_func,  timeout: int = 900):
+
+    sendmessage(f"[Url-Watcher] ℹ️ Starting FFUF for '{subdomain}'...")
+    
+    def run_ffuf_command(target: str, wordlist: str, tag: str):
+
+        output_path = f"{OUTPUT_PATH}/ffuf_out/ffuf_{tag}.json"
+
+        command = [
+            "ffuf",
+            "-u", target,
+            "-w", wordlist,
+            "-H","User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0"
+            "-ac",
+            "-of", "json",
+            "-o", output_path,
+            "-t", "30",
+            "-p", "0.05-0.15",
+            "-s"
+        ]
+
+        try:
+            process = subprocess.Popen(
+                command,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True
+            )
+
+            process.communicate(timeout=timeout)
+
+            # ---- PARSE JSON HERE ----
+            if os.path.exists(output_path):
+                data = json.load(open(output_path))
+                return data.get("results", [])
+            else:
+                return []
+
+        except subprocess.TimeoutExpired:
+            process.kill()
+            sendmessage(f"[Url-Watcher] ⛔ FFUF timed out after {timeout}s")
+            return []
+
+        except Exception as e:
+            sendmessage(f"[Url-Watcher] ❌ Error running FFUF: {e}")
+            return []
+
+
+
+    patterns = [
+        (f"{subdomain}/FUZZ", f"{WORDLIST_PATH}/raft-large-directories.txt",          "slash"),
+        (f"{subdomain}FUZZ",  f"{WORDLIST_PATH}/swagger-wordlist.txt",                "noslash"),
+        (f"{subdomain}/FUZZ.html", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", "html"),
+        (f"{subdomain}/FUZZ.aspx", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", "aspx"),
+        (f"{subdomain}/FUZZ", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt",      "backup"),
+    ]
+
+    try : 
+        for target, wordlist, tag in patterns:
+            results = run_ffuf_command(target, wordlist, tag)
+            for r in results:
+                if "url" in r:
+                    insert_url_func(
+                        subdomain_obj,
+                        r["url"],
+                        isNewUrl,
+                        "ffuf"
+                    )
+        
+
+    except Exception as e:
+        sendmessage(f"[Url-Watcher] ❌ Error: {e}")
+        return None
+
+
+
 def discover_urls(self, label):
 
     def insert_url(subdomain_obj, url, isNewUrl , tool):
@@ -220,7 +294,7 @@ def discover_urls(self, label):
             new_base64_content = ""
 
         try:
-            resp = requests.get(url, timeout=60 , proxies=PROXIES)
+            resp = requests.get(url, timeout=60)
             status = resp.status_code
         except requests.RequestException:
             status = None
@@ -305,6 +379,9 @@ def discover_urls(self, label):
                subdomain.httpx_result,
                on_line=lambda url, sub=subdomain: insert_url(sub, url , False, 'waybackurls')
             )
+            run_ffuf(
+                subdomain, subdomain.httpx_result , False , insert_url , 900
+            )
 
         elif subdomain.label == "available":
             run_katana(
@@ -312,6 +389,9 @@ def discover_urls(self, label):
                 on_line=lambda url, sub=subdomain: insert_url(sub, url , True, 'katana')
             )
 
+            run_ffuf(
+                subdomain, subdomain.httpx_result , True , insert_url , 900
+            )
 
     sendmessage(f"[Urls-Watcher] ✅ URLs Discovery Successfully Done" , colour="CYAN" , telegram=True)
 
@@ -350,7 +430,6 @@ def detect_urls_changes(self):
                         "Pragma": "no-cache",
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
                     },
-                    proxies=PROXIES
                 )
                 body_bytes = response.content
                 if len(body_bytes) < MAX_CONTENT_SIZE:
@@ -492,7 +571,6 @@ def fuzz_parameters_on_urls(self , label):
                 "--output-format", "json",
                 "-o", output_file,
                 "-X", method,
-                '-x', PROXIES['http'],
                 '-d', '100',
                 '-L'
             ]
@@ -537,7 +615,7 @@ def fuzz_parameters_on_urls(self , label):
 
     for subdomain in subdomains:
         parameters = subdomain.discovered_subdomain.subdomainparameter_set.values_list('parameter', flat=True)
-        read_write_list(list(parameters), f"{OUTPUT_PATH}/parameters.txt", 'w')
+        read_write_list(list(parameters), f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", 'a')
 
         sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs" , colour="CYAN")
         headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain.discovered_subdomain).values_list('header', flat=True))
@@ -549,7 +627,7 @@ def fuzz_parameters_on_urls(self , label):
             ),
         )
         for url in urls:
-            run_x8(url, url.url, f"{OUTPUT_PATH}/parameters.txt", headers)
+            run_x8(url, url.url, f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", headers)
 
     sendmessage(f"[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done" , colour="CYAN", telegram=True)
 

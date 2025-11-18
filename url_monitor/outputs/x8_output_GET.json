@@ -1,1 +1,1 @@
-[{"method":"GET","url":"https://uat-prev.delltechnologies.com/delltechsp/logout?l=en-us&redirecturl=","status":403,"size":761,"found_params":[],"injection_place":"Path"}]
+[{"method":"GET","url":"https://cloud.connect.takeaway.com/aux.html","status":200,"size":324,"found_params":[],"injection_place":"Path"}]

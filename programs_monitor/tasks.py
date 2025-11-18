@@ -32,7 +32,7 @@ def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", lo
         escaped_message = message.replace(' ', '+')
         command = (
             f'curl -X POST "https://api.telegram.org/bot{TELEGRAM_CONF["token"]}/sendMessage" '
-            f'-d "chat_id={TELEGRAM_CONF["chat_id"]}&text=<code>{escaped_message}</code>&parse_mode=HTML" -x {PROXIES['http']}'
+            f'-d "chat_id={TELEGRAM_CONF["chat_id"]}&text=<code>{escaped_message}</code>&parse_mode=HTML"'
         )
         subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         time.sleep(1)

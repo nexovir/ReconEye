@@ -110,14 +110,13 @@ def run_httpx(watcher_wildcard, input_file_path):
             '-cname',
             '-content-type',
             '-no-color',
-            '-http-proxy',PROXIES['http'],
+            # '-http-proxy',PROXIES['http'],
             '-json',
             '-silent',
             '-threads', '10',
             '-timeout', '4',
             
         ]
-
         with open(output_file_path, 'w') as outfile, open(os.devnull, 'w') as devnull:
             subprocess.run(command, check=True, stdout=outfile, stderr=devnull)
             
@@ -604,7 +603,7 @@ def process_cidrs_scanning(watcher_cidrs):
 
         try:
             result = subprocess.run(
-                ['httpx', '-l', f.name, '-sc', '-threads', '10', '-timeout','7', '-no-color','-http-proxy', PROXIES['http'] , '-silent'],
+                ['httpx', '-l', f.name, '-sc', '-threads', '10', '-timeout','7', '-no-color','-http-proxy' , '-silent'],
                 capture_output=True, text=True, check=True
             )
             print(result)

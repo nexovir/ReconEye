@@ -17,7 +17,7 @@ request = HTTPXRequest(
     connect_timeout=10,
     read_timeout=10,
     pool_timeout=30,
-    proxy=PROXIES['http'] 
+    # proxy=PROXIES['http'] 
 )
 
 

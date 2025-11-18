@@ -35,7 +35,7 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-CSRF_TRUSTED_ORIGINS = ['https://info-disclosure.ir']
+CSRF_TRUSTED_ORIGINS = ['http://', 'https://']
 
 
 
@@ -87,7 +87,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    #'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -122,8 +122,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'infodisclosure_backend',
-        'USER': {DATABASE_USERNAME},
-        'PASSWORD': {DATABASE_PASSWORD},
+        'USER': 'nexovir',
+        'PASSWORD': '132@Nexovir@132!',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -204,3 +204,4 @@ MAX_CONTENT_SIZE = 1024 * 1024  # 1MB
 BATCH_SIZE = 50
 REQUEST_DELAY = 0.1
 MAX_CONTENT_SIZE = 1024 * 1024 
+WORDLIST_PATH = "/home/bugbounty-wordlists"
