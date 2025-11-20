@@ -619,7 +619,7 @@ def fuzz_parameters_on_urls(self , label):
 
     for subdomain in subdomains:
         parameters = subdomain.discovered_subdomain.subdomainparameter_set.values_list('parameter', flat=True)
-        read_write_list(list(parameters), f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", 'a')
+        read_write_list(list(parameters), f"{WORDLIST_PATH}/watchtower-raft-large-words.txt.txt", 'a')
 
         sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs" , colour="CYAN")
         headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain.discovered_subdomain).values_list('header', flat=True))
@@ -680,7 +680,7 @@ def url_monitor(self):
         discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
         # fuzz_parameters_on_urls_task.si('available'), # Recommand to do not use it !
-        # vulnerability_monitor_task.si('available'), STUPID Work
+        # vulnerability_monitor_task.si('available'), # STUPID Work
         
         detect_urls_changes_task.si(),
         notify_done.si()
