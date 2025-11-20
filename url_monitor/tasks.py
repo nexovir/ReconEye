@@ -675,7 +675,7 @@ def url_monitor(self):
         # discover_urls_task.s('new'),
         # discover_parameter_task.si('new'),
         # fuzz_parameters_on_urls_task.si('new'), # Recommand to do not use it !
-        # vulnerability_monitor_task.si('new'),
+        vulnerability_monitor_task.si('new'),
 
         discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
