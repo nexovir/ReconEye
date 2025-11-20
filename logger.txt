@@ -3120,3 +3120,245 @@ DETAIL:  Key (subdomain)=(emails.corporate.justeattakeaway.com) already exists. 
 [Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 20/11/2025, 10:38:55
 [Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: new) -> 20/11/2025, 10:38:55
 [Urls-Watcher] ℹ️ Starting Fuzz Parameters on analytics.production.jet-external.com - 530 URLs -> 20/11/2025, 10:38:56
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 19:10:56
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 19:10:57
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 19:10:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 19:10:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 19:11:21
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 19:11:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 19:11:30
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 19:12:59
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 19:12:59
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : available) -> 20/11/2025, 19:13:00
+[Url-Watcher] ℹ️ Starting Katana for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:13:02
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 19:14:04
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 19:14:04
+[vulnerability_monitor] ℹ️ Starting Nuclei Check on Subdomains HTTPX Results -> 20/11/2025, 19:14:05
+[Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 20/11/2025, 19:14:06
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://analytics.production.jet-external.com -> 20/11/2025, 19:14:09
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://api-wte.eu-west-1.production.jet-external.com -> 20/11/2025, 19:16:45
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://analytics.eu-west-1.staging.jet-external.com -> 20/11/2025, 19:18:23
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://auth.eu-central-1.production.jet-external.com -> 20/11/2025, 19:19:52
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://image.connect.takeaway.com -> 20/11/2025, 19:21:24
+[vulnerability_monitor] ✅ Nuclei Successfully done. -> 20/11/2025, 19:23:19
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : available) -> 20/11/2025, 19:23:19
+[Url-Watcher] ℹ️ Starting Katana for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:23:21
+[Url-Watcher] ℹ️ Starting FFUF for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:23:36
+[Url-Watcher] ℹ️ Starting Katana for 'https://menuimages-staging.10bis.co.il'... -> 20/11/2025, 19:25:31
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 19:28:49
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 19:28:49
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : available) -> 20/11/2025, 19:28:50
+[Url-Watcher] ℹ️ Starting Katana for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:28:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:29:12
+[Url-Watcher] ℹ️ Starting FFUF for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:29:17
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 19:33:33
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 19:33:33
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 19:33:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 19:33:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 19:33:57
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 19:34:02
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 19:34:40
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 19:34:53
+[Url-Watcher] ℹ️ Starting FFUF for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 19:34:59
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 19:36:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 19:36:29
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 19:36:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth.eu-central-1.production.jet-external.com'... -> 20/11/2025, 19:45:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://auth.eu-central-1.production.jet-external.com'... -> 20/11/2025, 19:45:14
+[Url-Watcher] ℹ️ Starting FFUF for 'https://auth.eu-central-1.production.jet-external.com'... -> 20/11/2025, 19:45:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://image.connect.takeaway.com'... -> 20/11/2025, 19:46:26
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://image.connect.takeaway.com'... -> 20/11/2025, 19:46:42
+[Url-Watcher] ℹ️ Starting FFUF for 'https://image.connect.takeaway.com'... -> 20/11/2025, 19:46:42
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 20/11/2025, 19:51:13
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 20/11/2025, 19:51:14
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'analytics.production.jet-external.com - 530'... -> 20/11/2025, 19:51:15
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'api-wte.eu-west-1.production.jet-external.com - 403'... -> 20/11/2025, 19:51:15
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'analytics.eu-west-1.staging.jet-external.com - 403'... -> 20/11/2025, 19:51:20
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'auth.eu-central-1.production.jet-external.com - 404'... -> 20/11/2025, 19:51:23
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'image.connect.takeaway.com - 403'... -> 20/11/2025, 19:51:24
+[Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 20/11/2025, 19:51:25
+[vulnerability_monitor] ℹ️ Starting Nuclei Check on Subdomains HTTPX Results -> 20/11/2025, 19:51:25
+[Vulnerability_Monitor] ℹ️ Start Updating Nuclei & Nuclei Templates -> 20/11/2025, 19:51:26
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://analytics.production.jet-external.com -> 20/11/2025, 19:51:27
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://api-wte.eu-west-1.production.jet-external.com -> 20/11/2025, 19:52:58
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://analytics.eu-west-1.staging.jet-external.com -> 20/11/2025, 19:54:29
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://auth.eu-central-1.production.jet-external.com -> 20/11/2025, 19:55:54
+[Vulnerability_Monitor] ℹ️ Starting Nuclei on https://image.connect.takeaway.com -> 20/11/2025, 19:57:22
+[vulnerability_monitor] ✅ Nuclei Successfully done. -> 20/11/2025, 19:59:12
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : available) -> 20/11/2025, 19:59:12
+[Url-Watcher] ℹ️ Starting Katana for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:59:14
+[Url-Watcher] ℹ️ Starting FFUF for 'http://tenbis-static.10bis.co.il'... -> 20/11/2025, 19:59:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://menuimages-staging.10bis.co.il'... -> 20/11/2025, 20:08:19
+[Url-Watcher] ℹ️ Starting FFUF for 'https://menuimages-staging.10bis.co.il'... -> 20/11/2025, 20:08:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://localhost.mail.10bis.co.il'... -> 20/11/2025, 20:10:53
+[Url-Watcher] ℹ️ Starting FFUF for 'https://localhost.mail.10bis.co.il'... -> 20/11/2025, 20:11:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa.10bis.co.il'... -> 20/11/2025, 20:11:21
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa.10bis.co.il'... -> 20/11/2025, 20:11:35
+[Url-Watcher] ℹ️ Starting Katana for 'https://click.update.10bis.co.il'... -> 20/11/2025, 20:19:38
+[Url-Watcher] ℹ️ Starting FFUF for 'https://click.update.10bis.co.il'... -> 20/11/2025, 20:19:50
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 20:27:28
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 20/11/2025, 20:27:28
+[Program-Watcher] ℹ️ Connection OK -> 20/11/2025, 20:27:49
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 20:28:52
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 20:28:53
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 20:28:54
+[Url-Watcher] ℹ️ Starting Katana for 'http://static-nl.takeaway.com'... -> 20/11/2025, 20:28:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://static-nl.takeaway.com'... -> 20/11/2025, 20:29:09
+[Url-Watcher] ℹ️ Starting FFUF for 'http://static-nl.takeaway.com'... -> 20/11/2025, 20:29:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-corporatefr-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:29:17
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-corporatefr-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:29:27
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-corporatefr-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:29:28
+[Url-Watcher] ℹ️ Starting Katana for 'https://at-offermanagementweb.eu-central-1.qa.jet-external.com'... -> 20/11/2025, 20:29:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://at-offermanagementweb.eu-central-1.qa.jet-external.com'... -> 20/11/2025, 20:30:17
+[Url-Watcher] ℹ️ Starting FFUF for 'https://at-offermanagementweb.eu-central-1.qa.jet-external.com'... -> 20/11/2025, 20:30:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-corporatefr-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:33:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-corporatefr-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:33:44
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-corporatefr-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:33:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-couriersuk-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:34:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-couriersuk-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:34:17
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-couriersuk-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:34:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-fr-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:34:40
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-fr-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:34:50
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-fr-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 20:34:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://publicmarketing.just-eat.com'... -> 20/11/2025, 20:35:13
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://publicmarketing.just-eat.com'... -> 20/11/2025, 20:35:26
+[Url-Watcher] ℹ️ Starting FFUF for 'https://publicmarketing.just-eat.com'... -> 20/11/2025, 20:35:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-partnerno-stage-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:01:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-partnerno-stage-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:01:52
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-partnerno-stage-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:01:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://uat-partnerit-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:02:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://uat-partnerit-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:02:36
+[Url-Watcher] ℹ️ Starting FFUF for 'https://uat-partnerit-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:02:38
+[Url-Watcher] ℹ️ Starting Katana for 'https://uat-restaurantsuk-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:03:05
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://uat-restaurantsuk-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:03:17
+[Url-Watcher] ℹ️ Starting FFUF for 'https://uat-restaurantsuk-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:03:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://4tweedy4w4bird4.my-orderswwwmail.just-eat.co.uk'... -> 20/11/2025, 21:03:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://4tweedy4w4bird4.my-orderswwwmail.just-eat.co.uk'... -> 20/11/2025, 21:03:50
+[Url-Watcher] ℹ️ Starting FFUF for 'https://4tweedy4w4bird4.my-orderswwwmail.just-eat.co.uk'... -> 20/11/2025, 21:03:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-daas-logistics-tracking.prodeu1.skipthedishes.com'... -> 20/11/2025, 21:04:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-daas-logistics-tracking.prodeu1.skipthedishes.com'... -> 20/11/2025, 21:04:33
+[Url-Watcher] ℹ️ Starting FFUF for 'https://api-daas-logistics-tracking.prodeu1.skipthedishes.com'... -> 20/11/2025, 21:04:34
+[Url-Watcher] ℹ️ Starting Katana for 'https://partner.skipthedishes.com'... -> 20/11/2025, 21:04:57
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://partner.skipthedishes.com'... -> 20/11/2025, 21:05:10
+[Url-Watcher] ℹ️ Starting FFUF for 'https://partner.skipthedishes.com'... -> 20/11/2025, 21:05:11
+[Url-Watcher] ℹ️ Starting Katana for 'https://u.menulog.com.au'... -> 20/11/2025, 21:13:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://u.menulog.com.au'... -> 20/11/2025, 21:13:24
+[Url-Watcher] ℹ️ Starting FFUF for 'https://u.menulog.com.au'... -> 20/11/2025, 21:13:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://92c0aa61c40da250fa90cc4313794cd9.traefik.menulog.com.au'... -> 20/11/2025, 21:23:00
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://92c0aa61c40da250fa90cc4313794cd9.traefik.menulog.com.au'... -> 20/11/2025, 21:23:15
+[Url-Watcher] ℹ️ Starting FFUF for 'https://92c0aa61c40da250fa90cc4313794cd9.traefik.menulog.com.au'... -> 20/11/2025, 21:23:16
+[Url-Watcher] ℹ️ Starting Katana for 'https://sniper.menulog.com.au'... -> 20/11/2025, 21:23:26
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://sniper.menulog.com.au'... -> 20/11/2025, 21:23:41
+[Url-Watcher] ℹ️ Starting FFUF for 'https://sniper.menulog.com.au'... -> 20/11/2025, 21:23:42
+[Url-Watcher] ℹ️ Starting Katana for 'https://devops-es-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:23:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://devops-es-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:23:59
+[Url-Watcher] ℹ️ Starting FFUF for 'https://devops-es-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:24:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://kpzqf9m2xinhfo3lajlokt50z7pwabrgvwryj1cs.just-eat.com'... -> 20/11/2025, 21:24:22
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://kpzqf9m2xinhfo3lajlokt50z7pwabrgvwryj1cs.just-eat.com'... -> 20/11/2025, 21:24:32
+[Url-Watcher] ℹ️ Starting FFUF for 'https://kpzqf9m2xinhfo3lajlokt50z7pwabrgvwryj1cs.just-eat.com'... -> 20/11/2025, 21:24:33
+[Url-Watcher] ℹ️ Starting Katana for 'https://prod-ie-green-australiaeast.cms.just-eat.com'... -> 20/11/2025, 21:24:55
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://prod-ie-green-australiaeast.cms.just-eat.com'... -> 20/11/2025, 21:25:05
+[Url-Watcher] ℹ️ Starting FFUF for 'https://prod-ie-green-australiaeast.cms.just-eat.com'... -> 20/11/2025, 21:25:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://prod-it-green-australiaeast.cms.just-eat.com'... -> 20/11/2025, 21:25:26
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://prod-it-green-australiaeast.cms.just-eat.com'... -> 20/11/2025, 21:25:36
+[Url-Watcher] ℹ️ Starting FFUF for 'https://prod-it-green-australiaeast.cms.just-eat.com'... -> 20/11/2025, 21:25:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://prod-nz-stage-green.cms.just-eat.com'... -> 20/11/2025, 21:25:59
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://prod-nz-stage-green.cms.just-eat.com'... -> 20/11/2025, 21:26:09
+[Url-Watcher] ℹ️ Starting FFUF for 'https://prod-nz-stage-green.cms.just-eat.com'... -> 20/11/2025, 21:26:10
+[Url-Watcher] ℹ️ Starting Katana for 'https://prod-techbloguk-stage-green.cms.just-eat.com'... -> 20/11/2025, 21:26:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://prod-techbloguk-stage-green.cms.just-eat.com'... -> 20/11/2025, 21:26:40
+[Url-Watcher] ℹ️ Starting FFUF for 'https://prod-techbloguk-stage-green.cms.just-eat.com'... -> 20/11/2025, 21:26:41
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-au-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:27:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-au-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:27:12
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-au-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:27:13
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-au-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:27:35
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-au-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:27:45
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-au-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:27:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-ca-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:28:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-ca-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:28:19
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-ca-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:28:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-ca-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:28:39
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-ca-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:28:50
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-ca-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:28:51
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-ca-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:29:10
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-ca-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:29:21
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-ca-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:29:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-ch-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:29:42
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-ch-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:29:52
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-ch-stage-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:29:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-ch-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:30:13
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-ch-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:30:24
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-ch-stage.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:30:25
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-cms-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:30:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-cms-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:30:57
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-cms-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:30:58
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-cms-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:31:18
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-cms-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:31:29
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-cms-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:31:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-cms-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:31:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-cms-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:31:59
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-cms-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:32:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-cms-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:32:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-cms-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:32:30
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-cms-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:32:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-corporatefr-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:32:52
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-corporatefr-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:33:03
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-corporatefr-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:33:04
+[Url-Watcher] ℹ️ Starting Katana for 'https://mta3.email.just-eat.co.uk'... -> 20/11/2025, 21:33:28
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://mta3.email.just-eat.co.uk'... -> 20/11/2025, 21:33:47
+[Url-Watcher] ℹ️ Starting FFUF for 'https://mta3.email.just-eat.co.uk'... -> 20/11/2025, 21:34:03
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-sf.dev.scoober.com'... -> 20/11/2025, 21:34:13
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-sf.dev.scoober.com'... -> 20/11/2025, 21:34:23
+[Url-Watcher] ℹ️ Starting FFUF for 'https://api-sf.dev.scoober.com'... -> 20/11/2025, 21:34:24
+[Url-Watcher] ℹ️ Starting Katana for 'https://ww5.menulog.com.au'... -> 20/11/2025, 21:34:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://ww5.menulog.com.au'... -> 20/11/2025, 21:35:00
+[Url-Watcher] ℹ️ Starting FFUF for 'https://ww5.menulog.com.au'... -> 20/11/2025, 21:35:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://live-orders.lieferando.de'... -> 20/11/2025, 21:35:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://live-orders.lieferando.de'... -> 20/11/2025, 21:35:29
+[Url-Watcher] ℹ️ Starting FFUF for 'https://live-orders.lieferando.de'... -> 20/11/2025, 21:35:30
+[Url-Watcher] ℹ️ Starting Katana for 'https://assets.just-eat.dk'... -> 20/11/2025, 21:37:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://assets.just-eat.dk'... -> 20/11/2025, 21:37:59
+[Url-Watcher] ℹ️ Starting FFUF for 'https://assets.just-eat.dk'... -> 20/11/2025, 21:38:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-dk-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:39:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-dk-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:39:17
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-dk-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:39:18
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-dk-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:39:37
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-dk-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:39:48
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-dk-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:39:49
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-blue-australiaeast-cms-nonprod.just-eat.com'... -> 20/11/2025, 21:40:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-blue-australiaeast-cms-nonprod.just-eat.com'... -> 20/11/2025, 21:40:19
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-blue-australiaeast-cms-nonprod.just-eat.com'... -> 20/11/2025, 21:40:20
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-blue-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:40:42
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-blue-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:40:52
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-blue-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:40:53
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:41:15
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:41:26
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:41:27
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-blue.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:41:48
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-blue.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:41:59
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-blue.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:42:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:42:19
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:42:30
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-green-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:42:31
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:42:50
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:43:01
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-green-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:43:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:43:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:43:36
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-stage-blue-westeurope.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:43:37
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:43:58
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:44:11
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-green.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:44:12
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-es-stage-blue.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:44:33
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-es-stage-blue.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:44:46
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-es-stage-blue.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:44:47
+[Url-Watcher] ℹ️ Starting Katana for 'https://qa-partneres-blue-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:45:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://qa-partneres-blue-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:45:21
+[Url-Watcher] ℹ️ Starting FFUF for 'https://qa-partneres-blue-australiaeast.cms-nonprod.just-eat.com'... -> 20/11/2025, 21:45:22
+[Url-Watcher] ℹ️ Starting Katana for 'http://at-offermanagementweb.eu-central-1.production.jet-external.com'... -> 20/11/2025, 21:45:41
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://at-offermanagementweb.eu-central-1.production.jet-external.com'... -> 20/11/2025, 21:45:54
+[Url-Watcher] ℹ️ Starting FFUF for 'http://at-offermanagementweb.eu-central-1.production.jet-external.com'... -> 20/11/2025, 21:45:54
+[Url-Watcher] ℹ️ Starting Katana for 'https://pull-posapi.tkwy.services.takeaway.com'... -> 20/11/2025, 21:46:01
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://pull-posapi.tkwy.services.takeaway.com'... -> 20/11/2025, 21:46:22
+[Url-Watcher] ℹ️ Starting FFUF for 'https://pull-posapi.tkwy.services.takeaway.com'... -> 20/11/2025, 21:46:23
+[Url-Watcher] ℹ️ Starting Katana for 'https://bg-partnermanagement.eu-central-1.staging.jet-external.com'... -> 20/11/2025, 21:46:41

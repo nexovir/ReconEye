@@ -205,3 +205,10 @@ BATCH_SIZE = 50
 REQUEST_DELAY = 0.1
 MAX_CONTENT_SIZE = 1024 * 1024 
 WORDLIST_PATH = "/home/bugbounty-wordlists"
+
+
+STATIC_URL = '/static/'
+STATIC_ROOT = '/home/ReconEye/static/'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/home/ReconEye/media/'
