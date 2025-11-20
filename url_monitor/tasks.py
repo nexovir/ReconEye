@@ -302,6 +302,13 @@ def discover_urls(self, label):
             status = resp.status_code
         except requests.RequestException:
             status = None
+        
+        pathes = clean_url.path.strip().rstrip("/") or "/"
+        pathes = pathes.split('/')
+        pathes = [p for p in pathes if "." not in p]
+
+        read_write_list(pathes, f"{WORDLIST_PATH}/watchtower-raft-large-directories.txt", 'a')   
+
 
         obj, created = Url.objects.get_or_create(
             subdomain=subdomain_obj.discovered_subdomain,
@@ -619,7 +626,7 @@ def fuzz_parameters_on_urls(self , label):
 
     for subdomain in subdomains:
         parameters = subdomain.discovered_subdomain.subdomainparameter_set.values_list('parameter', flat=True)
-        read_write_list(list(parameters), f"{WORDLIST_PATH}/watchtower-raft-large-words.txt.txt", 'a')
+        read_write_list(list(parameters), f"{WORDLIST_PATH}/watchtower-raft-large-words.txt", 'a')
 
         sendmessage(f"[Urls-Watcher] ℹ️ Starting Fuzz Parameters on {subdomain} URLs" , colour="CYAN")
         headers = list(RequestHeaders.objects.filter(asset_watcher=subdomain.discovered_subdomain).values_list('header', flat=True))
