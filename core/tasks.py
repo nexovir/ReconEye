@@ -11,8 +11,8 @@ from programs_monitor.tasks import sendmessage
 def orchestrator(self):
 
     workflow = chain(
-        check_programs.si(),
-        check_assets.si(),
+        # check_programs.si(),
+        # check_assets.si(),
         url_monitor.si()
     )
 
