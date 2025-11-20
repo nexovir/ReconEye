@@ -199,7 +199,7 @@ def run_katana(subdomain: str, on_line):
 
 
 
-def run_ffuf(subdomain_obj, subdomain: str, isNewUrl , insert_url_func,  timeout: int = 900):
+def run_ffuf(subdomain_obj, subdomain: str, isNewUrl , insert_url_func,  timeout: int):
 
     sendmessage(f"[Url-Watcher] ℹ️ Starting FFUF for '{subdomain}'...")
     
@@ -211,12 +211,16 @@ def run_ffuf(subdomain_obj, subdomain: str, isNewUrl , insert_url_func,  timeout
             "ffuf",
             "-u", target,
             "-w", wordlist,
-            "-H","User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0"
+            "-H","User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0",
             "-ac",
             "-of", "json",
+            "-mc", "all",
+            "-fc" , "403",
             "-o", output_path,
-            "-t", "30",
-            "-p", "0.05-0.15",
+            "-recursion",
+            "-recursion-depth", "5",
+            # "-t", "40",
+            # "-p", "0.05-0.15",
             "-s"
         ]
 
@@ -250,10 +254,10 @@ def run_ffuf(subdomain_obj, subdomain: str, isNewUrl , insert_url_func,  timeout
 
     patterns = [
         (f"{subdomain}/FUZZ", f"{WORDLIST_PATH}/raft-large-directories.txt",          "slash"),
-        (f"{subdomain}FUZZ",  f"{WORDLIST_PATH}/swagger-wordlist.txt",                "noslash"),
-        (f"{subdomain}/FUZZ.html", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", "html"),
-        (f"{subdomain}/FUZZ.aspx", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", "aspx"),
-        (f"{subdomain}/FUZZ", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt",      "backup"),
+        # (f"{subdomain}FUZZ",  f"{WORDLIST_PATH}/swagger-wordlist.txt",                "noslash"),
+        # (f"{subdomain}/FUZZ.html", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", "html"),
+        # (f"{subdomain}/FUZZ.aspx", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", "aspx"),
+        # (f"{subdomain}/FUZZ", f"{WORDLIST_PATH}/raft-large-words-lowercase.txt",      "backup"),
     ]
 
     try : 

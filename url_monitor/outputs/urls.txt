@@ -1,4 +1,1 @@
-https://cloud.connect.takeaway.com/aux.aspx
-https://cloud.connect.takeaway.com/aux.html
-https://cloud.connect.takeaway.com/aux
-https://cloud.connect.takeaway.com
+https://image.connect.takeaway.com/

@@ -2190,3 +2190,933 @@ Encountered error(s): 1 errors occured.
        [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 18/11/2025, 14:38:24
 [Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 18/11/2025, 14:38:26
 [Program-Watcher] ℹ️ Connection OK -> 18/11/2025, 14:38:37
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 18/11/2025, 14:38:52
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 18/11/2025, 14:38:53
+[Program-Watcher] ℹ️ Connection OK -> 18/11/2025, 14:39:05
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 18/11/2025, 14:39:06
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 18/11/2025, 14:39:08
+[Program-Watcher] ℹ️ Connection OK -> 18/11/2025, 14:39:22
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 18/11/2025, 14:43:57
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 18/11/2025, 14:43:58
+[Asset-Watcher] ℹ️ Starting subfinder -> 18/11/2025, 14:44:00
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pyszne.pl'... -> 18/11/2025, 14:44:01
+  ℹ️ 3486 subs found for pyszne.pl -> 18/11/2025, 14:45:04
+[Asset-Watcher] ℹ️ Starting Subfinder for '10bis.co.il'... -> 18/11/2025, 14:45:10
+  ℹ️ 38 subs found for 10bis.co.il -> 18/11/2025, 14:45:37
+[Asset-Watcher] ℹ️ Starting Subfinder for 'menulog.com.au'... -> 18/11/2025, 14:45:37
+  ℹ️ 273 subs found for menulog.com.au -> 18/11/2025, 14:46:38
+[Asset-Watcher] ℹ️ Starting Subfinder for 'yourdelivery.de'... -> 18/11/2025, 14:46:39
+  ℹ️ 0 subs found for yourdelivery.de -> 18/11/2025, 14:47:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeat-int.com'... -> 18/11/2025, 14:47:39
+  ℹ️ 16 subs found for justeat-int.com -> 18/11/2025, 14:47:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.es'... -> 18/11/2025, 14:47:49
+  ℹ️ 715 subs found for just-eat.es -> 18/11/2025, 14:48:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'thuisbezorgd.nl'... -> 18/11/2025, 14:48:40
+  ℹ️ 313 subs found for thuisbezorgd.nl -> 18/11/2025, 14:49:42
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lieferando.de'... -> 18/11/2025, 14:49:42
+  ℹ️ 1654 subs found for lieferando.de -> 18/11/2025, 14:50:43
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.io'... -> 18/11/2025, 14:50:46
+  ℹ️ 16 subs found for just-eat.io -> 18/11/2025, 14:51:46
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.co.uk'... -> 18/11/2025, 14:51:46
+  ℹ️ 310 subs found for just-eat.co.uk -> 18/11/2025, 14:52:50
+[Asset-Watcher] ℹ️ Starting Subfinder for 'scoober.com'... -> 18/11/2025, 14:52:51
+  ℹ️ 89 subs found for scoober.com -> 18/11/2025, 14:53:51
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skippayments.com'... -> 18/11/2025, 14:53:51
+  ℹ️ 7 subs found for skippayments.com -> 18/11/2025, 14:54:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.dk'... -> 18/11/2025, 14:54:52
+  ℹ️ 19 subs found for just-eat.dk -> 18/11/2025, 14:55:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeattakeaway.com'... -> 18/11/2025, 14:55:57
+  ℹ️ 90 subs found for justeattakeaway.com -> 18/11/2025, 14:56:58
+[Asset-Watcher] ℹ️ Starting Subfinder for 'jet-external.com'... -> 18/11/2025, 14:56:58
+  ℹ️ 165 subs found for jet-external.com -> 18/11/2025, 14:57:59
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.com'... -> 18/11/2025, 14:57:59
+  ℹ️ 262 subs found for just-eat.com -> 18/11/2025, 14:59:04
+[Asset-Watcher] ℹ️ Starting Subfinder for 'bistro.sk'... -> 18/11/2025, 14:59:04
+  ℹ️ 26 subs found for bistro.sk -> 18/11/2025, 15:00:05
+[Asset-Watcher] ℹ️ Starting Subfinder for 'takeaway.com'... -> 18/11/2025, 15:00:05
+  ℹ️ 1180 subs found for takeaway.com -> 18/11/2025, 15:01:19
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-data.io'... -> 18/11/2025, 15:01:23
+  ℹ️ 186 subs found for just-data.io -> 18/11/2025, 15:02:27
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skipthedishes.com'... -> 18/11/2025, 15:02:30
+  ℹ️ 231 subs found for skipthedishes.com -> 18/11/2025, 15:03:32
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.ch'... -> 18/11/2025, 15:03:33
+  ℹ️ 15 subs found for just-eat.ch -> 18/11/2025, 15:04:34
+[Asset-Watcher] ✅ Finished subfinder -> 18/11/2025, 15:04:34
+[Asset-Watcher] ℹ️ Starting crt.sh -> 18/11/2025, 15:04:35
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pyszne.pl'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for pyszne.pl in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pyszne.pl after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '10bis.co.il'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for 10bis.co.il in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 10bis.co.il after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'menulog.com.au'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for menulog.com.au in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for menulog.com.au after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'yourdelivery.de'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for yourdelivery.de in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for yourdelivery.de after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeat-int.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for justeat-int.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeat-int.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.es'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.es in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.es after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'thuisbezorgd.nl'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for thuisbezorgd.nl in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for thuisbezorgd.nl after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lieferando.de'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for lieferando.de in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lieferando.de after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.io'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.io in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.io after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.co.uk'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.co.uk in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.co.uk after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'scoober.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for scoober.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for scoober.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skippayments.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for skippayments.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skippayments.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.dk'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.dk in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.dk after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeattakeaway.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for justeattakeaway.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeattakeaway.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'jet-external.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for jet-external.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for jet-external.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'bistro.sk'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for bistro.sk in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for bistro.sk after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'takeaway.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for takeaway.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for takeaway.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-data.io'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for just-data.io in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-data.io after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skipthedishes.com'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for skipthedishes.com in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skipthedishes.com after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.ch'... -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.ch in Crt.sh (Attempt 1) -> 18/11/2025, 15:04:36
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.ch after 1/2 attempts. -> 18/11/2025, 15:04:36
+[Asset-Watcher] ✅ Finished crt.sh -> 18/11/2025, 15:04:36
+[Asset-Watcher] ℹ️ Starting findomain -> 18/11/2025, 15:04:37
+[Asset-Watcher] ℹ️ Starting Findomain for 'pyszne.pl'... -> 18/11/2025, 15:04:38
+  ℹ️ 26 subs found for pyszne.pl -> 18/11/2025, 15:04:41
+[Asset-Watcher] ℹ️ Starting Findomain for '10bis.co.il'... -> 18/11/2025, 15:04:41
+  ℹ️ 47 subs found for 10bis.co.il -> 18/11/2025, 15:05:27
+[Asset-Watcher] ℹ️ Starting Findomain for 'menulog.com.au'... -> 18/11/2025, 15:05:27
+  ℹ️ 60 subs found for menulog.com.au -> 18/11/2025, 15:05:31
+[Asset-Watcher] ℹ️ Starting Findomain for 'yourdelivery.de'... -> 18/11/2025, 15:05:31
+  ℹ️ 47 subs found for yourdelivery.de -> 18/11/2025, 15:06:30
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeat-int.com'... -> 18/11/2025, 15:06:30
+  ℹ️ 13 subs found for justeat-int.com -> 18/11/2025, 15:06:35
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.es'... -> 18/11/2025, 15:06:35
+  ℹ️ 55 subs found for just-eat.es -> 18/11/2025, 15:06:40
+[Asset-Watcher] ℹ️ Starting Findomain for 'thuisbezorgd.nl'... -> 18/11/2025, 15:06:40
+  ℹ️ 312 subs found for thuisbezorgd.nl -> 18/11/2025, 15:07:37
+[Asset-Watcher] ℹ️ Starting Findomain for 'lieferando.de'... -> 18/11/2025, 15:07:38
+  ℹ️ 1739 subs found for lieferando.de -> 18/11/2025, 15:07:41
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.io'... -> 18/11/2025, 15:07:44
+  ℹ️ 20 subs found for just-eat.io -> 18/11/2025, 15:07:47
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.co.uk'... -> 18/11/2025, 15:07:47
+  ℹ️ 134 subs found for just-eat.co.uk -> 18/11/2025, 15:08:38
+[Asset-Watcher] ℹ️ Starting Findomain for 'scoober.com'... -> 18/11/2025, 15:08:38
+  ℹ️ 126 subs found for scoober.com -> 18/11/2025, 15:08:41
+[Asset-Watcher] ℹ️ Starting Findomain for 'skippayments.com'... -> 18/11/2025, 15:08:42
+  ℹ️ 10 subs found for skippayments.com -> 18/11/2025, 15:08:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.dk'... -> 18/11/2025, 15:08:45
+  ℹ️ 1221 subs found for just-eat.dk -> 18/11/2025, 15:08:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeattakeaway.com'... -> 18/11/2025, 15:08:50
+  ℹ️ 94 subs found for justeattakeaway.com -> 18/11/2025, 15:08:54
+[Asset-Watcher] ℹ️ Starting Findomain for 'jet-external.com'... -> 18/11/2025, 15:08:54
+  ℹ️ 186 subs found for jet-external.com -> 18/11/2025, 15:08:57
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.com'... -> 18/11/2025, 15:08:58
+  ℹ️ 92 subs found for just-eat.com -> 18/11/2025, 15:09:02
+[Asset-Watcher] ℹ️ Starting Findomain for 'bistro.sk'... -> 18/11/2025, 15:09:02
+  ℹ️ 20 subs found for bistro.sk -> 18/11/2025, 15:09:05
+[Asset-Watcher] ℹ️ Starting Findomain for 'takeaway.com'... -> 18/11/2025, 15:09:05
+  ℹ️ 152 subs found for takeaway.com -> 18/11/2025, 15:09:08
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-data.io'... -> 18/11/2025, 15:09:09
+  ℹ️ 282 subs found for just-data.io -> 18/11/2025, 15:09:20
+[Asset-Watcher] ℹ️ Starting Findomain for 'skipthedishes.com'... -> 18/11/2025, 15:09:20
+  ℹ️ 434 subs found for skipthedishes.com -> 18/11/2025, 15:09:24
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.ch'... -> 18/11/2025, 15:09:25
+  ℹ️ 14 subs found for just-eat.ch -> 18/11/2025, 15:09:28
+[Asset-Watcher] ✅ Finished findomain -> 18/11/2025, 15:09:28
+[Asset-Watcher] ℹ️ Starting user subdomains -> 18/11/2025, 15:09:29
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 18/11/2025, 15:09:30
+[Asset-Watcher] ❌ Process User Subdomains error: duplicate key value violates unique constraint "asset_monitor_discoversubdomain_subdomain_key"
+DETAIL:  Key (subdomain)=(emails.corporate.justeattakeaway.com) already exists. -> 18/11/2025, 15:09:58
+[Asset-Watcher] ✅ Finished user subdomains -> 18/11/2025, 15:09:58
+[Asset-Watcher] ℹ️ Starting httpx -> 18/11/2025, 15:09:59
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.io - nexovir'... -> 18/11/2025, 15:10:21
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 15:10:31
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.co.uk - nexovir'... -> 18/11/2025, 15:10:32
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 15:10:53
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-data.io - nexovir'... -> 18/11/2025, 15:10:56
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 15:14:30
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pyszne.pl - nexovir'... -> 18/11/2025, 15:14:31
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 17:34:55
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'scoober.com - nexovir'... -> 18/11/2025, 17:34:55
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 17:36:02
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'skipthedishes.com - nexovir'... -> 18/11/2025, 17:36:02
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 17:37:13
+  [Asset-Watcher] ℹ️ Starting HTTPx on '10bis.co.il - nexovir'... -> 18/11/2025, 17:37:16
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 17:37:35
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'skippayments.com - nexovir'... -> 18/11/2025, 17:37:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 17:37:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.ch - nexovir'... -> 18/11/2025, 17:37:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 17:37:55
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'menulog.com.au - nexovir'... -> 18/11/2025, 17:37:55
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 17:38:13
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lieferando.de - nexovir'... -> 18/11/2025, 17:38:18
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:02:16
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.dk - nexovir'... -> 18/11/2025, 18:02:16
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:02:52
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'yourdelivery.de - nexovir'... -> 18/11/2025, 18:02:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:02:55
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'bistro.sk - nexovir'... -> 18/11/2025, 18:02:55
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:03:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'takeaway.com - nexovir'... -> 18/11/2025, 18:03:56
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:24:16
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeattakeaway.com - nexovir'... -> 18/11/2025, 18:24:17
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:25:16
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeat-int.com - nexovir'... -> 18/11/2025, 18:25:16
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:29:12
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'jet-external.com - nexovir'... -> 18/11/2025, 18:29:12
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:36:10
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.es - nexovir'... -> 18/11/2025, 18:36:13
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:36:29
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.com - nexovir'... -> 18/11/2025, 18:36:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:37:42
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'thuisbezorgd.nl - nexovir'... -> 18/11/2025, 18:37:48
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 18/11/2025, 18:52:22
+[Asset-Watcher] ✅ Finished httpx -> 18/11/2025, 18:52:23
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 18/11/2025, 18:52:24
+[Asset-Watcher] ✅ Finished cidrs scanning -> 18/11/2025, 18:52:25
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 18/11/2025, 18:52:26
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 18/11/2025, 18:52:28
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 18/11/2025, 18:52:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://image.update.just-eat.ch'... -> 18/11/2025, 18:52:30
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://image.update.just-eat.ch'... -> 18/11/2025, 18:52:47
+[Url-Watcher] ℹ️ Starting FFUF for 'https://image.update.just-eat.ch'... -> 18/11/2025, 18:53:06
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 19/11/2025, 10:36:57
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 19/11/2025, 10:36:58
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 10:37:18
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 19/11/2025, 10:37:23
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 19/11/2025, 10:37:24
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 10:37:36
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 19/11/2025, 10:37:51
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 19/11/2025, 10:37:52
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 10:38:04
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 19/11/2025, 10:38:05
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 19/11/2025, 10:38:06
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 10:38:20
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 19/11/2025, 10:38:28
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 19/11/2025, 10:38:29
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 10:38:42
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 19/11/2025, 10:42:48
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 19/11/2025, 10:42:49
+[Asset-Watcher] ℹ️ Starting subfinder -> 19/11/2025, 10:42:50
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.com'... -> 19/11/2025, 10:42:51
+  ℹ️ 350 subs found for just-eat.com -> 19/11/2025, 10:43:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'bistro.sk'... -> 19/11/2025, 10:43:11
+  ℹ️ 26 subs found for bistro.sk -> 19/11/2025, 10:43:23
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.ch'... -> 19/11/2025, 10:43:23
+  ℹ️ 16 subs found for just-eat.ch -> 19/11/2025, 10:44:07
+[Asset-Watcher] ℹ️ Starting Subfinder for 'yourdelivery.de'... -> 19/11/2025, 10:44:07
+  ℹ️ 0 subs found for yourdelivery.de -> 19/11/2025, 10:44:28
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lieferando.de'... -> 19/11/2025, 10:44:28
+  ℹ️ 1644 subs found for lieferando.de -> 19/11/2025, 10:45:29
+[Asset-Watcher] ℹ️ Starting Subfinder for 'takeaway.com'... -> 19/11/2025, 10:45:31
+  ℹ️ 1259 subs found for takeaway.com -> 19/11/2025, 10:46:25
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pyszne.pl'... -> 19/11/2025, 10:46:27
+  ℹ️ 3491 subs found for pyszne.pl -> 19/11/2025, 10:47:29
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-data.io'... -> 19/11/2025, 10:47:34
+  ℹ️ 192 subs found for just-data.io -> 19/11/2025, 10:48:43
+[Asset-Watcher] ℹ️ Starting Subfinder for '10bis.co.il'... -> 19/11/2025, 10:48:44
+  ℹ️ 40 subs found for 10bis.co.il -> 19/11/2025, 10:49:44
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.dk'... -> 19/11/2025, 10:49:44
+  ℹ️ 15 subs found for just-eat.dk -> 19/11/2025, 10:50:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.io'... -> 19/11/2025, 10:50:49
+  ℹ️ 15 subs found for just-eat.io -> 19/11/2025, 10:51:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeattakeaway.com'... -> 19/11/2025, 10:51:54
+  ℹ️ 88 subs found for justeattakeaway.com -> 19/11/2025, 10:52:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'jet-external.com'... -> 19/11/2025, 10:52:54
+  ℹ️ 168 subs found for jet-external.com -> 19/11/2025, 10:53:56
+[Asset-Watcher] ℹ️ Starting Subfinder for 'scoober.com'... -> 19/11/2025, 10:53:56
+  ℹ️ 85 subs found for scoober.com -> 19/11/2025, 10:54:57
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.co.uk'... -> 19/11/2025, 10:54:57
+  ℹ️ 252 subs found for just-eat.co.uk -> 19/11/2025, 10:56:04
+[Asset-Watcher] ℹ️ Starting Subfinder for 'menulog.com.au'... -> 19/11/2025, 10:56:04
+  ℹ️ 222 subs found for menulog.com.au -> 19/11/2025, 10:57:09
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skippayments.com'... -> 19/11/2025, 10:57:09
+  ℹ️ 7 subs found for skippayments.com -> 19/11/2025, 10:58:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skipthedishes.com'... -> 19/11/2025, 10:58:10
+  ℹ️ 257 subs found for skipthedishes.com -> 19/11/2025, 10:59:25
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.es'... -> 19/11/2025, 10:59:25
+  ℹ️ 226 subs found for just-eat.es -> 19/11/2025, 11:00:26
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeat-int.com'... -> 19/11/2025, 11:00:27
+  ℹ️ 16 subs found for justeat-int.com -> 19/11/2025, 11:01:27
+[Asset-Watcher] ℹ️ Starting Subfinder for 'thuisbezorgd.nl'... -> 19/11/2025, 11:01:27
+  ℹ️ 307 subs found for thuisbezorgd.nl -> 19/11/2025, 11:02:29
+[Asset-Watcher] ✅ Finished subfinder -> 19/11/2025, 11:02:29
+[Asset-Watcher] ℹ️ Starting crt.sh -> 19/11/2025, 11:02:30
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.com'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.com after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'bistro.sk'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for bistro.sk in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for bistro.sk after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.ch'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.ch in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.ch after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'yourdelivery.de'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for yourdelivery.de in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for yourdelivery.de after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lieferando.de'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for lieferando.de in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lieferando.de after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'takeaway.com'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for takeaway.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for takeaway.com after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pyszne.pl'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for pyszne.pl in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pyszne.pl after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-data.io'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for just-data.io in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-data.io after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '10bis.co.il'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for 10bis.co.il in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 10bis.co.il after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.dk'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.dk in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.dk after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.io'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.io in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.io after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeattakeaway.com'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for justeattakeaway.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeattakeaway.com after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'jet-external.com'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for jet-external.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for jet-external.com after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'scoober.com'... -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ⚠️ No subdomains found for scoober.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:31
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for scoober.com after 1/2 attempts. -> 19/11/2025, 11:02:31
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.co.uk'... -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.co.uk in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.co.uk after 1/2 attempts. -> 19/11/2025, 11:02:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'menulog.com.au'... -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ⚠️ No subdomains found for menulog.com.au in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for menulog.com.au after 1/2 attempts. -> 19/11/2025, 11:02:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skippayments.com'... -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ⚠️ No subdomains found for skippayments.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skippayments.com after 1/2 attempts. -> 19/11/2025, 11:02:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skipthedishes.com'... -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ⚠️ No subdomains found for skipthedishes.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skipthedishes.com after 1/2 attempts. -> 19/11/2025, 11:02:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.es'... -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.es in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.es after 1/2 attempts. -> 19/11/2025, 11:02:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeat-int.com'... -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ⚠️ No subdomains found for justeat-int.com in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeat-int.com after 1/2 attempts. -> 19/11/2025, 11:02:32
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'thuisbezorgd.nl'... -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ⚠️ No subdomains found for thuisbezorgd.nl in Crt.sh (Attempt 1) -> 19/11/2025, 11:02:32
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for thuisbezorgd.nl after 1/2 attempts. -> 19/11/2025, 11:02:32
+[Asset-Watcher] ✅ Finished crt.sh -> 19/11/2025, 11:02:32
+[Asset-Watcher] ℹ️ Starting findomain -> 19/11/2025, 11:02:33
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.com'... -> 19/11/2025, 11:02:34
+  ℹ️ 92 subs found for just-eat.com -> 19/11/2025, 11:02:49
+[Asset-Watcher] ℹ️ Starting Findomain for 'bistro.sk'... -> 19/11/2025, 11:02:49
+  ℹ️ 34 subs found for bistro.sk -> 19/11/2025, 11:03:06
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.ch'... -> 19/11/2025, 11:03:06
+  ℹ️ 20 subs found for just-eat.ch -> 19/11/2025, 11:03:19
+[Asset-Watcher] ℹ️ Starting Findomain for 'yourdelivery.de'... -> 19/11/2025, 11:03:19
+  ℹ️ 46 subs found for yourdelivery.de -> 19/11/2025, 11:03:38
+[Asset-Watcher] ℹ️ Starting Findomain for 'lieferando.de'... -> 19/11/2025, 11:03:38
+  ℹ️ 1739 subs found for lieferando.de -> 19/11/2025, 11:03:51
+[Asset-Watcher] ℹ️ Starting Findomain for 'takeaway.com'... -> 19/11/2025, 11:03:53
+  ℹ️ 160 subs found for takeaway.com -> 19/11/2025, 11:04:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'pyszne.pl'... -> 19/11/2025, 11:04:16
+  ℹ️ 431 subs found for pyszne.pl -> 19/11/2025, 11:04:32
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-data.io'... -> 19/11/2025, 11:04:33
+  ℹ️ 394 subs found for just-data.io -> 19/11/2025, 11:04:53
+[Asset-Watcher] ℹ️ Starting Findomain for '10bis.co.il'... -> 19/11/2025, 11:04:54
+  ℹ️ 65 subs found for 10bis.co.il -> 19/11/2025, 11:05:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.dk'... -> 19/11/2025, 11:05:15
+  ℹ️ 1222 subs found for just-eat.dk -> 19/11/2025, 11:05:35
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.io'... -> 19/11/2025, 11:05:37
+  ℹ️ 20 subs found for just-eat.io -> 19/11/2025, 11:05:58
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeattakeaway.com'... -> 19/11/2025, 11:05:58
+  ℹ️ 94 subs found for justeattakeaway.com -> 19/11/2025, 11:06:17
+[Asset-Watcher] ℹ️ Starting Findomain for 'jet-external.com'... -> 19/11/2025, 11:06:18
+  ℹ️ 217 subs found for jet-external.com -> 19/11/2025, 11:06:33
+[Asset-Watcher] ℹ️ Starting Findomain for 'scoober.com'... -> 19/11/2025, 11:06:33
+  ℹ️ 126 subs found for scoober.com -> 19/11/2025, 11:06:46
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.co.uk'... -> 19/11/2025, 11:06:46
+  ℹ️ 134 subs found for just-eat.co.uk -> 19/11/2025, 11:06:59
+[Asset-Watcher] ℹ️ Starting Findomain for 'menulog.com.au'... -> 19/11/2025, 11:07:00
+  ℹ️ 80 subs found for menulog.com.au -> 19/11/2025, 11:07:23
+[Asset-Watcher] ℹ️ Starting Findomain for 'skippayments.com'... -> 19/11/2025, 11:07:23
+  ℹ️ 10 subs found for skippayments.com -> 19/11/2025, 11:07:41
+[Asset-Watcher] ℹ️ Starting Findomain for 'skipthedishes.com'... -> 19/11/2025, 11:07:41
+  ℹ️ 434 subs found for skipthedishes.com -> 19/11/2025, 11:07:56
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.es'... -> 19/11/2025, 11:07:56
+  ℹ️ 83 subs found for just-eat.es -> 19/11/2025, 11:08:13
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeat-int.com'... -> 19/11/2025, 11:08:13
+  ℹ️ 13 subs found for justeat-int.com -> 19/11/2025, 11:08:27
+[Asset-Watcher] ℹ️ Starting Findomain for 'thuisbezorgd.nl'... -> 19/11/2025, 11:08:27
+  ℹ️ 309 subs found for thuisbezorgd.nl -> 19/11/2025, 11:08:36
+[Asset-Watcher] ✅ Finished findomain -> 19/11/2025, 11:08:36
+[Asset-Watcher] ℹ️ Starting user subdomains -> 19/11/2025, 11:08:37
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 19/11/2025, 11:08:38
+[Asset-Watcher] ❌ Process User Subdomains error: duplicate key value violates unique constraint "asset_monitor_discoversubdomain_subdomain_key"
+DETAIL:  Key (subdomain)=(emails.corporate.justeattakeaway.com) already exists. -> 19/11/2025, 11:08:50
+[Asset-Watcher] ✅ Finished user subdomains -> 19/11/2025, 11:08:50
+[Asset-Watcher] ℹ️ Starting httpx -> 19/11/2025, 11:08:51
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'yourdelivery.de - nexovir'... -> 19/11/2025, 11:08:52
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:08:57
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'scoober.com - nexovir'... -> 19/11/2025, 11:08:57
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:10:04
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lieferando.de - nexovir'... -> 19/11/2025, 11:10:05
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:33:59
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.co.uk - nexovir'... -> 19/11/2025, 11:34:00
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:34:23
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'takeaway.com - nexovir'... -> 19/11/2025, 11:34:26
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:54:44
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.dk - nexovir'... -> 19/11/2025, 11:54:45
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:55:19
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.es - nexovir'... -> 19/11/2025, 11:55:19
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:55:34
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.com - nexovir'... -> 19/11/2025, 11:55:42
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:56:30
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.io - nexovir'... -> 19/11/2025, 11:56:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 11:56:41
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeat-int.com - nexovir'... -> 19/11/2025, 11:56:41
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 12:00:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'bistro.sk - nexovir'... -> 19/11/2025, 12:00:38
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 12:01:43
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'menulog.com.au - nexovir'... -> 19/11/2025, 12:01:43
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 12:02:01
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pyszne.pl - nexovir'... -> 19/11/2025, 12:02:07
+[Asset-Watcher] ❌ HTTPx failed: Command '['httpx', '-l', 'asset_monitor/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '10', '-timeout', '4']' returned non-zero exit status 1. -> 19/11/2025, 12:37:39
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeattakeaway.com - nexovir'... -> 19/11/2025, 12:37:39
+[Asset-Watcher] ℹ️ Starting subfinder -> 19/11/2025, 12:37:48
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-data.io'... -> 19/11/2025, 12:37:49
+[Asset-Watcher] ℹ️ Starting subfinder -> 19/11/2025, 12:38:23
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.ch'... -> 19/11/2025, 12:38:24
+  ℹ️ 16 subs found for just-eat.ch -> 19/11/2025, 12:39:25
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.io'... -> 19/11/2025, 12:39:25
+  ℹ️ 16 subs found for just-eat.io -> 19/11/2025, 12:40:26
+[Asset-Watcher] ℹ️ Starting Subfinder for 'scoober.com'... -> 19/11/2025, 12:40:26
+  ℹ️ 66 subs found for scoober.com -> 19/11/2025, 12:41:31
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-data.io'... -> 19/11/2025, 12:41:31
+  ℹ️ 194 subs found for just-data.io -> 19/11/2025, 12:42:31
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.es'... -> 19/11/2025, 12:42:32
+  ℹ️ 1104 subs found for just-eat.es -> 19/11/2025, 12:43:33
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lieferando.de'... -> 19/11/2025, 12:43:38
+  ℹ️ 1630 subs found for lieferando.de -> 19/11/2025, 12:44:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pyszne.pl'... -> 19/11/2025, 12:44:45
+  ℹ️ 3511 subs found for pyszne.pl -> 19/11/2025, 12:45:47
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skippayments.com'... -> 19/11/2025, 12:45:52
+  ℹ️ 8 subs found for skippayments.com -> 19/11/2025, 12:46:53
+[Asset-Watcher] ℹ️ Starting Subfinder for 'menulog.com.au'... -> 19/11/2025, 12:46:53
+  ℹ️ 273 subs found for menulog.com.au -> 19/11/2025, 12:47:54
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.co.uk'... -> 19/11/2025, 12:47:54
+  ℹ️ 240 subs found for just-eat.co.uk -> 19/11/2025, 12:49:01
+[Asset-Watcher] ℹ️ Starting Subfinder for 'jet-external.com'... -> 19/11/2025, 12:49:01
+  ℹ️ 431 subs found for jet-external.com -> 19/11/2025, 12:50:04
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeat-int.com'... -> 19/11/2025, 12:50:05
+  ℹ️ 77 subs found for justeat-int.com -> 19/11/2025, 12:51:07
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.com'... -> 19/11/2025, 12:51:07
+  ℹ️ 352 subs found for just-eat.com -> 19/11/2025, 12:52:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'bistro.sk'... -> 19/11/2025, 12:52:11
+  ℹ️ 26 subs found for bistro.sk -> 19/11/2025, 12:53:12
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skipthedishes.com'... -> 19/11/2025, 12:53:16
+  ℹ️ 305 subs found for skipthedishes.com -> 19/11/2025, 12:54:20
+[Asset-Watcher] ℹ️ Starting Subfinder for '10bis.co.il'... -> 19/11/2025, 12:54:21
+  ℹ️ 31 subs found for 10bis.co.il -> 19/11/2025, 12:55:25
+[Asset-Watcher] ℹ️ Starting Subfinder for 'yourdelivery.de'... -> 19/11/2025, 12:55:25
+  ℹ️ 0 subs found for yourdelivery.de -> 19/11/2025, 12:56:26
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.dk'... -> 19/11/2025, 12:56:26
+  ℹ️ 24 subs found for just-eat.dk -> 19/11/2025, 12:57:31
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeattakeaway.com'... -> 19/11/2025, 12:57:31
+  ℹ️ 84 subs found for justeattakeaway.com -> 19/11/2025, 12:58:36
+[Asset-Watcher] ℹ️ Starting Subfinder for 'takeaway.com'... -> 19/11/2025, 12:58:36
+  ℹ️ 848 subs found for takeaway.com -> 19/11/2025, 12:59:55
+[Asset-Watcher] ℹ️ Starting Subfinder for 'thuisbezorgd.nl'... -> 19/11/2025, 12:59:56
+  ℹ️ 277 subs found for thuisbezorgd.nl -> 19/11/2025, 13:01:01
+[Asset-Watcher] ✅ Finished subfinder -> 19/11/2025, 13:01:01
+[Asset-Watcher] ℹ️ Starting crt.sh -> 19/11/2025, 13:01:02
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.ch'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.ch in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.ch after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.io'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.io in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.io after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'scoober.com'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for scoober.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for scoober.com after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-data.io'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for just-data.io in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-data.io after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.es'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.es in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.es after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lieferando.de'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for lieferando.de in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lieferando.de after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pyszne.pl'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for pyszne.pl in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pyszne.pl after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skippayments.com'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for skippayments.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skippayments.com after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'menulog.com.au'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for menulog.com.au in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for menulog.com.au after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.co.uk'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.co.uk in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.co.uk after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'jet-external.com'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for jet-external.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for jet-external.com after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeat-int.com'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for justeat-int.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeat-int.com after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.com'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.com after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'bistro.sk'... -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ⚠️ No subdomains found for bistro.sk in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:03
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for bistro.sk after 1/2 attempts. -> 19/11/2025, 13:01:03
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skipthedishes.com'... -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ⚠️ No subdomains found for skipthedishes.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skipthedishes.com after 1/2 attempts. -> 19/11/2025, 13:01:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '10bis.co.il'... -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ⚠️ No subdomains found for 10bis.co.il in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 10bis.co.il after 1/2 attempts. -> 19/11/2025, 13:01:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'yourdelivery.de'... -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ⚠️ No subdomains found for yourdelivery.de in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for yourdelivery.de after 1/2 attempts. -> 19/11/2025, 13:01:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.dk'... -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.dk in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.dk after 1/2 attempts. -> 19/11/2025, 13:01:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeattakeaway.com'... -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ⚠️ No subdomains found for justeattakeaway.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeattakeaway.com after 1/2 attempts. -> 19/11/2025, 13:01:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'takeaway.com'... -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ⚠️ No subdomains found for takeaway.com in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for takeaway.com after 1/2 attempts. -> 19/11/2025, 13:01:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'thuisbezorgd.nl'... -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ⚠️ No subdomains found for thuisbezorgd.nl in Crt.sh (Attempt 1) -> 19/11/2025, 13:01:04
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for thuisbezorgd.nl after 1/2 attempts. -> 19/11/2025, 13:01:04
+[Asset-Watcher] ✅ Finished crt.sh -> 19/11/2025, 13:01:04
+[Asset-Watcher] ℹ️ Starting findomain -> 19/11/2025, 13:01:05
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.ch'... -> 19/11/2025, 13:01:06
+  ℹ️ 20 subs found for just-eat.ch -> 19/11/2025, 13:01:07
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.io'... -> 19/11/2025, 13:01:07
+  ℹ️ 20 subs found for just-eat.io -> 19/11/2025, 13:01:16
+[Asset-Watcher] ℹ️ Starting Findomain for 'scoober.com'... -> 19/11/2025, 13:01:16
+  ℹ️ 126 subs found for scoober.com -> 19/11/2025, 13:01:18
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-data.io'... -> 19/11/2025, 13:01:18
+  ℹ️ 321 subs found for just-data.io -> 19/11/2025, 13:01:30
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.es'... -> 19/11/2025, 13:01:30
+  ℹ️ 86 subs found for just-eat.es -> 19/11/2025, 13:01:34
+[Asset-Watcher] ℹ️ Starting Findomain for 'lieferando.de'... -> 19/11/2025, 13:01:34
+  ℹ️ 1739 subs found for lieferando.de -> 19/11/2025, 13:01:38
+[Asset-Watcher] ℹ️ Starting Findomain for 'pyszne.pl'... -> 19/11/2025, 13:01:40
+  ℹ️ 432 subs found for pyszne.pl -> 19/11/2025, 13:01:56
+[Asset-Watcher] ℹ️ Starting Findomain for 'skippayments.com'... -> 19/11/2025, 13:01:57
+  ℹ️ 11 subs found for skippayments.com -> 19/11/2025, 13:02:00
+[Asset-Watcher] ℹ️ Starting Findomain for 'menulog.com.au'... -> 19/11/2025, 13:02:00
+  ℹ️ 82 subs found for menulog.com.au -> 19/11/2025, 13:02:33
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.co.uk'... -> 19/11/2025, 13:02:33
+  ℹ️ 135 subs found for just-eat.co.uk -> 19/11/2025, 13:02:40
+[Asset-Watcher] ℹ️ Starting Findomain for 'jet-external.com'... -> 19/11/2025, 13:02:40
+  ℹ️ 1 subs found for jet-external.com -> 19/11/2025, 13:02:55
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeat-int.com'... -> 19/11/2025, 13:02:55
+  ℹ️ 11 subs found for justeat-int.com -> 19/11/2025, 13:02:59
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.com'... -> 19/11/2025, 13:02:59
+  ℹ️ 91 subs found for just-eat.com -> 19/11/2025, 13:03:32
+[Asset-Watcher] ℹ️ Starting Findomain for 'bistro.sk'... -> 19/11/2025, 13:03:32
+  ℹ️ 20 subs found for bistro.sk -> 19/11/2025, 13:03:35
+[Asset-Watcher] ℹ️ Starting Findomain for 'skipthedishes.com'... -> 19/11/2025, 13:03:35
+  ℹ️ 434 subs found for skipthedishes.com -> 19/11/2025, 13:03:40
+[Asset-Watcher] ℹ️ Starting Findomain for '10bis.co.il'... -> 19/11/2025, 13:03:40
+  ℹ️ 55 subs found for 10bis.co.il -> 19/11/2025, 13:03:48
+[Asset-Watcher] ℹ️ Starting Findomain for 'yourdelivery.de'... -> 19/11/2025, 13:03:49
+  ℹ️ 47 subs found for yourdelivery.de -> 19/11/2025, 13:03:58
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.dk'... -> 19/11/2025, 13:03:58
+  ℹ️ 1221 subs found for just-eat.dk -> 19/11/2025, 13:04:00
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeattakeaway.com'... -> 19/11/2025, 13:04:02
+  ℹ️ 87 subs found for justeattakeaway.com -> 19/11/2025, 13:04:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'takeaway.com'... -> 19/11/2025, 13:04:15
+  ℹ️ 221 subs found for takeaway.com -> 19/11/2025, 13:04:35
+[Asset-Watcher] ℹ️ Starting Findomain for 'thuisbezorgd.nl'... -> 19/11/2025, 13:04:36
+  ℹ️ 309 subs found for thuisbezorgd.nl -> 19/11/2025, 13:04:39
+[Asset-Watcher] ✅ Finished findomain -> 19/11/2025, 13:04:39
+[Asset-Watcher] ℹ️ Starting user subdomains -> 19/11/2025, 13:04:40
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 19/11/2025, 13:04:41
+[Asset-Watcher] ❌ Process User Subdomains error: duplicate key value violates unique constraint "asset_monitor_discoversubdomain_subdomain_key"
+DETAIL:  Key (subdomain)=(emails.corporate.justeattakeaway.com) already exists. -> 19/11/2025, 13:05:02
+[Asset-Watcher] ✅ Finished user subdomains -> 19/11/2025, 13:05:02
+[Asset-Watcher] ℹ️ Starting httpx -> 19/11/2025, 13:05:03
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pyszne.pl - nexovir'... -> 19/11/2025, 13:05:04
+[Asset-Watcher] ❌ HTTPx failed: Command '['httpx', '-l', 'asset_monitor/outputs/subdomains_httpx.txt', '-title', '-status-code', '-hash', 'md5', '-tech-detect', '-server', '-websocket', '-ip', '-cdn', '-cname', '-content-type', '-no-color', '-json', '-silent', '-threads', '10', '-timeout', '4']' returned non-zero exit status 1. -> 19/11/2025, 14:14:44
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'yourdelivery.de - nexovir'... -> 19/11/2025, 14:14:44
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:14:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'skippayments.com - nexovir'... -> 19/11/2025, 14:14:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:14:56
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.dk - nexovir'... -> 19/11/2025, 14:14:56
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:15:30
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'menulog.com.au - nexovir'... -> 19/11/2025, 14:15:30
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:18:27
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeattakeaway.com - nexovir'... -> 19/11/2025, 14:18:33
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:19:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.co.uk - nexovir'... -> 19/11/2025, 14:19:47
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:21:26
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.ch - nexovir'... -> 19/11/2025, 14:21:29
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:21:40
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'takeaway.com - nexovir'... -> 19/11/2025, 14:22:02
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:42:49
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'jet-external.com - nexovir'... -> 19/11/2025, 14:42:50
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:50:35
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.io - nexovir'... -> 19/11/2025, 14:50:53
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 14:50:57
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'thuisbezorgd.nl - nexovir'... -> 19/11/2025, 14:50:57
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:05:42
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeat-int.com - nexovir'... -> 19/11/2025, 15:05:43
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:09:39
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'scoober.com - nexovir'... -> 19/11/2025, 15:09:40
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:10:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'skipthedishes.com - nexovir'... -> 19/11/2025, 15:10:47
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:13:32
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lieferando.de - nexovir'... -> 19/11/2025, 15:13:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:37:41
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.com - nexovir'... -> 19/11/2025, 15:37:41
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:38:31
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-data.io - nexovir'... -> 19/11/2025, 15:38:38
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:42:12
+  [Asset-Watcher] ℹ️ Starting HTTPx on '10bis.co.il - nexovir'... -> 19/11/2025, 15:42:12
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:42:35
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'bistro.sk - nexovir'... -> 19/11/2025, 15:42:35
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:43:37
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.es - nexovir'... -> 19/11/2025, 15:43:37
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 15:48:38
+[Asset-Watcher] ✅ Finished httpx -> 19/11/2025, 15:48:47
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 19/11/2025, 15:48:48
+[Asset-Watcher] ✅ Finished cidrs scanning -> 19/11/2025, 15:48:49
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 19/11/2025, 15:48:50
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 19/11/2025, 18:30:04
+[Asset-Watcher] ℹ️ Starting subfinder -> 19/11/2025, 18:30:04
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 19/11/2025, 18:30:05
+[Asset-Watcher] ℹ️ Starting Subfinder for 'thuisbezorgd.nl'... -> 19/11/2025, 18:30:05
+[Url-Watcher] ℹ️ Starting Katana for 'http://at-offermanagementweb.eu-central-1.qa.jet-external.com'... -> 19/11/2025, 18:30:06
+[Url-Watcher] ℹ️ Starting Waybackurls for 'http://at-offermanagementweb.eu-central-1.qa.jet-external.com'... -> 19/11/2025, 18:30:08
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 19/11/2025, 18:30:16
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 19/11/2025, 18:30:17
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 18:30:29
+       [Program-Watcher] ✅ Yeswehack Data Inserting Successfully -> 19/11/2025, 18:30:35
+[Program-Watcher] ℹ️ getting new programs from Bugcrowd  -> 19/11/2025, 18:30:36
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 18:30:47
+       [Program-Watcher] ✅ Bugcrowd Data Inserting Successfully -> 19/11/2025, 18:31:05
+[Program-Watcher] ℹ️ getting new programs from Federacy  -> 19/11/2025, 18:31:06
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 18:31:19
+       [Program-Watcher] ✅ Federacy Data Inserting Successfully -> 19/11/2025, 18:31:21
+[Program-Watcher] ℹ️ getting new programs from Intigriti  -> 19/11/2025, 18:31:22
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 18:31:35
+       [Program-Watcher] ✅ Intigriti Data Inserting Successfully -> 19/11/2025, 18:31:43
+[Program-Watcher] ℹ️ getting new programs from Hackerone  -> 19/11/2025, 18:31:44
+[Program-Watcher] ℹ️ Connection OK -> 19/11/2025, 18:31:57
+       [Program-Watcher] ✅ Hackerone Data Inserting Successfully -> 19/11/2025, 18:36:18
+[Program-Watcher] ✅ Program Monitoring Successfully Done -> 19/11/2025, 18:36:19
+[Asset-Watcher] ℹ️ Starting subfinder -> 19/11/2025, 18:36:20
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.dk'... -> 19/11/2025, 18:36:21
+  ℹ️ 22 subs found for just-eat.dk -> 19/11/2025, 18:36:52
+[Asset-Watcher] ℹ️ Starting Subfinder for 'bistro.sk'... -> 19/11/2025, 18:36:52
+  ℹ️ 20 subs found for bistro.sk -> 19/11/2025, 18:37:56
+[Asset-Watcher] ℹ️ Starting Subfinder for 'jet-external.com'... -> 19/11/2025, 18:37:57
+  ℹ️ 178 subs found for jet-external.com -> 19/11/2025, 18:38:22
+[Asset-Watcher] ℹ️ Starting Subfinder for 'yourdelivery.de'... -> 19/11/2025, 18:38:23
+  ℹ️ 0 subs found for yourdelivery.de -> 19/11/2025, 18:38:40
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.ch'... -> 19/11/2025, 18:38:40
+  ℹ️ 15 subs found for just-eat.ch -> 19/11/2025, 18:39:42
+[Asset-Watcher] ℹ️ Starting Subfinder for '10bis.co.il'... -> 19/11/2025, 18:39:42
+  ℹ️ 36 subs found for 10bis.co.il -> 19/11/2025, 18:40:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.es'... -> 19/11/2025, 18:40:39
+  ℹ️ 199 subs found for just-eat.es -> 19/11/2025, 18:41:44
+[Asset-Watcher] ℹ️ Starting Subfinder for 'lieferando.de'... -> 19/11/2025, 18:41:44
+  ℹ️ 1551 subs found for lieferando.de -> 19/11/2025, 18:42:51
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-data.io'... -> 19/11/2025, 18:42:53
+  ℹ️ 173 subs found for just-data.io -> 19/11/2025, 18:43:58
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.com'... -> 19/11/2025, 18:43:58
+  ℹ️ 324 subs found for just-eat.com -> 19/11/2025, 18:45:03
+[Asset-Watcher] ℹ️ Starting Subfinder for 'scoober.com'... -> 19/11/2025, 18:45:03
+  ℹ️ 82 subs found for scoober.com -> 19/11/2025, 18:46:06
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeat-int.com'... -> 19/11/2025, 18:46:06
+  ℹ️ 69 subs found for justeat-int.com -> 19/11/2025, 18:47:10
+[Asset-Watcher] ℹ️ Starting Subfinder for 'takeaway.com'... -> 19/11/2025, 18:47:10
+  ℹ️ 999 subs found for takeaway.com -> 19/11/2025, 18:48:17
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skippayments.com'... -> 19/11/2025, 18:48:19
+  ℹ️ 8 subs found for skippayments.com -> 19/11/2025, 18:49:20
+[Asset-Watcher] ℹ️ Starting Subfinder for 'menulog.com.au'... -> 19/11/2025, 18:49:20
+  ℹ️ 233 subs found for menulog.com.au -> 19/11/2025, 18:50:32
+[Asset-Watcher] ℹ️ Starting Subfinder for 'pyszne.pl'... -> 19/11/2025, 18:50:33
+  ℹ️ 1210 subs found for pyszne.pl -> 19/11/2025, 18:51:39
+[Asset-Watcher] ℹ️ Starting Subfinder for 'thuisbezorgd.nl'... -> 19/11/2025, 18:51:42
+  ℹ️ 288 subs found for thuisbezorgd.nl -> 19/11/2025, 18:52:46
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.io'... -> 19/11/2025, 18:52:47
+  ℹ️ 14 subs found for just-eat.io -> 19/11/2025, 18:53:49
+[Asset-Watcher] ℹ️ Starting Subfinder for 'justeattakeaway.com'... -> 19/11/2025, 18:53:49
+  ℹ️ 85 subs found for justeattakeaway.com -> 19/11/2025, 18:54:53
+[Asset-Watcher] ℹ️ Starting Subfinder for 'just-eat.co.uk'... -> 19/11/2025, 18:54:54
+  ℹ️ 249 subs found for just-eat.co.uk -> 19/11/2025, 18:55:58
+[Asset-Watcher] ℹ️ Starting Subfinder for 'skipthedishes.com'... -> 19/11/2025, 18:55:58
+  ℹ️ 276 subs found for skipthedishes.com -> 19/11/2025, 18:57:03
+[Asset-Watcher] ✅ Finished subfinder -> 19/11/2025, 18:57:03
+[Asset-Watcher] ℹ️ Starting crt.sh -> 19/11/2025, 18:57:04
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.dk'... -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.dk in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.dk after 1/2 attempts. -> 19/11/2025, 18:57:05
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'bistro.sk'... -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ⚠️ No subdomains found for bistro.sk in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for bistro.sk after 1/2 attempts. -> 19/11/2025, 18:57:05
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'jet-external.com'... -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ⚠️ No subdomains found for jet-external.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for jet-external.com after 1/2 attempts. -> 19/11/2025, 18:57:05
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'yourdelivery.de'... -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ⚠️ No subdomains found for yourdelivery.de in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for yourdelivery.de after 1/2 attempts. -> 19/11/2025, 18:57:05
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.ch'... -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.ch in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.ch after 1/2 attempts. -> 19/11/2025, 18:57:05
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for '10bis.co.il'... -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ⚠️ No subdomains found for 10bis.co.il in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:05
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for 10bis.co.il after 1/2 attempts. -> 19/11/2025, 18:57:05
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.es'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.es in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.es after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'lieferando.de'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for lieferando.de in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for lieferando.de after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-data.io'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for just-data.io in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-data.io after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.com'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.com after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'scoober.com'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for scoober.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for scoober.com after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeat-int.com'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for justeat-int.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeat-int.com after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'takeaway.com'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for takeaway.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for takeaway.com after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skippayments.com'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for skippayments.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skippayments.com after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'menulog.com.au'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for menulog.com.au in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for menulog.com.au after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'pyszne.pl'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for pyszne.pl in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for pyszne.pl after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'thuisbezorgd.nl'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for thuisbezorgd.nl in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for thuisbezorgd.nl after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.io'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.io in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.io after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'justeattakeaway.com'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for justeattakeaway.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for justeattakeaway.com after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'just-eat.co.uk'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for just-eat.co.uk in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for just-eat.co.uk after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Attempt 1: Starting CRT.sh for 'skipthedishes.com'... -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ⚠️ No subdomains found for skipthedishes.com in Crt.sh (Attempt 1) -> 19/11/2025, 18:57:06
+  [Asset-Watcher] ❌ Failed to get subdomains from Crt.sh for skipthedishes.com after 1/2 attempts. -> 19/11/2025, 18:57:06
+[Asset-Watcher] ✅ Finished crt.sh -> 19/11/2025, 18:57:06
+[Asset-Watcher] ℹ️ Starting findomain -> 19/11/2025, 18:57:07
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.dk'... -> 19/11/2025, 18:57:08
+  ℹ️ 1222 subs found for just-eat.dk -> 19/11/2025, 18:57:10
+[Asset-Watcher] ℹ️ Starting Findomain for 'bistro.sk'... -> 19/11/2025, 18:57:12
+  ℹ️ 34 subs found for bistro.sk -> 19/11/2025, 18:57:15
+[Asset-Watcher] ℹ️ Starting Findomain for 'jet-external.com'... -> 19/11/2025, 18:57:15
+  ℹ️ 262 subs found for jet-external.com -> 19/11/2025, 18:57:17
+[Asset-Watcher] ℹ️ Starting Findomain for 'yourdelivery.de'... -> 19/11/2025, 18:57:18
+  ℹ️ 46 subs found for yourdelivery.de -> 19/11/2025, 18:57:21
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.ch'... -> 19/11/2025, 18:57:22
+  ℹ️ 20 subs found for just-eat.ch -> 19/11/2025, 18:57:27
+[Asset-Watcher] ℹ️ Starting Findomain for '10bis.co.il'... -> 19/11/2025, 18:57:27
+  ℹ️ 65 subs found for 10bis.co.il -> 19/11/2025, 18:57:33
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.es'... -> 19/11/2025, 18:57:33
+  ℹ️ 86 subs found for just-eat.es -> 19/11/2025, 18:57:36
+[Asset-Watcher] ℹ️ Starting Findomain for 'lieferando.de'... -> 19/11/2025, 18:57:37
+  ℹ️ 1739 subs found for lieferando.de -> 19/11/2025, 18:57:46
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-data.io'... -> 19/11/2025, 18:57:48
+  ℹ️ 393 subs found for just-data.io -> 19/11/2025, 18:57:56
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.com'... -> 19/11/2025, 18:57:56
+  ℹ️ 92 subs found for just-eat.com -> 19/11/2025, 18:58:04
+[Asset-Watcher] ℹ️ Starting Findomain for 'scoober.com'... -> 19/11/2025, 18:58:04
+  ℹ️ 126 subs found for scoober.com -> 19/11/2025, 18:58:11
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeat-int.com'... -> 19/11/2025, 18:58:12
+  ℹ️ 13 subs found for justeat-int.com -> 19/11/2025, 18:58:16
+[Asset-Watcher] ℹ️ Starting Findomain for 'takeaway.com'... -> 19/11/2025, 18:58:16
+  ℹ️ 152 subs found for takeaway.com -> 19/11/2025, 18:58:25
+[Asset-Watcher] ℹ️ Starting Findomain for 'skippayments.com'... -> 19/11/2025, 18:58:25
+  ℹ️ 10 subs found for skippayments.com -> 19/11/2025, 18:58:30
+[Asset-Watcher] ℹ️ Starting Findomain for 'menulog.com.au'... -> 19/11/2025, 18:58:30
+  ℹ️ 80 subs found for menulog.com.au -> 19/11/2025, 18:58:34
+[Asset-Watcher] ℹ️ Starting Findomain for 'pyszne.pl'... -> 19/11/2025, 18:58:35
+  ℹ️ 428 subs found for pyszne.pl -> 19/11/2025, 18:58:38
+[Asset-Watcher] ℹ️ Starting Findomain for 'thuisbezorgd.nl'... -> 19/11/2025, 18:58:38
+  ℹ️ 309 subs found for thuisbezorgd.nl -> 19/11/2025, 18:58:42
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.io'... -> 19/11/2025, 18:58:42
+  ℹ️ 19 subs found for just-eat.io -> 19/11/2025, 18:58:45
+[Asset-Watcher] ℹ️ Starting Findomain for 'justeattakeaway.com'... -> 19/11/2025, 18:58:45
+  ℹ️ 96 subs found for justeattakeaway.com -> 19/11/2025, 18:58:59
+[Asset-Watcher] ℹ️ Starting Findomain for 'just-eat.co.uk'... -> 19/11/2025, 18:58:59
+  ℹ️ 134 subs found for just-eat.co.uk -> 19/11/2025, 18:59:04
+[Asset-Watcher] ℹ️ Starting Findomain for 'skipthedishes.com'... -> 19/11/2025, 18:59:04
+  ℹ️ 434 subs found for skipthedishes.com -> 19/11/2025, 18:59:08
+[Asset-Watcher] ✅ Finished findomain -> 19/11/2025, 18:59:09
+[Asset-Watcher] ℹ️ Starting user subdomains -> 19/11/2025, 18:59:10
+[Asset-Watcher] ℹ️ Starting Insert user's subdomains -> 19/11/2025, 18:59:11
+[Asset-Watcher] ❌ Process User Subdomains error: duplicate key value violates unique constraint "asset_monitor_discoversubdomain_subdomain_key"
+DETAIL:  Key (subdomain)=(emails.corporate.justeattakeaway.com) already exists. -> 19/11/2025, 18:59:13
+[Asset-Watcher] ✅ Finished user subdomains -> 19/11/2025, 18:59:13
+[Asset-Watcher] ℹ️ Starting httpx -> 19/11/2025, 18:59:14
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'jet-external.com - nexovir'... -> 19/11/2025, 18:59:15
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 19:06:02
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'takeaway.com - nexovir'... -> 19/11/2025, 19:06:04
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 19:26:23
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'yourdelivery.de - nexovir'... -> 19/11/2025, 19:26:24
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 19:26:26
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'skippayments.com - nexovir'... -> 19/11/2025, 19:26:26
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 19:26:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.ch - nexovir'... -> 19/11/2025, 19:26:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 19:26:46
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'menulog.com.au - nexovir'... -> 19/11/2025, 19:26:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 19:27:04
+  [Asset-Watcher] ℹ️ Starting HTTPx on '10bis.co.il - nexovir'... -> 19/11/2025, 19:27:10
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 19:27:36
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'pyszne.pl - nexovir'... -> 19/11/2025, 19:27:36
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 21:46:21
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.es - nexovir'... -> 19/11/2025, 21:46:21
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 21:46:38
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'thuisbezorgd.nl - nexovir'... -> 19/11/2025, 21:46:46
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:01:20
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'lieferando.de - nexovir'... -> 19/11/2025, 22:01:21
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:25:20
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.io - nexovir'... -> 19/11/2025, 22:25:20
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:25:28
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-data.io - nexovir'... -> 19/11/2025, 22:25:28
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:29:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeattakeaway.com - nexovir'... -> 19/11/2025, 22:29:08
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:30:08
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.dk - nexovir'... -> 19/11/2025, 22:30:08
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:30:43
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.com - nexovir'... -> 19/11/2025, 22:30:43
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:31:32
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'just-eat.co.uk - nexovir'... -> 19/11/2025, 22:31:39
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:32:00
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'bistro.sk - nexovir'... -> 19/11/2025, 22:32:03
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:33:06
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'scoober.com - nexovir'... -> 19/11/2025, 22:33:06
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:34:12
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'skipthedishes.com - nexovir'... -> 19/11/2025, 22:34:13
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:41:00
+  [Asset-Watcher] ℹ️ Starting HTTPx on 'justeat-int.com - nexovir'... -> 19/11/2025, 22:42:07
+  [Asset-Watcher] ℹ️ Starting Parsing Data ... -> 19/11/2025, 22:46:03
+[Asset-Watcher] ✅ Finished httpx -> 19/11/2025, 22:46:03
+[Asset-Watcher] ℹ️ Starting cidrs scanning -> 19/11/2025, 22:46:04
+[Asset-Watcher] ✅ Finished cidrs scanning -> 19/11/2025, 22:46:05
+[Asset-Watcher] ✅ Asset Monitoring Successfully Done -> 19/11/2025, 22:46:06
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 19/11/2025, 22:46:08
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 19/11/2025, 22:46:09
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 19/11/2025, 22:46:11
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 19/11/2025, 22:46:23
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 19/11/2025, 22:46:24
+[Url-Watcher] ⛔ FFUF timed out after 900s -> 19/11/2025, 23:05:15
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 19/11/2025, 23:32:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 19/11/2025, 23:33:03
+[Url-Watcher] ℹ️ Starting FFUF for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 19/11/2025, 23:33:07
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 00:20:46
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:20:47
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 00:20:59
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 00:21:00
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 00:21:01
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:21:02
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:21:13
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:21:17
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 00:31:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 00:31:22
+[Url-Watcher] ℹ️ Starting FFUF for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 00:31:41
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 00:37:44
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 00:37:44
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 00:37:45
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:37:46
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:38:00
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:38:10
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 00:57:21
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 00:57:21
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 00:57:22
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:57:23
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:57:35
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 00:57:36
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 09:44:21
+[Program-Watcher] ℹ️ getting new programs from Yeswehack  -> 20/11/2025, 09:44:22
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 09:44:42
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 09:44:43
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 09:44:44
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 09:44:45
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 09:44:59
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 09:45:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 09:47:31
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 09:47:55
+[Url-Watcher] ℹ️ Starting FFUF for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 09:47:57
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 09:54:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 09:54:21
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 09:54:22
+[WatchTower] ✅ One-time cycle executed. (No auto-reschedule) -> 20/11/2025, 10:19:06
+[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️ -> 20/11/2025, 10:19:06
+[Url-Watcher] ℹ️ Starting Url Discovery Assets (label : new) -> 20/11/2025, 10:19:07
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 10:19:08
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 10:19:28
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.production.jet-external.com'... -> 20/11/2025, 10:19:29
+[Url-Watcher] ℹ️ Starting Katana for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 10:19:49
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 10:20:05
+[Url-Watcher] ℹ️ Starting FFUF for 'https://api-wte.eu-west-1.production.jet-external.com'... -> 20/11/2025, 10:20:06
+[Url-Watcher] ℹ️ Starting Katana for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 10:26:44
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 10:26:59
+[Url-Watcher] ℹ️ Starting FFUF for 'https://analytics.eu-west-1.staging.jet-external.com'... -> 20/11/2025, 10:27:00
+[Url-Watcher] ℹ️ Starting Katana for 'https://auth.eu-central-1.production.jet-external.com'... -> 20/11/2025, 10:27:58
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://auth.eu-central-1.production.jet-external.com'... -> 20/11/2025, 10:28:13
+[Url-Watcher] ℹ️ Starting FFUF for 'https://auth.eu-central-1.production.jet-external.com'... -> 20/11/2025, 10:28:14
+[Url-Watcher] ℹ️ Starting Katana for 'https://image.connect.takeaway.com'... -> 20/11/2025, 10:29:07
+[Url-Watcher] ℹ️ Starting Waybackurls for 'https://image.connect.takeaway.com'... -> 20/11/2025, 10:29:23
+[Url-Watcher] ℹ️ Starting FFUF for 'https://image.connect.takeaway.com'... -> 20/11/2025, 10:29:24
+[Urls-Watcher] ✅ URLs Discovery Successfully Done -> 20/11/2025, 10:33:22
+[Urls-Watcher] ℹ️ Starting Discover Parameters on Assets (label: new) -> 20/11/2025, 10:33:23
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'analytics.production.jet-external.com - 530'... -> 20/11/2025, 10:33:23
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'api-wte.eu-west-1.production.jet-external.com - 403'... -> 20/11/2025, 10:38:48
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'analytics.eu-west-1.staging.jet-external.com - 403'... -> 20/11/2025, 10:38:53
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'auth.eu-central-1.production.jet-external.com - 404'... -> 20/11/2025, 10:38:54
+[Url-Watcher] ℹ️ Starting Parameter Discovery for 'image.connect.takeaway.com - 403'... -> 20/11/2025, 10:38:54
+[Urls-Watcher] ✅ Parameter Discovery Successfully Done -> 20/11/2025, 10:38:55
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on URLs (label: new) -> 20/11/2025, 10:38:55
+[Urls-Watcher] ℹ️ Starting Fuzz Parameters on analytics.production.jet-external.com - 530 URLs -> 20/11/2025, 10:38:56
