@@ -27,6 +27,7 @@ def run_fallparams(input : str , headers : list) -> list:
         command = [
             "fallparams",
             "-u", input,
+            "-X" , "POST",
             "-X", "GET",
             "-silent",
             "-duc",
@@ -214,8 +215,7 @@ def run_ffuf(subdomain_obj, subdomain: str, isNewUrl , insert_url_func,  timeout
             "-H","User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0",
             "-ac",
             "-of", "json",
-            "-mc", "all",
-            "-fc" , "403",
+            "-mc", "200-299,301,302,307,401,403,404,405,500", # filter 403
             "-o", output_path,
             "-recursion",
             "-recursion-depth", "5",
@@ -631,7 +631,8 @@ def fuzz_parameters_on_urls(self , label):
             ),
         )
         for url in urls:
-            run_x8(url, url.url, f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", headers)
+            if url.status != "403":
+                run_x8(url, url.url, f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", headers)
 
     sendmessage(f"[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done" , colour="CYAN", telegram=True)
 
@@ -671,15 +672,15 @@ def url_monitor(self):
     sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️" , telegram=True)
 
     workflow = chain(
-        discover_urls_task.s('new'),
-        discover_parameter_task.si('new'),
-        fuzz_parameters_on_urls_task.si('new'),
-        vulnerability_monitor_task.si('new'),
+        # discover_urls_task.s('new'),
+        # discover_parameter_task.si('new'),
+        # fuzz_parameters_on_urls_task.si('new'), # Recommand to do not use it !
+        # vulnerability_monitor_task.si('new'),
 
         discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
-        fuzz_parameters_on_urls_task.si('available'),
-        # vulnerability_monitor_task.si('available'),
+        fuzz_parameters_on_urls_task.si('available'), # Recommand to do not use it !
+        # vulnerability_monitor_task.si('available'), STUPID Work
         
         detect_urls_changes_task.si(),
         notify_done.si()
