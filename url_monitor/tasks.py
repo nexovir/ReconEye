@@ -215,10 +215,10 @@ def run_ffuf(subdomain_obj, subdomain: str, isNewUrl , insert_url_func,  timeout
             "-H","User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0",
             "-ac",
             "-of", "json",
-            "-mc", "200-299,301,302,307,401,403,404,405,500", # filter 403
+            "-mc", "200-299,301,302,307,401,404,405,500", # filter 403
             "-o", output_path,
             "-recursion",
-            "-recursion-depth", "5",
+            "-recursion-depth", "3",
             # "-t", "40",
             # "-p", "0.05-0.15",
             "-s"
@@ -638,30 +638,29 @@ def fuzz_parameters_on_urls(self , label):
             ),
         )
         for url in urls:
-            if url.status != "403":
-                run_x8(url, url.url, f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", headers)
+            run_x8(url, url.url, f"{WORDLIST_PATH}/raft-large-words-lowercase.txt", headers)
 
     sendmessage(f"[Urls-Watcher] ✅ Fuzzing Parameters on URLs Successfully Done" , colour="CYAN", telegram=True)
 
 
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*60, time_limit=60*60*61)
 def discover_urls_task(self, label):
     return discover_urls(self, label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*60, time_limit=60*60*61)
 def discover_parameter_task(self, label):
     return discover_parameter(self, label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*60, time_limit=60*60*61)
 def fuzz_parameters_on_urls_task(self, label):
     return fuzz_parameters_on_urls(self, label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*60, time_limit=60*60*61)
 def vulnerability_monitor_task(self, label):
     return vulnerability_monitor(label)
 
-@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*29, time_limit=60*60*30)
+@shared_task(bind=True, acks_late=True, soft_time_limit=60*60*60, time_limit=60*60*61)
 def detect_urls_changes_task(self):
     return detect_urls_changes(self)
 
