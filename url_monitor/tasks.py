@@ -392,6 +392,10 @@ def discover_urls(self, label):
                 subdomain.httpx_result,
                 on_line=lambda url, sub=subdomain: insert_url(sub, url , True, 'katana')
             )
+            run_waybackurls(
+               subdomain.httpx_result,
+               on_line=lambda url, sub=subdomain: insert_url(sub, url , False, 'waybackurls')
+            )
 
             run_ffuf(
                 subdomain, subdomain.httpx_result , True , insert_url , 900
@@ -672,14 +676,14 @@ def url_monitor(self):
     sendmessage("[Url-Watcher] ⚠️ Vulnerability Discovery Will be Started Please add Valid Headers ⚠️" , telegram=True)
 
     workflow = chain(
-        discover_urls_task.s('new'),
-        discover_parameter_task.si('new'),
-        fuzz_parameters_on_urls_task.si('new'), # Recommand to do not use it !
-        vulnerability_monitor_task.si('new'),
+        # discover_urls_task.s('new'),
+        # discover_parameter_task.si('new'),
+        # fuzz_parameters_on_urls_task.si('new'), # Recommand to do not use it !
+        # vulnerability_monitor_task.si('new'),
 
         discover_urls_task.si('available'),
         discover_parameter_task.si('available'),
-        fuzz_parameters_on_urls_task.si('available'), # Recommand to do not use it !
+        # fuzz_parameters_on_urls_task.si('available'), # Recommand to do not use it !
         # vulnerability_monitor_task.si('available'), STUPID Work
         
         detect_urls_changes_task.si(),
